@@ -1,0 +1,477 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>twitter_storm.storm &mdash; Storm Py Twitter  documentation</title>
+    
+    <link rel="stylesheet" href="../../_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <link rel="top" title="Storm Py Twitter  documentation" href="../../index.html" />
+    <link rel="up" title="Module code" href="../index.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="../../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li><a href="../../index.html">Storm Py Twitter  documentation</a> &raquo;</li>
+          <li><a href="../index.html" accesskey="U">Module code</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <h1>Source code for twitter_storm.storm</h1><div class="highlight"><pre>
+<span class="c"># -*- coding: utf-8 -*-</span>
+
+<span class="c"># Licensed to the Apache Software Foundation (ASF) under one</span>
+<span class="c"># or more contributor license agreements.  See the NOTICE file</span>
+<span class="c"># distributed with this work for additional information</span>
+<span class="c"># regarding copyright ownership.  The ASF licenses this file</span>
+<span class="c"># to you under the Apache License, Version 2.0 (the</span>
+<span class="c"># &quot;License&quot;); you may not use this file except in compliance</span>
+<span class="c"># with the License.  You may obtain a copy of the License at</span>
+<span class="c">#</span>
+<span class="c"># http://www.apache.org/licenses/LICENSE-2.0</span>
+<span class="c">#</span>
+<span class="c"># Unless required by applicable law or agreed to in writing, software</span>
+<span class="c"># distributed under the License is distributed on an &quot;AS IS&quot; BASIS,</span>
+<span class="c"># WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.</span>
+<span class="c"># See the License for the specific language governing permissions and</span>
+<span class="c"># limitations under the License.</span>
+
+<span class="sd">&#39;&#39;&#39;</span>
+<span class="sd">Implementation of Storm&#39;s multilang protocol that can be used to create Spout and Bolts in python. Communication with the parent process is performed using strings corresponding to JSON objects through stdin and stdout, and finishing messages with a &quot;end&quot; line. See readMsg() below for details.</span>
+<span class="sd">    - As a consequence no log message should be written to stdout, use stderr or a proper logging mechanism instead</span>
+<span class="sd">    - See https://github.com/nathanmarz/storm/wiki/Multilang-protocol for a description of Storm&#39;s multilang protocol. See the book &quot;Getting Started with Storm&quot; -&gt; Chapter 7. Using Non-JVM Languages with Storm for another example in php</span>
+
+<span class="sd">Author: Nathan Marz &lt;nathan@nathanmarz.com&gt;</span>
+<span class="sd">    This is a modification of the code from https://github.com/nathanmarz/storm/blob/master/storm-core/src/multilang/py/storm.py with some additional comments by Juan Rodriguez Hortala &lt;juan.rodriguez.hortala@gmail.com&gt;. Only comments were added, the functionality is the same. </span>
+
+<span class="sd">&#39;&#39;&#39;</span>
+
+<span class="kn">import</span> <span class="nn">sys</span>
+<span class="kn">import</span> <span class="nn">os</span>
+<span class="kn">import</span> <span class="nn">traceback</span>
+<span class="kn">from</span> <span class="nn">collections</span> <span class="kn">import</span> <span class="n">deque</span>
+
+<span class="k">try</span><span class="p">:</span>
+    <span class="kn">import</span> <span class="nn">simplejson</span> <span class="kn">as</span> <span class="nn">json</span>
+<span class="k">except</span> <span class="ne">ImportError</span><span class="p">:</span>
+    <span class="kn">import</span> <span class="nn">json</span>
+
+<span class="n">json_encode</span> <span class="o">=</span> <span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">json</span><span class="o">.</span><span class="n">dumps</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+<span class="n">json_decode</span> <span class="o">=</span> <span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">json</span><span class="o">.</span><span class="n">loads</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+
+<span class="c">#reads lines and reconstructs newlines appropriately</span>
+<div class="viewcode-block" id="readMsg"><a class="viewcode-back" href="../../twitter_storm.html#twitter_storm.storm.readMsg">[docs]</a><span class="k">def</span> <span class="nf">readMsg</span><span class="p">():</span>
+    <span class="sd">&#39;&#39;&#39;</span>
+<span class="sd">    Read messages sent by parent process. According to the multilang protocol messages end with a single line containing &quot;end&quot; and correspond to JSON objects</span>
+<span class="sd">    &#39;&#39;&#39;</span>
+    <span class="n">msg</span> <span class="o">=</span> <span class="s">&quot;&quot;</span>
+    <span class="k">while</span> <span class="bp">True</span><span class="p">:</span>
+        <span class="n">line</span> <span class="o">=</span> <span class="n">sys</span><span class="o">.</span><span class="n">stdin</span><span class="o">.</span><span class="n">readline</span><span class="p">()[</span><span class="mi">0</span><span class="p">:</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
+        <span class="k">if</span> <span class="n">line</span> <span class="o">==</span> <span class="s">&quot;end&quot;</span><span class="p">:</span>
+            <span class="k">break</span>
+        <span class="n">msg</span> <span class="o">=</span> <span class="n">msg</span> <span class="o">+</span> <span class="n">line</span> <span class="o">+</span> <span class="s">&quot;</span><span class="se">\n</span><span class="s">&quot;</span>
+    <span class="k">return</span> <span class="n">json_decode</span><span class="p">(</span><span class="n">msg</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="o">-</span><span class="mi">1</span><span class="p">])</span>
+</div>
+<span class="n">MODE</span> <span class="o">=</span> <span class="bp">None</span>
+<span class="n">ANCHOR_TUPLE</span> <span class="o">=</span> <span class="bp">None</span>
+
+<span class="c">#queue up commands we read while trying to read taskids</span>
+<span class="n">pending_commands</span> <span class="o">=</span> <span class="n">deque</span><span class="p">()</span>
+
+<div class="viewcode-block" id="readTaskIds"><a class="viewcode-back" href="../../twitter_storm.html#twitter_storm.storm.readTaskIds">[docs]</a><span class="k">def</span> <span class="nf">readTaskIds</span><span class="p">():</span>
+    <span class="k">if</span> <span class="n">pending_taskids</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">pending_taskids</span><span class="o">.</span><span class="n">popleft</span><span class="p">()</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">msg</span> <span class="o">=</span> <span class="n">readMsg</span><span class="p">()</span>
+        <span class="k">while</span> <span class="nb">type</span><span class="p">(</span><span class="n">msg</span><span class="p">)</span> <span class="ow">is</span> <span class="ow">not</span> <span class="nb">list</span><span class="p">:</span>
+            <span class="n">pending_commands</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">msg</span><span class="p">)</span>
+            <span class="n">msg</span> <span class="o">=</span> <span class="n">readMsg</span><span class="p">()</span>
+        <span class="k">return</span> <span class="n">msg</span>
+
+<span class="c">#queue up taskids we read while trying to read commands/tuples</span></div>
+<span class="n">pending_taskids</span> <span class="o">=</span> <span class="n">deque</span><span class="p">()</span>
+
+<div class="viewcode-block" id="readCommand"><a class="viewcode-back" href="../../twitter_storm.html#twitter_storm.storm.readCommand">[docs]</a><span class="k">def</span> <span class="nf">readCommand</span><span class="p">():</span>
+    <span class="k">if</span> <span class="n">pending_commands</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">pending_commands</span><span class="o">.</span><span class="n">popleft</span><span class="p">()</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">msg</span> <span class="o">=</span> <span class="n">readMsg</span><span class="p">()</span>
+        <span class="k">while</span> <span class="nb">type</span><span class="p">(</span><span class="n">msg</span><span class="p">)</span> <span class="ow">is</span> <span class="nb">list</span><span class="p">:</span>
+            <span class="n">pending_taskids</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">msg</span><span class="p">)</span>
+            <span class="n">msg</span> <span class="o">=</span> <span class="n">readMsg</span><span class="p">()</span>
+        <span class="k">return</span> <span class="n">msg</span>
+</div>
+<div class="viewcode-block" id="readTuple"><a class="viewcode-back" href="../../twitter_storm.html#twitter_storm.storm.readTuple">[docs]</a><span class="k">def</span> <span class="nf">readTuple</span><span class="p">():</span>
+    <span class="n">cmd</span> <span class="o">=</span> <span class="n">readCommand</span><span class="p">()</span>
+    <span class="k">return</span> <span class="n">Tuple</span><span class="p">(</span><span class="n">cmd</span><span class="p">[</span><span class="s">&quot;id&quot;</span><span class="p">],</span> <span class="n">cmd</span><span class="p">[</span><span class="s">&quot;comp&quot;</span><span class="p">],</span> <span class="n">cmd</span><span class="p">[</span><span class="s">&quot;stream&quot;</span><span class="p">],</span> <span class="n">cmd</span><span class="p">[</span><span class="s">&quot;task&quot;</span><span class="p">],</span> <span class="n">cmd</span><span class="p">[</span><span class="s">&quot;tuple&quot;</span><span class="p">])</span>
+</div>
+<div class="viewcode-block" id="sendMsgToParent"><a class="viewcode-back" href="../../twitter_storm.html#twitter_storm.storm.sendMsgToParent">[docs]</a><span class="k">def</span> <span class="nf">sendMsgToParent</span><span class="p">(</span><span class="n">msg</span><span class="p">):</span>
+    <span class="k">print</span> <span class="n">json_encode</span><span class="p">(</span><span class="n">msg</span><span class="p">)</span>
+    <span class="k">print</span> <span class="s">&quot;end&quot;</span>
+    <span class="n">sys</span><span class="o">.</span><span class="n">stdout</span><span class="o">.</span><span class="n">flush</span><span class="p">()</span>
+</div>
+<div class="viewcode-block" id="sync"><a class="viewcode-back" href="../../twitter_storm.html#twitter_storm.storm.sync">[docs]</a><span class="k">def</span> <span class="nf">sync</span><span class="p">():</span>
+    <span class="n">sendMsgToParent</span><span class="p">({</span><span class="s">&#39;command&#39;</span><span class="p">:</span><span class="s">&#39;sync&#39;</span><span class="p">})</span>
+</div>
+<div class="viewcode-block" id="sendpid"><a class="viewcode-back" href="../../twitter_storm.html#twitter_storm.storm.sendpid">[docs]</a><span class="k">def</span> <span class="nf">sendpid</span><span class="p">(</span><span class="n">heartbeatdir</span><span class="p">):</span>
+    <span class="sd">&#39;&#39;&#39;</span>
+<span class="sd">    Multilang-protocol handshake: </span>
+<span class="sd">        Send the PID of this python process to the parent process, and create an empty file at the path specified by heartbeatdir.</span>
+<span class="sd">    &#39;&#39;&#39;</span>
+    <span class="n">pid</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">getpid</span><span class="p">()</span>
+    <span class="n">sendMsgToParent</span><span class="p">({</span><span class="s">&#39;pid&#39;</span><span class="p">:</span><span class="n">pid</span><span class="p">})</span>
+    <span class="nb">open</span><span class="p">(</span><span class="n">heartbeatdir</span> <span class="o">+</span> <span class="s">&quot;/&quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">pid</span><span class="p">),</span> <span class="s">&quot;w&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+</div>
+<div class="viewcode-block" id="emit"><a class="viewcode-back" href="../../twitter_storm.html#twitter_storm.storm.emit">[docs]</a><span class="k">def</span> <span class="nf">emit</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+    <span class="sd">&#39;&#39;&#39;</span>
+<span class="sd">    Used to emulate the methods SpoutOutputCollector.emit() and OutputCollector.emit(). </span>
+<span class="sd">    Use in Spouts and Bolts to emit a tuple. </span>
+
+<span class="sd">    :param args: I have identified just a single argument:</span>
+<span class="sd">        - tup: list of values corresponding to the tuple to be emitted. The types of these values should be in sync with those declared in the method declareOutputFields() of the ShellSpout or ShellBolt that is wrapping the python code that calls this function, in the Java program defining the topology</span>
+<span class="sd">    :param kwargs: some relevant possible values:</span>
+<span class="sd">        - For Spouts:</span>
+<span class="sd">            * id: message id for the tuple to emit, for guarteed message processing</span>
+<span class="sd">        - For Bolts:</span>
+<span class="sd">            * anchors: optional, list of ids for anchor tuples to use for this emit</span>
+<span class="sd">        - For Spouts or Bolts:</span>
+<span class="sd">            * stream: optional, stream to use to emit this tuple. Default stream 1 is used if not declared</span>
+<span class="sd">    &#39;&#39;&#39;</span>
+    <span class="n">__emit</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">readTaskIds</span><span class="p">()</span>
+</div>
+<div class="viewcode-block" id="emitDirect"><a class="viewcode-back" href="../../twitter_storm.html#twitter_storm.storm.emitDirect">[docs]</a><span class="k">def</span> <span class="nf">emitDirect</span><span class="p">(</span><span class="n">task</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+    <span class="sd">&#39;&#39;&#39;</span>
+<span class="sd">    Used to emulate the methods SpoutOutputCollector.emitDirect() and OutputCollector.emitDirect(). </span>
+<span class="sd">    Use in Spouts and Bolts to emit a tupl  directly to the task id specified in a keyword argument directTask, which is required. </span>
+<span class="sd">    Appart from that it&#39;s equivalent to emit() above</span>
+<span class="sd">    &#39;&#39;&#39;</span>
+    <span class="n">kwargs</span><span class="p">[</span><span class="s">&quot;directTask&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">task</span>
+    <span class="n">__emit</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
+</div>
+<span class="k">def</span> <span class="nf">__emit</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+    <span class="sd">&#39;&#39;&#39;</span>
+<span class="sd">    Calls emitBolt or emitSpout according to the value of the global variable MODE, that is set accordingly in the Bolt and Spout classes below.</span>
+<span class="sd">    &#39;&#39;&#39;</span>
+    <span class="k">global</span> <span class="n">MODE</span>
+    <span class="k">if</span> <span class="n">MODE</span> <span class="o">==</span> <span class="n">Bolt</span><span class="p">:</span>
+        <span class="n">emitBolt</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
+    <span class="k">elif</span> <span class="n">MODE</span> <span class="o">==</span> <span class="n">Spout</span><span class="p">:</span>
+        <span class="n">emitSpout</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
+
+<div class="viewcode-block" id="emitBolt"><a class="viewcode-back" href="../../twitter_storm.html#twitter_storm.storm.emitBolt">[docs]</a><span class="k">def</span> <span class="nf">emitBolt</span><span class="p">(</span><span class="n">tup</span><span class="p">,</span> <span class="n">stream</span><span class="o">=</span><span class="bp">None</span><span class="p">,</span> <span class="n">anchors</span><span class="o">=</span><span class="p">[],</span> <span class="n">directTask</span><span class="o">=</span><span class="bp">None</span><span class="p">):</span>
+    <span class="sd">&#39;&#39;&#39;</span>
+<span class="sd">    Roughly equivalent to the OutputCollector class. </span>
+<span class="sd">    &#39;&#39;&#39;</span>
+    <span class="k">global</span> <span class="n">ANCHOR_TUPLE</span>
+    <span class="k">if</span> <span class="n">ANCHOR_TUPLE</span> <span class="ow">is</span> <span class="ow">not</span> <span class="bp">None</span><span class="p">:</span>
+        <span class="n">anchors</span> <span class="o">=</span> <span class="p">[</span><span class="n">ANCHOR_TUPLE</span><span class="p">]</span>
+    <span class="n">m</span> <span class="o">=</span> <span class="p">{</span><span class="s">&quot;command&quot;</span><span class="p">:</span> <span class="s">&quot;emit&quot;</span><span class="p">}</span>
+    <span class="k">if</span> <span class="n">stream</span> <span class="ow">is</span> <span class="ow">not</span> <span class="bp">None</span><span class="p">:</span>
+        <span class="n">m</span><span class="p">[</span><span class="s">&quot;stream&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">stream</span>
+    <span class="n">m</span><span class="p">[</span><span class="s">&quot;anchors&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="nb">map</span><span class="p">(</span><span class="k">lambda</span> <span class="n">a</span><span class="p">:</span> <span class="n">a</span><span class="o">.</span><span class="n">id</span><span class="p">,</span> <span class="n">anchors</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">directTask</span> <span class="ow">is</span> <span class="ow">not</span> <span class="bp">None</span><span class="p">:</span>
+        <span class="c"># For direct emits</span>
+        <span class="n">m</span><span class="p">[</span><span class="s">&quot;task&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">directTask</span>
+    <span class="n">m</span><span class="p">[</span><span class="s">&quot;tuple&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">tup</span>
+    <span class="n">sendMsgToParent</span><span class="p">(</span><span class="n">m</span><span class="p">)</span>
+</div>
+<div class="viewcode-block" id="emitSpout"><a class="viewcode-back" href="../../twitter_storm.html#twitter_storm.storm.emitSpout">[docs]</a><span class="k">def</span> <span class="nf">emitSpout</span><span class="p">(</span><span class="n">tup</span><span class="p">,</span> <span class="n">stream</span><span class="o">=</span><span class="bp">None</span><span class="p">,</span> <span class="nb">id</span><span class="o">=</span><span class="bp">None</span><span class="p">,</span> <span class="n">directTask</span><span class="o">=</span><span class="bp">None</span><span class="p">):</span>
+    <span class="sd">&#39;&#39;&#39;</span>
+<span class="sd">    Roughly equivalent to the SpoutOutputCollector class. </span>
+<span class="sd">    &#39;&#39;&#39;</span>
+    <span class="n">m</span> <span class="o">=</span> <span class="p">{</span><span class="s">&quot;command&quot;</span><span class="p">:</span> <span class="s">&quot;emit&quot;</span><span class="p">}</span>
+    <span class="k">if</span> <span class="nb">id</span> <span class="ow">is</span> <span class="ow">not</span> <span class="bp">None</span><span class="p">:</span>
+        <span class="n">m</span><span class="p">[</span><span class="s">&quot;id&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="nb">id</span>
+    <span class="k">if</span> <span class="n">stream</span> <span class="ow">is</span> <span class="ow">not</span> <span class="bp">None</span><span class="p">:</span>
+        <span class="n">m</span><span class="p">[</span><span class="s">&quot;stream&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">stream</span>
+    <span class="k">if</span> <span class="n">directTask</span> <span class="ow">is</span> <span class="ow">not</span> <span class="bp">None</span><span class="p">:</span>
+        <span class="c"># For direct emits</span>
+        <span class="n">m</span><span class="p">[</span><span class="s">&quot;task&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">directTask</span>
+    <span class="n">m</span><span class="p">[</span><span class="s">&quot;tuple&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">tup</span>
+    <span class="n">sendMsgToParent</span><span class="p">(</span><span class="n">m</span><span class="p">)</span>
+</div>
+<div class="viewcode-block" id="ack"><a class="viewcode-back" href="../../twitter_storm.html#twitter_storm.storm.ack">[docs]</a><span class="k">def</span> <span class="nf">ack</span><span class="p">(</span><span class="n">tup</span><span class="p">):</span>
+    <span class="sd">&#39;&#39;&#39;</span>
+<span class="sd">    Used to emulate the method OutputCollector.ack()</span>
+<span class="sd">    &#39;&#39;&#39;</span>
+    <span class="n">sendMsgToParent</span><span class="p">({</span><span class="s">&quot;command&quot;</span><span class="p">:</span> <span class="s">&quot;ack&quot;</span><span class="p">,</span> <span class="s">&quot;id&quot;</span><span class="p">:</span> <span class="n">tup</span><span class="o">.</span><span class="n">id</span><span class="p">})</span>
+</div>
+<div class="viewcode-block" id="fail"><a class="viewcode-back" href="../../twitter_storm.html#twitter_storm.storm.fail">[docs]</a><span class="k">def</span> <span class="nf">fail</span><span class="p">(</span><span class="n">tup</span><span class="p">):</span>
+    <span class="sd">&#39;&#39;&#39;</span>
+<span class="sd">    Used to emulate the method OutputCollector.fail()</span>
+<span class="sd">    &#39;&#39;&#39;</span>
+    <span class="n">sendMsgToParent</span><span class="p">({</span><span class="s">&quot;command&quot;</span><span class="p">:</span> <span class="s">&quot;fail&quot;</span><span class="p">,</span> <span class="s">&quot;id&quot;</span><span class="p">:</span> <span class="n">tup</span><span class="o">.</span><span class="n">id</span><span class="p">})</span>
+</div>
+<div class="viewcode-block" id="reportError"><a class="viewcode-back" href="../../twitter_storm.html#twitter_storm.storm.reportError">[docs]</a><span class="k">def</span> <span class="nf">reportError</span><span class="p">(</span><span class="n">msg</span><span class="p">):</span>
+    <span class="sd">&#39;&#39;&#39;</span>
+<span class="sd">    Used to emulate the methods SpoutOutputCollector.reportError() and OutputCollector.reportError()</span>
+<span class="sd">    &#39;&#39;&#39;</span>
+    <span class="n">sendMsgToParent</span><span class="p">({</span><span class="s">&quot;command&quot;</span><span class="p">:</span> <span class="s">&quot;error&quot;</span><span class="p">,</span> <span class="s">&quot;msg&quot;</span><span class="p">:</span> <span class="n">msg</span><span class="p">})</span>
+</div>
+<div class="viewcode-block" id="log"><a class="viewcode-back" href="../../twitter_storm.html#twitter_storm.storm.log">[docs]</a><span class="k">def</span> <span class="nf">log</span><span class="p">(</span><span class="n">msg</span><span class="p">):</span>
+    <span class="sd">&#39;&#39;&#39;</span>
+<span class="sd">    Used to log messages in the parent Storm worker log</span>
+<span class="sd">    &#39;&#39;&#39;</span>
+    <span class="n">sendMsgToParent</span><span class="p">({</span><span class="s">&quot;command&quot;</span><span class="p">:</span> <span class="s">&quot;log&quot;</span><span class="p">,</span> <span class="s">&quot;msg&quot;</span><span class="p">:</span> <span class="n">msg</span><span class="p">})</span>
+</div>
+<div class="viewcode-block" id="initComponent"><a class="viewcode-back" href="../../twitter_storm.html#twitter_storm.storm.initComponent">[docs]</a><span class="k">def</span> <span class="nf">initComponent</span><span class="p">():</span>
+    <span class="sd">&#39;&#39;&#39;</span>
+<span class="sd">    Multilang-protocol handshake: </span>
+<span class="sd">        1. read from stdin the setup info from the parent process. This a JSON object with fields </span>
+<span class="sd">            - &quot;conf&quot;: Storm configuration, as a map from strings to objects http://nathanmarz.github.io/storm/doc/backtype/storm/Config.html</span>
+<span class="sd">            - &quot;context&quot;: JSON representation of the TopologyContext object http://nathanmarz.github.io/storm/doc-0.7.1/?backtype/storm/task/TopologyContext.html on which the component will run</span>
+<span class="sd">            - &quot;pidDir&quot;: path of the directory heartbeatdir where this process should create an empty file named with its PID, so the parent process can kill this process is needed.</span>
+<span class="sd">        2. Send the PID of this python process to the parent process, and create an empty file at the path specified by heartbeatdir.</span>
+
+<span class="sd">    :returns: a list with two element, the first is a dictionary with the storm configuration, and the second is a dictionary with the storm context</span>
+<span class="sd">    &#39;&#39;&#39;</span>
+    <span class="n">setupInfo</span> <span class="o">=</span> <span class="n">readMsg</span><span class="p">()</span>
+    <span class="n">sendpid</span><span class="p">(</span><span class="n">setupInfo</span><span class="p">[</span><span class="s">&#39;pidDir&#39;</span><span class="p">])</span>
+    <span class="k">return</span> <span class="p">[</span><span class="n">setupInfo</span><span class="p">[</span><span class="s">&#39;conf&#39;</span><span class="p">],</span> <span class="n">setupInfo</span><span class="p">[</span><span class="s">&#39;context&#39;</span><span class="p">]]</span>
+</div>
+<div class="viewcode-block" id="Tuple"><a class="viewcode-back" href="../../twitter_storm.html#twitter_storm.storm.Tuple">[docs]</a><span class="k">class</span> <span class="nc">Tuple</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
+    <span class="sd">&#39;&#39;&#39;</span>
+<span class="sd">    This class abstracts the tuples sent to a bolt. See https://github.com/nathanmarz/storm/wiki/Multilang-protocol#bolts for details</span>
+
+<span class="sd">    :ivar id: id of the tuple as string</span>
+<span class="sd">    :ivar component: id of the component that created this tuple as string</span>
+<span class="sd">    :ivar stream: id of the stream this tuple was emitted to as string</span>
+<span class="sd">    :ivar task: id of the task that created this tuple as integer</span>
+<span class="sd">    :ivar values: list of values this tuple is composed</span>
+<span class="sd">    &#39;&#39;&#39;</span>
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="nb">id</span><span class="p">,</span> <span class="n">component</span><span class="p">,</span> <span class="n">stream</span><span class="p">,</span> <span class="n">task</span><span class="p">,</span> <span class="n">values</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">id</span> <span class="o">=</span> <span class="nb">id</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">component</span> <span class="o">=</span> <span class="n">component</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">stream</span> <span class="o">=</span> <span class="n">stream</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">task</span> <span class="o">=</span> <span class="n">task</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">values</span> <span class="o">=</span> <span class="n">values</span>
+
+    <span class="k">def</span> <span class="nf">__repr__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="s">&#39;&lt;</span><span class="si">%s%s</span><span class="s">&gt;&#39;</span> <span class="o">%</span> <span class="p">(</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">__class__</span><span class="o">.</span><span class="n">__name__</span><span class="p">,</span>
+                <span class="s">&#39;&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="s">&#39; </span><span class="si">%s</span><span class="s">=</span><span class="si">%r</span><span class="s">&#39;</span> <span class="o">%</span> <span class="p">(</span><span class="n">k</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">__dict__</span><span class="p">[</span><span class="n">k</span><span class="p">])</span> <span class="k">for</span> <span class="n">k</span> <span class="ow">in</span> <span class="nb">sorted</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">__dict__</span><span class="o">.</span><span class="n">keys</span><span class="p">())))</span>
+</div>
+<div class="viewcode-block" id="Bolt"><a class="viewcode-back" href="../../twitter_storm.html#twitter_storm.storm.Bolt">[docs]</a><span class="k">class</span> <span class="nc">Bolt</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
+    <span class="sd">&#39;&#39;&#39;</span>
+<span class="sd">    Roughly equivalent to the IBolt interface http://nathanmarz.github.io/storm/doc-0.7.1/backtype/storm/task/IBolt.html</span>
+
+<span class="sd">    To define a bolt in python write a module that defines a subclass of Bolt, and that calls run() for and instance of that class in its __main__ </span>
+
+<span class="sd">    There is no equivalent to IBolt.prepare(), but:</span>
+<span class="sd">        - The configuration and context obtained during the Multilang-protocol handshake are passed in the call to initialize().</span>
+<span class="sd">        - Use the functions emit(), emitDirect(), ack(), fail() and reportError() to emulate the corresponding methods for OutputCollector  </span>
+<span class="sd">        - Use the functiom log() to log messages in the parent Storm worker log</span>
+<span class="sd">    &#39;&#39;&#39;</span>
+<div class="viewcode-block" id="Bolt.initialize"><a class="viewcode-back" href="../../twitter_storm.html#twitter_storm.storm.Bolt.initialize">[docs]</a>    <span class="k">def</span> <span class="nf">initialize</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">stormconf</span><span class="p">,</span> <span class="n">context</span><span class="p">):</span>
+        <span class="sd">&#39;&#39;&#39;</span>
+<span class="sd">        Similar to IBolt.prepare(). Called when a task for this component is initialized within a worker on the cluster.</span>
+
+<span class="sd">        :param stormconf: Storm configuration deserialized from the JSON object sent through stdin by the parent process at protocol handshake. See http://nathanmarz.github.io/storm/doc/backtype/storm/Config.html</span>
+<span class="sd">        :type stormconf: dict</span>
+
+<span class="sd">        :param context: Topology context on for the topology on which this component will run, deserialized from the JSON object sent through stdin by the parent process at protocol handshake. See http://nathanmarz.github.io/storm/doc-0.7.1/?backtype/storm/task/TopologyContext.html. </span>
+<span class="sd">        :type context: dict </span>
+<span class="sd">        &#39;&#39;&#39;</span>
+        <span class="k">pass</span>
+</div>
+<div class="viewcode-block" id="Bolt.process"><a class="viewcode-back" href="../../twitter_storm.html#twitter_storm.storm.Bolt.process">[docs]</a>    <span class="k">def</span> <span class="nf">process</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="nb">tuple</span><span class="p">):</span>
+        <span class="sd">&#39;&#39;&#39;</span>
+<span class="sd">        Process a new tuple</span>
+
+<span class="sd">        :param tuple: Input tuple to process. Use tuple.values to access the list of component values for this tuple</span>
+<span class="sd">        :type tuple: storm.Tuple</span>
+<span class="sd">        &#39;&#39;&#39;</span>
+        <span class="k">pass</span>
+</div>
+<div class="viewcode-block" id="Bolt.run"><a class="viewcode-back" href="../../twitter_storm.html#twitter_storm.storm.Bolt.run">[docs]</a>    <span class="k">def</span> <span class="nf">run</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&#39;&#39;&#39;</span>
+<span class="sd">        To define a bolt in python write a module that defines a subclass of Bolt, and that calls run() for and instance of that class in its __main__ </span>
+<span class="sd">        &#39;&#39;&#39;</span>
+        <span class="k">global</span> <span class="n">MODE</span>
+        <span class="n">MODE</span> <span class="o">=</span> <span class="n">Bolt</span>
+        <span class="n">conf</span><span class="p">,</span> <span class="n">context</span> <span class="o">=</span> <span class="n">initComponent</span><span class="p">()</span>
+        <span class="k">try</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">initialize</span><span class="p">(</span><span class="n">conf</span><span class="p">,</span> <span class="n">context</span><span class="p">)</span>
+            <span class="k">while</span> <span class="bp">True</span><span class="p">:</span>
+                <span class="n">tup</span> <span class="o">=</span> <span class="n">readTuple</span><span class="p">()</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">process</span><span class="p">(</span><span class="n">tup</span><span class="p">)</span>
+        <span class="k">except</span> <span class="ne">Exception</span><span class="p">,</span> <span class="n">e</span><span class="p">:</span>
+            <span class="n">reportError</span><span class="p">(</span><span class="n">traceback</span><span class="o">.</span><span class="n">format_exc</span><span class="p">(</span><span class="n">e</span><span class="p">))</span>
+</div></div>
+<div class="viewcode-block" id="BasicBolt"><a class="viewcode-back" href="../../twitter_storm.html#twitter_storm.storm.BasicBolt">[docs]</a><span class="k">class</span> <span class="nc">BasicBolt</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
+    <span class="sd">&#39;&#39;&#39;</span>
+<span class="sd">    Similar to the Bolt class, but the anchoring and ack of each tuple is handled automatically. The same effect can be obtained within the Bolt class with suitable calls to the functions emit(), emitDirect() and ack() at the method process()</span>
+<span class="sd">    &#39;&#39;&#39;</span>
+<div class="viewcode-block" id="BasicBolt.initialize"><a class="viewcode-back" href="../../twitter_storm.html#twitter_storm.storm.BasicBolt.initialize">[docs]</a>    <span class="k">def</span> <span class="nf">initialize</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">stormconf</span><span class="p">,</span> <span class="n">context</span><span class="p">):</span>
+        <span class="k">pass</span>
+</div>
+<div class="viewcode-block" id="BasicBolt.process"><a class="viewcode-back" href="../../twitter_storm.html#twitter_storm.storm.BasicBolt.process">[docs]</a>    <span class="k">def</span> <span class="nf">process</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="nb">tuple</span><span class="p">):</span>
+        <span class="k">pass</span>
+</div>
+<div class="viewcode-block" id="BasicBolt.run"><a class="viewcode-back" href="../../twitter_storm.html#twitter_storm.storm.BasicBolt.run">[docs]</a>    <span class="k">def</span> <span class="nf">run</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">global</span> <span class="n">MODE</span>
+        <span class="n">MODE</span> <span class="o">=</span> <span class="n">Bolt</span>
+        <span class="k">global</span> <span class="n">ANCHOR_TUPLE</span>
+        <span class="n">conf</span><span class="p">,</span> <span class="n">context</span> <span class="o">=</span> <span class="n">initComponent</span><span class="p">()</span>
+        <span class="k">try</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">initialize</span><span class="p">(</span><span class="n">conf</span><span class="p">,</span> <span class="n">context</span><span class="p">)</span>
+            <span class="k">while</span> <span class="bp">True</span><span class="p">:</span>
+                <span class="n">tup</span> <span class="o">=</span> <span class="n">readTuple</span><span class="p">()</span>
+                <span class="n">ANCHOR_TUPLE</span> <span class="o">=</span> <span class="n">tup</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">process</span><span class="p">(</span><span class="n">tup</span><span class="p">)</span>
+                <span class="n">ack</span><span class="p">(</span><span class="n">tup</span><span class="p">)</span>
+        <span class="k">except</span> <span class="ne">Exception</span><span class="p">,</span> <span class="n">e</span><span class="p">:</span>
+            <span class="n">reportError</span><span class="p">(</span><span class="n">traceback</span><span class="o">.</span><span class="n">format_exc</span><span class="p">(</span><span class="n">e</span><span class="p">))</span>
+</div></div>
+<div class="viewcode-block" id="Spout"><a class="viewcode-back" href="../../twitter_storm.html#twitter_storm.storm.Spout">[docs]</a><span class="k">class</span> <span class="nc">Spout</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
+    <span class="sd">&#39;&#39;&#39;</span>
+<span class="sd">    Roughly equivalent to the ISpout interface http://nathanmarz.github.io/storm/doc/backtype/storm/spout/ISpout.html</span>
+
+<span class="sd">    To define a spout in python write a module that defines a subclass of Spout, and that calls run() for and instance of that class in its __main__ </span>
+
+<span class="sd">    There is no equivalent to ISpout.open(), but:</span>
+<span class="sd">        - The configuration and context obtained during the Multilang-protocol handshake are passed in the call to initialize().</span>
+<span class="sd">        - Use the functions emit(), emitDirect() and reportError() to emulate the corresponding methods for SpoutOutputCollector  </span>
+<span class="sd">        - Use the functiom log() to log messages in the parent Storm worker log</span>
+<span class="sd">    &#39;&#39;&#39;</span>
+<div class="viewcode-block" id="Spout.initialize"><a class="viewcode-back" href="../../twitter_storm.html#twitter_storm.storm.Spout.initialize">[docs]</a>    <span class="k">def</span> <span class="nf">initialize</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">conf</span><span class="p">,</span> <span class="n">context</span><span class="p">):</span>
+        <span class="sd">&#39;&#39;&#39;</span>
+<span class="sd">        Similar to ISpout.open(). Called when a task for this component is initialized within a worker on the cluster.</span>
+
+<span class="sd">        :param stormconf: Storm configuration deserialized from the JSON object sent through stdin by the parent process at protocol handshake. See http://nathanmarz.github.io/storm/doc/backtype/storm/Config.html</span>
+<span class="sd">        :type stormconf: dict</span>
+
+<span class="sd">        :param context: Topology context on for the topology on which this component will run, deserialized from the JSON object sent through stdin by the parent process at protocol handshake. See http://nathanmarz.github.io/storm/doc-0.7.1/?backtype/storm/task/TopologyContext.html. </span>
+<span class="sd">            As seen in the example below, and in https://groups.google.com/forum/#!topic/storm-user/LEnEB4k_SG4, there is currently a bug by which Storm doesn&#39;t send the &quot;taskid&quot; to the spouts on the initial handshake of the multilang protocol</span>
+<span class="sd">        :type context: dict</span>
+
+<span class="sd">        Examples:</span>
+<span class="sd">            - Example configuration:</span>
+
+<span class="sd">            {&quot;topology.tuple.serializer&quot;: &quot;backtype.storm.serialization.types.ListDelegateSerializer&quot;, &quot;topology.workers&quot;: 1, &quot;drpc.worker.threads&quot;: 64, &quot;storm.messaging.netty.client_worker_threads&quot;: 1, &quot;supervisor.heartbeat.frequency.secs&quot;: 5, &quot;topology.executor.send.buffer.size&quot;: 1024, &quot;drpc.childopts&quot;: &quot;-Xmx768m&quot;, &quot;nimbus.thrift.port&quot;: 6627, &quot;storm.zookeeper.retry.intervalceiling.millis&quot;: 30000, &quot;storm.local.dir&quot;: &quot;/tmp/9a198ac9-61e4-406e-95a6-88d5a8d623b9&quot;, &quot;topology.receiver.buffer.size&quot;: 8, &quot;storm.zookeeper.servers&quot;: [&quot;localhost&quot;], &quot;transactional.zookeeper.root&quot;: &quot;/transactional&quot;, &quot;drpc.request.timeout.secs&quot;: 600, &quot;topology.skip.missing.kryo.registrations&quot;: true, &quot;worker.heartbeat.frequency.secs&quot;: 1, &quot;zmq.hwm&quot;: 0, &quot;storm.zookeeper.connection.timeout&quot;: 15000, &quot;java.library.path&quot;: &quot;/usr/local/lib:/opt/local/lib:/usr/lib&quot;, &quot;topology.max.error.report.per.interval&quot;: 5, &quot;storm.messaging.netty.server_worker_threads&quot;: 1, &quot;storm.id&quot;: &quot;test-1-1397736849&quot;, &quot;supervisor.worker.start.timeout.secs&quot;: 120, &quot;zmq.threads&quot;: 1, &quot;topology.acker.executors&quot;: null, &quot;storm.local.mode.zmq&quot;: false, &quot;topology.max.task.parallelism&quot;: null, &quot;storm.zookeeper.port&quot;: 2000, &quot;nimbus.childopts&quot;: &quot;-Xmx1024m&quot;, &quot;worker.childopts&quot;: &quot;-Xmx768m&quot;, &quot;drpc.queue.size&quot;: 128, &quot;storm.zookeeper.retry.times&quot;: 5, &quot;nimbus.monitor.freq.secs&quot;: 10, &quot;storm.cluster.mode&quot;: &quot;local&quot;, &quot;dev.zookeeper.path&quot;: &quot;/tmp/dev-storm-zookeeper&quot;, &quot;drpc.invocations.port&quot;: 3773, &quot;topology.tasks&quot;: null, &quot;storm.zookeeper.root&quot;: &quot;/storm&quot;, &quot;logviewer.childopts&quot;: &quot;-Xmx128m&quot;, &quot;transactional.zookeeper.port&quot;: null, &quot;topology.worker.childopts&quot;: null, &quot;topology.max.spout.pending&quot;: null, &quot;topology.kryo.register&quot;: null, &quot;nimbus.cleanup.inbox.freq.secs&quot;: 600, &quot;storm.messaging.netty.min_wait_ms&quot;: 100, &quot;nimbus.task.timeout.secs&quot;: 30, &quot;topology.sleep.spout.wait.strategy.time.ms&quot;: 1, &quot;topology.optimize&quot;: true, &quot;nimbus.reassign&quot;: true, &quot;storm.messaging.transport&quot;: &quot;backtype.storm.messaging.zmq&quot;, &quot;logviewer.appender.name&quot;: &quot;A1&quot;, &quot;nimbus.host&quot;: &quot;localhost&quot;, &quot;ui.port&quot;: 8080, &quot;supervisor.slots.ports&quot;: [1, 2, 3], &quot;nimbus.file.copy.expiration.secs&quot;: 600, &quot;supervisor.monitor.frequency.secs&quot;: 3, &quot;ui.childopts&quot;: &quot;-Xmx768m&quot;, &quot;transactional.zookeeper.servers&quot;: null, &quot;zmq.linger.millis&quot;: 0, &quot;topology.error.throttle.interval.secs&quot;: 10, &quot;topology.worker.shared.thread.pool.size&quot;: 4, &quot;topology.executor.receive.buffer.size&quot;: 1024, &quot;topology.spout.wait.strategy&quot;: &quot;backtype.storm.spout.SleepSpoutWaitStrategy&quot;, &quot;task.heartbeat.frequency.secs&quot;: 3, &quot;topology.transfer.buffer.size&quot;: 1024, &quot;storm.zookeeper.session.timeout&quot;: 20000, &quot;topology.stats.sample.rate&quot;: 0.05, &quot;topology.fall.back.on.java.serialization&quot;: true, &quot;supervisor.childopts&quot;: &quot;-Xmx256m&quot;, &quot;topology.enable.message.timeouts&quot;: true, &quot;storm.messaging.netty.max_wait_ms&quot;: 1000, &quot;nimbus.topology.validator&quot;: &quot;backtype.storm.nimbus.DefaultTopologyValidator&quot;, &quot;nimbus.supervisor.timeout.secs&quot;: 60, &quot;topology.disruptor.wait.strategy&quot;: &quot;com.lmax.disruptor.BlockingWaitStrategy&quot;, &quot;storm.messaging.netty.buffer_size&quot;: 5242880, &quot;drpc.port&quot;: 3772, &quot;topology.kryo.factory&quot;: &quot;backtype.storm.serialization.DefaultKryoFactory&quot;, &quot;storm.zookeeper.retry.interval&quot;: 1000, &quot;storm.messaging.netty.max_retries&quot;: 30, &quot;topology.tick.tuple.freq.secs&quot;: 30, &quot;supervisor.enable&quot;: true, &quot;nimbus.task.launch.secs&quot;: 120, &quot;task.refresh.poll.secs&quot;: 10, &quot;topology.message.timeout.secs&quot;: 30, &quot;nimbus.inbox.jar.expiration.secs&quot;: 3600, &quot;topology.state.synchronization.timeout.secs&quot;: 60, &quot;topology.name&quot;: &quot;test&quot;, &quot;supervisor.worker.timeout.secs&quot;: 30, &quot;topology.trident.batch.emit.interval.millis&quot;: 50, &quot;topology.builtin.metrics.bucket.size.secs&quot;: 60, &quot;storm.thrift.transport&quot;: &quot;backtype.storm.security.auth.SimpleTransportPlugin&quot;, &quot;logviewer.port&quot;: 8000, &quot;topology.kryo.decorators&quot;: [], &quot;topology.debug&quot;: true}</span>
+
+<span class="sd">            - Example context:</span>
+<span class="sd">                {&quot;task-&gt;component&quot;: {&quot;11&quot;: &quot;__acker&quot;, &quot;10&quot;: &quot;TrendsSpout&quot;, &quot;1&quot;: &quot;TrendsSpout&quot;, &quot;3&quot;: &quot;TrendsSpout&quot;, &quot;2&quot;: &quot;TrendsSpout&quot;, &quot;5&quot;: &quot;TrendsSpout&quot;, &quot;4&quot;: &quot;TrendsSpout&quot;, &quot;7&quot;: &quot;TrendsSpout&quot;, &quot;6&quot;: &quot;TrendsSpout&quot;, &quot;9&quot;: &quot;TrendsSpout&quot;, &quot;8&quot;: &quot;TrendsSpout&quot;}}</span>
+<span class="sd">        &#39;&#39;&#39;</span>
+        <span class="k">pass</span>
+</div>
+<div class="viewcode-block" id="Spout.ack"><a class="viewcode-back" href="../../twitter_storm.html#twitter_storm.storm.Spout.ack">[docs]</a>    <span class="k">def</span> <span class="nf">ack</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="nb">id</span><span class="p">):</span>
+        <span class="sd">&#39;&#39;&#39;</span>
+<span class="sd">        Equivalent to ISpout.ack()</span>
+
+<span class="sd">        :param id: messageId of a tuple emmitted by this spout which has been fully processed</span>
+<span class="sd">        :type id: str</span>
+<span class="sd">        &#39;&#39;&#39;</span>
+        <span class="k">pass</span>
+</div>
+<div class="viewcode-block" id="Spout.fail"><a class="viewcode-back" href="../../twitter_storm.html#twitter_storm.storm.Spout.fail">[docs]</a>    <span class="k">def</span> <span class="nf">fail</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="nb">id</span><span class="p">):</span>
+        <span class="sd">&#39;&#39;&#39;</span>
+<span class="sd">        Equivalent to ISpout.fail()</span>
+
+<span class="sd">        :param id: messageId of a tuple emmitted by this spout which has failed to be fully processed</span>
+<span class="sd">        :type id: str</span>
+<span class="sd">        &#39;&#39;&#39;</span>
+        <span class="k">pass</span>
+</div>
+<div class="viewcode-block" id="Spout.nextTuple"><a class="viewcode-back" href="../../twitter_storm.html#twitter_storm.storm.Spout.nextTuple">[docs]</a>    <span class="k">def</span> <span class="nf">nextTuple</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&#39;&#39;&#39;</span>
+<span class="sd">        This method is called when storm request.</span>
+
+<span class="sd">        - Use the functions emit(), emitDirect() and reportError() to emulate the corresponding methods for SpoutOutputCollector  </span>
+<span class="sd">        - Use the functiom log() to log messages in the parent Storm worker log</span>
+<span class="sd">        &#39;&#39;&#39;</span>
+        <span class="k">pass</span>
+</div>
+<div class="viewcode-block" id="Spout.run"><a class="viewcode-back" href="../../twitter_storm.html#twitter_storm.storm.Spout.run">[docs]</a>    <span class="k">def</span> <span class="nf">run</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&#39;&#39;&#39;</span>
+<span class="sd">        To define a spout in python write a module that defines a subclass of Spout, and that calls run() for and instance of that class in its __main__ </span>
+<span class="sd">        &#39;&#39;&#39;</span>
+        <span class="k">global</span> <span class="n">MODE</span>
+        <span class="n">MODE</span> <span class="o">=</span> <span class="n">Spout</span>
+        <span class="n">conf</span><span class="p">,</span> <span class="n">context</span> <span class="o">=</span> <span class="n">initComponent</span><span class="p">()</span>
+        <span class="k">try</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">initialize</span><span class="p">(</span><span class="n">conf</span><span class="p">,</span> <span class="n">context</span><span class="p">)</span>
+            <span class="k">while</span> <span class="bp">True</span><span class="p">:</span>
+                <span class="n">msg</span> <span class="o">=</span> <span class="n">readCommand</span><span class="p">()</span>
+                <span class="k">if</span> <span class="n">msg</span><span class="p">[</span><span class="s">&quot;command&quot;</span><span class="p">]</span> <span class="o">==</span> <span class="s">&quot;next&quot;</span><span class="p">:</span>
+                    <span class="bp">self</span><span class="o">.</span><span class="n">nextTuple</span><span class="p">()</span>
+                <span class="k">if</span> <span class="n">msg</span><span class="p">[</span><span class="s">&quot;command&quot;</span><span class="p">]</span> <span class="o">==</span> <span class="s">&quot;ack&quot;</span><span class="p">:</span>
+                    <span class="bp">self</span><span class="o">.</span><span class="n">ack</span><span class="p">(</span><span class="n">msg</span><span class="p">[</span><span class="s">&quot;id&quot;</span><span class="p">])</span>
+                <span class="k">if</span> <span class="n">msg</span><span class="p">[</span><span class="s">&quot;command&quot;</span><span class="p">]</span> <span class="o">==</span> <span class="s">&quot;fail&quot;</span><span class="p">:</span>
+                    <span class="bp">self</span><span class="o">.</span><span class="n">fail</span><span class="p">(</span><span class="n">msg</span><span class="p">[</span><span class="s">&quot;id&quot;</span><span class="p">])</span>
+                <span class="n">sync</span><span class="p">()</span>
+        <span class="k">except</span> <span class="ne">Exception</span><span class="p">,</span> <span class="n">e</span><span class="p">:</span>
+            <span class="n">reportError</span><span class="p">(</span><span class="n">traceback</span><span class="o">.</span><span class="n">format_exc</span><span class="p">(</span><span class="n">e</span><span class="p">))</span>
+</pre></div></div></div>
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="../../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li><a href="../../index.html">Storm Py Twitter  documentation</a> &raquo;</li>
+          <li><a href="../index.html" >Module code</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2014, Juan Rodriguez Hortala &lt;juan.rodriguez.hortala@gmail.com.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.2.2.
+    </div>
+  </body>
+</html>

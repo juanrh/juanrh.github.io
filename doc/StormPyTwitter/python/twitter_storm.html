@@ -1,0 +1,686 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>twitter_storm package &mdash; Storm Py Twitter  documentation</title>
+    
+    <link rel="stylesheet" href="_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="top" title="Storm Py Twitter  documentation" href="index.html" />
+    <link rel="prev" title="Welcome to Storm Py Twitter’s documentation!" href="index.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="index.html" title="Welcome to Storm Py Twitter’s documentation!"
+             accesskey="P">previous</a> |</li>
+        <li><a href="index.html">Storm Py Twitter  documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="twitter-storm-package">
+<h1>twitter_storm package<a class="headerlink" href="#twitter-storm-package" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="submodules">
+<h2>Submodules<a class="headerlink" href="#submodules" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="module-twitter_storm.get_tweets">
+<span id="twitter-storm-get-tweets-module"></span><h2>twitter_storm.get_tweets module<a class="headerlink" href="#module-twitter_storm.get_tweets" title="Permalink to this headline">¶</a></h2>
+<dl class="function">
+<dt id="twitter_storm.get_tweets.authenticate">
+<tt class="descclassname">twitter_storm.get_tweets.</tt><tt class="descname">authenticate</tt><big>(</big><em>rebuild=False</em><big>)</big><a class="reference internal" href="_modules/twitter_storm/get_tweets.html#authenticate"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#twitter_storm.get_tweets.authenticate" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return an OAuthHandler after the autentication process.
+If rebuild is true then any access token and key stored in disk will be ignored.</p>
+<p>Following <a class="reference external" href="https://pythonhosted.org/tweepy/html/auth_tutorial.html?highlight=oauthhandler">https://pythonhosted.org/tweepy/html/auth_tutorial.html?highlight=oauthhandler</a></p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>rebuild</strong> (<em>bool</em>) &#8211; If rebuild is True then the autentication process is performed from scratch.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">A tweepy.api.API object ready to use for autentication.</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Raises:</th><td class="field-body">RuntimeError</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="twitter_storm.get_tweets.available_places">
+<tt class="descclassname">twitter_storm.get_tweets.</tt><tt class="descname">available_places</tt><big>(</big><big>)</big><a class="reference internal" href="_modules/twitter_storm/get_tweets.html#available_places"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#twitter_storm.get_tweets.available_places" title="Permalink to this definition">¶</a></dt>
+<dd><p>:returns a dictionary from place names to a dictionary with keys &#8220;lat&#8221; and &#8220;long&#8221; for the corresponding longitude and latitute</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="twitter_storm.get_tweets.example_tweet_processor">
+<tt class="descclassname">twitter_storm.get_tweets.</tt><tt class="descname">example_tweet_processor</tt><big>(</big><em>status</em><big>)</big><a class="reference internal" href="_modules/twitter_storm/get_tweets.html#example_tweet_processor"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#twitter_storm.get_tweets.example_tweet_processor" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="twitter_storm.get_tweets.get_trending_topics_text">
+<tt class="descclassname">twitter_storm.get_tweets.</tt><tt class="descname">get_trending_topics_text</tt><big>(</big><em>api</em>, <em>place=u'Valencia'</em><big>)</big><a class="reference internal" href="_modules/twitter_storm/get_tweets.html#get_trending_topics_text"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#twitter_storm.get_tweets.get_trending_topics_text" title="Permalink to this definition">¶</a></dt>
+<dd><p>Gets the trending topics closest to the location specified.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>api</strong> (<em>tweepy.api.API object</em>) &#8211; API object to use for connecting to Twitter.</li>
+<li><strong>place</strong> (<em>str</em>) &#8211; encodes a location, following the convention in the configuration file FIXME.</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last">A list of dictionaries with keys &#8216;name&#8217; and &#8216;query&#8217; corresponding to hashtags for the 10 most trending topics for that location, e.g. [{&#8216;query&#8217;: &#8216;%22Adolfo+Su%C3%A1rez%22&#8217;, &#8216;name&#8217;: u&#8217;Adolfo Suárez&#8217;}, ...]</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="twitter_storm.get_tweets.get_tweets_for_trends">
+<tt class="descclassname">twitter_storm.get_tweets.</tt><tt class="descname">get_tweets_for_trends</tt><big>(</big><em>api</em>, <em>trends</em>, <em>count=15</em>, <em>popular=False</em>, <em>tweet_processor=None</em>, <em>**search_params</em><big>)</big><a class="reference internal" href="_modules/twitter_storm/get_tweets.html#get_tweets_for_trends"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#twitter_storm.get_tweets.get_tweets_for_trends" title="Permalink to this definition">¶</a></dt>
+<dd><p>Launch a search to Twitter for tweets corresponding to the trend spec in the list trends, that has the format returned by get_trending_topics_text().</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>api</strong> (<em>tweepy.api.API object</em>) &#8211; API object to use for connecting to Twitter.</li>
+<li><strong>trends</strong> &#8211; list of dictionaries in the format returned by get_trending_topics_text().</li>
+<li><strong>count</strong> (<em>int</em>) &#8211; number of tweets to retrieve per element in trends.</li>
+<li><strong>popular</strong> (<em>bool</em>) &#8211; whether to search for poular tweets (result_type &#8216;popular&#8217; in the queries) or not. This limits the result to 15 tweets maximum ignoring &#8216;count&#8217;, for what it appears to be a bug <a class="reference external" href="https://dev.twitter.com/discussions/19472">https://dev.twitter.com/discussions/19472</a>.</li>
+<li><strong>tweet_processor</strong> &#8211; Function that takes an object of the class tweepy.models.Status and returns a dictionary corresponding to projecting some fields of that object. This way projection may occour at levels deeper that the first level. By default the fields &#8216;text&#8217;, &#8216;favorite_count&#8217;, &#8216;created_at&#8217; are projected. 
+search_params - any other arguments for calling api.search, e.g. lang (&#8220;es&#8221;, &#8220;en&#8221;, ..)</li>
+<li><strong>search_params</strong> &#8211; Additional keyword arguments to use in the call to api.search for querying Twitter.</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last">An iterator of the input list where each dictionary has been extended with a &#8216;tweets&#8217; field that contains the result of applying tweet_processor to each tweepy.models.Status returned by the corresponding query to twitter. See <a class="reference external" href="https://dev.twitter.com/docs/platform-objects/tweets">https://dev.twitter.com/docs/platform-objects/tweets</a> for the meaning of the fields.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="module-twitter_storm.get_tweets_bolt">
+<span id="twitter-storm-get-tweets-bolt-module"></span><h2>twitter_storm.get_tweets_bolt module<a class="headerlink" href="#module-twitter_storm.get_tweets_bolt" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="module-twitter_storm.places_spout">
+<span id="twitter-storm-places-spout-module"></span><h2>twitter_storm.places_spout module<a class="headerlink" href="#module-twitter_storm.places_spout" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="module-twitter_storm.storm">
+<span id="twitter-storm-storm-module"></span><h2>twitter_storm.storm module<a class="headerlink" href="#module-twitter_storm.storm" title="Permalink to this headline">¶</a></h2>
+<dl class="docutils">
+<dt>Implementation of Storm&#8217;s multilang protocol that can be used to create Spout and Bolts in python. Communication with the parent process is performed using strings corresponding to JSON objects through stdin and stdout, and finishing messages with a &#8220;end&#8221; line. See readMsg() below for details.</dt>
+<dd><ul class="first last simple">
+<li>As a consequence no log message should be written to stdout, use stderr or a proper logging mechanism instead</li>
+<li>See <a class="reference external" href="https://github.com/nathanmarz/storm/wiki/Multilang-protocol">https://github.com/nathanmarz/storm/wiki/Multilang-protocol</a> for a description of Storm&#8217;s multilang protocol. See the book &#8220;Getting Started with Storm&#8221; -&gt; Chapter 7. Using Non-JVM Languages with Storm for another example in php</li>
+</ul>
+</dd>
+<dt>Author: Nathan Marz &lt;<a class="reference external" href="mailto:nathan&#37;&#52;&#48;nathanmarz&#46;com">nathan<span>&#64;</span>nathanmarz<span>&#46;</span>com</a>&gt;</dt>
+<dd>This is a modification of the code from <a class="reference external" href="https://github.com/nathanmarz/storm/blob/master/storm-core/src/multilang/py/storm.py">https://github.com/nathanmarz/storm/blob/master/storm-core/src/multilang/py/storm.py</a> with some additional comments by Juan Rodriguez Hortala &lt;<a class="reference external" href="mailto:juan&#46;rodriguez&#46;hortala&#37;&#52;&#48;gmail&#46;com">juan<span>&#46;</span>rodriguez<span>&#46;</span>hortala<span>&#64;</span>gmail<span>&#46;</span>com</a>&gt;. Only comments were added, the functionality is the same.</dd>
+</dl>
+<dl class="class">
+<dt id="twitter_storm.storm.BasicBolt">
+<em class="property">class </em><tt class="descclassname">twitter_storm.storm.</tt><tt class="descname">BasicBolt</tt><a class="reference internal" href="_modules/twitter_storm/storm.html#BasicBolt"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#twitter_storm.storm.BasicBolt" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <tt class="xref py py-class docutils literal"><span class="pre">object</span></tt></p>
+<p>Similar to the Bolt class, but the anchoring and ack of each tuple is handled automatically. The same effect can be obtained within the Bolt class with suitable calls to the functions emit(), emitDirect() and ack() at the method process()</p>
+<dl class="method">
+<dt id="twitter_storm.storm.BasicBolt.initialize">
+<tt class="descname">initialize</tt><big>(</big><em>stormconf</em>, <em>context</em><big>)</big><a class="reference internal" href="_modules/twitter_storm/storm.html#BasicBolt.initialize"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#twitter_storm.storm.BasicBolt.initialize" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="twitter_storm.storm.BasicBolt.process">
+<tt class="descname">process</tt><big>(</big><em>tuple</em><big>)</big><a class="reference internal" href="_modules/twitter_storm/storm.html#BasicBolt.process"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#twitter_storm.storm.BasicBolt.process" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="twitter_storm.storm.BasicBolt.run">
+<tt class="descname">run</tt><big>(</big><big>)</big><a class="reference internal" href="_modules/twitter_storm/storm.html#BasicBolt.run"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#twitter_storm.storm.BasicBolt.run" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="twitter_storm.storm.Bolt">
+<em class="property">class </em><tt class="descclassname">twitter_storm.storm.</tt><tt class="descname">Bolt</tt><a class="reference internal" href="_modules/twitter_storm/storm.html#Bolt"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#twitter_storm.storm.Bolt" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <tt class="xref py py-class docutils literal"><span class="pre">object</span></tt></p>
+<p>Roughly equivalent to the IBolt interface <a class="reference external" href="http://nathanmarz.github.io/storm/doc-0.7.1/backtype/storm/task/IBolt.html">http://nathanmarz.github.io/storm/doc-0.7.1/backtype/storm/task/IBolt.html</a></p>
+<p>To define a bolt in python write a module that defines a subclass of Bolt, and that calls run() for and instance of that class in its __main__</p>
+<dl class="docutils">
+<dt>There is no equivalent to IBolt.prepare(), but:</dt>
+<dd><ul class="first last simple">
+<li>The configuration and context obtained during the Multilang-protocol handshake are passed in the call to initialize().</li>
+<li>Use the functions emit(), emitDirect(), ack(), fail() and reportError() to emulate the corresponding methods for OutputCollector</li>
+<li>Use the functiom log() to log messages in the parent Storm worker log</li>
+</ul>
+</dd>
+</dl>
+<dl class="method">
+<dt id="twitter_storm.storm.Bolt.initialize">
+<tt class="descname">initialize</tt><big>(</big><em>stormconf</em>, <em>context</em><big>)</big><a class="reference internal" href="_modules/twitter_storm/storm.html#Bolt.initialize"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#twitter_storm.storm.Bolt.initialize" title="Permalink to this definition">¶</a></dt>
+<dd><p>Similar to IBolt.prepare(). Called when a task for this component is initialized within a worker on the cluster.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>stormconf</strong> (<em>dict</em>) &#8211; Storm configuration deserialized from the JSON object sent through stdin by the parent process at protocol handshake. See <a class="reference external" href="http://nathanmarz.github.io/storm/doc/backtype/storm/Config.html">http://nathanmarz.github.io/storm/doc/backtype/storm/Config.html</a></li>
+<li><strong>context</strong> (<em>dict</em>) &#8211; Topology context on for the topology on which this component will run, deserialized from the JSON object sent through stdin by the parent process at protocol handshake. See <a class="reference external" href="http://nathanmarz.github.io/storm/doc-0.7.1/?backtype/storm/task/TopologyContext.html">http://nathanmarz.github.io/storm/doc-0.7.1/?backtype/storm/task/TopologyContext.html</a>.</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="twitter_storm.storm.Bolt.process">
+<tt class="descname">process</tt><big>(</big><em>tuple</em><big>)</big><a class="reference internal" href="_modules/twitter_storm/storm.html#Bolt.process"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#twitter_storm.storm.Bolt.process" title="Permalink to this definition">¶</a></dt>
+<dd><p>Process a new tuple</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>tuple</strong> (<em>storm.Tuple</em>) &#8211; Input tuple to process. Use tuple.values to access the list of component values for this tuple</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="twitter_storm.storm.Bolt.run">
+<tt class="descname">run</tt><big>(</big><big>)</big><a class="reference internal" href="_modules/twitter_storm/storm.html#Bolt.run"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#twitter_storm.storm.Bolt.run" title="Permalink to this definition">¶</a></dt>
+<dd><p>To define a bolt in python write a module that defines a subclass of Bolt, and that calls run() for and instance of that class in its __main__</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="twitter_storm.storm.Spout">
+<em class="property">class </em><tt class="descclassname">twitter_storm.storm.</tt><tt class="descname">Spout</tt><a class="reference internal" href="_modules/twitter_storm/storm.html#Spout"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#twitter_storm.storm.Spout" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <tt class="xref py py-class docutils literal"><span class="pre">object</span></tt></p>
+<p>Roughly equivalent to the ISpout interface <a class="reference external" href="http://nathanmarz.github.io/storm/doc/backtype/storm/spout/ISpout.html">http://nathanmarz.github.io/storm/doc/backtype/storm/spout/ISpout.html</a></p>
+<p>To define a spout in python write a module that defines a subclass of Spout, and that calls run() for and instance of that class in its __main__</p>
+<dl class="docutils">
+<dt>There is no equivalent to ISpout.open(), but:</dt>
+<dd><ul class="first last simple">
+<li>The configuration and context obtained during the Multilang-protocol handshake are passed in the call to initialize().</li>
+<li>Use the functions emit(), emitDirect() and reportError() to emulate the corresponding methods for SpoutOutputCollector</li>
+<li>Use the functiom log() to log messages in the parent Storm worker log</li>
+</ul>
+</dd>
+</dl>
+<dl class="method">
+<dt id="twitter_storm.storm.Spout.ack">
+<tt class="descname">ack</tt><big>(</big><em>id</em><big>)</big><a class="reference internal" href="_modules/twitter_storm/storm.html#Spout.ack"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#twitter_storm.storm.Spout.ack" title="Permalink to this definition">¶</a></dt>
+<dd><p>Equivalent to ISpout.ack()</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>id</strong> (<em>str</em>) &#8211; messageId of a tuple emmitted by this spout which has been fully processed</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="twitter_storm.storm.Spout.fail">
+<tt class="descname">fail</tt><big>(</big><em>id</em><big>)</big><a class="reference internal" href="_modules/twitter_storm/storm.html#Spout.fail"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#twitter_storm.storm.Spout.fail" title="Permalink to this definition">¶</a></dt>
+<dd><p>Equivalent to ISpout.fail()</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>id</strong> (<em>str</em>) &#8211; messageId of a tuple emmitted by this spout which has failed to be fully processed</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="twitter_storm.storm.Spout.initialize">
+<tt class="descname">initialize</tt><big>(</big><em>conf</em>, <em>context</em><big>)</big><a class="reference internal" href="_modules/twitter_storm/storm.html#Spout.initialize"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#twitter_storm.storm.Spout.initialize" title="Permalink to this definition">¶</a></dt>
+<dd><p>Similar to ISpout.open(). Called when a task for this component is initialized within a worker on the cluster.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>stormconf</strong> (<em>dict</em>) &#8211; Storm configuration deserialized from the JSON object sent through stdin by the parent process at protocol handshake. See <a class="reference external" href="http://nathanmarz.github.io/storm/doc/backtype/storm/Config.html">http://nathanmarz.github.io/storm/doc/backtype/storm/Config.html</a></li>
+<li><strong>context</strong> (<em>dict</em>) &#8211; Topology context on for the topology on which this component will run, deserialized from the JSON object sent through stdin by the parent process at protocol handshake. See <a class="reference external" href="http://nathanmarz.github.io/storm/doc-0.7.1/?backtype/storm/task/TopologyContext.html">http://nathanmarz.github.io/storm/doc-0.7.1/?backtype/storm/task/TopologyContext.html</a>. 
+As seen in the example below, and in <a class="reference external" href="https://groups.google.com/forum/#!topic/storm-user/LEnEB4k_SG4">https://groups.google.com/forum/#!topic/storm-user/LEnEB4k_SG4</a>, there is currently a bug by which Storm doesn&#8217;t send the &#8220;taskid&#8221; to the spouts on the initial handshake of the multilang protocol</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<dl class="docutils">
+<dt>Examples:</dt>
+<dd><ul class="first simple">
+<li>Example configuration:</li>
+</ul>
+<p>{&#8220;topology.tuple.serializer&#8221;: &#8220;backtype.storm.serialization.types.ListDelegateSerializer&#8221;, &#8220;topology.workers&#8221;: 1, &#8220;drpc.worker.threads&#8221;: 64, &#8220;storm.messaging.netty.client_worker_threads&#8221;: 1, &#8220;supervisor.heartbeat.frequency.secs&#8221;: 5, &#8220;topology.executor.send.buffer.size&#8221;: 1024, &#8220;drpc.childopts&#8221;: &#8220;-Xmx768m&#8221;, &#8220;nimbus.thrift.port&#8221;: 6627, &#8220;storm.zookeeper.retry.intervalceiling.millis&#8221;: 30000, &#8220;storm.local.dir&#8221;: &#8220;/tmp/9a198ac9-61e4-406e-95a6-88d5a8d623b9&#8221;, &#8220;topology.receiver.buffer.size&#8221;: 8, &#8220;storm.zookeeper.servers&#8221;: [&#8220;localhost&#8221;], &#8220;transactional.zookeeper.root&#8221;: &#8220;/transactional&#8221;, &#8220;drpc.request.timeout.secs&#8221;: 600, &#8220;topology.skip.missing.kryo.registrations&#8221;: true, &#8220;worker.heartbeat.frequency.secs&#8221;: 1, &#8220;zmq.hwm&#8221;: 0, &#8220;storm.zookeeper.connection.timeout&#8221;: 15000, &#8220;java.library.path&#8221;: &#8220;/usr/local/lib:/opt/local/lib:/usr/lib&#8221;, &#8220;topology.max.error.report.per.interval&#8221;: 5, &#8220;storm.messaging.netty.server_worker_threads&#8221;: 1, &#8220;storm.id&#8221;: &#8220;test-1-1397736849&#8221;, &#8220;supervisor.worker.start.timeout.secs&#8221;: 120, &#8220;zmq.threads&#8221;: 1, &#8220;topology.acker.executors&#8221;: null, &#8220;storm.local.mode.zmq&#8221;: false, &#8220;topology.max.task.parallelism&#8221;: null, &#8220;storm.zookeeper.port&#8221;: 2000, &#8220;nimbus.childopts&#8221;: &#8220;-Xmx1024m&#8221;, &#8220;worker.childopts&#8221;: &#8220;-Xmx768m&#8221;, &#8220;drpc.queue.size&#8221;: 128, &#8220;storm.zookeeper.retry.times&#8221;: 5, &#8220;nimbus.monitor.freq.secs&#8221;: 10, &#8220;storm.cluster.mode&#8221;: &#8220;local&#8221;, &#8220;dev.zookeeper.path&#8221;: &#8220;/tmp/dev-storm-zookeeper&#8221;, &#8220;drpc.invocations.port&#8221;: 3773, &#8220;topology.tasks&#8221;: null, &#8220;storm.zookeeper.root&#8221;: &#8220;/storm&#8221;, &#8220;logviewer.childopts&#8221;: &#8220;-Xmx128m&#8221;, &#8220;transactional.zookeeper.port&#8221;: null, &#8220;topology.worker.childopts&#8221;: null, &#8220;topology.max.spout.pending&#8221;: null, &#8220;topology.kryo.register&#8221;: null, &#8220;nimbus.cleanup.inbox.freq.secs&#8221;: 600, &#8220;storm.messaging.netty.min_wait_ms&#8221;: 100, &#8220;nimbus.task.timeout.secs&#8221;: 30, &#8220;topology.sleep.spout.wait.strategy.time.ms&#8221;: 1, &#8220;topology.optimize&#8221;: true, &#8220;nimbus.reassign&#8221;: true, &#8220;storm.messaging.transport&#8221;: &#8220;backtype.storm.messaging.zmq&#8221;, &#8220;logviewer.appender.name&#8221;: &#8220;A1&#8221;, &#8220;nimbus.host&#8221;: &#8220;localhost&#8221;, &#8220;ui.port&#8221;: 8080, &#8220;supervisor.slots.ports&#8221;: [1, 2, 3], &#8220;nimbus.file.copy.expiration.secs&#8221;: 600, &#8220;supervisor.monitor.frequency.secs&#8221;: 3, &#8220;ui.childopts&#8221;: &#8220;-Xmx768m&#8221;, &#8220;transactional.zookeeper.servers&#8221;: null, &#8220;zmq.linger.millis&#8221;: 0, &#8220;topology.error.throttle.interval.secs&#8221;: 10, &#8220;topology.worker.shared.thread.pool.size&#8221;: 4, &#8220;topology.executor.receive.buffer.size&#8221;: 1024, &#8220;topology.spout.wait.strategy&#8221;: &#8220;backtype.storm.spout.SleepSpoutWaitStrategy&#8221;, &#8220;task.heartbeat.frequency.secs&#8221;: 3, &#8220;topology.transfer.buffer.size&#8221;: 1024, &#8220;storm.zookeeper.session.timeout&#8221;: 20000, &#8220;topology.stats.sample.rate&#8221;: 0.05, &#8220;topology.fall.back.on.java.serialization&#8221;: true, &#8220;supervisor.childopts&#8221;: &#8220;-Xmx256m&#8221;, &#8220;topology.enable.message.timeouts&#8221;: true, &#8220;storm.messaging.netty.max_wait_ms&#8221;: 1000, &#8220;nimbus.topology.validator&#8221;: &#8220;backtype.storm.nimbus.DefaultTopologyValidator&#8221;, &#8220;nimbus.supervisor.timeout.secs&#8221;: 60, &#8220;topology.disruptor.wait.strategy&#8221;: &#8220;com.lmax.disruptor.BlockingWaitStrategy&#8221;, &#8220;storm.messaging.netty.buffer_size&#8221;: 5242880, &#8220;drpc.port&#8221;: 3772, &#8220;topology.kryo.factory&#8221;: &#8220;backtype.storm.serialization.DefaultKryoFactory&#8221;, &#8220;storm.zookeeper.retry.interval&#8221;: 1000, &#8220;storm.messaging.netty.max_retries&#8221;: 30, &#8220;topology.tick.tuple.freq.secs&#8221;: 30, &#8220;supervisor.enable&#8221;: true, &#8220;nimbus.task.launch.secs&#8221;: 120, &#8220;task.refresh.poll.secs&#8221;: 10, &#8220;topology.message.timeout.secs&#8221;: 30, &#8220;nimbus.inbox.jar.expiration.secs&#8221;: 3600, &#8220;topology.state.synchronization.timeout.secs&#8221;: 60, &#8220;topology.name&#8221;: &#8220;test&#8221;, &#8220;supervisor.worker.timeout.secs&#8221;: 30, &#8220;topology.trident.batch.emit.interval.millis&#8221;: 50, &#8220;topology.builtin.metrics.bucket.size.secs&#8221;: 60, &#8220;storm.thrift.transport&#8221;: &#8220;backtype.storm.security.auth.SimpleTransportPlugin&#8221;, &#8220;logviewer.port&#8221;: 8000, &#8220;topology.kryo.decorators&#8221;: [], &#8220;topology.debug&#8221;: true}</p>
+<ul class="last">
+<li><dl class="first docutils">
+<dt>Example context:</dt>
+<dd><p class="first last">{&#8220;task-&gt;component&#8221;: {&#8220;11&#8221;: &#8220;__acker&#8221;, &#8220;10&#8221;: &#8220;TrendsSpout&#8221;, &#8220;1&#8221;: &#8220;TrendsSpout&#8221;, &#8220;3&#8221;: &#8220;TrendsSpout&#8221;, &#8220;2&#8221;: &#8220;TrendsSpout&#8221;, &#8220;5&#8221;: &#8220;TrendsSpout&#8221;, &#8220;4&#8221;: &#8220;TrendsSpout&#8221;, &#8220;7&#8221;: &#8220;TrendsSpout&#8221;, &#8220;6&#8221;: &#8220;TrendsSpout&#8221;, &#8220;9&#8221;: &#8220;TrendsSpout&#8221;, &#8220;8&#8221;: &#8220;TrendsSpout&#8221;}}</p>
+</dd>
+</dl>
+</li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="twitter_storm.storm.Spout.nextTuple">
+<tt class="descname">nextTuple</tt><big>(</big><big>)</big><a class="reference internal" href="_modules/twitter_storm/storm.html#Spout.nextTuple"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#twitter_storm.storm.Spout.nextTuple" title="Permalink to this definition">¶</a></dt>
+<dd><p>This method is called when storm request.</p>
+<ul class="simple">
+<li>Use the functions emit(), emitDirect() and reportError() to emulate the corresponding methods for SpoutOutputCollector</li>
+<li>Use the functiom log() to log messages in the parent Storm worker log</li>
+</ul>
+</dd></dl>
+
+<dl class="method">
+<dt id="twitter_storm.storm.Spout.run">
+<tt class="descname">run</tt><big>(</big><big>)</big><a class="reference internal" href="_modules/twitter_storm/storm.html#Spout.run"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#twitter_storm.storm.Spout.run" title="Permalink to this definition">¶</a></dt>
+<dd><p>To define a spout in python write a module that defines a subclass of Spout, and that calls run() for and instance of that class in its __main__</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="twitter_storm.storm.Tuple">
+<em class="property">class </em><tt class="descclassname">twitter_storm.storm.</tt><tt class="descname">Tuple</tt><big>(</big><em>id</em>, <em>component</em>, <em>stream</em>, <em>task</em>, <em>values</em><big>)</big><a class="reference internal" href="_modules/twitter_storm/storm.html#Tuple"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#twitter_storm.storm.Tuple" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <tt class="xref py py-class docutils literal"><span class="pre">object</span></tt></p>
+<p>This class abstracts the tuples sent to a bolt. See <a class="reference external" href="https://github.com/nathanmarz/storm/wiki/Multilang-protocol#bolts">https://github.com/nathanmarz/storm/wiki/Multilang-protocol#bolts</a> for details</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Variables:</th><td class="field-body"><ul class="first last simple">
+<li><strong>id</strong> &#8211; id of the tuple as string</li>
+<li><strong>component</strong> &#8211; id of the component that created this tuple as string</li>
+<li><strong>stream</strong> &#8211; id of the stream this tuple was emitted to as string</li>
+<li><strong>task</strong> &#8211; id of the task that created this tuple as integer</li>
+<li><strong>values</strong> &#8211; list of values this tuple is composed</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="twitter_storm.storm.ack">
+<tt class="descclassname">twitter_storm.storm.</tt><tt class="descname">ack</tt><big>(</big><em>tup</em><big>)</big><a class="reference internal" href="_modules/twitter_storm/storm.html#ack"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#twitter_storm.storm.ack" title="Permalink to this definition">¶</a></dt>
+<dd><p>Used to emulate the method OutputCollector.ack()</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="twitter_storm.storm.emit">
+<tt class="descclassname">twitter_storm.storm.</tt><tt class="descname">emit</tt><big>(</big><em>*args</em>, <em>**kwargs</em><big>)</big><a class="reference internal" href="_modules/twitter_storm/storm.html#emit"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#twitter_storm.storm.emit" title="Permalink to this definition">¶</a></dt>
+<dd><p>Used to emulate the methods SpoutOutputCollector.emit() and OutputCollector.emit(). 
+Use in Spouts and Bolts to emit a tuple.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>args</strong> &#8211; I have identified just a single argument:
+- tup: list of values corresponding to the tuple to be emitted. The types of these values should be in sync with those declared in the method declareOutputFields() of the ShellSpout or ShellBolt that is wrapping the python code that calls this function, in the Java program defining the topology</li>
+<li><strong>kwargs</strong> &#8211; <p>some relevant possible values:
+- For Spouts:</p>
+<blockquote>
+<div><ul>
+<li>id: message id for the tuple to emit, for guarteed message processing</li>
+</ul>
+</div></blockquote>
+<ul>
+<li><dl class="first docutils">
+<dt>For Bolts:</dt>
+<dd><ul class="first last">
+<li>anchors: optional, list of ids for anchor tuples to use for this emit</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>For Spouts or Bolts:</dt>
+<dd><ul class="first last">
+<li>stream: optional, stream to use to emit this tuple. Default stream 1 is used if not declared</li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="twitter_storm.storm.emitBolt">
+<tt class="descclassname">twitter_storm.storm.</tt><tt class="descname">emitBolt</tt><big>(</big><em>tup</em>, <em>stream=None</em>, <em>anchors=</em>, <span class="optional">[</span><span class="optional">]</span><em>directTask=None</em><big>)</big><a class="reference internal" href="_modules/twitter_storm/storm.html#emitBolt"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#twitter_storm.storm.emitBolt" title="Permalink to this definition">¶</a></dt>
+<dd><p>Roughly equivalent to the OutputCollector class.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="twitter_storm.storm.emitDirect">
+<tt class="descclassname">twitter_storm.storm.</tt><tt class="descname">emitDirect</tt><big>(</big><em>task</em>, <em>*args</em>, <em>**kwargs</em><big>)</big><a class="reference internal" href="_modules/twitter_storm/storm.html#emitDirect"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#twitter_storm.storm.emitDirect" title="Permalink to this definition">¶</a></dt>
+<dd><p>Used to emulate the methods SpoutOutputCollector.emitDirect() and OutputCollector.emitDirect(). 
+Use in Spouts and Bolts to emit a tupl  directly to the task id specified in a keyword argument directTask, which is required. 
+Appart from that it&#8217;s equivalent to emit() above</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="twitter_storm.storm.emitSpout">
+<tt class="descclassname">twitter_storm.storm.</tt><tt class="descname">emitSpout</tt><big>(</big><em>tup</em>, <em>stream=None</em>, <em>id=None</em>, <em>directTask=None</em><big>)</big><a class="reference internal" href="_modules/twitter_storm/storm.html#emitSpout"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#twitter_storm.storm.emitSpout" title="Permalink to this definition">¶</a></dt>
+<dd><p>Roughly equivalent to the SpoutOutputCollector class.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="twitter_storm.storm.fail">
+<tt class="descclassname">twitter_storm.storm.</tt><tt class="descname">fail</tt><big>(</big><em>tup</em><big>)</big><a class="reference internal" href="_modules/twitter_storm/storm.html#fail"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#twitter_storm.storm.fail" title="Permalink to this definition">¶</a></dt>
+<dd><p>Used to emulate the method OutputCollector.fail()</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="twitter_storm.storm.initComponent">
+<tt class="descclassname">twitter_storm.storm.</tt><tt class="descname">initComponent</tt><big>(</big><big>)</big><a class="reference internal" href="_modules/twitter_storm/storm.html#initComponent"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#twitter_storm.storm.initComponent" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="docutils">
+<dt>Multilang-protocol handshake: </dt>
+<dd><ol class="first last arabic">
+<li><dl class="first docutils">
+<dt>read from stdin the setup info from the parent process. This a JSON object with fields </dt>
+<dd><ul class="first last simple">
+<li>&#8220;conf&#8221;: Storm configuration, as a map from strings to objects <a class="reference external" href="http://nathanmarz.github.io/storm/doc/backtype/storm/Config.html">http://nathanmarz.github.io/storm/doc/backtype/storm/Config.html</a></li>
+<li>&#8220;context&#8221;: JSON representation of the TopologyContext object <a class="reference external" href="http://nathanmarz.github.io/storm/doc-0.7.1/?backtype/storm/task/TopologyContext.html">http://nathanmarz.github.io/storm/doc-0.7.1/?backtype/storm/task/TopologyContext.html</a> on which the component will run</li>
+<li>&#8220;pidDir&#8221;: path of the directory heartbeatdir where this process should create an empty file named with its PID, so the parent process can kill this process is needed.</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p class="first">Send the PID of this python process to the parent process, and create an empty file at the path specified by heartbeatdir.</p>
+</li>
+</ol>
+</dd>
+</dl>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">a list with two element, the first is a dictionary with the storm configuration, and the second is a dictionary with the storm context</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="twitter_storm.storm.json_decode">
+<tt class="descclassname">twitter_storm.storm.</tt><tt class="descname">json_decode</tt><big>(</big><em>x</em><big>)</big><a class="headerlink" href="#twitter_storm.storm.json_decode" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="twitter_storm.storm.json_encode">
+<tt class="descclassname">twitter_storm.storm.</tt><tt class="descname">json_encode</tt><big>(</big><em>x</em><big>)</big><a class="headerlink" href="#twitter_storm.storm.json_encode" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="twitter_storm.storm.log">
+<tt class="descclassname">twitter_storm.storm.</tt><tt class="descname">log</tt><big>(</big><em>msg</em><big>)</big><a class="reference internal" href="_modules/twitter_storm/storm.html#log"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#twitter_storm.storm.log" title="Permalink to this definition">¶</a></dt>
+<dd><p>Used to log messages in the parent Storm worker log</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="twitter_storm.storm.readCommand">
+<tt class="descclassname">twitter_storm.storm.</tt><tt class="descname">readCommand</tt><big>(</big><big>)</big><a class="reference internal" href="_modules/twitter_storm/storm.html#readCommand"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#twitter_storm.storm.readCommand" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="twitter_storm.storm.readMsg">
+<tt class="descclassname">twitter_storm.storm.</tt><tt class="descname">readMsg</tt><big>(</big><big>)</big><a class="reference internal" href="_modules/twitter_storm/storm.html#readMsg"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#twitter_storm.storm.readMsg" title="Permalink to this definition">¶</a></dt>
+<dd><p>Read messages sent by parent process. According to the multilang protocol messages end with a single line containing &#8220;end&#8221; and correspond to JSON objects</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="twitter_storm.storm.readTaskIds">
+<tt class="descclassname">twitter_storm.storm.</tt><tt class="descname">readTaskIds</tt><big>(</big><big>)</big><a class="reference internal" href="_modules/twitter_storm/storm.html#readTaskIds"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#twitter_storm.storm.readTaskIds" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="twitter_storm.storm.readTuple">
+<tt class="descclassname">twitter_storm.storm.</tt><tt class="descname">readTuple</tt><big>(</big><big>)</big><a class="reference internal" href="_modules/twitter_storm/storm.html#readTuple"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#twitter_storm.storm.readTuple" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="twitter_storm.storm.reportError">
+<tt class="descclassname">twitter_storm.storm.</tt><tt class="descname">reportError</tt><big>(</big><em>msg</em><big>)</big><a class="reference internal" href="_modules/twitter_storm/storm.html#reportError"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#twitter_storm.storm.reportError" title="Permalink to this definition">¶</a></dt>
+<dd><p>Used to emulate the methods SpoutOutputCollector.reportError() and OutputCollector.reportError()</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="twitter_storm.storm.sendMsgToParent">
+<tt class="descclassname">twitter_storm.storm.</tt><tt class="descname">sendMsgToParent</tt><big>(</big><em>msg</em><big>)</big><a class="reference internal" href="_modules/twitter_storm/storm.html#sendMsgToParent"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#twitter_storm.storm.sendMsgToParent" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="twitter_storm.storm.sendpid">
+<tt class="descclassname">twitter_storm.storm.</tt><tt class="descname">sendpid</tt><big>(</big><em>heartbeatdir</em><big>)</big><a class="reference internal" href="_modules/twitter_storm/storm.html#sendpid"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#twitter_storm.storm.sendpid" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="docutils">
+<dt>Multilang-protocol handshake: </dt>
+<dd>Send the PID of this python process to the parent process, and create an empty file at the path specified by heartbeatdir.</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="twitter_storm.storm.sync">
+<tt class="descclassname">twitter_storm.storm.</tt><tt class="descname">sync</tt><big>(</big><big>)</big><a class="reference internal" href="_modules/twitter_storm/storm.html#sync"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#twitter_storm.storm.sync" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</div>
+<div class="section" id="module-twitter_storm.trends_bolt">
+<span id="twitter-storm-trends-bolt-module"></span><h2>twitter_storm.trends_bolt module<a class="headerlink" href="#module-twitter_storm.trends_bolt" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="module-twitter_storm.twitter_components">
+<span id="twitter-storm-twitter-components-module"></span><h2>twitter_storm.twitter_components module<a class="headerlink" href="#module-twitter_storm.twitter_components" title="Permalink to this headline">¶</a></h2>
+<p>Based on storm.py module from <a class="reference external" href="https://github.com/nathanmarz/storm/blob/master/storm-core/src/multilang/py/storm.py">https://github.com/nathanmarz/storm/blob/master/storm-core/src/multilang/py/storm.py</a>, and the examples from <a class="reference external" href="https://github.com/apache/incubator-storm/blob/master/examples/storm-starter/multilang/resources/splitsentence.py">https://github.com/apache/incubator-storm/blob/master/examples/storm-starter/multilang/resources/splitsentence.py</a> and <a class="reference external" href="http://storm.incubator.apache.org/documentation/Tutorial.html">http://storm.incubator.apache.org/documentation/Tutorial.html</a></p>
+<p>Packaging: To run a shell component on a cluster, the scripts that are shelled out to must be in the resources/ directory within the jar submitted to the master (<a class="reference external" href="https://github.com/nathanmarz/storm/wiki/Multilang-protocol">https://github.com/nathanmarz/storm/wiki/Multilang-protocol</a>). By default, Maven will look for your project&#8217;s resources under src/main/resources (<a class="reference external" href="https://maven.apache.org/plugins/maven-resources-plugin/examples/resource-directory.html">https://maven.apache.org/plugins/maven-resources-plugin/examples/resource-directory.html</a>).</p>
+<p>Tested in Python2.7 and Apache Storm 0.9.0.1</p>
+<dl class="class">
+<dt id="twitter_storm.twitter_components.GetTweetsBolt">
+<em class="property">class </em><tt class="descclassname">twitter_storm.twitter_components.</tt><tt class="descname">GetTweetsBolt</tt><a class="reference internal" href="_modules/twitter_storm/twitter_components.html#GetTweetsBolt"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#twitter_storm.twitter_components.GetTweetsBolt" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#twitter_storm.twitter_components.TwitterBolt" title="twitter_storm.twitter_components.TwitterBolt"><tt class="xref py py-class docutils literal"><span class="pre">twitter_storm.twitter_components.TwitterBolt</span></tt></a></p>
+<p>Assumes each input tuple is of the shape (place, topic_name, query) where query is a twitter query string for the trending topic topic_name. For each input tuple Twitter is queried for the most popular tweets, and some fields are projected from each resulting tweets and then emitted, see process() for details about the fields.</p>
+<p>In case the Twitter REST API Rate limit is hit, this bolt sleeps for some seconds.</p>
+<dl class="method">
+<dt id="twitter_storm.twitter_components.GetTweetsBolt.process">
+<tt class="descname">process</tt><big>(</big><em>tuple</em><big>)</big><a class="reference internal" href="_modules/twitter_storm/twitter_components.html#GetTweetsBolt.process"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#twitter_storm.twitter_components.GetTweetsBolt.process" title="Permalink to this definition">¶</a></dt>
+<dd><p>Must fulfil the following contract expressed in the Java wrapper:</p>
+<dl class="docutils">
+<dt>declarer.declare(new Fields(TopologyFields.AUTHOR_SCREEN_NAME, TopologyFields.CREATED_AT,</dt>
+<dd>TopologyFields.FAV_COUNT, TopologyFields.HASHTAGS_TEXTS, TopologyFields.IN_REPLY_TO_SCREEN_NAME, 
+TopologyFields.LANG, TopologyFields.RETWEET_COUNT, TopologyFields.RETWEETED, 
+TopologyFields.SOURCE, TopologyFields.PLACE, TopologyFields.POSSIBLY_SENSITIVE,
+TopologyFields.TEXT, TopologyFields.TOPIC_NAME));</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="twitter_storm.twitter_components.PlacesSpout">
+<em class="property">class </em><tt class="descclassname">twitter_storm.twitter_components.</tt><tt class="descname">PlacesSpout</tt><a class="reference internal" href="_modules/twitter_storm/twitter_components.html#PlacesSpout"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#twitter_storm.twitter_components.PlacesSpout" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#twitter_storm.storm.Spout" title="twitter_storm.storm.Spout"><tt class="xref py py-class docutils literal"><span class="pre">twitter_storm.storm.Spout</span></tt></a></p>
+<p>Emit a tuple with a single field for a place as encoded in the module get_tweets,
+with the frequency specified in the storm configuration passed at initialize()</p>
+<dl class="method">
+<dt id="twitter_storm.twitter_components.PlacesSpout.initialize">
+<tt class="descname">initialize</tt><big>(</big><em>conf</em>, <em>context</em><big>)</big><a class="reference internal" href="_modules/twitter_storm/twitter_components.html#PlacesSpout.initialize"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#twitter_storm.twitter_components.PlacesSpout.initialize" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="twitter_storm.twitter_components.PlacesSpout.nextTuple">
+<tt class="descname">nextTuple</tt><big>(</big><big>)</big><a class="reference internal" href="_modules/twitter_storm/twitter_components.html#PlacesSpout.nextTuple"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#twitter_storm.twitter_components.PlacesSpout.nextTuple" title="Permalink to this definition">¶</a></dt>
+<dd><p>Should adhere to the following contract expressed in the wrapping Java spout</p>
+<p>declarer.declare(new Fields(TopologyFields.PLACE));</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="twitter_storm.twitter_components.TrendsBolt">
+<em class="property">class </em><tt class="descclassname">twitter_storm.twitter_components.</tt><tt class="descname">TrendsBolt</tt><a class="reference internal" href="_modules/twitter_storm/twitter_components.html#TrendsBolt"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#twitter_storm.twitter_components.TrendsBolt" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#twitter_storm.twitter_components.TwitterBolt" title="twitter_storm.twitter_components.TwitterBolt"><tt class="xref py py-class docutils literal"><span class="pre">twitter_storm.twitter_components.TwitterBolt</span></tt></a></p>
+<p>Assumes each input tuple has a single field for the name of a place as encoded in get_tweets. This bolt emits tuples (place, trend name, query) for the trending topics at the coordinates corresponding to that place. 
+In case the Twitter REST API Rate limit is hit, this bolt sleeps for some seconds.</p>
+<dl class="method">
+<dt id="twitter_storm.twitter_components.TrendsBolt.process">
+<tt class="descname">process</tt><big>(</big><em>tuple</em><big>)</big><a class="reference internal" href="_modules/twitter_storm/twitter_components.html#TrendsBolt.process"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#twitter_storm.twitter_components.TrendsBolt.process" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="twitter_storm.twitter_components.TwitterBolt">
+<em class="property">class </em><tt class="descclassname">twitter_storm.twitter_components.</tt><tt class="descname">TwitterBolt</tt><a class="reference internal" href="_modules/twitter_storm/twitter_components.html#TwitterBolt"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#twitter_storm.twitter_components.TwitterBolt" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#twitter_storm.storm.Bolt" title="twitter_storm.storm.Bolt"><tt class="xref py py-class docutils literal"><span class="pre">twitter_storm.storm.Bolt</span></tt></a></p>
+<p>This class extends storm.Bolt as no ack is handled because we are using a non reliable source with no defined id for the messages.
+As additional functionality, a tweepy.api.API object ready to used is stored at self._twitter_api during initialization.</p>
+<p>NOTE: don&#8217;t forget to setup authentication calling &#8220;python2.7 get_tweets.py&#8221; __before__ compiling the topology: the auth file has to be included in the jar and copied to the cluster</p>
+<dl class="method">
+<dt id="twitter_storm.twitter_components.TwitterBolt.initialize">
+<tt class="descname">initialize</tt><big>(</big><em>stormconf</em>, <em>context</em><big>)</big><a class="reference internal" href="_modules/twitter_storm/twitter_components.html#TwitterBolt.initialize"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#twitter_storm.twitter_components.TwitterBolt.initialize" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="function">
+<dt id="twitter_storm.twitter_components.log_tweeter_error">
+<tt class="descclassname">twitter_storm.twitter_components.</tt><tt class="descname">log_tweeter_error</tt><big>(</big><em>tweep_error</em>, <em>sleep_time=2</em><big>)</big><a class="reference internal" href="_modules/twitter_storm/twitter_components.html#log_tweeter_error"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#twitter_storm.twitter_components.log_tweeter_error" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>tweep_error</strong> &#8211; Exception dealing with twitter to log to the parent process</li>
+<li><strong>sleep_time</strong> &#8211; time in seconds to sleep before continuing the execution</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="module-twitter_storm">
+<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-twitter_storm" title="Permalink to this headline">¶</a></h2>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">twitter_storm package</a><ul>
+<li><a class="reference internal" href="#submodules">Submodules</a></li>
+<li><a class="reference internal" href="#module-twitter_storm.get_tweets">twitter_storm.get_tweets module</a></li>
+<li><a class="reference internal" href="#module-twitter_storm.get_tweets_bolt">twitter_storm.get_tweets_bolt module</a></li>
+<li><a class="reference internal" href="#module-twitter_storm.places_spout">twitter_storm.places_spout module</a></li>
+<li><a class="reference internal" href="#module-twitter_storm.storm">twitter_storm.storm module</a></li>
+<li><a class="reference internal" href="#module-twitter_storm.trends_bolt">twitter_storm.trends_bolt module</a></li>
+<li><a class="reference internal" href="#module-twitter_storm.twitter_components">twitter_storm.twitter_components module</a></li>
+<li><a class="reference internal" href="#module-twitter_storm">Module contents</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="index.html"
+                        title="previous chapter">Welcome to Storm Py Twitter&#8217;s documentation!</a></p>
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="_sources/twitter_storm.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="index.html" title="Welcome to Storm Py Twitter’s documentation!"
+             >previous</a> |</li>
+        <li><a href="index.html">Storm Py Twitter  documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2014, Juan Rodriguez Hortala &lt;juan.rodriguez.hortala@gmail.com.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.2.2.
+    </div>
+  </body>
+</html>

@@ -1,0 +1,253 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>twitter_storm.get_tweets &mdash; Storm Py Twitter  documentation</title>
+    
+    <link rel="stylesheet" href="../../_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <link rel="top" title="Storm Py Twitter  documentation" href="../../index.html" />
+    <link rel="up" title="Module code" href="../index.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="../../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li><a href="../../index.html">Storm Py Twitter  documentation</a> &raquo;</li>
+          <li><a href="../index.html" accesskey="U">Module code</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <h1>Source code for twitter_storm.get_tweets</h1><div class="highlight"><pre>
+<span class="c">#!/usr/bin/env python</span>
+<span class="c"># -*- coding: utf-8 -*-</span>
+
+<span class="kn">import</span> <span class="nn">os</span><span class="o">,</span> <span class="nn">json</span><span class="o">,</span> <span class="nn">sys</span>
+<span class="kn">import</span> <span class="nn">tweepy</span>
+
+<span class="sd">&#39;&#39;&#39;</span>
+<span class="sd">Utils for connecting to Twitter, based on tweepy (https://github.com/tweepy/tweepy)</span>
+
+<span class="sd">For python 2.7</span>
+
+<span class="sd">Assumming a file twitter_secrets.json with fields &quot;key&quot; and &quot;secret&quot; with a valid tweeter consumer token and secret</span>
+<span class="sd">&#39;&#39;&#39;</span>
+<span class="n">_script_dir</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">realpath</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">dirname</span><span class="p">(</span><span class="n">__file__</span><span class="p">))</span>
+
+<span class="c"># Config</span>
+<span class="n">_conf_dir</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">_script_dir</span><span class="p">)</span>
+<span class="n">_conf</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">()</span>
+
+<span class="c"># Load config file</span>
+<span class="k">try</span><span class="p">:</span> 
+    <span class="n">path</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">_conf_dir</span><span class="p">,</span> <span class="s">&#39;conf.json&#39;</span><span class="p">)</span>
+    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">path</span><span class="p">,</span> <span class="s">&#39;r&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">conf_f</span><span class="p">:</span>
+        <span class="n">_conf</span> <span class="o">=</span> <span class="n">json</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="n">conf_f</span><span class="p">)</span>
+    <span class="n">path</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">_conf_dir</span><span class="p">,</span> <span class="s">&#39;twitter_secrets.json&#39;</span><span class="p">)</span>
+    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">path</span><span class="p">,</span> <span class="s">&#39;r&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">conf_f</span><span class="p">:</span>
+        <span class="n">_conf</span><span class="p">[</span><span class="s">&quot;twitter&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">update</span><span class="p">(</span><span class="n">json</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="n">conf_f</span><span class="p">))</span>
+<span class="k">except</span> <span class="ne">Exception</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
+    <span class="n">msg</span> <span class="o">=</span> <span class="s">&quot;Error loading configuration from path &quot;</span> <span class="o">+</span> <span class="n">path</span>
+    <span class="k">raise</span> <span class="ne">RuntimeError</span><span class="p">(</span><span class="n">msg</span><span class="p">,</span> <span class="n">e</span><span class="p">)</span>
+
+<div class="viewcode-block" id="authenticate"><a class="viewcode-back" href="../../twitter_storm.html#twitter_storm.get_tweets.authenticate">[docs]</a><span class="k">def</span> <span class="nf">authenticate</span><span class="p">(</span><span class="n">rebuild</span><span class="o">=</span><span class="bp">False</span><span class="p">):</span>
+    <span class="sd">&#39;&#39;&#39;</span>
+<span class="sd">    Return an OAuthHandler after the autentication process.</span>
+<span class="sd">    If rebuild is true then any access token and key stored in disk will be ignored.</span>
+
+<span class="sd">    Following https://pythonhosted.org/tweepy/html/auth_tutorial.html?highlight=oauthhandler</span>
+
+<span class="sd">    :param rebuild: If rebuild is True then the autentication process is performed from scratch.</span>
+<span class="sd">    :type rebuild: bool</span>
+
+<span class="sd">    :returns: A tweepy.api.API object ready to use for autentication.</span>
+
+<span class="sd">    :raises: RuntimeError        </span>
+<span class="sd">    &#39;&#39;&#39;</span>
+    <span class="c"># create OAuthHandler with the consumer token and secret for </span>
+    <span class="c"># the corresponding Twitter app</span>
+    <span class="n">auth</span> <span class="o">=</span> <span class="n">tweepy</span><span class="o">.</span><span class="n">OAuthHandler</span><span class="p">(</span><span class="n">_conf</span><span class="p">[</span><span class="s">&quot;twitter&quot;</span><span class="p">][</span><span class="s">&quot;key&quot;</span><span class="p">],</span> <span class="n">_conf</span><span class="p">[</span><span class="s">&quot;twitter&quot;</span><span class="p">][</span><span class="s">&quot;secret&quot;</span><span class="p">])</span>
+
+    <span class="c"># &quot;Twitter currently does not expire the tokens, so the only time it would ever</span>
+    <span class="c"># go invalid is if the user revokes our application access.&quot; So lets try to </span>
+    <span class="c"># reuse the access token an secret, stored in disk</span>
+    <span class="n">credentials_path</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">_script_dir</span><span class="p">,</span> <span class="n">_conf</span><span class="p">[</span><span class="s">&quot;twitter&quot;</span><span class="p">][</span><span class="s">&quot;credentials_filename&quot;</span><span class="p">])</span>
+    <span class="k">if</span> <span class="p">(</span><span class="ow">not</span> <span class="n">rebuild</span><span class="p">)</span> <span class="ow">and</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="n">credentials_path</span><span class="p">):</span>
+        <span class="k">try</span><span class="p">:</span> 
+            <span class="c"># reuse existing access token and secret</span>
+            <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">credentials_path</span><span class="p">,</span> <span class="s">&#39;r&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">creds_f</span><span class="p">:</span>
+                <span class="n">credentials</span> <span class="o">=</span> <span class="n">json</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="n">creds_f</span><span class="p">)</span>
+                <span class="n">access_key</span><span class="p">,</span> <span class="n">access_secret</span> <span class="o">=</span> <span class="n">credentials</span><span class="p">[</span><span class="s">&quot;access_key&quot;</span><span class="p">],</span> <span class="n">credentials</span><span class="p">[</span><span class="s">&quot;access_secret&quot;</span><span class="p">]</span>
+            <span class="c"># rebuild the OAuthHandler with the access and secret key</span>
+            <span class="n">auth</span><span class="o">.</span><span class="n">set_access_token</span><span class="p">(</span><span class="n">access_key</span><span class="p">,</span> <span class="n">access_secret</span><span class="p">)</span>
+            <span class="k">return</span> <span class="n">auth</span>
+        <span class="k">except</span><span class="p">:</span>
+            <span class="c"># try autentication from scratch</span>
+            <span class="k">pass</span>
+    
+    <span class="c"># Otherwise do the OAuth dance: to exchange request token for an access token</span>
+    <span class="c"># ask for user autorization using the URL generated by auth from the request </span>
+    <span class="c"># token</span>
+        <span class="c"># Ask the use to go to Tweeter to authorize and geting a verifier code</span>
+    <span class="k">print</span> <span class="s">&quot;Please go to {url} to authorize the app {app} and input the verifier code here&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">url</span><span class="o">=</span><span class="n">auth</span><span class="o">.</span><span class="n">get_authorization_url</span><span class="p">(),</span> <span class="n">app</span><span class="o">=</span><span class="n">_conf</span><span class="p">[</span><span class="s">&quot;twitter&quot;</span><span class="p">][</span><span class="s">&quot;appname&quot;</span><span class="p">])</span>
+    <span class="n">verifier_code</span> <span class="o">=</span> <span class="nb">raw_input</span><span class="p">(</span><span class="s">&quot;Verifier code: &quot;</span> <span class="p">)</span>
+    <span class="k">try</span><span class="p">:</span>
+        <span class="c"># exchange the request stored in auth token for an access token by providing</span>
+        <span class="c"># the verifier code as a proof of user autorization</span>
+        <span class="n">auth</span><span class="o">.</span><span class="n">get_access_token</span><span class="p">(</span><span class="n">verifier_code</span><span class="p">)</span>
+    <span class="k">except</span> <span class="n">tweepy</span><span class="o">.</span><span class="n">TweepError</span> <span class="k">as</span> <span class="n">tpe</span><span class="p">:</span>
+        <span class="n">msg</span> <span class="o">=</span> <span class="s">&quot;Error getting access to Twitter app {app}&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">app</span><span class="o">=</span><span class="n">_conf</span><span class="p">[</span><span class="s">&quot;twitter&quot;</span><span class="p">][</span><span class="s">&quot;appname&quot;</span><span class="p">])</span>
+        <span class="k">raise</span> <span class="ne">RuntimeError</span><span class="p">(</span><span class="n">msg</span><span class="p">,</span> <span class="n">tpe</span><span class="p">)</span>
+    <span class="k">print</span> <span class="s">&quot;Authentication in Twitter for app {app} succeed&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">app</span><span class="o">=</span><span class="n">_conf</span><span class="p">[</span><span class="s">&quot;twitter&quot;</span><span class="p">][</span><span class="s">&quot;appname&quot;</span><span class="p">])</span>
+        <span class="c"># Store access token and secret key in disk for future use</span>
+    <span class="k">try</span><span class="p">:</span> 
+        <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">credentials_path</span><span class="p">,</span> <span class="s">&#39;w&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">creds_f</span><span class="p">:</span>
+            <span class="n">json</span><span class="o">.</span><span class="n">dump</span><span class="p">({</span><span class="s">&quot;access_key&quot;</span> <span class="p">:</span> <span class="n">auth</span><span class="o">.</span><span class="n">access_token</span><span class="o">.</span><span class="n">key</span><span class="p">,</span> <span class="s">&quot;access_secret&quot;</span> <span class="p">:</span> <span class="n">auth</span><span class="o">.</span><span class="n">access_token</span><span class="o">.</span><span class="n">secret</span><span class="p">},</span> <span class="n">creds_f</span><span class="p">)</span>
+    <span class="k">except</span> <span class="ne">Exception</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
+        <span class="n">msg</span> <span class="o">=</span> <span class="s">&quot;Error saving access token and secret&quot;</span>
+        <span class="k">raise</span> <span class="ne">RuntimeError</span><span class="p">(</span><span class="n">msg</span><span class="p">,</span> <span class="n">e</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">auth</span>
+</div>
+<div class="viewcode-block" id="available_places"><a class="viewcode-back" href="../../twitter_storm.html#twitter_storm.get_tweets.available_places">[docs]</a><span class="k">def</span> <span class="nf">available_places</span><span class="p">():</span>
+    <span class="sd">&#39;&#39;&#39;</span>
+<span class="sd">    :returns a dictionary from place names to a dictionary with keys &quot;lat&quot; and &quot;long&quot; for the corresponding longitude and latitute</span>
+<span class="sd">    &#39;&#39;&#39;</span>
+    <span class="k">return</span> <span class="n">_conf</span><span class="p">[</span><span class="s">&quot;places&quot;</span><span class="p">]</span>
+</div>
+<div class="viewcode-block" id="get_trending_topics_text"><a class="viewcode-back" href="../../twitter_storm.html#twitter_storm.get_tweets.get_trending_topics_text">[docs]</a><span class="k">def</span> <span class="nf">get_trending_topics_text</span><span class="p">(</span><span class="n">api</span><span class="p">,</span> <span class="n">place</span><span class="o">=</span><span class="n">available_places</span><span class="p">()</span><span class="o">.</span><span class="n">keys</span><span class="p">()[</span><span class="mi">0</span><span class="p">]):</span> <span class="c">#woeid = 23424950):</span>
+    <span class="sd">&#39;&#39;&#39;</span>
+<span class="sd">    Gets the trending topics closest to the location specified. </span>
+
+<span class="sd">    :param api: API object to use for connecting to Twitter.</span>
+<span class="sd">    :type api: tweepy.api.API object</span>
+
+<span class="sd">    :param place: encodes a location, following the convention in the configuration file FIXME.</span>
+<span class="sd">    :type place: str</span>
+
+<span class="sd">    :returns: A list of dictionaries with keys &#39;name&#39; and &#39;query&#39; corresponding to hashtags for the 10 most trending topics for that location, e.g. [{&#39;query&#39;: &#39;%22Adolfo+Su%C3%A1rez%22&#39;, &#39;name&#39;: u&#39;Adolfo Su\xe1rez&#39;}, ...]</span>
+<span class="sd">    &#39;&#39;&#39;</span>
+    <span class="n">response</span> <span class="o">=</span> <span class="n">api</span><span class="o">.</span><span class="n">trends_place</span><span class="p">(</span><span class="n">api</span><span class="o">.</span><span class="n">trends_closest</span><span class="p">(</span><span class="o">**</span><span class="n">_conf</span><span class="p">[</span><span class="s">&quot;places&quot;</span><span class="p">][</span><span class="n">place</span><span class="p">])[</span><span class="mi">0</span><span class="p">][</span><span class="s">&quot;woeid&quot;</span><span class="p">])</span>
+    <span class="c"># Trends have the shape:</span>
+    <span class="c">#     {&#39;url&#39;: &#39;http://twitter.com/search?q=%23euroUPyD&#39;, &#39;query&#39;: &#39;%23euroUPyD&#39;, &#39;name&#39;: &#39;#euroUPyD&#39;, &#39;promoted_content&#39;: None, &#39;events&#39;: None}</span>
+    <span class="k">return</span> <span class="p">[{</span><span class="n">k</span> <span class="p">:</span> <span class="n">trend</span><span class="p">[</span><span class="n">k</span><span class="p">]</span> <span class="k">for</span> <span class="n">k</span> <span class="ow">in</span> <span class="p">[</span><span class="s">&#39;name&#39;</span><span class="p">,</span> <span class="s">&#39;query&#39;</span><span class="p">]}</span> <span class="k">for</span> <span class="n">trend</span> <span class="ow">in</span> <span class="n">response</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="s">&#39;trends&#39;</span><span class="p">]</span> <span class="p">]</span>
+</div>
+<div class="viewcode-block" id="get_tweets_for_trends"><a class="viewcode-back" href="../../twitter_storm.html#twitter_storm.get_tweets.get_tweets_for_trends">[docs]</a><span class="k">def</span> <span class="nf">get_tweets_for_trends</span><span class="p">(</span><span class="n">api</span><span class="p">,</span> <span class="n">trends</span><span class="p">,</span> <span class="n">count</span><span class="o">=</span><span class="mi">15</span><span class="p">,</span> <span class="n">popular</span> <span class="o">=</span> <span class="bp">False</span><span class="p">,</span> <span class="n">tweet_processor</span> <span class="o">=</span> <span class="bp">None</span><span class="p">,</span> <span class="o">**</span><span class="n">search_params</span><span class="p">):</span>
+    <span class="sd">&#39;&#39;&#39;</span>
+<span class="sd">    Launch a search to Twitter for tweets corresponding to the trend spec in the list trends, that has the format returned by get_trending_topics_text(). </span>
+
+<span class="sd">    :param api: API object to use for connecting to Twitter.</span>
+<span class="sd">    :type api: tweepy.api.API object</span>
+
+<span class="sd">    :param trends: list of dictionaries in the format returned by get_trending_topics_text().</span>
+
+<span class="sd">    :param count: number of tweets to retrieve per element in trends.</span>
+<span class="sd">    :type count: int</span>
+
+<span class="sd">    :param popular: whether to search for poular tweets (result_type &#39;popular&#39; in the queries) or not. This limits the result to 15 tweets maximum ignoring &#39;count&#39;, for what it appears to be a bug https://dev.twitter.com/discussions/19472.</span>
+<span class="sd">    :type popular: bool</span>
+
+<span class="sd">    :param tweet_processor: Function that takes an object of the class tweepy.models.Status and returns a dictionary corresponding to projecting some fields of that object. This way projection may occour at levels deeper that the first level. By default the fields &#39;text&#39;, &#39;favorite_count&#39;, &#39;created_at&#39; are projected. </span>
+<span class="sd">        search_params - any other arguments for calling api.search, e.g. lang (&quot;es&quot;, &quot;en&quot;, ..)</span>
+
+<span class="sd">    :param search_params: Additional keyword arguments to use in the call to api.search for querying Twitter.</span>
+
+<span class="sd">    :returns: An iterator of the input list where each dictionary has been extended with a &#39;tweets&#39; field that contains the result of applying tweet_processor to each tweepy.models.Status returned by the corresponding query to twitter. See https://dev.twitter.com/docs/platform-objects/tweets for the meaning of the fields. </span>
+<span class="sd">    &#39;&#39;&#39;</span>
+    <span class="k">if</span> <span class="n">tweet_processor</span> <span class="ow">is</span> <span class="bp">None</span><span class="p">:</span>
+        <span class="n">tweet_processor</span> <span class="o">=</span> <span class="k">lambda</span> <span class="n">status</span><span class="p">:</span> <span class="p">{</span><span class="n">k</span> <span class="p">:</span> <span class="n">status</span><span class="o">.</span><span class="n">__dict__</span><span class="p">[</span><span class="n">k</span><span class="p">]</span> <span class="k">for</span> <span class="n">k</span> <span class="ow">in</span> <span class="p">[</span><span class="s">&#39;text&#39;</span><span class="p">,</span> <span class="s">&#39;favorite_count&#39;</span><span class="p">,</span> <span class="s">&#39;created_at&#39;</span><span class="p">]}</span>
+    <span class="n">query</span> <span class="o">=</span> <span class="p">(</span><span class="k">lambda</span> <span class="n">trend</span> <span class="p">:</span> <span class="nb">sorted</span><span class="p">(</span><span class="n">api</span><span class="o">.</span><span class="n">search</span><span class="p">(</span><span class="n">q</span><span class="o">=</span><span class="n">trend</span><span class="p">[</span><span class="s">&#39;query&#39;</span><span class="p">],</span> <span class="n">count</span><span class="o">=</span><span class="n">count</span><span class="p">,</span> <span class="n">result_type</span> <span class="o">=</span> <span class="s">&#39;popular&#39;</span><span class="p">,</span> <span class="o">**</span><span class="n">search_params</span><span class="p">),</span> 
+                                   <span class="n">key</span><span class="o">=</span><span class="k">lambda</span> <span class="n">r</span> <span class="p">:</span> <span class="n">r</span><span class="o">.</span><span class="n">favorite_count</span><span class="p">,</span> <span class="n">reverse</span><span class="o">=</span><span class="bp">True</span><span class="p">)[:</span><span class="n">count</span><span class="p">])</span> <span class="k">if</span> <span class="n">popular</span>\
+                <span class="k">else</span> <span class="p">(</span><span class="k">lambda</span> <span class="n">trend</span> <span class="p">:</span> <span class="n">api</span><span class="o">.</span><span class="n">search</span><span class="p">(</span><span class="n">q</span><span class="o">=</span><span class="n">trend</span><span class="p">[</span><span class="s">&#39;query&#39;</span><span class="p">],</span> <span class="n">count</span><span class="o">=</span><span class="n">count</span><span class="p">,</span> <span class="o">**</span><span class="n">search_params</span><span class="p">))</span>
+    <span class="k">return</span> <span class="p">(</span><span class="nb">dict</span><span class="p">({</span><span class="s">&quot;tweets&quot;</span> <span class="p">:</span> <span class="p">[</span> <span class="n">tweet_processor</span><span class="p">(</span><span class="n">status</span><span class="p">)</span> <span class="k">for</span> <span class="n">status</span> <span class="ow">in</span> <span class="n">query</span><span class="p">(</span><span class="n">trend</span><span class="p">)</span> <span class="p">]},</span> <span class="o">**</span><span class="n">trend</span><span class="p">)</span> 
+                 <span class="k">for</span> <span class="n">trend</span> <span class="ow">in</span> <span class="n">trends</span><span class="p">)</span>
+</div>
+<div class="viewcode-block" id="example_tweet_processor"><a class="viewcode-back" href="../../twitter_storm.html#twitter_storm.get_tweets.example_tweet_processor">[docs]</a><span class="k">def</span> <span class="nf">example_tweet_processor</span><span class="p">(</span><span class="n">status</span><span class="p">):</span>
+        <span class="n">shallow_fields</span> <span class="o">=</span> <span class="p">[</span><span class="s">&#39;text&#39;</span><span class="p">,</span> <span class="s">&#39;favorite_count&#39;</span><span class="p">,</span> <span class="s">&#39;retweeted&#39;</span><span class="p">,</span> <span class="s">&#39;in_reply_to_screen_name&#39;</span><span class="p">,</span>
+                          <span class="s">&#39;retweet_count&#39;</span><span class="p">,</span> <span class="s">&#39;possibly_sensitive&#39;</span><span class="p">,</span> <span class="s">&#39;lang&#39;</span><span class="p">,</span> <span class="s">&#39;created_at&#39;</span><span class="p">,</span> <span class="s">&#39;source&#39;</span><span class="p">]</span>
+        <span class="n">ret</span> <span class="o">=</span> <span class="p">{</span><span class="n">k</span> <span class="p">:</span> <span class="n">status</span><span class="o">.</span><span class="n">__dict__</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">k</span><span class="p">,</span> <span class="bp">None</span><span class="p">)</span> <span class="k">for</span> <span class="n">k</span> <span class="ow">in</span> <span class="n">shallow_fields</span><span class="p">}</span>
+        <span class="n">ret</span><span class="p">[</span><span class="s">&#39;author.screen_name&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">status</span><span class="o">.</span><span class="n">author</span><span class="o">.</span><span class="n">screen_name</span>
+        <span class="n">ret</span><span class="p">[</span><span class="s">&#39;hashtags.text&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="n">hashtag</span><span class="p">[</span><span class="s">&#39;text&#39;</span><span class="p">]</span> <span class="k">for</span> <span class="n">hashtag</span> <span class="ow">in</span> <span class="n">status</span><span class="o">.</span><span class="n">entities</span><span class="p">[</span><span class="s">&#39;hashtags&#39;</span><span class="p">]]</span>
+        <span class="n">ret</span><span class="p">[</span><span class="s">&#39;place.full_name&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">status</span><span class="o">.</span><span class="n">place</span><span class="o">.</span><span class="n">full_name</span> <span class="k">if</span> <span class="ow">not</span> <span class="n">status</span><span class="o">.</span><span class="n">place</span> <span class="ow">is</span> <span class="bp">None</span> <span class="k">else</span> <span class="bp">None</span>
+        <span class="k">return</span> <span class="n">ret</span>
+</div>
+<span class="k">if</span> <span class="n">__name__</span> <span class="o">==</span> <span class="s">&#39;__main__&#39;</span><span class="p">:</span>
+    <span class="k">print</span> <span class="s">&quot;Starting authentication setup&quot;</span>
+    <span class="n">auth</span> <span class="o">=</span> <span class="n">authenticate</span><span class="p">(</span><span class="n">rebuild</span><span class="o">=</span><span class="bp">False</span><span class="p">)</span>
+    <span class="k">print</span> <span class="s">&quot;Testing authentication&quot;</span>
+    <span class="n">api</span> <span class="o">=</span> <span class="n">tweepy</span><span class="o">.</span><span class="n">API</span><span class="p">(</span><span class="n">auth</span><span class="p">)</span>
+    <span class="n">trends</span> <span class="o">=</span> <span class="n">get_trending_topics_text</span><span class="p">(</span><span class="n">api</span><span class="p">)</span>
+    <span class="k">print</span> <span class="s">&quot;Trending topics for {place}:&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">place</span><span class="o">=</span><span class="n">available_places</span><span class="p">()</span><span class="o">.</span><span class="n">keys</span><span class="p">()[</span><span class="mi">0</span><span class="p">])</span>
+    <span class="k">print</span> <span class="s">&quot;</span><span class="se">\t</span><span class="s">&quot;</span><span class="p">,</span> <span class="n">trends</span>
+    <span class="k">print</span> 
+    <span class="k">print</span> <span class="s">&quot;Finished authentication setup&quot;</span>
+</pre></div>
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="../../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li><a href="../../index.html">Storm Py Twitter  documentation</a> &raquo;</li>
+          <li><a href="../index.html" >Module code</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2014, Juan Rodriguez Hortala &lt;juan.rodriguez.hortala@gmail.com.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.2.2.
+    </div>
+  </body>
+</html>

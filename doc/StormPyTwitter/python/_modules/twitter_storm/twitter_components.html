@@ -1,0 +1,221 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>twitter_storm.twitter_components &mdash; Storm Py Twitter  documentation</title>
+    
+    <link rel="stylesheet" href="../../_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <link rel="top" title="Storm Py Twitter  documentation" href="../../index.html" />
+    <link rel="up" title="Module code" href="../index.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="../../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li><a href="../../index.html">Storm Py Twitter  documentation</a> &raquo;</li>
+          <li><a href="../index.html" accesskey="U">Module code</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <h1>Source code for twitter_storm.twitter_components</h1><div class="highlight"><pre>
+<span class="c">#!/usr/bin/env python</span>
+<span class="c"># -*- coding: utf-8 -*-</span>
+
+<span class="sd">&#39;&#39;&#39;</span>
+<span class="sd">Based on storm.py module from https://github.com/nathanmarz/storm/blob/master/storm-core/src/multilang/py/storm.py, and the examples from https://github.com/apache/incubator-storm/blob/master/examples/storm-starter/multilang/resources/splitsentence.py and http://storm.incubator.apache.org/documentation/Tutorial.html</span>
+
+<span class="sd">Packaging: To run a shell component on a cluster, the scripts that are shelled out to must be in the resources/ directory within the jar submitted to the master (https://github.com/nathanmarz/storm/wiki/Multilang-protocol). By default, Maven will look for your project&#39;s resources under src/main/resources (https://maven.apache.org/plugins/maven-resources-plugin/examples/resource-directory.html).</span>
+
+<span class="sd">Tested in Python2.7 and Apache Storm 0.9.0.1</span>
+<span class="sd">&#39;&#39;&#39;</span>
+<span class="kn">import</span> <span class="nn">storm</span><span class="o">,</span> <span class="nn">tweepy</span>
+<span class="kn">import</span> <span class="nn">json</span><span class="o">,</span> <span class="nn">time</span>
+<span class="kn">from</span> <span class="nn">operator</span> <span class="kn">import</span> <span class="n">itemgetter</span>
+<span class="kn">import</span> <span class="nn">get_tweets</span>
+
+<div class="viewcode-block" id="log_tweeter_error"><a class="viewcode-back" href="../../twitter_storm.html#twitter_storm.twitter_components.log_tweeter_error">[docs]</a><span class="k">def</span> <span class="nf">log_tweeter_error</span><span class="p">(</span><span class="n">tweep_error</span><span class="p">,</span> <span class="n">sleep_time</span><span class="o">=</span><span class="mi">2</span><span class="p">):</span>
+    <span class="sd">&#39;&#39;&#39;</span>
+<span class="sd">    :param tweep_error: Exception dealing with twitter to log to the parent process</span>
+<span class="sd">    :type api: tweepy.TweepError</span>
+
+<span class="sd">    :param sleep_time: time in seconds to sleep before continuing the execution</span>
+<span class="sd">    &#39;&#39;&#39;</span>
+    <span class="c"># We have hit the REST API Rate limit for Twitter https://dev.twitter.com/docs/rate-limiting/1.1, no more tweets for some time</span>
+    <span class="n">storm</span><span class="o">.</span><span class="n">log</span><span class="p">(</span><span class="s">&quot;Tweepy error {error}, sleeping for {secs} seconds in case Twitter rate limit has been hit&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">error</span><span class="o">=</span><span class="nb">str</span><span class="p">(</span><span class="n">tweep_error</span><span class="p">),</span> <span class="n">secs</span><span class="o">=</span><span class="n">sleep_time</span><span class="p">))</span>
+    <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="n">sleep_time</span><span class="p">)</span>
+</div>
+<div class="viewcode-block" id="PlacesSpout"><a class="viewcode-back" href="../../twitter_storm.html#twitter_storm.twitter_components.PlacesSpout">[docs]</a><span class="k">class</span> <span class="nc">PlacesSpout</span><span class="p">(</span><span class="n">storm</span><span class="o">.</span><span class="n">Spout</span><span class="p">):</span>
+    <span class="sd">&#39;&#39;&#39;</span>
+<span class="sd">    Emit a tuple with a single field for a place as encoded in the module get_tweets,</span>
+<span class="sd">    with the frequency specified in the storm configuration passed at initialize()</span>
+<span class="sd">    &#39;&#39;&#39;</span>
+    <span class="c"># Field in the configuration map where the emision frequency is </span>
+    <span class="c"># configured</span>
+    <span class="n">_frequency_conf_key</span> <span class="o">=</span> <span class="s">&quot;PlacesSpoutFrequency&quot;</span>
+<div class="viewcode-block" id="PlacesSpout.initialize"><a class="viewcode-back" href="../../twitter_storm.html#twitter_storm.twitter_components.PlacesSpout.initialize">[docs]</a>    <span class="k">def</span> <span class="nf">initialize</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">conf</span><span class="p">,</span> <span class="n">context</span><span class="p">):</span>
+        <span class="c"># self._conf = conf</span>
+        <span class="c"># self._context = context</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_places</span> <span class="o">=</span> <span class="n">get_tweets</span><span class="o">.</span><span class="n">available_places</span><span class="p">()</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_tick_frequency</span> <span class="o">=</span> <span class="n">conf</span><span class="p">[</span><span class="bp">self</span><span class="o">.</span><span class="n">__class__</span><span class="o">.</span><span class="n">_frequency_conf_key</span><span class="p">]</span>
+    </div>
+<div class="viewcode-block" id="PlacesSpout.nextTuple"><a class="viewcode-back" href="../../twitter_storm.html#twitter_storm.twitter_components.PlacesSpout.nextTuple">[docs]</a>    <span class="k">def</span> <span class="nf">nextTuple</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&#39;&#39;&#39;</span>
+<span class="sd">        Should adhere to the following contract expressed in the wrapping Java spout</span>
+
+<span class="sd">        declarer.declare(new Fields(TopologyFields.PLACE));</span>
+<span class="sd">        &#39;&#39;&#39;</span>
+        <span class="c"># storm.log(json.dumps({ &quot;conf&quot; : self._conf}))</span>
+        <span class="c"># storm.log(json.dumps({ &quot;context&quot; : self._context}))</span>
+        <span class="k">for</span> <span class="n">place</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">_places</span><span class="p">:</span>
+            <span class="n">storm</span><span class="o">.</span><span class="n">emit</span><span class="p">([</span><span class="n">place</span><span class="p">])</span>
+        <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_tick_frequency</span><span class="p">)</span>
+</div></div>
+<div class="viewcode-block" id="TwitterBolt"><a class="viewcode-back" href="../../twitter_storm.html#twitter_storm.twitter_components.TwitterBolt">[docs]</a><span class="k">class</span> <span class="nc">TwitterBolt</span><span class="p">(</span><span class="n">storm</span><span class="o">.</span><span class="n">Bolt</span><span class="p">):</span>
+    <span class="sd">&#39;&#39;&#39;</span>
+<span class="sd">    This class extends storm.Bolt as no ack is handled because we are using a non reliable source with no defined id for the messages.</span>
+<span class="sd">    As additional functionality, a tweepy.api.API object ready to used is stored at self._twitter_api during initialization. </span>
+
+<span class="sd">    NOTE: don&#39;t forget to setup authentication calling &quot;python2.7 get_tweets.py&quot; __before__ compiling the topology: the auth file has to be included in the jar and copied to the cluster</span>
+<span class="sd">    &#39;&#39;&#39;</span>
+<div class="viewcode-block" id="TwitterBolt.initialize"><a class="viewcode-back" href="../../twitter_storm.html#twitter_storm.twitter_components.TwitterBolt.initialize">[docs]</a>    <span class="k">def</span> <span class="nf">initialize</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">stormconf</span><span class="p">,</span> <span class="n">context</span><span class="p">):</span>
+        <span class="c"># Init connection to twitter API</span>
+        <span class="n">auth</span> <span class="o">=</span> <span class="n">get_tweets</span><span class="o">.</span><span class="n">authenticate</span><span class="p">(</span><span class="n">rebuild</span><span class="o">=</span><span class="bp">False</span><span class="p">)</span>
+            <span class="c"># Better fail here if we cannot even authenticate</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_twitter_api</span> <span class="o">=</span> <span class="n">tweepy</span><span class="o">.</span><span class="n">API</span><span class="p">(</span><span class="n">auth</span><span class="p">)</span>
+</div></div>
+<div class="viewcode-block" id="TrendsBolt"><a class="viewcode-back" href="../../twitter_storm.html#twitter_storm.twitter_components.TrendsBolt">[docs]</a><span class="k">class</span> <span class="nc">TrendsBolt</span><span class="p">(</span><span class="n">TwitterBolt</span><span class="p">):</span>
+    <span class="sd">&#39;&#39;&#39;</span>
+<span class="sd">    Assumes each input tuple has a single field for the name of a place as encoded in get_tweets. This bolt emits tuples (place, trend name, query) for the trending topics at the coordinates corresponding to that place. </span>
+<span class="sd">    In case the Twitter REST API Rate limit is hit, this bolt sleeps for some seconds. </span>
+<span class="sd">    &#39;&#39;&#39;</span>
+    <span class="n">_rate_limit_sleep_time</span> <span class="o">=</span> <span class="mi">1</span>
+
+<div class="viewcode-block" id="TrendsBolt.process"><a class="viewcode-back" href="../../twitter_storm.html#twitter_storm.twitter_components.TrendsBolt.process">[docs]</a>    <span class="k">def</span> <span class="nf">process</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="nb">tuple</span><span class="p">):</span>
+        <span class="n">place</span> <span class="o">=</span> <span class="nb">tuple</span><span class="o">.</span><span class="n">values</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+        <span class="k">try</span><span class="p">:</span> 
+            <span class="n">trends</span> <span class="o">=</span> <span class="n">get_tweets</span><span class="o">.</span><span class="n">get_trending_topics_text</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_twitter_api</span><span class="p">,</span> <span class="n">place</span><span class="p">)</span>
+        <span class="k">except</span> <span class="n">tweepy</span><span class="o">.</span><span class="n">TweepError</span> <span class="k">as</span> <span class="n">te</span><span class="p">:</span>
+            <span class="c"># We have hit the REST API Rate limit for Twitter https://dev.twitter.com/docs/rate-limiting/1.1, no more tweets for some time</span>
+            <span class="n">log_tweeter_error</span><span class="p">(</span><span class="n">te</span><span class="p">,</span> <span class="n">sleep_time</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">_rate_limit_sleep_time</span><span class="p">)</span>
+            <span class="k">return</span> 
+        <span class="k">for</span> <span class="n">trend</span> <span class="ow">in</span> <span class="n">trends</span><span class="p">:</span>
+            <span class="n">storm</span><span class="o">.</span><span class="n">emit</span><span class="p">([</span><span class="n">place</span><span class="p">,</span> <span class="n">trend</span><span class="p">[</span><span class="s">&#39;name&#39;</span><span class="p">],</span> <span class="n">trend</span><span class="p">[</span><span class="s">&#39;query&#39;</span><span class="p">]])</span>
+</div></div>
+<div class="viewcode-block" id="GetTweetsBolt"><a class="viewcode-back" href="../../twitter_storm.html#twitter_storm.twitter_components.GetTweetsBolt">[docs]</a><span class="k">class</span> <span class="nc">GetTweetsBolt</span><span class="p">(</span><span class="n">TwitterBolt</span><span class="p">):</span>
+    <span class="sd">&#39;&#39;&#39;</span>
+<span class="sd">    Assumes each input tuple is of the shape (place, topic_name, query) where query is a twitter query string for the trending topic topic_name. For each input tuple Twitter is queried for the most popular tweets, and some fields are projected from each resulting tweets and then emitted, see process() for details about the fields. </span>
+
+<span class="sd">    In case the Twitter REST API Rate limit is hit, this bolt sleeps for some seconds. </span>
+<span class="sd">    &#39;&#39;&#39;</span>
+    <span class="nd">@staticmethod</span>
+    <span class="k">def</span> <span class="nf">_storm_tweet_processor</span><span class="p">(</span><span class="n">status</span><span class="p">):</span>
+        <span class="n">shallow_fields</span> <span class="o">=</span> <span class="p">[</span><span class="s">&#39;text&#39;</span><span class="p">,</span> <span class="s">&#39;favorite_count&#39;</span><span class="p">,</span> <span class="s">&#39;retweeted&#39;</span><span class="p">,</span> <span class="s">&#39;in_reply_to_screen_name&#39;</span><span class="p">,</span>
+                          <span class="s">&#39;retweet_count&#39;</span><span class="p">,</span> <span class="s">&#39;possibly_sensitive&#39;</span><span class="p">,</span> <span class="s">&#39;lang&#39;</span><span class="p">,</span> <span class="s">&#39;created_at&#39;</span><span class="p">,</span> <span class="s">&#39;source&#39;</span><span class="p">]</span>
+        <span class="n">ret</span> <span class="o">=</span> <span class="p">{</span><span class="n">k</span> <span class="p">:</span> <span class="n">status</span><span class="o">.</span><span class="n">__dict__</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">k</span><span class="p">,</span> <span class="bp">None</span><span class="p">)</span> <span class="k">for</span> <span class="n">k</span> <span class="ow">in</span> <span class="n">shallow_fields</span><span class="p">}</span>
+        <span class="n">ret</span><span class="p">[</span><span class="s">&#39;created_at&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">ret</span><span class="p">[</span><span class="s">&#39;created_at&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">strftime</span><span class="p">(</span><span class="s">&#39;%Y-%m-</span><span class="si">%d</span><span class="s"> %H:%M:%S&#39;</span><span class="p">)</span>
+        <span class="n">ret</span><span class="p">[</span><span class="s">&#39;author_screen_name&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">status</span><span class="o">.</span><span class="n">author</span><span class="o">.</span><span class="n">screen_name</span>
+        <span class="n">ret</span><span class="p">[</span><span class="s">&#39;hashtags_texts&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="s">&quot;|&quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="nb">sorted</span><span class="p">([</span><span class="n">hashtag</span><span class="p">[</span><span class="s">&#39;text&#39;</span><span class="p">]</span> <span class="k">for</span> <span class="n">hashtag</span> <span class="ow">in</span> <span class="n">status</span><span class="o">.</span><span class="n">entities</span><span class="p">[</span><span class="s">&#39;hashtags&#39;</span><span class="p">]]))</span>
+        <span class="n">ret</span><span class="p">[</span><span class="s">&#39;place_full_name&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">status</span><span class="o">.</span><span class="n">place</span><span class="o">.</span><span class="n">full_name</span> <span class="k">if</span> <span class="ow">not</span> <span class="n">status</span><span class="o">.</span><span class="n">place</span> <span class="ow">is</span> <span class="bp">None</span> <span class="k">else</span> <span class="bp">None</span>
+        <span class="k">return</span> <span class="n">ret</span>
+
+    <span class="n">_rate_limit_sleep_time</span> <span class="o">=</span> <span class="mi">1</span>
+
+<div class="viewcode-block" id="GetTweetsBolt.process"><a class="viewcode-back" href="../../twitter_storm.html#twitter_storm.twitter_components.GetTweetsBolt.process">[docs]</a>    <span class="k">def</span> <span class="nf">process</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="nb">tuple</span><span class="p">):</span>
+        <span class="sd">&#39;&#39;&#39;</span>
+<span class="sd">        Must fulfil the following contract expressed in the Java wrapper:</span>
+
+<span class="sd">        declarer.declare(new Fields(TopologyFields.AUTHOR_SCREEN_NAME, TopologyFields.CREATED_AT,</span>
+<span class="sd">                TopologyFields.FAV_COUNT, TopologyFields.HASHTAGS_TEXTS, TopologyFields.IN_REPLY_TO_SCREEN_NAME, </span>
+<span class="sd">                TopologyFields.LANG, TopologyFields.RETWEET_COUNT, TopologyFields.RETWEETED, </span>
+<span class="sd">                TopologyFields.SOURCE, TopologyFields.PLACE, TopologyFields.POSSIBLY_SENSITIVE,</span>
+<span class="sd">                TopologyFields.TEXT, TopologyFields.TOPIC_NAME));</span>
+<span class="sd">        &#39;&#39;&#39;</span>
+        <span class="n">place</span><span class="p">,</span> <span class="n">topic_name</span><span class="p">,</span> <span class="n">query</span> <span class="o">=</span> <span class="nb">tuple</span><span class="o">.</span><span class="n">values</span>
+        <span class="k">try</span><span class="p">:</span> 
+            <span class="n">tweets</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">get_tweets</span><span class="o">.</span><span class="n">get_tweets_for_trends</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_twitter_api</span><span class="p">,</span> <span class="p">[{</span><span class="s">&quot;query&quot;</span> <span class="p">:</span> <span class="n">query</span><span class="p">}],</span> <span class="n">popular</span> <span class="o">=</span> <span class="bp">True</span><span class="p">,</span> <span class="n">tweet_processor</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_storm_tweet_processor</span><span class="p">))[</span><span class="mi">0</span><span class="p">][</span><span class="s">&quot;tweets&quot;</span><span class="p">]</span>
+        <span class="k">except</span> <span class="n">tweepy</span><span class="o">.</span><span class="n">TweepError</span> <span class="k">as</span> <span class="n">te</span><span class="p">:</span>
+            <span class="c"># We have hit the REST API Rate limit for Twitter https://dev.twitter.com/docs/rate-limiting/1.1, no more tweets for some time</span>
+            <span class="n">log_tweeter_error</span><span class="p">(</span><span class="n">te</span><span class="p">,</span> <span class="n">sleep_time</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">_rate_limit_sleep_time</span><span class="p">)</span>
+            <span class="k">return</span> 
+
+        <span class="k">for</span> <span class="n">pt</span> <span class="ow">in</span> <span class="n">tweets</span><span class="p">:</span>
+            <span class="c"># Here we add the trending topic name, and take the place name from those</span>
+            <span class="c"># used internally by get_tweets, instead of the from place names returned by twitter</span>
+            <span class="n">tup</span> <span class="o">=</span> <span class="p">[</span><span class="n">pt</span><span class="p">[</span><span class="s">&#39;author_screen_name&#39;</span><span class="p">],</span> <span class="n">pt</span><span class="p">[</span><span class="s">&#39;created_at&#39;</span><span class="p">],</span> 
+                   <span class="n">pt</span><span class="p">[</span><span class="s">&#39;favorite_count&#39;</span><span class="p">],</span> <span class="n">pt</span><span class="p">[</span><span class="s">&#39;hashtags_texts&#39;</span><span class="p">],</span> <span class="n">pt</span><span class="p">[</span><span class="s">&#39;in_reply_to_screen_name&#39;</span><span class="p">],</span>
+                   <span class="n">pt</span><span class="p">[</span><span class="s">&#39;lang&#39;</span><span class="p">],</span> <span class="n">pt</span><span class="p">[</span><span class="s">&#39;retweet_count&#39;</span><span class="p">],</span> <span class="n">pt</span><span class="p">[</span><span class="s">&#39;retweeted&#39;</span><span class="p">],</span>
+                   <span class="n">pt</span><span class="p">[</span><span class="s">&#39;source&#39;</span><span class="p">],</span> <span class="n">place</span><span class="p">,</span> <span class="n">pt</span><span class="p">[</span><span class="s">&#39;possibly_sensitive&#39;</span><span class="p">],</span>
+                   <span class="n">pt</span><span class="p">[</span><span class="s">&#39;text&#39;</span><span class="p">],</span> <span class="n">topic_name</span><span class="p">]</span>
+            <span class="n">storm</span><span class="o">.</span><span class="n">emit</span><span class="p">(</span><span class="n">tup</span><span class="p">)</span></div></div>
+</pre></div>
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="../../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li><a href="../../index.html">Storm Py Twitter  documentation</a> &raquo;</li>
+          <li><a href="../index.html" >Module code</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2014, Juan Rodriguez Hortala &lt;juan.rodriguez.hortala@gmail.com.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.2.2.
+    </div>
+  </body>
+</html>
