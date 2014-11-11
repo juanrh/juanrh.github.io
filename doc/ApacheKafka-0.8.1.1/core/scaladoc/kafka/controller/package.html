@@ -1,0 +1,581 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html>
+        <head>
+          <title>kafka.controller</title>
+          <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+          
+      <link type="text/css" media="screen" rel="stylesheet" href="../../lib/template.css" />
+      <script type="text/javascript" src="../../lib/jquery.js"></script>
+      <script type="text/javascript" src="../../lib/jquery-ui.js"></script>
+      <script type="text/javascript" src="../../lib/template.js"></script>
+      <script type="text/javascript" src="../../lib/tools.tooltip.js"></script>
+    
+        </head>
+        <body onload="sh_highlightDocument('../lib/', '.min.js');" class="value">
+      <div id="definition">
+        <img src="../../lib/package_big.png" />
+        <p id="owner"><a name="kafka" class="extype" href="../package.html">kafka</a></p>
+        <h1>controller</h1>
+      </div>
+
+      <h4 class="signature" id="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">package</span>
+      </span>
+      <span class="symbol">
+        <span class="name">controller</span>
+      </span>
+      </h4>
+      
+      <div class="fullcommenttop" id="comment"></div>
+    
+
+      <div id="mbrsel">
+        <div id="textfilter"><span class="pre"></span><span class="input"><input accesskey="/" type="text" /></span><span class="post"></span></div>
+        
+        
+        <div id="visbl">
+            <span class="filtertype">Visibility</span>
+            <ol><li class="public in"><span>Public</span></li><li class="all out"><span>All</span></li></ol>
+          </div>
+      </div>
+
+      <div id="template">
+        <div id="allMembers">
+        
+
+        <div class="types members" id="types">
+              <h3>Type Members</h3>
+              <ol><li visbl="pub" name="kafka.controller.Callbacks" data-isabs="false">
+      <a id="Callbacks:Callbacks"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="Callbacks.html"><span class="name">Callbacks</span></a><span class="result"> extends AnyRef</span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="kafka.controller.ControlledShutdownLeaderSelector" data-isabs="false">
+      <a id="ControlledShutdownLeaderSelector:ControlledShutdownLeaderSelector"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="ControlledShutdownLeaderSelector.html"><span class="name">ControlledShutdownLeaderSelector</span></a><span class="result"> extends PartitionLeaderSelector with Logging</span>
+      </span>
+      </h4>
+      <p class="comment cmt">New leader = replica in isr that's not being shutdown;
+New isr = current isr - shutdown replica;
+Replicas to receive LeaderAndIsr request = live assigned replicas
+</p>
+    </li><li visbl="pub" name="kafka.controller.ControllerBrokerRequestBatch" data-isabs="false">
+      <a id="ControllerBrokerRequestBatch:ControllerBrokerRequestBatch"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="ControllerBrokerRequestBatch.html"><span class="name">ControllerBrokerRequestBatch</span></a><span class="result"> extends Logging</span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="kafka.controller.ControllerBrokerStateInfo" data-isabs="false">
+      <a id="ControllerBrokerStateInfo:ControllerBrokerStateInfo"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="ControllerBrokerStateInfo.html"><span class="name">ControllerBrokerStateInfo</span></a><span class="params">(<span name="channel">channel: BlockingChannel</span>, <span name="broker">broker: Broker</span>, <span name="messageQueue">messageQueue: BlockingQueue[(RequestOrResponse, (RequestOrResponse) ⇒ Unit)]</span>, <span name="requestSendThread">requestSendThread: RequestSendThread</span>)</span><span class="result"> extends Product with Serializable</span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="kafka.controller.ControllerChannelManager" data-isabs="false">
+      <a id="ControllerChannelManager:ControllerChannelManager"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="ControllerChannelManager.html"><span class="name">ControllerChannelManager</span></a><span class="result"> extends Logging</span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="kafka.controller.ControllerContext" data-isabs="false">
+      <a id="ControllerContext:ControllerContext"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="ControllerContext.html"><span class="name">ControllerContext</span></a><span class="result"> extends AnyRef</span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="kafka.controller.ControllerEpochListener" data-isabs="false">
+      <a id="ControllerEpochListener:ControllerEpochListener"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="ControllerEpochListener.html"><span class="name">ControllerEpochListener</span></a><span class="result"> extends IZkDataListener with Logging</span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="kafka.controller.KafkaController" data-isabs="false">
+      <a id="KafkaController:KafkaController"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="KafkaController.html"><span class="name">KafkaController</span></a><span class="result"> extends Logging with KafkaMetricsGroup with KafkaControllerMBean</span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="kafka.controller.KafkaControllerMBean" data-isabs="true">
+      <a id="KafkaControllerMBean:KafkaControllerMBean"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="KafkaControllerMBean.html"><span class="name">KafkaControllerMBean</span></a><span class="result"> extends AnyRef</span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="kafka.controller.LeaderIsrAndControllerEpoch" data-isabs="false">
+      <a id="LeaderIsrAndControllerEpoch:LeaderIsrAndControllerEpoch"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="LeaderIsrAndControllerEpoch.html"><span class="name">LeaderIsrAndControllerEpoch</span></a><span class="params">(<span name="leaderAndIsr">leaderAndIsr: LeaderAndIsr</span>, <span name="controllerEpoch">controllerEpoch: Int</span>)</span><span class="result"> extends Product with Serializable</span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="kafka.controller.NoOpLeaderSelector" data-isabs="false">
+      <a id="NoOpLeaderSelector:NoOpLeaderSelector"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="NoOpLeaderSelector.html"><span class="name">NoOpLeaderSelector</span></a><span class="result"> extends PartitionLeaderSelector with Logging</span>
+      </span>
+      </h4>
+      <p class="comment cmt">Essentially does nothing.</p>
+    </li><li visbl="pub" name="kafka.controller.OfflinePartitionLeaderSelector" data-isabs="false">
+      <a id="OfflinePartitionLeaderSelector:OfflinePartitionLeaderSelector"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="OfflinePartitionLeaderSelector.html"><span class="name">OfflinePartitionLeaderSelector</span></a><span class="result"> extends PartitionLeaderSelector with Logging</span>
+      </span>
+      </h4>
+      <p class="comment cmt">Select the new leader, new isr and receiving replicas (for the LeaderAndIsrRequest):
+1.</p>
+    </li><li visbl="pub" name="kafka.controller.PartitionAndReplica" data-isabs="false">
+      <a id="PartitionAndReplica:PartitionAndReplica"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="PartitionAndReplica.html"><span class="name">PartitionAndReplica</span></a><span class="params">(<span name="topic">topic: String</span>, <span name="partition">partition: Int</span>, <span name="replica">replica: Int</span>)</span><span class="result"> extends Product with Serializable</span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="kafka.controller.PartitionLeaderSelector" data-isabs="true">
+      <a id="PartitionLeaderSelector:PartitionLeaderSelector"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="PartitionLeaderSelector.html"><span class="name">PartitionLeaderSelector</span></a><span class="result"> extends AnyRef</span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="kafka.controller.PartitionState" data-isabs="true">
+      <a id="PartitionState:PartitionState"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">sealed </span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="PartitionState.html"><span class="name">PartitionState</span></a><span class="result"> extends AnyRef</span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="kafka.controller.PartitionStateMachine" data-isabs="false">
+      <a id="PartitionStateMachine:PartitionStateMachine"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="PartitionStateMachine.html"><span class="name">PartitionStateMachine</span></a><span class="result"> extends Logging</span>
+      </span>
+      </h4>
+      <p class="comment cmt">This class represents the state machine for partitions.</p>
+    </li><li visbl="pub" name="kafka.controller.PartitionsReassignedListener" data-isabs="false">
+      <a id="PartitionsReassignedListener:PartitionsReassignedListener"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="PartitionsReassignedListener.html"><span class="name">PartitionsReassignedListener</span></a><span class="result"> extends IZkDataListener with Logging</span>
+      </span>
+      </h4>
+      <p class="comment cmt">Starts the partition reassignment process unless -
+1.</p>
+    </li><li visbl="pub" name="kafka.controller.PreferredReplicaElectionListener" data-isabs="false">
+      <a id="PreferredReplicaElectionListener:PreferredReplicaElectionListener"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="PreferredReplicaElectionListener.html"><span class="name">PreferredReplicaElectionListener</span></a><span class="result"> extends IZkDataListener with Logging</span>
+      </span>
+      </h4>
+      <p class="comment cmt">Starts the preferred replica leader election for the list of partitions specified under
+/admin/preferred_replica_election -
+</p>
+    </li><li visbl="pub" name="kafka.controller.PreferredReplicaPartitionLeaderSelector" data-isabs="false">
+      <a id="PreferredReplicaPartitionLeaderSelector:PreferredReplicaPartitionLeaderSelector"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="PreferredReplicaPartitionLeaderSelector.html"><span class="name">PreferredReplicaPartitionLeaderSelector</span></a><span class="result"> extends PartitionLeaderSelector with Logging</span>
+      </span>
+      </h4>
+      <p class="comment cmt">New leader = preferred (first assigned) replica (if in isr and alive);
+New isr = current isr;
+Replicas to receive LeaderAndIsr request = assigned replicas
+</p>
+    </li><li visbl="pub" name="kafka.controller.ReassignedPartitionLeaderSelector" data-isabs="false">
+      <a id="ReassignedPartitionLeaderSelector:ReassignedPartitionLeaderSelector"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="ReassignedPartitionLeaderSelector.html"><span class="name">ReassignedPartitionLeaderSelector</span></a><span class="result"> extends PartitionLeaderSelector with Logging</span>
+      </span>
+      </h4>
+      <p class="comment cmt">New leader = a live in-sync reassigned replica
+New isr = current isr
+Replicas to receive LeaderAndIsr request = reassigned replicas
+</p>
+    </li><li visbl="pub" name="kafka.controller.ReassignedPartitionsContext" data-isabs="false">
+      <a id="ReassignedPartitionsContext:ReassignedPartitionsContext"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="ReassignedPartitionsContext.html"><span class="name">ReassignedPartitionsContext</span></a><span class="params">(<span name="newReplicas">newReplicas: Seq[Int]</span>, <span name="isrChangeListener">isrChangeListener: ReassignedPartitionsIsrChangeListener</span>)</span><span class="result"> extends Product with Serializable</span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="kafka.controller.ReassignedPartitionsIsrChangeListener" data-isabs="false">
+      <a id="ReassignedPartitionsIsrChangeListener:ReassignedPartitionsIsrChangeListener"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="ReassignedPartitionsIsrChangeListener.html"><span class="name">ReassignedPartitionsIsrChangeListener</span></a><span class="result"> extends IZkDataListener with Logging</span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="kafka.controller.ReplicaState" data-isabs="true">
+      <a id="ReplicaState:ReplicaState"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">sealed </span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="ReplicaState.html"><span class="name">ReplicaState</span></a><span class="result"> extends AnyRef</span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="kafka.controller.ReplicaStateMachine" data-isabs="false">
+      <a id="ReplicaStateMachine:ReplicaStateMachine"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="ReplicaStateMachine.html"><span class="name">ReplicaStateMachine</span></a><span class="result"> extends Logging</span>
+      </span>
+      </h4>
+      <p class="comment cmt">This class represents the state machine for replicas.</p>
+    </li><li visbl="pub" name="kafka.controller.RequestSendThread" data-isabs="false">
+      <a id="RequestSendThread:RequestSendThread"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="RequestSendThread.html"><span class="name">RequestSendThread</span></a><span class="result"> extends ShutdownableThread</span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="kafka.controller.StopReplicaRequestInfo" data-isabs="false">
+      <a id="StopReplicaRequestInfo:StopReplicaRequestInfo"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="StopReplicaRequestInfo.html"><span class="name">StopReplicaRequestInfo</span></a><span class="params">(<span name="replica">replica: PartitionAndReplica</span>, <span name="deletePartition">deletePartition: Boolean</span>, <span name="callback">callback: (RequestOrResponse) ⇒ Unit</span>)</span><span class="result"> extends Product with Serializable</span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="kafka.controller.TopicDeletionManager" data-isabs="false">
+      <a id="TopicDeletionManager:TopicDeletionManager"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="TopicDeletionManager.html"><span class="name">TopicDeletionManager</span></a><span class="result"> extends Logging</span>
+      </span>
+      </h4>
+      <p class="comment cmt">This manages the state machine for topic deletion.</p>
+    </li></ol>
+            </div>
+
+        
+
+        <div class="values members" id="values">
+              <h3>Value Members</h3>
+              <ol><li visbl="pub" name="kafka.controller.Callbacks" data-isabs="false">
+      <a id="Callbacks:Callbacks"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="Callbacks$.html"><span class="name">Callbacks</span></a><span class="result"> extends AnyRef</span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="kafka.controller.ControllerStats" data-isabs="false">
+      <a id="ControllerStats:ControllerStats"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="ControllerStats$.html"><span class="name">ControllerStats</span></a><span class="result"> extends KafkaMetricsGroup</span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="kafka.controller.KafkaController" data-isabs="false">
+      <a id="KafkaController:KafkaController"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="KafkaController$.html"><span class="name">KafkaController</span></a><span class="result"> extends Logging</span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="kafka.controller.NewPartition" data-isabs="false">
+      <a id="NewPartition:NewPartition"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="NewPartition$.html"><span class="name">NewPartition</span></a><span class="result"> extends PartitionState with Product with Serializable</span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="kafka.controller.NewReplica" data-isabs="false">
+      <a id="NewReplica:NewReplica"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="NewReplica$.html"><span class="name">NewReplica</span></a><span class="result"> extends ReplicaState with Product with Serializable</span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="kafka.controller.NonExistentPartition" data-isabs="false">
+      <a id="NonExistentPartition:NonExistentPartition"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="NonExistentPartition$.html"><span class="name">NonExistentPartition</span></a><span class="result"> extends PartitionState with Product with Serializable</span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="kafka.controller.NonExistentReplica" data-isabs="false">
+      <a id="NonExistentReplica:NonExistentReplica"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="NonExistentReplica$.html"><span class="name">NonExistentReplica</span></a><span class="result"> extends ReplicaState with Product with Serializable</span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="kafka.controller.OfflinePartition" data-isabs="false">
+      <a id="OfflinePartition:OfflinePartition"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="OfflinePartition$.html"><span class="name">OfflinePartition</span></a><span class="result"> extends PartitionState with Product with Serializable</span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="kafka.controller.OfflineReplica" data-isabs="false">
+      <a id="OfflineReplica:OfflineReplica"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="OfflineReplica$.html"><span class="name">OfflineReplica</span></a><span class="result"> extends ReplicaState with Product with Serializable</span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="kafka.controller.OnlinePartition" data-isabs="false">
+      <a id="OnlinePartition:OnlinePartition"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="OnlinePartition$.html"><span class="name">OnlinePartition</span></a><span class="result"> extends PartitionState with Product with Serializable</span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="kafka.controller.OnlineReplica" data-isabs="false">
+      <a id="OnlineReplica:OnlineReplica"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="OnlineReplica$.html"><span class="name">OnlineReplica</span></a><span class="result"> extends ReplicaState with Product with Serializable</span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="kafka.controller.ReplicaDeletionIneligible" data-isabs="false">
+      <a id="ReplicaDeletionIneligible:ReplicaDeletionIneligible"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="ReplicaDeletionIneligible$.html"><span class="name">ReplicaDeletionIneligible</span></a><span class="result"> extends ReplicaState with Product with Serializable</span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="kafka.controller.ReplicaDeletionStarted" data-isabs="false">
+      <a id="ReplicaDeletionStarted:ReplicaDeletionStarted"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="ReplicaDeletionStarted$.html"><span class="name">ReplicaDeletionStarted</span></a><span class="result"> extends ReplicaState with Product with Serializable</span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="kafka.controller.ReplicaDeletionSuccessful" data-isabs="false">
+      <a id="ReplicaDeletionSuccessful:ReplicaDeletionSuccessful"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="ReplicaDeletionSuccessful$.html"><span class="name">ReplicaDeletionSuccessful</span></a><span class="result"> extends ReplicaState with Product with Serializable</span>
+      </span>
+      </h4>
+      
+    </li></ol>
+            </div>
+
+        
+        </div>
+
+        <div id="inheritedMembers">
+        
+        </div>
+
+      </div>
+
+      <div id="tooltip"></div>
+
+      <div id="footer">  </div>
+
+
+    </body>
+      </html>

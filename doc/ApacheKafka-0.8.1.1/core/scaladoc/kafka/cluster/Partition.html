@@ -1,0 +1,1014 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html>
+        <head>
+          <title>kafka.cluster.Partition</title>
+          <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+          
+      <link type="text/css" media="screen" rel="stylesheet" href="../../lib/template.css" />
+      <script type="text/javascript" src="../../lib/jquery.js"></script>
+      <script type="text/javascript" src="../../lib/jquery-ui.js"></script>
+      <script type="text/javascript" src="../../lib/template.js"></script>
+      <script type="text/javascript" src="../../lib/tools.tooltip.js"></script>
+    
+        </head>
+        <body onload="sh_highlightDocument('../lib/', '.min.js');" class="type">
+      <div id="definition">
+        <img src="../../lib/class_big.png" />
+        <p id="owner"><a name="kafka" class="extype" href="../package.html">kafka</a>.<a name="kafka.cluster" class="extype" href="package.html">cluster</a></p>
+        <h1>Partition</h1>
+      </div>
+
+      <h4 class="signature" id="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <span class="name">Partition</span><span class="result"> extends <a name="kafka.utils.Logging" class="extype" href="../utils/Logging.html">Logging</a> with <a name="kafka.metrics.KafkaMetricsGroup" class="extype" href="../metrics/KafkaMetricsGroup.html">KafkaMetricsGroup</a></span>
+      </span>
+      </h4>
+      
+      <div class="fullcommenttop" id="comment"><div class="comment cmt"><p>Data structure that represents a topic partition. The leader maintains the AR, ISR, CUR, RAR
+</p></div><div class="toggleContainer block">
+          <span class="toggle">Linear Supertypes</span>
+          <div class="superTypes hiddenContent"><a name="kafka.metrics.KafkaMetricsGroup" class="extype" href="../metrics/KafkaMetricsGroup.html">KafkaMetricsGroup</a>, <a name="kafka.utils.Logging" class="extype" href="../utils/Logging.html">Logging</a>, AnyRef, <span name="scala.Any" class="extype">Any</span></div>
+        </div></div>
+    
+
+      <div id="mbrsel">
+        <div id="textfilter"><span class="pre"></span><span class="input"><input accesskey="/" type="text" /></span><span class="post"></span></div>
+        <div id="order">
+              <span class="filtertype">Ordering</span>
+              <ol><li class="alpha in"><span>Alphabetic</span></li><li class="inherit out"><span>By inheritance</span></li></ol>
+            </div>
+        <div id="ancestors">
+              <span class="filtertype">Inherited</span>
+              <ol><li class="hideall out"><span>Hide All</span></li>
+              <li class="showall in"><span>Show all</span></li></ol>
+              <ol id="linearization"><li name="kafka.cluster.Partition" class="in"><span>Partition</span></li><li name="kafka.metrics.KafkaMetricsGroup" class="in"><span>KafkaMetricsGroup</span></li><li name="kafka.utils.Logging" class="in"><span>Logging</span></li><li name="scala.AnyRef" class="in"><span>AnyRef</span></li><li name="scala.Any" class="in"><span>Any</span></li></ol>
+            </div>
+        <div id="visbl">
+            <span class="filtertype">Visibility</span>
+            <ol><li class="public in"><span>Public</span></li><li class="all out"><span>All</span></li></ol>
+          </div>
+      </div>
+
+      <div id="template">
+        <div id="allMembers">
+        <div class="members" id="constructors">
+              <h3>Instance Constructors</h3>
+              <ol><li visbl="pub" name="kafka.cluster.Partition#this" data-isabs="false">
+      <a id="this:Partition"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">new</span>
+      </span>
+      <span class="symbol">
+        <span class="name">Partition</span><span class="params">(<span name="topic">topic: String</span>, <span name="partitionId">partitionId: <span name="scala.Int" class="extype">Int</span></span>, <span name="replicationFactor">replicationFactor: <span name="scala.Int" class="extype">Int</span></span>, <span name="time">time: <a name="kafka.utils.Time" class="extype" href="../utils/Time.html">Time</a></span>, <span name="replicaManager">replicaManager: <a name="kafka.server.ReplicaManager" class="extype" href="../server/ReplicaManager.html">ReplicaManager</a></span>)</span>
+      </span>
+      </h4>
+      
+    </li></ol>
+            </div>
+
+        
+
+        
+
+        <div class="values members" id="values">
+              <h3>Value Members</h3>
+              <ol><li visbl="pub" name="scala.AnyRef#!=" data-isabs="false">
+      <a id="!=(AnyRef):Boolean"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name" title="gt4s: $bang$eq">!=</span><span class="params">(<span name="arg0">arg0: AnyRef</span>)</span><span class="result">: <span name="scala.Boolean" class="extype">Boolean</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef</dd></dl></div>
+    </li><li visbl="pub" name="scala.Any#!=" data-isabs="false">
+      <a id="!=(Any):Boolean"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name" title="gt4s: $bang$eq">!=</span><span class="params">(<span name="arg0">arg0: <span name="scala.Any" class="extype">Any</span></span>)</span><span class="result">: <span name="scala.Boolean" class="extype">Boolean</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>Any</dd></dl></div>
+    </li><li visbl="pub" name="scala.AnyRef###" data-isabs="false">
+      <a id="##():Int"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name" title="gt4s: $hash$hash">##</span><span class="params">()</span><span class="result">: <span name="scala.Int" class="extype">Int</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef → Any</dd></dl></div>
+    </li><li visbl="pub" name="scala.AnyRef#==" data-isabs="false">
+      <a id="==(AnyRef):Boolean"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name" title="gt4s: $eq$eq">==</span><span class="params">(<span name="arg0">arg0: AnyRef</span>)</span><span class="result">: <span name="scala.Boolean" class="extype">Boolean</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef</dd></dl></div>
+    </li><li visbl="pub" name="scala.Any#==" data-isabs="false">
+      <a id="==(Any):Boolean"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name" title="gt4s: $eq$eq">==</span><span class="params">(<span name="arg0">arg0: <span name="scala.Any" class="extype">Any</span></span>)</span><span class="result">: <span name="scala.Boolean" class="extype">Boolean</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>Any</dd></dl></div>
+    </li><li visbl="pub" name="kafka.cluster.Partition#addReplicaIfNotExists" data-isabs="false">
+      <a id="addReplicaIfNotExists(Replica):Replica"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">addReplicaIfNotExists</span><span class="params">(<span name="replica">replica: <a name="kafka.cluster.Replica" class="extype" href="Replica.html">Replica</a></span>)</span><span class="result">: <a name="kafka.cluster.Replica" class="extype" href="Replica.html">Replica</a></span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="kafka.cluster.Partition#appendMessagesToLeader" data-isabs="false">
+      <a id="appendMessagesToLeader(ByteBufferMessageSet):LogAppendInfo"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">appendMessagesToLeader</span><span class="params">(<span name="messages">messages: <a name="kafka.message.ByteBufferMessageSet" class="extype" href="../message/ByteBufferMessageSet.html">ByteBufferMessageSet</a></span>)</span><span class="result">: <a name="kafka.log.Log.LogAppendInfo" class="extype" href="../log/Log$LogAppendInfo.html">LogAppendInfo</a></span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="scala.Any#asInstanceOf" data-isabs="false">
+      <a id="asInstanceOf[T0]:T0"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">asInstanceOf</span><span class="tparams">[<span name="T0">T0</span>]</span><span class="result">: T0</span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>Any</dd></dl></div>
+    </li><li visbl="pub" name="kafka.cluster.Partition#assignedReplicas" data-isabs="false">
+      <a id="assignedReplicas():Set[Replica]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">assignedReplicas</span><span class="params">()</span><span class="result">: <span name="scala.collection.Set" class="extype">Set</span>[<a name="kafka.cluster.Replica" class="extype" href="Replica.html">Replica</a>]</span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="kafka.cluster.Partition#checkEnoughReplicasReachOffset" data-isabs="false">
+      <a id="checkEnoughReplicasReachOffset(Long,Int):(Boolean, Short)"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">checkEnoughReplicasReachOffset</span><span class="params">(<span name="requiredOffset">requiredOffset: <span name="scala.Long" class="extype">Long</span></span>, <span name="requiredAcks">requiredAcks: <span name="scala.Int" class="extype">Int</span></span>)</span><span class="result">: (<span name="scala.Boolean" class="extype">Boolean</span>, <span name="scala.Short" class="extype">Short</span>)</span>
+      </span>
+      </h4>
+      
+    </li><li visbl="prt" name="scala.AnyRef#clone" data-isabs="false">
+      <a id="clone():AnyRef"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">clone</span><span class="params">()</span><span class="result">: AnyRef</span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected[<a name="java.lang" class="extype" href="../../java/lang/package.html">lang</a>] </dd><dt>Definition Classes</dt><dd>AnyRef</dd><dt>Annotations</dt><dd>
+                <span class="name">@throws</span><span class="args">()</span>
+              
+        </dd></dl></div>
+    </li><li visbl="pub" name="kafka.utils.Logging#debug" data-isabs="false">
+      <a id="debug(⇒ String,⇒ Throwable):Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">debug</span><span class="params">(<span name="msg">msg: ⇒ String</span>, <span name="e">e: ⇒ Throwable</span>)</span><span class="result">: <span name="scala.Unit" class="extype">Unit</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a name="kafka.utils.Logging" class="extype" href="../utils/Logging.html">Logging</a></dd></dl></div>
+    </li><li visbl="pub" name="kafka.utils.Logging#debug" data-isabs="false">
+      <a id="debug(⇒ Throwable):Any"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">debug</span><span class="params">(<span name="e">e: ⇒ Throwable</span>)</span><span class="result">: <span name="scala.Any" class="extype">Any</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a name="kafka.utils.Logging" class="extype" href="../utils/Logging.html">Logging</a></dd></dl></div>
+    </li><li visbl="pub" name="kafka.utils.Logging#debug" data-isabs="false">
+      <a id="debug(⇒ String):Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">debug</span><span class="params">(<span name="msg">msg: ⇒ String</span>)</span><span class="result">: <span name="scala.Unit" class="extype">Unit</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a name="kafka.utils.Logging" class="extype" href="../utils/Logging.html">Logging</a></dd></dl></div>
+    </li><li visbl="pub" name="kafka.cluster.Partition#delete" data-isabs="false">
+      <a id="delete():Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">delete</span><span class="params">()</span><span class="result">: <span name="scala.Unit" class="extype">Unit</span></span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="scala.AnyRef#eq" data-isabs="false">
+      <a id="eq(AnyRef):Boolean"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">eq</span><span class="params">(<span name="arg0">arg0: AnyRef</span>)</span><span class="result">: <span name="scala.Boolean" class="extype">Boolean</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef</dd></dl></div>
+    </li><li visbl="pub" name="kafka.cluster.Partition#equals" data-isabs="false">
+      <a id="equals(Any):Boolean"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">equals</span><span class="params">(<span name="that">that: <span name="scala.Any" class="extype">Any</span></span>)</span><span class="result">: <span name="scala.Boolean" class="extype">Boolean</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a name="kafka.cluster.Partition" class="extype" href="">Partition</a> → AnyRef → Any</dd></dl></div>
+    </li><li visbl="pub" name="kafka.utils.Logging#error" data-isabs="false">
+      <a id="error(⇒ String,⇒ Throwable):Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">error</span><span class="params">(<span name="msg">msg: ⇒ String</span>, <span name="e">e: ⇒ Throwable</span>)</span><span class="result">: <span name="scala.Unit" class="extype">Unit</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a name="kafka.utils.Logging" class="extype" href="../utils/Logging.html">Logging</a></dd></dl></div>
+    </li><li visbl="pub" name="kafka.utils.Logging#error" data-isabs="false">
+      <a id="error(⇒ Throwable):Any"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">error</span><span class="params">(<span name="e">e: ⇒ Throwable</span>)</span><span class="result">: <span name="scala.Any" class="extype">Any</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a name="kafka.utils.Logging" class="extype" href="../utils/Logging.html">Logging</a></dd></dl></div>
+    </li><li visbl="pub" name="kafka.utils.Logging#error" data-isabs="false">
+      <a id="error(⇒ String):Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">error</span><span class="params">(<span name="msg">msg: ⇒ String</span>)</span><span class="result">: <span name="scala.Unit" class="extype">Unit</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a name="kafka.utils.Logging" class="extype" href="../utils/Logging.html">Logging</a></dd></dl></div>
+    </li><li visbl="pub" name="kafka.utils.Logging#fatal" data-isabs="false">
+      <a id="fatal(⇒ String,⇒ Throwable):Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">fatal</span><span class="params">(<span name="msg">msg: ⇒ String</span>, <span name="e">e: ⇒ Throwable</span>)</span><span class="result">: <span name="scala.Unit" class="extype">Unit</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a name="kafka.utils.Logging" class="extype" href="../utils/Logging.html">Logging</a></dd></dl></div>
+    </li><li visbl="pub" name="kafka.utils.Logging#fatal" data-isabs="false">
+      <a id="fatal(⇒ Throwable):Any"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">fatal</span><span class="params">(<span name="e">e: ⇒ Throwable</span>)</span><span class="result">: <span name="scala.Any" class="extype">Any</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a name="kafka.utils.Logging" class="extype" href="../utils/Logging.html">Logging</a></dd></dl></div>
+    </li><li visbl="pub" name="kafka.utils.Logging#fatal" data-isabs="false">
+      <a id="fatal(⇒ String):Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">fatal</span><span class="params">(<span name="msg">msg: ⇒ String</span>)</span><span class="result">: <span name="scala.Unit" class="extype">Unit</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a name="kafka.utils.Logging" class="extype" href="../utils/Logging.html">Logging</a></dd></dl></div>
+    </li><li visbl="prt" name="scala.AnyRef#finalize" data-isabs="false">
+      <a id="finalize():Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">finalize</span><span class="params">()</span><span class="result">: <span name="scala.Unit" class="extype">Unit</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected[<a name="java.lang" class="extype" href="../../java/lang/package.html">lang</a>] </dd><dt>Definition Classes</dt><dd>AnyRef</dd><dt>Annotations</dt><dd>
+                <span class="name">@throws</span><span class="args">()</span>
+              
+        </dd></dl></div>
+    </li><li visbl="pub" name="scala.AnyRef#getClass" data-isabs="false">
+      <a id="getClass():java.lang.Class[_]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">getClass</span><span class="params">()</span><span class="result">: java.lang.Class[_]</span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef → Any</dd></dl></div>
+    </li><li visbl="pub" name="kafka.cluster.Partition#getLeaderEpoch" data-isabs="false">
+      <a id="getLeaderEpoch():Int"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">getLeaderEpoch</span><span class="params">()</span><span class="result">: <span name="scala.Int" class="extype">Int</span></span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="kafka.cluster.Partition#getOrCreateReplica" data-isabs="false">
+      <a id="getOrCreateReplica(Int):Replica"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">getOrCreateReplica</span><span class="params">(<span name="replicaId">replicaId: <span name="scala.Int" class="extype">Int</span> = <span class="symbol">localBrokerId</span></span>)</span><span class="result">: <a name="kafka.cluster.Replica" class="extype" href="Replica.html">Replica</a></span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="kafka.cluster.Partition#getOutOfSyncReplicas" data-isabs="false">
+      <a id="getOutOfSyncReplicas(Replica,Long,Long):Set[Replica]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">getOutOfSyncReplicas</span><span class="params">(<span name="leaderReplica">leaderReplica: <a name="kafka.cluster.Replica" class="extype" href="Replica.html">Replica</a></span>, <span name="keepInSyncTimeMs">keepInSyncTimeMs: <span name="scala.Long" class="extype">Long</span></span>, <span name="keepInSyncMessages">keepInSyncMessages: <span name="scala.Long" class="extype">Long</span></span>)</span><span class="result">: <span name="scala.collection.Set" class="extype">Set</span>[<a name="kafka.cluster.Replica" class="extype" href="Replica.html">Replica</a>]</span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="kafka.cluster.Partition#getReplica" data-isabs="false">
+      <a id="getReplica(Int):Option[Replica]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">getReplica</span><span class="params">(<span name="replicaId">replicaId: <span name="scala.Int" class="extype">Int</span> = <span class="symbol">localBrokerId</span></span>)</span><span class="result">: <span name="scala.Option" class="extype">Option</span>[<a name="kafka.cluster.Replica" class="extype" href="Replica.html">Replica</a>]</span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="kafka.cluster.Partition#hashCode" data-isabs="false">
+      <a id="hashCode():Int"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">hashCode</span><span class="params">()</span><span class="result">: <span name="scala.Int" class="extype">Int</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a name="kafka.cluster.Partition" class="extype" href="">Partition</a> → AnyRef → Any</dd></dl></div>
+    </li><li visbl="pub" name="kafka.cluster.Partition#inSyncReplicas" data-isabs="false">
+      <a id="inSyncReplicas:Set[Replica]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">var</span>
+      </span>
+      <span class="symbol">
+        <span class="name">inSyncReplicas</span><span class="result">: <span name="scala.collection.Set" class="extype">Set</span>[<a name="kafka.cluster.Replica" class="extype" href="Replica.html">Replica</a>]</span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="kafka.utils.Logging#info" data-isabs="false">
+      <a id="info(⇒ String,⇒ Throwable):Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">info</span><span class="params">(<span name="msg">msg: ⇒ String</span>, <span name="e">e: ⇒ Throwable</span>)</span><span class="result">: <span name="scala.Unit" class="extype">Unit</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a name="kafka.utils.Logging" class="extype" href="../utils/Logging.html">Logging</a></dd></dl></div>
+    </li><li visbl="pub" name="kafka.utils.Logging#info" data-isabs="false">
+      <a id="info(⇒ Throwable):Any"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">info</span><span class="params">(<span name="e">e: ⇒ Throwable</span>)</span><span class="result">: <span name="scala.Any" class="extype">Any</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a name="kafka.utils.Logging" class="extype" href="../utils/Logging.html">Logging</a></dd></dl></div>
+    </li><li visbl="pub" name="kafka.utils.Logging#info" data-isabs="false">
+      <a id="info(⇒ String):Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">info</span><span class="params">(<span name="msg">msg: ⇒ String</span>)</span><span class="result">: <span name="scala.Unit" class="extype">Unit</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a name="kafka.utils.Logging" class="extype" href="../utils/Logging.html">Logging</a></dd></dl></div>
+    </li><li visbl="pub" name="scala.Any#isInstanceOf" data-isabs="false">
+      <a id="isInstanceOf[T0]:Boolean"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">isInstanceOf</span><span class="tparams">[<span name="T0">T0</span>]</span><span class="result">: <span name="scala.Boolean" class="extype">Boolean</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>Any</dd></dl></div>
+    </li><li visbl="pub" name="kafka.cluster.Partition#isUnderReplicated" data-isabs="false">
+      <a id="isUnderReplicated():Boolean"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">isUnderReplicated</span><span class="params">()</span><span class="result">: <span name="scala.Boolean" class="extype">Boolean</span></span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="kafka.cluster.Partition#leaderReplicaIdOpt" data-isabs="false">
+      <a id="leaderReplicaIdOpt:Option[Int]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">var</span>
+      </span>
+      <span class="symbol">
+        <span class="name">leaderReplicaIdOpt</span><span class="result">: <span name="scala.Option" class="extype">Option</span>[<span name="scala.Int" class="extype">Int</span>]</span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="kafka.cluster.Partition#leaderReplicaIfLocal" data-isabs="false">
+      <a id="leaderReplicaIfLocal():Option[Replica]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">leaderReplicaIfLocal</span><span class="params">()</span><span class="result">: <span name="scala.Option" class="extype">Option</span>[<a name="kafka.cluster.Replica" class="extype" href="Replica.html">Replica</a>]</span>
+      </span>
+      </h4>
+      
+    </li><li visbl="prt" name="kafka.utils.Logging#logIdent" data-isabs="false">
+      <a id="logIdent:String"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">var</span>
+      </span>
+      <span class="symbol">
+        <span class="name">logIdent</span><span class="result">: String</span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected </dd><dt>Definition Classes</dt><dd><a name="kafka.utils.Logging" class="extype" href="../utils/Logging.html">Logging</a></dd></dl></div>
+    </li><li visbl="pub" name="kafka.utils.Logging#logger" data-isabs="false">
+      <a id="logger:Logger"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">lazy val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">logger</span><span class="result">: <span name="org.apache.log4j.Logger" class="extype">Logger</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a name="kafka.utils.Logging" class="extype" href="../utils/Logging.html">Logging</a></dd></dl></div>
+    </li><li visbl="pub" name="kafka.utils.Logging#loggerName" data-isabs="false">
+      <a id="loggerName:String"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">loggerName</span><span class="result">: <span name="java.lang.String" class="extype">String</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a name="kafka.utils.Logging" class="extype" href="../utils/Logging.html">Logging</a></dd></dl></div>
+    </li><li visbl="pub" name="kafka.cluster.Partition#makeFollower" data-isabs="false">
+      <a id="makeFollower(Int,PartitionStateInfo,Set[Broker],Int):Boolean"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">makeFollower</span><span class="params">(<span name="controllerId">controllerId: <span name="scala.Int" class="extype">Int</span></span>, <span name="partitionStateInfo">partitionStateInfo: <a name="kafka.api.PartitionStateInfo" class="extype" href="../api/PartitionStateInfo.html">PartitionStateInfo</a></span>, <span name="leaders">leaders: <span name="scala.collection.Set" class="extype">Set</span>[<span name="kafka.cluster.Broker" class="extype">Broker</span>]</span>, <span name="correlationId">correlationId: <span name="scala.Int" class="extype">Int</span></span>)</span><span class="result">: <span name="scala.Boolean" class="extype">Boolean</span></span>
+      </span>
+      </h4>
+      <p class="shortcomment cmt"> Make the local replica the follower by setting the new leader and ISR to empty
+</p>
+    </li><li visbl="pub" name="kafka.cluster.Partition#makeLeader" data-isabs="false">
+      <a id="makeLeader(Int,PartitionStateInfo,Int):Boolean"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">makeLeader</span><span class="params">(<span name="controllerId">controllerId: <span name="scala.Int" class="extype">Int</span></span>, <span name="partitionStateInfo">partitionStateInfo: <a name="kafka.api.PartitionStateInfo" class="extype" href="../api/PartitionStateInfo.html">PartitionStateInfo</a></span>, <span name="correlationId">correlationId: <span name="scala.Int" class="extype">Int</span></span>)</span><span class="result">: <span name="scala.Boolean" class="extype">Boolean</span></span>
+      </span>
+      </h4>
+      <p class="shortcomment cmt">Make the local replica the leader by resetting LogEndOffset for remote replicas (there could be old LogEndOffset from the time when this broker was the leader last time)
+ and setting the new leader and ISR
+</p>
+    </li><li visbl="pub" name="kafka.cluster.Partition#maybeShrinkIsr" data-isabs="false">
+      <a id="maybeShrinkIsr(Long,Long):Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">maybeShrinkIsr</span><span class="params">(<span name="replicaMaxLagTimeMs">replicaMaxLagTimeMs: <span name="scala.Long" class="extype">Long</span></span>, <span name="replicaMaxLagMessages">replicaMaxLagMessages: <span name="scala.Long" class="extype">Long</span></span>)</span><span class="result">: <span name="scala.Unit" class="extype">Unit</span></span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="scala.AnyRef#ne" data-isabs="false">
+      <a id="ne(AnyRef):Boolean"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">ne</span><span class="params">(<span name="arg0">arg0: AnyRef</span>)</span><span class="result">: <span name="scala.Boolean" class="extype">Boolean</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef</dd></dl></div>
+    </li><li visbl="pub" name="kafka.metrics.KafkaMetricsGroup#newGauge" data-isabs="false">
+      <a id="newGauge[T](String,Gauge[T]):Gauge[T]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">newGauge</span><span class="tparams">[<span name="T">T</span>]</span><span class="params">(<span name="name">name: String</span>, <span name="metric">metric: <span name="com.yammer.metrics.core.Gauge" class="extype">Gauge</span>[T]</span>)</span><span class="result">: <span name="com.yammer.metrics.core.Gauge" class="extype">Gauge</span>[T]</span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a name="kafka.metrics.KafkaMetricsGroup" class="extype" href="../metrics/KafkaMetricsGroup.html">KafkaMetricsGroup</a></dd></dl></div>
+    </li><li visbl="pub" name="kafka.metrics.KafkaMetricsGroup#newHistogram" data-isabs="false">
+      <a id="newHistogram(String,Boolean):Histogram"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">newHistogram</span><span class="params">(<span name="name">name: String</span>, <span name="biased">biased: <span name="scala.Boolean" class="extype">Boolean</span> = <span class="symbol">true</span></span>)</span><span class="result">: <span name="com.yammer.metrics.core.Histogram" class="extype">Histogram</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a name="kafka.metrics.KafkaMetricsGroup" class="extype" href="../metrics/KafkaMetricsGroup.html">KafkaMetricsGroup</a></dd></dl></div>
+    </li><li visbl="pub" name="kafka.metrics.KafkaMetricsGroup#newMeter" data-isabs="false">
+      <a id="newMeter(String,String,TimeUnit):Meter"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">newMeter</span><span class="params">(<span name="name">name: String</span>, <span name="eventType">eventType: String</span>, <span name="timeUnit">timeUnit: <span name="java.util.concurrent.TimeUnit" class="extype">TimeUnit</span></span>)</span><span class="result">: <span name="com.yammer.metrics.core.Meter" class="extype">Meter</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a name="kafka.metrics.KafkaMetricsGroup" class="extype" href="../metrics/KafkaMetricsGroup.html">KafkaMetricsGroup</a></dd></dl></div>
+    </li><li visbl="pub" name="kafka.metrics.KafkaMetricsGroup#newTimer" data-isabs="false">
+      <a id="newTimer(String,TimeUnit,TimeUnit):Timer"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">newTimer</span><span class="params">(<span name="name">name: String</span>, <span name="durationUnit">durationUnit: <span name="java.util.concurrent.TimeUnit" class="extype">TimeUnit</span></span>, <span name="rateUnit">rateUnit: <span name="java.util.concurrent.TimeUnit" class="extype">TimeUnit</span></span>)</span><span class="result">: <span name="com.yammer.metrics.core.Timer" class="extype">Timer</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a name="kafka.metrics.KafkaMetricsGroup" class="extype" href="../metrics/KafkaMetricsGroup.html">KafkaMetricsGroup</a></dd></dl></div>
+    </li><li visbl="pub" name="scala.AnyRef#notify" data-isabs="false">
+      <a id="notify():Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">notify</span><span class="params">()</span><span class="result">: <span name="scala.Unit" class="extype">Unit</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef</dd></dl></div>
+    </li><li visbl="pub" name="scala.AnyRef#notifyAll" data-isabs="false">
+      <a id="notifyAll():Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">notifyAll</span><span class="params">()</span><span class="result">: <span name="scala.Unit" class="extype">Unit</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef</dd></dl></div>
+    </li><li visbl="pub" name="kafka.cluster.Partition#partitionId" data-isabs="false">
+      <a id="partitionId:Int"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">partitionId</span><span class="result">: <span name="scala.Int" class="extype">Int</span></span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="kafka.cluster.Partition#removeReplica" data-isabs="false">
+      <a id="removeReplica(Int):Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">removeReplica</span><span class="params">(<span name="replicaId">replicaId: <span name="scala.Int" class="extype">Int</span></span>)</span><span class="result">: <span name="scala.Unit" class="extype">Unit</span></span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="kafka.cluster.Partition#replicaManager" data-isabs="false">
+      <a id="replicaManager:ReplicaManager"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">replicaManager</span><span class="result">: <a name="kafka.server.ReplicaManager" class="extype" href="../server/ReplicaManager.html">ReplicaManager</a></span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="kafka.cluster.Partition#replicationFactor" data-isabs="false">
+      <a id="replicationFactor:Int"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">var</span>
+      </span>
+      <span class="symbol">
+        <span class="name">replicationFactor</span><span class="result">: <span name="scala.Int" class="extype">Int</span></span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="kafka.utils.Logging#swallow" data-isabs="false">
+      <a id="swallow(⇒ Unit):Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">swallow</span><span class="params">(<span name="action">action: ⇒ <span name="scala.Unit" class="extype">Unit</span></span>)</span><span class="result">: <span name="scala.Unit" class="extype">Unit</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a name="kafka.utils.Logging" class="extype" href="../utils/Logging.html">Logging</a></dd></dl></div>
+    </li><li visbl="pub" name="kafka.utils.Logging#swallowDebug" data-isabs="false">
+      <a id="swallowDebug(⇒ Unit):Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">swallowDebug</span><span class="params">(<span name="action">action: ⇒ <span name="scala.Unit" class="extype">Unit</span></span>)</span><span class="result">: <span name="scala.Unit" class="extype">Unit</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a name="kafka.utils.Logging" class="extype" href="../utils/Logging.html">Logging</a></dd></dl></div>
+    </li><li visbl="pub" name="kafka.utils.Logging#swallowError" data-isabs="false">
+      <a id="swallowError(⇒ Unit):Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">swallowError</span><span class="params">(<span name="action">action: ⇒ <span name="scala.Unit" class="extype">Unit</span></span>)</span><span class="result">: <span name="scala.Unit" class="extype">Unit</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a name="kafka.utils.Logging" class="extype" href="../utils/Logging.html">Logging</a></dd></dl></div>
+    </li><li visbl="pub" name="kafka.utils.Logging#swallowInfo" data-isabs="false">
+      <a id="swallowInfo(⇒ Unit):Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">swallowInfo</span><span class="params">(<span name="action">action: ⇒ <span name="scala.Unit" class="extype">Unit</span></span>)</span><span class="result">: <span name="scala.Unit" class="extype">Unit</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a name="kafka.utils.Logging" class="extype" href="../utils/Logging.html">Logging</a></dd></dl></div>
+    </li><li visbl="pub" name="kafka.utils.Logging#swallowTrace" data-isabs="false">
+      <a id="swallowTrace(⇒ Unit):Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">swallowTrace</span><span class="params">(<span name="action">action: ⇒ <span name="scala.Unit" class="extype">Unit</span></span>)</span><span class="result">: <span name="scala.Unit" class="extype">Unit</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a name="kafka.utils.Logging" class="extype" href="../utils/Logging.html">Logging</a></dd></dl></div>
+    </li><li visbl="pub" name="kafka.utils.Logging#swallowWarn" data-isabs="false">
+      <a id="swallowWarn(⇒ Unit):Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">swallowWarn</span><span class="params">(<span name="action">action: ⇒ <span name="scala.Unit" class="extype">Unit</span></span>)</span><span class="result">: <span name="scala.Unit" class="extype">Unit</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a name="kafka.utils.Logging" class="extype" href="../utils/Logging.html">Logging</a></dd></dl></div>
+    </li><li visbl="pub" name="scala.AnyRef#synchronized" data-isabs="false">
+      <a id="synchronized[T0](⇒ T0):T0"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">synchronized</span><span class="tparams">[<span name="T0">T0</span>]</span><span class="params">(<span name="arg0">arg0: ⇒ T0</span>)</span><span class="result">: T0</span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef</dd></dl></div>
+    </li><li visbl="pub" name="kafka.cluster.Partition#toString" data-isabs="false">
+      <a id="toString():String"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">toString</span><span class="params">()</span><span class="result">: String</span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a name="kafka.cluster.Partition" class="extype" href="">Partition</a> → AnyRef → Any</dd></dl></div>
+    </li><li visbl="pub" name="kafka.cluster.Partition#topic" data-isabs="false">
+      <a id="topic:String"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">topic</span><span class="result">: String</span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="kafka.utils.Logging#trace" data-isabs="false">
+      <a id="trace(⇒ String,⇒ Throwable):Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">trace</span><span class="params">(<span name="msg">msg: ⇒ String</span>, <span name="e">e: ⇒ Throwable</span>)</span><span class="result">: <span name="scala.Unit" class="extype">Unit</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a name="kafka.utils.Logging" class="extype" href="../utils/Logging.html">Logging</a></dd></dl></div>
+    </li><li visbl="pub" name="kafka.utils.Logging#trace" data-isabs="false">
+      <a id="trace(⇒ Throwable):Any"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">trace</span><span class="params">(<span name="e">e: ⇒ Throwable</span>)</span><span class="result">: <span name="scala.Any" class="extype">Any</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a name="kafka.utils.Logging" class="extype" href="../utils/Logging.html">Logging</a></dd></dl></div>
+    </li><li visbl="pub" name="kafka.utils.Logging#trace" data-isabs="false">
+      <a id="trace(⇒ String):Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">trace</span><span class="params">(<span name="msg">msg: ⇒ String</span>)</span><span class="result">: <span name="scala.Unit" class="extype">Unit</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a name="kafka.utils.Logging" class="extype" href="../utils/Logging.html">Logging</a></dd></dl></div>
+    </li><li visbl="pub" name="kafka.cluster.Partition#updateLeaderHWAndMaybeExpandIsr" data-isabs="false">
+      <a id="updateLeaderHWAndMaybeExpandIsr(Int,Long):Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">updateLeaderHWAndMaybeExpandIsr</span><span class="params">(<span name="replicaId">replicaId: <span name="scala.Int" class="extype">Int</span></span>, <span name="offset">offset: <span name="scala.Long" class="extype">Long</span></span>)</span><span class="result">: <span name="scala.Unit" class="extype">Unit</span></span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="scala.AnyRef#wait" data-isabs="false">
+      <a id="wait():Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">wait</span><span class="params">()</span><span class="result">: <span name="scala.Unit" class="extype">Unit</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef</dd><dt>Annotations</dt><dd>
+                <span class="name">@throws</span><span class="args">()</span>
+              
+        </dd></dl></div>
+    </li><li visbl="pub" name="scala.AnyRef#wait" data-isabs="false">
+      <a id="wait(Long,Int):Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">wait</span><span class="params">(<span name="arg0">arg0: <span name="scala.Long" class="extype">Long</span></span>, <span name="arg1">arg1: <span name="scala.Int" class="extype">Int</span></span>)</span><span class="result">: <span name="scala.Unit" class="extype">Unit</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef</dd><dt>Annotations</dt><dd>
+                <span class="name">@throws</span><span class="args">()</span>
+              
+        </dd></dl></div>
+    </li><li visbl="pub" name="scala.AnyRef#wait" data-isabs="false">
+      <a id="wait(Long):Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">wait</span><span class="params">(<span name="arg0">arg0: <span name="scala.Long" class="extype">Long</span></span>)</span><span class="result">: <span name="scala.Unit" class="extype">Unit</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef</dd><dt>Annotations</dt><dd>
+                <span class="name">@throws</span><span class="args">()</span>
+              
+        </dd></dl></div>
+    </li><li visbl="pub" name="kafka.utils.Logging#warn" data-isabs="false">
+      <a id="warn(⇒ String,⇒ Throwable):Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">warn</span><span class="params">(<span name="msg">msg: ⇒ String</span>, <span name="e">e: ⇒ Throwable</span>)</span><span class="result">: <span name="scala.Unit" class="extype">Unit</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a name="kafka.utils.Logging" class="extype" href="../utils/Logging.html">Logging</a></dd></dl></div>
+    </li><li visbl="pub" name="kafka.utils.Logging#warn" data-isabs="false">
+      <a id="warn(⇒ Throwable):Any"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">warn</span><span class="params">(<span name="e">e: ⇒ Throwable</span>)</span><span class="result">: <span name="scala.Any" class="extype">Any</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a name="kafka.utils.Logging" class="extype" href="../utils/Logging.html">Logging</a></dd></dl></div>
+    </li><li visbl="pub" name="kafka.utils.Logging#warn" data-isabs="false">
+      <a id="warn(⇒ String):Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">warn</span><span class="params">(<span name="msg">msg: ⇒ String</span>)</span><span class="result">: <span name="scala.Unit" class="extype">Unit</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a name="kafka.utils.Logging" class="extype" href="../utils/Logging.html">Logging</a></dd></dl></div>
+    </li></ol>
+            </div>
+
+        
+        </div>
+
+        <div id="inheritedMembers">
+        <div name="kafka.metrics.KafkaMetricsGroup" class="parent">
+              <h3>Inherited from <a name="kafka.metrics.KafkaMetricsGroup" class="extype" href="../metrics/KafkaMetricsGroup.html">KafkaMetricsGroup</a></h3>
+            </div><div name="kafka.utils.Logging" class="parent">
+              <h3>Inherited from <a name="kafka.utils.Logging" class="extype" href="../utils/Logging.html">Logging</a></h3>
+            </div><div name="scala.AnyRef" class="parent">
+              <h3>Inherited from AnyRef</h3>
+            </div><div name="scala.Any" class="parent">
+              <h3>Inherited from <span name="scala.Any" class="extype">Any</span></h3>
+            </div>
+        </div>
+
+      </div>
+
+      <div id="tooltip"></div>
+
+      <div id="footer">  </div>
+
+
+    </body>
+      </html>

@@ -1,0 +1,421 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html>
+        <head>
+          <title>core 0.8.1.1 API</title>
+          <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+          
+      <link type="text/css" media="screen" rel="stylesheet" href="../lib/ref-index.css" />
+      <script type="text/javascript" src="../lib/jquery.js"></script>
+    
+        </head>
+        <body><div class="entry">
+      <div class="name">callback</div>
+      <div class="occurrences"><a name="kafka.controller.StopReplicaRequestInfo" class="extype" href="../kafka/controller/StopReplicaRequestInfo.html">StopReplicaRequestInfo</a> </div>
+    </div><div class="entry">
+      <div class="name">CallbackBuilder</div>
+      <div class="occurrences"><a name="kafka.controller.Callbacks" class="extype" href="../kafka/controller/Callbacks$.html">Callbacks</a> </div>
+    </div><div class="entry">
+      <div class="name">Callbacks</div>
+      <div class="occurrences"><a name="kafka.controller" class="extype" href="../kafka/controller/package.html">controller</a> </div>
+    </div><div class="entry">
+      <div class="name">canEqual</div>
+      <div class="occurrences"><a name="kafka.admin.ReassignmentCompleted" class="extype" href="../kafka/admin/ReassignmentCompleted$.html">ReassignmentCompleted</a> <a name="kafka.admin.ReassignmentFailed" class="extype" href="../kafka/admin/ReassignmentFailed$.html">ReassignmentFailed</a> <a name="kafka.admin.ReassignmentInProgress" class="extype" href="../kafka/admin/ReassignmentInProgress$.html">ReassignmentInProgress</a> <a name="kafka.api.ControlledShutdownRequest" class="extype" href="../kafka/api/ControlledShutdownRequest.html">ControlledShutdownRequest</a> <a name="kafka.api.ControlledShutdownResponse" class="extype" href="../kafka/api/ControlledShutdownResponse.html">ControlledShutdownResponse</a> <a name="kafka.api.FetchRequest" class="extype" href="../kafka/api/FetchRequest.html">FetchRequest</a> <a name="kafka.api.FetchResponse" class="extype" href="../kafka/api/FetchResponse.html">FetchResponse</a> <a name="kafka.api.FetchResponsePartitionData" class="extype" href="../kafka/api/FetchResponsePartitionData.html">FetchResponsePartitionData</a> <a name="kafka.api.LeaderAndIsr" class="extype" href="../kafka/api/LeaderAndIsr.html">LeaderAndIsr</a> <a name="kafka.api.LeaderAndIsrRequest" class="extype" href="../kafka/api/LeaderAndIsrRequest.html">LeaderAndIsrRequest</a> <a name="kafka.api.LeaderAndIsrResponse" class="extype" href="../kafka/api/LeaderAndIsrResponse.html">LeaderAndIsrResponse</a> <a name="kafka.api.OffsetCommitRequest" class="extype" href="../kafka/api/OffsetCommitRequest.html">OffsetCommitRequest</a> <a name="kafka.api.OffsetCommitResponse" class="extype" href="../kafka/api/OffsetCommitResponse.html">OffsetCommitResponse</a> <a name="kafka.api.OffsetFetchRequest" class="extype" href="../kafka/api/OffsetFetchRequest.html">OffsetFetchRequest</a> <a name="kafka.api.OffsetFetchResponse" class="extype" href="../kafka/api/OffsetFetchResponse.html">OffsetFetchResponse</a> <a name="kafka.api.OffsetRequest" class="extype" href="../kafka/api/OffsetRequest.html">OffsetRequest</a> <a name="kafka.api.OffsetResponse" class="extype" href="../kafka/api/OffsetResponse.html">OffsetResponse</a> <a name="kafka.api.PartitionFetchInfo" class="extype" href="../kafka/api/PartitionFetchInfo.html">PartitionFetchInfo</a> <a name="kafka.api.PartitionMetadata" class="extype" href="../kafka/api/PartitionMetadata.html">PartitionMetadata</a> <a name="kafka.api.PartitionOffsetRequestInfo" class="extype" href="../kafka/api/PartitionOffsetRequestInfo.html">PartitionOffsetRequestInfo</a> <a name="kafka.api.PartitionOffsetsResponse" class="extype" href="../kafka/api/PartitionOffsetsResponse.html">PartitionOffsetsResponse</a> <a name="kafka.api.PartitionStateInfo" class="extype" href="../kafka/api/PartitionStateInfo.html">PartitionStateInfo</a> <a name="kafka.api.ProducerRequest" class="extype" href="../kafka/api/ProducerRequest.html">ProducerRequest</a> <a name="kafka.api.ProducerResponse" class="extype" href="../kafka/api/ProducerResponse.html">ProducerResponse</a> <a name="kafka.api.ProducerResponseStatus" class="extype" href="../kafka/api/ProducerResponseStatus.html">ProducerResponseStatus</a> <a name="kafka.api.StopReplicaRequest" class="extype" href="../kafka/api/StopReplicaRequest.html">StopReplicaRequest</a> <a name="kafka.api.StopReplicaResponse" class="extype" href="../kafka/api/StopReplicaResponse.html">StopReplicaResponse</a> <a name="kafka.api.TopicData" class="extype" href="../kafka/api/TopicData.html">TopicData</a> <a name="kafka.api.TopicMetadata" class="extype" href="../kafka/api/TopicMetadata.html">TopicMetadata</a> <a name="kafka.api.TopicMetadataRequest" class="extype" href="../kafka/api/TopicMetadataRequest.html">TopicMetadataRequest</a> <a name="kafka.api.TopicMetadataResponse" class="extype" href="../kafka/api/TopicMetadataResponse.html">TopicMetadataResponse</a> <a name="kafka.api.UpdateMetadataRequest" class="extype" href="../kafka/api/UpdateMetadataRequest.html">UpdateMetadataRequest</a> <a name="kafka.api.UpdateMetadataResponse" class="extype" href="../kafka/api/UpdateMetadataResponse.html">UpdateMetadataResponse</a> <a name="kafka.common.ClientIdAndBroker" class="extype" href="../kafka/common/ClientIdAndBroker.html">ClientIdAndBroker</a> <a name="kafka.common.ClientIdAndTopic" class="extype" href="../kafka/common/ClientIdAndTopic.html">ClientIdAndTopic</a> <a name="kafka.common.OffsetMetadataAndError" class="extype" href="../kafka/common/OffsetMetadataAndError.html">OffsetMetadataAndError</a> <a name="kafka.common.TopicAndPartition" class="extype" href="../kafka/common/TopicAndPartition.html">TopicAndPartition</a> <a name="kafka.consumer.Blacklist" class="extype" href="../kafka/consumer/Blacklist.html">Blacklist</a> <a name="kafka.consumer.FetchedDataChunk" class="extype" href="../kafka/consumer/FetchedDataChunk.html">FetchedDataChunk</a> <a name="kafka.consumer.Whitelist" class="extype" href="../kafka/consumer/Whitelist.html">Whitelist</a> <a name="kafka.controller.ControllerBrokerStateInfo" class="extype" href="../kafka/controller/ControllerBrokerStateInfo.html">ControllerBrokerStateInfo</a> <a name="kafka.controller.KafkaController.StateChangeLogger" class="extype" href="../kafka/controller/KafkaController$$StateChangeLogger.html">StateChangeLogger</a> <a name="kafka.controller.LeaderIsrAndControllerEpoch" class="extype" href="../kafka/controller/LeaderIsrAndControllerEpoch.html">LeaderIsrAndControllerEpoch</a> <a name="kafka.controller.NewPartition" class="extype" href="../kafka/controller/NewPartition$.html">NewPartition</a> <a name="kafka.controller.NewReplica" class="extype" href="../kafka/controller/NewReplica$.html">NewReplica</a> <a name="kafka.controller.NonExistentPartition" class="extype" href="../kafka/controller/NonExistentPartition$.html">NonExistentPartition</a> <a name="kafka.controller.NonExistentReplica" class="extype" href="../kafka/controller/NonExistentReplica$.html">NonExistentReplica</a> <a name="kafka.controller.OfflinePartition" class="extype" href="../kafka/controller/OfflinePartition$.html">OfflinePartition</a> <a name="kafka.controller.OfflineReplica" class="extype" href="../kafka/controller/OfflineReplica$.html">OfflineReplica</a> <a name="kafka.controller.OnlinePartition" class="extype" href="../kafka/controller/OnlinePartition$.html">OnlinePartition</a> <a name="kafka.controller.OnlineReplica" class="extype" href="../kafka/controller/OnlineReplica$.html">OnlineReplica</a> <a name="kafka.controller.PartitionAndReplica" class="extype" href="../kafka/controller/PartitionAndReplica.html">PartitionAndReplica</a> <a name="kafka.controller.ReassignedPartitionsContext" class="extype" href="../kafka/controller/ReassignedPartitionsContext.html">ReassignedPartitionsContext</a> <a name="kafka.controller.ReplicaDeletionIneligible" class="extype" href="../kafka/controller/ReplicaDeletionIneligible$.html">ReplicaDeletionIneligible</a> <a name="kafka.controller.ReplicaDeletionStarted" class="extype" href="../kafka/controller/ReplicaDeletionStarted$.html">ReplicaDeletionStarted</a> <a name="kafka.controller.ReplicaDeletionSuccessful" class="extype" href="../kafka/controller/ReplicaDeletionSuccessful$.html">ReplicaDeletionSuccessful</a> <a name="kafka.controller.StopReplicaRequestInfo" class="extype" href="../kafka/controller/StopReplicaRequestInfo.html">StopReplicaRequestInfo</a> <a name="kafka.javaapi.FetchRequest" class="extype" href="../kafka/javaapi/FetchRequest.html">FetchRequest</a> <a name="kafka.javaapi.FetchResponse" class="extype" href="../kafka/javaapi/FetchResponse.html">FetchResponse</a> <a name="kafka.javaapi.OffsetCommitRequest" class="extype" href="../kafka/javaapi/OffsetCommitRequest.html">OffsetCommitRequest</a> <a name="kafka.javaapi.OffsetFetchRequest" class="extype" href="../kafka/javaapi/OffsetFetchRequest.html">OffsetFetchRequest</a> <a name="kafka.javaapi.OffsetRequest" class="extype" href="../kafka/javaapi/OffsetRequest.html">OffsetRequest</a> <a name="kafka.javaapi.OffsetResponse" class="extype" href="../kafka/javaapi/OffsetResponse.html">OffsetResponse</a> <a name="kafka.log.CleanerConfig" class="extype" href="../kafka/log/CleanerConfig.html">CleanerConfig</a> <a name="kafka.log.Log.LogAppendInfo" class="extype" href="../kafka/log/Log$LogAppendInfo.html">LogAppendInfo</a> <a name="kafka.log.LogConfig" class="extype" href="../kafka/log/LogConfig.html">LogConfig</a> <a name="kafka.log.OffsetPosition" class="extype" href="../kafka/log/OffsetPosition.html">OffsetPosition</a> <a name="kafka.message.DefaultCompressionCodec" class="extype" href="../kafka/message/DefaultCompressionCodec$.html">DefaultCompressionCodec</a> <a name="kafka.message.GZIPCompressionCodec" class="extype" href="../kafka/message/GZIPCompressionCodec$.html">GZIPCompressionCodec</a> <a name="kafka.message.MessageAndMetadata" class="extype" href="../kafka/message/MessageAndMetadata.html">MessageAndMetadata</a> <a name="kafka.message.MessageAndOffset" class="extype" href="../kafka/message/MessageAndOffset.html">MessageAndOffset</a> <a name="kafka.message.NoCompressionCodec" class="extype" href="../kafka/message/NoCompressionCodec$.html">NoCompressionCodec</a> <a name="kafka.message.SnappyCompressionCodec" class="extype" href="../kafka/message/SnappyCompressionCodec$.html">SnappyCompressionCodec</a> <a name="kafka.network.RequestChannel.CloseConnectionAction" class="extype" href="../kafka/network/RequestChannel$$CloseConnectionAction$.html">CloseConnectionAction</a> <a name="kafka.network.RequestChannel.NoOpAction" class="extype" href="../kafka/network/RequestChannel$$NoOpAction$.html">NoOpAction</a> <a name="kafka.network.RequestChannel.Request" class="extype" href="../kafka/network/RequestChannel$$Request.html">Request</a> <a name="kafka.network.RequestChannel.RequestLogger" class="extype" href="../kafka/network/RequestChannel$$RequestLogger.html">RequestLogger</a> <a name="kafka.network.RequestChannel.Response" class="extype" href="../kafka/network/RequestChannel$$Response.html">Response</a> <a name="kafka.network.RequestChannel.SendAction" class="extype" href="../kafka/network/RequestChannel$$SendAction$.html">SendAction</a> <a name="kafka.producer.KeyedMessage" class="extype" href="../kafka/producer/KeyedMessage.html">KeyedMessage</a> <a name="kafka.producer.PartitionAndLeader" class="extype" href="../kafka/producer/PartitionAndLeader.html">PartitionAndLeader</a> <a name="kafka.server.BrokerAndFetcherId" class="extype" href="../kafka/server/BrokerAndFetcherId.html">BrokerAndFetcherId</a> <a name="kafka.server.BrokerAndInitialOffset" class="extype" href="../kafka/server/BrokerAndInitialOffset.html">BrokerAndInitialOffset</a> <a name="kafka.server.ClientIdBrokerTopicPartition" class="extype" href="../kafka/server/ClientIdBrokerTopicPartition.html">ClientIdBrokerTopicPartition</a> <a name="kafka.server.KafkaApis.DelayedProduce.PartitionStatus" class="extype" href="../kafka/server/KafkaApis$DelayedProduce$PartitionStatus.html">PartitionStatus</a> <a name="kafka.server.KafkaApis.ProduceResult" class="extype" href="../kafka/server/KafkaApis$ProduceResult.html">ProduceResult</a> </div>
+    </div><div class="entry">
+      <div class="name">changeFileSuffixes</div>
+      <div class="occurrences"><a name="kafka.log.LogSegment" class="extype" href="../kafka/log/LogSegment.html">LogSegment</a> </div>
+    </div><div class="entry">
+      <div class="name">changeTopicConfig</div>
+      <div class="occurrences"><a name="kafka.admin.AdminUtils" class="extype" href="../kafka/admin/AdminUtils$.html">AdminUtils</a> </div>
+    </div><div class="entry">
+      <div class="name">channel</div>
+      <div class="occurrences"><a name="kafka.controller.ControllerBrokerStateInfo" class="extype" href="../kafka/controller/ControllerBrokerStateInfo.html">ControllerBrokerStateInfo</a> <a name="kafka.controller.RequestSendThread" class="extype" href="../kafka/controller/RequestSendThread.html">RequestSendThread</a> </div>
+    </div><div class="entry">
+      <div class="name">checkArgs</div>
+      <div class="occurrences"><a name="kafka.admin.TopicCommand.TopicCommandOptions" class="extype" href="../kafka/admin/TopicCommand$$TopicCommandOptions.html">TopicCommandOptions</a> </div>
+    </div><div class="entry">
+      <div class="name">checkEnoughReplicasReachOffset</div>
+      <div class="occurrences"><a name="kafka.cluster.Partition" class="extype" href="../kafka/cluster/Partition.html">Partition</a> </div>
+    </div><div class="entry">
+      <div class="name">checkIfPartitionReassignmentSucceeded</div>
+      <div class="occurrences"><a name="kafka.admin.ReassignPartitionsCommand" class="extype" href="../kafka/admin/ReassignPartitionsCommand$.html">ReassignPartitionsCommand</a> </div>
+    </div><div class="entry">
+      <div class="name">checkIntervalMs</div>
+      <div class="occurrences"><a name="kafka.utils.Throttler" class="extype" href="../kafka/utils/Throttler.html">Throttler</a> </div>
+    </div><div class="entry">
+      <div class="name">checkInvalidArgs</div>
+      <div class="occurrences"><a name="kafka.utils.CommandLineUtils" class="extype" href="../kafka/utils/CommandLineUtils$.html">CommandLineUtils</a> </div>
+    </div><div class="entry">
+      <div class="name">checkpointHighWatermarks</div>
+      <div class="occurrences"><a name="kafka.server.ReplicaManager" class="extype" href="../kafka/server/ReplicaManager.html">ReplicaManager</a> </div>
+    </div><div class="entry">
+      <div class="name">checkpointRecoveryPointOffsets</div>
+      <div class="occurrences"><a name="kafka.log.LogManager" class="extype" href="../kafka/log/LogManager.html">LogManager</a> </div>
+    </div><div class="entry">
+      <div class="name">checkRequiredArgs</div>
+      <div class="occurrences"><a name="kafka.utils.CommandLineUtils" class="extype" href="../kafka/utils/CommandLineUtils$.html">CommandLineUtils</a> </div>
+    </div><div class="entry">
+      <div class="name">checkSatisfied</div>
+      <div class="occurrences"><a name="kafka.server.KafkaApis.FetchRequestPurgatory" class="extype" href="../kafka/server/KafkaApis$FetchRequestPurgatory.html">FetchRequestPurgatory</a> <a name="kafka.server.RequestPurgatory" class="extype" href="../kafka/server/RequestPurgatory.html">RequestPurgatory</a> </div>
+    </div><div class="entry">
+      <div class="name">checksum</div>
+      <div class="occurrences"><a name="kafka.message.Message" class="extype" href="../kafka/message/Message.html">Message</a> </div>
+    </div><div class="entry">
+      <div class="name">ChecksumMessageFormatter</div>
+      <div class="occurrences"><a name="kafka.consumer" class="extype" href="../kafka/consumer/package.html">consumer</a> </div>
+    </div><div class="entry">
+      <div class="name">circularIterator</div>
+      <div class="occurrences"><a name="kafka.utils.Utils" class="extype" href="../kafka/utils/Utils$.html">Utils</a> </div>
+    </div><div class="entry">
+      <div class="name">CleanedFileSuffix</div>
+      <div class="occurrences"><a name="kafka.log.Log" class="extype" href="../kafka/log/Log$.html">Log</a> </div>
+    </div><div class="entry">
+      <div class="name">CleanerConfig</div>
+      <div class="occurrences"><a name="kafka.log" class="extype" href="../kafka/log/package.html">log</a> <a name="kafka.log.LogManager" class="extype" href="../kafka/log/LogManager.html">LogManager</a> </div>
+    </div><div class="entry">
+      <div class="name">cleanShutdown</div>
+      <div class="occurrences"><a name="kafka.tools.MirrorMaker" class="extype" href="../kafka/tools/MirrorMaker$.html">MirrorMaker</a> </div>
+    </div><div class="entry">
+      <div class="name">CleanShutdownFile</div>
+      <div class="occurrences"><a name="kafka.log.Log" class="extype" href="../kafka/log/Log$.html">Log</a> </div>
+    </div><div class="entry">
+      <div class="name">cleanupLogs</div>
+      <div class="occurrences"><a name="kafka.log.LogManager" class="extype" href="../kafka/log/LogManager.html">LogManager</a> </div>
+    </div><div class="entry">
+      <div class="name">CleanupPolicyProp</div>
+      <div class="occurrences"><a name="kafka.log.LogConfig" class="extype" href="../kafka/log/LogConfig$.html">LogConfig</a> </div>
+    </div><div class="entry">
+      <div class="name">clear</div>
+      <div class="occurrences"><a name="kafka.consumer.KafkaStream" class="extype" href="../kafka/consumer/KafkaStream.html">KafkaStream</a> <a name="kafka.log.OffsetMap" class="extype" href="../kafka/log/OffsetMap.html">OffsetMap</a> <a name="kafka.log.SkimpyOffsetMap" class="extype" href="../kafka/log/SkimpyOffsetMap.html">SkimpyOffsetMap</a> <a name="kafka.utils.Pool" class="extype" href="../kafka/utils/Pool.html">Pool</a> </div>
+    </div><div class="entry">
+      <div class="name">clearCurrentChunk</div>
+      <div class="occurrences"><a name="kafka.consumer.ConsumerIterator" class="extype" href="../kafka/consumer/ConsumerIterator.html">ConsumerIterator</a> </div>
+    </div><div class="entry">
+      <div class="name">client</div>
+      <div class="occurrences"><a name="kafka" class="extype" href="../kafka/package.html">kafka</a> </div>
+    </div><div class="entry">
+      <div class="name">clientId</div>
+      <div class="occurrences"><a name="kafka.api.FetchRequest" class="extype" href="../kafka/api/FetchRequest.html">FetchRequest</a> <a name="kafka.api.FetchRequestBuilder" class="extype" href="../kafka/api/FetchRequestBuilder.html">FetchRequestBuilder</a> <a name="kafka.api.LeaderAndIsrRequest" class="extype" href="../kafka/api/LeaderAndIsrRequest.html">LeaderAndIsrRequest</a> <a name="kafka.api.OffsetCommitRequest" class="extype" href="../kafka/api/OffsetCommitRequest.html">OffsetCommitRequest</a> <a name="kafka.api.OffsetFetchRequest" class="extype" href="../kafka/api/OffsetFetchRequest.html">OffsetFetchRequest</a> <a name="kafka.api.OffsetRequest" class="extype" href="../kafka/api/OffsetRequest.html">OffsetRequest</a> <a name="kafka.api.ProducerRequest" class="extype" href="../kafka/api/ProducerRequest.html">ProducerRequest</a> <a name="kafka.api.StopReplicaRequest" class="extype" href="../kafka/api/StopReplicaRequest.html">StopReplicaRequest</a> <a name="kafka.api.TopicMetadataRequest" class="extype" href="../kafka/api/TopicMetadataRequest.html">TopicMetadataRequest</a> <a name="kafka.api.UpdateMetadataRequest" class="extype" href="../kafka/api/UpdateMetadataRequest.html">UpdateMetadataRequest</a> <a name="kafka.common.ClientIdAndBroker" class="extype" href="../kafka/common/ClientIdAndBroker.html">ClientIdAndBroker</a> <a name="kafka.common.ClientIdAndTopic" class="extype" href="../kafka/common/ClientIdAndTopic.html">ClientIdAndTopic</a> <a name="kafka.consumer.ConsumerConfig" class="extype" href="../kafka/consumer/ConsumerConfig.html">ConsumerConfig</a> <a name="kafka.consumer.ConsumerIterator" class="extype" href="../kafka/consumer/ConsumerIterator.html">ConsumerIterator</a> <a name="kafka.consumer.KafkaStream" class="extype" href="../kafka/consumer/KafkaStream.html">KafkaStream</a> <a name="kafka.consumer.SimpleConsumer" class="extype" href="../kafka/consumer/SimpleConsumer.html">SimpleConsumer</a> <a name="kafka.controller.ControllerBrokerRequestBatch" class="extype" href="../kafka/controller/ControllerBrokerRequestBatch.html">ControllerBrokerRequestBatch</a> <a name="kafka.controller.KafkaController" class="extype" href="../kafka/controller/KafkaController.html">KafkaController</a> <a name="kafka.javaapi.consumer.SimpleConsumer" class="extype" href="../kafka/javaapi/consumer/SimpleConsumer.html">SimpleConsumer</a> <a name="kafka.javaapi.TopicMetadataRequest" class="extype" href="../kafka/javaapi/TopicMetadataRequest.html">TopicMetadataRequest</a> <a name="kafka.producer.async.ProducerSendThread" class="extype" href="../kafka/producer/async/ProducerSendThread.html">ProducerSendThread</a> <a name="kafka.producer.SyncProducerConfigShared" class="extype" href="../kafka/producer/SyncProducerConfigShared.html">SyncProducerConfigShared</a> <a name="kafka.server.ClientIdBrokerTopicPartition" class="extype" href="../kafka/server/ClientIdBrokerTopicPartition.html">ClientIdBrokerTopicPartition</a> <a name="kafka.tools.ReplicaVerificationTool" class="extype" href="../kafka/tools/ReplicaVerificationTool$.html">ReplicaVerificationTool</a> </div>
+    </div><div class="entry">
+      <div class="name">ClientIdAndBroker</div>
+      <div class="occurrences"><a name="kafka.common" class="extype" href="../kafka/common/package.html">common</a> </div>
+    </div><div class="entry">
+      <div class="name">ClientIdAndTopic</div>
+      <div class="occurrences"><a name="kafka.common" class="extype" href="../kafka/common/package.html">common</a> </div>
+    </div><div class="entry">
+      <div class="name">ClientIdBrokerTopicPartition</div>
+      <div class="occurrences"><a name="kafka.server" class="extype" href="../kafka/server/package.html">server</a> </div>
+    </div><div class="entry">
+      <div class="name">ClientUtils</div>
+      <div class="occurrences"><a name="kafka.client" class="extype" href="../kafka/client/package.html">client</a> </div>
+    </div><div class="entry">
+      <div class="name">close</div>
+      <div class="occurrences"><a name="kafka.consumer.MessageFormatter" class="extype" href="../kafka/consumer/MessageFormatter.html">MessageFormatter</a> <a name="kafka.consumer.SimpleConsumer" class="extype" href="../kafka/consumer/SimpleConsumer.html">SimpleConsumer</a> <a name="kafka.javaapi.consumer.SimpleConsumer" class="extype" href="../kafka/javaapi/consumer/SimpleConsumer.html">SimpleConsumer</a> <a name="kafka.javaapi.producer.Producer" class="extype" href="../kafka/javaapi/producer/Producer.html">Producer</a> <a name="kafka.log.FileMessageSet" class="extype" href="../kafka/log/FileMessageSet.html">FileMessageSet</a> <a name="kafka.log.Log" class="extype" href="../kafka/log/Log.html">Log</a> <a name="kafka.log.LogSegment" class="extype" href="../kafka/log/LogSegment.html">LogSegment</a> <a name="kafka.log.OffsetIndex" class="extype" href="../kafka/log/OffsetIndex.html">OffsetIndex</a> <a name="kafka.producer.async.DefaultEventHandler" class="extype" href="../kafka/producer/async/DefaultEventHandler.html">DefaultEventHandler</a> <a name="kafka.producer.async.EventHandler" class="extype" href="../kafka/producer/async/EventHandler.html">EventHandler</a> <a name="kafka.producer.ConsoleProducer.MessageReader" class="extype" href="../kafka/producer/ConsoleProducer$$MessageReader.html">MessageReader</a> <a name="kafka.producer.KafkaLog4jAppender" class="extype" href="../kafka/producer/KafkaLog4jAppender.html">KafkaLog4jAppender</a> <a name="kafka.producer.Producer" class="extype" href="../kafka/producer/Producer.html">Producer</a> <a name="kafka.producer.ProducerPool" class="extype" href="../kafka/producer/ProducerPool.html">ProducerPool</a> <a name="kafka.producer.SyncProducer" class="extype" href="../kafka/producer/SyncProducer.html">SyncProducer</a> <a name="kafka.server.KafkaApis" class="extype" href="../kafka/server/KafkaApis.html">KafkaApis</a> <a name="kafka.server.LeaderElector" class="extype" href="../kafka/server/LeaderElector.html">LeaderElector</a> <a name="kafka.server.ZookeeperLeaderElector" class="extype" href="../kafka/server/ZookeeperLeaderElector.html">ZookeeperLeaderElector</a> </div>
+    </div><div class="entry">
+      <div class="name">closeAllFetchers</div>
+      <div class="occurrences"><a name="kafka.server.AbstractFetcherManager" class="extype" href="../kafka/server/AbstractFetcherManager.html">AbstractFetcherManager</a> </div>
+    </div><div class="entry">
+      <div class="name">closeConnection</div>
+      <div class="occurrences"><a name="kafka.network.RequestChannel" class="extype" href="../kafka/network/RequestChannel.html">RequestChannel</a> </div>
+    </div><div class="entry">
+      <div class="name">CloseConnectionAction</div>
+      <div class="occurrences"><a name="kafka.network.RequestChannel" class="extype" href="../kafka/network/RequestChannel$.html">RequestChannel</a> </div>
+    </div><div class="entry">
+      <div class="name">cluster</div>
+      <div class="occurrences"><a name="kafka" class="extype" href="../kafka/package.html">kafka</a> </div>
+    </div><div class="entry">
+      <div class="name">codec</div>
+      <div class="occurrences"><a name="kafka.log.Log.LogAppendInfo" class="extype" href="../kafka/log/Log$LogAppendInfo.html">LogAppendInfo</a> <a name="kafka.message.CompressionCodec" class="extype" href="../kafka/message/CompressionCodec.html">CompressionCodec</a> <a name="kafka.message.DefaultCompressionCodec" class="extype" href="../kafka/message/DefaultCompressionCodec$.html">DefaultCompressionCodec</a> <a name="kafka.message.GZIPCompressionCodec" class="extype" href="../kafka/message/GZIPCompressionCodec$.html">GZIPCompressionCodec</a> <a name="kafka.message.NoCompressionCodec" class="extype" href="../kafka/message/NoCompressionCodec$.html">NoCompressionCodec</a> <a name="kafka.message.SnappyCompressionCodec" class="extype" href="../kafka/message/SnappyCompressionCodec$.html">SnappyCompressionCodec</a> </div>
+    </div><div class="entry">
+      <div class="name">codeFor</div>
+      <div class="occurrences"><a name="kafka.common.ErrorMapping" class="extype" href="../kafka/common/ErrorMapping$.html">ErrorMapping</a> </div>
+    </div><div class="entry">
+      <div class="name">collisionRate</div>
+      <div class="occurrences"><a name="kafka.log.SkimpyOffsetMap" class="extype" href="../kafka/log/SkimpyOffsetMap.html">SkimpyOffsetMap</a> </div>
+    </div><div class="entry">
+      <div class="name">CommandLineUtils</div>
+      <div class="occurrences"><a name="kafka.utils" class="extype" href="../kafka/utils/package.html">utils</a> </div>
+    </div><div class="entry">
+      <div class="name">commitOffsets</div>
+      <div class="occurrences"><a name="kafka.consumer.ConsumerConnector" class="extype" href="../kafka/consumer/ConsumerConnector.html">ConsumerConnector</a> <a name="kafka.consumer.SimpleConsumer" class="extype" href="../kafka/consumer/SimpleConsumer.html">SimpleConsumer</a> <a name="kafka.javaapi.consumer.ConsumerConnector" class="extype" href="../kafka/javaapi/consumer/ConsumerConnector.html">ConsumerConnector</a> <a name="kafka.javaapi.consumer.SimpleConsumer" class="extype" href="../kafka/javaapi/consumer/SimpleConsumer.html">SimpleConsumer</a> </div>
+    </div><div class="entry">
+      <div class="name">common</div>
+      <div class="occurrences"><a name="kafka" class="extype" href="../kafka/package.html">kafka</a> </div>
+    </div><div class="entry">
+      <div class="name">compact</div>
+      <div class="occurrences"><a name="kafka.log.LogConfig" class="extype" href="../kafka/log/LogConfig.html">LogConfig</a> </div>
+    </div><div class="entry">
+      <div class="name">compare</div>
+      <div class="occurrences"><a name="kafka.tools.StateChangeLogMerger.dateBasedOrdering" class="extype" href="../kafka/tools/StateChangeLogMerger$$dateBasedOrdering$.html">dateBasedOrdering</a> </div>
+    </div><div class="entry">
+      <div class="name">compareTo</div>
+      <div class="occurrences"><a name="kafka.utils.DelayedItem" class="extype" href="../kafka/utils/DelayedItem.html">DelayedItem</a> </div>
+    </div><div class="entry">
+      <div class="name">complete</div>
+      <div class="occurrences"><a name="kafka.api.FetchResponseSend" class="extype" href="../kafka/api/FetchResponseSend.html">FetchResponseSend</a> <a name="kafka.api.PartitionDataSend" class="extype" href="../kafka/api/PartitionDataSend.html">PartitionDataSend</a> <a name="kafka.api.TopicDataSend" class="extype" href="../kafka/api/TopicDataSend.html">TopicDataSend</a> <a name="kafka.network.MultiSend" class="extype" href="../kafka/network/MultiSend.html">MultiSend</a> </div>
+    </div><div class="entry">
+      <div class="name">compressedTopics</div>
+      <div class="occurrences"><a name="kafka.producer.ProducerConfig" class="extype" href="../kafka/producer/ProducerConfig.html">ProducerConfig</a> </div>
+    </div><div class="entry">
+      <div class="name">compressionCodec</div>
+      <div class="occurrences"><a name="kafka.message" class="extype" href="../kafka/message/package.html">message</a> <a name="kafka.message.Message" class="extype" href="../kafka/message/Message.html">Message</a> <a name="kafka.producer.KafkaLog4jAppender" class="extype" href="../kafka/producer/KafkaLog4jAppender.html">KafkaLog4jAppender</a> <a name="kafka.producer.ProducerConfig" class="extype" href="../kafka/producer/ProducerConfig.html">ProducerConfig</a> <a name="kafka.tools.ReplayLogProducer.Config" class="extype" href="../kafka/tools/ReplayLogProducer$$Config.html">Config</a> </div>
+    </div><div class="entry">
+      <div class="name">compressionCodecOption</div>
+      <div class="occurrences"><a name="kafka.tools.ReplayLogProducer.Config" class="extype" href="../kafka/tools/ReplayLogProducer$$Config.html">Config</a> </div>
+    </div><div class="entry">
+      <div class="name">CompressionCodeMask</div>
+      <div class="occurrences"><a name="kafka.message.Message" class="extype" href="../kafka/message/Message$.html">Message</a> </div>
+    </div><div class="entry">
+      <div class="name">CompressionFactory</div>
+      <div class="occurrences"><a name="kafka.message" class="extype" href="../kafka/message/package.html">message</a> </div>
+    </div><div class="entry">
+      <div class="name">computeChecksum</div>
+      <div class="occurrences"><a name="kafka.message.Message" class="extype" href="../kafka/message/Message.html">Message</a> </div>
+    </div><div class="entry">
+      <div class="name">conditionalUpdatePersistentPath</div>
+      <div class="occurrences"><a name="kafka.utils.ZkUtils" class="extype" href="../kafka/utils/ZkUtils$.html">ZkUtils</a> </div>
+    </div><div class="entry">
+      <div class="name">conditionalUpdatePersistentPathIfExists</div>
+      <div class="occurrences"><a name="kafka.utils.ZkUtils" class="extype" href="../kafka/utils/ZkUtils$.html">ZkUtils</a> </div>
+    </div><div class="entry">
+      <div class="name">config</div>
+      <div class="occurrences"><a name="kafka.common" class="extype" href="../kafka/common/package.html">common</a> <a name="kafka.consumer.ConsumerFetcherThread" class="extype" href="../kafka/consumer/ConsumerFetcherThread.html">ConsumerFetcherThread</a> <a name="kafka.controller.KafkaController" class="extype" href="../kafka/controller/KafkaController.html">KafkaController</a> <a name="kafka.log.Log" class="extype" href="../kafka/log/Log.html">Log</a> <a name="kafka.log.LogCleaner" class="extype" href="../kafka/log/LogCleaner.html">LogCleaner</a> <a name="kafka.producer.Producer" class="extype" href="../kafka/producer/Producer.html">Producer</a> <a name="kafka.producer.ProducerPool" class="extype" href="../kafka/producer/ProducerPool.html">ProducerPool</a> <a name="kafka.producer.SyncProducer" class="extype" href="../kafka/producer/SyncProducer.html">SyncProducer</a> <a name="kafka.server.KafkaApis" class="extype" href="../kafka/server/KafkaApis.html">KafkaApis</a> <a name="kafka.server.KafkaServer" class="extype" href="../kafka/server/KafkaServer.html">KafkaServer</a> <a name="kafka.server.ReplicaManager" class="extype" href="../kafka/server/ReplicaManager.html">ReplicaManager</a> <a name="kafka.tools.ReplayLogProducer" class="extype" href="../kafka/tools/ReplayLogProducer$.html">ReplayLogProducer</a> </div>
+    </div><div class="entry">
+      <div class="name">ConfigChangeListener</div>
+      <div class="occurrences"><a name="kafka.server.TopicConfigManager" class="extype" href="../kafka/server/TopicConfigManager.html">TopicConfigManager</a> </div>
+    </div><div class="entry">
+      <div class="name">ConfigNames</div>
+      <div class="occurrences"><a name="kafka.log.LogConfig" class="extype" href="../kafka/log/LogConfig$.html">LogConfig</a> </div>
+    </div><div class="entry">
+      <div class="name">configOpt</div>
+      <div class="occurrences"><a name="kafka.admin.TopicCommand.TopicCommandOptions" class="extype" href="../kafka/admin/TopicCommand$$TopicCommandOptions.html">TopicCommandOptions</a> </div>
+    </div><div class="entry">
+      <div class="name">connect</div>
+      <div class="occurrences"><a name="kafka.network.BlockingChannel" class="extype" href="../kafka/network/BlockingChannel.html">BlockingChannel</a> </div>
+    </div><div class="entry">
+      <div class="name">ConnectionConfig</div>
+      <div class="occurrences"><a name="kafka.network" class="extype" href="../kafka/network/package.html">network</a> </div>
+    </div><div class="entry">
+      <div class="name">ConsoleConsumer</div>
+      <div class="occurrences"><a name="kafka.consumer" class="extype" href="../kafka/consumer/package.html">consumer</a> </div>
+    </div><div class="entry">
+      <div class="name">ConsoleProducer</div>
+      <div class="occurrences"><a name="kafka.producer" class="extype" href="../kafka/producer/package.html">producer</a> </div>
+    </div><div class="entry">
+      <div class="name">Consumer</div>
+      <div class="occurrences"><a name="kafka" class="extype" href="../kafka/package.html">kafka</a> <a name="kafka.consumer" class="extype" href="../kafka/consumer/package.html">consumer</a> <a name="kafka.javaapi" class="extype" href="../kafka/javaapi/package.html">javaapi</a> </div>
+    </div><div class="entry">
+      <div class="name">ConsumerConfig</div>
+      <div class="occurrences"><a name="kafka.consumer" class="extype" href="../kafka/consumer/package.html">consumer</a> </div>
+    </div><div class="entry">
+      <div class="name">ConsumerConnector</div>
+      <div class="occurrences"><a name="kafka.consumer" class="extype" href="../kafka/consumer/package.html">consumer</a> <a name="kafka.javaapi.consumer" class="extype" href="../kafka/javaapi/consumer/package.html">consumer</a> </div>
+    </div><div class="entry">
+      <div class="name">consumerDir</div>
+      <div class="occurrences"><a name="kafka.utils.ZKGroupDirs" class="extype" href="../kafka/utils/ZKGroupDirs.html">ZKGroupDirs</a> </div>
+    </div><div class="entry">
+      <div class="name">consumerFetcherManager</div>
+      <div class="occurrences"><a name="kafka.consumer" class="extype" href="../kafka/consumer/package.html">consumer</a> <a name="kafka.consumer.ConsumerFetcherThread" class="extype" href="../kafka/consumer/ConsumerFetcherThread.html">ConsumerFetcherThread</a> </div>
+    </div><div class="entry">
+      <div class="name">ConsumerFetcherThread</div>
+      <div class="occurrences"><a name="kafka.consumer" class="extype" href="../kafka/consumer/package.html">consumer</a> </div>
+    </div><div class="entry">
+      <div class="name">consumerFetchMetricName</div>
+      <div class="occurrences"><a name="kafka.network.RequestMetrics" class="extype" href="../kafka/network/RequestMetrics$.html">RequestMetrics</a> </div>
+    </div><div class="entry">
+      <div class="name">consumerGroupDir</div>
+      <div class="occurrences"><a name="kafka.utils.ZKGroupDirs" class="extype" href="../kafka/utils/ZKGroupDirs.html">ZKGroupDirs</a> </div>
+    </div><div class="entry">
+      <div class="name">consumerId</div>
+      <div class="occurrences"><a name="kafka.consumer.ConsumerConfig" class="extype" href="../kafka/consumer/ConsumerConfig.html">ConsumerConfig</a> </div>
+    </div><div class="entry">
+      <div class="name">ConsumerIterator</div>
+      <div class="occurrences"><a name="kafka.consumer" class="extype" href="../kafka/consumer/package.html">consumer</a> </div>
+    </div><div class="entry">
+      <div class="name">ConsumerOffsetChecker</div>
+      <div class="occurrences"><a name="kafka.tools" class="extype" href="../kafka/tools/package.html">tools</a> </div>
+    </div><div class="entry">
+      <div class="name">consumerOffsetDir</div>
+      <div class="occurrences"><a name="kafka.utils.ZKGroupTopicDirs" class="extype" href="../kafka/utils/ZKGroupTopicDirs.html">ZKGroupTopicDirs</a> </div>
+    </div><div class="entry">
+      <div class="name">consumerOwnerDir</div>
+      <div class="occurrences"><a name="kafka.utils.ZKGroupTopicDirs" class="extype" href="../kafka/utils/ZKGroupTopicDirs.html">ZKGroupTopicDirs</a> </div>
+    </div><div class="entry">
+      <div class="name">ConsumerRebalanceFailedException</div>
+      <div class="occurrences"><a name="kafka.common" class="extype" href="../kafka/common/package.html">common</a> </div>
+    </div><div class="entry">
+      <div class="name">consumerRegistryDir</div>
+      <div class="occurrences"><a name="kafka.utils.ZKGroupDirs" class="extype" href="../kafka/utils/ZKGroupDirs.html">ZKGroupDirs</a> </div>
+    </div><div class="entry">
+      <div class="name">ConsumersPath</div>
+      <div class="occurrences"><a name="kafka.utils.ZkUtils" class="extype" href="../kafka/utils/ZkUtils$.html">ZkUtils</a> </div>
+    </div><div class="entry">
+      <div class="name">ConsumerTimeoutException</div>
+      <div class="occurrences"><a name="kafka.consumer" class="extype" href="../kafka/consumer/package.html">consumer</a> </div>
+    </div><div class="entry">
+      <div class="name">consumerTimeoutMs</div>
+      <div class="occurrences"><a name="kafka.consumer.ConsumerConfig" class="extype" href="../kafka/consumer/ConsumerConfig.html">ConsumerConfig</a> </div>
+    </div><div class="entry">
+      <div class="name">ConsumerTopicMetrics</div>
+      <div class="occurrences"><a name="kafka.consumer" class="extype" href="../kafka/consumer/package.html">consumer</a> </div>
+    </div><div class="entry">
+      <div class="name">ConsumerTopicStats</div>
+      <div class="occurrences"><a name="kafka.consumer" class="extype" href="../kafka/consumer/package.html">consumer</a> </div>
+    </div><div class="entry">
+      <div class="name">ConsumerTopicStatsRegistry</div>
+      <div class="occurrences"><a name="kafka.consumer" class="extype" href="../kafka/consumer/package.html">consumer</a> </div>
+    </div><div class="entry">
+      <div class="name">contains</div>
+      <div class="occurrences"><a name="kafka.utils.Pool" class="extype" href="../kafka/utils/Pool.html">Pool</a> </div>
+    </div><div class="entry">
+      <div class="name">containsKey</div>
+      <div class="occurrences"><a name="kafka.utils.VerifiableProperties" class="extype" href="../kafka/utils/VerifiableProperties.html">VerifiableProperties</a> </div>
+    </div><div class="entry">
+      <div class="name">containsTopic</div>
+      <div class="occurrences"><a name="kafka.server.KafkaApis.MetadataCache" class="extype" href="../kafka/server/KafkaApis$MetadataCache.html">MetadataCache</a> </div>
+    </div><div class="entry">
+      <div class="name">containsTopicAndPartition</div>
+      <div class="occurrences"><a name="kafka.server.KafkaApis.MetadataCache" class="extype" href="../kafka/server/KafkaApis$MetadataCache.html">MetadataCache</a> </div>
+    </div><div class="entry">
+      <div class="name">controlledShutdownEnable</div>
+      <div class="occurrences"><a name="kafka.server.KafkaConfig" class="extype" href="../kafka/server/KafkaConfig.html">KafkaConfig</a> </div>
+    </div><div class="entry">
+      <div class="name">ControlledShutdownKey</div>
+      <div class="occurrences"><a name="kafka.api.RequestKeys" class="extype" href="../kafka/api/RequestKeys$.html">RequestKeys</a> </div>
+    </div><div class="entry">
+      <div class="name">ControlledShutdownLeaderSelector</div>
+      <div class="occurrences"><a name="kafka.controller" class="extype" href="../kafka/controller/package.html">controller</a> </div>
+    </div><div class="entry">
+      <div class="name">controlledShutdownMaxRetries</div>
+      <div class="occurrences"><a name="kafka.server.KafkaConfig" class="extype" href="../kafka/server/KafkaConfig.html">KafkaConfig</a> </div>
+    </div><div class="entry">
+      <div class="name">ControlledShutdownRequest</div>
+      <div class="occurrences"><a name="kafka.api" class="extype" href="../kafka/api/package.html">api</a> </div>
+    </div><div class="entry">
+      <div class="name">ControlledShutdownResponse</div>
+      <div class="occurrences"><a name="kafka.api" class="extype" href="../kafka/api/package.html">api</a> </div>
+    </div><div class="entry">
+      <div class="name">controlledShutdownRetryBackoffMs</div>
+      <div class="occurrences"><a name="kafka.server.KafkaConfig" class="extype" href="../kafka/server/KafkaConfig.html">KafkaConfig</a> </div>
+    </div><div class="entry">
+      <div class="name">controller</div>
+      <div class="occurrences"><a name="kafka" class="extype" href="../kafka/package.html">kafka</a> <a name="kafka.server.KafkaApis" class="extype" href="../kafka/server/KafkaApis.html">KafkaApis</a> </div>
+    </div><div class="entry">
+      <div class="name">ControllerBrokerRequestBatch</div>
+      <div class="occurrences"><a name="kafka.controller" class="extype" href="../kafka/controller/package.html">controller</a> </div>
+    </div><div class="entry">
+      <div class="name">ControllerBrokerStateInfo</div>
+      <div class="occurrences"><a name="kafka.controller" class="extype" href="../kafka/controller/package.html">controller</a> </div>
+    </div><div class="entry">
+      <div class="name">ControllerChannelManager</div>
+      <div class="occurrences"><a name="kafka.controller" class="extype" href="../kafka/controller/package.html">controller</a> <a name="kafka.controller.ControllerContext" class="extype" href="../kafka/controller/ControllerContext.html">ControllerContext</a> </div>
+    </div><div class="entry">
+      <div class="name">controllerContext</div>
+      <div class="occurrences"><a name="kafka.controller.ControllerBrokerRequestBatch" class="extype" href="../kafka/controller/ControllerBrokerRequestBatch.html">ControllerBrokerRequestBatch</a> <a name="kafka.controller" class="extype" href="../kafka/controller/package.html">controller</a> <a name="kafka.controller.ControllerEpochListener" class="extype" href="../kafka/controller/ControllerEpochListener.html">ControllerEpochListener</a> <a name="kafka.controller.KafkaController" class="extype" href="../kafka/controller/KafkaController.html">KafkaController</a> <a name="kafka.controller.PartitionsReassignedListener" class="extype" href="../kafka/controller/PartitionsReassignedListener.html">PartitionsReassignedListener</a> <a name="kafka.controller.PreferredReplicaElectionListener" class="extype" href="../kafka/controller/PreferredReplicaElectionListener.html">PreferredReplicaElectionListener</a> <a name="kafka.controller.ReassignedPartitionsIsrChangeListener" class="extype" href="../kafka/controller/ReassignedPartitionsIsrChangeListener.html">ReassignedPartitionsIsrChangeListener</a> <a name="kafka.controller.RequestSendThread" class="extype" href="../kafka/controller/RequestSendThread.html">RequestSendThread</a> <a name="kafka.controller.TopicDeletionManager" class="extype" href="../kafka/controller/TopicDeletionManager.html">TopicDeletionManager</a> </div>
+    </div><div class="entry">
+      <div class="name">controllerEpoch</div>
+      <div class="occurrences"><a name="kafka.api.LeaderAndIsrRequest" class="extype" href="../kafka/api/LeaderAndIsrRequest.html">LeaderAndIsrRequest</a> <a name="kafka.api.StopReplicaRequest" class="extype" href="../kafka/api/StopReplicaRequest.html">StopReplicaRequest</a> <a name="kafka.api.UpdateMetadataRequest" class="extype" href="../kafka/api/UpdateMetadataRequest.html">UpdateMetadataRequest</a> <a name="kafka.controller.LeaderIsrAndControllerEpoch" class="extype" href="../kafka/controller/LeaderIsrAndControllerEpoch.html">LeaderIsrAndControllerEpoch</a> <a name="kafka.server.ReplicaManager" class="extype" href="../kafka/server/ReplicaManager.html">ReplicaManager</a> </div>
+    </div><div class="entry">
+      <div class="name">ControllerEpochListener</div>
+      <div class="occurrences"><a name="kafka.controller" class="extype" href="../kafka/controller/package.html">controller</a> </div>
+    </div><div class="entry">
+      <div class="name">ControllerEpochPath</div>
+      <div class="occurrences"><a name="kafka.utils.ZkUtils" class="extype" href="../kafka/utils/ZkUtils$.html">ZkUtils</a> </div>
+    </div><div class="entry">
+      <div class="name">controllerId</div>
+      <div class="occurrences"><a name="kafka.api.LeaderAndIsrRequest" class="extype" href="../kafka/api/LeaderAndIsrRequest.html">LeaderAndIsrRequest</a> <a name="kafka.api.StopReplicaRequest" class="extype" href="../kafka/api/StopReplicaRequest.html">StopReplicaRequest</a> <a name="kafka.api.UpdateMetadataRequest" class="extype" href="../kafka/api/UpdateMetadataRequest.html">UpdateMetadataRequest</a> <a name="kafka.controller.ControllerBrokerRequestBatch" class="extype" href="../kafka/controller/ControllerBrokerRequestBatch.html">ControllerBrokerRequestBatch</a> <a name="kafka.controller.RequestSendThread" class="extype" href="../kafka/controller/RequestSendThread.html">RequestSendThread</a> </div>
+    </div><div class="entry">
+      <div class="name">controllerLock</div>
+      <div class="occurrences"><a name="kafka.controller.ControllerContext" class="extype" href="../kafka/controller/ControllerContext.html">ControllerContext</a> </div>
+    </div><div class="entry">
+      <div class="name">controllerMessageQueueSize</div>
+      <div class="occurrences"><a name="kafka.server.KafkaConfig" class="extype" href="../kafka/server/KafkaConfig.html">KafkaConfig</a> </div>
+    </div><div class="entry">
+      <div class="name">ControllerMovedException</div>
+      <div class="occurrences"><a name="kafka.common" class="extype" href="../kafka/common/package.html">common</a> </div>
+    </div><div class="entry">
+      <div class="name">ControllerPath</div>
+      <div class="occurrences"><a name="kafka.utils.ZkUtils" class="extype" href="../kafka/utils/ZkUtils$.html">ZkUtils</a> </div>
+    </div><div class="entry">
+      <div class="name">controllerSocketTimeoutMs</div>
+      <div class="occurrences"><a name="kafka.server.KafkaConfig" class="extype" href="../kafka/server/KafkaConfig.html">KafkaConfig</a> </div>
+    </div><div class="entry">
+      <div class="name">ControllerStats</div>
+      <div class="occurrences"><a name="kafka.controller" class="extype" href="../kafka/controller/package.html">controller</a> </div>
+    </div><div class="entry">
+      <div class="name">correlationId</div>
+      <div class="occurrences"><a name="kafka.api.ControlledShutdownRequest" class="extype" href="../kafka/api/ControlledShutdownRequest.html">ControlledShutdownRequest</a> <a name="kafka.api.ControlledShutdownResponse" class="extype" href="../kafka/api/ControlledShutdownResponse.html">ControlledShutdownResponse</a> <a name="kafka.api.FetchRequest" class="extype" href="../kafka/api/FetchRequest.html">FetchRequest</a> <a name="kafka.api.FetchResponse" class="extype" href="../kafka/api/FetchResponse.html">FetchResponse</a> <a name="kafka.api.LeaderAndIsrRequest" class="extype" href="../kafka/api/LeaderAndIsrRequest.html">LeaderAndIsrRequest</a> <a name="kafka.api.LeaderAndIsrResponse" class="extype" href="../kafka/api/LeaderAndIsrResponse.html">LeaderAndIsrResponse</a> <a name="kafka.api.OffsetCommitRequest" class="extype" href="../kafka/api/OffsetCommitRequest.html">OffsetCommitRequest</a> <a name="kafka.api.OffsetCommitResponse" class="extype" href="../kafka/api/OffsetCommitResponse.html">OffsetCommitResponse</a> <a name="kafka.api.OffsetFetchRequest" class="extype" href="../kafka/api/OffsetFetchRequest.html">OffsetFetchRequest</a> <a name="kafka.api.OffsetFetchResponse" class="extype" href="../kafka/api/OffsetFetchResponse.html">OffsetFetchResponse</a> <a name="kafka.api.OffsetRequest" class="extype" href="../kafka/api/OffsetRequest.html">OffsetRequest</a> <a name="kafka.api.OffsetResponse" class="extype" href="../kafka/api/OffsetResponse.html">OffsetResponse</a> <a name="kafka.api.ProducerRequest" class="extype" href="../kafka/api/ProducerRequest.html">ProducerRequest</a> <a name="kafka.api.ProducerResponse" class="extype" href="../kafka/api/ProducerResponse.html">ProducerResponse</a> <a name="kafka.api.StopReplicaRequest" class="extype" href="../kafka/api/StopReplicaRequest.html">StopReplicaRequest</a> <a name="kafka.api.StopReplicaResponse" class="extype" href="../kafka/api/StopReplicaResponse.html">StopReplicaResponse</a> <a name="kafka.api.TopicMetadataRequest" class="extype" href="../kafka/api/TopicMetadataRequest.html">TopicMetadataRequest</a> <a name="kafka.api.TopicMetadataResponse" class="extype" href="../kafka/api/TopicMetadataResponse.html">TopicMetadataResponse</a> <a name="kafka.api.UpdateMetadataRequest" class="extype" href="../kafka/api/UpdateMetadataRequest.html">UpdateMetadataRequest</a> <a name="kafka.api.UpdateMetadataResponse" class="extype" href="../kafka/api/UpdateMetadataResponse.html">UpdateMetadataResponse</a> <a name="kafka.controller.ControllerContext" class="extype" href="../kafka/controller/ControllerContext.html">ControllerContext</a> <a name="kafka.javaapi.TopicMetadataRequest" class="extype" href="../kafka/javaapi/TopicMetadataRequest.html">TopicMetadataRequest</a> <a name="kafka.producer.async.DefaultEventHandler" class="extype" href="../kafka/producer/async/DefaultEventHandler.html">DefaultEventHandler</a> <a name="kafka.server.KafkaServer" class="extype" href="../kafka/server/KafkaServer.html">KafkaServer</a> </div>
+    </div><div class="entry">
+      <div class="name">crc32</div>
+      <div class="occurrences"><a name="kafka.utils" class="extype" href="../kafka/utils/package.html">utils</a> <a name="kafka.utils.Utils" class="extype" href="../kafka/utils/Utils$.html">Utils</a> </div>
+    </div><div class="entry">
+      <div class="name">CrcLength</div>
+      <div class="occurrences"><a name="kafka.message.Message" class="extype" href="../kafka/message/Message$.html">Message</a> </div>
+    </div><div class="entry">
+      <div class="name">CrcOffset</div>
+      <div class="occurrences"><a name="kafka.message.Message" class="extype" href="../kafka/message/Message$.html">Message</a> </div>
+    </div><div class="entry">
+      <div class="name">create</div>
+      <div class="occurrences"><a name="kafka.consumer.Consumer" class="extype" href="../kafka/consumer/Consumer$.html">Consumer</a> </div>
+    </div><div class="entry">
+      <div class="name">created</div>
+      <div class="occurrences"><a name="kafka.log.LogSegment" class="extype" href="../kafka/log/LogSegment.html">LogSegment</a> </div>
+    </div><div class="entry">
+      <div class="name">createdMs</div>
+      <div class="occurrences"><a name="kafka.utils.DelayedItem" class="extype" href="../kafka/utils/DelayedItem.html">DelayedItem</a> </div>
+    </div><div class="entry">
+      <div class="name">createEphemeralPathExpectConflict</div>
+      <div class="occurrences"><a name="kafka.utils.ZkUtils" class="extype" href="../kafka/utils/ZkUtils$.html">ZkUtils</a> </div>
+    </div><div class="entry">
+      <div class="name">createEphemeralPathExpectConflictHandleZKBug</div>
+      <div class="occurrences"><a name="kafka.utils.ZkUtils" class="extype" href="../kafka/utils/ZkUtils$.html">ZkUtils</a> </div>
+    </div><div class="entry">
+      <div class="name">createFetcherThread</div>
+      <div class="occurrences"><a name="kafka.consumer.ConsumerFetcherManager" class="extype" href="../kafka/consumer/ConsumerFetcherManager.html">ConsumerFetcherManager</a> <a name="kafka.server.AbstractFetcherManager" class="extype" href="../kafka/server/AbstractFetcherManager.html">AbstractFetcherManager</a> <a name="kafka.server.ReplicaFetcherManager" class="extype" href="../kafka/server/ReplicaFetcherManager.html">ReplicaFetcherManager</a> </div>
+    </div><div class="entry">
+      <div class="name">createFile</div>
+      <div class="occurrences"><a name="kafka.utils.Utils" class="extype" href="../kafka/utils/Utils$.html">Utils</a> </div>
+    </div><div class="entry">
+      <div class="name">createJavaConsumerConnector</div>
+      <div class="occurrences"><a name="kafka.consumer.Consumer" class="extype" href="../kafka/consumer/Consumer$.html">Consumer</a> </div>
+    </div><div class="entry">
+      <div class="name">createLog</div>
+      <div class="occurrences"><a name="kafka.log.LogManager" class="extype" href="../kafka/log/LogManager.html">LogManager</a> </div>
+    </div><div class="entry">
+      <div class="name">createMessageStreams</div>
+      <div class="occurrences"><a name="kafka.consumer.ConsumerConnector" class="extype" href="../kafka/consumer/ConsumerConnector.html">ConsumerConnector</a> <a name="kafka.javaapi.consumer.ConsumerConnector" class="extype" href="../kafka/javaapi/consumer/ConsumerConnector.html">ConsumerConnector</a> </div>
+    </div><div class="entry">
+      <div class="name">createMessageStreamsByFilter</div>
+      <div class="occurrences"><a name="kafka.consumer.ConsumerConnector" class="extype" href="../kafka/consumer/ConsumerConnector.html">ConsumerConnector</a> <a name="kafka.javaapi.consumer.ConsumerConnector" class="extype" href="../kafka/javaapi/consumer/ConsumerConnector.html">ConsumerConnector</a> </div>
+    </div><div class="entry">
+      <div class="name">createObject</div>
+      <div class="occurrences"><a name="kafka.utils.Utils" class="extype" href="../kafka/utils/Utils$.html">Utils</a> </div>
+    </div><div class="entry">
+      <div class="name">createOpt</div>
+      <div class="occurrences"><a name="kafka.admin.TopicCommand.TopicCommandOptions" class="extype" href="../kafka/admin/TopicCommand$$TopicCommandOptions.html">TopicCommandOptions</a> </div>
+    </div><div class="entry">
+      <div class="name">createOrUpdateTopicPartitionAssignmentPathInZK</div>
+      <div class="occurrences"><a name="kafka.admin.AdminUtils" class="extype" href="../kafka/admin/AdminUtils$.html">AdminUtils</a> </div>
+    </div><div class="entry">
+      <div class="name">createPersistentPath</div>
+      <div class="occurrences"><a name="kafka.utils.ZkUtils" class="extype" href="../kafka/utils/ZkUtils$.html">ZkUtils</a> </div>
+    </div><div class="entry">
+      <div class="name">createSequentialPersistentPath</div>
+      <div class="occurrences"><a name="kafka.utils.ZkUtils" class="extype" href="../kafka/utils/ZkUtils$.html">ZkUtils</a> </div>
+    </div><div class="entry">
+      <div class="name">createSyncProducer</div>
+      <div class="occurrences"><a name="kafka.producer.ProducerPool" class="extype" href="../kafka/producer/ProducerPool$.html">ProducerPool</a> </div>
+    </div><div class="entry">
+      <div class="name">createTopic</div>
+      <div class="occurrences"><a name="kafka.admin.AdminUtils" class="extype" href="../kafka/admin/AdminUtils$.html">AdminUtils</a> <a name="kafka.admin.TopicCommand" class="extype" href="../kafka/admin/TopicCommand$.html">TopicCommand</a> </div>
+    </div><div class="entry">
+      <div class="name">croak</div>
+      <div class="occurrences"><a name="kafka.utils.Utils" class="extype" href="../kafka/utils/Utils$.html">Utils</a> </div>
+    </div><div class="entry">
+      <div class="name">CurrentMagicValue</div>
+      <div class="occurrences"><a name="kafka.message.Message" class="extype" href="../kafka/message/Message$.html">Message</a> </div>
+    </div><div class="entry">
+      <div class="name">CurrentVersion</div>
+      <div class="occurrences"><a name="kafka.api.ControlledShutdownRequest" class="extype" href="../kafka/api/ControlledShutdownRequest$.html">ControlledShutdownRequest</a> <a name="kafka.api.FetchRequest" class="extype" href="../kafka/api/FetchRequest$.html">FetchRequest</a> <a name="kafka.api.LeaderAndIsrRequest" class="extype" href="../kafka/api/LeaderAndIsrRequest$.html">LeaderAndIsrRequest</a> <a name="kafka.api.OffsetCommitRequest" class="extype" href="../kafka/api/OffsetCommitRequest$.html">OffsetCommitRequest</a> <a name="kafka.api.OffsetCommitResponse" class="extype" href="../kafka/api/OffsetCommitResponse$.html">OffsetCommitResponse</a> <a name="kafka.api.OffsetFetchRequest" class="extype" href="../kafka/api/OffsetFetchRequest$.html">OffsetFetchRequest</a> <a name="kafka.api.OffsetFetchResponse" class="extype" href="../kafka/api/OffsetFetchResponse$.html">OffsetFetchResponse</a> <a name="kafka.api.OffsetRequest" class="extype" href="../kafka/api/OffsetRequest$.html">OffsetRequest</a> <a name="kafka.api.ProducerRequest" class="extype" href="../kafka/api/ProducerRequest$.html">ProducerRequest</a> <a name="kafka.api.StopReplicaRequest" class="extype" href="../kafka/api/StopReplicaRequest$.html">StopReplicaRequest</a> <a name="kafka.api.TopicMetadataRequest" class="extype" href="../kafka/api/TopicMetadataRequest$.html">TopicMetadataRequest</a> <a name="kafka.api.UpdateMetadataRequest" class="extype" href="../kafka/api/UpdateMetadataRequest$.html">UpdateMetadataRequest</a> </div>
+    </div></body>
+      </html>

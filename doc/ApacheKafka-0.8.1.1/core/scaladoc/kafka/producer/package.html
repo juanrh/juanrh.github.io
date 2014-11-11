@@ -1,0 +1,406 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html>
+        <head>
+          <title>kafka.producer</title>
+          <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+          
+      <link type="text/css" media="screen" rel="stylesheet" href="../../lib/template.css" />
+      <script type="text/javascript" src="../../lib/jquery.js"></script>
+      <script type="text/javascript" src="../../lib/jquery-ui.js"></script>
+      <script type="text/javascript" src="../../lib/template.js"></script>
+      <script type="text/javascript" src="../../lib/tools.tooltip.js"></script>
+    
+        </head>
+        <body onload="sh_highlightDocument('../lib/', '.min.js');" class="value">
+      <div id="definition">
+        <img src="../../lib/package_big.png" />
+        <p id="owner"><a name="kafka" class="extype" href="../package.html">kafka</a></p>
+        <h1>producer</h1>
+      </div>
+
+      <h4 class="signature" id="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">package</span>
+      </span>
+      <span class="symbol">
+        <span class="name">producer</span>
+      </span>
+      </h4>
+      
+      <div class="fullcommenttop" id="comment"></div>
+    
+
+      <div id="mbrsel">
+        <div id="textfilter"><span class="pre"></span><span class="input"><input accesskey="/" type="text" /></span><span class="post"></span></div>
+        
+        
+        <div id="visbl">
+            <span class="filtertype">Visibility</span>
+            <ol><li class="public in"><span>Public</span></li><li class="all out"><span>All</span></li></ol>
+          </div>
+      </div>
+
+      <div id="template">
+        <div id="allMembers">
+        
+
+        <div class="types members" id="types">
+              <h3>Type Members</h3>
+              <ol><li visbl="pub" name="kafka.producer.BrokerPartitionInfo" data-isabs="false">
+      <a id="BrokerPartitionInfo:BrokerPartitionInfo"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="BrokerPartitionInfo.html"><span class="name">BrokerPartitionInfo</span></a><span class="result"> extends Logging</span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="kafka.producer.DefaultPartitioner" data-isabs="false">
+      <a id="DefaultPartitioner:DefaultPartitioner"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="DefaultPartitioner.html"><span class="name">DefaultPartitioner</span></a><span class="result"> extends Partitioner</span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="kafka.producer.KafkaLog4jAppender" data-isabs="false">
+      <a id="KafkaLog4jAppender:KafkaLog4jAppender"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="KafkaLog4jAppender.html"><span class="name">KafkaLog4jAppender</span></a><span class="result"> extends AppenderSkeleton with Logging</span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="kafka.producer.KeyedMessage" data-isabs="false">
+      <a id="KeyedMessage:KeyedMessage[K, V]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="KeyedMessage.html"><span class="name">KeyedMessage</span></a><span class="tparams">[<span name="K">K</span>, <span name="V">V</span>]</span><span class="params">(<span name="topic">topic: String</span>, <span name="key">key: K</span>, <span name="partKey">partKey: Any</span>, <span name="message">message: V</span>)</span><span class="result"> extends Product with Serializable</span>
+      </span>
+      </h4>
+      <p class="comment cmt">A topic, key, and value.</p>
+    </li><li visbl="pub" name="kafka.producer.PartitionAndLeader" data-isabs="false">
+      <a id="PartitionAndLeader:PartitionAndLeader"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="PartitionAndLeader.html"><span class="name">PartitionAndLeader</span></a><span class="params">(<span name="topic">topic: String</span>, <span name="partitionId">partitionId: Int</span>, <span name="leaderBrokerIdOpt">leaderBrokerIdOpt: Option[Int]</span>)</span><span class="result"> extends Product with Serializable</span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="kafka.producer.Partitioner" data-isabs="true">
+      <a id="Partitioner:Partitioner"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="Partitioner.html"><span class="name">Partitioner</span></a><span class="result"> extends AnyRef</span>
+      </span>
+      </h4>
+      <p class="comment cmt">A partitioner controls the mapping between user-provided keys and kafka partitions.</p>
+    </li><li visbl="pub" name="kafka.producer.Producer" data-isabs="false">
+      <a id="Producer:Producer[K, V]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="Producer.html"><span class="name">Producer</span></a><span class="tparams">[<span name="K">K</span>, <span name="V">V</span>]</span><span class="result"> extends Logging</span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="kafka.producer.ProducerClosedException" data-isabs="false">
+      <a id="ProducerClosedException:ProducerClosedException"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="ProducerClosedException.html"><span class="name">ProducerClosedException</span></a><span class="result"> extends RuntimeException</span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="kafka.producer.ProducerConfig" data-isabs="false">
+      <a id="ProducerConfig:ProducerConfig"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="ProducerConfig.html"><span class="name">ProducerConfig</span></a><span class="result"> extends AsyncProducerConfig with SyncProducerConfigShared</span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="kafka.producer.ProducerPool" data-isabs="false">
+      <a id="ProducerPool:ProducerPool"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="ProducerPool.html"><span class="name">ProducerPool</span></a><span class="result"> extends Logging</span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="kafka.producer.ProducerRequestMetrics" data-isabs="false">
+      <a id="ProducerRequestMetrics:ProducerRequestMetrics"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="ProducerRequestMetrics.html"><span class="name">ProducerRequestMetrics</span></a><span class="result"> extends KafkaMetricsGroup</span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="kafka.producer.ProducerRequestStats" data-isabs="false">
+      <a id="ProducerRequestStats:ProducerRequestStats"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="ProducerRequestStats.html"><span class="name">ProducerRequestStats</span></a><span class="result"> extends AnyRef</span>
+      </span>
+      </h4>
+      <p class="comment cmt">Tracks metrics of requests made by a given producer client to all brokers.</p>
+    </li><li visbl="pub" name="kafka.producer.ProducerStats" data-isabs="false">
+      <a id="ProducerStats:ProducerStats"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="ProducerStats.html"><span class="name">ProducerStats</span></a><span class="result"> extends KafkaMetricsGroup</span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="kafka.producer.ProducerTopicMetrics" data-isabs="false">
+      <a id="ProducerTopicMetrics:ProducerTopicMetrics"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="ProducerTopicMetrics.html"><span class="name">ProducerTopicMetrics</span></a><span class="result"> extends KafkaMetricsGroup</span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Annotations</dt><dd>
+                <span class="name">@<a name="kafka.utils.threadsafe" class="extype" href="../utils/threadsafe.html">threadsafe</a></span><span class="args">()</span>
+              
+        </dd></dl></div>
+    </li><li visbl="pub" name="kafka.producer.ProducerTopicStats" data-isabs="false">
+      <a id="ProducerTopicStats:ProducerTopicStats"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="ProducerTopicStats.html"><span class="name">ProducerTopicStats</span></a><span class="result"> extends AnyRef</span>
+      </span>
+      </h4>
+      <p class="comment cmt">Tracks metrics for each topic the given producer client has produced data to.</p>
+    </li><li visbl="pub" name="kafka.producer.SyncProducer" data-isabs="false">
+      <a id="SyncProducer:SyncProducer"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="SyncProducer.html"><span class="name">SyncProducer</span></a><span class="result"> extends Logging</span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Annotations</dt><dd>
+                <span class="name">@<a name="kafka.utils.threadsafe" class="extype" href="../utils/threadsafe.html">threadsafe</a></span><span class="args">()</span>
+              
+        </dd></dl></div>
+    </li><li visbl="pub" name="kafka.producer.SyncProducerConfig" data-isabs="false">
+      <a id="SyncProducerConfig:SyncProducerConfig"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="SyncProducerConfig.html"><span class="name">SyncProducerConfig</span></a><span class="result"> extends SyncProducerConfigShared</span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="kafka.producer.SyncProducerConfigShared" data-isabs="true">
+      <a id="SyncProducerConfigShared:SyncProducerConfigShared"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="SyncProducerConfigShared.html"><span class="name">SyncProducerConfigShared</span></a><span class="result"> extends AnyRef</span>
+      </span>
+      </h4>
+      
+    </li></ol>
+            </div>
+
+        
+
+        <div class="values members" id="values">
+              <h3>Value Members</h3>
+              <ol><li visbl="pub" name="kafka.producer.ConsoleProducer" data-isabs="false">
+      <a id="ConsoleProducer:ConsoleProducer"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="ConsoleProducer$.html"><span class="name">ConsoleProducer</span></a><span class="result"> extends AnyRef</span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="kafka.producer.ProducerConfig" data-isabs="false">
+      <a id="ProducerConfig:ProducerConfig"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="ProducerConfig$.html"><span class="name">ProducerConfig</span></a><span class="result"> extends Config</span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="kafka.producer.ProducerPool" data-isabs="false">
+      <a id="ProducerPool:ProducerPool"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="ProducerPool$.html"><span class="name">ProducerPool</span></a><span class="result"> extends AnyRef</span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="kafka.producer.ProducerRequestStatsRegistry" data-isabs="false">
+      <a id="ProducerRequestStatsRegistry:ProducerRequestStatsRegistry"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="ProducerRequestStatsRegistry$.html"><span class="name">ProducerRequestStatsRegistry</span></a><span class="result"> extends AnyRef</span>
+      </span>
+      </h4>
+      <p class="comment cmt">Stores the request stats information of each producer client in a (clientId -&gt; ProducerRequestStats) map.</p>
+    </li><li visbl="pub" name="kafka.producer.ProducerStatsRegistry" data-isabs="false">
+      <a id="ProducerStatsRegistry:ProducerStatsRegistry"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="ProducerStatsRegistry$.html"><span class="name">ProducerStatsRegistry</span></a><span class="result"> extends AnyRef</span>
+      </span>
+      </h4>
+      <p class="comment cmt">Stores metrics of serialization and message sending activity of each producer client in a (clientId -&gt; ProducerStats) map.</p>
+    </li><li visbl="pub" name="kafka.producer.ProducerTopicStatsRegistry" data-isabs="false">
+      <a id="ProducerTopicStatsRegistry:ProducerTopicStatsRegistry"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="ProducerTopicStatsRegistry$.html"><span class="name">ProducerTopicStatsRegistry</span></a><span class="result"> extends AnyRef</span>
+      </span>
+      </h4>
+      <p class="comment cmt">Stores the topic stats information of each producer client in a (clientId -&gt; ProducerTopicStats) map.</p>
+    </li><li visbl="pub" name="kafka.producer.SyncProducer" data-isabs="false">
+      <a id="SyncProducer:SyncProducer"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="SyncProducer$.html"><span class="name">SyncProducer</span></a><span class="result"> extends AnyRef</span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="kafka.producer.SyncProducerConfig" data-isabs="false">
+      <a id="SyncProducerConfig:SyncProducerConfig"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="SyncProducerConfig$.html"><span class="name">SyncProducerConfig</span></a><span class="result"> extends AnyRef</span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="kafka.producer.async" data-isabs="false">
+      <a id="async:async"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">package</span>
+      </span>
+      <span class="symbol">
+        <a href="async/package.html"><span class="name">async</span></a>
+      </span>
+      </h4>
+      
+    </li></ol>
+            </div>
+
+        
+        </div>
+
+        <div id="inheritedMembers">
+        
+        </div>
+
+      </div>
+
+      <div id="tooltip"></div>
+
+      <div id="footer">  </div>
+
+
+    </body>
+      </html>
