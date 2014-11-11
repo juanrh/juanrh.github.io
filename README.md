@@ -16,3 +16,7 @@ Documentation for code samples for the blog http://data42.blogspot.com.es, and d
       - http://juanrh.github.io/doc/JPMML/jpmml-model/pmml-model-example/apidocs/
       - http://juanrh.github.io/doc/JPMML/jpmml-model/pmml-schema/apidocs/
       - http://juanrh.github.io/doc/JPMML/jpmml-model/xjc/apidocs/
+
+    * Apache Kafka 0.8.1.1
+        - http://juanrh.github.io/doc/ApacheKafka-0.8.1.1/core/scaladoc/
+        - http://juanrh.github.io/doc/ApacheKafka-0.8.1.1/core/javadoc/
