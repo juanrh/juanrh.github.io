@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1classifiers_1_1core_1_1attributeclassobservers_1_1VFMLNumericAttributeClassObserver.html#af23c6fe77a513e13ab29d891b4c1d63f" title="Gets the best split suggestion given a criterion and a class distribution." alt="" coords="305,5,1004,35"/>
+<area shape="rect" id="node5" href="$classmoa_1_1classifiers_1_1core_1_1attributeclassobservers_1_1VFMLNumericAttributeClassObserver.html#a6dc9db81d435e3d4f930f51b8b0c2642" title="Updates statistics of this observer given an attribute value, a class and the weight..." alt="" coords="337,59,972,88"/>
+<area shape="rect" id="node7" href="$classmoa_1_1classifiers_1_1core_1_1attributeclassobservers_1_1BinaryTreeNumericAttributeClassObserver.html#a89885735badfe9be84fbb23e4883aa01" title="moa.classifiers.core.attributeclassobservers.BinaryTreeNumericAttributeClassObserver.searchForBestSplitOption" alt="" coords="313,112,996,141"/>
+<area shape="rect" id="node9" href="$classmoa_1_1classifiers_1_1core_1_1attributeclassobservers_1_1BinaryTreeNumericAttributeClassObserver.html#a277b0eaa682a243ad4d97075ad8a4691" title="Gets the best split suggestion given a criterion and a class distribution." alt="" coords="1053,112,1781,141"/>
+</map>

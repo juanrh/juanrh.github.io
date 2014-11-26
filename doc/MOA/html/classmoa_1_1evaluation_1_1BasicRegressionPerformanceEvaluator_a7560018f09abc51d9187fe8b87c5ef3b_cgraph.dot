@@ -1,0 +1,17 @@
+digraph G
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir=LR;
+  Node1 [label="moa.evaluation.BasicRegressionPerformanceEvaluator.getPerformanceMeasurements",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="moa.evaluation.BasicRegressionPerformanceEvaluator.getMeanError",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1evaluation_1_1BasicRegressionPerformanceEvaluator.html#ace993badc352905eac31c04ac4d66f20"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="moa.evaluation.BasicRegressionPerformanceEvaluator.getRelativeMeanError",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1evaluation_1_1BasicRegressionPerformanceEvaluator.html#acc19df1fdc2c71910fa2972674f625f9"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="moa.evaluation.BasicRegressionPerformanceEvaluator.getRelativeSquareError",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1evaluation_1_1BasicRegressionPerformanceEvaluator.html#abcf4507dad5e88991dc2b9a3da9d6846"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="moa.evaluation.BasicRegressionPerformanceEvaluator.getSquareError",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1evaluation_1_1BasicRegressionPerformanceEvaluator.html#a9994f40e9d3810a02801158a5d5f42d3"];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="moa.evaluation.BasicRegressionPerformanceEvaluator.getTotalWeightObserved",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1evaluation_1_1BasicRegressionPerformanceEvaluator.html#a92b41b5238b8782a5d0d0c4382972dd6"];
+}

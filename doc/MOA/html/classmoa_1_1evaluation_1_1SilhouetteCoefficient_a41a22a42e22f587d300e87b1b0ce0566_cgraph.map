@@ -1,0 +1,8 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1evaluation_1_1MeasureCollection.html#a344a1c04e2e600092750c6676b9c9906" title="moa.evaluation.MeasureCollection.addValue" alt="" coords="416,5,696,35"/>
+<area shape="rect" id="node5" href="$classmoa_1_1evaluation_1_1SilhouetteCoefficient.html#a22d1a9bc4cd7b0eee8350acc5e184707" title="moa.evaluation.SilhouetteCoefficient.distance" alt="" coords="412,59,700,88"/>
+<area shape="rect" id="node7" href="$classmoa_1_1cluster_1_1Clustering.html#a6a66be9b90f5cb06b044da278cdf24c9" title="remove a cluster from the clustering" alt="" coords="469,112,643,141"/>
+<area shape="rect" id="node9" href="$classmoa_1_1cluster_1_1Cluster.html#abf05802928ccf0ebe145e00c3568944b" title="Returns the probability of the given point belonging to this cluster." alt="" coords="421,165,691,195"/>
+<area shape="rect" id="node11" href="$classmoa_1_1gui_1_1visualization_1_1DataPoint.html#ae785a3bf303998016133b7d56566a920" title="moa.gui.visualization.DataPoint.setMeasureValue" alt="" coords="401,219,711,248"/>
+<area shape="rect" id="node13" href="$classmoa_1_1cluster_1_1Clustering.html#a054a386d94acf3b88574f061ab4c8d71" title="moa.cluster.Clustering.size" alt="" coords="465,272,647,301"/>
+</map>

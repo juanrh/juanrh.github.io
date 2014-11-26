@@ -1,0 +1,17 @@
+digraph G
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir=LR;
+  Node1 [label="moa.streams.InstanceStream.isRestartable",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="moa.streams.MultiFilteredStream.isRestartable",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1streams_1_1MultiFilteredStream.html#ac21ecd3506fd9284279204c013dc090a",tooltip="Gets whether this stream can restart."];
+  Node1 -> Node3 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="moa.streams.filters.AbstractStreamFilter.isRestartable",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1streams_1_1filters_1_1AbstractStreamFilter.html#a9186efb93b906faac01ab45a18aa41e5",tooltip="Gets whether this stream can restart."];
+  Node1 -> Node4 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="moa.streams.FilteredStream.isRestartable",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1streams_1_1FilteredStream.html#af072398783756a736b33edad2672762c",tooltip="Gets whether this stream can restart."];
+  Node1 -> Node5 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="moa.streams.ConceptDriftStream.isRestartable",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1streams_1_1ConceptDriftStream.html#a5568dc7f2e26a62ae5fbde9591e40656",tooltip="Gets whether this stream can restart."];
+  Node1 -> Node6 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="moa.streams.ConceptDriftRealStream.isRestartable",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1streams_1_1ConceptDriftRealStream.html#af57d21e5e0003054f5576a197e2dba9c",tooltip="Gets whether this stream can restart."];
+}

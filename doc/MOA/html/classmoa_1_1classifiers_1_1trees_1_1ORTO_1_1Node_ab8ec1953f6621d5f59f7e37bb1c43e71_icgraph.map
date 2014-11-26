@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1classifiers_1_1trees_1_1ORTO_1_1OptionNode.html#add3cad73c00c3ac29decf238bb9e26da" title="moa.classifiers.trees.ORTO.OptionNode.processInstance" alt="" coords="375,5,732,35"/>
+<area shape="rect" id="node5" href="$classmoa_1_1classifiers_1_1trees_1_1ORTO_1_1SplitNode.html#a4434ca7bad0ac2f1a1db2141b95c2262" title="moa.classifiers.trees.ORTO.SplitNode.processInstance" alt="" coords="380,59,727,88"/>
+<area shape="rect" id="node7" href="$classmoa_1_1classifiers_1_1trees_1_1ORTO.html#a1eeb39badc5299366464b5b6a0425b4e" title="Method for updating (training) the model using a new instance." alt="" coords="400,112,707,141"/>
+</map>

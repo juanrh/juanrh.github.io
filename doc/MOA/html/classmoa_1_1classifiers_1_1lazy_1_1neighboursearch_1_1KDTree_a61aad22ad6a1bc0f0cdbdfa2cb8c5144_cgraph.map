@@ -1,0 +1,8 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1EuclideanDistance.html#ad2ccd44d1a04e5e705396bf3746cb020" title="Calculates the distance between two instances." alt="" coords="513,5,916,35"/>
+<area shape="rect" id="node5" href="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1EuclideanDistance.html#ad2902424de6444a7cec02c1500adad21" title="Returns the squared difference of two values of an attribute." alt="" coords="501,59,928,88"/>
+<area shape="rect" id="node13" href="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1EuclideanDistance.html#a24669e69b32d7edf8c965ccc2358de9c" title="Returns true if the value of the given dimension is smaller or equal the value to..." alt="" coords="479,112,951,141"/>
+<area shape="rect" id="node7" href="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1NormalizableDistance.html#a89e69648afaeda7807de47ad3034d682" title="Computes the difference between two given attribute values." alt="" coords="1001,59,1431,88"/>
+<area shape="rect" id="node9" href="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1NormalizableDistance.html#a4934be3762cf40d0948229034462780a" title="Tests if the given value codes &quot;missing&quot;." alt="" coords="1480,32,1941,61"/>
+<area shape="rect" id="node11" href="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1NormalizableDistance.html#a61eb8389c739445598952bda93c631c0" title="Normalizes a given value of a numeric attribute." alt="" coords="1509,85,1912,115"/>
+</map>

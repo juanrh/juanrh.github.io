@@ -1,0 +1,22 @@
+digraph G
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{moa.classifiers.core.attributeclassobservers.GreenwaldKhannaNumericAttributeClassObserver\n|+ numTuplesOption\l# attValDistPerClass\l- serialVersionUID\l|+ observeAttributeClass()\l+ probabilityOfAttributeValueGivenClass()\l+ getBestEvaluatedSplitSuggestion()\l+ getClassDistsResultingFromBinarySplit()\l+ getDescription()\l+ observeAttributeTarget()\l# prepareForUseImpl()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node2 -> Node1 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node2 [label="{moa.options.AbstractOptionHandler\n|# options\l# classOptionNamesToPreparedObjects\l- serialVersionUID\l|+ getPurposeString()\l+ getOptions()\l+ prepareForUse()\l+ prepareForUse()\l+ getCLICreationString()\l+ copy()\l# prepareForUseImpl()\l# discoverOptionsViaReflection()\l# prepareClassOptions()\l# getPreparedClassOption()\l# getPreparedClassOption()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1options_1_1AbstractOptionHandler.html",tooltip="Abstract Option Handler."];
+  Node3 -> Node2 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node3 [label="{moa.AbstractMOAObject\n||+ copy()\l+ measureByteSize()\l+ toString()\l+ copy()\l+ measureByteSize()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1AbstractMOAObject.html",tooltip="Abstract MOA Object."];
+  Node4 -> Node3 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node4 [label="{moa.MOAObject\n||+ measureByteSize()\l+ copy()\l+ getDescription()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interfacemoa_1_1MOAObject.html",tooltip="Interface implemented by classes in MOA, so that all are serializable, can produce..."];
+  Node5 -> Node4 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node5 [label="{Serializable\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node6 -> Node2 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node6 [label="{moa.options.OptionHandler\n||+ getPurposeString()\l+ getOptions()\l+ prepareForUse()\l+ prepareForUse()\l+ copy()\l+ getCLICreationString()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interfacemoa_1_1options_1_1OptionHandler.html",tooltip="Interface representing an object that handles options or parameters."];
+  Node4 -> Node6 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node7 -> Node1 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node7 [label="{moa.classifiers.core.attributeclassobservers.NumericAttributeClassObserver\n||}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interfacemoa_1_1classifiers_1_1core_1_1attributeclassobservers_1_1NumericAttributeClassObserver.html",tooltip="Interface for observing the class data distribution for a numeric attribute."];
+  Node8 -> Node7 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node8 [label="{moa.classifiers.core.attributeclassobservers.AttributeClassObserver\n||+ observeAttributeClass()\l+ probabilityOfAttributeValueGivenClass()\l+ getBestEvaluatedSplitSuggestion()\l+ observeAttributeTarget()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interfacemoa_1_1classifiers_1_1core_1_1attributeclassobservers_1_1AttributeClassObserver.html",tooltip="Interface for observing the class data distribution for an attribute."];
+  Node6 -> Node8 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+}

@@ -1,0 +1,7 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1test_1_1Regression.html#afd56586b879c547d09fa1072d9b559c2" title="Returns the class this regression helper is for." alt="" coords="325,5,589,35"/>
+<area shape="rect" id="node5" href="$classmoa_1_1test_1_1MoaTestCase.html#aa1e4f2f9e86cb4bcc10142007d1508ed" title="Performs a serializable test on the given class." alt="" coords="308,59,607,88"/>
+<area shape="rect" id="node7" href="$classmoa_1_1test_1_1MoaTestCase.html#ae450cb2afef081ee3b312a28c7b04065" title="Creates a deep copy of the given object (must be serializable!)." alt="" coords="661,32,883,61"/>
+<area shape="rect" id="node11" href="$classmoa_1_1test_1_1MoaTestCase.html#a2d60f10b832f794c2d3552f3fa257e60" title="Tries to obtain an instance of the given class." alt="" coords="657,85,887,115"/>
+<area shape="rect" id="node9" href="$classmoa_1_1test_1_1SerializedObject.html#a17504df9d7ca8cadc1f0861df51866dd" title="Returns a serialized object." alt="" coords="936,32,1168,61"/>
+</map>

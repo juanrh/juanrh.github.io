@@ -1,0 +1,51 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$interfacemoa_1_1evaluation_1_1ClassificationPerformanceEvaluator.html#a756e8b88bf5003e44e5fbf6832df840d" title="Adds a learning result to this evaluator." alt="" coords="417,5,801,35"/>
+<area shape="rect" id="node5" href="$classmoa_1_1AbstractMOAObject.html#a3a6260bd8548c1aff6ea46e49c5c52a5" title="This method produces a copy of this object." alt="" coords="509,59,709,88"/>
+<area shape="rect" id="node7" href="$classmoa_1_1evaluation_1_1LearningCurve.html#acff30caf492b14f6fd89561c84af0bf2" title="moa.evaluation.LearningCurve.entryToString" alt="" coords="469,112,749,141"/>
+<area shape="rect" id="node9" href="$interfacemoa_1_1streams_1_1InstanceStream.html#a9467d8c75f1a43faadd2454bb4a89cfe" title="Gets the estimated number of remaining instances in this stream." alt="" coords="423,165,796,195"/>
+<area shape="rect" id="node11" href="$classmoa_1_1options_1_1FileOption.html#a01615786786a168a9e3b8c5d0f50b1e8" title="moa.options.FileOption.getFile" alt="" coords="511,219,708,248"/>
+<area shape="rect" id="node15" href="$interfacemoa_1_1streams_1_1InstanceStream.html#aa03e43cb5cd8b893392b23ec77e2ca04" title="Gets the header of this stream." alt="" coords="480,272,739,301"/>
+<area shape="rect" id="node17" href="$classmoa_1_1options_1_1AbstractOptionHandler.html#a2d5e872c7c6a32487013ba914c6d3fcc" title="Gets a prepared option of this class." alt="" coords="423,699,796,728"/>
+<area shape="rect" id="node21" href="$classmoa_1_1options_1_1IntOption.html#affae8787274b44ab7616d46b8d6c831a" title="moa.options.IntOption.getValue" alt="" coords="507,379,712,408"/>
+<area shape="rect" id="node23" href="$classmoa_1_1options_1_1IntOption.html#acef7c29e38f96ba87b998d1754bee911" title="Gets the value of a Command Line Interface text as a string." alt="" coords="472,325,747,355"/>
+<area shape="rect" id="node27" href="$classmoa_1_1options_1_1ClassOption.html#abfcff77584985fa43bf7b3a1ff50568f" title="Gets the value of a Command Line Interface text as a string." alt="" coords="463,432,756,461"/>
+<area shape="rect" id="node33" href="$interfacemoa_1_1classifiers_1_1Classifier.html#a0933ed1199c2b16a8eb8186dabf9a8f9" title="Predicts the class memberships for a given instance." alt="" coords="463,539,756,568"/>
+<area shape="rect" id="node35" href="$interfacemoa_1_1streams_1_1InstanceStream.html#adcce31f5a024f6a73e150da2d1d731df" title="Gets whether this stream has more instances to output." alt="" coords="457,592,761,621"/>
+<area shape="rect" id="node37" href="$classmoa_1_1evaluation_1_1LearningCurve.html#a4c2465881f093000e9d47985a6f5ff4f" title="moa.evaluation.LearningCurve.headerToString" alt="" coords="464,645,755,675"/>
+<area shape="rect" id="node39" href="$classmoa_1_1evaluation_1_1LearningCurve.html#a356a1d7e879cd4cd18204bc3dca8c0c2" title="moa.evaluation.LearningCurve.insertEntry" alt="" coords="477,485,741,515"/>
+<area shape="rect" id="node57" href="$interfacemoa_1_1classifiers_1_1Classifier.html#a1e436b867e2b06cee6c74d6684814a58" title="Gets whether this classifier needs a random seed." alt="" coords="476,752,743,781"/>
+<area shape="rect" id="node59" href="$interfacemoa_1_1MOAObject.html#aedac80a3df76a6ff7407431770d114ef" title="Gets the memory size of this object." alt="" coords="496,805,723,835"/>
+<area shape="rect" id="node61" href="$interfacemoa_1_1streams_1_1InstanceStream.html#ae68c1c47c4dac2e591745a21e8cc120a" title="Gets the next instance from this stream." alt="" coords="473,859,745,888"/>
+<area shape="rect" id="node63" href="$classmoa_1_1evaluation_1_1LearningCurve.html#a3c3e920e9fa8d5d355c31e48ed59a2fb" title="moa.evaluation.LearningCurve.numEntries" alt="" coords="476,912,743,941"/>
+<area shape="rect" id="node65" href="$interfacemoa_1_1classifiers_1_1Classifier.html#a0cb1a2820196bc5e2a95b05a0b6666f0" title="Resets this classifier." alt="" coords="484,965,735,995"/>
+<area shape="rect" id="node67" href="$interfacemoa_1_1tasks_1_1TaskMonitor.html#af0081392613c25cb1a31b3e5a45674d1" title="Gets whether there is a request for preview the task result." alt="" coords="457,1019,761,1048"/>
+<area shape="rect" id="node69" href="$interfacemoa_1_1tasks_1_1TaskMonitor.html#aa5eff409d63bfacd92fe2f062d373781" title="Sets the description and the percentage done of the current activity." alt="" coords="476,1072,743,1101"/>
+<area shape="rect" id="node71" href="$interfacemoa_1_1tasks_1_1TaskMonitor.html#a250c782c4d19dc5609afc32a96ac90f8" title="Sets the percentage done of the current activity." alt="" coords="424,1125,795,1155"/>
+<area shape="rect" id="node73" href="$interfacemoa_1_1tasks_1_1TaskMonitor.html#a1b6f9b951f02111a3461e26c9a6c2936" title="Sets the current result to preview." alt="" coords="459,1179,760,1208"/>
+<area shape="rect" id="node75" href="$interfacemoa_1_1classifiers_1_1Classifier.html#ada37a6c356ff9f4349e9f9a189f52978" title="Sets the reference to the header of the data stream." alt="" coords="473,1232,745,1261"/>
+<area shape="rect" id="node77" href="$interfacemoa_1_1classifiers_1_1Classifier.html#af5066cd63a492e833a21ce06609cb959" title="Sets the seed for random number generation." alt="" coords="475,1285,744,1315"/>
+<area shape="rect" id="node79" href="$classmoa_1_1options_1_1ClassOption.html#a4b6c97afce0094039ecdb5dc62ceff86" title="Sets value of this option via the Command Line Interface text." alt="" coords="460,1339,759,1368"/>
+<area shape="rect" id="node99" href="$interfacemoa_1_1tasks_1_1TaskMonitor.html#af2758f6ce28872acf61d6b3495cd4439" title="Gets whether the task should abort." alt="" coords="480,1392,739,1421"/>
+<area shape="rect" id="node101" href="$interfacemoa_1_1classifiers_1_1Classifier.html#ac28018bc307abe34a8ace54dba3ebff1" title="Trains this classifier incrementally using the given instance." alt="" coords="477,1445,741,1475"/>
+<area shape="rect" id="node13" href="$classmoa_1_1options_1_1StringOption.html#acdafb10f476c4aacf74bf51adb2b4732" title="moa.options.StringOption.getValue" alt="" coords="931,219,1155,248"/>
+<area shape="rect" id="node19" href="$classmoa_1_1options_1_1AbstractOption.html#a26d25b88bb5244ed3c2ec142bd28353d" title="Gets the name of this option." alt="" coords="923,1019,1163,1048"/>
+<area shape="rect" id="node25" href="$classmoa_1_1options_1_1IntOption.html#a4baa568309988b5e42465c407623d17f" title="moa.options.IntOption.intToCLIString" alt="" coords="924,272,1161,301"/>
+<area shape="rect" id="node29" href="$classmoa_1_1options_1_1ClassOption.html#a3b96c5ce84c6cd94a3676417d968205f" title="moa.options.ClassOption.objectToCLIString" alt="" coords="904,325,1181,355"/>
+<area shape="rect" id="node31" href="$classmoa_1_1options_1_1AbstractClassOption.html#a99164a3a010dec28f40f4397aec6ecfd" title="Gets the command line interface text of the class." alt="" coords="1283,325,1605,355"/>
+<area shape="rect" id="node41" href="$classmoa_1_1evaluation_1_1LearningCurve.html#a921b0e83024ed7273467498d09b9adb5" title="moa.evaluation.LearningCurve.addMeasurementName" alt="" coords="875,645,1211,675"/>
+<area shape="rect" id="node43" href="$classmoa_1_1core_1_1DoubleVector.html#a0cd86df680113a943ebb8fcf60819ece" title="moa.core.DoubleVector.getArrayRef" alt="" coords="927,699,1159,728"/>
+<area shape="rect" id="node45" href="$classmoa_1_1core_1_1Measurement.html#a17f8534853faa467f92e84622e636c26" title="moa.core.Measurement.getMeasurementNamed" alt="" coords="892,379,1193,408"/>
+<area shape="rect" id="node47" href="$classmoa_1_1evaluation_1_1LearningEvaluation.html#a1f940c2734c16133454e93bec0db47d3" title="moa.evaluation.LearningEvaluation.getMeasurements" alt="" coords="877,432,1208,461"/>
+<area shape="rect" id="node49" href="$classmoa_1_1evaluation_1_1LearningCurve.html#ae7bfae1d90708e1fe7afbd8b6fdf6181" title="moa.evaluation.LearningCurve.getOrderingMeasurementName" alt="" coords="852,485,1233,515"/>
+<area shape="rect" id="node51" href="$classmoa_1_1core_1_1Measurement.html#ad41c47748a7d029814c61802898d1e0e" title="moa.core.Measurement.getValue" alt="" coords="936,539,1149,568"/>
+<area shape="rect" id="node53" href="$classmoa_1_1core_1_1DoubleVector.html#afdb9ecc487070e6f0943e889a46334b8" title="moa.core.DoubleVector.setValue" alt="" coords="936,592,1149,621"/>
+<area shape="rect" id="node55" href="$classmoa_1_1core_1_1DoubleVector.html#a9cfebf9a8c5e93615037459ed6bd63a7" title="moa.core.DoubleVector.setArrayLength" alt="" coords="1319,592,1569,621"/>
+<area shape="rect" id="node81" href="$classmoa_1_1options_1_1ClassOption.html#a53dc498910eecec509406522b9058796" title="moa.options.ClassOption.cliStringToObject" alt="" coords="907,1339,1179,1368"/>
+<area shape="rect" id="node83" href="$classmoa_1_1options_1_1Options.html#a1886243eaecde00151eb2787c6501d6f" title="moa.options.Options.addOption" alt="" coords="1341,1392,1547,1421"/>
+<area shape="rect" id="node91" href="$classmoa_1_1options_1_1Options.html#a98fbf40bdfd12bd726e998c818be29e6" title="moa.options.Options.removeAllOptions" alt="" coords="1320,1285,1568,1315"/>
+<area shape="rect" id="node93" href="$classmoa_1_1options_1_1Options.html#a6fb4bce4cd3933247ad37a471cefdd47" title="moa.options.Options.setViaCLIString" alt="" coords="1325,1339,1563,1368"/>
+<area shape="rect" id="node85" href="$interfacemoa_1_1options_1_1Option.html#a0f2bfa3fc25dfbd92be96d007e093c3c" title="Gets the Command Line Interface text of this option." alt="" coords="1683,1392,1888,1421"/>
+<area shape="rect" id="node87" href="$interfacemoa_1_1options_1_1Option.html#a28d0b5eb1a547178d6d43c3d8cc89142" title="Gets the name of this option." alt="" coords="1689,1445,1881,1475"/>
+<area shape="rect" id="node89" href="$classmoa_1_1options_1_1Options.html#ad2061f549ed2eb9bb7bc5bbb3ab17019" title="moa.options.Options.getOption" alt="" coords="1684,1339,1887,1368"/>
+<area shape="rect" id="node96" href="$interfacemoa_1_1options_1_1Option.html#ac522763e8a93b8236980749dcb0b74bc" title="Sets value of this option via the Command Line Interface text." alt="" coords="1653,1285,1917,1315"/>
+</map>

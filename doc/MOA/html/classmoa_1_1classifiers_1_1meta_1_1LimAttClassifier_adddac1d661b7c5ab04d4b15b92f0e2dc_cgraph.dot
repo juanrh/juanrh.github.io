@@ -1,0 +1,42 @@
+digraph G
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir=LR;
+  Node1 [label="moa.classifiers.meta.LimAttClassifier.trainOnInstanceImpl",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="moa.classifiers.Classifier.copy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interfacemoa_1_1classifiers_1_1Classifier.html#af50dcec23ecb34c1bd141d0d389bdb59",tooltip="Produces a copy of this classifier."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="moa.classifiers.Classifier.correctlyClassifies",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interfacemoa_1_1classifiers_1_1Classifier.html#a8348b4106e79422d3dec0a1857d402f3",tooltip="Gets whether this classifier correctly classifies an instance."];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="moa.classifiers.AbstractClassifier.correctlyClassifies",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1AbstractClassifier.html#a0a5d3c3df5b27390f6830fed829540ea",tooltip="Gets whether this classifier correctly classifies an instance."];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="moa.classifiers.Classifier.getVotesForInstance",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interfacemoa_1_1classifiers_1_1Classifier.html#a0933ed1199c2b16a8eb8186dabf9a8f9",tooltip="Predicts the class memberships for a given instance."];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="moa.classifiers.core.driftdetection.ADWIN.getEstimation",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1core_1_1driftdetection_1_1ADWIN.html#a120e390a4505f5e4590935d1a7bee322"];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="moa.classifiers.meta.LimAttClassifier.CombinationGenerator.getNext",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1meta_1_1LimAttClassifier_1_1CombinationGenerator.html#a9cccb67c737bf738dd513ae8cf11d3c6"];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="moa.options.AbstractOptionHandler.getPreparedClassOption",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1options_1_1AbstractOptionHandler.html#a2d5e872c7c6a32487013ba914c6d3fcc",tooltip="Gets a prepared option of this class."];
+  Node8 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="moa.options.AbstractOption.getName",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1options_1_1AbstractOption.html#a26d25b88bb5244ed3c2ec142bd28353d",tooltip="Gets the name of this option."];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="moa.classifiers.meta.LimAttClassifier.CombinationGenerator.getTotal",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1meta_1_1LimAttClassifier_1_1CombinationGenerator.html#a223b0ba7b426a287e484dba0bb33c166"];
+  Node1 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="moa.options.FloatOption.getValue",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1options_1_1FloatOption.html#a0e606a62f4ece232aa8f8cb04bb7f1cf"];
+  Node1 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="moa.options.IntOption.getValue",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1options_1_1IntOption.html#affae8787274b44ab7616d46b8d6c831a"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="moa.classifiers.meta.LimAttClassifier.CombinationGenerator.hasMore",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1meta_1_1LimAttClassifier_1_1CombinationGenerator.html#ad1ccf32cedf8437a03848fc3fb708357"];
+  Node1 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="moa.classifiers.Classifier.resetLearning",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interfacemoa_1_1classifiers_1_1Classifier.html#a0cb1a2820196bc5e2a95b05a0b6666f0",tooltip="Resets this classifier."];
+  Node1 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="moa.classifiers.Classifier.trainOnInstance",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interfacemoa_1_1classifiers_1_1Classifier.html#ac28018bc307abe34a8ace54dba3ebff1",tooltip="Trains this classifier incrementally using the given instance."];
+  Node1 -> Node16 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="moa.classifiers.meta.LimAttClassifier.trainOnInstanceImplPerceptron",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1meta_1_1LimAttClassifier.html#aed3caa25bc03466d8b5f88117221ee96"];
+  Node16 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 -> Node17 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="moa.classifiers.meta.LimAttClassifier.prediction",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1meta_1_1LimAttClassifier.html#ab64ca607a59e7aed4dce66d114659b41"];
+}

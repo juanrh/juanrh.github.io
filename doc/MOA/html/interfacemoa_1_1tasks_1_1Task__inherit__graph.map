@@ -1,0 +1,25 @@
+<map id="G" name="G">
+<area shape="rect" id="node7" href="$classmoa_1_1tasks_1_1AbstractTask.html" title="Abstract Task." alt="" coords="1687,475,1852,647"/>
+<area shape="rect" id="node2" href="$interfacemoa_1_1MOAObject.html" title="Interface implemented by classes in MOA, so that all are serializable, can produce..." alt="" coords="1697,139,1841,259"/>
+<area shape="rect" id="node9" href="$classmoa_1_1tasks_1_1CacheShuffledStream.html" title="Task for storing and shuffling examples in memory." alt="" coords="1516,697,1729,869"/>
+<area shape="rect" id="node11" href="$classmoa_1_1tasks_1_1MainTask.html" title="Abstract Main Task." alt="" coords="1753,714,2079,851"/>
+<area shape="rect" id="node13" href="$classmoa_1_1tasks_1_1ConceptDriftMainTask.html" title="{moa.tasks.ConceptDriftMainTask\n|# events\l|+ getEventsList()\l# setEventsList()\l}" alt="" coords="113,1134,332,1237"/>
+<area shape="rect" id="node19" href="$classmoa_1_1tasks_1_1EvaluateClustering.html" title="Task for evaluating a clusterer on a stream." alt="" coords="356,1082,564,1289"/>
+<area shape="rect" id="node21" href="$classmoa_1_1tasks_1_1EvaluateInterleavedChunks.html" title="{moa.tasks.EvaluateInterleavedChunks\n|+ learnerOption\l+ streamOption\l+ evaluatorOption\l+ instanceLimitOption\l+ chunkSizeOption\l+ timeLimitOption\l+ sampleFrequencyOption\l+ maxMemoryOption\l+ memCheckFrequencyOption\l+ dumpFileOption\l&#45; serialVersionUID\l|+ getPurposeString()\l+ getTaskResultType()\l# doMainTask()\l}" alt="" coords="588,1039,833,1332"/>
+<area shape="rect" id="node23" href="$classmoa_1_1tasks_1_1EvaluateInterleavedTestThenTrain.html" title="Task for evaluating a classifier on a stream by testing then training with each example..." alt="" coords="857,1047,1143,1323"/>
+<area shape="rect" id="node25" href="$classmoa_1_1tasks_1_1EvaluateModel.html" title="Task for evaluating a static model on a stream." alt="" coords="1167,1065,1353,1306"/>
+<area shape="rect" id="node27" href="$classmoa_1_1tasks_1_1EvaluateOnlineRecommender.html" title="Test for evaluating a recommender by training and periodically testing on samples..." alt="" coords="1377,1091,1636,1280"/>
+<area shape="rect" id="node29" href="$classmoa_1_1tasks_1_1EvaluatePeriodicHeldOutTest.html" title="Task for evaluating a classifier on a stream by periodically testing on a heldout..." alt="" coords="1660,1047,1919,1323"/>
+<area shape="rect" id="node31" href="$classmoa_1_1tasks_1_1EvaluatePrequential.html" title="Task for evaluating a classifier on a stream by testing then training with each example..." alt="" coords="1943,1030,2145,1341"/>
+<area shape="rect" id="node33" href="$classmoa_1_1tasks_1_1LearnModel.html" title="Task for learning a model without any evaluation." alt="" coords="2169,1065,2369,1306"/>
+<area shape="rect" id="node35" href="$classmoa_1_1tasks_1_1MeasureStreamSpeed.html" title="Task for measuring the speed of the stream." alt="" coords="2393,1108,2609,1263"/>
+<area shape="rect" id="node37" href="$classmoa_1_1tasks_1_1Plot.html" title="A task allowing to create and plot gnuplot scripts." alt="" coords="2633,917,2791,1453"/>
+<area shape="rect" id="node39" href="$classmoa_1_1tasks_1_1RegressionMainTask.html" title="{moa.tasks.RegressionMainTask\n|# events\l|+ getEventsList()\l# setEventsList()\l}" alt="" coords="2815,1134,3025,1237"/>
+<area shape="rect" id="node47" href="$classmoa_1_1tasks_1_1RunTasks.html" title="Task for running several experiments modifying values of parameters." alt="" coords="3049,1073,3233,1297"/>
+<area shape="rect" id="node49" href="$classmoa_1_1tasks_1_1WriteStreamToARFFFile.html" title="Task to output a stream to an ARFF file." alt="" coords="3257,1091,3487,1280"/>
+<area shape="rect" id="node15" href="$classmoa_1_1tasks_1_1EvaluateConceptDrift.html" title="Task for evaluating a classifier on a stream by testing then training with each example..." alt="" coords="5,1537,216,1778"/>
+<area shape="rect" id="node17" href="$classmoa_1_1tasks_1_1RunStreamTasks.html" title="Task for running several experiments modifying values of parameters." alt="" coords="240,1545,429,1769"/>
+<area shape="rect" id="node41" href="$classmoa_1_1tasks_1_1EvaluateModelRegression.html" title="Task for evaluating a static model on a stream." alt="" coords="2524,1537,2761,1778"/>
+<area shape="rect" id="node43" href="$classmoa_1_1tasks_1_1EvaluatePrequentialRegression.html" title="Task for evaluating a classifier on a stream by testing then training with each example..." alt="" coords="2785,1502,3055,1813"/>
+<area shape="rect" id="node45" href="$classmoa_1_1tasks_1_1LearnModelRegression.html" title="Task for learning a model without any evaluation." alt="" coords="3079,1537,3297,1778"/>
+</map>

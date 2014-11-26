@@ -1,0 +1,11 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1tasks_1_1EvaluatePrequentialRegression.html#aebef8e4e09d6c72c08f3c8de0a94b712" title="This method performs this task." alt="" coords="449,5,793,35"/>
+<area shape="rect" id="node5" href="$classmoa_1_1tasks_1_1EvaluatePrequential.html#a2ad9727938880a3f31cab2544040eed1" title="This method performs this task." alt="" coords="483,59,760,88"/>
+<area shape="rect" id="node7" href="$classmoa_1_1tasks_1_1EvaluatePeriodicHeldOutTest.html#a71f8d46e07fbec833b8f4bf669ac5854" title="This method performs this task." alt="" coords="455,112,788,141"/>
+<area shape="rect" id="node9" href="$classmoa_1_1tasks_1_1EvaluateModelRegression.html#a1456d9f54442afa76e62fd1fbcf0c091" title="This method performs this task." alt="" coords="464,165,779,195"/>
+<area shape="rect" id="node11" href="$classmoa_1_1tasks_1_1EvaluateModel.html#ad72d33b5ea34a0b733c6e177f9dbb3ea" title="This method performs this task." alt="" coords="497,219,745,248"/>
+<area shape="rect" id="node13" href="$classmoa_1_1tasks_1_1EvaluateInterleavedTestThenTrain.html#a6b487518dd5bfdc97abe37263f725610" title="This method performs this task." alt="" coords="441,272,801,301"/>
+<area shape="rect" id="node15" href="$classmoa_1_1tasks_1_1EvaluateInterleavedChunks.html#a79a4b1e7cc8c707712a39f5fdbf85fec" title="This method performs this task." alt="" coords="460,325,783,355"/>
+<area shape="rect" id="node17" href="$classmoa_1_1classifiers_1_1AbstractClassifierTestCase.html#a532ce33efcdc1e9895c471710d1428b3" title="Processes the input data and returns the inspection data." alt="" coords="461,379,781,408"/>
+<area shape="rect" id="node19" href="$classmoa_1_1classifiers_1_1AbstractClassifierTestCase.html#acfbfa6fc0953dab7fd01c4e016b159a9" title="Compares the processed data against previously saved output data." alt="" coords="852,379,1217,408"/>
+</map>

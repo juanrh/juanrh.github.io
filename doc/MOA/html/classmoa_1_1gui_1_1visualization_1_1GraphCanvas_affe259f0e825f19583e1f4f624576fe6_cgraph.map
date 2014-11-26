@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1gui_1_1visualization_1_1GraphCurve.html#a3d548d029b81d1d463dc5739dd55f056" title="moa.gui.visualization.GraphCurve.setGraph" alt="" coords="376,5,651,35"/>
+<area shape="rect" id="node5" href="$classmoa_1_1gui_1_1visualization_1_1GraphCurve.html#a7785e01252cffdb9d9d5c9c47879433c" title="moa.gui.visualization.GraphCurve.setProcessFrequency" alt="" coords="339,59,688,88"/>
+<area shape="rect" id="node7" href="$classmoa_1_1gui_1_1visualization_1_1GraphAxes.html#a1c95f3eaa05dce1108ec574cd0b8361f" title="moa.gui.visualization.GraphAxes.setProcessFrequency" alt="" coords="341,112,685,141"/>
+<area shape="rect" id="node9" href="$classmoa_1_1gui_1_1visualization_1_1GraphCanvas.html#adc8ee0602dba6a004e742d018247d6d3" title="moa.gui.visualization.GraphCanvas.updateCanvas" alt="" coords="356,165,671,195"/>
+</map>

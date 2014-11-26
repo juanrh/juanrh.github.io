@@ -1,0 +1,16 @@
+digraph G
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{moa.classifiers.rules.core.voting.UniformWeightedVote\n|- serialVersionUID\l|+ computeWeightedVote()\l+ getDescription()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node2 -> Node1 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node2 [label="{moa.classifiers.rules.core.voting.AbstractErrorWeightedVote\n|# votes\l# errors\l# weights\l- serialVersionUID\l|+ AbstractErrorWeightedVote()\l+ addVote()\l+ computeWeightedVote()\l+ getWeightedError()\l+ getWeights()\l+ getNumberVotes()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1rules_1_1core_1_1voting_1_1AbstractErrorWeightedVote.html",tooltip="AbstractErrorWeightedVote class for weighted votes based on estimates of errors."];
+  Node3 -> Node2 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node3 [label="{moa.AbstractMOAObject\n||+ copy()\l+ measureByteSize()\l+ toString()\l+ copy()\l+ measureByteSize()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1AbstractMOAObject.html",tooltip="Abstract MOA Object."];
+  Node4 -> Node3 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node4 [label="{moa.MOAObject\n||+ measureByteSize()\l+ copy()\l+ getDescription()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interfacemoa_1_1MOAObject.html",tooltip="Interface implemented by classes in MOA, so that all are serializable, can produce..."];
+  Node5 -> Node4 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node5 [label="{Serializable\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node6 -> Node2 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node6 [label="{moa.classifiers.rules.core.voting.ErrorWeightedVote\n||+ addVote()\l+ computeWeightedVote()\l+ getWeightedError()\l+ getWeights()\l+ getNumberVotes()\l+ copy()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interfacemoa_1_1classifiers_1_1rules_1_1core_1_1voting_1_1ErrorWeightedVote.html",tooltip="ErrorWeightedVote interface for weighted votes based on estimates of errors."];
+}

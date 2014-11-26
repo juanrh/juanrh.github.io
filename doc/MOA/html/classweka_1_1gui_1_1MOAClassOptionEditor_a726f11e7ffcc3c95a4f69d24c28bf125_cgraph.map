@@ -1,0 +1,17 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classweka_1_1gui_1_1MOAClassOptionEditor.html#a8a04e27765e7289109223851472fd76b" title="Creates the custom editor." alt="" coords="372,139,705,168"/>
+<area shape="rect" id="node5" href="$classmoa_1_1gui_1_1ClassOptionEditComponent.html#accfdfcb7b4399b691b6cd7564eb09328" title="Adds the listener to the internal set of listeners." alt="" coords="756,85,1105,115"/>
+<area shape="rect" id="node7" href="$classmoa_1_1gui_1_1ClassOptionEditComponent.html#a6ee516d6bc0c1bb10374a09a06357d56" title="This method applies the state." alt="" coords="781,139,1080,168"/>
+<area shape="rect" id="node32" href="$classmoa_1_1gui_1_1ClassOptionEditComponent.html#a40c4ad8964557b7cfd64e0657968bad6" title="Gets the option of this component." alt="" coords="765,192,1096,221"/>
+<area shape="rect" id="node9" href="$classmoa_1_1options_1_1ClassOption.html#a4b6c97afce0094039ecdb5dc62ceff86" title="Sets value of this option via the Command Line Interface text." alt="" coords="1155,139,1453,168"/>
+<area shape="rect" id="node11" href="$classmoa_1_1options_1_1ClassOption.html#a53dc498910eecec509406522b9058796" title="moa.options.ClassOption.cliStringToObject" alt="" coords="1503,112,1775,141"/>
+<area shape="rect" id="node30" href="$classmoa_1_1options_1_1AbstractOption.html#a26d25b88bb5244ed3c2ec142bd28353d" title="Gets the name of this option." alt="" coords="1519,165,1759,195"/>
+<area shape="rect" id="node13" href="$classmoa_1_1options_1_1Options.html#a1886243eaecde00151eb2787c6501d6f" title="moa.options.Options.addOption" alt="" coords="1847,59,2052,88"/>
+<area shape="rect" id="node21" href="$classmoa_1_1options_1_1Options.html#a98fbf40bdfd12bd726e998c818be29e6" title="moa.options.Options.removeAllOptions" alt="" coords="1825,112,2073,141"/>
+<area shape="rect" id="node23" href="$classmoa_1_1options_1_1Options.html#a6fb4bce4cd3933247ad37a471cefdd47" title="moa.options.Options.setViaCLIString" alt="" coords="1831,165,2068,195"/>
+<area shape="rect" id="node15" href="$interfacemoa_1_1options_1_1Option.html#a0f2bfa3fc25dfbd92be96d007e093c3c" title="Gets the Command Line Interface text of this option." alt="" coords="2204,5,2409,35"/>
+<area shape="rect" id="node17" href="$interfacemoa_1_1options_1_1Option.html#a28d0b5eb1a547178d6d43c3d8cc89142" title="Gets the name of this option." alt="" coords="2211,59,2403,88"/>
+<area shape="rect" id="node19" href="$classmoa_1_1options_1_1Options.html#ad2061f549ed2eb9bb7bc5bbb3ab17019" title="moa.options.Options.getOption" alt="" coords="2205,112,2408,141"/>
+<area shape="rect" id="node26" href="$interfacemoa_1_1options_1_1Option.html#ac522763e8a93b8236980749dcb0b74bc" title="Sets value of this option via the Command Line Interface text." alt="" coords="2175,165,2439,195"/>
+<area shape="rect" id="node28" href="$classmoa_1_1options_1_1Options.html#a0bbd711d8b12b78f7fe61741035afdbd" title="Internal method that splits a string into two parts &#45; the parameter for the current..." alt="" coords="2124,219,2489,248"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1test_1_1MoaTestCase.html#ae450cb2afef081ee3b312a28c7b04065" title="Creates a deep copy of the given object (must be serializable!)." alt="" coords="360,5,581,35"/>
+<area shape="rect" id="node7" href="$classmoa_1_1test_1_1MoaTestCase.html#a2d60f10b832f794c2d3552f3fa257e60" title="Tries to obtain an instance of the given class." alt="" coords="356,59,585,88"/>
+<area shape="rect" id="node5" href="$classmoa_1_1test_1_1SerializedObject.html#a17504df9d7ca8cadc1f0861df51866dd" title="Returns a serialized object." alt="" coords="635,5,867,35"/>
+</map>

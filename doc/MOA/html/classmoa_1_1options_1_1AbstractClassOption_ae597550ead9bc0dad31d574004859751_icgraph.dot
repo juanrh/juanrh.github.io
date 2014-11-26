@@ -1,0 +1,23 @@
+digraph G
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir=LR;
+  Node1 [label="moa.options.AbstractClassOption.getRequiredType",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="moa.gui.WEKAClassOptionEditComponent.editObject",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1gui_1_1WEKAClassOptionEditComponent.html#a55dd4b5b7f205ae30e07143df812844d"];
+  Node2 -> Node3 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="moa.gui.WEKAClassOptionEditComponent.WEKAClassOptionEditComponent",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1gui_1_1WEKAClassOptionEditComponent.html#aa26d1e7228cd417824ead2c55052e949"];
+  Node1 -> Node4 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="moa.gui.ClassOptionWithNamesEditComponent.editObject",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1gui_1_1ClassOptionWithNamesEditComponent.html#abf9a50212b9779490b700a19f87a949d"];
+  Node4 -> Node5 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="moa.gui.ClassOptionWithNamesEditComponent.ClassOptionWithNamesEditComponent",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1gui_1_1ClassOptionWithNamesEditComponent.html#a5d25570afd67cd21a8aa86f1a0e6281a"];
+  Node1 -> Node6 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="moa.gui.ClassOptionEditComponent.editObject",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1gui_1_1ClassOptionEditComponent.html#af044e03c7487b372270dd525fde21e06"];
+  Node6 -> Node7 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="moa.gui.ClassOptionEditComponent.ClassOptionEditComponent",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1gui_1_1ClassOptionEditComponent.html#a411559ca5dc73952c1979ef85e919ac7"];
+  Node1 -> Node8 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="weka.core.MOAUtils.fromCommandLine",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classweka_1_1core_1_1MOAUtils.html#abb9400a18ae08a051e391e03b43a0e0d",tooltip="Turns a commandline into an object (classname + optional options)."];
+  Node1 -> Node9 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="weka.core.MOAUtils.fromOption",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classweka_1_1core_1_1MOAUtils.html#a9c5cd2c1e301e1030b8bffdd63a40f05",tooltip="Creates a MOA object from the specified class option."];
+}

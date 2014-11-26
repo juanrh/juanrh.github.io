@@ -1,0 +1,30 @@
+digraph G
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir=LR;
+  Node1 [label="moa.classifiers.core.driftdetection.ADWIN.getEstimation",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="moa.classifiers.trees.HoeffdingAdaptiveTree.AdaLearningNode.getErrorEstimation",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1trees_1_1HoeffdingAdaptiveTree_1_1AdaLearningNode.html#a6f8098a01ac5c5479fad86744544e899"];
+  Node2 -> Node3 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="moa.classifiers.trees.HoeffdingAdaptiveTree.AdaLearningNode.getClassVotes",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1trees_1_1HoeffdingAdaptiveTree_1_1AdaLearningNode.html#a8b72117ceb8e5579b8f7b7169da8316e"];
+  Node3 -> Node4 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="moa.classifiers.trees.HoeffdingAdaptiveTree.AdaLearningNode.learnFromInstance",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1trees_1_1HoeffdingAdaptiveTree_1_1AdaLearningNode.html#ad70b71e34f2ed88ea9a5bc33cb2562aa"];
+  Node2 -> Node4 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node5 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="moa.classifiers.trees.HoeffdingAdaptiveTree.AdaSplitNode.getErrorEstimation",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1trees_1_1HoeffdingAdaptiveTree_1_1AdaSplitNode.html#a6b7d4f12136e7fc59413266453fdef37"];
+  Node5 -> Node6 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="moa.classifiers.trees.HoeffdingAdaptiveTree.AdaSplitNode.learnFromInstance",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1trees_1_1HoeffdingAdaptiveTree_1_1AdaSplitNode.html#a3c12a28862be75251b548b75f0fc2f24"];
+  Node1 -> Node7 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="moa.classifiers.core.driftdetection.ADWINChangeDetector.input",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1core_1_1driftdetection_1_1ADWINChangeDetector.html#a47a3019e6fb54f5284f2cf136f7b81a5",tooltip="Adding a numeric value to the change detector&lt;br&gt; ."];
+  Node1 -> Node8 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="moa.classifiers.multilabel.meta.MLOzaBagAdwin.trainOnInstanceImpl",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1multilabel_1_1meta_1_1MLOzaBagAdwin.html#a887b0b65110b7c5822ec6aa378ecb012",tooltip="Trains this classifier incrementally using the given instance."];
+  Node1 -> Node9 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="moa.classifiers.meta.OzaBoostAdwin.trainOnInstanceImpl",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1meta_1_1OzaBoostAdwin.html#a839e472f5b43f3e42db56d149c8d6bb9",tooltip="Trains this classifier incrementally using the given instance."];
+  Node1 -> Node10 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="moa.classifiers.meta.OzaBagAdwin.trainOnInstanceImpl",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1meta_1_1OzaBagAdwin.html#a62b666eb8e84b2c84b8854dc2d749d3c",tooltip="Trains this classifier incrementally using the given instance."];
+  Node1 -> Node11 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="moa.classifiers.meta.LimAttClassifier.trainOnInstanceImpl",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1meta_1_1LimAttClassifier.html#adddac1d661b7c5ab04d4b15b92f0e2dc",tooltip="Trains this classifier incrementally using the given instance."];
+  Node1 -> Node12 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="moa.classifiers.meta.LeveragingBag.trainOnInstanceImpl",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1meta_1_1LeveragingBag.html#adabfa059e11a1bc3d967d43871eca31a",tooltip="Trains this classifier incrementally using the given instance."];
+}

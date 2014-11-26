@@ -1,0 +1,7 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1LinearNNSearch.html#af60dd2738258760909208275a7f96bef" title="Returns k nearest instances in the current neighbourhood to the supplied instance..." alt="" coords="541,5,1000,35"/>
+<area shape="rect" id="node7" href="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1KDTree.html#a5549700af886cbd717ec953ef6917dc6" title="Returns the k nearest neighbours of the supplied instance." alt="" coords="567,59,975,88"/>
+<area shape="rect" id="node11" href="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1NearestNeighbourSearch_1_1MyHeap.html#ab9455f58a9f1e6b20f71b62536c3030b" title="returns the total size." alt="" coords="524,112,1017,141"/>
+<area shape="rect" id="node5" href="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1LinearNNSearch.html#a84348ab6a9b63c521931fe6794314895" title="Returns the nearest instance in the current neighbourhood to the supplied instance..." alt="" coords="1067,5,1509,35"/>
+<area shape="rect" id="node9" href="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1KDTree.html#a59d618cbc6693a845ad8cc9709064b32" title="Returns the nearest neighbour of the supplied target instance." alt="" coords="1092,59,1484,88"/>
+</map>

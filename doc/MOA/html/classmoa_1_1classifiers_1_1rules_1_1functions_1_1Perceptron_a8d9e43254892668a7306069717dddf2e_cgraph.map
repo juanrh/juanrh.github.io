@@ -1,0 +1,8 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1classifiers_1_1rules_1_1functions_1_1Perceptron.html#ac44525888635894dc9d7eae514b37833" title="moa.classifiers.rules.functions.Perceptron.normalizedInstance" alt="" coords="833,59,1215,88"/>
+<area shape="rect" id="node11" href="$classmoa_1_1classifiers_1_1rules_1_1functions_1_1Perceptron.html#a95f60f3c1aafa6405ffe6f89f4337e9a" title="Output the prediction made by this perceptron on the given instance." alt="" coords="447,7,772,36"/>
+<area shape="rect" id="node5" href="$classmoa_1_1classifiers_1_1rules_1_1functions_1_1Perceptron.html#a2c732b0d49579b53b63879edaf268a91" title="moa.classifiers.rules.functions.Perceptron.computeSD" alt="" coords="1316,5,1655,35"/>
+<area shape="rect" id="node7" href="$classmoa_1_1core_1_1DoubleVector.html#a0a22580b229225823e9b11ed9d35104a" title="moa.core.DoubleVector.getValue" alt="" coords="1379,59,1592,88"/>
+<area shape="rect" id="node9" href="$classmoa_1_1classifiers_1_1AbstractClassifier.html#a5cd97fb8e5751d48de011c81f45466d4" title="Gets the index of the attribute in the instance, given the index of the attribute..." alt="" coords="1276,112,1695,141"/>
+<area shape="rect" id="node13" href="$classmoa_1_1classifiers_1_1rules_1_1functions_1_1Perceptron.html#afbfcb17524c9ed1222d6f306b426a6a0" title="moa.classifiers.rules.functions.Perceptron.denormalizedPrediction" alt="" coords="821,5,1227,35"/>
+</map>

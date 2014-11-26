@@ -1,0 +1,8 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$interfacemoa_1_1evaluation_1_1ClassificationPerformanceEvaluator.html#a756e8b88bf5003e44e5fbf6832df840d" title="Adds a learning result to this evaluator." alt="" coords="436,5,820,35"/>
+<area shape="rect" id="node5" href="$interfacemoa_1_1classifiers_1_1Classifier.html#af5edaccbb0c7831333c9dcc938a2688b" title="Gets the current measurements of this classifier." alt="" coords="472,59,784,88"/>
+<area shape="rect" id="node7" href="$interfacemoa_1_1evaluation_1_1ClassificationPerformanceEvaluator.html#a43d4a635131e2dd60fee08219afa8067" title="Gets the current measurements monitored by this evaluator." alt="" coords="376,112,880,141"/>
+<area shape="rect" id="node9" href="$interfacemoa_1_1classifiers_1_1Classifier.html#a0933ed1199c2b16a8eb8186dabf9a8f9" title="Predicts the class memberships for a given instance." alt="" coords="481,165,775,195"/>
+<area shape="rect" id="node11" href="$interfacemoa_1_1options_1_1OptionHandler.html#a73c3f8f217a04a389295af603d2904e6" title="This method prepares this object for use." alt="" coords="493,219,763,248"/>
+<area shape="rect" id="node13" href="$interfacemoa_1_1classifiers_1_1Classifier.html#ac28018bc307abe34a8ace54dba3ebff1" title="Trains this classifier incrementally using the given instance." alt="" coords="496,272,760,301"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$interfacemoa_1_1classifiers_1_1Classifier.html#a0cb1a2820196bc5e2a95b05a0b6666f0" title="Resets this classifier." alt="" coords="913,5,1164,35"/>
+<area shape="rect" id="node5" href="$classmoa_1_1classifiers_1_1meta_1_1OzaBagAdwin.html#a977c72f274d7dc35b8953be25d2607e0" title="Resets this classifier." alt="" coords="465,59,801,88"/>
+<area shape="rect" id="node16" href="$interfacemoa_1_1classifiers_1_1Classifier.html#ada37a6c356ff9f4349e9f9a189f52978" title="Sets the reference to the header of the data stream." alt="" coords="497,112,769,141"/>
+<area shape="rect" id="node7" href="$interfacemoa_1_1classifiers_1_1Classifier.html#af50dcec23ecb34c1bd141d0d389bdb59" title="Produces a copy of this classifier." alt="" coords="939,59,1139,88"/>
+<area shape="rect" id="node9" href="$classmoa_1_1options_1_1AbstractOptionHandler.html#a2d5e872c7c6a32487013ba914c6d3fcc" title="Gets a prepared option of this class." alt="" coords="852,112,1225,141"/>
+<area shape="rect" id="node13" href="$classmoa_1_1options_1_1IntOption.html#affae8787274b44ab7616d46b8d6c831a" title="moa.options.IntOption.getValue" alt="" coords="936,165,1141,195"/>
+<area shape="rect" id="node11" href="$classmoa_1_1options_1_1AbstractOption.html#a26d25b88bb5244ed3c2ec142bd28353d" title="Gets the name of this option." alt="" coords="1276,112,1516,141"/>
+</map>

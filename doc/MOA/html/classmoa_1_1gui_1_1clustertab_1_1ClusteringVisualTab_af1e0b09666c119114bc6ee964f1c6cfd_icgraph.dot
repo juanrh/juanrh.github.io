@@ -1,0 +1,14 @@
+digraph G
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir=LR;
+  Node1 [label="moa.gui.clustertab.ClusteringVisualTab.isEnabledDrawPoints",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="moa.gui.visualization.RunVisualizer.runVisual",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1gui_1_1visualization_1_1RunVisualizer.html#af40a82de4ae8183b09175d6e7f392203"];
+  Node2 -> Node3 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="moa.gui.visualization.RunVisualizer.run",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1gui_1_1visualization_1_1RunVisualizer.html#a499a0fbd6f3ec8c5625af2dd15072839"];
+  Node3 -> Node4 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="moa.gui.visualization.RunVisualizer.work_pause",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1gui_1_1visualization_1_1RunVisualizer.html#ac7da17ff513eaf15f3f2fa147160c580"];
+  Node4 -> Node2 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

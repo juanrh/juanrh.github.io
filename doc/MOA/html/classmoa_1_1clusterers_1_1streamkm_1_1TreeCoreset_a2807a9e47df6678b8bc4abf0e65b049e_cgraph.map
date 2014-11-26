@@ -1,0 +1,14 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1clusterers_1_1streamkm_1_1TreeCoreset.html#a98943206fda5388ab48675946596dbec" title="selects a new centre from the treenode (using the kMeans++ distribution)" alt="" coords="408,59,739,88"/>
+<area shape="rect" id="node9" href="$classmoa_1_1clusterers_1_1streamkm_1_1Point.html#af098eed8f68f80e30385b7ef1e4e635c" title="moa.clusterers.streamkm.Point.clone" alt="" coords="455,139,692,168"/>
+<area shape="rect" id="node13" href="$classmoa_1_1clusterers_1_1streamkm_1_1TreeCoreset.html#a27c0d4c2716c697505bb82b493b42c76" title="frees a tree of its storage" alt="" coords="424,219,723,248"/>
+<area shape="rect" id="node21" href="$classmoa_1_1clusterers_1_1streamkm_1_1TreeCoreset.html#a2b9e00319e3313ed17cdd46d2b6a4c23" title="selects a leaf node (using the kMeans++ distribution)" alt="" coords="416,272,731,301"/>
+<area shape="rect" id="node24" href="$classmoa_1_1clusterers_1_1streamkm_1_1TreeCoreset.html#a748cbdbb7bd4d337f69dbe02a83b360c" title="splits the parent node and creates two child nodes (one with the old centre and one..." alt="" coords="436,325,711,355"/>
+<area shape="rect" id="node5" href="$classmoa_1_1clusterers_1_1streamkm_1_1TreeCoreset.html#aae7c48fd7aa6bbc6089d1af34989dbf2" title="computes the cost of point p with the centre of treenode node" alt="" coords="796,5,1169,35"/>
+<area shape="rect" id="node7" href="$classmoa_1_1clusterers_1_1streamkm_1_1TreeCoreset.html#abcf3c943a2969bb19a77374268471213" title="computes the hypothetical cost if the node would be split with new centers centreA..." alt="" coords="804,59,1161,88"/>
+<area shape="rect" id="node11" href="$classmoa_1_1clusterers_1_1streamkm_1_1Point.html#abf88e6027d22543a2d4fe694c9ae77ec" title="moa.clusterers.streamkm.Point.Point" alt="" coords="864,112,1101,141"/>
+<area shape="rect" id="node15" href="$classmoa_1_1clusterers_1_1streamkm_1_1TreeCoreset_1_1treeNode.html#a8b3f3aadb28f7ad9bfc4019a1380d957" title="moa.clusterers.streamkm.TreeCoreset.treeNode.free" alt="" coords="819,165,1147,195"/>
+<area shape="rect" id="node17" href="$classmoa_1_1clusterers_1_1streamkm_1_1TreeCoreset.html#a7846322f3738e2a959a7b150c2b7afd5" title="tests if a node is a leaf" alt="" coords="840,272,1125,301"/>
+<area shape="rect" id="node19" href="$classmoa_1_1clusterers_1_1streamkm_1_1TreeCoreset.html#a327ef138a5a150b5a3c2625a5286a3d7" title="Checks if the storage is completly freed." alt="" coords="823,219,1143,248"/>
+<area shape="rect" id="node26" href="$classmoa_1_1clusterers_1_1streamkm_1_1TreeCoreset.html#ac520f0a2ced6e8add5c0ecb49376fbc3" title="returns the next centre" alt="" coords="788,325,1177,355"/>
+</map>

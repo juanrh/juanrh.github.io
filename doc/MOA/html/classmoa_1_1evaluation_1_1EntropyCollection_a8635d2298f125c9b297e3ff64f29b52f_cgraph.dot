@@ -1,0 +1,19 @@
+digraph G
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir=LR;
+  Node1 [label="moa.evaluation.EntropyCollection.evaluateClustering",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="moa.evaluation.MeasureCollection.addValue",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1evaluation_1_1MeasureCollection.html#a344a1c04e2e600092750c6676b9c9906"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="moa.evaluation.MembershipMatrix.getClassSum",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1evaluation_1_1MembershipMatrix.html#a00a08bde6a1f137e6abfb05fcdebfc9d"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="moa.evaluation.MembershipMatrix.getClusterClassWeight",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1evaluation_1_1MembershipMatrix.html#a61be292a6c5eb832840c837a6d660d16"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="moa.evaluation.MembershipMatrix.getClusterSum",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1evaluation_1_1MembershipMatrix.html#a14818d896cf3a6e9b11e00ed0c5b5472"];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="moa.evaluation.MembershipMatrix.getNumClasses",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1evaluation_1_1MembershipMatrix.html#a1affa0a55570756783fac0aebc59466f"];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="moa.evaluation.MembershipMatrix.getTotalEntries",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1evaluation_1_1MembershipMatrix.html#a0d65d3db5e4bb4002509347986c0c7d7"];
+}

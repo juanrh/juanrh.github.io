@@ -1,0 +1,9 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1gui_1_1visualization_1_1StreamOutlierPanel.html#a732b3083bcbe368f59abb089320d9af7" title="moa.gui.visualization.StreamOutlierPanel.clearPoints" alt="" coords="379,32,709,61"/>
+<area shape="rect" id="node11" href="$classmoa_1_1gui_1_1visualization_1_1RunOutlierVisualizer.html#a0d41028adb0b8e40069641ffab4d364d" title="moa.gui.visualization.RunOutlierVisualizer.drawEvents" alt="" coords="375,85,713,115"/>
+<area shape="rect" id="node13" href="$classmoa_1_1gui_1_1visualization_1_1RunOutlierVisualizer.html#af3e04ba68d5ee4a5be25a553fdd03f08" title="moa.gui.visualization.RunOutlierVisualizer.drawPoints" alt="" coords="376,139,712,168"/>
+<area shape="rect" id="node15" href="$classmoa_1_1gui_1_1visualization_1_1RunOutlierVisualizer.html#a76049cf961dd36feff40440faa8a4358" title="moa.gui.visualization.RunOutlierVisualizer.showOutliers" alt="" coords="371,192,717,221"/>
+<area shape="rect" id="node5" href="$classmoa_1_1gui_1_1visualization_1_1StreamOutlierPanel.html#a587d65d89559e233b8db9c8c9d53317d" title="moa.gui.visualization.StreamOutlierPanel.ApplyToCanvas" alt="" coords="773,5,1131,35"/>
+<area shape="rect" id="node7" href="$classmoa_1_1gui_1_1visualization_1_1StreamOutlierPanel.html#a4d6c7bb3dc3a5c6fda714933bf1e8fe7" title="moa.gui.visualization.StreamOutlierPanel.RedrawPointLayer" alt="" coords="767,59,1137,88"/>
+<area shape="rect" id="node9" href="$classmoa_1_1gui_1_1visualization_1_1StreamOutlierPanel_1_1ImgPanel.html#aebdffc7623851d0dfc3079a6c45dc5ea" title="moa.gui.visualization.StreamOutlierPanel.ImgPanel.setImage" alt="" coords="1187,59,1565,88"/>
+</map>

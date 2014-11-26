@@ -1,0 +1,9 @@
+digraph G
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir=LR;
+  Node1 [label="moa.streams.FilteredStream.estimatedRemainingInstances",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="moa.streams.InstanceStream.estimatedRemainingInstances",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interfacemoa_1_1streams_1_1InstanceStream.html#a9467d8c75f1a43faadd2454bb4a89cfe",tooltip="Gets the estimated number of remaining instances in this stream."];
+}

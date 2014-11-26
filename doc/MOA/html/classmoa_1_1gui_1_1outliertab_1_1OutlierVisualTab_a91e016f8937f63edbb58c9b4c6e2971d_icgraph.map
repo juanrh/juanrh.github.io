@@ -1,0 +1,14 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1gui_1_1outliertab_1_1OutlierVisualTab.html#a80554a5c0adb57d6de3e063274aaeb67" title="This method is called from within the constructor to initialize the form." alt="" coords="395,33,715,63"/>
+<area shape="rect" id="node5" href="$classmoa_1_1gui_1_1outliertab_1_1OutlierVisualTab.html#a521e90693086c5ddaa303ac89035d29e" title="moa.gui.outliertab.OutlierVisualTab.resetComponents" alt="" coords="764,33,1095,63"/>
+<area shape="rect" id="node7" href="$classmoa_1_1gui_1_1outliertab_1_1OutlierVisualTab.html#a69ea68179067056db885675821baed0c" title="Creates new form OutlierVisualTab." alt="" coords="1504,5,1829,35"/>
+<area shape="rect" id="node13" href="$classmoa_1_1gui_1_1outliertab_1_1OutlierVisualTab.html#ac115da828a7fc0d0409dc15be072cad1" title="moa.gui.outliertab.OutlierVisualTab.stopVisualizer" alt="" coords="1145,59,1455,88"/>
+<area shape="rect" id="node9" href="$classmoa_1_1gui_1_1outliertab_1_1OutlierTabPanel.html#a6146155a96c2c5239f46f5566797e5fd" title="This method is called from within the constructor to initialize the form." alt="" coords="3352,32,3669,61"/>
+<area shape="rect" id="node11" href="$classmoa_1_1gui_1_1outliertab_1_1OutlierTabPanel.html#a78f57b4c096f3587a549789072283a7b" title="Creates new form ClusterTab." alt="" coords="3719,32,4036,61"/>
+<area shape="rect" id="node15" href="$classmoa_1_1gui_1_1outliertab_1_1OutlierTabPanel.html#ad6a55ebedd0ad5ce0ba14b74226eda1b" title="moa.gui.outliertab.OutlierTabPanel.stop" alt="" coords="1541,59,1792,88"/>
+<area shape="rect" id="node17" href="$classmoa_1_1gui_1_1outliertab_1_1OutlierSetupTab.html#a9dbd55e8b404d5b9b6130f611a163190" title="moa.gui.outliertab.OutlierSetupTab.stop" alt="" coords="1879,59,2129,88"/>
+<area shape="rect" id="node19" href="$classmoa_1_1gui_1_1outliertab_1_1OutlierSetupTab.html#a6ff74e3d7a195ace5fb8f618bd9f838b" title="moa.gui.outliertab.OutlierSetupTab.buttonStopActionPerformed" alt="" coords="2179,57,2565,87"/>
+<area shape="rect" id="node26" href="$classmoa_1_1gui_1_1outliertab_1_1OutlierSetupTab.html#ab45c3e085472513c818e28b0dbbf0b58" title="moa.gui.outliertab.OutlierSetupTab.stopRun" alt="" coords="2235,111,2509,140"/>
+<area shape="rect" id="node21" href="$classmoa_1_1gui_1_1outliertab_1_1OutlierSetupTab.html#ae10be48e362dd993dae6190b160d47cf" title="This method is called from within the constructor to initialize the form." alt="" coords="2615,57,2932,87"/>
+<area shape="rect" id="node23" href="$classmoa_1_1gui_1_1outliertab_1_1OutlierSetupTab.html#a8417656c29bc1d97a94e52d3d88688ad" title="Creates new form outlierSetupTab." alt="" coords="2983,57,3303,87"/>
+</map>

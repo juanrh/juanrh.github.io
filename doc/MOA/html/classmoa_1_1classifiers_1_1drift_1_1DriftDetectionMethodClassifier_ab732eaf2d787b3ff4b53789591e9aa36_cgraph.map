@@ -1,0 +1,11 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1classifiers_1_1AbstractClassifier.html#a0d95f541e4ae5a893415b0a1b8ddbef9" title="Produces a copy of this classifier." alt="" coords="576,5,827,35"/>
+<area shape="rect" id="node7" href="$interfacemoa_1_1classifiers_1_1core_1_1driftdetection_1_1ChangeDetector.html#a7d8cc3e056c4925f840991a47ea545bf" title="Gets whether there is change detected." alt="" coords="509,59,893,88"/>
+<area shape="rect" id="node9" href="$classmoa_1_1options_1_1AbstractOptionHandler.html#a2d5e872c7c6a32487013ba914c6d3fcc" title="Gets a prepared option of this class." alt="" coords="515,112,888,141"/>
+<area shape="rect" id="node13" href="$interfacemoa_1_1classifiers_1_1core_1_1driftdetection_1_1ChangeDetector.html#a0cee3c564bede9c22f6c59af50f0992d" title="Gets whether the change detector is in the warning zone, after a warning alert and..." alt="" coords="493,165,909,195"/>
+<area shape="rect" id="node15" href="$interfacemoa_1_1classifiers_1_1core_1_1driftdetection_1_1ChangeDetector.html#a1aee14e93d7cb7e674511fd35871a7fa" title="Adding a numeric value to the change detector&lt;br&gt; ." alt="" coords="527,219,876,248"/>
+<area shape="rect" id="node17" href="$interfacemoa_1_1classifiers_1_1Classifier.html#a0cb1a2820196bc5e2a95b05a0b6666f0" title="Resets this classifier." alt="" coords="576,272,827,301"/>
+<area shape="rect" id="node19" href="$interfacemoa_1_1classifiers_1_1Classifier.html#ac28018bc307abe34a8ace54dba3ebff1" title="Trains this classifier incrementally using the given instance." alt="" coords="569,325,833,355"/>
+<area shape="rect" id="node5" href="$interfacemoa_1_1classifiers_1_1Classifier.html#af50dcec23ecb34c1bd141d0d389bdb59" title="Produces a copy of this classifier." alt="" coords="979,5,1179,35"/>
+<area shape="rect" id="node11" href="$classmoa_1_1options_1_1AbstractOption.html#a26d25b88bb5244ed3c2ec142bd28353d" title="Gets the name of this option." alt="" coords="959,112,1199,141"/>
+</map>

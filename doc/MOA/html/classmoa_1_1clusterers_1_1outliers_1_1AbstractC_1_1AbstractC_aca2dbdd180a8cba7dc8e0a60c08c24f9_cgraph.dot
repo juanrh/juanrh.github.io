@@ -1,0 +1,23 @@
+digraph G
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir=LR;
+  Node1 [label="moa.clusterers.outliers.AbstractC.AbstractC.OutputPatterns",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="moa.clusterers.outliers.AbstractC.AbstractCBase.IsWinFull",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1clusterers_1_1outliers_1_1AbstractC_1_1AbstractCBase.html#ade1b53f153114d3d22aa7aca1b9deb89"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="moa.clusterers.outliers.AbstractC.AbstractCBase.GetWindowEnd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1clusterers_1_1outliers_1_1AbstractC_1_1AbstractCBase.html#adb28bcf7e7041a8074b2dda0cb3eab9c"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="moa.clusterers.outliers.MyBaseOutlierDetector.Println",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1clusterers_1_1outliers_1_1MyBaseOutlierDetector.html#af7b301217f7338217830e5ee4850b144"];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="moa.clusterers.outliers.MyBaseOutlierDetector.PrintMsg.println",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interfacemoa_1_1clusterers_1_1outliers_1_1MyBaseOutlierDetector_1_1PrintMsg.html#a71e22b3711764e75881a9db4fdb67ab8"];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="moa.clusterers.outliers.AbstractC.AbstractCBase.RemoveOutlier",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1clusterers_1_1outliers_1_1AbstractC_1_1AbstractCBase.html#a60554b8dda29561de1200c4043ea51ae"];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="moa.clusterers.outliers.AbstractC.AbstractCBase.SaveOutlier",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1clusterers_1_1outliers_1_1AbstractC_1_1AbstractCBase.html#a70f7614ef9018f8cfc4f3d516f74b289"];
+  Node7 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="moa.clusterers.outliers.MyBaseOutlierDetector.AddOutlier",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1clusterers_1_1outliers_1_1MyBaseOutlierDetector.html#a3715ee029b3f792359eaa1519f80e240"];
+  Node8 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="moa.clusterers.outliers.MyBaseOutlierDetector.OutlierNotifier.OnOutlier",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1clusterers_1_1outliers_1_1MyBaseOutlierDetector_1_1OutlierNotifier.html#a5b97e479afa2b10275b615a97fbbd840"];
+}

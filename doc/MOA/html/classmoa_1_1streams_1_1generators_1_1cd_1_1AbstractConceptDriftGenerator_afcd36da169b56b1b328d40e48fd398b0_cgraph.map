@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1streams_1_1generators_1_1cd_1_1AbstractConceptDriftGenerator.html#ad3bb3b919f2fd04e9583c79e208a8637" title="moa.streams.generators.cd.AbstractConceptDriftGenerator.getChange" alt="" coords="515,5,947,35"/>
+<area shape="rect" id="node5" href="$classmoa_1_1streams_1_1generators_1_1cd_1_1AbstractConceptDriftGenerator.html#ae6d8ac30f8925f097ef2b79318fa8a3a" title="Gets the header of this stream." alt="" coords="516,59,945,88"/>
+<area shape="rect" id="node7" href="$classmoa_1_1streams_1_1generators_1_1cd_1_1AbstractConceptDriftGenerator.html#a7db725c32bd88bee4d3ae64817a0e788" title="moa.streams.generators.cd.AbstractConceptDriftGenerator.nextbinaryValue" alt="" coords="500,112,961,141"/>
+<area shape="rect" id="node9" href="$classmoa_1_1streams_1_1generators_1_1cd_1_1AbstractConceptDriftGenerator.html#a325320142fff57ed891f12482dca2ee8" title="moa.streams.generators.cd.AbstractConceptDriftGenerator.nextValue" alt="" coords="517,165,944,195"/>
+</map>

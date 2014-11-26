@@ -1,0 +1,21 @@
+digraph G
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir=LR;
+  Node1 [label="moa.gui.visualization.RunVisualizer.weka",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="moa.gui.TextViewerPanel.addText",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1gui_1_1TextViewerPanel.html#ac985c1592b561c42e50ff9d22ff1e917"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="moa.gui.TextViewerPanel.setText",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1gui_1_1TextViewerPanel.html#ac09cb6daf98fc5b812dd330a4eeb4b11"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="moa.cluster.Clustering.get",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1cluster_1_1Clustering.html#a6a66be9b90f5cb06b044da278cdf24c9",tooltip="remove a cluster from the clustering"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="moa.cluster.Cluster.getCenter",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1cluster_1_1Cluster.html#a509d165f6594aa388d878c77684e0870"];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="moa.cluster.Cluster.getWeight",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1cluster_1_1Cluster.html#aeb8c006a27e4c642b7c735a8a8d1dd28",tooltip="Returns the weight of this cluster, not neccessarily normalized."];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="moa.clusterers.AbstractClusterer.implementsMicroClusterer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1clusterers_1_1AbstractClusterer.html#a44b484b54070fd34bcb36f01bd7b7b02"];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="moa.cluster.Clustering.size",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1cluster_1_1Clustering.html#a054a386d94acf3b88574f061ab4c8d71"];
+}

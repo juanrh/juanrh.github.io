@@ -1,0 +1,11 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1evaluation_1_1CMM__GTAnalysis.html#af80b5acd2a6d1578a4d3bb13d3e65140" title="moa.evaluation.CMM_GTAnalysis.CMM_GTAnalysis" alt="" coords="287,5,617,35"/>
+<area shape="rect" id="node5" href="$classmoa_1_1gui_1_1visualization_1_1OutlierPanel.html#ae16e83498051ded49abd70adde806199" title="moa.gui.visualization.OutlierPanel.getClusterLabel" alt="" coords="295,59,609,88"/>
+<area shape="rect" id="node7" href="$classmoa_1_1gui_1_1visualization_1_1ClusterPanel.html#ac2a4c67048874c48f50e079810fc01ed" title="moa.gui.visualization.ClusterPanel.getClusterLabel" alt="" coords="293,112,611,141"/>
+<area shape="rect" id="node17" href="$classmoa_1_1evaluation_1_1CMM__GTAnalysis.html#ac62e2f616277de082896f6b0708451b9" title="Calculates the relative number of errors being caused by the underlying cluster model..." alt="" coords="293,165,611,195"/>
+<area shape="rect" id="node9" href="$classmoa_1_1gui_1_1visualization_1_1PointPanel.html#ac35cc915fb7f52a3573cc4e539d8915d" title="moa.gui.visualization.PointPanel.getColor" alt="" coords="667,112,931,141"/>
+<area shape="rect" id="node11" href="$classmoa_1_1gui_1_1visualization_1_1PointPanel.html#a815aaa4f28651eb6d3753050ebe67c5c" title="moa.gui.visualization.PointPanel.getSVGString" alt="" coords="988,85,1281,115"/>
+<area shape="rect" id="node15" href="$classmoa_1_1gui_1_1visualization_1_1PointPanel.html#a04ae5147e3a2acd23504fb154bb5793b" title="moa.gui.visualization.PointPanel.paintComponent" alt="" coords="980,139,1289,168"/>
+<area shape="rect" id="node13" href="$classmoa_1_1gui_1_1visualization_1_1StreamPanel.html#a4d2fcf520d8e89e180271fb1163d7551" title="moa.gui.visualization.StreamPanel.screenshot" alt="" coords="1339,85,1629,115"/>
+<area shape="rect" id="node19" href="$classmoa_1_1evaluation_1_1CMM.html#a10e5730f04b5d05fa6eedfbeb6a737a2" title="moa.evaluation.CMM.evaluateClustering" alt="" coords="669,165,928,195"/>
+</map>

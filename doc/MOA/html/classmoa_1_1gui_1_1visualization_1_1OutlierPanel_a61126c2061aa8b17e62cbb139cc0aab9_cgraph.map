@@ -1,0 +1,7 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1gui_1_1visualization_1_1StreamOutlierPanel.html#a39b2b742442f1bdefd8d1f414b1c32b4" title="moa.gui.visualization.StreamOutlierPanel.setHighlightedOutlierPanel" alt="" coords="387,5,805,35"/>
+<area shape="rect" id="node7" href="$classmoa_1_1gui_1_1visualization_1_1OutlierPanel.html#a10cee58f10581dc91d649f35f5f9a660" title="moa.gui.visualization.OutlierPanel.showInfo" alt="" coords="459,59,733,88"/>
+<area shape="rect" id="node5" href="$classmoa_1_1gui_1_1visualization_1_1OutlierPanel.html#a6eabfb79cb66f76217196d25cbd04e4e" title="moa.gui.visualization.OutlierPanel.highlight" alt="" coords="855,5,1124,35"/>
+<area shape="rect" id="node9" href="$classmoa_1_1gui_1_1visualization_1_1OutlierPanel.html#ac90db4ad61c5041c7f0832a54af8e195" title="moa.gui.visualization.OutlierPanel.getInfo" alt="" coords="859,59,1120,88"/>
+<area shape="rect" id="node11" href="$classmoa_1_1clusterers_1_1outliers_1_1MyBaseOutlierDetector.html#a9db8e717e60f0c8d602fcab3138bc806" title="moa.clusterers.outliers.MyBaseOutlierDetector.getObjectInfo" alt="" coords="1173,59,1549,88"/>
+</map>

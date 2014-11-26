@@ -1,0 +1,13 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1gui_1_1TaskTextViewerPanel.html#a58e92cea35637ef475a544fd0f2d4ed2" title="moa.gui.TaskTextViewerPanel.setGraph" alt="" coords="303,165,559,195"/>
+<area shape="rect" id="node5" href="$classmoa_1_1evaluation_1_1MeasureCollection.html#a344a1c04e2e600092750c6676b9c9906" title="moa.evaluation.MeasureCollection.addValue" alt="" coords="677,5,957,35"/>
+<area shape="rect" id="node7" href="$classmoa_1_1tasks_1_1ConceptDriftMainTask.html#ad4c08b553ea52bac21903b9af68d1a81" title="moa.tasks.ConceptDriftMainTask.getEventsList" alt="" coords="667,59,968,88"/>
+<area shape="rect" id="node9" href="$classmoa_1_1gui_1_1TaskTextViewerPanel.html#ae11493bdbd1de595e9890826665e00e4" title="moa.gui.TaskTextViewerPanel.getNewMeasureCollection" alt="" coords="639,112,996,141"/>
+<area shape="rect" id="node11" href="$classmoa_1_1gui_1_1conceptdrift_1_1CDTaskManagerPanel.html#a35d1a35fedfe654f551e0674a57994b5" title="moa.gui.conceptdrift.CDTaskManagerPanel.getSelectedCurrenTask" alt="" coords="609,165,1025,195"/>
+<area shape="rect" id="node19" href="$classmoa_1_1evaluation_1_1MeasureCollection.html#a23eeb889828aafe68c192fab36a0ade3" title="moa.evaluation.MeasureCollection.getValue" alt="" coords="679,219,956,248"/>
+<area shape="rect" id="node21" href="$classmoa_1_1gui_1_1TaskTextViewerPanel.html#aab1cb112128fcfc69a51c69bfa2ee135" title="moa.gui.TaskTextViewerPanel.parseDouble" alt="" coords="679,272,956,301"/>
+<area shape="rect" id="node23" href="$classmoa_1_1gui_1_1TaskTextViewerPanel.html#a508113467ed9b0bf03dd9620053009ae" title="moa.gui.TaskTextViewerPanel.round" alt="" coords="700,325,935,355"/>
+<area shape="rect" id="node13" href="$classmoa_1_1gui_1_1conceptdrift_1_1CDTaskManagerPanel.html#a4b83ab8c9a34504bac8916eb9b0d1272" title="moa.gui.conceptdrift.CDTaskManagerPanel.getCurrenTask" alt="" coords="1085,112,1451,141"/>
+<area shape="rect" id="node15" href="$classmoa_1_1gui_1_1conceptdrift_1_1CDTaskManagerPanel.html#add709d2d090cedfe3728efcc9acf6dd2" title="moa.gui.conceptdrift.CDTaskManagerPanel.getSelectedTasks" alt="" coords="1076,165,1460,195"/>
+<area shape="rect" id="node17" href="$classmoa_1_1tasks_1_1TaskThread.html#aaa42f5df321a72870b224e83bb0cf6fa" title="moa.tasks.TaskThread.getTask" alt="" coords="1165,219,1371,248"/>
+</map>

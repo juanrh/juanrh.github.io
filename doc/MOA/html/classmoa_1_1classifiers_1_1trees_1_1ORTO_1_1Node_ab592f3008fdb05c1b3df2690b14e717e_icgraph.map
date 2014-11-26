@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1classifiers_1_1trees_1_1ORTO_1_1OptionNode.html#a243f7f0f5a4225a10234b5e00e176a13" title="moa.classifiers.trees.ORTO.OptionNode.getPrediction" alt="" coords="355,5,693,35"/>
+<area shape="rect" id="node5" href="$classmoa_1_1classifiers_1_1trees_1_1ORTO_1_1SplitNode.html#a6f842794902f5e9fd20f196fa4f5e0c7" title="moa.classifiers.trees.ORTO.SplitNode.getPrediction" alt="" coords="361,59,687,88"/>
+<area shape="rect" id="node7" href="$classmoa_1_1classifiers_1_1trees_1_1ORTO.html#a092899a692afd2c1d8040552063e0bed" title="Predicts the class memberships for a given instance." alt="" coords="369,112,679,141"/>
+</map>

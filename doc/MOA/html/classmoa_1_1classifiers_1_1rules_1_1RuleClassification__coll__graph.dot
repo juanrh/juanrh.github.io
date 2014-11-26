@@ -1,0 +1,21 @@
+digraph G
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{moa.classifiers.rules.RuleClassification\n|# predicateSet\l# observers\l# observersGauss\l# attributeStatisticsSupervised\l# squaredAttributeStatisticsSupervised\l# weightAttribute\l# attributeStatistics\l# attributesProbability\l# squaredAttributeStatistics\l# obserClassDistrib\l# attributeMissingValues\l# instancesSeen\l# instancesSeenTest\l# reset\l# actualClassStatistics\l# squaredActualClassStatistics\l# PHmT\l# PHMT\l# XiSum\l# ValorTargetRule\l- serialVersionUID\l|+ RuleClassification()\l+ RuleClassification()\l+ ruleEvaluate()\l+ getDescription()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node2 -> Node1 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node2 [label="{moa.AbstractMOAObject\n||+ copy()\l+ measureByteSize()\l+ toString()\l+ copy()\l+ measureByteSize()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1AbstractMOAObject.html",tooltip="Abstract MOA Object."];
+  Node3 -> Node2 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node3 [label="{moa.MOAObject\n||+ measureByteSize()\l+ copy()\l+ getDescription()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interfacemoa_1_1MOAObject.html",tooltip="Interface implemented by classes in MOA, so that all are serializable, can produce..."];
+  Node4 -> Node3 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node4 [label="{Serializable\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node5 -> Node1 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="squaredAttributeStatisticsSupervised\nattributeStatisticsSupervised",arrowtail="open",fontname="Helvetica"];
+  Node5 [label="{ArrayList\< ArrayList\< Double \> \>\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node6 -> Node1 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="predicateSet",arrowtail="open",fontname="Helvetica"];
+  Node6 [label="{ArrayList\< Predicates \>\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node7 -> Node1 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="squaredAttributeStatistics\nattributeStatistics\nobserClassDistrib\nattributesProbability\nattributeMissingValues",arrowtail="open",fontname="Helvetica"];
+  Node7 [label="{moa.core.DoubleVector\n|# array\l- serialVersionUID\l|+ DoubleVector()\l+ DoubleVector()\l+ DoubleVector()\l+ numValues()\l+ setValue()\l+ addToValue()\l+ addValues()\l+ addValues()\l+ subtractValues()\l+ subtractValues()\l+ addToValues()\l+ scaleValues()\l+ getValue()\l+ sumOfValues()\l+ maxIndex()\l+ normalize()\l+ numNonZeroEntries()\l+ minWeight()\l+ getArrayCopy()\l+ getArrayRef()\l+ getSingleLineDescription()\l+ getSingleLineDescription()\l+ getDescription()\l# setArrayLength()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1core_1_1DoubleVector.html",tooltip="Vector of double numbers with some utilities."];
+  Node2 -> Node7 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node8 -> Node1 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="observers\nobserversGauss",arrowtail="open",fontname="Helvetica"];
+  Node8 [label="{AutoExpandVector\< AttributeClassObserver \>\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+}

@@ -1,0 +1,16 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1classifiers_1_1meta_1_1AccuracyUpdatedEnsemble.html#a00e2169306d60a3a795fa9c1c048eccc" title="Adds a classifier to the storage." alt="" coords="489,5,876,35"/>
+<area shape="rect" id="node5" href="$interfacemoa_1_1classifiers_1_1Classifier.html#af50dcec23ecb34c1bd141d0d389bdb59" title="Produces a copy of this classifier." alt="" coords="1051,31,1251,60"/>
+<area shape="rect" id="node7" href="$classmoa_1_1classifiers_1_1meta_1_1AccuracyUpdatedEnsemble.html#a8a121b98754b6525b42f9c59c7be4c67" title="Computes the MSE of a learner for a given chunk of examples." alt="" coords="489,109,876,139"/>
+<area shape="rect" id="node13" href="$classmoa_1_1classifiers_1_1meta_1_1AccuracyUpdatedEnsemble.html#af6b76710a6ce7eb227b1342ce552ffbd" title="Computes the MSEr threshold." alt="" coords="484,163,881,192"/>
+<area shape="rect" id="node17" href="$classmoa_1_1classifiers_1_1meta_1_1AccuracyUpdatedEnsemble.html#a70ea6430b3d6779eb7e80a2d5d09f3bc" title="Checks if the memory limit is exceeded and if so prunes the classifiers in the ensemble..." alt="" coords="468,216,897,245"/>
+<area shape="rect" id="node24" href="$classmoa_1_1classifiers_1_1meta_1_1AccuracyUpdatedEnsemble.html#ada2b64a0f633624f0cdc442cce878dd1" title="Finds the index of the classifier with the smallest weight." alt="" coords="452,373,913,403"/>
+<area shape="rect" id="node26" href="$classmoa_1_1options_1_1AbstractOptionHandler.html#a2d5e872c7c6a32487013ba914c6d3fcc" title="Gets a prepared option of this class." alt="" coords="964,323,1337,352"/>
+<area shape="rect" id="node29" href="$interfacemoa_1_1classifiers_1_1Classifier.html#a0cb1a2820196bc5e2a95b05a0b6666f0" title="Resets this classifier." alt="" coords="557,427,808,456"/>
+<area shape="rect" id="node31" href="$classmoa_1_1classifiers_1_1meta_1_1AccuracyUpdatedEnsemble.html#a7c99ce21c8f6d4552594fe3a0b14397b" title="Trains a component classifier on the most recent chunk of data." alt="" coords="487,269,879,299"/>
+<area shape="rect" id="node9" href="$classmoa_1_1options_1_1IntOption.html#affae8787274b44ab7616d46b8d6c831a" title="moa.options.IntOption.getValue" alt="" coords="1048,163,1253,192"/>
+<area shape="rect" id="node11" href="$interfacemoa_1_1classifiers_1_1Classifier.html#a0933ed1199c2b16a8eb8186dabf9a8f9" title="Predicts the class memberships for a given instance." alt="" coords="1004,109,1297,139"/>
+<area shape="rect" id="node20" href="$classmoa_1_1options_1_1IntOption.html#a7b2e60195e6ef38bc8626d16303e8f13" title="moa.options.IntOption.setValue" alt="" coords="1048,216,1253,245"/>
+<area shape="rect" id="node22" href="$classmoa_1_1options_1_1AbstractOption.html#a26d25b88bb5244ed3c2ec142bd28353d" title="Gets the name of this option." alt="" coords="1388,269,1628,299"/>
+<area shape="rect" id="node34" href="$interfacemoa_1_1classifiers_1_1Classifier.html#ac28018bc307abe34a8ace54dba3ebff1" title="Trains this classifier incrementally using the given instance." alt="" coords="1019,269,1283,299"/>
+</map>

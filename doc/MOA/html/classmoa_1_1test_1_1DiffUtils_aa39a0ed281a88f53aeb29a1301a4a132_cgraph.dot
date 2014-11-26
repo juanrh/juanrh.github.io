@@ -1,0 +1,11 @@
+digraph G
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir=LR;
+  Node1 [label="moa.test.DiffUtils.unified",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="moa.test.DiffUtils.createRange",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1test_1_1DiffUtils.html#a6622d00465932881da7f231fefb67f71",tooltip="Creates a range string."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="moa.test.DiffUtils.toString",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1test_1_1DiffUtils.html#abc4b418a3fbff4fe4551d8e8c3d4f315",tooltip="Assembles the lines into a string."];
+}

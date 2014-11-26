@@ -1,0 +1,22 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1gui_1_1PreviewPanel.html#a6d12f33c0f85fbbee2a9d794c465e5da" title="moa.gui.PreviewPanel.disableRefresh" alt="" coords="621,156,864,185"/>
+<area shape="rect" id="node5" href="$classmoa_1_1tasks_1_1TaskThread.html#a517986fd20f89056b50a33b00bf90623" title="moa.tasks.TaskThread.getPreview" alt="" coords="268,103,492,132"/>
+<area shape="rect" id="node9" href="$classmoa_1_1tasks_1_1TaskThread.html#ab7be27d49b04204985d254ee51a3eb7b" title="moa.tasks.TaskThread.isComplete" alt="" coords="992,103,1219,132"/>
+<area shape="rect" id="node14" href="$classmoa_1_1gui_1_1PreviewPanel.html#a54be4baf6535698a4b85a1444eda1267" title="moa.gui.PreviewPanel.setLatestPreview" alt="" coords="252,233,508,263"/>
+<area shape="rect" id="node7" href="$classmoa_1_1tasks_1_1TaskThread.html#a7ee7dd9bcc553f1793c8269e76a37d7f" title="moa.tasks.TaskThread.getCPUSecondsElapsed" alt="" coords="591,103,895,132"/>
+<area shape="rect" id="node11" href="$interfacemoa_1_1tasks_1_1TaskMonitor.html#a05380c543320d94e16754e9b352e8d1a" title="Requests to preview the task result." alt="" coords="597,49,888,79"/>
+<area shape="rect" id="node17" href="$classmoa_1_1tasks_1_1TaskThread.html#a7c7fb4d3426dfe208dd5c8972f74eb49" title="moa.tasks.TaskThread.getFinalResult" alt="" coords="621,260,864,289"/>
+<area shape="rect" id="node19" href="$classmoa_1_1tasks_1_1TaskThread.html#a7b6c14739d77528991522676d1489aa8" title="moa.tasks.TaskThread.getLatestPreviewGrabTimeSeconds" alt="" coords="559,313,927,343"/>
+<area shape="rect" id="node22" href="$classmoa_1_1gui_1_1TaskTextViewerPanel.html#a0193f976560fd45d675cafc39a71fd1e" title="moa.gui.TaskTextViewerPanel.setText" alt="" coords="619,367,867,396"/>
+<area shape="rect" id="node24" href="$classmoa_1_1gui_1_1TaskTextViewerPanel.html#a58e92cea35637ef475a544fd0f2d4ed2" title="moa.gui.TaskTextViewerPanel.setGraph" alt="" coords="977,367,1233,396"/>
+<area shape="rect" id="node26" href="$classmoa_1_1evaluation_1_1MeasureCollection.html#a344a1c04e2e600092750c6676b9c9906" title="moa.evaluation.MeasureCollection.addValue" alt="" coords="1352,207,1632,236"/>
+<area shape="rect" id="node28" href="$classmoa_1_1tasks_1_1ConceptDriftMainTask.html#ad4c08b553ea52bac21903b9af68d1a81" title="moa.tasks.ConceptDriftMainTask.getEventsList" alt="" coords="1341,260,1643,289"/>
+<area shape="rect" id="node30" href="$classmoa_1_1gui_1_1TaskTextViewerPanel.html#ae11493bdbd1de595e9890826665e00e4" title="moa.gui.TaskTextViewerPanel.getNewMeasureCollection" alt="" coords="1313,313,1671,343"/>
+<area shape="rect" id="node32" href="$classmoa_1_1gui_1_1conceptdrift_1_1CDTaskManagerPanel.html#a35d1a35fedfe654f551e0674a57994b5" title="moa.gui.conceptdrift.CDTaskManagerPanel.getSelectedCurrenTask" alt="" coords="1284,367,1700,396"/>
+<area shape="rect" id="node40" href="$classmoa_1_1evaluation_1_1MeasureCollection.html#a23eeb889828aafe68c192fab36a0ade3" title="moa.evaluation.MeasureCollection.getValue" alt="" coords="1353,420,1631,449"/>
+<area shape="rect" id="node42" href="$classmoa_1_1gui_1_1TaskTextViewerPanel.html#aab1cb112128fcfc69a51c69bfa2ee135" title="moa.gui.TaskTextViewerPanel.parseDouble" alt="" coords="1353,473,1631,503"/>
+<area shape="rect" id="node44" href="$classmoa_1_1gui_1_1TaskTextViewerPanel.html#a508113467ed9b0bf03dd9620053009ae" title="moa.gui.TaskTextViewerPanel.round" alt="" coords="1375,527,1609,556"/>
+<area shape="rect" id="node34" href="$classmoa_1_1gui_1_1conceptdrift_1_1CDTaskManagerPanel.html#a4b83ab8c9a34504bac8916eb9b0d1272" title="moa.gui.conceptdrift.CDTaskManagerPanel.getCurrenTask" alt="" coords="1760,313,2125,343"/>
+<area shape="rect" id="node36" href="$classmoa_1_1gui_1_1conceptdrift_1_1CDTaskManagerPanel.html#add709d2d090cedfe3728efcc9acf6dd2" title="moa.gui.conceptdrift.CDTaskManagerPanel.getSelectedTasks" alt="" coords="1751,367,2135,396"/>
+<area shape="rect" id="node38" href="$classmoa_1_1tasks_1_1TaskThread.html#aaa42f5df321a72870b224e83bb0cf6fa" title="moa.tasks.TaskThread.getTask" alt="" coords="1840,420,2045,449"/>
+</map>

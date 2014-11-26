@@ -1,0 +1,37 @@
+digraph G
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir=LR;
+  Node1 [label="moa.MOAObject.getDescription",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="moa.integration.SimpleClusterTest.doTask",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1integration_1_1SimpleClusterTest.html#addbcc3745770d73ed3067e0ab6d6f2bb"];
+  Node2 -> Node3 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="moa.integration.SimpleClusterTest.testClusterer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1integration_1_1SimpleClusterTest.html#a4cfd1949cf3092f2daaa04fbe59209fd"];
+  Node3 -> Node4 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="moa.integration.SimpleClusterTest.testClusterGenerator",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1integration_1_1SimpleClusterTest.html#a74b76bc069fdc00db361c8e9ed66cbc6"];
+  Node3 -> Node5 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="moa.integration.SimpleClusterTest.testClustream",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1integration_1_1SimpleClusterTest.html#a9362ac4d3ed6fcbf102b98170e3a6e9f"];
+  Node3 -> Node6 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="moa.integration.SimpleClusterTest.testClusTree",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1integration_1_1SimpleClusterTest.html#ae77c526e412a1d4b60b4cefe85514106"];
+  Node3 -> Node7 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="moa.integration.SimpleClusterTest.testDenStream",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1integration_1_1SimpleClusterTest.html#ae13d8a05e74413ab2f8c3d4c98745390"];
+  Node3 -> Node8 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="moa.integration.SimpleClusterTest.testStreamKM",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1integration_1_1SimpleClusterTest.html#a4b9beb6c7fac88886e12beb00d6fe264"];
+  Node1 -> Node9 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="weka.classifiers.meta.MOA.toString",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classweka_1_1classifiers_1_1meta_1_1MOA.html#a8fb95c451878adb394e58801c2387835",tooltip="Returns a string representation of the model."];
+  Node1 -> Node10 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="moa.AbstractMOAObject.toString",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1AbstractMOAObject.html#ac686fd3b07c734cf21f1894376fe402d",tooltip="Returns a description of the object."];
+  Node10 -> Node11 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="moa.recommender.predictor.BRISMFPredictor.getDescription",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1recommender_1_1predictor_1_1BRISMFPredictor.html#ae4d6e8da006a7540dcf6c5ac63f5294b",tooltip="Returns a string representation of this object."];
+  Node10 -> Node12 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="moa.recommender.predictor.BaselinePredictor.getDescription",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1recommender_1_1predictor_1_1BaselinePredictor.html#a179771ff2b095c56d69296c890b3aec8",tooltip="Returns a string representation of this object."];
+  Node10 -> Node13 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="moa.core.Measurement.getMeasurementsDescription",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1core_1_1Measurement.html#aee73db2b231d77f5142f5a4352a38da9"];
+  Node10 -> Node14 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="moa.classifiers.rules.core.Rule.printRule",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1rules_1_1core_1_1Rule.html#a5c7eaaf9fc1dc21b29bd8281523d24eb"];
+  Node14 -> Node15 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="moa.classifiers.rules.AbstractAMRules.PrintRuleSet",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1rules_1_1AbstractAMRules.html#ad52ecf8639921f4f39e9952b7cd3a293"];
+  Node14 -> Node16 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="moa.classifiers.rules.AbstractAMRules.trainOnInstanceImpl",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1rules_1_1AbstractAMRules.html#aa2dc6402864427b11fda4821df77120e",tooltip="Trains this classifier incrementally using the given instance."];
+}

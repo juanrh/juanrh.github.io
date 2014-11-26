@@ -1,0 +1,9 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1core_1_1DoubleVector.html#a4050209166f4be04dd9f6dac3535d60e" title="moa.core.DoubleVector.addToValue" alt="" coords="677,5,909,35"/>
+<area shape="rect" id="node7" href="$classmoa_1_1classifiers_1_1AbstractClassifier.html#a5cd97fb8e5751d48de011c81f45466d4" title="Gets the index of the attribute in the instance, given the index of the attribute..." alt="" coords="584,59,1003,88"/>
+<area shape="rect" id="node9" href="$classmoa_1_1classifiers_1_1trees_1_1HoeffdingTree.html#a3df864b09b54a38dc4af72457af2df9a" title="moa.classifiers.trees.HoeffdingTree.newNominalClassObserver" alt="" coords="597,112,989,141"/>
+<area shape="rect" id="node13" href="$classmoa_1_1classifiers_1_1trees_1_1HoeffdingTree.html#a43dc714f59552a9e6814c79cb1cff40b" title="moa.classifiers.trees.HoeffdingTree.newNumericClassObserver" alt="" coords="597,165,989,195"/>
+<area shape="rect" id="node16" href="$interfacemoa_1_1classifiers_1_1core_1_1attributeclassobservers_1_1AttributeClassObserver.html#adeb638c64bb2dad4266a7db241398bf5" title="Updates statistics of this observer given an attribute value, a class and the weight..." alt="" coords="519,219,1068,248"/>
+<area shape="rect" id="node5" href="$classmoa_1_1core_1_1DoubleVector.html#a9cfebf9a8c5e93615037459ed6bd63a7" title="moa.core.DoubleVector.setArrayLength" alt="" coords="1117,5,1368,35"/>
+<area shape="rect" id="node11" href="$interfacemoa_1_1options_1_1OptionHandler.html#a96fd6b38c56141192588e19e05e43f17" title="This method produces a copy of this object." alt="" coords="1137,139,1348,168"/>
+</map>

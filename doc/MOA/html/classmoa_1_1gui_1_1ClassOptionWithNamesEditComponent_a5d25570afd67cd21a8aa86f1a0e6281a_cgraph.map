@@ -1,0 +1,11 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1gui_1_1ClassOptionWithNamesEditComponent.html#abf9a50212b9779490b700a19f87a949d" title="moa.gui.ClassOptionWithNamesEditComponent.editObject" alt="" coords="628,112,993,141"/>
+<area shape="rect" id="node11" href="$classmoa_1_1gui_1_1ClassOptionWithNamesEditComponent.html#af6887a6cebf46e6acd6629bdb7948511" title="Sets the state of the component." alt="" coords="1077,165,1456,195"/>
+<area shape="rect" id="node13" href="$classmoa_1_1options_1_1ClassOptionWithNames.html#a967bd722787848ff605d22cee4be6a35" title="Gets the value of a Command Line Interface text as a string." alt="" coords="629,217,992,247"/>
+<area shape="rect" id="node19" href="$classmoa_1_1gui_1_1ClassOptionWithNamesEditComponent.html#a1599c132a424499981140e79055b7ac9" title="Notifies all registered change listeners that the options have changed." alt="" coords="592,271,1029,300"/>
+<area shape="rect" id="node5" href="$classmoa_1_1options_1_1ClassOptionWithNames.html#ab5274f07b9bd4ff9cc32d0ac87ab4f5b" title="moa.options.ClassOptionWithNames.getClassNames" alt="" coords="1099,5,1435,35"/>
+<area shape="rect" id="node7" href="$classmoa_1_1options_1_1AbstractClassOption.html#aeeec99e392842f18ebf301603bc974c7" title="Gets the null string of this option." alt="" coords="1119,59,1415,88"/>
+<area shape="rect" id="node9" href="$classmoa_1_1options_1_1AbstractClassOption.html#ae597550ead9bc0dad31d574004859751" title="Gets the class type of this option." alt="" coords="1107,112,1427,141"/>
+<area shape="rect" id="node15" href="$classmoa_1_1options_1_1ClassOptionWithNames.html#a383840833fe1d783e40b3bf608e40cbc" title="moa.options.ClassOptionWithNames.objectToCLIString" alt="" coords="1093,219,1440,248"/>
+<area shape="rect" id="node17" href="$classmoa_1_1options_1_1AbstractClassOption.html#a99164a3a010dec28f40f4397aec6ecfd" title="Gets the command line interface text of the class." alt="" coords="1504,219,1827,248"/>
+</map>

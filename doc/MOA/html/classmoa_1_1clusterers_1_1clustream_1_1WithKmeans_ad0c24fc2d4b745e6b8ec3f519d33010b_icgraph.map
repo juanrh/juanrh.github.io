@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1clusterers_1_1clustream_1_1WithKmeans.html#a12cb15e2a4ce6db526147722bb1cfb78" title="k&#45;means of (micro)clusters, with ground&#45;truth&#45;aided initialization." alt="" coords="407,5,729,35"/>
+<area shape="rect" id="node7" href="$classmoa_1_1clusterers_1_1clustream_1_1WithKmeans.html#a29a98db6fec71d1e7e5c588ec5be1c17" title="k&#45;means of (micro)clusters, with randomized initialization." alt="" coords="403,59,733,88"/>
+<area shape="rect" id="node5" href="$classmoa_1_1clusterers_1_1clustream_1_1WithKmeans.html#a9f60a00439545c5cac6e226cb7d8c709" title="moa.clusterers.clustream.WithKmeans.getClusteringResult" alt="" coords="783,5,1148,35"/>
+<area shape="rect" id="node9" href="$classmoa_1_1clusterers_1_1clustream_1_1WithKmeans.html#a6b85e3feac2288ac5f74e9c03a0b70fa" title="moa.clusterers.clustream.WithKmeans.getClusteringResult" alt="" coords="783,59,1148,88"/>
+</map>

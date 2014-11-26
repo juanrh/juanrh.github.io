@@ -1,0 +1,13 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$interfacemoa_1_1classifiers_1_1Classifier.html#a8348b4106e79422d3dec0a1857d402f3" title="Gets whether this classifier correctly classifies an instance." alt="" coords="371,5,651,35"/>
+<area shape="rect" id="node5" href="$classmoa_1_1classifiers_1_1meta_1_1DACC.html#a94ebd59ce6ef93b8705628f74d927b28" title="Resets a classifier in the ensemble." alt="" coords="377,59,644,88"/>
+<area shape="rect" id="node7" href="$classmoa_1_1options_1_1FloatOption.html#a0e606a62f4ece232aa8f8cb04bb7f1cf" title="moa.options.FloatOption.getValue" alt="" coords="812,112,1031,141"/>
+<area shape="rect" id="node11" href="$classmoa_1_1classifiers_1_1meta_1_1DACC.html#a389ab0280ca9867802adca462d97114e" title="Returns the best (or worst) half of classifiers in the adaptive ensemble." alt="" coords="395,320,627,349"/>
+<area shape="rect" id="node13" href="$classmoa_1_1classifiers_1_1meta_1_1DACC.html#a7ef02a33bdd764f2750b25a38c1dc996" title="Returns the number of adaptive classifiers in the ensemble which excludes the static..." alt="" coords="752,253,1091,283"/>
+<area shape="rect" id="node15" href="$classmoa_1_1classifiers_1_1meta_1_1DACC.html#a55bb8c305911d5e5c327ad90e3386851" title="Returns the number of classifiers used for prediction which includes the adaptive..." alt="" coords="349,267,672,296"/>
+<area shape="rect" id="node19" href="$classmoa_1_1classifiers_1_1AbstractClassifier.html#a5604757bcbc1b7716aa519f7ed2cf448" title="Trains this classifier incrementally using the given instance." alt="" coords="353,373,668,403"/>
+<area shape="rect" id="node25" href="$classmoa_1_1classifiers_1_1meta_1_1DACC.html#a1d70365bb8e464d73a0c0c9f4b6e3706" title="Updates the evaluation window of a classifier and returns the updated weight value..." alt="" coords="343,163,679,192"/>
+<area shape="rect" id="node9" href="$interfacemoa_1_1classifiers_1_1Classifier.html#a0cb1a2820196bc5e2a95b05a0b6666f0" title="Resets this classifier." alt="" coords="796,59,1047,88"/>
+<area shape="rect" id="node21" href="$classmoa_1_1classifiers_1_1AbstractClassifier.html#af50c85f56d8192f9cf56e621a835b00c" title="Gets the sum of the weights of the instances that have been used by this classifier..." alt="" coords="728,400,1115,429"/>
+<area shape="rect" id="node23" href="$classmoa_1_1classifiers_1_1AbstractClassifier.html#aceb24d2ddeab386f2ecead6e3c0d3543" title="Trains this classifier incrementally using the given instance." alt="" coords="752,347,1091,376"/>
+</map>

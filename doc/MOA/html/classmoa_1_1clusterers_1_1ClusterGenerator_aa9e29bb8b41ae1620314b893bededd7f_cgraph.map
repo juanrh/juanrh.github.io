@@ -1,0 +1,21 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1cluster_1_1Clustering.html#a7b39cc3d6666cb758b8954ecbe0ce2e9" title="add a cluster to the clustering" alt="" coords="733,32,912,62"/>
+<area shape="rect" id="node5" href="$classmoa_1_1cluster_1_1Clustering.html#a6a66be9b90f5cb06b044da278cdf24c9" title="remove a cluster from the clustering" alt="" coords="736,86,909,115"/>
+<area shape="rect" id="node7" href="$classmoa_1_1cluster_1_1SphereCluster.html#aefb8b36adf18a65827154d4b617e867d" title="moa.cluster.SphereCluster.getCenter" alt="" coords="1297,235,1535,264"/>
+<area shape="rect" id="node11" href="$classmoa_1_1cluster_1_1Cluster.html#aec009f106ed5a6940f956a07af28ffd2" title="moa.cluster.Cluster.getId" alt="" coords="411,190,579,219"/>
+<area shape="rect" id="node13" href="$classmoa_1_1cluster_1_1SphereCluster.html#a1d2dc0db89728370066bf8bd46a06bed" title="moa.cluster.SphereCluster.getRadius" alt="" coords="1008,340,1248,370"/>
+<area shape="rect" id="node15" href="$classmoa_1_1options_1_1FloatOption.html#a0e606a62f4ece232aa8f8cb04bb7f1cf" title="moa.options.FloatOption.getValue" alt="" coords="713,139,932,168"/>
+<area shape="rect" id="node17" href="$classmoa_1_1cluster_1_1SphereCluster.html#a94b7844a1aa98cb517d22d037a441628" title="Returns the weight of this cluster, not neccessarily normalized." alt="" coords="1008,551,1248,580"/>
+<area shape="rect" id="node19" href="$classmoa_1_1cluster_1_1Cluster.html#aeb8c006a27e4c642b7c735a8a8d1dd28" title="Returns the weight of this cluster, not neccessarily normalized." alt="" coords="396,398,593,427"/>
+<area shape="rect" id="node21" href="$classmoa_1_1clusterers_1_1ClusterGenerator.html#a74d130a881ec2dc43141587b0fb71e40" title="moa.clusterers.ClusterGenerator.joinClusters" alt="" coords="353,294,636,323"/>
+<area shape="rect" id="node45" href="$classmoa_1_1cluster_1_1SphereCluster.html#a24a9881c0a95e5e83db7a3319032a6b7" title="moa.cluster.SphereCluster.setWeight" alt="" coords="1008,604,1248,634"/>
+<area shape="rect" id="node47" href="$classmoa_1_1cluster_1_1Clustering.html#a054a386d94acf3b88574f061ab4c8d71" title="moa.cluster.Clustering.size" alt="" coords="732,502,913,531"/>
+<area shape="rect" id="node49" href="$classmoa_1_1cluster_1_1Clustering.html#ad2cd590a014fccc70611bf3ae3c736f9" title="remove a cluster from the clustering" alt="" coords="395,656,595,686"/>
+<area shape="rect" id="node51" href="$classmoa_1_1cluster_1_1Cluster.html#a1f98a5ae84ed5963a0fccc9c19deae2a" title="moa.cluster.Cluster.setMeasureValue" alt="" coords="375,710,615,739"/>
+<area shape="rect" id="node9" href="$classmoa_1_1AbstractMOAObject.html#a3a6260bd8548c1aff6ea46e49c5c52a5" title="This method produces a copy of this object." alt="" coords="1584,235,1784,264"/>
+<area shape="rect" id="node26" href="$classmoa_1_1cluster_1_1SphereCluster.html#ac30b4edad0026610a3d9d4d818afa9c6" title="moa.cluster.SphereCluster.getHullDistance" alt="" coords="685,243,960,272"/>
+<area shape="rect" id="node36" href="$classmoa_1_1cluster_1_1SphereCluster.html#a162c2fa2bb2be545e9a3893a07bfbb5d" title="moa.cluster.SphereCluster.merge" alt="" coords="715,398,931,427"/>
+<area shape="rect" id="node28" href="$classmoa_1_1cluster_1_1SphereCluster.html#a9f7c85aa0b6d46c23962b4f2421f169f" title="moa.cluster.SphereCluster.distance" alt="" coords="1013,287,1243,316"/>
+<area shape="rect" id="node41" href="$classmoa_1_1cluster_1_1SphereCluster.html#a23bc373d05cea24ad1b64d0aa532352e" title="moa.cluster.SphereCluster.setCenter" alt="" coords="1009,394,1247,423"/>
+<area shape="rect" id="node43" href="$classmoa_1_1cluster_1_1SphereCluster.html#ac02c29ac788d108bb509bc8822b99a70" title="moa.cluster.SphereCluster.setRadius" alt="" coords="1008,447,1248,476"/>
+</map>

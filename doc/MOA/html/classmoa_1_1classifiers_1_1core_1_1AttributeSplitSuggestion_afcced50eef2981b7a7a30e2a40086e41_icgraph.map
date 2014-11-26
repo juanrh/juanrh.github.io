@@ -1,0 +1,10 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1classifiers_1_1trees_1_1HoeffdingTree.html#a1167e8f332be16f1b9d07c55d94bd0ac" title="moa.classifiers.trees.HoeffdingTree.attemptToSplit" alt="" coords="455,32,772,61"/>
+<area shape="rect" id="node9" href="$classmoa_1_1classifiers_1_1trees_1_1HoeffdingOptionTree.html#a60861115e0d7dd52f735d32f2969f122" title="moa.classifiers.trees.HoeffdingOptionTree.attemptToSplit" alt="" coords="436,85,791,115"/>
+<area shape="rect" id="node11" href="$classmoa_1_1classifiers_1_1multilabel_1_1HoeffdingTreeClassifLeaves.html#a7bf94665c2ade8cf741cfbaabb959bec" title="moa.classifiers.multilabel.HoeffdingTreeClassifLeaves.attemptToSplit" alt="" coords="400,139,827,168"/>
+<area shape="rect" id="node13" href="$classmoa_1_1classifiers_1_1trees_1_1FIMTDD.html#a56aaccd164eac7924cb733090a5acf1b" title="Method used to split a leaf node and generate child nodes, if appropriate." alt="" coords="441,192,785,221"/>
+<area shape="rect" id="node15" href="$classmoa_1_1classifiers_1_1trees_1_1ORTO_1_1ActiveLearningNode.html#a56892d5a3620b1df383f415202d5e916" title="moa.classifiers.trees.ORTO.ActiveLearningNode.processInstance" alt="" coords="411,245,816,275"/>
+<area shape="rect" id="node17" href="$classmoa_1_1classifiers_1_1rules_1_1core_1_1RuleActiveRegressionNode.html#adf465cd445ab9b046cf713003ba9711f" title="moa.classifiers.rules.core.RuleActiveRegressionNode.tryToExpand" alt="" coords="407,299,820,328"/>
+<area shape="rect" id="node5" href="$classmoa_1_1classifiers_1_1trees_1_1HoeffdingAdaptiveTree_1_1AdaLearningNode.html#ad70b71e34f2ed88ea9a5bc33cb2562aa" title="moa.classifiers.trees.HoeffdingAdaptiveTree.AdaLearningNode.learnFromInstance" alt="" coords="875,5,1373,35"/>
+<area shape="rect" id="node7" href="$classmoa_1_1classifiers_1_1trees_1_1ASHoeffdingTree.html#ad16732e0aad18595fb7ba80654c6c644" title="Trains this classifier incrementally using the given instance." alt="" coords="940,59,1308,88"/>
+</map>

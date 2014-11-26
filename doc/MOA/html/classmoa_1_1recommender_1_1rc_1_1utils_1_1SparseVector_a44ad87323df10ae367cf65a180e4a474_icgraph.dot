@@ -1,0 +1,18 @@
+digraph G
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir=LR;
+  Node1 [label="moa.recommender.rc.utils.SparseVector.iterator",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="moa.recommender.rc.predictor.impl.BRISMFPredictor.trainItem",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1recommender_1_1rc_1_1predictor_1_1impl_1_1BRISMFPredictor.html#a7c456c02302750512005c1b463b44f4e"];
+  Node2 -> Node3 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="moa.recommender.rc.predictor.impl.BRISMFPredictor.trainItem",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1recommender_1_1rc_1_1predictor_1_1impl_1_1BRISMFPredictor.html#aeb1091b6901e718fa61bae05202a2d20"];
+  Node2 -> Node4 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="moa.recommender.rc.predictor.impl.BRISMFPredictor.updateNewItem",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1recommender_1_1rc_1_1predictor_1_1impl_1_1BRISMFPredictor.html#a3bcdba0ff9d84d29377a4215e91894b8"];
+  Node2 -> Node5 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="moa.recommender.rc.predictor.impl.BRISMFPredictor.updateSetRating",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1recommender_1_1rc_1_1predictor_1_1impl_1_1BRISMFPredictor.html#a1481b71533f26a6a58bc286439df1bc7"];
+  Node1 -> Node6 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="moa.recommender.rc.predictor.impl.BRISMFPredictor.trainUser",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1recommender_1_1rc_1_1predictor_1_1impl_1_1BRISMFPredictor.html#a1e89024b8ba9c145d08f40025e795ba4"];
+  Node1 -> Node5 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

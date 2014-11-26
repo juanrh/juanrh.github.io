@@ -1,0 +1,10 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1classifiers_1_1meta_1_1DACC.html#ad830eb635b00c528fc3ca92918d7b0ba" title="Returns the classifiers that vote for the final prediction when the MAX combination..." alt="" coords="381,5,664,35"/>
+<area shape="rect" id="node13" href="$classmoa_1_1classifiers_1_1meta_1_1DACC.html#a4b39c9394a35b77ff18011b2217e390e" title="Returns the classifiers that vote for the final prediction when the WVD combination..." alt="" coords="380,59,665,88"/>
+<area shape="rect" id="node16" href="$classmoa_1_1classifiers_1_1meta_1_1DACC.html#aeb1bb224682626d5c6b9b3812c269291" title="Receives a training instance from the stream and updates the adaptive classifiers..." alt="" coords="380,112,665,141"/>
+<area shape="rect" id="node5" href="$classmoa_1_1classifiers_1_1meta_1_1DACC.html#a98e1d9e368b0f8f97435e27bf4593083" title="Predicts the class memberships for a given instance." alt="" coords="716,33,1025,63"/>
+<area shape="rect" id="node7" href="$classmoa_1_1classifiers_1_1meta_1_1ADACC.html#a90af489cdb600df1e064cf9709d6ec3c" title="Returns the stability index of the adaptive ensemble of classifiers." alt="" coords="1075,33,1403,63"/>
+<area shape="rect" id="node9" href="$classmoa_1_1classifiers_1_1meta_1_1ADACC.html#a3689b1cc035b176acc6da2e1434bd12c" title="If the environment is stable enough, take a snapshot (a copy) of the best adaptive..." alt="" coords="1452,33,1729,63"/>
+<area shape="rect" id="node11" href="$classmoa_1_1classifiers_1_1meta_1_1ADACC.html#afac7020458c562ced7fb327021d15e92" title="Trains this classifier incrementally using the given instance." alt="" coords="1780,60,2095,89"/>
+<area shape="rect" id="node18" href="$classmoa_1_1classifiers_1_1meta_1_1DACC.html#aaf6e169006f8f249b9cee1db427930ec" title="Trains this classifier incrementally using the given instance." alt="" coords="717,137,1024,167"/>
+</map>

@@ -1,0 +1,14 @@
+<map id="G" name="G">
+<area shape="rect" id="node2" href="$classmoa_1_1options_1_1AbstractOptionHandler.html" title="Abstract Option Handler." alt="" coords="157,1371,413,1664"/>
+<area shape="rect" id="node4" href="$classmoa_1_1AbstractMOAObject.html" title="Abstract MOA Object." alt="" coords="443,356,611,511"/>
+<area shape="rect" id="node15" href="$classmoa_1_1options_1_1Options.html" title="File option." alt="" coords="108,777,369,1122"/>
+<area shape="rect" id="node31" href="$classmoa_1_1options_1_1AbstractOption.html" title="Abstract option." alt="" coords="617,803,801,1096"/>
+<area shape="rect" id="node6" href="$interfacemoa_1_1MOAObject.html" title="Interface implemented by classes in MOA, so that all are serializable, can produce..." alt="" coords="529,141,673,261"/>
+<area shape="rect" id="node10" href="$interfacemoa_1_1options_1_1OptionHandler.html" title="Interface representing an object that handles options or parameters." alt="" coords="5,579,184,751"/>
+<area shape="rect" id="node20" href="$interfacemoa_1_1streams_1_1InstanceStream.html" title="Interface representing a data stream of instances." alt="" coords="737,1147,956,1319"/>
+<area shape="rect" id="node34" href="$interfacemoa_1_1options_1_1Option.html" title="Interface representing an option or parameter." alt="" coords="635,313,800,554"/>
+<area shape="rect" id="node23" href="$interfacemoa_1_1streams_1_1generators_1_1STAGGERGenerator_1_1ClassFunction.html" title="{moa.streams.generators.STAGGERGenerator.ClassFunction\n||+ determineClass()\l}" alt="" coords="895,1475,1271,1560"/>
+<area shape="rect" id="node25" href="$classmoa_1_1core_1_1InstancesHeader.html" title="Class for storing the header or context of a data stream." alt="" coords="1295,1414,1473,1621"/>
+<area shape="rect" id="node29" href="$classmoa_1_1options_1_1IntOption.html" title="Int option." alt="" coords="437,1345,603,1690"/>
+<area shape="rect" id="node37" href="$classmoa_1_1options_1_1FlagOption.html" title="Flag option." alt="" coords="627,1388,792,1647"/>
+</map>

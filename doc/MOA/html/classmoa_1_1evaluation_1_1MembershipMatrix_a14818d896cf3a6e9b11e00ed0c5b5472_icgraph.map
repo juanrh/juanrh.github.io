@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1evaluation_1_1StatisticalCollection.html#aa0f22d344ec554bc43a89f941216233c" title="moa.evaluation.StatisticalCollection.evaluateClustering" alt="" coords="367,5,708,35"/>
+<area shape="rect" id="node5" href="$classmoa_1_1evaluation_1_1F1.html#ab84150340e995d9426c20d87f9bcc7f2" title="moa.evaluation.F1.evaluateClustering" alt="" coords="417,59,657,88"/>
+<area shape="rect" id="node7" href="$classmoa_1_1evaluation_1_1EntropyCollection.html#a8635d2298f125c9b297e3ff64f29b52f" title="moa.evaluation.EntropyCollection.evaluateClustering" alt="" coords="373,112,701,141"/>
+</map>

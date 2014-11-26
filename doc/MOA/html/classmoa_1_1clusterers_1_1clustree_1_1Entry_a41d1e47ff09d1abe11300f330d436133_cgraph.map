@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1clusterers_1_1clustree_1_1ClusKernel.html#abe80e7ae082a22160ca8ecd24cc9e38c" title="Make this cluster older bei weighting it and add to this cluster the given cluster..." alt="" coords="351,32,636,61"/>
+<area shape="rect" id="node9" href="$classmoa_1_1clusterers_1_1clustree_1_1Entry.html#a1e49da60f9e130eba1b1500febcf3424" title="Getter for the data." alt="" coords="372,85,615,115"/>
+<area shape="rect" id="node5" href="$classmoa_1_1clusterers_1_1clustree_1_1ClusKernel.html#af0be9102b0138f656beffa39c0036fd7" title="Adds the given cluster to this cluster, without making this cluster older." alt="" coords="707,5,957,35"/>
+<area shape="rect" id="node7" href="$classmoa_1_1clusterers_1_1clustree_1_1ClusKernel.html#a9b669100ea91ae8ef6358c3994f4c110" title="Make this cluster older." alt="" coords="685,59,979,88"/>
+</map>

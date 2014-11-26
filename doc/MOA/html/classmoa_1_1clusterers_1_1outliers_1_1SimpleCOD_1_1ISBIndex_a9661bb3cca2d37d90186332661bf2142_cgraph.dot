@@ -1,0 +1,11 @@
+digraph G
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir=LR;
+  Node1 [label="moa.clusterers.outliers.SimpleCOD.ISBIndex.Insert",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="moa.clusterers.outliers.SimpleCOD.MyMTree.add",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1clusterers_1_1outliers_1_1SimpleCOD_1_1MyMTree.html#af506fe1752f2e4910a765d5c2851dd8e"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="moa.clusterers.outliers.SimpleCOD.ISBIndex.MapInsert",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1clusterers_1_1outliers_1_1SimpleCOD_1_1ISBIndex.html#aebbc610ed34e9337efe9088c2a299968"];
+}

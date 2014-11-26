@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1classifiers_1_1trees_1_1HoeffdingTree.html#a1167e8f332be16f1b9d07c55d94bd0ac" title="moa.classifiers.trees.HoeffdingTree.attemptToSplit" alt="" coords="607,32,924,61"/>
+<area shape="rect" id="node9" href="$classmoa_1_1classifiers_1_1multilabel_1_1HoeffdingTreeClassifLeaves.html#a7bf94665c2ade8cf741cfbaabb959bec" title="moa.classifiers.multilabel.HoeffdingTreeClassifLeaves.attemptToSplit" alt="" coords="552,85,979,115"/>
+<area shape="rect" id="node5" href="$classmoa_1_1classifiers_1_1trees_1_1HoeffdingAdaptiveTree_1_1AdaLearningNode.html#ad70b71e34f2ed88ea9a5bc33cb2562aa" title="moa.classifiers.trees.HoeffdingAdaptiveTree.AdaLearningNode.learnFromInstance" alt="" coords="1027,5,1525,35"/>
+<area shape="rect" id="node7" href="$classmoa_1_1classifiers_1_1trees_1_1ASHoeffdingTree.html#ad16732e0aad18595fb7ba80654c6c644" title="Trains this classifier incrementally using the given instance." alt="" coords="1092,59,1460,88"/>
+</map>

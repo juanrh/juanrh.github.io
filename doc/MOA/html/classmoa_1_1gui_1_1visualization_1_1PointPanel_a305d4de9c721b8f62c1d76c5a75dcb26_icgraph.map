@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1gui_1_1visualization_1_1PointPanel.html#ac35cc915fb7f52a3573cc4e539d8915d" title="moa.gui.visualization.PointPanel.getColor" alt="" coords="397,32,661,61"/>
+<area shape="rect" id="node5" href="$classmoa_1_1gui_1_1visualization_1_1PointPanel.html#a815aaa4f28651eb6d3753050ebe67c5c" title="moa.gui.visualization.PointPanel.getSVGString" alt="" coords="719,5,1012,35"/>
+<area shape="rect" id="node9" href="$classmoa_1_1gui_1_1visualization_1_1PointPanel.html#a04ae5147e3a2acd23504fb154bb5793b" title="moa.gui.visualization.PointPanel.paintComponent" alt="" coords="711,59,1020,88"/>
+<area shape="rect" id="node7" href="$classmoa_1_1gui_1_1visualization_1_1StreamPanel.html#a4d2fcf520d8e89e180271fb1163d7551" title="moa.gui.visualization.StreamPanel.screenshot" alt="" coords="1069,5,1360,35"/>
+</map>

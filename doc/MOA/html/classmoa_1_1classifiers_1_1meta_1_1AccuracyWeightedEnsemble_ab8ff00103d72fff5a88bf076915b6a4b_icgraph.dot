@@ -1,0 +1,14 @@
+digraph G
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir=LR;
+  Node1 [label="moa.classifiers.meta.AccuracyWeightedEnsemble.computeWeight",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="moa.classifiers.meta.AccuracyWeightedEnsemble.computeCandidateWeight",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1meta_1_1AccuracyWeightedEnsemble.html#a8d1b05381d0898a70d4da8bd695514b5",tooltip="Computes the weight of a candidate classifier."];
+  Node2 -> Node3 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="moa.classifiers.meta.AccuracyWeightedEnsemble.processChunk",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1meta_1_1AccuracyWeightedEnsemble.html#a016ca262b73e5e6d6c987c2f1e1c198d",tooltip="Processes a chunk."];
+  Node3 -> Node4 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="moa.classifiers.meta.AccuracyWeightedEnsemble.trainOnInstanceImpl",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1meta_1_1AccuracyWeightedEnsemble.html#a6a9e7fc9cd8ec254ae8058316756849f",tooltip="Trains this classifier incrementally using the given instance."];
+  Node1 -> Node3 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

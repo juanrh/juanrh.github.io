@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1core_1_1utils_1_1Converter.html#ac602f0fa1020f5c6345b0dbd5383f42b" title="moa.core.utils.Converter.createTemplate" alt="" coords="551,5,809,35"/>
+<area shape="rect" id="node5" href="$classmoa_1_1classifiers_1_1trees_1_1HoeffdingTree_1_1Node.html#a251a69e6f202175390e0ca357dbce90f" title="moa.classifiers.trees.HoeffdingTree.Node.filterInstanceToLeaf" alt="" coords="489,59,871,88"/>
+<area shape="rect" id="node7" href="$classmoa_1_1classifiers_1_1trees_1_1HoeffdingTree_1_1Node.html#a4ecd808563ce6313822dfff3865bca69" title="moa.classifiers.trees.HoeffdingTree.Node.getClassVotes" alt="" coords="503,112,857,141"/>
+<area shape="rect" id="node9" href="$classmoa_1_1core_1_1DoubleVector.html#a6d0ce5fe7346a8d4b4a6ae444750f9c8" title="moa.core.DoubleVector.getArrayCopy" alt="" coords="920,112,1163,141"/>
+</map>

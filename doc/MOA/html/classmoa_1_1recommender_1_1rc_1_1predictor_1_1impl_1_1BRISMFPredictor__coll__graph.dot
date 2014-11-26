@@ -1,0 +1,16 @@
+digraph G
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{moa.recommender.rc.predictor.impl.BRISMFPredictor\n|# data\l# nFeatures\l# userFeature\l# itemFeature\l# rnd\l# lRate\l# rFactor\l# nIterations\l|+ setLRate()\l+ setRFactor()\l+ setNIterations()\l+ getData()\l+ BRISMFPredictor()\l+ BRISMFPredictor()\l+ predictRating()\l+ predictRating()\l+ trainUserFeats()\l+ trainItemFeats()\l+ trainUser()\l+ trainUser()\l+ trainUser()\l+ trainItem()\l+ trainItem()\l+ trainUser()\l+ trainItem()\l+ trainItem()\l+ train()\l+ getUserFeatures()\l+ getItemFeatures()\l+ getNumFeatures()\l+ updateNewUser()\l+ updateNewItem()\l+ updateRemoveUser()\l+ updateRemoveItem()\l+ updateSetRating()\l+ updateRemoveRating()\l+ predictRatings()\l- resetFeatures()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node2 -> Node1 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node2 [label="{moa.recommender.rc.utils.Updatable\n||+ updateNewUser()\l+ updateNewItem()\l+ updateRemoveUser()\l+ updateRemoveItem()\l+ updateSetRating()\l+ updateRemoveRating()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interfacemoa_1_1recommender_1_1rc_1_1utils_1_1Updatable.html"];
+  Node3 -> Node1 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="itemFeature\nuserFeature",arrowtail="open",fontname="Helvetica"];
+  Node3 [label="{HashMap\< Integer, float[]\>\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node4 -> Node1 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="data",arrowtail="open",fontname="Helvetica"];
+  Node4 [label="{moa.recommender.rc.data.RecommenderData\n||+ addUser()\l+ removeUser()\l+ addItem()\l+ removeItem()\l+ setRating()\l+ removeRating()\l+ getRatingsUser()\l+ getRatingsItem()\l+ getRating()\l+ getNumItems()\l+ getNumUsers()\l+ getNumRatings()\l+ getAvgRatingUser()\l+ getAvgRatingItem()\l+ getMinRating()\l+ getMaxRating()\l+ getUsers()\l+ getItems()\l+ getGlobalMean()\l+ attachUpdatable()\l+ disableUpdates()\l+ countRatingsUser()\l+ countRatingsItem()\l+ ratingIterator()\l+ userExists()\l+ itemExists()\l+ clear()\l+ close()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interfacemoa_1_1recommender_1_1rc_1_1data_1_1RecommenderData.html"];
+  Node5 -> Node4 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node5 [label="{Serializable\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node6 -> Node1 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="rnd",arrowtail="open",fontname="Helvetica"];
+  Node6 [label="{Random\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+}

@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1streams_1_1filters_1_1CacheFilter.html#abb650dc3baa644d7f3a5af53a4741fa6" title="moa.streams.filters.CacheFilter.init" alt="" coords="325,59,552,88"/>
+<area shape="rect" id="node5" href="$interfacemoa_1_1streams_1_1InstanceStream.html#aa03e43cb5cd8b893392b23ec77e2ca04" title="Gets the header of this stream." alt="" coords="624,5,883,35"/>
+<area shape="rect" id="node7" href="$interfacemoa_1_1streams_1_1InstanceStream.html#adcce31f5a024f6a73e150da2d1d731df" title="Gets whether this stream has more instances to output." alt="" coords="601,59,905,88"/>
+<area shape="rect" id="node9" href="$interfacemoa_1_1streams_1_1InstanceStream.html#ae68c1c47c4dac2e591745a21e8cc120a" title="Gets the next instance from this stream." alt="" coords="617,112,889,141"/>
+</map>

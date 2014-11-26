@@ -1,0 +1,7 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$interfacemoa_1_1recommender_1_1rc_1_1data_1_1RecommenderData.html#a2d5c544699d6c096b8760218104c9ba9" title="moa.recommender.rc.data.RecommenderData.getAvgRatingItem" alt="" coords="476,5,876,35"/>
+<area shape="rect" id="node5" href="$interfacemoa_1_1recommender_1_1rc_1_1data_1_1RecommenderData.html#aa8425ba02942abfe786a447e01293746" title="moa.recommender.rc.data.RecommenderData.getAvgRatingUser" alt="" coords="475,59,877,88"/>
+<area shape="rect" id="node7" href="$interfacemoa_1_1recommender_1_1rc_1_1data_1_1RecommenderData.html#a38a33b5a06e9f3380bcd7443cd401d15" title="moa.recommender.rc.data.RecommenderData.getGlobalMean" alt="" coords="485,112,867,141"/>
+<area shape="rect" id="node9" href="$interfacemoa_1_1recommender_1_1rc_1_1data_1_1RecommenderData.html#aef2c84df730cf4fd46386103cd73d682" title="moa.recommender.rc.data.RecommenderData.getMaxRating" alt="" coords="488,165,864,195"/>
+<area shape="rect" id="node11" href="$interfacemoa_1_1recommender_1_1rc_1_1data_1_1RecommenderData.html#af4da55520b3f88b53cb7a490426e16c2" title="moa.recommender.rc.data.RecommenderData.getMinRating" alt="" coords="491,219,861,248"/>
+</map>

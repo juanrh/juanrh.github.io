@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" id="node2" href="$classmoa_1_1AbstractMOAObject.html" title="Abstract MOA Object." alt="" coords="24,312,192,467"/>
+<area shape="rect" id="node8" href="$classmoa_1_1classifiers_1_1core_1_1driftdetection_1_1ADWIN_1_1ListItem.html" title="{moa.classifiers.core.driftdetection.ADWIN.ListItem\n|# next\l# previous\l# bucketSizeRow\l# MAXBUCKETS\l# bucketTotal\l# bucketVariance\l|+ ListItem()\l+ clear()\l+ ListItem()\l+ insertBucket()\l+ RemoveBucket()\l+ compressBucketsRow()\l+ previous()\l+ setPrevious()\l+ next()\l+ setNext()\l+ Total()\l+ Variance()\l+ setTotal()\l+ setVariance()\l+ getDescription()\l&#45; clearBucket()\l}" alt="" coords="129,517,447,949"/>
+<area shape="rect" id="node4" href="$interfacemoa_1_1MOAObject.html" title="Interface implemented by classes in MOA, so that all are serializable, can produce..." alt="" coords="36,141,180,261"/>
+</map>

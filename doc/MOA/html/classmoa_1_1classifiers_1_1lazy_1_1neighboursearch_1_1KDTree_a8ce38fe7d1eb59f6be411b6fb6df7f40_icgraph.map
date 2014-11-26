@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1KDTree.html#aa7ffdc8c19de967006ae2ed4022f4f3d" title="Returns the distance between a point and an hyperrectangle." alt="" coords="445,5,832,35"/>
+<area shape="rect" id="node5" href="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1KDTree.html#a159cfbded0e10abe08fdf075f36d3429" title="Refines the ownerlist." alt="" coords="881,5,1247,35"/>
+<area shape="rect" id="node7" href="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1KDTree.html#a202d8bd87aa9c3891f5e2d372537a035" title="Assigns instances to the current centers called candidates." alt="" coords="1297,5,1719,35"/>
+<area shape="rect" id="node9" href="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1KDTree.html#ac00fa079e9081c363b22cac250f2df24" title="Assigns instances to centers using KDTree." alt="" coords="1769,5,2151,35"/>
+</map>

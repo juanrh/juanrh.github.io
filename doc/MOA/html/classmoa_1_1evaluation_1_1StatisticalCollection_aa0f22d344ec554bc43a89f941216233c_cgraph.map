@@ -1,0 +1,8 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1evaluation_1_1MeasureCollection.html#a344a1c04e2e600092750c6676b9c9906" title="moa.evaluation.MeasureCollection.addValue" alt="" coords="437,5,717,35"/>
+<area shape="rect" id="node5" href="$classmoa_1_1evaluation_1_1MembershipMatrix.html#a00a08bde6a1f137e6abfb05fcdebfc9d" title="moa.evaluation.MembershipMatrix.getClassSum" alt="" coords="425,59,729,88"/>
+<area shape="rect" id="node7" href="$classmoa_1_1evaluation_1_1MembershipMatrix.html#a61be292a6c5eb832840c837a6d660d16" title="moa.evaluation.MembershipMatrix.getClusterClassWeight" alt="" coords="397,112,757,141"/>
+<area shape="rect" id="node9" href="$classmoa_1_1evaluation_1_1MembershipMatrix.html#a14818d896cf3a6e9b11e00ed0c5b5472" title="moa.evaluation.MembershipMatrix.getClusterSum" alt="" coords="421,165,733,195"/>
+<area shape="rect" id="node11" href="$classmoa_1_1evaluation_1_1MembershipMatrix.html#a1affa0a55570756783fac0aebc59466f" title="moa.evaluation.MembershipMatrix.getNumClasses" alt="" coords="419,219,736,248"/>
+<area shape="rect" id="node13" href="$classmoa_1_1evaluation_1_1MembershipMatrix.html#a0d65d3db5e4bb4002509347986c0c7d7" title="moa.evaluation.MembershipMatrix.getTotalEntries" alt="" coords="421,272,733,301"/>
+</map>

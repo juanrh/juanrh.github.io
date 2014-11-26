@@ -1,0 +1,11 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1cluster_1_1Clustering.html#a6a66be9b90f5cb06b044da278cdf24c9" title="remove a cluster from the clustering" alt="" coords="399,5,572,35"/>
+<area shape="rect" id="node5" href="$classmoa_1_1evaluation_1_1CMM__GTAnalysis.html#a2be0eba421cfefb98188c587657d17ac" title="Return cluster." alt="" coords="331,59,640,88"/>
+<area shape="rect" id="node7" href="$classmoa_1_1cluster_1_1Cluster.html#aec009f106ed5a6940f956a07af28ffd2" title="moa.cluster.Cluster.getId" alt="" coords="401,112,569,141"/>
+<area shape="rect" id="node9" href="$classmoa_1_1cluster_1_1Cluster.html#abf05802928ccf0ebe145e00c3568944b" title="Returns the probability of the given point belonging to this cluster." alt="" coords="351,165,620,195"/>
+<area shape="rect" id="node11" href="$classmoa_1_1evaluation_1_1CMM__GTAnalysis.html#ab51995be418ac5ce4804c20c03ccfdec" title="Get CMM internal point." alt="" coords="349,219,621,248"/>
+<area shape="rect" id="node13" href="$classmoa_1_1cluster_1_1Cluster.html#aeb8c006a27e4c642b7c735a8a8d1dd28" title="Returns the weight of this cluster, not neccessarily normalized." alt="" coords="387,272,584,301"/>
+<area shape="rect" id="node15" href="$classmoa_1_1gui_1_1visualization_1_1DataPoint.html#a346207ffb1974293b5d67cf10656ef3d" title="moa.gui.visualization.DataPoint.isNoise" alt="" coords="359,325,612,355"/>
+<area shape="rect" id="node17" href="$classmoa_1_1cluster_1_1Cluster.html#a1f98a5ae84ed5963a0fccc9c19deae2a" title="moa.cluster.Cluster.setMeasureValue" alt="" coords="365,379,605,408"/>
+<area shape="rect" id="node19" href="$classmoa_1_1evaluation_1_1CMM__GTAnalysis_1_1CMMPoint.html#ae69d6c93ab345ead82db85e885af44ad" title="Retruns the current working label of the cluster the point belongs to." alt="" coords="311,432,660,461"/>
+</map>

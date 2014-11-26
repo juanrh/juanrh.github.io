@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" id="node11" href="$classmoa_1_1classifiers_1_1rules_1_1nodes_1_1RuleSplitNode.html" title="A modified SplitNode method implementing the extra information." alt="" coords="16,1211,285,1365"/>
+<area shape="rect" id="node2" href="$classmoa_1_1classifiers_1_1trees_1_1HoeffdingTree_1_1Node.html" title="{moa.classifiers.trees.HoeffdingTree.Node\n|# observedClassDistribution\l&#45; serialVersionUID\l|+ Node()\l+ calcByteSize()\l+ calcByteSizeIncludingSubtree()\l+ isLeaf()\l+ filterInstanceToLeaf()\l+ getObservedClassDistribution()\l+ getClassVotes()\l+ observedClassDistributionIsPure()\l+ describeSubtree()\l+ subtreeDepth()\l+ calculatePromise()\l+ getDescription()\l}" alt="" coords="19,509,283,803"/>
+<area shape="rect" id="node4" href="$classmoa_1_1AbstractMOAObject.html" title="Abstract MOA Object." alt="" coords="67,307,235,461"/>
+<area shape="rect" id="node6" href="$interfacemoa_1_1MOAObject.html" title="Interface implemented by classes in MOA, so that all are serializable, can produce..." alt="" coords="79,139,223,259"/>
+</map>

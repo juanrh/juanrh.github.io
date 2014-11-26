@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1evaluation_1_1EWMAClassificationPerformanceEvaluator.html#a2e9842f0df376b4cdb1cc53885b125ed" title="moa.evaluation.EWMAClassificationPerformanceEvaluator.getFractionIncorrectlyClassified" alt="" coords="597,5,1149,35"/>
+<area shape="rect" id="node5" href="$classmoa_1_1evaluation_1_1EWMAClassificationPerformanceEvaluator.html#a153d7cea6633e35222b2ad48dfda5507" title="Gets the current measurements monitored by this evaluator." alt="" coords="600,59,1147,88"/>
+<area shape="rect" id="node7" href="$classmoa_1_1evaluation_1_1EWMAClassificationPerformanceEvaluator.html#ac431df9b5702e793567613de004841f8" title="Returns a string representation of this object." alt="" coords="1199,59,1649,88"/>
+</map>

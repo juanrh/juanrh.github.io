@@ -1,0 +1,10 @@
+digraph G
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{moa.classifiers.trees.LimAttHoeffdingTree.LimAttLearningNode\n|# weightSeenAtLastSplitEvaluation\l# listAttributes\l# numAttributes\l- serialVersionUID\l|+ LimAttLearningNode()\l+ setlistAttributes()\l+ learnFromInstance()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node2 [label="{moa.classifiers.trees.LimAttHoeffdingTree.LearningNodeNB\n|- serialVersionUID\l|+ LearningNodeNB()\l+ getClassVotes()\l+ disableAttribute()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1trees_1_1LimAttHoeffdingTree_1_1LearningNodeNB.html"];
+  Node2 -> Node3 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node3 [label="{moa.classifiers.trees.LimAttHoeffdingTree.LearningNodeNBAdaptive\n|# mcCorrectWeight\l# nbCorrectWeight\l- serialVersionUID\l|+ LearningNodeNBAdaptive()\l+ learnFromInstance()\l+ getClassVotes()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1trees_1_1LimAttHoeffdingTree_1_1LearningNodeNBAdaptive.html"];
+}

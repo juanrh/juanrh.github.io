@@ -1,0 +1,11 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1gui_1_1visualization_1_1RunOutlierVisualizer.html#a1ff965e6d63453e326cc91da6b6aa14c" title="moa.gui.visualization.RunOutlierVisualizer.CanShowOutliers" alt="" coords="404,5,777,35"/>
+<area shape="rect" id="node5" href="$classmoa_1_1gui_1_1visualization_1_1StreamOutlierPanel.html#a35563fe62f2348de74ba2e1054b95894" title="moa.gui.visualization.StreamOutlierPanel.clearEvents" alt="" coords="424,59,757,88"/>
+<area shape="rect" id="node9" href="$classmoa_1_1gui_1_1visualization_1_1RunOutlierVisualizer.html#aaf6550a583c3178426e4137508d94ae5" title="moa.gui.visualization.RunOutlierVisualizer.deleteExpiredEvents" alt="" coords="396,112,785,141"/>
+<area shape="rect" id="node11" href="$classmoa_1_1gui_1_1visualization_1_1StreamOutlierPanel.html#a8c3c9261ea8f8ee5f32454653baaee02" title="moa.gui.visualization.StreamOutlierPanel.drawEvent" alt="" coords="428,165,753,195"/>
+<area shape="rect" id="node7" href="$classmoa_1_1gui_1_1visualization_1_1StreamOutlierPanel.html#a587d65d89559e233b8db9c8c9d53317d" title="moa.gui.visualization.StreamOutlierPanel.ApplyToCanvas" alt="" coords="843,59,1200,88"/>
+<area shape="rect" id="node13" href="$classmoa_1_1gui_1_1visualization_1_1StreamOutlierPanel.html#a0ae3523430f87276ab3dc0a170363b6e" title="moa.gui.visualization.StreamOutlierPanel.getActiveXDim" alt="" coords="845,112,1197,141"/>
+<area shape="rect" id="node15" href="$classmoa_1_1gui_1_1visualization_1_1StreamOutlierPanel.html#aec7bd5f4a0ff1088a70c54879adf9305" title="moa.gui.visualization.StreamOutlierPanel.getActiveYDim" alt="" coords="845,165,1197,195"/>
+<area shape="rect" id="node17" href="$classmoa_1_1gui_1_1visualization_1_1StreamOutlierPanel.html#a4d6c7bb3dc3a5c6fda714933bf1e8fe7" title="moa.gui.visualization.StreamOutlierPanel.RedrawPointLayer" alt="" coords="836,219,1207,248"/>
+<area shape="rect" id="node19" href="$classmoa_1_1gui_1_1visualization_1_1StreamOutlierPanel_1_1ImgPanel.html#aebdffc7623851d0dfc3079a6c45dc5ea" title="moa.gui.visualization.StreamOutlierPanel.ImgPanel.setImage" alt="" coords="1256,219,1635,248"/>
+</map>

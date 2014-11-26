@@ -1,0 +1,8 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1classifiers_1_1trees_1_1DecisionStump.html#a24de43fe3b957eb794da553a04211af5" title="moa.classifiers.trees.DecisionStump.findBestSplit" alt="" coords="753,5,1068,35"/>
+<area shape="rect" id="node7" href="$classmoa_1_1classifiers_1_1trees_1_1ORTO_1_1ActiveLearningNode.html#a4ab26c2d9e23bab3ec193bc7b08e5ab0" title="Return the best split suggestions for this node using the given split criteria." alt="" coords="684,59,1137,88"/>
+<area shape="rect" id="node11" href="$classmoa_1_1classifiers_1_1rules_1_1core_1_1RuleActiveRegressionNode.html#a2557ae6dde854e4c2deef5dafc1990c1" title="moa.classifiers.rules.core.RuleActiveRegressionNode.getBestSplitSuggestions" alt="" coords="669,112,1152,141"/>
+<area shape="rect" id="node5" href="$classmoa_1_1classifiers_1_1trees_1_1DecisionStump.html#a32067bc75ba3bd5e5a56955740a091cb" title="Trains this classifier incrementally using the given instance." alt="" coords="1229,5,1587,35"/>
+<area shape="rect" id="node9" href="$classmoa_1_1classifiers_1_1trees_1_1ORTO_1_1ActiveLearningNode.html#a56892d5a3620b1df383f415202d5e916" title="moa.classifiers.trees.ORTO.ActiveLearningNode.processInstance" alt="" coords="1205,59,1611,88"/>
+<area shape="rect" id="node13" href="$classmoa_1_1classifiers_1_1rules_1_1core_1_1RuleActiveRegressionNode.html#adf465cd445ab9b046cf713003ba9711f" title="moa.classifiers.rules.core.RuleActiveRegressionNode.tryToExpand" alt="" coords="1201,112,1615,141"/>
+</map>

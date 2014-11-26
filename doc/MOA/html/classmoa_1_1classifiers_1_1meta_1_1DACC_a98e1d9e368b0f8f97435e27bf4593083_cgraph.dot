@@ -1,0 +1,33 @@
+digraph G
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir=LR;
+  Node1 [label="moa.classifiers.meta.DACC.getVotesForInstance",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="moa.core.DoubleVector.addValues",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1core_1_1DoubleVector.html#a23e127ea53ce786c62c35d14f5b7b878"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="moa.core.DoubleVector.getArrayRef",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1core_1_1DoubleVector.html#a0cd86df680113a943ebb8fcf60819ece"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="moa.options.MultiChoiceOption.getChosenIndex",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1options_1_1MultiChoiceOption.html#a5272693a1a0a9f89e135673a6d247dda"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="moa.classifiers.meta.DACC.getMAXIndexes",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1meta_1_1DACC.html#ad830eb635b00c528fc3ca92918d7b0ba",tooltip="Returns the classifiers that vote for the final prediction when the MAX combination..."];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="moa.classifiers.meta.DACC.getNbActiveClassifiers",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1meta_1_1DACC.html#a55bb8c305911d5e5c327ad90e3386851",tooltip="Returns the number of classifiers used for prediction which includes the adaptive..."];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="moa.classifiers.Classifier.getVotesForInstance",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interfacemoa_1_1classifiers_1_1Classifier.html#a0933ed1199c2b16a8eb8186dabf9a8f9",tooltip="Predicts the class memberships for a given instance."];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="moa.classifiers.meta.DACC.getWVDIndexes",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1meta_1_1DACC.html#a4b39c9394a35b77ff18011b2217e390e",tooltip="Returns the classifiers that vote for the final prediction when the WVD combination..."];
+  Node8 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="moa.core.DoubleVector.normalize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1core_1_1DoubleVector.html#a5c1ca3a089253b5e9bddbe6b9109be98"];
+  Node9 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="moa.core.DoubleVector.scaleValues",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1core_1_1DoubleVector.html#adcc64b699e7e480763be5a71529d23a3"];
+  Node9 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="moa.core.DoubleVector.sumOfValues",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1core_1_1DoubleVector.html#acafa367bb17b33b844486adfa1b2780a"];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="moa.classifiers.AbstractClassifier.trainingWeightSeenByModel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1AbstractClassifier.html#af50c85f56d8192f9cf56e621a835b00c",tooltip="Gets the sum of the weights of the instances that have been used by this classifier..."];
+}

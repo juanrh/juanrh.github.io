@@ -1,0 +1,19 @@
+digraph G
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir=LR;
+  Node1 [label="moa.evaluation.CMM_GTAnalysis.getGT0Cluster",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="moa.evaluation.CMM.calculateMatching",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1evaluation_1_1CMM.html#aba1a33c0add6c87676c79092269a78f0",tooltip="calculates the CMM specific matching between found clusters and ground truth clusters..."];
+  Node2 -> Node3 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="moa.evaluation.CMM.evaluateClustering",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1evaluation_1_1CMM.html#a10e5730f04b5d05fa6eedfbeb6a737a2"];
+  Node1 -> Node4 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="moa.evaluation.CMM.misplacedError",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1evaluation_1_1CMM.html#a6ffba3d0864ff59b4c30f1c2b00dadbb"];
+  Node4 -> Node5 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="moa.evaluation.CMM.calculateError",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1evaluation_1_1CMM.html#a62a625febc2e6b48e955a6e9b75ec410",tooltip="Calculate the actual error values."];
+  Node5 -> Node3 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node6 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="moa.evaluation.CMM.noiseError",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1evaluation_1_1CMM.html#a9e80b0a7b022dd7630aa29d7b30fd7b8"];
+  Node6 -> Node5 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

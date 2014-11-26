@@ -1,0 +1,31 @@
+digraph G
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{weka.classifiers.meta.MOA\n|# m_ActualClassifier\l# m_Classifier\l- serialVersionUID\l|+ globalInfo()\l+ listOptions()\l+ setOptions()\l+ getOptions()\l+ setClassifier()\l+ getClassifier()\l+ classifierTipText()\l+ getCapabilities()\l+ buildClassifier()\l+ updateClassifier()\l+ distributionForInstance()\l+ getRevision()\l+ toString()\l+ main()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node2 -> Node1 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node2 [label="{UpdateableClassifier\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node3 -> Node1 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="m_ActualClassifier",arrowtail="open",fontname="Helvetica"];
+  Node3 [label="{moa.classifiers.Classifier\n||+ setModelContext()\l+ getModelContext()\l+ isRandomizable()\l+ setRandomSeed()\l+ trainingHasStarted()\l+ trainingWeightSeenByModel()\l+ resetLearning()\l+ trainOnInstance()\l+ getVotesForInstance()\l+ correctlyClassifies()\l+ getModelMeasurements()\l+ getSubClassifiers()\l+ copy()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interfacemoa_1_1classifiers_1_1Classifier.html",tooltip="Classifier interface for incremental classification models."];
+  Node4 -> Node3 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node4 [label="{moa.MOAObject\n||+ measureByteSize()\l+ copy()\l+ getDescription()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interfacemoa_1_1MOAObject.html",tooltip="Interface implemented by classes in MOA, so that all are serializable, can produce..."];
+  Node5 -> Node4 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node5 [label="{Serializable\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node6 -> Node3 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node6 [label="{moa.options.OptionHandler\n||+ getPurposeString()\l+ getOptions()\l+ prepareForUse()\l+ prepareForUse()\l+ copy()\l+ getCLICreationString()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interfacemoa_1_1options_1_1OptionHandler.html",tooltip="Interface representing an object that handles options or parameters."];
+  Node4 -> Node6 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node7 -> Node3 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node7 [label="{moa.gui.AWTRenderable\n||+ getAWTRenderer()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interfacemoa_1_1gui_1_1AWTRenderable.html",tooltip="Interface representing a component that is renderable."];
+  Node8 -> Node1 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="m_Classifier",arrowtail="open",fontname="Helvetica"];
+  Node8 [label="{moa.options.ClassOption\n|- serialVersionUID\l|+ ClassOption()\l+ ClassOption()\l+ getValueAsCLIString()\l+ setValueViaCLIString()\l+ getEditComponent()\l+ objectToCLIString()\l+ cliStringToObject()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1options_1_1ClassOption.html",tooltip="Class option."];
+  Node9 -> Node8 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node9 [label="{moa.options.AbstractClassOption\n|+ FILE_PREFIX_STRING\l+ INMEM_PREFIX_STRING\l# currentValue\l# requiredType\l# defaultCLIString\l# nullString\l- serialVersionUID\l|+ AbstractClassOption()\l+ AbstractClassOption()\l+ setCurrentObject()\l+ getPreMaterializedObject()\l+ getRequiredType()\l+ getNullString()\l+ materializeObject()\l+ getDefaultCLIString()\l+ getValueAsCLIString()\l+ setValueViaCLIString()\l+ getEditComponent()\l+ classToCLIString()\l+ stripPackagePrefix()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1options_1_1AbstractClassOption.html",tooltip="Abstract class option."];
+  Node10 -> Node9 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node10 [label="{moa.options.AbstractOption\n|+ illegalNameCharacters\l# name\l# cliChar\l# purpose\l|+ AbstractOption()\l+ getName()\l+ getCLIChar()\l+ getPurpose()\l+ resetToDefault()\l+ getStateString()\l+ copy()\l+ getDescription()\l+ getEditComponent()\l+ nameIsLegal()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1options_1_1AbstractOption.html",tooltip="Abstract option."];
+  Node11 -> Node10 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node11 [label="{moa.AbstractMOAObject\n||+ copy()\l+ measureByteSize()\l+ toString()\l+ copy()\l+ measureByteSize()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1AbstractMOAObject.html",tooltip="Abstract MOA Object."];
+  Node4 -> Node11 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node12 -> Node10 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node12 [label="{moa.options.Option\n||+ getName()\l+ getCLIChar()\l+ getPurpose()\l+ getDefaultCLIString()\l+ setValueViaCLIString()\l+ getValueAsCLIString()\l+ resetToDefault()\l+ getStateString()\l+ copy()\l+ getEditComponent()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interfacemoa_1_1options_1_1Option.html",tooltip="Interface representing an option or parameter."];
+  Node4 -> Node12 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+}

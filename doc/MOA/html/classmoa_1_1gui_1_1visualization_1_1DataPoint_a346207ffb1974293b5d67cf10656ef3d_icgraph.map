@@ -1,0 +1,14 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1evaluation_1_1CMM.html#a62a625febc2e6b48e955a6e9b75ec410" title="Calculate the actual error values." alt="" coords="383,5,612,35"/>
+<area shape="rect" id="node7" href="$classmoa_1_1evaluation_1_1CMM__GTAnalysis.html#a9c1e7ad3767a13b46a47e49a9a4de041" title="calculate initial connectivities" alt="" coords="309,165,685,195"/>
+<area shape="rect" id="node11" href="$classmoa_1_1evaluation_1_1CMM__GTAnalysis_1_1GTCluster.html#a09170ac078e5dbc33442c8fba9aabb68" title="calculate knn distances of points within own cluster + average knn distance and average..." alt="" coords="316,219,679,248"/>
+<area shape="rect" id="node15" href="$classmoa_1_1evaluation_1_1CMM.html#aba1a33c0add6c87676c79092269a78f0" title="calculates the CMM specific matching between found clusters and ground truth clusters..." alt="" coords="371,59,624,88"/>
+<area shape="rect" id="node18" href="$classmoa_1_1gui_1_1visualization_1_1PointPanel.html#ac35cc915fb7f52a3573cc4e539d8915d" title="moa.gui.visualization.PointPanel.getColor" alt="" coords="365,272,629,301"/>
+<area shape="rect" id="node24" href="$classmoa_1_1gui_1_1visualization_1_1PointPanel.html#a04ae5147e3a2acd23504fb154bb5793b" title="moa.gui.visualization.PointPanel.paintComponent" alt="" coords="763,325,1072,355"/>
+<area shape="rect" id="node26" href="$classmoa_1_1evaluation_1_1CMM__GTAnalysis.html#ac62e2f616277de082896f6b0708451b9" title="Calculates the relative number of errors being caused by the underlying cluster model..." alt="" coords="339,112,656,141"/>
+<area shape="rect" id="node5" href="$classmoa_1_1evaluation_1_1CMM.html#a10e5730f04b5d05fa6eedfbeb6a737a2" title="moa.evaluation.CMM.evaluateClustering" alt="" coords="788,59,1047,88"/>
+<area shape="rect" id="node9" href="$classmoa_1_1evaluation_1_1CMM__GTAnalysis.html#af80b5acd2a6d1578a4d3bb13d3e65140" title="moa.evaluation.CMM_GTAnalysis.CMM_GTAnalysis" alt="" coords="752,165,1083,195"/>
+<area shape="rect" id="node13" href="$classmoa_1_1evaluation_1_1CMM__GTAnalysis_1_1GTCluster.html#abfe7a47ed99bca19e98e7b54dd113447" title="Merge a cluster into this cluster." alt="" coords="735,219,1100,248"/>
+<area shape="rect" id="node20" href="$classmoa_1_1gui_1_1visualization_1_1PointPanel.html#a815aaa4f28651eb6d3753050ebe67c5c" title="moa.gui.visualization.PointPanel.getSVGString" alt="" coords="771,272,1064,301"/>
+<area shape="rect" id="node22" href="$classmoa_1_1gui_1_1visualization_1_1StreamPanel.html#a4d2fcf520d8e89e180271fb1163d7551" title="moa.gui.visualization.StreamPanel.screenshot" alt="" coords="1149,272,1440,301"/>
+</map>

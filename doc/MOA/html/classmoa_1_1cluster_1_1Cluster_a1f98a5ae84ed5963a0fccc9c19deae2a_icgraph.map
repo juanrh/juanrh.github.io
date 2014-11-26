@@ -1,0 +1,9 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1clusterers_1_1ClusterGenerator.html#aa9e29bb8b41ae1620314b893bededd7f" title="moa.clusterers.ClusterGenerator.alterClustering" alt="" coords="296,59,595,88"/>
+<area shape="rect" id="node9" href="$classmoa_1_1evaluation_1_1CMM.html#aba1a33c0add6c87676c79092269a78f0" title="calculates the CMM specific matching between found clusters and ground truth clusters..." alt="" coords="319,112,572,141"/>
+<area shape="rect" id="node13" href="$classmoa_1_1evaluation_1_1General.html#a0a628e69798c6c3ad2e9bdd47ef7ef00" title="moa.evaluation.General.computeCompactness" alt="" coords="299,165,592,195"/>
+<area shape="rect" id="node15" href="$classmoa_1_1evaluation_1_1F1.html#ab84150340e995d9426c20d87f9bcc7f2" title="moa.evaluation.F1.evaluateClustering" alt="" coords="325,219,565,248"/>
+<area shape="rect" id="node5" href="$classmoa_1_1clusterers_1_1ClusterGenerator.html#aca80606f629d508694df3d0fb0d79baf" title="moa.clusterers.ClusterGenerator.getClusteringResult" alt="" coords="659,5,989,35"/>
+<area shape="rect" id="node7" href="$classmoa_1_1clusterers_1_1ClusterGenerator.html#a6215d938b499e2a77d23d9b2d311cb23" title="moa.clusterers.ClusterGenerator.getMicroClusteringResult" alt="" coords="643,59,1005,88"/>
+<area shape="rect" id="node11" href="$classmoa_1_1evaluation_1_1CMM.html#a10e5730f04b5d05fa6eedfbeb6a737a2" title="moa.evaluation.CMM.evaluateClustering" alt="" coords="695,112,953,141"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" id="node2" href="$classmoa_1_1AbstractMOAObject.html" title="Abstract MOA Object." alt="" coords="5,475,173,629"/>
+<area shape="rect" id="node4" href="$interfacemoa_1_1MOAObject.html" title="Interface implemented by classes in MOA, so that all are serializable, can produce..." alt="" coords="132,139,276,259"/>
+<area shape="rect" id="node10" href="$interfacemoa_1_1evaluation_1_1ClassificationPerformanceEvaluator.html" title="Interface implemented by learner evaluators to monitor the results of the learning..." alt="" coords="175,307,497,427"/>
+<area shape="rect" id="node8" href="$interfacemoa_1_1evaluation_1_1RegressionPerformanceEvaluator.html" title="Interface implemented by learner evaluators to monitor the results of the regression..." alt="" coords="197,509,507,595"/>
+</map>

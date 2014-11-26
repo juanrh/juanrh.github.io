@@ -1,0 +1,8 @@
+digraph G
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{moa.gui.RegressionTaskManagerPanel\n|+ MILLISECS_BETWEEN_REFRESH\l+ exportFileExtension\l# currentTask\l# taskList\l# configureTaskButton\l# taskDescField\l# runTaskButton\l# taskTableModel\l# taskTable\l# pauseTaskButton\l# resumeTaskButton\l# cancelTaskButton\l# deleteTaskButton\l# previewPanel\l- prefs\l- PREF_NAME\l- serialVersionUID\l|+ RegressionTaskManagerPanel()\l+ setPreviewPanel()\l+ setTaskString()\l+ setTaskString()\l+ runTask()\l+ taskSelectionChanged()\l+ getSelectedTasks()\l+ pauseSelectedTasks()\l+ resumeSelectedTasks()\l+ cancelSelectedTasks()\l+ deleteSelectedTasks()\l+ copyClipBoardConfiguration()\l+ saveLogSelectedTasks()\l+ main()\l- createAndShowGUI()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node2 -> Node1 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node2 [label="{JPanel\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+}

@@ -1,0 +1,15 @@
+digraph G
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir=LR;
+  Node1 [label="moa.gui.visualization.GraphCurve.setProcessFrequency",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="moa.gui.visualization.GraphCanvas.setGraph",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1gui_1_1visualization_1_1GraphCanvas.html#affe259f0e825f19583e1f4f624576fe6"];
+  Node2 -> Node3 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="moa.gui.visualization.RunVisualizer.actionPerformed",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1gui_1_1visualization_1_1RunVisualizer.html#ad60787273b64a9ec949eb25e2a1598bd"];
+  Node2 -> Node4 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="moa.gui.visualization.RunOutlierVisualizer.RunOutlierVisualizer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1gui_1_1visualization_1_1RunOutlierVisualizer.html#a10546ef98a99278a121566002e5a51a3"];
+  Node2 -> Node5 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="moa.gui.visualization.RunVisualizer.RunVisualizer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1gui_1_1visualization_1_1RunVisualizer.html#ab8af38867b16c9893bef23c9138293ab"];
+}

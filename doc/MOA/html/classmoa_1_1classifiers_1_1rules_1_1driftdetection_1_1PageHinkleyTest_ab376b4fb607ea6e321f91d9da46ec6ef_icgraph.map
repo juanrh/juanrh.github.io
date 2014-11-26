@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1classifiers_1_1rules_1_1core_1_1RuleActiveLearningNode.html#a873cae0c40c3b71133d312efad6208b2" title="moa.classifiers.rules.core.RuleActiveLearningNode.updateChangeDetection" alt="" coords="425,5,887,35"/>
+<area shape="rect" id="node7" href="$classmoa_1_1classifiers_1_1rules_1_1core_1_1RuleActiveLearningNode.html#aed39dd3d17417697f29796f02edc5679" title="moa.classifiers.rules.core.RuleActiveLearningNode.updatePageHinckleyTest" alt="" coords="421,59,891,88"/>
+<area shape="rect" id="node5" href="$classmoa_1_1classifiers_1_1rules_1_1AbstractAMRules.html#aa2dc6402864427b11fda4821df77120e" title="Trains this classifier incrementally using the given instance." alt="" coords="939,5,1309,35"/>
+<area shape="rect" id="node9" href="$classmoa_1_1classifiers_1_1rules_1_1core_1_1Rule.html#ac219c400477a6d3ee5f7339f4d5fb4b6" title="moa.classifiers.rules.core.Rule.updatePageHinckleyTest" alt="" coords="948,59,1300,88"/>
+</map>

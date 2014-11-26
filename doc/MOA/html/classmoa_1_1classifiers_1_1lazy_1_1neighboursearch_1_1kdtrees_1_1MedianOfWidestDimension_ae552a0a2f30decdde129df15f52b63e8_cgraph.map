@@ -1,0 +1,10 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1kdtrees_1_1KDTreeNodeSplitter.html#a035650351c470814f89216862e706502" title="Checks whether an object of this class has been correctly initialized." alt="" coords="560,32,1075,61"/>
+<area shape="rect" id="node5" href="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1NormalizableDistance.html#a35975f221e5126583f1aa0177c7c5e5c" title="Initializes the ranges using all instances of the dataset." alt="" coords="585,85,1049,115"/>
+<area shape="rect" id="node13" href="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1kdtrees_1_1MedianOfWidestDimension.html#ad2efd3d5d8c827e3a360b04266c777ec" title="Implements computation of the kth&#45;smallest element according to Manber&#39;s &quot;Introduction..." alt="" coords="575,139,1060,168"/>
+<area shape="rect" id="node17" href="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1kdtrees_1_1KDTreeNodeSplitter.html#a3e077e62db1bcda71f1b081b88d51f04" title="Returns the widest dimension." alt="" coords="583,192,1052,221"/>
+<area shape="rect" id="node7" href="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1NormalizableDistance.html#aafa49196134c88952a03f3ec5dc93894" title="Used to initialize the ranges." alt="" coords="1124,5,1625,35"/>
+<area shape="rect" id="node9" href="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1NormalizableDistance.html#af5cc0c85cf75c842c97620ca3fb1dfc6" title="Updates the minimum and maximum and width values for all the attributes based on..." alt="" coords="1147,59,1603,88"/>
+<area shape="rect" id="node11" href="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1NormalizableDistance.html#a8cb8437b28e58671e060222e8dd2f4d3" title="Used to initialize the ranges." alt="" coords="1133,112,1616,141"/>
+<area shape="rect" id="node15" href="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1kdtrees_1_1MedianOfWidestDimension.html#aa7f15aacbfbbbef026bae88f40cb9bde" title="Partitions the instances around a pivot." alt="" coords="1127,165,1623,195"/>
+</map>

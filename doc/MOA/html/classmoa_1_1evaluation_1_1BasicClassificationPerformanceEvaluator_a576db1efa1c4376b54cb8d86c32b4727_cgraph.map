@@ -1,0 +1,7 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1evaluation_1_1BasicClassificationPerformanceEvaluator.html#a919a74fe8c0965ebcf10061ed6193927" title="Gets the current measurements monitored by this evaluator." alt="" coords="497,58,1033,87"/>
+<area shape="rect" id="node5" href="$classmoa_1_1evaluation_1_1BasicClassificationPerformanceEvaluator.html#a705a1aedf9914334d7ff208068c84ef0" title="moa.evaluation.BasicClassificationPerformanceEvaluator.getFractionCorrectlyClassified" alt="" coords="1649,6,2183,35"/>
+<area shape="rect" id="node7" href="$classmoa_1_1evaluation_1_1BasicClassificationPerformanceEvaluator.html#a65d0bb3294f78a0e688e3d896c550fd7" title="moa.evaluation.BasicClassificationPerformanceEvaluator.getKappaStatistic" alt="" coords="1111,31,1572,61"/>
+<area shape="rect" id="node10" href="$classmoa_1_1evaluation_1_1BasicClassificationPerformanceEvaluator.html#adec40c592d0ea0c5a4376382e2ab588e" title="moa.evaluation.BasicClassificationPerformanceEvaluator.getKappaTemporalStatistic" alt="" coords="1084,85,1599,114"/>
+<area shape="rect" id="node12" href="$classmoa_1_1evaluation_1_1BasicClassificationPerformanceEvaluator.html#a54a4e94e5d7a70a2e6d54e78dad4ad03" title="moa.evaluation.BasicClassificationPerformanceEvaluator.getTotalWeightObserved" alt="" coords="1091,138,1592,167"/>
+</map>

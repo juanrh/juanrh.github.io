@@ -1,0 +1,24 @@
+digraph G
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir=LR;
+  Node1 [label="moa.classifiers.core.driftdetection.HDDM_W_Test.input",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="moa.classifiers.core.driftdetection.HDDM_W_Test.monitorMeanDecr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1core_1_1driftdetection_1_1HDDM__W__Test.html#a0c0f6484872a859743825c0b153d6cfb"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="moa.classifiers.core.driftdetection.HDDM_W_Test.detectMeanIncrement",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1core_1_1driftdetection_1_1HDDM__W__Test.html#a305fdbef31c46ffe0a5e26a47deedaa7"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="moa.classifiers.core.driftdetection.HDDM_W_Test.monitorMeanIncr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1core_1_1driftdetection_1_1HDDM__W__Test.html#abb768980bfb082d89d533fd155c39c40"];
+  Node4 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="moa.classifiers.core.driftdetection.HDDM_W_Test.resetLearning",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1core_1_1driftdetection_1_1HDDM__W__Test.html#a20fcc772a21892e6d0d1f327a01f960a",tooltip="Resets this change detector."];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="moa.options.MultiChoiceOption.getChosenIndex",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1options_1_1MultiChoiceOption.html#a5272693a1a0a9f89e135673a6d247dda"];
+  Node5 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="moa.options.FloatOption.getValue",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1options_1_1FloatOption.html#a0e606a62f4ece232aa8f8cb04bb7f1cf"];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="moa.classifiers.core.driftdetection.HDDM_W_Test.updateDecrStatistics",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1core_1_1driftdetection_1_1HDDM__W__Test.html#ac41717b7883167e762a800bce503cdac"];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="moa.classifiers.core.driftdetection.HDDM_W_Test.updateIncrStatistics",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1core_1_1driftdetection_1_1HDDM__W__Test.html#a069ddff8b6c8227069cfa50903256127"];
+}

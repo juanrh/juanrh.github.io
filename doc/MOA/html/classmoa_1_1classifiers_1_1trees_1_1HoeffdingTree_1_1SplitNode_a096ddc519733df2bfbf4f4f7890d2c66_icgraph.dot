@@ -1,0 +1,27 @@
+digraph G
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir=LR;
+  Node1 [label="moa.classifiers.trees.HoeffdingTree.SplitNode.setChild",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="moa.classifiers.trees.HoeffdingTree.activateLearningNode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1trees_1_1HoeffdingTree.html#a0fb3d76800bd3b5a39f3e8c3324187b8"];
+  Node1 -> Node3 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="moa.classifiers.trees.HoeffdingTree.attemptToSplit",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1trees_1_1HoeffdingTree.html#a1167e8f332be16f1b9d07c55d94bd0ac"];
+  Node3 -> Node4 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="moa.classifiers.trees.HoeffdingAdaptiveTree.AdaLearningNode.learnFromInstance",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1trees_1_1HoeffdingAdaptiveTree_1_1AdaLearningNode.html#ad70b71e34f2ed88ea9a5bc33cb2562aa"];
+  Node3 -> Node5 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="moa.classifiers.trees.ASHoeffdingTree.trainOnInstanceImpl",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1trees_1_1ASHoeffdingTree.html#ad16732e0aad18595fb7ba80654c6c644",tooltip="Trains this classifier incrementally using the given instance."];
+  Node1 -> Node6 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="moa.classifiers.multilabel.HoeffdingTreeClassifLeaves.attemptToSplit",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1multilabel_1_1HoeffdingTreeClassifLeaves.html#a7bf94665c2ade8cf741cfbaabb959bec"];
+  Node1 -> Node7 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="moa.classifiers.trees.HoeffdingTree.deactivateLearningNode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1trees_1_1HoeffdingTree.html#aa2bf9fba6c0b3e4b76158001680c5327"];
+  Node7 -> Node6 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node8 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="moa.classifiers.multilabel.MultilabelHoeffdingTree.deactivateLearningNode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1multilabel_1_1MultilabelHoeffdingTree.html#aa4ddc17c20a5ec07718d7f3281ab458b"];
+  Node1 -> Node9 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="moa.classifiers.trees.HoeffdingTree.trainOnInstanceImpl",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1trees_1_1HoeffdingTree.html#ab13e136d761801002a42fa109b994f28",tooltip="Trains this classifier incrementally using the given instance."];
+  Node1 -> Node10 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="moa.classifiers.trees.FIMTDD.trainOnInstanceImpl",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1trees_1_1FIMTDD.html#a54cba40a86a075373556cafdc55467e0",tooltip="Method for updating (training) the model using a new instance."];
+  Node1 -> Node5 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

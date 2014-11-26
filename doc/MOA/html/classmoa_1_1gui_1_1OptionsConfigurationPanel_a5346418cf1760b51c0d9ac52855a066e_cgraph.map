@@ -1,0 +1,11 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1gui_1_1OptionsConfigurationPanel.html#aaa4825510bd12e743976268ef6f06696" title="moa.gui.OptionsConfigurationPanel.OptionsConfigurationPanel" alt="" coords="400,85,787,115"/>
+<area shape="rect" id="node5" href="$classmoa_1_1gui_1_1OptionsConfigurationPanel.html#aff42f25dcd3d16a2a57038f98cc67fb9" title="moa.gui.OptionsConfigurationPanel.createLabelledOptionComponentListPanel" alt="" coords="835,5,1309,35"/>
+<area shape="rect" id="node9" href="$classmoa_1_1options_1_1Options.html#a1da7d9a7b328832823087bc1e1523593" title="moa.options.Options.getOptionArray" alt="" coords="956,59,1188,88"/>
+<area shape="rect" id="node11" href="$classmoa_1_1gui_1_1OptionsConfigurationPanel.html#a60a6cd5339494be6368ba0bf7046d693" title="moa.gui.OptionsConfigurationPanel.resetToDefaults" alt="" coords="911,112,1233,141"/>
+<area shape="rect" id="node13" href="$classmoa_1_1gui_1_1OptionsConfigurationPanel.html#abe41d95012b8856dd80ed100909d2f79" title="moa.gui.OptionsConfigurationPanel.showHelpDialog" alt="" coords="909,165,1235,195"/>
+<area shape="rect" id="node7" href="$interfacemoa_1_1options_1_1Option.html#abaeed1a5f4a5e9c2c002121653324b35" title="Gets the GUI component to edit." alt="" coords="1387,5,1632,35"/>
+<area shape="rect" id="node15" href="$classmoa_1_1gui_1_1OptionsConfigurationPanel.html#a2cc7c9a7bba593687ecd836af8bb67f5" title="moa.gui.OptionsConfigurationPanel.getHelpText" alt="" coords="1359,165,1660,195"/>
+<area shape="rect" id="node17" href="$classmoa_1_1options_1_1Options.html#a29c36bacd3a8191c031f6d3e0876b16c" title="moa.options.Options.getHelpString" alt="" coords="1711,165,1935,195"/>
+<area shape="rect" id="node19" href="$classmoa_1_1options_1_1Options.html#a5c1bb7cded15ca5accac236f1d1a34bb" title="moa.options.Options.getHelp" alt="" coords="1985,165,2175,195"/>
+</map>

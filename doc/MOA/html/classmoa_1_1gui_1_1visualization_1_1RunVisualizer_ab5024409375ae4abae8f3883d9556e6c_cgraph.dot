@@ -1,0 +1,23 @@
+digraph G
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir=LR;
+  Node1 [label="moa.gui.visualization.RunVisualizer.evaluateClustering",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="moa.evaluation.MeasureCollection.addEmptyValue",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1evaluation_1_1MeasureCollection.html#ad1f8bddce9d5d7494db1c58f96e1be73"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="moa.evaluation.MeasureCollection.evaluateClusteringPerformance",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1evaluation_1_1MeasureCollection.html#a9d31b3c9b2692ba71825d3aa9593bdd7"];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="moa.evaluation.MeasureCollection.evaluateClustering",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1evaluation_1_1MeasureCollection.html#a892bfec6e7d40bae286b44a5515a5ea7"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="moa.evaluation.MeasureCollection.getNumMeasures",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1evaluation_1_1MeasureCollection.html#aa21276cf4ecc9b8fd091d282975157ea"];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="moa.gui.TextViewerPanel.setText",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1gui_1_1TextViewerPanel.html#ac09cb6daf98fc5b812dd330a4eeb4b11"];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="moa.cluster.Clustering.size",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1cluster_1_1Clustering.html#a054a386d94acf3b88574f061ab4c8d71"];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="moa.gui.clustertab.ClusteringVisualEvalPanel.update",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1gui_1_1clustertab_1_1ClusteringVisualEvalPanel.html#a6fdc6f11e31fbe611fb57acbbda0c944"];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="moa.gui.visualization.GraphCanvas.updateCanvas",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1gui_1_1visualization_1_1GraphCanvas.html#adc8ee0602dba6a004e742d018247d6d3"];
+}

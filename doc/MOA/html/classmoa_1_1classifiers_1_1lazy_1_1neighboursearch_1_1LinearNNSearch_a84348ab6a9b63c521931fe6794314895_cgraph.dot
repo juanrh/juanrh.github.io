@@ -1,0 +1,35 @@
+digraph G
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir=LR;
+  Node1 [label="moa.classifiers.lazy.neighboursearch.LinearNNSearch.nearestNeighbour",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="moa.classifiers.lazy.neighboursearch.LinearNNSearch.kNearestNeighbours",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1LinearNNSearch.html#af60dd2738258760909208275a7f96bef",tooltip="Returns k nearest instances in the current neighbourhood to the supplied instance..."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="moa.classifiers.lazy.neighboursearch.DistanceFunction.distance",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interfacemoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1DistanceFunction.html#a4a806e7b8470527d015dfb861457cbb0",tooltip="Calculates the distance between two instances."];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="moa.classifiers.lazy.neighboursearch.NearestNeighbourSearch.MyHeap.get",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1NearestNeighbourSearch_1_1MyHeap.html#a19758f98f6ae1f6144884dcdbfbe10d9",tooltip="returns the first element and removes it from the heap."];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="moa.classifiers.lazy.neighboursearch.NearestNeighbourSearch.MyHeap.downheap",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1NearestNeighbourSearch_1_1MyHeap.html#a1c0ce6fc344856e596eecd1aa711817c",tooltip="performs downheap operation for the heap to maintian its properties."];
+  Node2 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="moa.classifiers.lazy.neighboursearch.NearestNeighbourSearch.MyHeap.getKthNearest",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1NearestNeighbourSearch_1_1MyHeap.html#a5923f7607c4a6fb5d756dd503d51eab9",tooltip="returns the kth nearest element or null if none there."];
+  Node2 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="moa.classifiers.lazy.neighboursearch.NearestNeighbourSearch.MyHeap.noOfKthNearest",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1NearestNeighbourSearch_1_1MyHeap.html#a34366c6deedbe3a9a54b6635757eb3dd",tooltip="returns the number of k nearest."];
+  Node2 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="moa.classifiers.lazy.neighboursearch.NearestNeighbourSearch.MyHeap.peek",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1NearestNeighbourSearch_1_1MyHeap.html#aa3280d69fcf91e98c280c8e77843fcff",tooltip="peeks at the first element."];
+  Node2 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="moa.classifiers.lazy.neighboursearch.DistanceFunction.postProcessDistances",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interfacemoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1DistanceFunction.html#a4214e297cf5a570a098018d628ff9ec5",tooltip="Does post processing of the distances (if necessary) returned by distance(distance(Instance..."];
+  Node2 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="moa.classifiers.lazy.neighboursearch.NearestNeighbourSearch.MyHeap.put",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1NearestNeighbourSearch_1_1MyHeap.html#a0c36c44e6651e71b1c82b32200c78d06",tooltip="adds the value to the heap."];
+  Node10 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="moa.classifiers.lazy.neighboursearch.NearestNeighbourSearch.MyHeap.upheap",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1NearestNeighbourSearch_1_1MyHeap.html#ad88c01990eee35c64c5acc6113dc3aa4",tooltip="performs upheap operation for the heap to maintian its properties."];
+  Node2 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="moa.classifiers.lazy.neighboursearch.NearestNeighbourSearch.MyHeap.putBySubstitute",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1NearestNeighbourSearch_1_1MyHeap.html#a3868c19d0a061d4a74089d640216e84c",tooltip="Puts an element by substituting it in place of the top most element."];
+  Node12 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="moa.classifiers.lazy.neighboursearch.NearestNeighbourSearch.MyHeap.putKthNearest",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1NearestNeighbourSearch_1_1MyHeap.html#a1dbdd504b8b5333acd68f107ecc9ef72",tooltip="Stores kth nearest elements (if there are more than one)."];
+  Node2 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="moa.classifiers.lazy.neighboursearch.NearestNeighbourSearch.MyHeap.size",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1NearestNeighbourSearch_1_1MyHeap.html#ac9e877c56727dda18be2021c4c99df44",tooltip="returns the size of the heap."];
+}

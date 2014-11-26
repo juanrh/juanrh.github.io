@@ -1,0 +1,20 @@
+digraph G
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{moa.classifiers.trees.AdaHoeffdingOptionTree.AdaLearningNode\n|# mcCorrectWeight\l# nbCorrectWeight\l# CorrectWeight\l# alpha\l- serialVersionUID\l|+ AdaLearningNode()\l+ learnFromInstance()\l+ getClassVotes()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node2 -> Node1 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node2 [label="{moa.classifiers.trees.HoeffdingOptionTree.LearningNodeNB\n|- serialVersionUID\l|+ LearningNodeNB()\l+ getClassVotes()\l+ disableAttribute()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1trees_1_1HoeffdingOptionTree_1_1LearningNodeNB.html"];
+  Node3 -> Node2 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node3 [label="{moa.classifiers.trees.HoeffdingOptionTree.ActiveLearningNode\n|# weightSeenAtLastSplitEvaluation\l# attributeObservers\l- serialVersionUID\l|+ ActiveLearningNode()\l+ calcByteSize()\l+ learnFromInstance()\l+ getWeightSeen()\l+ getWeightSeenAtLastSplitEvaluation()\l+ setWeightSeenAtLastSplitEvaluation()\l+ getBestSplitSuggestions()\l+ disableAttribute()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1trees_1_1HoeffdingOptionTree_1_1ActiveLearningNode.html"];
+  Node4 -> Node3 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node4 [label="{moa.classifiers.trees.HoeffdingOptionTree.LearningNode\n|- serialVersionUID\l|+ LearningNode()\l+ learnFromInstance()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1trees_1_1HoeffdingOptionTree_1_1LearningNode.html"];
+  Node5 -> Node4 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node5 [label="{moa.classifiers.trees.HoeffdingOptionTree.Node\n|# observedClassDistribution\l- serialVersionUID\l|+ Node()\l+ calcByteSize()\l+ calcByteSizeIncludingSubtree()\l+ isLeaf()\l+ filterInstanceToLeaves()\l+ filterInstanceToLeaves()\l+ getObservedClassDistribution()\l+ getClassVotes()\l+ observedClassDistributionIsPure()\l+ describeSubtree()\l+ subtreeDepth()\l+ calculatePromise()\l+ getDescription()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1trees_1_1HoeffdingOptionTree_1_1Node.html"];
+  Node6 -> Node5 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node6 [label="{moa.AbstractMOAObject\n||+ copy()\l+ measureByteSize()\l+ toString()\l+ copy()\l+ measureByteSize()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1AbstractMOAObject.html",tooltip="Abstract MOA Object."];
+  Node7 -> Node6 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node7 [label="{moa.MOAObject\n||+ measureByteSize()\l+ copy()\l+ getDescription()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interfacemoa_1_1MOAObject.html",tooltip="Interface implemented by classes in MOA, so that all are serializable, can produce..."];
+  Node8 -> Node7 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node8 [label="{Serializable\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+}

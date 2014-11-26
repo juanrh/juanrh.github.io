@@ -1,0 +1,4 @@
+<map id="G" name="G">
+<area shape="rect" id="node5" href="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1KDTree.html" title="Class implementing the KDTree search algorithm for nearest neighbour search." alt="" coords="5,619,291,1727"/>
+<area shape="rect" id="node7" href="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1LinearNNSearch.html" title="Class implementing the brute force search algorithm for nearest neighbour search..." alt="" coords="315,1018,651,1329"/>
+</map>

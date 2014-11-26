@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1NearestNeighbourSearch_1_1MyHeap.html#a0c36c44e6651e71b1c82b32200c78d06" title="adds the value to the heap." alt="" coords="625,5,1087,35"/>
+<area shape="rect" id="node7" href="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1NearestNeighbourSearch_1_1MyHeap.html#a1dbdd504b8b5333acd68f107ecc9ef72" title="Stores kth nearest elements (if there are more than one)." alt="" coords="592,59,1120,88"/>
+<area shape="rect" id="node5" href="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1NearestNeighbourSearch_1_1MyHeap.html#ad88c01990eee35c64c5acc6113dc3aa4" title="performs upheap operation for the heap to maintian its properties." alt="" coords="1169,5,1655,35"/>
+</map>

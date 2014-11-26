@@ -1,0 +1,8 @@
+<map id="G" name="G">
+<area shape="rect" id="node2" href="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1NearestNeighbourSearch.html" title="Abstract class for nearest neighbour search." alt="" coords="5,1539,392,1971"/>
+<area shape="rect" id="node16" href="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1kdtrees_1_1KDTreeNodeSplitter.html" title="Class that splits up a KDTreeNode." alt="" coords="592,1565,997,1945"/>
+<area shape="rect" id="node21" href="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1kdtrees_1_1KDTreeNode.html" title="A class representing a KDTree node." alt="" coords="1021,1573,1384,1936"/>
+<area shape="rect" id="node6" href="$interfacemoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1DistanceFunction.html" title="Interface for any class that can compute and return distances between two instances..." alt="" coords="83,6,424,247"/>
+<area shape="rect" id="node12" href="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1NormalizableDistance.html" title="Represents the abstract ancestor for normalizable distance functions, like Euclidean..." alt="" coords="396,315,764,1163"/>
+<area shape="rect" id="node10" href="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1EuclideanDistance.html" title="Implementing Euclidean distance (or similarity) function." alt="" coords="461,1230,811,1471"/>
+</map>

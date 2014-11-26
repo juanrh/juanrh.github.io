@@ -1,0 +1,7 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1gui_1_1FloatOptionEditComponent.html#aa8731aebc1eb70ed1932d5545b98e65a" title="moa.gui.FloatOptionEditComponent.floatValueToSliderValue" alt="" coords="448,86,819,116"/>
+<area shape="rect" id="node5" href="$classmoa_1_1options_1_1FloatOption.html#a69376a84dae43165cac89ceba09fb4f3" title="moa.options.FloatOption.getMaxValue" alt="" coords="871,33,1113,62"/>
+<area shape="rect" id="node7" href="$classmoa_1_1options_1_1FloatOption.html#a35baa5ddee9e332fc1abe86cb42c8777" title="moa.options.FloatOption.getMinValue" alt="" coords="872,86,1112,116"/>
+<area shape="rect" id="node11" href="$classmoa_1_1options_1_1FloatOption.html#a0e606a62f4ece232aa8f8cb04bb7f1cf" title="moa.options.FloatOption.getValue" alt="" coords="524,190,743,220"/>
+<area shape="rect" id="node13" href="$classmoa_1_1gui_1_1FloatOptionEditComponent.html#ab8d502853c9408a09129d99b8c4bf78a" title="moa.gui.FloatOptionEditComponent.sliderValueToFloatValue" alt="" coords="447,33,820,62"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1classifiers_1_1meta_1_1RandomRules.html#a79e8a7cb96c8aedc9f25de3763eea057" title="Predicts the class memberships for a given instance." alt="" coords="392,5,747,35"/>
+<area shape="rect" id="node5" href="$classmoa_1_1classifiers_1_1meta_1_1RandomRules.html#ac3bc5ae79d7c859295a83eeec7f514c2" title="Trains this classifier incrementally using the given instance." alt="" coords="395,59,744,88"/>
+</map>

@@ -1,0 +1,21 @@
+digraph G
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir=LR;
+  Node1 [label="moa.options.Option.copy",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="moa.options.ListOption.cliStringToOptionArray",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1options_1_1ListOption.html#ad13b4a3e241d77ba64ec4ba215f3cf0e"];
+  Node2 -> Node3 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="moa.options.ListOption.setValueViaCLIString",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1options_1_1ListOption.html#afe21a21443baf619677a4949a2a8cdb7",tooltip="Sets value of this option via the Command Line Interface text."];
+  Node1 -> Node4 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="moa.options.AbstractOption.copy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1options_1_1AbstractOption.html#a0716ff12efafc1b64e13e8449fd64b25",tooltip="This method produces a copy of this object."];
+  Node4 -> Node5 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="moa.gui.MultiChoiceOptionEditComponent.setEditState",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1gui_1_1MultiChoiceOptionEditComponent.html#a57132212fdf60f69dba525fbc6b44dff",tooltip="Sets the state of the component."];
+  Node4 -> Node6 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="weka.datagenerators.classifiers.classification.MOA.setOptions",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classweka_1_1datagenerators_1_1classifiers_1_1classification_1_1MOA.html#aacb1dcc964f01df70721719ca9cab897",tooltip="Parses a list of options for this object."];
+  Node4 -> Node7 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="weka.classifiers.meta.MOA.setOptions",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classweka_1_1classifiers_1_1meta_1_1MOA.html#a7a68a5201f475d90732e1c240b0bccb0",tooltip="Parses a given list of options."];
+  Node1 -> Node8 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="moa.options.ListOption.setList",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1options_1_1ListOption.html#a93c3a3d9d97566ed2efbd144c9ab7ceb"];
+}

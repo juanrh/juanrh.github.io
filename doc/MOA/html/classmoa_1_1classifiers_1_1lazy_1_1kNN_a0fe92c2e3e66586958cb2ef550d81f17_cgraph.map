@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1options_1_1MultiChoiceOption.html#a5272693a1a0a9f89e135673a6d247dda" title="moa.options.MultiChoiceOption.getChosenIndex" alt="" coords="455,5,756,35"/>
+<area shape="rect" id="node5" href="$classmoa_1_1options_1_1IntOption.html#affae8787274b44ab7616d46b8d6c831a" title="moa.options.IntOption.getValue" alt="" coords="503,59,708,88"/>
+<area shape="rect" id="node7" href="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1NearestNeighbourSearch.html#a9ca1f8804dd5a2eb7801c047a3443b79" title="Returns k nearest instances in the current neighbourhood to the supplied instance..." alt="" coords="351,112,860,141"/>
+<area shape="rect" id="node9" href="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1NearestNeighbourSearch.html#a38f12c2ac927d05908700f3106de9c27" title="Sets the instances." alt="" coords="372,165,839,195"/>
+</map>

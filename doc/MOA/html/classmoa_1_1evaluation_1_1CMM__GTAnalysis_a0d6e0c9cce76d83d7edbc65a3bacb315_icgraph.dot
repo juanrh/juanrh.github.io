@@ -1,0 +1,35 @@
+digraph G
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir=LR;
+  Node1 [label="moa.evaluation.CMM_GTAnalysis.distance",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="moa.evaluation.CMM_GTAnalysis.distance",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1evaluation_1_1CMM__GTAnalysis.html#a0960217ed3b00d28d2b62694263e3126",tooltip="Calculates Euclidian distance."];
+  Node1 -> Node3 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="moa.evaluation.CMM_GTAnalysis.getKnnInCluster",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1evaluation_1_1CMM__GTAnalysis.html#a12f256dabb3d986447d1d0b74a9a0dbc"];
+  Node3 -> Node4 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="moa.evaluation.CMM_GTAnalysis.GTCluster.calculateKnn",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1evaluation_1_1CMM__GTAnalysis_1_1GTCluster.html#a09170ac078e5dbc33442c8fba9aabb68",tooltip="calculate knn distances of points within own cluster + average knn distance and average..."];
+  Node4 -> Node5 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="moa.evaluation.CMM_GTAnalysis.GTCluster.mergeCluster",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1evaluation_1_1CMM__GTAnalysis_1_1GTCluster.html#abfe7a47ed99bca19e98e7b54dd113447",tooltip="Merge a cluster into this cluster."];
+  Node3 -> Node6 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="moa.evaluation.CMM_GTAnalysis.getConnectionValue",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1evaluation_1_1CMM__GTAnalysis.html#a794b653c2c7b7335127f6ca7720ec5ab",tooltip="Calculate the connection of a point to a cluster."];
+  Node6 -> Node7 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="moa.evaluation.CMM_GTAnalysis.GTCluster.calculateClusterConnection",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1evaluation_1_1CMM__GTAnalysis_1_1GTCluster.html#a4491214b1e08b8cfc8d1895fb5038a18",tooltip="Calculate the connection of a cluster to this cluster."];
+  Node6 -> Node8 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="moa.evaluation.CMM_GTAnalysis.calculateGTPointQualities",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1evaluation_1_1CMM__GTAnalysis.html#a9c1e7ad3767a13b46a47e49a9a4de041",tooltip="calculate initial connectivities"];
+  Node8 -> Node9 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="moa.evaluation.CMM_GTAnalysis.CMM_GTAnalysis",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1evaluation_1_1CMM__GTAnalysis.html#af80b5acd2a6d1578a4d3bb13d3e65140"];
+  Node6 -> Node10 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="moa.evaluation.CMM_GTAnalysis.getNoiseSeparability",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1evaluation_1_1CMM__GTAnalysis.html#a5f44be6f2df9384d281d5ac9fb741bb9",tooltip="Calculates how well noise is separable from the given clusters Small values indicate..."];
+  Node10 -> Node11 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="moa.evaluation.CMM.evaluateClustering",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1evaluation_1_1CMM.html#a10e5730f04b5d05fa6eedfbeb6a737a2"];
+  Node6 -> Node12 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="moa.evaluation.CMM.misplacedError",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1evaluation_1_1CMM.html#a6ffba3d0864ff59b4c30f1c2b00dadbb"];
+  Node12 -> Node13 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="moa.evaluation.CMM.calculateError",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1evaluation_1_1CMM.html#a62a625febc2e6b48e955a6e9b75ec410",tooltip="Calculate the actual error values."];
+  Node13 -> Node11 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 -> Node14 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="moa.evaluation.CMM.noiseError",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1evaluation_1_1CMM.html#a9e80b0a7b022dd7630aa29d7b30fd7b8"];
+  Node14 -> Node13 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

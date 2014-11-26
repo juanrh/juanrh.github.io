@@ -1,0 +1,19 @@
+digraph G
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir=LR;
+  Node1 [label="moa.recommender.rc.predictor.impl.BaselinePredictor.predictRating",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="moa.recommender.rc.predictor.impl.BaselinePredictor.predictRatings",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1recommender_1_1rc_1_1predictor_1_1impl_1_1BaselinePredictor.html#a2023b0270df33c781c99c6c99582c290"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="moa.recommender.rc.data.RecommenderData.getAvgRatingItem",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interfacemoa_1_1recommender_1_1rc_1_1data_1_1RecommenderData.html#a2d5c544699d6c096b8760218104c9ba9"];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="moa.recommender.rc.data.RecommenderData.getAvgRatingUser",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interfacemoa_1_1recommender_1_1rc_1_1data_1_1RecommenderData.html#aa8425ba02942abfe786a447e01293746"];
+  Node2 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="moa.recommender.rc.data.RecommenderData.getGlobalMean",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interfacemoa_1_1recommender_1_1rc_1_1data_1_1RecommenderData.html#a38a33b5a06e9f3380bcd7443cd401d15"];
+  Node2 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="moa.recommender.rc.data.RecommenderData.getMaxRating",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interfacemoa_1_1recommender_1_1rc_1_1data_1_1RecommenderData.html#aef2c84df730cf4fd46386103cd73d682"];
+  Node2 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="moa.recommender.rc.data.RecommenderData.getMinRating",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interfacemoa_1_1recommender_1_1rc_1_1data_1_1RecommenderData.html#af4da55520b3f88b53cb7a490426e16c2"];
+}

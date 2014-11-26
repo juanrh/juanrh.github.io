@@ -1,0 +1,8 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1core_1_1DoubleVector.html#a23e127ea53ce786c62c35d14f5b7b878" title="moa.core.DoubleVector.addValues" alt="" coords="569,5,793,35"/>
+<area shape="rect" id="node5" href="$classmoa_1_1core_1_1DoubleVector.html#a0cd86df680113a943ebb8fcf60819ece" title="moa.core.DoubleVector.getArrayRef" alt="" coords="928,51,1160,80"/>
+<area shape="rect" id="node8" href="$classmoa_1_1core_1_1DoubleVector.html#a5c1ca3a089253b5e9bddbe6b9109be98" title="moa.core.DoubleVector.normalize" alt="" coords="572,160,791,189"/>
+<area shape="rect" id="node10" href="$classmoa_1_1core_1_1DoubleVector.html#adcc64b699e7e480763be5a71529d23a3" title="moa.core.DoubleVector.scaleValues" alt="" coords="927,116,1161,145"/>
+<area shape="rect" id="node12" href="$classmoa_1_1core_1_1DoubleVector.html#acafa367bb17b33b844486adfa1b2780a" title="moa.core.DoubleVector.sumOfValues" alt="" coords="923,193,1165,223"/>
+<area shape="rect" id="node16" href="$classmoa_1_1classifiers_1_1AbstractClassifier.html#af50c85f56d8192f9cf56e621a835b00c" title="Gets the sum of the weights of the instances that have been used by this classifier..." alt="" coords="488,264,875,293"/>
+</map>

@@ -1,0 +1,12 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1gui_1_1outliertab_1_1OutlierSetupTab.html#ac255e5a0ff0cf619005bef5f49abcfe5" title="moa.gui.outliertab.OutlierSetupTab.toggle" alt="" coords="316,59,577,88"/>
+<area shape="rect" id="node5" href="$classmoa_1_1gui_1_1outliertab_1_1OutlierSetupTab.html#a887507ee305c4abb21a1afe732e5cfa8" title="moa.gui.outliertab.OutlierSetupTab.buttonStartActionPerformed" alt="" coords="628,5,1015,35"/>
+<area shape="rect" id="node15" href="$classmoa_1_1gui_1_1outliertab_1_1OutlierSetupTab.html#afac1924e7a91f024d1df375ed48ff76f" title="moa.gui.outliertab.OutlierSetupTab.toggleRunMode" alt="" coords="663,59,980,88"/>
+<area shape="rect" id="node7" href="$classmoa_1_1gui_1_1outliertab_1_1OutlierSetupTab.html#ae10be48e362dd993dae6190b160d47cf" title="This method is called from within the constructor to initialize the form." alt="" coords="1067,5,1384,35"/>
+<area shape="rect" id="node9" href="$classmoa_1_1gui_1_1outliertab_1_1OutlierSetupTab.html#a8417656c29bc1d97a94e52d3d88688ad" title="Creates new form outlierSetupTab." alt="" coords="1448,5,1768,35"/>
+<area shape="rect" id="node11" href="$classmoa_1_1gui_1_1outliertab_1_1OutlierTabPanel.html#a6146155a96c2c5239f46f5566797e5fd" title="This method is called from within the constructor to initialize the form." alt="" coords="1829,5,2147,35"/>
+<area shape="rect" id="node13" href="$classmoa_1_1gui_1_1outliertab_1_1OutlierTabPanel.html#a78f57b4c096f3587a549789072283a7b" title="Creates new form ClusterTab." alt="" coords="2196,5,2513,35"/>
+<area shape="rect" id="node17" href="$classmoa_1_1gui_1_1outliertab_1_1OutlierVisualTab.html#adcbf96ed6d5d79c6d5e09f0f3eb81ad0" title="moa.gui.outliertab.OutlierVisualTab.toggleVisualizer" alt="" coords="1065,84,1385,113"/>
+<area shape="rect" id="node19" href="$classmoa_1_1gui_1_1visualization_1_1RunOutlierVisualizer.html#a2ce3238eb000cd4f1be8ea553920e688" title="moa.gui.visualization.RunOutlierVisualizer.processData" alt="" coords="1436,84,1780,113"/>
+<area shape="rect" id="node21" href="$classmoa_1_1gui_1_1visualization_1_1RunOutlierVisualizer.html#a0bf0a5051db38b649892d86aa7cab5ce" title="moa.gui.visualization.RunOutlierVisualizer.run" alt="" coords="1844,84,2132,113"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" id="node2" href="$classmoa_1_1classifiers_1_1trees_1_1ORTO_1_1Node.html" title="{moa.classifiers.trees.ORTO.Node\n|+ ID\l# parent\l# alternateTree\l# Alternate\l# Adaptable\l&#45; serialVersionUID\l|+ Node()\l+ getDescription()\l+ calcByteSize()\l+ isLeaf()\l+ calculateDetph()\l+ getLevel()\l+ setParent()\l+ getParent()\l+ setChild()\l+ getChildIndex()\l+ getNumSubtrees()\l+ processInstance()\l+ getPrediction()\l+ setAdaptable()\l+ setAlternate()\l}" alt="" coords="49,510,268,925"/>
+<area shape="rect" id="node4" href="$classmoa_1_1AbstractMOAObject.html" title="Abstract MOA Object." alt="" coords="75,307,243,461"/>
+<area shape="rect" id="node6" href="$interfacemoa_1_1MOAObject.html" title="Interface implemented by classes in MOA, so that all are serializable, can produce..." alt="" coords="87,139,231,259"/>
+</map>

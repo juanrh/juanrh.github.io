@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" id="node2" href="$classmoa_1_1AbstractMOAObject.html" title="Abstract MOA Object." alt="" coords="5,459,173,613"/>
+<area shape="rect" id="node4" href="$interfacemoa_1_1MOAObject.html" title="Interface implemented by classes in MOA, so that all are serializable, can produce..." alt="" coords="17,141,161,261"/>
+<area shape="rect" id="node8" href="$classmoa_1_1evaluation_1_1MembershipMatrix.html" title="{moa.evaluation.MembershipMatrix\n|~ classmap\l~ cluster_class_weights\l~ cluster_sums\l~ class_sums\l~ total_entries\l~ class_distribution\l~ total_class_entries\l~ initalBuildTimestamp\l|+ MembershipMatrix()\l+ getClusterClassWeight()\l+ getClusterSum()\l+ getClassSum()\l+ getClassDistribution()\l+ getClusterClassWeightByLabel()\l+ getClassSumByLabel()\l+ getClassDistributionByLabel()\l+ getTotalEntries()\l+ getNumClasses()\l+ hasNoiseClass()\l+ toString()\l+ getInitalBuildTimestamp()\l}" alt="" coords="197,329,421,743"/>
+</map>

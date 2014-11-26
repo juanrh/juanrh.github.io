@@ -1,0 +1,14 @@
+digraph G
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{moa.gui.outliertab.OutlierEvalPanel\n|~ measure_classes\l~ labels\l~ checkboxes\l- contentPanel\l- scrollPane\l|+ OutlierEvalPanel()\l+ getSelectedMeasures()\l- addComponents()\l- findMeasureClasses()\l- initComponents()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node2 -> Node1 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="checkboxes",arrowtail="open",fontname="Helvetica"];
+  Node2 [label="{ArrayList\< JCheckBox \>\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node3 -> Node1 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="labels",arrowtail="open",fontname="Helvetica"];
+  Node3 [label="{ArrayList\< JLabel \>\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node4 -> Node1 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="contentPanel",arrowtail="open",fontname="Helvetica"];
+  Node4 [label="{JPanel\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node5 -> Node1 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="scrollPane",arrowtail="open",fontname="Helvetica"];
+  Node5 [label="{JScrollPane\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+}

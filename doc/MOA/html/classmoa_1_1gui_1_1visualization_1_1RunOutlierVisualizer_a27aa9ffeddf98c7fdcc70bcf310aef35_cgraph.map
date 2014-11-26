@@ -1,0 +1,7 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1gui_1_1TextViewerPanel.html#ac985c1592b561c42e50ff9d22ff1e917" title="moa.gui.TextViewerPanel.addText" alt="" coords="496,5,717,35"/>
+<area shape="rect" id="node7" href="$classmoa_1_1evaluation_1_1OutlierPerformance.html#aaa6a2463880bccfbdcbc7808e70ef9dc" title="moa.evaluation.OutlierPerformance.addTimePerObject" alt="" coords="437,59,776,88"/>
+<area shape="rect" id="node11" href="$classmoa_1_1gui_1_1visualization_1_1GraphCanvas.html#adc8ee0602dba6a004e742d018247d6d3" title="moa.gui.visualization.GraphCanvas.updateCanvas" alt="" coords="449,112,764,141"/>
+<area shape="rect" id="node5" href="$classmoa_1_1gui_1_1TextViewerPanel.html#ac09cb6daf98fc5b812dd330a4eeb4b11" title="moa.gui.TextViewerPanel.setText" alt="" coords="855,5,1073,35"/>
+<area shape="rect" id="node9" href="$classmoa_1_1evaluation_1_1MeasureCollection.html#a344a1c04e2e600092750c6676b9c9906" title="moa.evaluation.MeasureCollection.addValue" alt="" coords="824,59,1104,88"/>
+</map>

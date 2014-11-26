@@ -1,0 +1,15 @@
+digraph G
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir=LR;
+  Node1 [label="moa.classifiers.trees.HoeffdingTree.newNominalClassObserver",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="moa.classifiers.trees.RandomHoeffdingTree.RandomLearningNode.learnFromInstance",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1trees_1_1RandomHoeffdingTree_1_1RandomLearningNode.html#a08daf5742c21e4fc13263c3231cb0325"];
+  Node1 -> Node3 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="moa.classifiers.trees.LimAttHoeffdingTree.LimAttLearningNode.learnFromInstance",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1trees_1_1LimAttHoeffdingTree_1_1LimAttLearningNode.html#a679906b78fc02aece5999bddfa6f3eb6"];
+  Node1 -> Node4 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="moa.classifiers.trees.HoeffdingTree.ActiveLearningNode.learnFromInstance",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1trees_1_1HoeffdingTree_1_1ActiveLearningNode.html#ac5b3cfde80e659fe0ee639be3af002ab"];
+  Node1 -> Node5 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="moa.classifiers.multilabel.MultilabelHoeffdingTree.MultilabelLearningNodeClassifier.learnFromInstance",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1multilabel_1_1MultilabelHoeffdingTree_1_1MultilabelLearningNodeClassifier.html#aca30c59bc3ec444f039c68b130be8be1"];
+}

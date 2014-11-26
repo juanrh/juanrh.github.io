@@ -1,0 +1,8 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1clusterers_1_1streamkm_1_1StreamKM.html#a3f146ea50791579e0d0615e999e67698" title="moa.clusterers.streamkm.StreamKM.chooseRandomCentres" alt="" coords="383,32,759,61"/>
+<area shape="rect" id="node11" href="$classmoa_1_1clusterers_1_1streamkm_1_1Point.html#adf34aa2f1b021756192d0d1f6ae48896" title="Computes the index of the centre nearest to this point with the given array of centres..." alt="" coords="373,85,768,115"/>
+<area shape="rect" id="node13" href="$classmoa_1_1clusterers_1_1streamkm_1_1StreamKM.html#a9c8d1bcb1edfd1fc869f5221d849e7ed" title="computes the target function for the given pointarray points[] (of size n) with the..." alt="" coords="393,139,748,168"/>
+<area shape="rect" id="node5" href="$classmoa_1_1clusterers_1_1streamkm_1_1Point.html#af098eed8f68f80e30385b7ef1e4e635c" title="moa.clusterers.streamkm.Point.clone" alt="" coords="863,5,1100,35"/>
+<area shape="rect" id="node9" href="$classmoa_1_1clusterers_1_1streamkm_1_1Point.html#a6803cf2181e2adf18cced20fc5c67ff9" title="Computes the cost of this point with centre centre." alt="" coords="816,59,1147,88"/>
+<area shape="rect" id="node7" href="$classmoa_1_1clusterers_1_1streamkm_1_1Point.html#abf88e6027d22543a2d4fe694c9ae77ec" title="moa.clusterers.streamkm.Point.Point" alt="" coords="1196,5,1433,35"/>
+</map>

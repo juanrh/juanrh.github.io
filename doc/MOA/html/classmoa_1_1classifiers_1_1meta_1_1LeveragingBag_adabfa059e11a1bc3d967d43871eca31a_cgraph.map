@@ -1,0 +1,10 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1classifiers_1_1AbstractClassifier.html#a0a5d3c3df5b27390f6830fed829540ea" title="Gets whether this classifier correctly classifies an instance." alt="" coords="419,5,749,35"/>
+<area shape="rect" id="node7" href="$interfacemoa_1_1classifiers_1_1Classifier.html#a8348b4106e79422d3dec0a1857d402f3" title="Gets whether this classifier correctly classifies an instance." alt="" coords="444,59,724,88"/>
+<area shape="rect" id="node9" href="$classmoa_1_1options_1_1MultiChoiceOption.html#a5272693a1a0a9f89e135673a6d247dda" title="moa.options.MultiChoiceOption.getChosenIndex" alt="" coords="433,112,735,141"/>
+<area shape="rect" id="node11" href="$classmoa_1_1classifiers_1_1core_1_1driftdetection_1_1ADWIN.html#a120e390a4505f5e4590935d1a7bee322" title="moa.classifiers.core.driftdetection.ADWIN.getEstimation" alt="" coords="408,165,760,195"/>
+<area shape="rect" id="node13" href="$classmoa_1_1options_1_1FloatOption.html#a0e606a62f4ece232aa8f8cb04bb7f1cf" title="moa.options.FloatOption.getValue" alt="" coords="475,219,693,248"/>
+<area shape="rect" id="node15" href="$interfacemoa_1_1classifiers_1_1Classifier.html#a0cb1a2820196bc5e2a95b05a0b6666f0" title="Resets this classifier." alt="" coords="459,272,709,301"/>
+<area shape="rect" id="node17" href="$interfacemoa_1_1classifiers_1_1Classifier.html#ac28018bc307abe34a8ace54dba3ebff1" title="Trains this classifier incrementally using the given instance." alt="" coords="452,325,716,355"/>
+<area shape="rect" id="node5" href="$interfacemoa_1_1classifiers_1_1Classifier.html#a0933ed1199c2b16a8eb8186dabf9a8f9" title="Predicts the class memberships for a given instance." alt="" coords="809,5,1103,35"/>
+</map>

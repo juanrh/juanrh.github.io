@@ -1,0 +1,14 @@
+digraph G
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{moa.clusterers.outliers.AbstractC.ISBIndex\n|~ mtree\l~ mapNodes\l~ m_radius\l~ m_Fraction\l|+ ISBIndex()\l+ RangeSearch()\l+ Insert()\l+ Remove()\l~ MapGetNodes()\l~ MapCountObjRefs()\l~ MapInsert()\l~ MapDelete()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node2 -> Node1 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="mapNodes",arrowtail="open",fontname="Helvetica"];
+  Node2 [label="{Map\< Integer, Set\< ISBNode \> \>\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node3 -> Node1 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="mtree",arrowtail="open",fontname="Helvetica"];
+  Node3 [label="{moa.clusterers.outliers.AbstractC.MyMTree\n|- nonRandomPromotion\l|+ add()\l+ remove()\l~ MyMTree()\l~ getDistanceFunction()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1clusterers_1_1outliers_1_1AbstractC_1_1MyMTree.html"];
+  Node4 -> Node3 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node4 [label="{moa::clusterers::outliers::utils::mtree::MTree\< StreamObj \>\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node5 -> Node3 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="nonRandomPromotion",arrowtail="open",fontname="Helvetica"];
+  Node5 [label="{PromotionFunction\< StreamObj \>\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+}

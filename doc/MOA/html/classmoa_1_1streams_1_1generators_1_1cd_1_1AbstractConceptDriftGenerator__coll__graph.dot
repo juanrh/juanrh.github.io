@@ -1,0 +1,48 @@
+digraph G
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{moa.streams.generators.cd.AbstractConceptDriftGenerator\n|+ instanceRandomSeedOption\l+ notBinaryStreamOption\l+ numInstancesConceptOption\l# clusterEvents\l# streamHeader\l# instanceRandom\l# period\l# numInstances\l# change\l- serialVersionUID\l|+ getPurposeString()\l+ getEventsList()\l+ estimatedRemainingInstances()\l+ getHeader()\l+ hasMoreInstances()\l+ isRestartable()\l+ getChange()\l+ nextInstance()\l+ restart()\l+ getDescription()\l# prepareForUseImpl()\l# nextValue()\l- nextbinaryValue()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node2 -> Node1 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node2 [label="{moa.options.AbstractOptionHandler\n|# options\l# classOptionNamesToPreparedObjects\l- serialVersionUID\l|+ getPurposeString()\l+ getOptions()\l+ prepareForUse()\l+ prepareForUse()\l+ getCLICreationString()\l+ copy()\l# prepareForUseImpl()\l# discoverOptionsViaReflection()\l# prepareClassOptions()\l# getPreparedClassOption()\l# getPreparedClassOption()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1options_1_1AbstractOptionHandler.html",tooltip="Abstract Option Handler."];
+  Node3 -> Node2 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node3 [label="{moa.AbstractMOAObject\n||+ copy()\l+ measureByteSize()\l+ toString()\l+ copy()\l+ measureByteSize()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1AbstractMOAObject.html",tooltip="Abstract MOA Object."];
+  Node4 -> Node3 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node4 [label="{moa.MOAObject\n||+ measureByteSize()\l+ copy()\l+ getDescription()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interfacemoa_1_1MOAObject.html",tooltip="Interface implemented by classes in MOA, so that all are serializable, can produce..."];
+  Node5 -> Node4 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node5 [label="{Serializable\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node6 -> Node2 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node6 [label="{moa.options.OptionHandler\n||+ getPurposeString()\l+ getOptions()\l+ prepareForUse()\l+ prepareForUse()\l+ copy()\l+ getCLICreationString()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interfacemoa_1_1options_1_1OptionHandler.html",tooltip="Interface representing an object that handles options or parameters."];
+  Node4 -> Node6 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node7 -> Node2 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="classOptionNamesToPreparedObjects",arrowtail="open",fontname="Helvetica"];
+  Node7 [label="{Map\< String, Object \>\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node8 -> Node2 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="options",arrowtail="open",fontname="Helvetica"];
+  Node8 [label="{moa.options.Options\n|# optionList\l- serialVersionUID\l|+ addOption()\l+ numOptions()\l+ getOption()\l+ getOption()\l+ getOptionArray()\l+ removeOption()\l+ removeOption()\l+ removeAllOptions()\l+ resetToDefaults()\l+ setViaCLIString()\l+ getAsCLIString()\l+ getHelpString()\l+ getHelp()\l+ getDescription()\l# splitParameterFromRemainingOptions()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1options_1_1Options.html",tooltip="File option."];
+  Node3 -> Node8 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node9 -> Node8 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="optionList",arrowtail="open",fontname="Helvetica"];
+  Node9 [label="{List\< Option \>\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node10 -> Node1 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node10 [label="{moa.streams.generators.cd.ConceptDriftGenerator\n||+ getEventsList()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interfacemoa_1_1streams_1_1generators_1_1cd_1_1ConceptDriftGenerator.html"];
+  Node11 -> Node10 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node11 [label="{moa.streams.InstanceStream\n||+ getHeader()\l+ estimatedRemainingInstances()\l+ hasMoreInstances()\l+ nextInstance()\l+ isRestartable()\l+ restart()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interfacemoa_1_1streams_1_1InstanceStream.html",tooltip="Interface representing a data stream of instances."];
+  Node4 -> Node11 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node12 -> Node1 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="streamHeader",arrowtail="open",fontname="Helvetica"];
+  Node12 [label="{moa.core.InstancesHeader\n|- serialVersionUID\l|+ InstancesHeader()\l+ add()\l+ readInstance()\l+ getClassNameString()\l+ getClassLabelString()\l+ getAttributeNameString()\l+ getNominalValueString()\l+ getNumericValueString()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1core_1_1InstancesHeader.html",tooltip="Class for storing the header or context of a data stream."];
+  Node13 -> Node12 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node13 [label="{Instances\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node14 -> Node1 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="instanceRandomSeedOption\nnumInstancesConceptOption",arrowtail="open",fontname="Helvetica"];
+  Node14 [label="{moa.options.IntOption\n|# currentVal\l# defaultVal\l# minVal\l# maxVal\l- serialVersionUID\l|+ IntOption()\l+ IntOption()\l+ setValue()\l+ getValue()\l+ getMinValue()\l+ getMaxValue()\l+ getDefaultCLIString()\l+ getValueAsCLIString()\l+ setValueViaCLIString()\l+ getEditComponent()\l+ cliStringToInt()\l+ intToCLIString()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1options_1_1IntOption.html",tooltip="Int option."];
+  Node15 -> Node14 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node15 [label="{moa.options.AbstractOption\n|+ illegalNameCharacters\l# name\l# cliChar\l# purpose\l|+ AbstractOption()\l+ getName()\l+ getCLIChar()\l+ getPurpose()\l+ resetToDefault()\l+ getStateString()\l+ copy()\l+ getDescription()\l+ getEditComponent()\l+ nameIsLegal()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1options_1_1AbstractOption.html",tooltip="Abstract option."];
+  Node3 -> Node15 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node16 -> Node15 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node16 [label="{moa.options.Option\n||+ getName()\l+ getCLIChar()\l+ getPurpose()\l+ getDefaultCLIString()\l+ setValueViaCLIString()\l+ getValueAsCLIString()\l+ resetToDefault()\l+ getStateString()\l+ copy()\l+ getEditComponent()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interfacemoa_1_1options_1_1Option.html",tooltip="Interface representing an option or parameter."];
+  Node4 -> Node16 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node17 -> Node1 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="notBinaryStreamOption",arrowtail="open",fontname="Helvetica"];
+  Node17 [label="{moa.options.FlagOption\n|# isSet\l- serialVersionUID\l|+ FlagOption()\l+ setValue()\l+ set()\l+ unset()\l+ isSet()\l+ getDefaultCLIString()\l+ getValueAsCLIString()\l+ setValueViaCLIString()\l+ getStateString()\l+ getEditComponent()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1options_1_1FlagOption.html",tooltip="Flag option."];
+  Node15 -> Node17 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node18 -> Node1 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="instanceRandom",arrowtail="open",fontname="Helvetica"];
+  Node18 [label="{Random\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node19 -> Node1 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="clusterEvents",arrowtail="open",fontname="Helvetica"];
+  Node19 [label="{ArrayList\< ClusterEvent \>\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+}

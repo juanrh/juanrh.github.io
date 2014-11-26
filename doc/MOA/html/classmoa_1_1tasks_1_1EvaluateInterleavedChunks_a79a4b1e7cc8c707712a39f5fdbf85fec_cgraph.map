@@ -1,0 +1,32 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$interfacemoa_1_1evaluation_1_1ClassificationPerformanceEvaluator.html#a756e8b88bf5003e44e5fbf6832df840d" title="Adds a learning result to this evaluator." alt="" coords="377,5,761,35"/>
+<area shape="rect" id="node5" href="$classmoa_1_1AbstractMOAObject.html#a3a6260bd8548c1aff6ea46e49c5c52a5" title="This method produces a copy of this object." alt="" coords="469,59,669,88"/>
+<area shape="rect" id="node7" href="$interfacemoa_1_1streams_1_1InstanceStream.html#a9467d8c75f1a43faadd2454bb4a89cfe" title="Gets the estimated number of remaining instances in this stream." alt="" coords="383,112,756,141"/>
+<area shape="rect" id="node9" href="$classmoa_1_1options_1_1FileOption.html#a01615786786a168a9e3b8c5d0f50b1e8" title="moa.options.FileOption.getFile" alt="" coords="471,165,668,195"/>
+<area shape="rect" id="node13" href="$interfacemoa_1_1streams_1_1InstanceStream.html#aa03e43cb5cd8b893392b23ec77e2ca04" title="Gets the header of this stream." alt="" coords="440,219,699,248"/>
+<area shape="rect" id="node15" href="$classmoa_1_1options_1_1AbstractOptionHandler.html#a2d5e872c7c6a32487013ba914c6d3fcc" title="Gets a prepared option of this class." alt="" coords="383,272,756,301"/>
+<area shape="rect" id="node19" href="$classmoa_1_1options_1_1IntOption.html#affae8787274b44ab7616d46b8d6c831a" title="moa.options.IntOption.getValue" alt="" coords="467,325,672,355"/>
+<area shape="rect" id="node21" href="$interfacemoa_1_1classifiers_1_1Classifier.html#a0933ed1199c2b16a8eb8186dabf9a8f9" title="Predicts the class memberships for a given instance." alt="" coords="423,379,716,408"/>
+<area shape="rect" id="node23" href="$interfacemoa_1_1streams_1_1InstanceStream.html#adcce31f5a024f6a73e150da2d1d731df" title="Gets whether this stream has more instances to output." alt="" coords="417,432,721,461"/>
+<area shape="rect" id="node25" href="$classmoa_1_1evaluation_1_1LearningCurve.html#a356a1d7e879cd4cd18204bc3dca8c0c2" title="moa.evaluation.LearningCurve.insertEntry" alt="" coords="437,485,701,515"/>
+<area shape="rect" id="node43" href="$interfacemoa_1_1MOAObject.html#aedac80a3df76a6ff7407431770d114ef" title="Gets the memory size of this object." alt="" coords="456,539,683,568"/>
+<area shape="rect" id="node45" href="$interfacemoa_1_1streams_1_1InstanceStream.html#ae68c1c47c4dac2e591745a21e8cc120a" title="Gets the next instance from this stream." alt="" coords="433,592,705,621"/>
+<area shape="rect" id="node47" href="$classmoa_1_1evaluation_1_1LearningCurve.html#a3c3e920e9fa8d5d355c31e48ed59a2fb" title="moa.evaluation.LearningCurve.numEntries" alt="" coords="436,645,703,675"/>
+<area shape="rect" id="node49" href="$interfacemoa_1_1tasks_1_1TaskMonitor.html#af0081392613c25cb1a31b3e5a45674d1" title="Gets whether there is a request for preview the task result." alt="" coords="417,699,721,728"/>
+<area shape="rect" id="node51" href="$interfacemoa_1_1tasks_1_1TaskMonitor.html#aa5eff409d63bfacd92fe2f062d373781" title="Sets the description and the percentage done of the current activity." alt="" coords="436,752,703,781"/>
+<area shape="rect" id="node53" href="$interfacemoa_1_1tasks_1_1TaskMonitor.html#a250c782c4d19dc5609afc32a96ac90f8" title="Sets the percentage done of the current activity." alt="" coords="384,805,755,835"/>
+<area shape="rect" id="node55" href="$interfacemoa_1_1tasks_1_1TaskMonitor.html#a1b6f9b951f02111a3461e26c9a6c2936" title="Sets the current result to preview." alt="" coords="419,859,720,888"/>
+<area shape="rect" id="node57" href="$interfacemoa_1_1classifiers_1_1Classifier.html#ada37a6c356ff9f4349e9f9a189f52978" title="Sets the reference to the header of the data stream." alt="" coords="433,912,705,941"/>
+<area shape="rect" id="node59" href="$interfacemoa_1_1tasks_1_1TaskMonitor.html#af2758f6ce28872acf61d6b3495cd4439" title="Gets whether the task should abort." alt="" coords="440,965,699,995"/>
+<area shape="rect" id="node61" href="$interfacemoa_1_1classifiers_1_1Classifier.html#ac28018bc307abe34a8ace54dba3ebff1" title="Trains this classifier incrementally using the given instance." alt="" coords="437,1019,701,1048"/>
+<area shape="rect" id="node11" href="$classmoa_1_1options_1_1StringOption.html#acdafb10f476c4aacf74bf51adb2b4732" title="moa.options.StringOption.getValue" alt="" coords="891,165,1115,195"/>
+<area shape="rect" id="node17" href="$classmoa_1_1options_1_1AbstractOption.html#a26d25b88bb5244ed3c2ec142bd28353d" title="Gets the name of this option." alt="" coords="883,272,1123,301"/>
+<area shape="rect" id="node27" href="$classmoa_1_1evaluation_1_1LearningCurve.html#a921b0e83024ed7273467498d09b9adb5" title="moa.evaluation.LearningCurve.addMeasurementName" alt="" coords="835,325,1171,355"/>
+<area shape="rect" id="node29" href="$classmoa_1_1core_1_1DoubleVector.html#a0cd86df680113a943ebb8fcf60819ece" title="moa.core.DoubleVector.getArrayRef" alt="" coords="887,379,1119,408"/>
+<area shape="rect" id="node31" href="$classmoa_1_1core_1_1Measurement.html#a17f8534853faa467f92e84622e636c26" title="moa.core.Measurement.getMeasurementNamed" alt="" coords="852,432,1153,461"/>
+<area shape="rect" id="node33" href="$classmoa_1_1evaluation_1_1LearningEvaluation.html#a1f940c2734c16133454e93bec0db47d3" title="moa.evaluation.LearningEvaluation.getMeasurements" alt="" coords="837,485,1168,515"/>
+<area shape="rect" id="node35" href="$classmoa_1_1evaluation_1_1LearningCurve.html#ae7bfae1d90708e1fe7afbd8b6fdf6181" title="moa.evaluation.LearningCurve.getOrderingMeasurementName" alt="" coords="812,539,1193,568"/>
+<area shape="rect" id="node37" href="$classmoa_1_1core_1_1Measurement.html#ad41c47748a7d029814c61802898d1e0e" title="moa.core.Measurement.getValue" alt="" coords="896,592,1109,621"/>
+<area shape="rect" id="node39" href="$classmoa_1_1core_1_1DoubleVector.html#afdb9ecc487070e6f0943e889a46334b8" title="moa.core.DoubleVector.setValue" alt="" coords="896,645,1109,675"/>
+<area shape="rect" id="node41" href="$classmoa_1_1core_1_1DoubleVector.html#a9cfebf9a8c5e93615037459ed6bd63a7" title="moa.core.DoubleVector.setArrayLength" alt="" coords="1243,645,1493,675"/>
+</map>

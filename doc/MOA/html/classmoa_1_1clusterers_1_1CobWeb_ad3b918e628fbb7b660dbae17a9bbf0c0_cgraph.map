@@ -1,0 +1,8 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1clusterers_1_1CobWeb_1_1CNode.html#a14d4e49d58c855753e1099332a2d720d" title="Recursively build a clustering representation of the Cobweb tree." alt="" coords="336,5,683,35"/>
+<area shape="rect" id="node12" href="$classmoa_1_1clusterers_1_1CobWeb.html#a17c91a5df1764daa0100745b01f53dd2" title="Returns the number of clusters." alt="" coords="373,59,645,88"/>
+<area shape="rect" id="node15" href="$classmoa_1_1cluster_1_1Clustering.html#a054a386d94acf3b88574f061ab4c8d71" title="moa.cluster.Clustering.size" alt="" coords="419,112,600,141"/>
+<area shape="rect" id="node5" href="$classmoa_1_1cluster_1_1Clustering.html#a7b39cc3d6666cb758b8954ecbe0ce2e9" title="add a cluster to the clustering" alt="" coords="808,5,987,35"/>
+<area shape="rect" id="node7" href="$classmoa_1_1clusterers_1_1CobWeb.html#a64868727f7871226f69d36e9f2ec2006" title="determines the number of clusters if necessary" alt="" coords="731,59,1064,88"/>
+<area shape="rect" id="node9" href="$classmoa_1_1clusterers_1_1CobWeb_1_1CNode.html#a05ee9de936591cb08e1b65cdaaf89c01" title="Recursively assigns numbers to the nodes in the tree." alt="" coords="1113,59,1439,88"/>
+</map>

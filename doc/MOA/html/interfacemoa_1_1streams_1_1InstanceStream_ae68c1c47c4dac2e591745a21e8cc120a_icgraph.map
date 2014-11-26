@@ -1,0 +1,38 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1tasks_1_1WriteStreamToARFFFile.html#a2832be2d0c4ddf2677960536e2591c9c" title="This method performs this task." alt="" coords="416,5,723,35"/>
+<area shape="rect" id="node5" href="$classmoa_1_1tasks_1_1MeasureStreamSpeed.html#a4a6c07d0fd25e948910b8b42df26f00a" title="This method performs this task." alt="" coords="424,59,715,88"/>
+<area shape="rect" id="node7" href="$classmoa_1_1tasks_1_1LearnModelRegression.html#a733d312eab32154856c8a4f18238eb5b" title="This method performs this task." alt="" coords="423,112,716,141"/>
+<area shape="rect" id="node9" href="$classmoa_1_1tasks_1_1LearnModel.html#a458fb13420761f68401ac4ae6b3605d8" title="This method performs this task." alt="" coords="455,165,684,195"/>
+<area shape="rect" id="node11" href="$classmoa_1_1tasks_1_1EvaluatePrequentialRegression.html#aebef8e4e09d6c72c08f3c8de0a94b712" title="This method performs this task." alt="" coords="397,219,741,248"/>
+<area shape="rect" id="node13" href="$classmoa_1_1tasks_1_1EvaluatePrequential.html#a2ad9727938880a3f31cab2544040eed1" title="This method performs this task." alt="" coords="431,272,708,301"/>
+<area shape="rect" id="node15" href="$classmoa_1_1tasks_1_1EvaluatePeriodicHeldOutTest.html#a71f8d46e07fbec833b8f4bf669ac5854" title="This method performs this task." alt="" coords="403,325,736,355"/>
+<area shape="rect" id="node17" href="$classmoa_1_1tasks_1_1EvaluateModelRegression.html#a1456d9f54442afa76e62fd1fbcf0c091" title="This method performs this task." alt="" coords="412,379,727,408"/>
+<area shape="rect" id="node19" href="$classmoa_1_1tasks_1_1EvaluateModel.html#ad72d33b5ea34a0b733c6e177f9dbb3ea" title="This method performs this task." alt="" coords="445,432,693,461"/>
+<area shape="rect" id="node21" href="$classmoa_1_1tasks_1_1EvaluateInterleavedTestThenTrain.html#a6b487518dd5bfdc97abe37263f725610" title="This method performs this task." alt="" coords="389,485,749,515"/>
+<area shape="rect" id="node23" href="$classmoa_1_1tasks_1_1EvaluateInterleavedChunks.html#a79a4b1e7cc8c707712a39f5fdbf85fec" title="This method performs this task." alt="" coords="408,539,731,568"/>
+<area shape="rect" id="node25" href="$classmoa_1_1tasks_1_1EvaluateConceptDrift.html#a83715b3b435b89c3aff5d7e948cc2274" title="This method performs this task." alt="" coords="427,592,712,621"/>
+<area shape="rect" id="node27" href="$classmoa_1_1tasks_1_1CacheShuffledStream.html#a4afb4d9579d0f2adbab79252bba907a6" title="This method performs this task." alt="" coords="427,645,712,675"/>
+<area shape="rect" id="node29" href="$classweka_1_1datagenerators_1_1classifiers_1_1classification_1_1MOA.html#a2c872cf0edbb586eac5f1400fcf10eea" title="Generates one example of the dataset." alt="" coords="357,699,781,728"/>
+<area shape="rect" id="node33" href="$classmoa_1_1streams_1_1generators_1_1multilabel_1_1MetaMultilabelGenerator.html#a376824934942c577494825ab99fe5428" title="moa.streams.generators.multilabel.MetaMultilabelGenerator.getNextWithBinary" alt="" coords="329,752,809,781"/>
+<area shape="rect" id="node39" href="$classmoa_1_1streams_1_1filters_1_1CacheFilter.html#abb650dc3baa644d7f3a5af53a4741fa6" title="moa.streams.filters.CacheFilter.init" alt="" coords="456,805,683,835"/>
+<area shape="rect" id="node43" href="$classmoa_1_1streams_1_1MultiFilteredStream.html#a824caead88539e3a6507c6a86a36d019" title="Gets the next instance from this stream." alt="" coords="423,859,716,888"/>
+<area shape="rect" id="node45" href="$classmoa_1_1streams_1_1filters_1_1ReplacingMissingValuesFilter.html#a9b7cbb2c9ec4c9efc3ae862dee441d5a" title="Gets the next instance from this stream." alt="" coords="375,912,764,941"/>
+<area shape="rect" id="node47" href="$classmoa_1_1streams_1_1filters_1_1AddNoiseFilter.html#aa2b74031522eba8bf0b3f570eab687d2" title="Gets the next instance from this stream." alt="" coords="419,965,720,995"/>
+<area shape="rect" id="node49" href="$classmoa_1_1streams_1_1FilteredStream.html#ad7c1e1c929f30796d0edbab953782f56" title="Gets the next instance from this stream." alt="" coords="436,1019,703,1048"/>
+<area shape="rect" id="node51" href="$classmoa_1_1streams_1_1ConceptDriftStream.html#a46a0186de256505cb099b65db8b95220" title="Gets the next instance from this stream." alt="" coords="421,1072,717,1101"/>
+<area shape="rect" id="node53" href="$classmoa_1_1streams_1_1ConceptDriftRealStream.html#a68a089a114f40abbbc01b74e1ae130ee" title="Gets the next instance from this stream." alt="" coords="408,1125,731,1155"/>
+<area shape="rect" id="node55" href="$classmoa_1_1gui_1_1visualization_1_1RunOutlierVisualizer.html#a2ce3238eb000cd4f1be8ea553920e688" title="moa.gui.visualization.RunOutlierVisualizer.processData" alt="" coords="397,1179,741,1208"/>
+<area shape="rect" id="node59" href="$classmoa_1_1streams_1_1ConceptDriftRealStream.html#a4b1b3ad6b4a165524c2e23e62756a9b9" title="Restarts this stream." alt="" coords="427,1232,712,1261"/>
+<area shape="rect" id="node63" href="$classmoa_1_1gui_1_1BatchCmd.html#a7db964ebf4d4cf776dda79fe534b12fb" title="moa.gui.BatchCmd.run" alt="" coords="492,1285,647,1315"/>
+<area shape="rect" id="node69" href="$classmoa_1_1gui_1_1visualization_1_1RunVisualizer.html#af40a82de4ae8183b09175d6e7f392203" title="moa.gui.visualization.RunVisualizer.runVisual" alt="" coords="427,1339,712,1368"/>
+<area shape="rect" id="node31" href="$classweka_1_1datagenerators_1_1classifiers_1_1classification_1_1MOA.html#a9e8d5ed5058e1b5e822d2b2e6fc16781" title="Generates all examples of the dataset." alt="" coords="888,699,1320,728"/>
+<area shape="rect" id="node35" href="$classmoa_1_1streams_1_1generators_1_1multilabel_1_1MetaMultilabelGenerator.html#a47b5d6f46a430821214a56bf2930f1b0" title="GenerateMLInstance." alt="" coords="860,752,1348,781"/>
+<area shape="rect" id="node37" href="$classmoa_1_1streams_1_1generators_1_1multilabel_1_1MetaMultilabelGenerator.html#a865bef942959ffe26b2c647233c8f210" title="GenerateML." alt="" coords="1399,752,1844,781"/>
+<area shape="rect" id="node41" href="$classmoa_1_1streams_1_1filters_1_1CacheFilter.html#a5e742831bcce25dd48a62f65b969852b" title="Restarts this filter." alt="" coords="969,805,1239,835"/>
+<area shape="rect" id="node57" href="$classmoa_1_1gui_1_1visualization_1_1RunOutlierVisualizer.html#a0bf0a5051db38b649892d86aa7cab5ce" title="moa.gui.visualization.RunOutlierVisualizer.run" alt="" coords="960,1179,1248,1208"/>
+<area shape="rect" id="node61" href="$classmoa_1_1streams_1_1ConceptDriftRealStream.html#a52f614f44e7faf104bd770cd04426188" title="This method describes the implementation of how to prepare this object for use." alt="" coords="924,1232,1284,1261"/>
+<area shape="rect" id="node65" href="$classmoa_1_1gui_1_1BatchCmd.html#af9137227d01326b41478389e81c1f8bc" title="moa.gui.BatchCmd.runBatch" alt="" coords="1009,1285,1199,1315"/>
+<area shape="rect" id="node67" href="$classmoa_1_1gui_1_1BatchCmd.html#a4dea1e64cc2bd155a4c71c04890b383f" title="moa.gui.BatchCmd.main" alt="" coords="1539,1285,1704,1315"/>
+<area shape="rect" id="node71" href="$classmoa_1_1gui_1_1visualization_1_1RunVisualizer.html#a499a0fbd6f3ec8c5625af2dd15072839" title="moa.gui.visualization.RunVisualizer.run" alt="" coords="979,1339,1229,1368"/>
+<area shape="rect" id="node73" href="$classmoa_1_1gui_1_1visualization_1_1RunVisualizer.html#ac7da17ff513eaf15f3f2fa147160c580" title="moa.gui.visualization.RunVisualizer.work_pause" alt="" coords="1471,1364,1772,1393"/>
+</map>

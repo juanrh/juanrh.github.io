@@ -1,0 +1,13 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1clusterers_1_1CobWeb_1_1CNode.html#ab622a2cdd76b0906f833c6588bea3589" title="Adds the supplied node as a child of this node." alt="" coords="337,244,631,273"/>
+<area shape="rect" id="node5" href="$classmoa_1_1clusterers_1_1CobWeb_1_1CNode.html#a096ae66519ef87b69bd52f00e7c74cb9" title="moa.clusterers.CobWeb.CNode.cuScoreForBestTwoMerged" alt="" coords="681,140,1055,169"/>
+<area shape="rect" id="node7" href="$classmoa_1_1clusterers_1_1CobWeb_1_1CNode.html#a5b9c90abd6fd96843769c01e37607143" title="Finds a host for the new instance in this nodes children." alt="" coords="1109,86,1371,116"/>
+<area shape="rect" id="node9" href="$classmoa_1_1clusterers_1_1CobWeb_1_1CNode.html#a457373b5f5493e20d5c89e3dc52ea5e7" title="Adds an instance to this cluster." alt="" coords="1427,36,1709,65"/>
+<area shape="rect" id="node14" href="$classmoa_1_1clusterers_1_1CobWeb.html#a09e9388815b3ee60c4330c2e98865f8b" title="Classifies a given instance." alt="" coords="1424,141,1712,170"/>
+<area shape="rect" id="node24" href="$classmoa_1_1clusterers_1_1CobWeb_1_1CNode.html#afe57eac40a943000d56970be91479dcb" title="Creates a new leaf CNode instance." alt="" coords="357,297,611,326"/>
+<area shape="rect" id="node27" href="$classmoa_1_1clusterers_1_1CobWeb_1_1CNode.html#af07f8b9806a42fcfa1fb76e677861f18" title="Temporarily adds a new instance to each of this nodes children in turn and computes..." alt="" coords="701,86,1035,116"/>
+<area shape="rect" id="node16" href="$classmoa_1_1clusterers_1_1CobWeb_1_1CNode.html#ad97ce5a7d8d04b138db99ef78105531f" title="Returns the instances at this node as a string." alt="" coords="732,256,1004,285"/>
+<area shape="rect" id="node12" href="$classmoa_1_1clusterers_1_1CobWeb.html#a283dcfabf9a50957ad7c16ba369353d8" title="Adds an instance to the clusterer." alt="" coords="1761,36,2044,65"/>
+<area shape="rect" id="node18" href="$classmoa_1_1clusterers_1_1CobWeb_1_1CNode.html#aab7f09308a4e2777549330f21339c317" title="Recursively generate the graph string for the Cobweb tree." alt="" coords="1105,268,1375,297"/>
+<area shape="rect" id="node20" href="$classmoa_1_1clusterers_1_1CobWeb.html#afdc4eae6b56a06eaa33172cfb336eaf6" title="Generates the graph string of the Cobweb tree." alt="" coords="1469,268,1667,297"/>
+</map>

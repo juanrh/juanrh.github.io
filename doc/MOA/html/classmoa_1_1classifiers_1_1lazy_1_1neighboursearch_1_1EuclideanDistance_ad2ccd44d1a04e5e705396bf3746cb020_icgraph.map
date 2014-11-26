@@ -1,0 +1,12 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1KDTree.html#abbc9653616653df5e2e22b3b29416da5" title="Returns true if candidate is a full owner in respect to a competitor." alt="" coords="461,5,877,35"/>
+<area shape="rect" id="node11" href="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1EuclideanDistance.html#a7e628744c88c0cae17b32eae109f03c9" title="Returns the index of the closest point to the current instance." alt="" coords="456,112,883,141"/>
+<area shape="rect" id="node16" href="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1KDTree.html#aa7ffdc8c19de967006ae2ed4022f4f3d" title="Returns the distance between a point and an hyperrectangle." alt="" coords="476,59,863,88"/>
+<area shape="rect" id="node19" href="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1KDTree.html#a61aad22ad6a1bc0f0cdbdfa2cb8c5144" title="Returns (in the supplied heap object) the k nearest neighbours of the given instance..." alt="" coords="459,165,880,195"/>
+<area shape="rect" id="node5" href="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1KDTree.html#a159cfbded0e10abe08fdf075f36d3429" title="Refines the ownerlist." alt="" coords="955,59,1320,88"/>
+<area shape="rect" id="node7" href="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1KDTree.html#a202d8bd87aa9c3891f5e2d372537a035" title="Assigns instances to the current centers called candidates." alt="" coords="1393,85,1815,115"/>
+<area shape="rect" id="node9" href="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1KDTree.html#ac00fa079e9081c363b22cac250f2df24" title="Assigns instances to centers using KDTree." alt="" coords="1865,85,2247,115"/>
+<area shape="rect" id="node13" href="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1KDTree.html#abb16f0a6f53c19d87b113236a033937e" title="Assigns instances of this node to center." alt="" coords="932,112,1343,141"/>
+<area shape="rect" id="node21" href="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1KDTree.html#a5549700af886cbd717ec953ef6917dc6" title="Returns the k nearest neighbours of the supplied instance." alt="" coords="933,165,1341,195"/>
+<area shape="rect" id="node23" href="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1KDTree.html#a59d618cbc6693a845ad8cc9709064b32" title="Returns the nearest neighbour of the supplied target instance." alt="" coords="1408,165,1800,195"/>
+</map>

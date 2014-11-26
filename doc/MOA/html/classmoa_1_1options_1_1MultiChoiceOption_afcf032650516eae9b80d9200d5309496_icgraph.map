@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1gui_1_1MultiChoiceOptionEditComponent.html#a8bb0f93ba6a236e776c162ec9792ba94" title="This method applies the state." alt="" coords="359,5,692,35"/>
+<area shape="rect" id="node5" href="$classmoa_1_1options_1_1MultiChoiceOption.html#a952ef7c6e93e47264d1951f2811da65a" title="Sets value of this option via the Command Line Interface text." alt="" coords="359,59,692,88"/>
+<area shape="rect" id="node7" href="$classmoa_1_1gui_1_1MultiChoiceOptionEditComponent.html#a57132212fdf60f69dba525fbc6b44dff" title="Sets the state of the component." alt="" coords="743,59,1087,88"/>
+</map>

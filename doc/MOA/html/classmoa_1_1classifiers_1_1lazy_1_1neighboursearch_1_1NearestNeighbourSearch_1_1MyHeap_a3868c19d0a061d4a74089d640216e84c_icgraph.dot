@@ -1,0 +1,11 @@
+digraph G
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir=LR;
+  Node1 [label="moa.classifiers.lazy.neighboursearch.NearestNeighbourSearch.MyHeap.putBySubstitute",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="moa.classifiers.lazy.neighboursearch.LinearNNSearch.kNearestNeighbours",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1LinearNNSearch.html#af60dd2738258760909208275a7f96bef",tooltip="Returns k nearest instances in the current neighbourhood to the supplied instance..."];
+  Node2 -> Node3 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="moa.classifiers.lazy.neighboursearch.LinearNNSearch.nearestNeighbour",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1LinearNNSearch.html#a84348ab6a9b63c521931fe6794314895",tooltip="Returns the nearest instance in the current neighbourhood to the supplied instance..."];
+}

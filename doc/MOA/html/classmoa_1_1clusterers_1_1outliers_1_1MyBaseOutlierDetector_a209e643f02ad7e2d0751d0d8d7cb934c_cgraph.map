@@ -1,0 +1,8 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1clusterers_1_1outliers_1_1MyBaseOutlierDetector.html#a121c7f713297473bdc9977ee847dc68d" title="moa.clusterers.outliers.MyBaseOutlierDetector.ProcessNewStreamObj" alt="" coords="501,5,936,35"/>
+<area shape="rect" id="node5" href="$classmoa_1_1clusterers_1_1outliers_1_1MyBaseOutlierDetector.html#a77ea6666759649d7eda9b32475de3a71" title="moa.clusterers.outliers.MyBaseOutlierDetector.ShowTimePerObj" alt="" coords="519,59,919,88"/>
+<area shape="rect" id="node11" href="$classmoa_1_1clusterers_1_1outliers_1_1MyBaseOutlierDetector.html#aa16846a8c6f4bd40e1381aa8b3d9b673" title="moa.clusterers.outliers.MyBaseOutlierDetector.UpdateMaxMemUsage" alt="" coords="503,112,935,141"/>
+<area shape="rect" id="node7" href="$classmoa_1_1clusterers_1_1outliers_1_1MyBaseOutlierDetector.html#af7b301217f7338217830e5ee4850b144" title="moa.clusterers.outliers.MyBaseOutlierDetector.Println" alt="" coords="1020,59,1353,88"/>
+<area shape="rect" id="node9" href="$interfacemoa_1_1clusterers_1_1outliers_1_1MyBaseOutlierDetector_1_1PrintMsg.html#a71e22b3711764e75881a9db4fdb67ab8" title="moa.clusterers.outliers.MyBaseOutlierDetector.PrintMsg.println" alt="" coords="1437,59,1827,88"/>
+<area shape="rect" id="node13" href="$classmoa_1_1clusterers_1_1outliers_1_1MyBaseOutlierDetector.html#a24c6d1049cf293d11fe1e19ce7e28ced" title="moa.clusterers.outliers.MyBaseOutlierDetector.GetMemoryUsage" alt="" coords="985,112,1388,141"/>
+</map>

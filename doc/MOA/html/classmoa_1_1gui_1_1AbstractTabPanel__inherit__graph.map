@@ -1,0 +1,7 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1gui_1_1ClassificationTabPanel.html" title="This panel allows the user to select and configure a task, and run it." alt="" coords="5,201,211,356"/>
+<area shape="rect" id="node5" href="$classmoa_1_1gui_1_1clustertab_1_1ClusteringTabPanel.html" title="{moa.gui.clustertab.ClusteringTabPanel\n|&#45; clusteringSetupTab\l&#45; clusteringVisualTab\l&#45; jTabbedPane1\l|+ ClusteringTabPanel()\l+ getTabTitle()\l+ getDescription()\l~ toggle()\l~ stop()\l&#45; initComponents()\l&#45; jTabbedPane1FocusGained()\l&#45; jTabbedPane1MouseClicked()\l}" alt="" coords="235,158,480,399"/>
+<area shape="rect" id="node7" href="$classmoa_1_1gui_1_1ConceptDriftTabPanel.html" title="This panel allows the user to select and configure a task, and run it." alt="" coords="504,201,704,356"/>
+<area shape="rect" id="node9" href="$classmoa_1_1gui_1_1outliertab_1_1OutlierTabPanel.html" title="{moa.gui.outliertab.OutlierTabPanel\n|&#45; outlierSetupTab\l&#45; outlierVisualTab\l&#45; jTabbedPane1\l|+ OutlierTabPanel()\l+ getTabTitle()\l+ getDescription()\l~ toggle()\l~ stop()\l&#45; initComponents()\l&#45; jTabbedPane1FocusGained()\l&#45; jTabbedPane1MouseClicked()\l}" alt="" coords="728,158,949,399"/>
+<area shape="rect" id="node11" href="$classmoa_1_1gui_1_1RegressionTabPanel.html" title="This panel allows the user to select and configure a task, and run it." alt="" coords="973,201,1165,356"/>
+</map>

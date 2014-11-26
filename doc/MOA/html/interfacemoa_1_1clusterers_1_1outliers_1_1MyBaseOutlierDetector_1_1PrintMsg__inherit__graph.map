@@ -1,0 +1,4 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1clusterers_1_1outliers_1_1MyBaseOutlierDetector_1_1StdPrintMsg.html" title="{moa.clusterers.outliers.MyBaseOutlierDetector.StdPrintMsg\n|&#45; printStream\l&#45; fileStream\l|+ StdPrintMsg()\l+ StdPrintMsg()\l+ RedirectToDisplay()\l+ RedirectToFile()\l+ RedirectToFile()\l+ println()\l+ print()\l+ printf()\l}" alt="" coords="5,173,376,397"/>
+<area shape="rect" id="node5" href="$classmoa_1_1gui_1_1visualization_1_1RunOutlierVisualizer_1_1LogPanelPrintMsg.html" title="{moa.gui.visualization.RunOutlierVisualizer.LogPanelPrintMsg\n||+ println()\l+ print()\l+ printf()\l}" alt="" coords="400,225,776,345"/>
+</map>

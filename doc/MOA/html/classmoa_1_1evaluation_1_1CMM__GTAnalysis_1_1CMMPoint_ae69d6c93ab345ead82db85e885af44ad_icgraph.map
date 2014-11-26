@@ -1,0 +1,9 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1evaluation_1_1CMM.html#a62a625febc2e6b48e955a6e9b75ec410" title="Calculate the actual error values." alt="" coords="881,63,1111,92"/>
+<area shape="rect" id="node7" href="$classmoa_1_1evaluation_1_1CMM__GTAnalysis.html#a9c1e7ad3767a13b46a47e49a9a4de041" title="calculate initial connectivities" alt="" coords="405,143,781,172"/>
+<area shape="rect" id="node11" href="$classmoa_1_1evaluation_1_1CMM.html#aba1a33c0add6c87676c79092269a78f0" title="calculates the CMM specific matching between found clusters and ground truth clusters..." alt="" coords="869,195,1123,224"/>
+<area shape="rect" id="node14" href="$classmoa_1_1evaluation_1_1CMM.html#a6ffba3d0864ff59b4c30f1c2b00dadbb" title="moa.evaluation.CMM.misplacedError" alt="" coords="475,36,712,65"/>
+<area shape="rect" id="node17" href="$classmoa_1_1evaluation_1_1CMM.html#a5950816b66854f8eced0d83ea1d558ad" title="moa.evaluation.CMM.missedError" alt="" coords="484,89,703,119"/>
+<area shape="rect" id="node5" href="$classmoa_1_1evaluation_1_1CMM.html#a10e5730f04b5d05fa6eedfbeb6a737a2" title="moa.evaluation.CMM.evaluateClustering" alt="" coords="1211,129,1469,159"/>
+<area shape="rect" id="node9" href="$classmoa_1_1evaluation_1_1CMM__GTAnalysis.html#af80b5acd2a6d1578a4d3bb13d3e65140" title="moa.evaluation.CMM_GTAnalysis.CMM_GTAnalysis" alt="" coords="831,141,1161,171"/>
+</map>

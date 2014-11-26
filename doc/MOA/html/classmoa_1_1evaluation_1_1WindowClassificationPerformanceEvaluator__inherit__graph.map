@@ -1,0 +1,8 @@
+<map id="G" name="G">
+<area shape="rect" id="node17" href="$classmoa_1_1evaluation_1_1MultilabelWindowClassificationPerformanceEvaluator.html" title="Multilabel Window Classification Performance Evaluator." alt="" coords="77,1349,501,1539"/>
+<area shape="rect" id="node2" href="$classmoa_1_1options_1_1AbstractOptionHandler.html" title="Abstract Option Handler." alt="" coords="5,528,261,821"/>
+<area shape="rect" id="node4" href="$classmoa_1_1AbstractMOAObject.html" title="Abstract MOA Object." alt="" coords="39,316,207,471"/>
+<area shape="rect" id="node6" href="$interfacemoa_1_1MOAObject.html" title="Interface implemented by classes in MOA, so that all are serializable, can produce..." alt="" coords="248,139,392,259"/>
+<area shape="rect" id="node10" href="$interfacemoa_1_1options_1_1OptionHandler.html" title="Interface representing an object that handles options or parameters." alt="" coords="231,307,409,479"/>
+<area shape="rect" id="node13" href="$interfacemoa_1_1evaluation_1_1ClassificationPerformanceEvaluator.html" title="Interface implemented by learner evaluators to monitor the results of the learning..." alt="" coords="285,615,608,735"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1KDTree.html#abb16f0a6f53c19d87b113236a033937e" title="Assigns instances of this node to center." alt="" coords="481,5,892,35"/>
+<area shape="rect" id="node5" href="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1KDTree.html#a202d8bd87aa9c3891f5e2d372537a035" title="Assigns instances to the current centers called candidates." alt="" coords="943,5,1364,35"/>
+<area shape="rect" id="node7" href="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1KDTree.html#ac00fa079e9081c363b22cac250f2df24" title="Assigns instances to centers using KDTree." alt="" coords="1415,5,1796,35"/>
+</map>

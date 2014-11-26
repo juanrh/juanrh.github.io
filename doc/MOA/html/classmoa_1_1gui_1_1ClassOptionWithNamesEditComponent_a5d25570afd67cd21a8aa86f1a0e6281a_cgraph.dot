@@ -1,0 +1,26 @@
+digraph G
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir=LR;
+  Node1 [label="moa.gui.ClassOptionWithNamesEditComponent.ClassOptionWithNamesEditComponent",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="moa.gui.ClassOptionWithNamesEditComponent.editObject",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1gui_1_1ClassOptionWithNamesEditComponent.html#abf9a50212b9779490b700a19f87a949d"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="moa.options.ClassOptionWithNames.getClassNames",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1options_1_1ClassOptionWithNames.html#ab5274f07b9bd4ff9cc32d0ac87ab4f5b"];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="moa.options.AbstractClassOption.getNullString",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1options_1_1AbstractClassOption.html#aeeec99e392842f18ebf301603bc974c7",tooltip="Gets the null string of this option."];
+  Node2 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="moa.options.AbstractClassOption.getRequiredType",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1options_1_1AbstractClassOption.html#ae597550ead9bc0dad31d574004859751",tooltip="Gets the class type of this option."];
+  Node2 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="moa.gui.ClassOptionWithNamesEditComponent.setEditState",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1gui_1_1ClassOptionWithNamesEditComponent.html#af6887a6cebf46e6acd6629bdb7948511",tooltip="Sets the state of the component."];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="moa.options.ClassOptionWithNames.getValueAsCLIString",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1options_1_1ClassOptionWithNames.html#a967bd722787848ff605d22cee4be6a35",tooltip="Gets the value of a Command Line Interface text as a string."];
+  Node7 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="moa.options.ClassOptionWithNames.objectToCLIString",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1options_1_1ClassOptionWithNames.html#a383840833fe1d783e40b3bf608e40cbc"];
+  Node8 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="moa.options.AbstractClassOption.classToCLIString",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1options_1_1AbstractClassOption.html#a99164a3a010dec28f40f4397aec6ecfd",tooltip="Gets the command line interface text of the class."];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="moa.gui.ClassOptionWithNamesEditComponent.notifyChangeListeners",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1gui_1_1ClassOptionWithNamesEditComponent.html#a1599c132a424499981140e79055b7ac9",tooltip="Notifies all registered change listeners that the options have changed."];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

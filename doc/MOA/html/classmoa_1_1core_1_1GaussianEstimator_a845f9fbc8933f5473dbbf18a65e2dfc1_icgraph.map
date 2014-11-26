@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1core_1_1Measurement.html#ac75d28907d493d2ebeb5e308968e157c" title="moa.core.Measurement.averageMeasurements" alt="" coords="624,5,917,35"/>
+<area shape="rect" id="node5" href="$classmoa_1_1classifiers_1_1core_1_1attributeclassobservers_1_1GaussianNumericAttributeClassObserver.html#a6aa9fa821534bf559c4945cb7acb81bf" title="moa.classifiers.core.attributeclassobservers.GaussianNumericAttributeClassObserver.getClassDistsResultingFromBinarySplit" alt="" coords="392,59,1149,88"/>
+<area shape="rect" id="node7" href="$classmoa_1_1classifiers_1_1core_1_1attributeclassobservers_1_1GaussianNumericAttributeClassObserver.html#a34446fa2c3deac589b3c813610bb746d" title="Gets the best split suggestion given a criterion and a class distribution." alt="" coords="1197,59,1917,88"/>
+</map>

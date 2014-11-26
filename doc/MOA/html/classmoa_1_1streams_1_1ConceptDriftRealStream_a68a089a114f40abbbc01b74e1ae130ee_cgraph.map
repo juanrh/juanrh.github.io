@@ -1,0 +1,7 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1streams_1_1ConceptDriftRealStream.html#a8da5b076fbf76106e4c3f2327e45438f" title="Gets the header of this stream." alt="" coords="379,5,688,35"/>
+<area shape="rect" id="node5" href="$classmoa_1_1options_1_1IntOption.html#affae8787274b44ab7616d46b8d6c831a" title="moa.options.IntOption.getValue" alt="" coords="431,59,636,88"/>
+<area shape="rect" id="node7" href="$interfacemoa_1_1streams_1_1InstanceStream.html#adcce31f5a024f6a73e150da2d1d731df" title="Gets whether this stream has more instances to output." alt="" coords="381,112,685,141"/>
+<area shape="rect" id="node9" href="$interfacemoa_1_1streams_1_1InstanceStream.html#ae68c1c47c4dac2e591745a21e8cc120a" title="Gets the next instance from this stream." alt="" coords="397,165,669,195"/>
+<area shape="rect" id="node11" href="$interfacemoa_1_1streams_1_1InstanceStream.html#aa4151c3e283bc9f3bd3311505f3b5d62" title="Restarts this stream." alt="" coords="416,219,651,248"/>
+</map>

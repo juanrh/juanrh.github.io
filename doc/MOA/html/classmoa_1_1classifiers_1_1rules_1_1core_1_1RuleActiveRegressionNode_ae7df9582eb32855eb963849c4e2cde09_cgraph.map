@@ -1,0 +1,7 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1classifiers_1_1rules_1_1core_1_1RuleActiveLearningNode.html#aeecf86c1e64660bab6dee5f27f122a81" title="moa.classifiers.rules.core.RuleActiveLearningNode.debug" alt="" coords="513,5,871,35"/>
+<area shape="rect" id="node7" href="$classmoa_1_1classifiers_1_1rules_1_1functions_1_1TargetMean.html#a948e27a1fe4ce51b80e58283d527df71" title="moa.classifiers.rules.functions.TargetMean.getCurrentError" alt="" coords="509,59,875,88"/>
+<area shape="rect" id="node9" href="$classmoa_1_1classifiers_1_1rules_1_1functions_1_1Perceptron.html#adaecdfe3b7ed09f13719a1c44e19ff3f" title="moa.classifiers.rules.functions.Perceptron.getCurrentError" alt="" coords="513,112,871,141"/>
+<area shape="rect" id="node11" href="$classmoa_1_1classifiers_1_1rules_1_1functions_1_1TargetMean.html#a523c9306eb864c869da1e9ceba8dc33e" title="Predicts the class memberships for a given instance." alt="" coords="493,165,891,195"/>
+<area shape="rect" id="node5" href="$classmoa_1_1options_1_1IntOption.html#affae8787274b44ab7616d46b8d6c831a" title="moa.options.IntOption.getValue" alt="" coords="939,5,1144,35"/>
+</map>

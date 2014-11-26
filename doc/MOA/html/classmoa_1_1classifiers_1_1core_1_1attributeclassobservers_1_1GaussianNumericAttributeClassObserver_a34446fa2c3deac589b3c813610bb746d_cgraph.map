@@ -1,0 +1,16 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1classifiers_1_1core_1_1attributeclassobservers_1_1GaussianNumericAttributeClassObserver.html#a6aa9fa821534bf559c4945cb7acb81bf" title="moa.classifiers.core.attributeclassobservers.GaussianNumericAttributeClassObserver.getClassDistsResultingFromBinarySplit" alt="" coords="773,149,1531,179"/>
+<area shape="rect" id="node27" href="$interfacemoa_1_1classifiers_1_1core_1_1splitcriteria_1_1SplitCriterion.html#a82f5cb7ad49c396d4f50615a55300b36" title="Computes the merit of splitting for a given ditribution before the split and after..." alt="" coords="964,203,1340,232"/>
+<area shape="rect" id="node29" href="$classmoa_1_1classifiers_1_1core_1_1attributeclassobservers_1_1GaussianNumericAttributeClassObserver.html#aabe556b8d5858c899bf9e51d557ce4fc" title="moa.classifiers.core.attributeclassobservers.GaussianNumericAttributeClassObserver.getSplitPointSuggestions" alt="" coords="816,256,1488,285"/>
+<area shape="rect" id="node5" href="$classmoa_1_1core_1_1DoubleVector.html#a4050209166f4be04dd9f6dac3535d60e" title="moa.core.DoubleVector.addToValue" alt="" coords="1728,17,1960,47"/>
+<area shape="rect" id="node9" href="$classmoa_1_1core_1_1GaussianEstimator.html#a88419db3abc66f112b4f9ca0fa999e12" title="moa.core.GaussianEstimator.estimatedWeight_LessThan_EqualTo_GreaterThan_Value" alt="" coords="1579,96,2109,125"/>
+<area shape="rect" id="node21" href="$classmoa_1_1core_1_1DoubleVector.html#a0cd86df680113a943ebb8fcf60819ece" title="moa.core.DoubleVector.getArrayRef" alt="" coords="1728,149,1960,179"/>
+<area shape="rect" id="node23" href="$classmoa_1_1core_1_1GaussianEstimator.html#a845f9fbc8933f5473dbbf18a65e2dfc1" title="moa.core.GaussianEstimator.getTotalWeightObserved" alt="" coords="1675,203,2013,232"/>
+<area shape="rect" id="node25" href="$classmoa_1_1core_1_1DoubleVector.html#a0a22580b229225823e9b11ed9d35104a" title="moa.core.DoubleVector.getValue" alt="" coords="1737,256,1951,285"/>
+<area shape="rect" id="node7" href="$classmoa_1_1core_1_1DoubleVector.html#a9cfebf9a8c5e93615037459ed6bd63a7" title="moa.core.DoubleVector.setArrayLength" alt="" coords="2181,5,2432,35"/>
+<area shape="rect" id="node11" href="$classmoa_1_1core_1_1GaussianEstimator.html#a7230ec08da3eaadd4608da0ae42f500e" title="moa.core.GaussianEstimator.getMean" alt="" coords="2511,71,2756,100"/>
+<area shape="rect" id="node13" href="$classmoa_1_1core_1_1GaussianEstimator.html#afb3df93f6721a7ca114e6c1c5a0e64a7" title="moa.core.GaussianEstimator.getStdDev" alt="" coords="2505,136,2761,165"/>
+<area shape="rect" id="node17" href="$classmoa_1_1core_1_1GaussianEstimator.html#a6116fd248ccd38f4045d10dff07b4de4" title="moa.core.GaussianEstimator.probabilityDensity" alt="" coords="2157,109,2456,139"/>
+<area shape="rect" id="node15" href="$classmoa_1_1core_1_1GaussianEstimator.html#ab7161eaf766605bc7a4ba575e982e031" title="moa.core.GaussianEstimator.getVariance" alt="" coords="2811,136,3075,165"/>
+<area shape="rect" id="node31" href="$classmoa_1_1options_1_1IntOption.html#affae8787274b44ab7616d46b8d6c831a" title="moa.options.IntOption.getValue" alt="" coords="1741,309,1947,339"/>
+</map>

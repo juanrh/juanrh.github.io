@@ -1,0 +1,10 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1tasks_1_1TaskThread.html#a7ee7dd9bcc553f1793c8269e76a37d7f" title="moa.tasks.TaskThread.getCPUSecondsElapsed" alt="" coords="520,59,824,88"/>
+<area shape="rect" id="node7" href="$classmoa_1_1tasks_1_1TaskThread.html#aa16a3cb6976a7cdc5b2c765f2731ae3b" title="moa.tasks.TaskThread.getCurrentActivityFracComplete" alt="" coords="499,5,845,35"/>
+<area shape="rect" id="node11" href="$classmoa_1_1tasks_1_1TaskThread.html#a52c37a9821d9ed81fcc7d6fafc6d2bd2" title="moa.tasks.TaskThread.getCurrentActivityString" alt="" coords="523,112,821,141"/>
+<area shape="rect" id="node16" href="$classmoa_1_1tasks_1_1TaskThread.html#a443dd2bbf846fdc197643700b709a057" title="moa.tasks.TaskThread.getCurrentStatusString" alt="" coords="525,165,819,195"/>
+<area shape="rect" id="node18" href="$classmoa_1_1tasks_1_1TaskThread.html#aaa42f5df321a72870b224e83bb0cf6fa" title="moa.tasks.TaskThread.getTask" alt="" coords="569,219,775,248"/>
+<area shape="rect" id="node5" href="$classmoa_1_1tasks_1_1TaskThread.html#ab7be27d49b04204985d254ee51a3eb7b" title="moa.tasks.TaskThread.isComplete" alt="" coords="965,59,1192,88"/>
+<area shape="rect" id="node9" href="$interfacemoa_1_1tasks_1_1TaskMonitor.html#a46b980aaa2bb8de7a23c24916b31e843" title="Gets the percentage done of the current activity." alt="" coords="893,5,1264,35"/>
+<area shape="rect" id="node13" href="$interfacemoa_1_1tasks_1_1TaskMonitor.html#ad5a9c248fc2506cc2a74b663e2511c63" title="Gets the description of the current activity." alt="" coords="912,112,1245,141"/>
+</map>

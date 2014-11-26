@@ -1,0 +1,15 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1classifiers_1_1rules_1_1RuleClassifier.html#a4387654b7ea48c473db7b1a4dd9ad53f" title="moa.classifiers.rules.RuleClassifier.findBestValEntropyNominalAtt" alt="" coords="857,69,1265,98"/>
+<area shape="rect" id="node9" href="$classmoa_1_1core_1_1DoubleVector.html#afdb9ecc487070e6f0943e889a46334b8" title="moa.core.DoubleVector.setValue" alt="" coords="1345,17,1559,46"/>
+<area shape="rect" id="node15" href="$classmoa_1_1core_1_1DoubleVector.html#a0a22580b229225823e9b11ed9d35104a" title="moa.core.DoubleVector.getValue" alt="" coords="1345,337,1559,366"/>
+<area shape="rect" id="node17" href="$classmoa_1_1classifiers_1_1rules_1_1RuleClassifier.html#aa3026ed69fead2e4677193c1824d1b12" title="moa.classifiers.rules.RuleClassifier.mainFindBestValEntropy" alt="" coords="409,198,785,228"/>
+<area shape="rect" id="node37" href="$classmoa_1_1classifiers_1_1AbstractClassifier.html#a5cd97fb8e5751d48de011c81f45466d4" title="Gets the index of the attribute in the instance, given the index of the attribute..." alt="" coords="388,429,807,458"/>
+<area shape="rect" id="node5" href="$classmoa_1_1classifiers_1_1rules_1_1RuleClassifier.html#a812279b42151a64e2ed6b90af2bfed22" title="moa.classifiers.rules.RuleClassifier.entropy" alt="" coords="1315,124,1589,153"/>
+<area shape="rect" id="node13" href="$classmoa_1_1core_1_1DoubleVector.html#acafa367bb17b33b844486adfa1b2780a" title="moa.core.DoubleVector.sumOfValues" alt="" coords="1331,70,1573,100"/>
+<area shape="rect" id="node7" href="$classmoa_1_1core_1_1DoubleVector.html#a6d0ce5fe7346a8d4b4a6ae444750f9c8" title="moa.core.DoubleVector.getArrayCopy" alt="" coords="1641,124,1884,153"/>
+<area shape="rect" id="node11" href="$classmoa_1_1core_1_1DoubleVector.html#a9cfebf9a8c5e93615037459ed6bd63a7" title="moa.core.DoubleVector.setArrayLength" alt="" coords="1637,177,1888,206"/>
+<area shape="rect" id="node20" href="$classmoa_1_1classifiers_1_1rules_1_1RuleClassifier.html#af0f8c83ee817b32dcf1c1cf2bdf525f0" title="moa.classifiers.rules.RuleClassifier.findBestValEntropy" alt="" coords="889,224,1233,253"/>
+<area shape="rect" id="node29" href="$classmoa_1_1core_1_1DoubleVector.html#a04cac8fb52824b100578ad4bfef2136a" title="moa.core.DoubleVector.numValues" alt="" coords="1339,284,1565,313"/>
+<area shape="rect" id="node22" href="$classmoa_1_1core_1_1DoubleVector.html#a4050209166f4be04dd9f6dac3535d60e" title="moa.core.DoubleVector.addToValue" alt="" coords="1336,177,1568,206"/>
+<area shape="rect" id="node26" href="$classmoa_1_1options_1_1FloatOption.html#a0e606a62f4ece232aa8f8cb04bb7f1cf" title="moa.options.FloatOption.getValue" alt="" coords="1343,230,1561,260"/>
+</map>

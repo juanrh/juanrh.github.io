@@ -1,0 +1,27 @@
+digraph G
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir=LR;
+  Node1 [label="moa.gui.TaskTextViewerPanel.setGraph",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="moa.evaluation.MeasureCollection.addValue",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1evaluation_1_1MeasureCollection.html#a344a1c04e2e600092750c6676b9c9906"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="moa.tasks.ConceptDriftMainTask.getEventsList",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1tasks_1_1ConceptDriftMainTask.html#ad4c08b553ea52bac21903b9af68d1a81"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="moa.gui.TaskTextViewerPanel.getNewMeasureCollection",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1gui_1_1TaskTextViewerPanel.html#ae11493bdbd1de595e9890826665e00e4"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="moa.gui.conceptdrift.CDTaskManagerPanel.getSelectedCurrenTask",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1gui_1_1conceptdrift_1_1CDTaskManagerPanel.html#a35d1a35fedfe654f551e0674a57994b5"];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="moa.gui.conceptdrift.CDTaskManagerPanel.getCurrenTask",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1gui_1_1conceptdrift_1_1CDTaskManagerPanel.html#a4b83ab8c9a34504bac8916eb9b0d1272"];
+  Node5 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="moa.gui.conceptdrift.CDTaskManagerPanel.getSelectedTasks",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1gui_1_1conceptdrift_1_1CDTaskManagerPanel.html#add709d2d090cedfe3728efcc9acf6dd2"];
+  Node5 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="moa.tasks.TaskThread.getTask",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1tasks_1_1TaskThread.html#aaa42f5df321a72870b224e83bb0cf6fa"];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="moa.evaluation.MeasureCollection.getValue",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1evaluation_1_1MeasureCollection.html#a23eeb889828aafe68c192fab36a0ade3"];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="moa.gui.TaskTextViewerPanel.parseDouble",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1gui_1_1TaskTextViewerPanel.html#aab1cb112128fcfc69a51c69bfa2ee135"];
+  Node1 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="moa.gui.TaskTextViewerPanel.round",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1gui_1_1TaskTextViewerPanel.html#a508113467ed9b0bf03dd9620053009ae"];
+}

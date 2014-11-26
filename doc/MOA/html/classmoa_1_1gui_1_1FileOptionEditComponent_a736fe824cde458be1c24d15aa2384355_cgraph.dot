@@ -1,0 +1,15 @@
+digraph G
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir=LR;
+  Node1 [label="moa.gui.FileOptionEditComponent.FileOptionEditComponent",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="moa.gui.FileOptionEditComponent.browseForFile",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1gui_1_1FileOptionEditComponent.html#aaf348a026c18d40cd1a0c8d5b1c53337"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="moa.options.FileOption.getDefaultFileExtension",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1options_1_1FileOption.html#aa332a09ffda0585e0a167c692ff2e20c"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="moa.options.StringOption.getValueAsCLIString",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1options_1_1StringOption.html#a1f06e5aefab34bb5bdef8d6b69ba544c",tooltip="Gets the value of a Command Line Interface text as a string."];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="moa.gui.FileOptionEditComponent.setEditState",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1gui_1_1FileOptionEditComponent.html#a7677b2ad4ba7b298f9729339969be2c8",tooltip="Sets the state of the component."];
+}

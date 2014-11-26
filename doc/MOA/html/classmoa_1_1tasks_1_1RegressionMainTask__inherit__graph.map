@@ -1,0 +1,12 @@
+<map id="G" name="G">
+<area shape="rect" id="node21" href="$classmoa_1_1tasks_1_1EvaluateModelRegression.html" title="Task for evaluating a static model on a stream." alt="" coords="5,1465,243,1706"/>
+<area shape="rect" id="node23" href="$classmoa_1_1tasks_1_1EvaluatePrequentialRegression.html" title="Task for evaluating a classifier on a stream by testing then training with each example..." alt="" coords="267,1430,536,1741"/>
+<area shape="rect" id="node25" href="$classmoa_1_1tasks_1_1LearnModelRegression.html" title="Task for learning a model without any evaluation." alt="" coords="560,1465,779,1706"/>
+<area shape="rect" id="node2" href="$classmoa_1_1tasks_1_1MainTask.html" title="Abstract Main Task." alt="" coords="239,1091,564,1229"/>
+<area shape="rect" id="node4" href="$classmoa_1_1tasks_1_1AbstractTask.html" title="Abstract Task." alt="" coords="319,870,484,1042"/>
+<area shape="rect" id="node6" href="$classmoa_1_1options_1_1AbstractOptionHandler.html" title="Abstract Option Handler." alt="" coords="159,528,415,821"/>
+<area shape="rect" id="node8" href="$classmoa_1_1AbstractMOAObject.html" title="Abstract MOA Object." alt="" coords="108,316,276,471"/>
+<area shape="rect" id="node10" href="$interfacemoa_1_1MOAObject.html" title="Interface implemented by classes in MOA, so that all are serializable, can produce..." alt="" coords="317,139,461,259"/>
+<area shape="rect" id="node14" href="$interfacemoa_1_1options_1_1OptionHandler.html" title="Interface representing an object that handles options or parameters." alt="" coords="300,307,479,479"/>
+<area shape="rect" id="node17" href="$interfacemoa_1_1tasks_1_1Task.html" title="Interface representing a task." alt="" coords="439,615,593,735"/>
+</map>

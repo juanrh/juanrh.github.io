@@ -1,0 +1,11 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1classifiers_1_1trees_1_1ORTO_1_1SplitNode.html#a6f842794902f5e9fd20f196fa4f5e0c7" title="moa.classifiers.trees.ORTO.SplitNode.getPrediction" alt="" coords="644,5,969,35"/>
+<area shape="rect" id="node5" href="$classmoa_1_1classifiers_1_1trees_1_1DecisionStump.html#a47c4e10523e3e9c893baee6015268fd0" title="Predicts the class memberships for a given instance." alt="" coords="627,59,987,88"/>
+<area shape="rect" id="node7" href="$classmoa_1_1classifiers_1_1trees_1_1ORTO_1_1SplitNode.html#abb58fd5ec55120535ace43e28413d1d2" title="moa.classifiers.trees.ORTO.SplitNode.instanceChildIndex" alt="" coords="627,112,987,141"/>
+<area shape="rect" id="node9" href="$classmoa_1_1classifiers_1_1trees_1_1HoeffdingTree_1_1SplitNode.html#a8f4fb6e3f3827d86b7ef74c5a5b2b6bd" title="moa.classifiers.trees.HoeffdingTree.SplitNode.instanceChildIndex" alt="" coords="604,165,1009,195"/>
+<area shape="rect" id="node13" href="$classmoa_1_1classifiers_1_1trees_1_1HoeffdingOptionTree_1_1SplitNode.html#af4e6b564ed7a99be277a1e03aac0e497" title="moa.classifiers.trees.HoeffdingOptionTree.SplitNode.instanceChildIndex" alt="" coords="585,219,1028,248"/>
+<area shape="rect" id="node17" href="$classmoa_1_1classifiers_1_1trees_1_1ORTO_1_1SplitNode.html#a4434ca7bad0ac2f1a1db2141b95c2262" title="moa.classifiers.trees.ORTO.SplitNode.processInstance" alt="" coords="633,272,980,301"/>
+<area shape="rect" id="node19" href="$classmoa_1_1classifiers_1_1core_1_1conditionaltests_1_1InstanceConditionalTest.html#a5fd87e93bbd9154472d93a1cce8c53ab" title="Gets whether the number of the branch for an instance is known." alt="" coords="545,325,1068,355"/>
+<area shape="rect" id="node11" href="$classmoa_1_1classifiers_1_1trees_1_1HoeffdingTree_1_1SplitNode.html#a126b69af1100b1a85e716b897065b603" title="moa.classifiers.trees.HoeffdingTree.SplitNode.filterInstanceToLeaf" alt="" coords="1145,165,1553,195"/>
+<area shape="rect" id="node15" href="$classmoa_1_1classifiers_1_1trees_1_1HoeffdingOptionTree_1_1SplitNode.html#a6f48271d4990eb62f3bf67c90c46f16d" title="moa.classifiers.trees.HoeffdingOptionTree.SplitNode.filterInstanceToLeaves" alt="" coords="1117,219,1581,248"/>
+</map>

@@ -1,0 +1,17 @@
+digraph G
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir=LR;
+  Node1 [label="moa.classifiers.rules.core.Rule.Rule",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="moa.classifiers.rules.core.Rule.Builder.getAMRules",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1rules_1_1core_1_1Rule_1_1Builder.html#a3eadcc67f2c435bb29bf3e2b3d2c80f6"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="moa.classifiers.rules.core.Rule.newRuleActiveLearningNode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1rules_1_1core_1_1Rule.html#ad2614fab08df51e89cc088aef75a58cf"];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="moa.classifiers.rules.AbstractAMRules.newRuleActiveLearningNode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1rules_1_1AbstractAMRules.html#a44f98c7a5e03645d7b623579e4777363"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="moa.classifiers.rules.core.Rule.setBuilder",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1rules_1_1core_1_1Rule.html#a342d90a0f80e4889b9372b769e00d8e2"];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="moa.classifiers.rules.core.Rule.Builder.setOwner",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1rules_1_1core_1_1Rule_1_1Builder.html#a2e3b1f9c144425a6b3930710e6091ef7"];
+}

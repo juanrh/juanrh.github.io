@@ -1,0 +1,22 @@
+digraph G
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{moa.streams.generators.LEDGeneratorDrift\n|+ numberAttributesDriftOption\l# numberAttribute\l- serialVersionUID\l|+ getPurposeString()\l+ nextInstance()\l+ getDescription()\l# prepareForUseImpl()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node2 -> Node1 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node2 [label="{moa.streams.generators.LEDGenerator\n|+ instanceRandomSeedOption\l+ noisePercentageOption\l+ suppressIrrelevantAttributesOption\l+ NUM_IRRELEVANT_ATTRIBUTES\l# streamHeader\l# instanceRandom\l# originalInstances\l- serialVersionUID\l|+ getPurposeString()\l+ estimatedRemainingInstances()\l+ getHeader()\l+ hasMoreInstances()\l+ isRestartable()\l+ nextInstance()\l+ restart()\l+ getDescription()\l# prepareForUseImpl()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1streams_1_1generators_1_1LEDGenerator.html",tooltip="Stream generator for the problem of predicting the digit displayed on a 7-segment..."];
+  Node3 -> Node2 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node3 [label="{moa.options.AbstractOptionHandler\n|# options\l# classOptionNamesToPreparedObjects\l- serialVersionUID\l|+ getPurposeString()\l+ getOptions()\l+ prepareForUse()\l+ prepareForUse()\l+ getCLICreationString()\l+ copy()\l# prepareForUseImpl()\l# discoverOptionsViaReflection()\l# prepareClassOptions()\l# getPreparedClassOption()\l# getPreparedClassOption()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1options_1_1AbstractOptionHandler.html",tooltip="Abstract Option Handler."];
+  Node4 -> Node3 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node4 [label="{moa.AbstractMOAObject\n||+ copy()\l+ measureByteSize()\l+ toString()\l+ copy()\l+ measureByteSize()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1AbstractMOAObject.html",tooltip="Abstract MOA Object."];
+  Node5 -> Node4 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node5 [label="{moa.MOAObject\n||+ measureByteSize()\l+ copy()\l+ getDescription()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interfacemoa_1_1MOAObject.html",tooltip="Interface implemented by classes in MOA, so that all are serializable, can produce..."];
+  Node6 -> Node5 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node6 [label="{Serializable\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node7 -> Node3 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node7 [label="{moa.options.OptionHandler\n||+ getPurposeString()\l+ getOptions()\l+ prepareForUse()\l+ prepareForUse()\l+ copy()\l+ getCLICreationString()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interfacemoa_1_1options_1_1OptionHandler.html",tooltip="Interface representing an object that handles options or parameters."];
+  Node5 -> Node7 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node8 -> Node2 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node8 [label="{moa.streams.InstanceStream\n||+ getHeader()\l+ estimatedRemainingInstances()\l+ hasMoreInstances()\l+ nextInstance()\l+ isRestartable()\l+ restart()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interfacemoa_1_1streams_1_1InstanceStream.html",tooltip="Interface representing a data stream of instances."];
+  Node5 -> Node8 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+}

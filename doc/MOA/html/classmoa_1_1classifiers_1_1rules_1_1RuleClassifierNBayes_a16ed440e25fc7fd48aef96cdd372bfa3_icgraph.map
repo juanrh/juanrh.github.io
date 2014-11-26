@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1classifiers_1_1rules_1_1RuleClassifierNBayes.html#a12489f67c5955409d8e76704ae0476d1" title="moa.classifiers.rules.RuleClassifierNBayes.firstHitNB" alt="" coords="421,5,757,35"/>
+<area shape="rect" id="node7" href="$classmoa_1_1classifiers_1_1rules_1_1RuleClassifierNBayes.html#a7d10b8e48fae4412ede62e74c86a4533" title="moa.classifiers.rules.RuleClassifierNBayes.weightedMaxNB" alt="" coords="403,59,776,88"/>
+<area shape="rect" id="node10" href="$classmoa_1_1classifiers_1_1rules_1_1RuleClassifierNBayes.html#a9bc84e48c54e7de1f7b71da4ed6f8483" title="moa.classifiers.rules.RuleClassifierNBayes.weightedSumNB" alt="" coords="401,112,777,141"/>
+<area shape="rect" id="node5" href="$classmoa_1_1classifiers_1_1rules_1_1RuleClassifierNBayes.html#a41d9b5a53f156c36ab3a40517d544930" title="Predicts the class memberships for a given instance." alt="" coords="827,59,1227,88"/>
+</map>

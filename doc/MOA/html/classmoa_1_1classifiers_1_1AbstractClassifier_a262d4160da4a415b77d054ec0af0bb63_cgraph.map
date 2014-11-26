@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1classifiers_1_1AbstractClassifier.html#ac2bebede21c9d2d8cd11d95a7e20e529" title="Gets the current measurements of this classifier." alt="" coords="416,5,803,35"/>
+<area shape="rect" id="node5" href="$classmoa_1_1classifiers_1_1AbstractClassifier.html#a5d7c5aadeaf3465785aa6bb2efb615f2" title="Gets the classifiers of this ensemble." alt="" coords="447,59,772,88"/>
+<area shape="rect" id="node7" href="$classmoa_1_1AbstractMOAObject.html#ad6d970cd923812656763b448fedf2791" title="Gets the memory size of this object." alt="" coords="472,112,747,141"/>
+<area shape="rect" id="node9" href="$classmoa_1_1classifiers_1_1AbstractClassifier.html#af50c85f56d8192f9cf56e621a835b00c" title="Gets the sum of the weights of the instances that have been used by this classifier..." alt="" coords="416,165,803,195"/>
+</map>

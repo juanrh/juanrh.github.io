@@ -1,0 +1,41 @@
+digraph G
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir=LR;
+  Node1 [label="moa.clusterers.clustream.WithKmeans.kMeans_gta",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="moa.cluster.Clustering.add",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1cluster_1_1Clustering.html#a7b39cc3d6666cb758b8954ecbe0ce2e9",tooltip="add a cluster to the clustering"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="moa.clusterers.clustream.WithKmeans.cleanUpKMeans",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1clusterers_1_1clustream_1_1WithKmeans.html#ad0c24fc2d4b745e6b8ec3f519d33010b",tooltip="Rearrange the k-means result into a set of CFClusters, cleaning up the redundancies..."];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="moa.cluster.CFCluster.add",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1cluster_1_1CFCluster.html#a078d9cc820882cb5d5277859d9d1e364"];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="moa.cluster.CFCluster.addVectors",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1cluster_1_1CFCluster.html#a156286409eff0e12207c540e72ee0128",tooltip="Adds the second array to the first array element by element."];
+  Node3 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="moa.AbstractMOAObject.copy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1AbstractMOAObject.html#a3a6260bd8548c1aff6ea46e49c5c52a5",tooltip="This method produces a copy of this object."];
+  Node3 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="moa.clusterers.clustream.WithKmeans.distance",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1clusterers_1_1clustream_1_1WithKmeans.html#a07413e12867d40a8a364c0f4c6b79212",tooltip="Distance between two vectors."];
+  Node3 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="moa.cluster.Clustering.get",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1cluster_1_1Clustering.html#a6a66be9b90f5cb06b044da278cdf24c9",tooltip="remove a cluster from the clustering"];
+  Node3 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="moa.cluster.Cluster.getCenter",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1cluster_1_1Cluster.html#a509d165f6594aa388d878c77684e0870"];
+  Node3 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="moa.cluster.Clustering.size",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1cluster_1_1Clustering.html#a054a386d94acf3b88574f061ab4c8d71"];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="moa.clusterers.clustream.WithKmeans.kMeans",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1clusterers_1_1clustream_1_1WithKmeans.html#aab6a3875032bb9c8bbbfad3f1b509ad7",tooltip="(The Actual Algorithm) k-means of (micro)clusters, with specified initialization..."];
+  Node11 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="moa.clusterers.clustream.WithKmeans.calculateCenter",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1clusterers_1_1clustream_1_1WithKmeans.html#aa066c4e29a05398c342754fcb34e8a7b",tooltip="k-means helper: Calculate a wrapping cluster of assigned points[microclusters]."];
+  Node12 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="moa.cluster.SphereCluster.setWeight",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1cluster_1_1SphereCluster.html#a24a9881c0a95e5e83db7a3319032a6b7"];
+  Node11 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="moa.cluster.SphereCluster.getCenter",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1cluster_1_1SphereCluster.html#aefb8b36adf18a65827154d4b617e867d"];
+  Node14 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

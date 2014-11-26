@@ -1,0 +1,35 @@
+digraph G
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir=LR;
+  Node1 [label="moa.integration.SimpleClusterTest.testStreamKM",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="moa.integration.SimpleClusterTest.testClusterer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1integration_1_1SimpleClusterTest.html#a4cfd1949cf3092f2daaa04fbe59209fd"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="moa.integration.SimpleClusterTest.doTask",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1integration_1_1SimpleClusterTest.html#addbcc3745770d73ed3067e0ab6d6f2bb"];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="moa.tasks.Task.doTask",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interfacemoa_1_1tasks_1_1Task.html#a10807eaa1d4d05b188f6f7de99d0efbe",tooltip="This method performs this task, when TaskMonitor and ObjectRepository are no needed..."];
+  Node3 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="moa.tasks.TaskThread.getCPUSecondsElapsed",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1tasks_1_1TaskThread.html#a7ee7dd9bcc553f1793c8269e76a37d7f"];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="moa.tasks.TaskThread.isComplete",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1tasks_1_1TaskThread.html#ab7be27d49b04204985d254ee51a3eb7b"];
+  Node3 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="moa.tasks.TaskThread.getCurrentActivityFracComplete",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1tasks_1_1TaskThread.html#aa16a3cb6976a7cdc5b2c765f2731ae3b"];
+  Node7 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="moa.tasks.TaskMonitor.getCurrentActivityFractionComplete",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interfacemoa_1_1tasks_1_1TaskMonitor.html#a46b980aaa2bb8de7a23c24916b31e843",tooltip="Gets the percentage done of the current activity."];
+  Node3 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="moa.tasks.TaskThread.getCurrentActivityString",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1tasks_1_1TaskThread.html#a52c37a9821d9ed81fcc7d6fafc6d2bd2"];
+  Node9 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="moa.tasks.TaskMonitor.getCurrentActivityDescription",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interfacemoa_1_1tasks_1_1TaskMonitor.html#ad5a9c248fc2506cc2a74b663e2511c63",tooltip="Gets the description of the current activity."];
+  Node9 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="moa.tasks.TaskThread.getCurrentStatusString",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1tasks_1_1TaskThread.html#a443dd2bbf846fdc197643700b709a057"];
+  Node3 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="moa.MOAObject.getDescription",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interfacemoa_1_1MOAObject.html#afdaf5098f1fe6c852018ce64c28e17f5",tooltip="Returns a string representation of this object."];
+  Node3 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="moa.tasks.TaskThread.getFinalResult",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1tasks_1_1TaskThread.html#a7c7fb4d3426dfe208dd5c8972f74eb49"];
+  Node3 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="moa.options.IntOption.getValue",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1options_1_1IntOption.html#affae8787274b44ab7616d46b8d6c831a"];
+  Node3 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

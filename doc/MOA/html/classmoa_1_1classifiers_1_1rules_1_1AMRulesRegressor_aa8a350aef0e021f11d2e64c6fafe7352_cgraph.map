@@ -1,0 +1,7 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1classifiers_1_1rules_1_1AMRulesRegressor.html#aa5b19f1fced3beb3b10a9c4b0f39914a" title="Rule.Builder() to build an object with the parameters." alt="" coords="421,85,736,115"/>
+<area shape="rect" id="node5" href="$classmoa_1_1classifiers_1_1rules_1_1core_1_1Rule.html#a3e717635dd275520d83831dadcb00a5b" title="getLearningNode Method This is the way to pass info for other classes." alt="" coords="845,5,1149,35"/>
+<area shape="rect" id="node7" href="$classmoa_1_1classifiers_1_1rules_1_1core_1_1RuleActiveLearningNode.html#a236faa608deb861686ff86b8576653ba" title="moa.classifiers.rules.core.RuleActiveLearningNode.getNodeStatistics" alt="" coords="784,59,1211,88"/>
+<area shape="rect" id="node9" href="$classmoa_1_1core_1_1DoubleVector.html#a0a22580b229225823e9b11ed9d35104a" title="moa.core.DoubleVector.getValue" alt="" coords="891,112,1104,141"/>
+<area shape="rect" id="node11" href="$classmoa_1_1options_1_1FloatOption.html#a0e606a62f4ece232aa8f8cb04bb7f1cf" title="moa.options.FloatOption.getValue" alt="" coords="888,165,1107,195"/>
+</map>

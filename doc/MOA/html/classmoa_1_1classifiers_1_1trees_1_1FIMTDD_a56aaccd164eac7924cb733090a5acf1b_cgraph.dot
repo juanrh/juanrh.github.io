@@ -1,0 +1,27 @@
+digraph G
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir=LR;
+  Node1 [label="moa.classifiers.trees.FIMTDD.FIMTDD_attemptToSplit",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="moa.classifiers.core.conditionaltests.InstanceConditionalTest.getAttsTestDependsOn",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1core_1_1conditionaltests_1_1InstanceConditionalTest.html#af3a4e494b9e2e3f981b45a237858f4cd",tooltip="Returns an array with the attributes that the test depends on."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="moa.classifiers.trees.FIMTDD.FIMTDDActiveLearningNode.getBestSplitSuggestions",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1trees_1_1FIMTDD_1_1FIMTDDActiveLearningNode.html#af032b3899837a661dc82bba5674de422",tooltip="Return the best split suggestions for this node using the given split criteria."];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="moa.core.DoubleVector.getArrayCopy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1core_1_1DoubleVector.html#a6d0ce5fe7346a8d4b4a6ae444750f9c8"];
+  Node3 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="moa.classifiers.core.splitcriteria.SplitCriterion.getMeritOfSplit",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interfacemoa_1_1classifiers_1_1core_1_1splitcriteria_1_1SplitCriterion.html#a82f5cb7ad49c396d4f50615a55300b36",tooltip="Computes the merit of splitting for a given ditribution before the split and after..."];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="moa.classifiers.trees.FIMTDD.FIMTDDActiveLearningNode.getWeightSeen",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1trees_1_1FIMTDD_1_1FIMTDDActiveLearningNode.html#a0f9532c295588e7b91414e492d4b9e99"];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="moa.core.DoubleVector.getValue",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1core_1_1DoubleVector.html#a0a22580b229225823e9b11ed9d35104a"];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="moa.classifiers.core.AttributeSplitSuggestion.numSplits",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1core_1_1AttributeSplitSuggestion.html#afcced50eef2981b7a7a30e2a40086e41"];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="moa.classifiers.core.AttributeSplitSuggestion.resultingClassDistributionFromSplit",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1core_1_1AttributeSplitSuggestion.html#ae715b4c66ed0aa5f3d05e5a101c93a61"];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="moa.classifiers.trees.FIMTDD.FIMTDDSplitNode.setParent",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1trees_1_1FIMTDD_1_1FIMTDDSplitNode.html#a86d0705a6847e5ab06c632b021003fde",tooltip="Set the parent node."];
+  Node1 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="moa.classifiers.trees.FIMTDD.FIMTDDActiveLearningNode.setParent",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1trees_1_1FIMTDD_1_1FIMTDDActiveLearningNode.html#a6433331601eada354a86b60f321a15dd",tooltip="Set the parent node."];
+}

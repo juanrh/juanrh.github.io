@@ -1,0 +1,22 @@
+digraph G
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{moa.gui.OptionsConfigurationPanel\n|+ FIXED_PANEL_WIDTH\l+ MAX_PANEL_HEIGHT\l# options\l# editComponents\l# helpButton\l# resetButton\l- serialVersionUID\l|+ OptionsConfigurationPanel()\l+ getHelpText()\l+ showHelpDialog()\l+ resetToDefaults()\l+ applyChanges()\l+ showEditOptionsDialog()\l+ main()\l# createLabelledOptionComponentListPanel()\l- createAndShowGUI()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node2 -> Node1 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node2 [label="{JPanel\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node3 -> Node1 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="resetButton\nhelpButton",arrowtail="open",fontname="Helvetica"];
+  Node3 [label="{JButton\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node4 -> Node1 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="editComponents",arrowtail="open",fontname="Helvetica"];
+  Node4 [label="{List\< OptionEditComponent \>\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node5 -> Node1 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="options",arrowtail="open",fontname="Helvetica"];
+  Node5 [label="{moa.options.Options\n|# optionList\l- serialVersionUID\l|+ addOption()\l+ numOptions()\l+ getOption()\l+ getOption()\l+ getOptionArray()\l+ removeOption()\l+ removeOption()\l+ removeAllOptions()\l+ resetToDefaults()\l+ setViaCLIString()\l+ getAsCLIString()\l+ getHelpString()\l+ getHelp()\l+ getDescription()\l# splitParameterFromRemainingOptions()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1options_1_1Options.html",tooltip="File option."];
+  Node6 -> Node5 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node6 [label="{moa.AbstractMOAObject\n||+ copy()\l+ measureByteSize()\l+ toString()\l+ copy()\l+ measureByteSize()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1AbstractMOAObject.html",tooltip="Abstract MOA Object."];
+  Node7 -> Node6 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node7 [label="{moa.MOAObject\n||+ measureByteSize()\l+ copy()\l+ getDescription()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interfacemoa_1_1MOAObject.html",tooltip="Interface implemented by classes in MOA, so that all are serializable, can produce..."];
+  Node8 -> Node7 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node8 [label="{Serializable\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node9 -> Node5 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="optionList",arrowtail="open",fontname="Helvetica"];
+  Node9 [label="{List\< Option \>\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+}

@@ -1,0 +1,13 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1gui_1_1clustertab_1_1ClusteringSetupTab.html#ac7ff00dde0331c8163367e93307508d3" title="moa.gui.clustertab.ClusteringSetupTab.toggle" alt="" coords="343,59,628,88"/>
+<area shape="rect" id="node5" href="$classmoa_1_1gui_1_1clustertab_1_1ClusteringSetupTab.html#a6b4a3dcbe05f19dd9f9291c464e68f35" title="moa.gui.clustertab.ClusteringSetupTab.buttonStartActionPerformed" alt="" coords="677,5,1091,35"/>
+<area shape="rect" id="node15" href="$classmoa_1_1gui_1_1clustertab_1_1ClusteringSetupTab.html#a9e0c686b7a72d0d161c2de053c983fa7" title="moa.gui.clustertab.ClusteringSetupTab.toggleRunMode" alt="" coords="713,59,1055,88"/>
+<area shape="rect" id="node7" href="$classmoa_1_1gui_1_1clustertab_1_1ClusteringSetupTab.html#a8abab534a283e409de003f59786a988f" title="This method is called from within the constructor to initialize the form." alt="" coords="1141,5,1483,35"/>
+<area shape="rect" id="node9" href="$classmoa_1_1gui_1_1clustertab_1_1ClusteringSetupTab.html#a3c03410b4b1259ece559c660df433766" title="Creates new form ClusteringSetupTab." alt="" coords="1535,5,1900,35"/>
+<area shape="rect" id="node11" href="$classmoa_1_1gui_1_1clustertab_1_1ClusteringTabPanel.html#a9b1cc4d4da92f4bc04b54cc12382e12f" title="This method is called from within the constructor to initialize the form." alt="" coords="1951,5,2292,35"/>
+<area shape="rect" id="node13" href="$classmoa_1_1gui_1_1clustertab_1_1ClusteringTabPanel.html#a111c041657cee8181be39524a7fa7fb1" title="Creates new form ClusterTab." alt="" coords="2341,5,2707,35"/>
+<area shape="rect" id="node17" href="$classmoa_1_1gui_1_1clustertab_1_1ClusteringVisualTab.html#a497313381a458c388bd10b35f374cd43" title="moa.gui.clustertab.ClusteringVisualTab.toggleVisualizer" alt="" coords="1139,85,1485,115"/>
+<area shape="rect" id="node19" href="$classmoa_1_1gui_1_1visualization_1_1RunVisualizer.html#af40a82de4ae8183b09175d6e7f392203" title="moa.gui.visualization.RunVisualizer.runVisual" alt="" coords="1575,85,1860,115"/>
+<area shape="rect" id="node21" href="$classmoa_1_1gui_1_1visualization_1_1RunVisualizer.html#a499a0fbd6f3ec8c5625af2dd15072839" title="moa.gui.visualization.RunVisualizer.run" alt="" coords="1996,59,2247,88"/>
+<area shape="rect" id="node23" href="$classmoa_1_1gui_1_1visualization_1_1RunVisualizer.html#ac7da17ff513eaf15f3f2fa147160c580" title="moa.gui.visualization.RunVisualizer.work_pause" alt="" coords="2373,84,2675,113"/>
+</map>

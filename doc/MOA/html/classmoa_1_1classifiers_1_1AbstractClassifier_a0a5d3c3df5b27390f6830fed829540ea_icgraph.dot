@@ -1,0 +1,21 @@
+digraph G
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir=LR;
+  Node1 [label="moa.classifiers.AbstractClassifier.correctlyClassifies",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="moa.classifiers.meta.OzaBoostAdwin.trainOnInstanceImpl",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1meta_1_1OzaBoostAdwin.html#a839e472f5b43f3e42db56d149c8d6bb9",tooltip="Trains this classifier incrementally using the given instance."];
+  Node1 -> Node3 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="moa.classifiers.meta.OzaBoost.trainOnInstanceImpl",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1meta_1_1OzaBoost.html#a9e8a0fd13afb9ac290cccbc60ca465ee",tooltip="Trains this classifier incrementally using the given instance."];
+  Node1 -> Node4 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="moa.classifiers.meta.OzaBagAdwin.trainOnInstanceImpl",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1meta_1_1OzaBagAdwin.html#a62b666eb8e84b2c84b8854dc2d749d3c",tooltip="Trains this classifier incrementally using the given instance."];
+  Node1 -> Node5 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="moa.classifiers.meta.OCBoost.trainOnInstanceImpl",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1meta_1_1OCBoost.html#a2560fd90d645cf8fef22040f40712996",tooltip="Trains this classifier incrementally using the given instance."];
+  Node1 -> Node6 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="moa.classifiers.meta.LimAttClassifier.trainOnInstanceImpl",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1meta_1_1LimAttClassifier.html#adddac1d661b7c5ab04d4b15b92f0e2dc",tooltip="Trains this classifier incrementally using the given instance."];
+  Node1 -> Node7 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="moa.classifiers.meta.LeveragingBag.trainOnInstanceImpl",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1meta_1_1LeveragingBag.html#adabfa059e11a1bc3d967d43871eca31a",tooltip="Trains this classifier incrementally using the given instance."];
+  Node1 -> Node8 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="moa.classifiers.lazy.kNNwithPAWandADWIN.trainOnInstanceImpl",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1lazy_1_1kNNwithPAWandADWIN.html#aecdd2ed9114cb9b93f0388bbbc2b8d60",tooltip="Trains this classifier incrementally using the given instance."];
+}

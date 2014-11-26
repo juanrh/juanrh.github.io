@@ -1,0 +1,9 @@
+digraph G
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir=LR;
+  Node1 [label="moa.classifiers.trees.FIMTDD.FIMTDDPerceptron.trainOnInstanceImpl",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="moa.classifiers.trees.FIMTDD.FIMTDDActiveLearningNode.learnFromInstance",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1trees_1_1FIMTDD_1_1FIMTDDActiveLearningNode.html#a010e122cfb2f1519904af77a238fb9f5",tooltip="Method to learn from an instance that passes the new instance to the perceptron learner..."];
+}

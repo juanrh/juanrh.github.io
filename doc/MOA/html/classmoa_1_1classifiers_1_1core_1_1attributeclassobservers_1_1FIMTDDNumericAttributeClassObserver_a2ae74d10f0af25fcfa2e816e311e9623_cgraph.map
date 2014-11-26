@@ -1,0 +1,4 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1classifiers_1_1core_1_1attributeclassobservers_1_1FIMTDDNumericAttributeClassObserver.html#a7f84915a0b61842c9d8ad6d19a542308" title="Implementation of the FindBestSplit algorithm from E.Ikonomovska et al." alt="" coords="772,5,1441,35"/>
+<area shape="rect" id="node5" href="$interfacemoa_1_1classifiers_1_1core_1_1splitcriteria_1_1SplitCriterion.html#a82f5cb7ad49c396d4f50615a55300b36" title="Computes the merit of splitting for a given ditribution before the split and after..." alt="" coords="1491,5,1867,35"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1tasks_1_1MainTask.html#afab790976c2ace902aa1e2f780442788" title="This method performs this task." alt="" coords="295,5,513,35"/>
+<area shape="rect" id="node5" href="$classmoa_1_1options_1_1FileOption.html#a01615786786a168a9e3b8c5d0f50b1e8" title="moa.options.FileOption.getFile" alt="" coords="305,59,503,88"/>
+<area shape="rect" id="node9" href="$classmoa_1_1tasks_1_1AbstractTask.html#a17333c861d315281d50e7f8a03fd9b1e" title="Gets the name of this task." alt="" coords="279,112,529,141"/>
+<area shape="rect" id="node11" href="$interfacemoa_1_1tasks_1_1TaskMonitor.html#aa5eff409d63bfacd92fe2f062d373781" title="Sets the description and the percentage done of the current activity." alt="" coords="271,165,537,195"/>
+<area shape="rect" id="node13" href="$interfacemoa_1_1tasks_1_1TaskMonitor.html#af2758f6ce28872acf61d6b3495cd4439" title="Gets whether the task should abort." alt="" coords="275,219,533,248"/>
+<area shape="rect" id="node7" href="$classmoa_1_1options_1_1StringOption.html#acdafb10f476c4aacf74bf51adb2b4732" title="moa.options.StringOption.getValue" alt="" coords="587,59,811,88"/>
+</map>

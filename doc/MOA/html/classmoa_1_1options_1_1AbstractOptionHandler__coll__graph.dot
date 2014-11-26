@@ -1,0 +1,22 @@
+digraph G
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{moa.options.AbstractOptionHandler\n|# options\l# classOptionNamesToPreparedObjects\l- serialVersionUID\l|+ getPurposeString()\l+ getOptions()\l+ prepareForUse()\l+ prepareForUse()\l+ getCLICreationString()\l+ copy()\l# prepareForUseImpl()\l# discoverOptionsViaReflection()\l# prepareClassOptions()\l# getPreparedClassOption()\l# getPreparedClassOption()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node2 -> Node1 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node2 [label="{moa.AbstractMOAObject\n||+ copy()\l+ measureByteSize()\l+ toString()\l+ copy()\l+ measureByteSize()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1AbstractMOAObject.html",tooltip="Abstract MOA Object."];
+  Node3 -> Node2 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node3 [label="{moa.MOAObject\n||+ measureByteSize()\l+ copy()\l+ getDescription()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interfacemoa_1_1MOAObject.html",tooltip="Interface implemented by classes in MOA, so that all are serializable, can produce..."];
+  Node4 -> Node3 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node4 [label="{Serializable\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node5 -> Node1 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node5 [label="{moa.options.OptionHandler\n||+ getPurposeString()\l+ getOptions()\l+ prepareForUse()\l+ prepareForUse()\l+ copy()\l+ getCLICreationString()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interfacemoa_1_1options_1_1OptionHandler.html",tooltip="Interface representing an object that handles options or parameters."];
+  Node3 -> Node5 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node6 -> Node1 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="classOptionNamesToPreparedObjects",arrowtail="open",fontname="Helvetica"];
+  Node6 [label="{Map\< String, Object \>\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node7 -> Node1 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="options",arrowtail="open",fontname="Helvetica"];
+  Node7 [label="{moa.options.Options\n|# optionList\l- serialVersionUID\l|+ addOption()\l+ numOptions()\l+ getOption()\l+ getOption()\l+ getOptionArray()\l+ removeOption()\l+ removeOption()\l+ removeAllOptions()\l+ resetToDefaults()\l+ setViaCLIString()\l+ getAsCLIString()\l+ getHelpString()\l+ getHelp()\l+ getDescription()\l# splitParameterFromRemainingOptions()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1options_1_1Options.html",tooltip="File option."];
+  Node2 -> Node7 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node8 -> Node7 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="optionList",arrowtail="open",fontname="Helvetica"];
+  Node8 [label="{List\< Option \>\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+}

@@ -1,0 +1,10 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1gui_1_1outliertab_1_1OutlierAlgoPanel.html#a7e6c041e66a84753fe9a4bfb66283aa5" title="moa.gui.outliertab.OutlierAlgoPanel.renderAlgoPanel" alt="" coords="349,5,675,35"/>
+<area shape="rect" id="node11" href="$classmoa_1_1gui_1_1clustertab_1_1ClusteringAlgoPanel.html#aecfc454825124a2826cf470b198b1af5" title="moa.gui.clustertab.ClusteringAlgoPanel.renderAlgoPanel" alt="" coords="337,59,687,88"/>
+<area shape="rect" id="node5" href="$classmoa_1_1gui_1_1outliertab_1_1OutlierSetupTab.html#a8417656c29bc1d97a94e52d3d88688ad" title="Creates new form outlierSetupTab." alt="" coords="760,5,1080,35"/>
+<area shape="rect" id="node7" href="$classmoa_1_1gui_1_1outliertab_1_1OutlierTabPanel.html#a6146155a96c2c5239f46f5566797e5fd" title="This method is called from within the constructor to initialize the form." alt="" coords="1165,5,1483,35"/>
+<area shape="rect" id="node9" href="$classmoa_1_1gui_1_1outliertab_1_1OutlierTabPanel.html#a78f57b4c096f3587a549789072283a7b" title="Creates new form ClusterTab." alt="" coords="1568,5,1885,35"/>
+<area shape="rect" id="node13" href="$classmoa_1_1gui_1_1clustertab_1_1ClusteringSetupTab.html#a3c03410b4b1259ece559c660df433766" title="Creates new form ClusteringSetupTab." alt="" coords="737,59,1103,88"/>
+<area shape="rect" id="node15" href="$classmoa_1_1gui_1_1clustertab_1_1ClusteringTabPanel.html#a9b1cc4d4da92f4bc04b54cc12382e12f" title="This method is called from within the constructor to initialize the form." alt="" coords="1153,59,1495,88"/>
+<area shape="rect" id="node17" href="$classmoa_1_1gui_1_1clustertab_1_1ClusteringTabPanel.html#a111c041657cee8181be39524a7fa7fb1" title="Creates new form ClusterTab." alt="" coords="1544,59,1909,88"/>
+</map>

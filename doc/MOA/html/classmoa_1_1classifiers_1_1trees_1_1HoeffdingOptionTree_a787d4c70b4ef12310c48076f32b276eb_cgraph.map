@@ -1,0 +1,4 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1classifiers_1_1core_1_1conditionaltests_1_1InstanceConditionalTest.html#af3a4e494b9e2e3f981b45a237858f4cd" title="Returns an array with the attributes that the test depends on." alt="" coords="432,5,952,35"/>
+<area shape="rect" id="node5" href="$classmoa_1_1classifiers_1_1core_1_1conditionaltests_1_1NumericAttributeBinaryTest.html#add37b7285219acf08970de6a070df1c7" title="moa.classifiers.core.conditionaltests.NumericAttributeBinaryTest.getSplitValue" alt="" coords="452,59,932,88"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1KDTree.html#add9af014556f5230ca5f038c9f8ca4bb" title="Builds the KDTree on the supplied set of instances/points." alt="" coords="448,5,811,35"/>
+<area shape="rect" id="node7" href="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1KDTree.html#a5549700af886cbd717ec953ef6917dc6" title="Returns the k nearest neighbours of the supplied instance." alt="" coords="425,59,833,88"/>
+<area shape="rect" id="node5" href="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1KDTree.html#af220a59e6c7342d42b7e36da82d00af4" title="Builds the KDTree on the given set of instances." alt="" coords="896,5,1261,35"/>
+<area shape="rect" id="node9" href="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1KDTree.html#a59d618cbc6693a845ad8cc9709064b32" title="Returns the nearest neighbour of the supplied target instance." alt="" coords="883,59,1275,88"/>
+</map>

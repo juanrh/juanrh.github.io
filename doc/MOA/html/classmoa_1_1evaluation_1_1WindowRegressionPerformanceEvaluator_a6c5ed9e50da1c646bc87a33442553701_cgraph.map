@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1evaluation_1_1WindowRegressionPerformanceEvaluator.html#a6a6eb99cfafabacf1fe693cbf58f2ab9" title="moa.evaluation.WindowRegressionPerformanceEvaluator.getMeanError" alt="" coords="625,5,1063,35"/>
+<area shape="rect" id="node7" href="$classmoa_1_1evaluation_1_1WindowRegressionPerformanceEvaluator.html#ad391617ecb2cd91a2c31ea7173852cfd" title="moa.evaluation.WindowRegressionPerformanceEvaluator.getSquareError" alt="" coords="621,59,1067,88"/>
+<area shape="rect" id="node10" href="$classmoa_1_1evaluation_1_1WindowRegressionPerformanceEvaluator.html#a0f1b71088940e9d682478639a940833a" title="moa.evaluation.WindowRegressionPerformanceEvaluator.getTotalWeightObserved" alt="" coords="592,112,1096,141"/>
+<area shape="rect" id="node5" href="$classmoa_1_1evaluation_1_1WindowRegressionPerformanceEvaluator_1_1Estimator.html#ac9acdab0f21b2d849e57d16b33ccd8d9" title="moa.evaluation.WindowRegressionPerformanceEvaluator.Estimator.total" alt="" coords="1144,59,1589,88"/>
+</map>

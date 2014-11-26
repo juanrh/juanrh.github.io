@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$interfacemoa_1_1classifiers_1_1Classifier.html#a1e436b867e2b06cee6c74d6684814a58" title="Gets whether this classifier needs a random seed." alt="" coords="415,5,681,35"/>
+<area shape="rect" id="node5" href="$classmoa_1_1classifiers_1_1AbstractClassifier.html#a099ffcf2417abb919d10d697c0648f29" title="Resets this classifier." alt="" coords="385,59,711,88"/>
+<area shape="rect" id="node7" href="$classmoa_1_1classifiers_1_1AbstractClassifier.html#af50c85f56d8192f9cf56e621a835b00c" title="Gets the sum of the weights of the instances that have been used by this classifier..." alt="" coords="355,112,741,141"/>
+</map>

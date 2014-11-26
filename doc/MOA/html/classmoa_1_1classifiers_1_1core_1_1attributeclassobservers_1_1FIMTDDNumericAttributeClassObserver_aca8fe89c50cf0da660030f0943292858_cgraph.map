@@ -1,0 +1,4 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1classifiers_1_1core_1_1attributeclassobservers_1_1FIMTDDNumericAttributeClassObserver.html#a42941e351f47ce38d774b2740e5a6898" title="Recursive method that first checks all of a node&#39;s children before deciding if..." alt="" coords="676,5,1327,35"/>
+<area shape="rect" id="node5" href="$interfacemoa_1_1classifiers_1_1core_1_1splitcriteria_1_1SplitCriterion.html#a82f5cb7ad49c396d4f50615a55300b36" title="Computes the merit of splitting for a given ditribution before the split and after..." alt="" coords="1376,5,1752,35"/>
+</map>

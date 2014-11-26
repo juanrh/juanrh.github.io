@@ -1,0 +1,17 @@
+digraph G
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir=LR;
+  Node1 [label="moa.integration.SimpleClusterTest.testClusterer",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="moa.integration.SimpleClusterTest.testClusterGenerator",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1integration_1_1SimpleClusterTest.html#a74b76bc069fdc00db361c8e9ed66cbc6"];
+  Node1 -> Node3 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="moa.integration.SimpleClusterTest.testClustream",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1integration_1_1SimpleClusterTest.html#a9362ac4d3ed6fcbf102b98170e3a6e9f"];
+  Node1 -> Node4 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="moa.integration.SimpleClusterTest.testClusTree",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1integration_1_1SimpleClusterTest.html#ae77c526e412a1d4b60b4cefe85514106"];
+  Node1 -> Node5 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="moa.integration.SimpleClusterTest.testDenStream",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1integration_1_1SimpleClusterTest.html#ae13d8a05e74413ab2f8c3d4c98745390"];
+  Node1 -> Node6 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="moa.integration.SimpleClusterTest.testStreamKM",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1integration_1_1SimpleClusterTest.html#a4b9beb6c7fac88886e12beb00d6fe264"];
+}

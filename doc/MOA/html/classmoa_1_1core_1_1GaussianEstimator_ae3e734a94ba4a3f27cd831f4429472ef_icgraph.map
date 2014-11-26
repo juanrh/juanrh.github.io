@@ -1,0 +1,4 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1streams_1_1filters_1_1AddNoiseFilter.html#aa2b74031522eba8bf0b3f570eab687d2" title="Gets the next instance from this stream." alt="" coords="519,5,820,35"/>
+<area shape="rect" id="node5" href="$classmoa_1_1classifiers_1_1core_1_1attributeclassobservers_1_1GaussianNumericAttributeClassObserver.html#a7b9ebf9afb27c2982f7f8c8513190c9f" title="Updates statistics of this observer given an attribute value, a class and the weight..." alt="" coords="343,59,996,88"/>
+</map>

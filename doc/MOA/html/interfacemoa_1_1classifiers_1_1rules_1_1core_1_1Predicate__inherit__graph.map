@@ -1,0 +1,4 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1classifiers_1_1rules_1_1core_1_1conditionaltests_1_1NominalAttributeBinaryRulePredicate.html" title="Nominal binary conditional test for instances to use to split nodes in rules." alt="" coords="5,251,491,354"/>
+<area shape="rect" id="node5" href="$classmoa_1_1classifiers_1_1rules_1_1core_1_1conditionaltests_1_1NumericAttributeBinaryRulePredicate.html" title="Numeric binary conditional test for instances to use to split nodes in AMRules." alt="" coords="515,139,1000,467"/>
+</map>

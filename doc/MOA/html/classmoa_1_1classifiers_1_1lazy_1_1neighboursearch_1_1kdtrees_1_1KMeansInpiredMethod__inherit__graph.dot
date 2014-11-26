@@ -1,0 +1,10 @@
+digraph G
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{moa.classifiers.lazy.neighboursearch.kdtrees.KMeansInpiredMethod\n|- serialVersionUID\l|+ globalInfo()\l+ splitNode()\l# rearrangePoints()\l# partition()\l# quickSort()\l- checkSort()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node2 -> Node1 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node2 [label="{moa.classifiers.lazy.neighboursearch.kdtrees.KDTreeNodeSplitter\n|+ MIN\l+ MAX\l+ WIDTH\l# m_Instances\l# m_EuclideanDistance\l# m_InstList\l# m_NormalizeNodeWidth\l|+ KDTreeNodeSplitter()\l+ KDTreeNodeSplitter()\l+ listOptions()\l+ setOptions()\l+ getOptions()\l+ splitNode()\l+ setInstances()\l+ setInstanceList()\l+ setEuclideanDistanceFunction()\l+ setNodeWidthNormalization()\l# correctlyInitialized()\l# widestDim()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1kdtrees_1_1KDTreeNodeSplitter.html",tooltip="Class that splits up a KDTreeNode."];
+  Node3 -> Node2 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node3 [label="{Serializable\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+}

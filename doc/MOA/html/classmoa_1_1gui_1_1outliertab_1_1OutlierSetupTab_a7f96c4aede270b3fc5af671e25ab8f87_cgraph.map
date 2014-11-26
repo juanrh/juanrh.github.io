@@ -1,0 +1,21 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1gui_1_1outliertab_1_1OutlierSetupTab.html#ab744a49dfe1df8be6d598aaffa19028e" title="moa.gui.outliertab.OutlierSetupTab.loadOptionsFromFile" alt="" coords="499,165,845,195"/>
+<area shape="rect" id="node5" href="$classmoa_1_1gui_1_1TextViewerPanel.html#ac985c1592b561c42e50ff9d22ff1e917" title="moa.gui.TextViewerPanel.addText" alt="" coords="991,112,1212,141"/>
+<area shape="rect" id="node9" href="$classmoa_1_1gui_1_1outliertab_1_1OutlierAlgoPanel.html#a6d68933d2ae0c839785332094f4a93e2" title="moa.gui.outliertab.OutlierAlgoPanel.setAlgorithm0ValueAsCLIString" alt="" coords="895,219,1308,248"/>
+<area shape="rect" id="node40" href="$classmoa_1_1gui_1_1outliertab_1_1OutlierAlgoPanel.html#ac1ee5f3af5be0ed092b31021fa76271c" title="moa.gui.outliertab.OutlierAlgoPanel.setStreamValueAsCLIString" alt="" coords="904,165,1299,195"/>
+<area shape="rect" id="node7" href="$classmoa_1_1gui_1_1TextViewerPanel.html#ac09cb6daf98fc5b812dd330a4eeb4b11" title="moa.gui.TextViewerPanel.setText" alt="" coords="1397,112,1616,141"/>
+<area shape="rect" id="node11" href="$classmoa_1_1options_1_1ClassOption.html#abfcff77584985fa43bf7b3a1ff50568f" title="Gets the value of a Command Line Interface text as a string." alt="" coords="1360,219,1653,248"/>
+<area shape="rect" id="node17" href="$classmoa_1_1options_1_1ClassOption.html#a4b6c97afce0094039ecdb5dc62ceff86" title="Sets value of this option via the Command Line Interface text." alt="" coords="1357,165,1656,195"/>
+<area shape="rect" id="node13" href="$classmoa_1_1options_1_1ClassOption.html#a3b96c5ce84c6cd94a3676417d968205f" title="moa.options.ClassOption.objectToCLIString" alt="" coords="1705,219,1983,248"/>
+<area shape="rect" id="node15" href="$classmoa_1_1options_1_1AbstractClassOption.html#a99164a3a010dec28f40f4397aec6ecfd" title="Gets the command line interface text of the class." alt="" coords="2032,219,2355,248"/>
+<area shape="rect" id="node19" href="$classmoa_1_1options_1_1ClassOption.html#a53dc498910eecec509406522b9058796" title="moa.options.ClassOption.cliStringToObject" alt="" coords="1708,112,1980,141"/>
+<area shape="rect" id="node38" href="$classmoa_1_1options_1_1AbstractOption.html#a26d25b88bb5244ed3c2ec142bd28353d" title="Gets the name of this option." alt="" coords="1724,165,1964,195"/>
+<area shape="rect" id="node21" href="$classmoa_1_1options_1_1Options.html#a1886243eaecde00151eb2787c6501d6f" title="moa.options.Options.addOption" alt="" coords="2091,165,2296,195"/>
+<area shape="rect" id="node29" href="$classmoa_1_1options_1_1Options.html#a98fbf40bdfd12bd726e998c818be29e6" title="moa.options.Options.removeAllOptions" alt="" coords="2069,112,2317,141"/>
+<area shape="rect" id="node31" href="$classmoa_1_1options_1_1Options.html#a6fb4bce4cd3933247ad37a471cefdd47" title="moa.options.Options.setViaCLIString" alt="" coords="2075,59,2312,88"/>
+<area shape="rect" id="node23" href="$interfacemoa_1_1options_1_1Option.html#a0f2bfa3fc25dfbd92be96d007e093c3c" title="Gets the Command Line Interface text of this option." alt="" coords="2484,165,2689,195"/>
+<area shape="rect" id="node25" href="$interfacemoa_1_1options_1_1Option.html#a28d0b5eb1a547178d6d43c3d8cc89142" title="Gets the name of this option." alt="" coords="2491,219,2683,248"/>
+<area shape="rect" id="node27" href="$classmoa_1_1options_1_1Options.html#ad2061f549ed2eb9bb7bc5bbb3ab17019" title="moa.options.Options.getOption" alt="" coords="2485,112,2688,141"/>
+<area shape="rect" id="node34" href="$interfacemoa_1_1options_1_1Option.html#ac522763e8a93b8236980749dcb0b74bc" title="Sets value of this option via the Command Line Interface text." alt="" coords="2455,59,2719,88"/>
+<area shape="rect" id="node36" href="$classmoa_1_1options_1_1Options.html#a0bbd711d8b12b78f7fe61741035afdbd" title="Internal method that splits a string into two parts &#45; the parameter for the current..." alt="" coords="2404,5,2769,35"/>
+</map>

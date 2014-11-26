@@ -1,0 +1,8 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1clusterers_1_1clustree_1_1ClusTree.html#a20dce56eedf22741eb72524ccd135b1d" title="This method checks if there is an outdated (or empty) entry on the path from node..." alt="" coords="316,5,697,35"/>
+<area shape="rect" id="node5" href="$classmoa_1_1clusterers_1_1clustree_1_1ClusTree.html#a7998f24fe858f360f96c6557f7aada85" title="insert newPoint into the tree using the BreadthFirst strategy, i.e." alt="" coords="747,64,1069,93"/>
+<area shape="rect" id="node9" href="$classmoa_1_1clusterers_1_1clustree_1_1ClusTree.html#a8945983f656f329d5a7e4f1e321e5c3b" title="moa.clusterers.clustree.ClusTree.insert" alt="" coords="1459,149,1709,179"/>
+<area shape="rect" id="node15" href="$classmoa_1_1clusterers_1_1clustree_1_1ClusTree.html#a650e952fc922b0305c024c1ac76cd1ac" title="Method called by insertBreadthFirst." alt="" coords="341,109,672,139"/>
+<area shape="rect" id="node7" href="$classmoa_1_1clusterers_1_1clustree_1_1ClusTree.html#a1fcbd4768f2142bdae4d88c80e0323e9" title="Insert a new point in the Tree." alt="" coords="1117,89,1368,119"/>
+<area shape="rect" id="node11" href="$classmoa_1_1clusterers_1_1clustree_1_1ClusTree.html#a8fd397a6344c5b97fe5cf44fcf8b2db9" title="moa.clusterers.clustree.ClusTree.trainOnInstanceImpl" alt="" coords="1416,89,1752,119"/>
+</map>

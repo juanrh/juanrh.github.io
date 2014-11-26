@@ -1,0 +1,17 @@
+digraph G
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir=LR;
+  Node1 [label="moa.MOAObject.measureByteSize",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="moa.tasks.EvaluatePrequentialRegression.doMainTask",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1tasks_1_1EvaluatePrequentialRegression.html#aebef8e4e09d6c72c08f3c8de0a94b712",tooltip="This method performs this task."];
+  Node1 -> Node3 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="moa.tasks.EvaluatePrequential.doMainTask",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1tasks_1_1EvaluatePrequential.html#a2ad9727938880a3f31cab2544040eed1",tooltip="This method performs this task."];
+  Node1 -> Node4 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="moa.tasks.EvaluateInterleavedTestThenTrain.doMainTask",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1tasks_1_1EvaluateInterleavedTestThenTrain.html#a6b487518dd5bfdc97abe37263f725610",tooltip="This method performs this task."];
+  Node1 -> Node5 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="moa.tasks.EvaluateInterleavedChunks.doMainTask",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1tasks_1_1EvaluateInterleavedChunks.html#a79a4b1e7cc8c707712a39f5fdbf85fec",tooltip="This method performs this task."];
+  Node1 -> Node6 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="moa.classifiers.meta.AccuracyWeightedEnsemble.removePoorestModelBytes",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1meta_1_1AccuracyWeightedEnsemble.html#af656e82eee79e36252fb10002c29eeef",tooltip="Removes the poorest classifier from the model, thus decreasing the models size."];
+}

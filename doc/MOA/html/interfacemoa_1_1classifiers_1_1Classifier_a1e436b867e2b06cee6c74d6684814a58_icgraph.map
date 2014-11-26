@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1classifiers_1_1AbstractClassifier.html#a3da7137e59e323350c8777f119ec26a1" title="Creates an classifier and setups the random seed option if the classifier is randomizable..." alt="" coords="339,5,664,35"/>
+<area shape="rect" id="node5" href="$classmoa_1_1tasks_1_1EvaluateInterleavedTestThenTrain.html#a6b487518dd5bfdc97abe37263f725610" title="This method performs this task." alt="" coords="321,59,681,88"/>
+<area shape="rect" id="node7" href="$classmoa_1_1classifiers_1_1AbstractClassifier.html#ae2edfc12ae6aba12571f307845f6bf2a" title="Resets this classifier." alt="" coords="352,112,651,141"/>
+<area shape="rect" id="node9" href="$classmoa_1_1classifiers_1_1AbstractClassifier.html#af81677ce9db6e94f79321df05e7dc019" title="This method describes the implementation of how to prepare this object for use." alt="" coords="731,112,1064,141"/>
+</map>

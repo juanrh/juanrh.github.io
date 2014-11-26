@@ -1,0 +1,7 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1gui_1_1outliertab_1_1OutlierAlgoPanel.html#a83cd9cfd51346c2981841cd3ec0ad337" title="moa.gui.outliertab.OutlierAlgoPanel.getStream" alt="" coords="349,32,640,61"/>
+<area shape="rect" id="node5" href="$classmoa_1_1gui_1_1outliertab_1_1OutlierAlgoPanel.html#afa168fa822e1b09c894054eeb1cd8a48" title="moa.gui.outliertab.OutlierAlgoPanel.applyChanges" alt="" coords="689,5,1001,35"/>
+<area shape="rect" id="node7" href="$classmoa_1_1options_1_1ClassOption.html#abfcff77584985fa43bf7b3a1ff50568f" title="Gets the value of a Command Line Interface text as a string." alt="" coords="699,59,992,88"/>
+<area shape="rect" id="node9" href="$classmoa_1_1options_1_1ClassOption.html#a3b96c5ce84c6cd94a3676417d968205f" title="moa.options.ClassOption.objectToCLIString" alt="" coords="1052,59,1329,88"/>
+<area shape="rect" id="node11" href="$classmoa_1_1options_1_1AbstractClassOption.html#a99164a3a010dec28f40f4397aec6ecfd" title="Gets the command line interface text of the class." alt="" coords="1379,59,1701,88"/>
+</map>

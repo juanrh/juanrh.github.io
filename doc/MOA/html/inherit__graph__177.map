@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" id="node1" href="$interfacemoa_1_1recommender_1_1rc_1_1data_1_1RecommenderData.html" title="moa.recommender.rc.data.RecommenderData" alt="" coords="5,5,296,35"/>
+<area shape="rect" id="node3" href="$classmoa_1_1recommender_1_1rc_1_1data_1_1AbstractRecommenderData.html" title="moa.recommender.rc.data.AbstractRecommenderData" alt="" coords="345,5,684,35"/>
+<area shape="rect" id="node5" href="$classmoa_1_1recommender_1_1rc_1_1data_1_1impl_1_1MemRecommenderData.html" title="moa.recommender.rc.data.impl.MemRecommenderData" alt="" coords="735,5,1081,35"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1classifiers_1_1AbstractClassifier.html#a5604757bcbc1b7716aa519f7ed2cf448" title="Trains this classifier incrementally using the given instance." alt="" coords="392,59,707,88"/>
+<area shape="rect" id="node5" href="$classmoa_1_1tasks_1_1EvaluateConceptDrift.html#a83715b3b435b89c3aff5d7e948cc2274" title="This method performs this task." alt="" coords="829,5,1115,35"/>
+<area shape="rect" id="node7" href="$classmoa_1_1classifiers_1_1meta_1_1DACC.html#aeb1bb224682626d5c6b9b3812c269291" title="Receives a training instance from the stream and updates the adaptive classifiers..." alt="" coords="829,59,1115,88"/>
+<area shape="rect" id="node13" href="$classmoa_1_1classifiers_1_1rules_1_1core_1_1RuleActiveRegressionNode.html#a02a403862310b143edfb8f42c15f0c44" title="moa.classifiers.rules.core.RuleActiveRegressionNode.updateStatistics" alt="" coords="755,112,1189,141"/>
+<area shape="rect" id="node9" href="$classmoa_1_1classifiers_1_1meta_1_1DACC.html#aaf6e169006f8f249b9cee1db427930ec" title="Trains this classifier incrementally using the given instance." alt="" coords="1243,32,1549,61"/>
+<area shape="rect" id="node11" href="$classmoa_1_1classifiers_1_1meta_1_1ADACC.html#afac7020458c562ced7fb327021d15e92" title="Trains this classifier incrementally using the given instance." alt="" coords="1239,85,1553,115"/>
+</map>

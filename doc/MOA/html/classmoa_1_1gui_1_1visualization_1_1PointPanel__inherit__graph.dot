@@ -1,0 +1,8 @@
+digraph G
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{moa.gui.visualization.PointPanel\n|~ point\l~ POINTSIZE\l# x_dim\l# y_dim\l# col\l# default_color\l# panel_size\l# window_size\l# highligted\l# decayRate\l# decayThreshold\l# type\l# TYPE_PLAIN\l# TYPE_CLUSTERED\l# sp\l- serialVersionUID\l|+ PointPanel()\l+ PointPanel()\l+ updateLocation()\l+ highlight()\l+ getObjectInfo()\l+ getToolTipText()\l+ getSVGString()\l+ drawOnCanvas()\l+ getPointColorbyClass()\l# paintComponent()\l- initComponents()\l- getErrorColor()\l- getColor()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node2 -> Node1 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node2 [label="{JPanel\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+}

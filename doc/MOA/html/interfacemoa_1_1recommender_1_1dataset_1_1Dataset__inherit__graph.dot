@@ -1,0 +1,12 @@
+digraph G
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{moa.recommender.dataset.Dataset\n||+ next()\l+ curUserID()\l+ curItemID()\l+ curRating()\l+ reset()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node2 [label="{moa.recommender.dataset.impl.FlixsterDataset\n|+ fileOption\l- strLine\l- br\l|+ getPurposeString()\l+ init()\l+ next()\l+ curUserID()\l+ curItemID()\l+ curRating()\l+ toString()\l+ reset()\l+ getDescription()\l# prepareForUseImpl()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1recommender_1_1dataset_1_1impl_1_1FlixsterDataset.html"];
+  Node1 -> Node3 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node3 [label="{moa.recommender.dataset.impl.JesterDataset\n|+ fileOption\l- strLine\l- br\l|+ getPurposeString()\l+ init()\l+ next()\l+ toString()\l+ curUserID()\l+ curItemID()\l+ curRating()\l+ reset()\l+ getDescription()\l# prepareForUseImpl()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1recommender_1_1dataset_1_1impl_1_1JesterDataset.html"];
+  Node1 -> Node4 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node4 [label="{moa.recommender.dataset.impl.MovielensDataset\n|+ fileOption\l- strLine\l- br\l|+ getPurposeString()\l+ init()\l+ next()\l+ toString()\l+ curUserID()\l+ curItemID()\l+ curRating()\l+ reset()\l+ getDescription()\l# prepareForUseImpl()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1recommender_1_1dataset_1_1impl_1_1MovielensDataset.html"];
+}

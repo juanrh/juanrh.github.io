@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1gui_1_1GUI.html#a3b3d8d4cde2247e15107ff97135e294e" title="moa.gui.GUI.initGUI" alt="" coords="179,32,320,61"/>
+<area shape="rect" id="node5" href="$classmoa_1_1gui_1_1AbstractTabPanel.html#a09e90a18de8c111164d5f847ddc1e513" title="Returns a short description (can be used as tool tip) of the tab, or contributor..." alt="" coords="368,5,632,35"/>
+<area shape="rect" id="node7" href="$classmoa_1_1gui_1_1AbstractTabPanel.html#a8eb54178127c7d9e5202530214382848" title="Returns the string to display as title of the tab." alt="" coords="377,59,623,88"/>
+</map>

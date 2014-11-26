@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1test_1_1MoaTestCase.html#a4c31a77a84e2e63c9237ca76f3a5ec7f" title="Override to run the test and assert its state." alt="" coords="391,5,596,35"/>
+<area shape="rect" id="node7" href="$classmoa_1_1classifiers_1_1functions_1_1PerceptronTest.html#a848033c01c950837653bea0a57c3ef9f" title="Returns a test suite." alt="" coords="348,59,639,88"/>
+<area shape="rect" id="node5" href="$classmoa_1_1test_1_1MoaTestCase.html#a9243c5aff3dbbd981f966fd8f2c8157e" title="Returns whether the test can be executed in a headless environment." alt="" coords="688,5,968,35"/>
+</map>

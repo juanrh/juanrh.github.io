@@ -1,0 +1,7 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1evaluation_1_1BasicRegressionPerformanceEvaluator.html#ace993badc352905eac31c04ac4d66f20" title="moa.evaluation.BasicRegressionPerformanceEvaluator.getMeanError" alt="" coords="612,5,1036,35"/>
+<area shape="rect" id="node5" href="$classmoa_1_1evaluation_1_1BasicRegressionPerformanceEvaluator.html#acc19df1fdc2c71910fa2972674f625f9" title="moa.evaluation.BasicRegressionPerformanceEvaluator.getRelativeMeanError" alt="" coords="588,59,1060,88"/>
+<area shape="rect" id="node7" href="$classmoa_1_1evaluation_1_1BasicRegressionPerformanceEvaluator.html#abcf4507dad5e88991dc2b9a3da9d6846" title="moa.evaluation.BasicRegressionPerformanceEvaluator.getRelativeSquareError" alt="" coords="584,112,1064,141"/>
+<area shape="rect" id="node9" href="$classmoa_1_1evaluation_1_1BasicRegressionPerformanceEvaluator.html#a9994f40e9d3810a02801158a5d5f42d3" title="moa.evaluation.BasicRegressionPerformanceEvaluator.getSquareError" alt="" coords="608,165,1040,195"/>
+<area shape="rect" id="node11" href="$classmoa_1_1evaluation_1_1BasicRegressionPerformanceEvaluator.html#a92b41b5238b8782a5d0d0c4382972dd6" title="moa.evaluation.BasicRegressionPerformanceEvaluator.getTotalWeightObserved" alt="" coords="579,219,1069,248"/>
+</map>

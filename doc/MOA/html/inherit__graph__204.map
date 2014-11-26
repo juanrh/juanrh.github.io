@@ -1,0 +1,43 @@
+<map id="G" name="G">
+<area shape="rect" id="node1" href="$classmoa_1_1test_1_1MoaTestCase.html" title="Ancestor for all test cases." alt="" coords="7,1365,164,1395"/>
+<area shape="rect" id="node3" href="$classmoa_1_1classifiers_1_1AbstractClassifierTestCase.html" title="Ancestor for all classifier test cases." alt="" coords="213,1365,488,1395"/>
+<area shape="rect" id="node5" href="$classmoa_1_1classifiers_1_1AbstractMultipleClassifierTestCase.html" title="Ancestor that defines a setting to test a classifier several times with different..." alt="" coords="539,912,859,941"/>
+<area shape="rect" id="node75" href="$classmoa_1_1classifiers_1_1AbstractMultipleRegressorTestCase.html" title="Ancestor that defines a setting to test a classifier several times with different..." alt="" coords="536,1845,861,1875"/>
+<area shape="rect" id="node7" href="$classmoa_1_1classifiers_1_1active_1_1ActiveClassifierTest.html" title="Tests the ActiveClassifier classifier." alt="" coords="961,5,1231,35"/>
+<area shape="rect" id="node9" href="$classmoa_1_1classifiers_1_1bayes_1_1NaiveBayesMultinomialTest.html" title="Tests the NaiveBayesMultinomial classifier." alt="" coords="939,59,1253,88"/>
+<area shape="rect" id="node11" href="$classmoa_1_1classifiers_1_1bayes_1_1NaiveBayesTest.html" title="Tests the NaiveBayes classifier." alt="" coords="971,112,1221,141"/>
+<area shape="rect" id="node13" href="$classmoa_1_1classifiers_1_1drift_1_1DriftDetectionMethodClassifierTest.html" title="Tests the DriftDetectionMethodClassifier classifier." alt="" coords="924,165,1268,195"/>
+<area shape="rect" id="node15" href="$classmoa_1_1classifiers_1_1drift_1_1SingleClassifierDriftTest.html" title="Tests the SingleClassifierDrift classifier." alt="" coords="955,219,1237,248"/>
+<area shape="rect" id="node17" href="$classmoa_1_1classifiers_1_1functions_1_1MajorityClassTest.html" title="Tests the MajorityClass classifier." alt="" coords="957,272,1235,301"/>
+<area shape="rect" id="node19" href="$classmoa_1_1classifiers_1_1functions_1_1NoChangeTest.html" title="Tests the NoChange classifier." alt="" coords="967,325,1225,355"/>
+<area shape="rect" id="node21" href="$classmoa_1_1classifiers_1_1functions_1_1PerceptronTest.html" title="Tests the Perceptron classifier." alt="" coords="967,379,1225,408"/>
+<area shape="rect" id="node23" href="$classmoa_1_1classifiers_1_1functions_1_1SGDTest.html" title="Tests the SGD classifier." alt="" coords="983,432,1209,461"/>
+<area shape="rect" id="node25" href="$classmoa_1_1classifiers_1_1functions_1_1SPegasosTest.html" title="Tests the SPegasos classifier." alt="" coords="968,485,1224,515"/>
+<area shape="rect" id="node27" href="$classmoa_1_1classifiers_1_1meta_1_1AccuracyUpdatedEnsembleTest.html" title="Tests the AccuracyUpdatedEnsemble classifier." alt="" coords="929,539,1263,568"/>
+<area shape="rect" id="node29" href="$classmoa_1_1classifiers_1_1meta_1_1AccuracyWeightedEnsembleTest.html" title="Tests the AccuracyWeightedEnsemble classifier." alt="" coords="925,592,1267,621"/>
+<area shape="rect" id="node31" href="$classmoa_1_1classifiers_1_1meta_1_1LeveragingBagTest.html" title="Tests the LeveragingBag classifier." alt="" coords="967,645,1225,675"/>
+<area shape="rect" id="node33" href="$classmoa_1_1classifiers_1_1meta_1_1LimAttClassifierTest.html" title="Tests the LimAttClassifier classifier." alt="" coords="963,699,1229,728"/>
+<area shape="rect" id="node35" href="$classmoa_1_1classifiers_1_1meta_1_1OCBoostTest.html" title="Tests the OCBoost classifier." alt="" coords="983,752,1209,781"/>
+<area shape="rect" id="node37" href="$classmoa_1_1classifiers_1_1meta_1_1OnlineAccuracyUpdatedEnsembleTest.html" title="Tests the OnlineAccuracyUpdatedEnsemble classifier." alt="" coords="911,805,1281,835"/>
+<area shape="rect" id="node39" href="$classmoa_1_1classifiers_1_1meta_1_1OzaBagAdwinTest.html" title="Tests the OzaBagAdwin classifier." alt="" coords="968,859,1224,888"/>
+<area shape="rect" id="node41" href="$classmoa_1_1classifiers_1_1meta_1_1OzaBagASHTTest.html" title="Tests the OzaBagASHT classifier." alt="" coords="968,912,1224,941"/>
+<area shape="rect" id="node43" href="$classmoa_1_1classifiers_1_1meta_1_1OzaBagTest.html" title="Tests the OzaBag classifier." alt="" coords="987,965,1205,995"/>
+<area shape="rect" id="node45" href="$classmoa_1_1classifiers_1_1meta_1_1OzaBoostAdwinTest.html" title="Tests the OzaBoostAdwin classifier." alt="" coords="963,1019,1229,1048"/>
+<area shape="rect" id="node47" href="$classmoa_1_1classifiers_1_1meta_1_1OzaBoostTest.html" title="Tests the OzaBoost classifier." alt="" coords="981,1072,1211,1101"/>
+<area shape="rect" id="node49" href="$classmoa_1_1classifiers_1_1meta_1_1TemporallyAugmentedClassifierTest.html" title="Tests the TemporallyAugmentedClassifier classifier." alt="" coords="917,1125,1275,1155"/>
+<area shape="rect" id="node51" href="$classmoa_1_1classifiers_1_1meta_1_1WeightedMajorityAlgorithmTest.html" title="Tests the WeightedMajorityAlgorithm classifier." alt="" coords="932,1179,1260,1208"/>
+<area shape="rect" id="node53" href="$classmoa_1_1classifiers_1_1meta_1_1WEKAClassifierTest.html" title="Tests the WEKAClassifier classifier." alt="" coords="963,1232,1229,1261"/>
+<area shape="rect" id="node55" href="$classmoa_1_1classifiers_1_1rules_1_1RuleClassifierNBayesTest.html" title="Tests the RuleClassifierNBayes classifier." alt="" coords="945,1285,1247,1315"/>
+<area shape="rect" id="node57" href="$classmoa_1_1classifiers_1_1rules_1_1RuleClassifierTest.html" title="Tests the RuleClassifier classifier." alt="" coords="969,1339,1223,1368"/>
+<area shape="rect" id="node59" href="$classmoa_1_1classifiers_1_1trees_1_1AdaHoeffdingOptionTreeTest.html" title="Tests the AdaHoeffdingOptionTree classifier." alt="" coords="939,1392,1253,1421"/>
+<area shape="rect" id="node61" href="$classmoa_1_1classifiers_1_1trees_1_1ASHoeffdingTreeTest.html" title="Tests the ASHoeffdingTree classifier." alt="" coords="960,1445,1232,1475"/>
+<area shape="rect" id="node63" href="$classmoa_1_1classifiers_1_1trees_1_1DecisionStumpTest.html" title="Tests the DecisionStump classifier." alt="" coords="965,1499,1227,1528"/>
+<area shape="rect" id="node65" href="$classmoa_1_1classifiers_1_1trees_1_1HoeffdingAdaptiveTreeTest.html" title="Tests the HoeffdingAdaptiveTree classifier." alt="" coords="943,1552,1249,1581"/>
+<area shape="rect" id="node67" href="$classmoa_1_1classifiers_1_1trees_1_1HoeffdingOptionTreeTest.html" title="Tests the HoeffdingOptionTree classifier." alt="" coords="949,1605,1243,1635"/>
+<area shape="rect" id="node69" href="$classmoa_1_1classifiers_1_1trees_1_1HoeffdingTreeTest.html" title="Tests the HoeffdingTree classifier." alt="" coords="969,1659,1223,1688"/>
+<area shape="rect" id="node71" href="$classmoa_1_1classifiers_1_1trees_1_1LimAttHoeffdingTreeTest.html" title="Tests the LimAttHoeffdingTree classifier." alt="" coords="949,1712,1243,1741"/>
+<area shape="rect" id="node73" href="$classmoa_1_1classifiers_1_1trees_1_1RandomHoeffdingTreeTest.html" title="Tests the RandomHoeffdingTree classifier." alt="" coords="944,1765,1248,1795"/>
+<area shape="rect" id="node77" href="$classmoa_1_1classifiers_1_1rules_1_1AMRulesRegressorTest.html" title="Tests the AMRulesRegressor classifier." alt="" coords="953,1819,1239,1848"/>
+<area shape="rect" id="node79" href="$classmoa_1_1classifiers_1_1trees_1_1FIMTDDTest.html" title="Tests the FIMTDD classifier." alt="" coords="984,1872,1208,1901"/>
+<area shape="rect" id="node81" href="$classmoa_1_1classifiers_1_1trees_1_1ORTOTest.html" title="Tests the ORTO classifier." alt="" coords="991,1925,1201,1955"/>
+</map>

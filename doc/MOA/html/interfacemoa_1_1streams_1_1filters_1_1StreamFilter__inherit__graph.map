@@ -1,0 +1,8 @@
+<map id="G" name="G">
+<area shape="rect" id="node9" href="$classmoa_1_1streams_1_1filters_1_1AbstractStreamFilter.html" title="Abstract Stream Filter." alt="" coords="233,661,492,851"/>
+<area shape="rect" id="node2" href="$interfacemoa_1_1streams_1_1InstanceStream.html" title="Interface representing a data stream of instances." alt="" coords="253,307,472,479"/>
+<area shape="rect" id="node4" href="$interfacemoa_1_1MOAObject.html" title="Interface implemented by classes in MOA, so that all are serializable, can produce..." alt="" coords="291,139,435,259"/>
+<area shape="rect" id="node11" href="$classmoa_1_1streams_1_1filters_1_1AddNoiseFilter.html" title="Filter for adding random noise to examples in a stream." alt="" coords="5,942,229,1183"/>
+<area shape="rect" id="node13" href="$classmoa_1_1streams_1_1filters_1_1CacheFilter.html" title="Filter for representing a stream that is cached in memory." alt="" coords="253,925,472,1201"/>
+<area shape="rect" id="node15" href="$classmoa_1_1streams_1_1filters_1_1ReplacingMissingValuesFilter.html" title="Replaces the missing values with another value according to the selected strategy..." alt="" coords="496,899,805,1227"/>
+</map>

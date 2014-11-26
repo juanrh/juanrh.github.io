@@ -1,0 +1,29 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1tasks_1_1WriteStreamToARFFFile.html#a2832be2d0c4ddf2677960536e2591c9c" title="This method performs this task." alt="" coords="281,5,588,35"/>
+<area shape="rect" id="node5" href="$classmoa_1_1tasks_1_1Plot.html#ad1a2b2fea42597d674408de4dae8482b" title="This method performs this task." alt="" coords="343,59,527,88"/>
+<area shape="rect" id="node7" href="$classmoa_1_1tasks_1_1EvaluatePrequentialRegression.html#aebef8e4e09d6c72c08f3c8de0a94b712" title="This method performs this task." alt="" coords="263,112,607,141"/>
+<area shape="rect" id="node9" href="$classmoa_1_1tasks_1_1EvaluatePrequential.html#a2ad9727938880a3f31cab2544040eed1" title="This method performs this task." alt="" coords="296,165,573,195"/>
+<area shape="rect" id="node11" href="$classmoa_1_1tasks_1_1EvaluatePeriodicHeldOutTest.html#a71f8d46e07fbec833b8f4bf669ac5854" title="This method performs this task." alt="" coords="268,219,601,248"/>
+<area shape="rect" id="node13" href="$classmoa_1_1tasks_1_1EvaluateModelRegression.html#a1456d9f54442afa76e62fd1fbcf0c091" title="This method performs this task." alt="" coords="277,272,592,301"/>
+<area shape="rect" id="node15" href="$classmoa_1_1tasks_1_1EvaluateModel.html#ad72d33b5ea34a0b733c6e177f9dbb3ea" title="This method performs this task." alt="" coords="311,325,559,355"/>
+<area shape="rect" id="node17" href="$classmoa_1_1tasks_1_1EvaluateInterleavedTestThenTrain.html#a6b487518dd5bfdc97abe37263f725610" title="This method performs this task." alt="" coords="255,379,615,408"/>
+<area shape="rect" id="node19" href="$classmoa_1_1tasks_1_1EvaluateInterleavedChunks.html#a79a4b1e7cc8c707712a39f5fdbf85fec" title="This method performs this task." alt="" coords="273,432,596,461"/>
+<area shape="rect" id="node21" href="$classmoa_1_1tasks_1_1EvaluateConceptDrift.html#a83715b3b435b89c3aff5d7e948cc2274" title="This method performs this task." alt="" coords="292,485,577,515"/>
+<area shape="rect" id="node23" href="$classmoa_1_1tasks_1_1MainTask.html#a93c46b5a66d0a5f46c379c3abfb6c183" title="This method performs this task." alt="" coords="327,539,543,568"/>
+<area shape="rect" id="node25" href="$classmoa_1_1recommender_1_1dataset_1_1impl_1_1MovielensDataset.html#afc8eb4b17052fc0db9caac8cb697bd81" title="moa.recommender.dataset.impl.MovielensDataset.init" alt="" coords="268,592,601,621"/>
+<area shape="rect" id="node31" href="$classmoa_1_1recommender_1_1dataset_1_1impl_1_1JesterDataset.html#a98fa4f847c5a8a6e6ccdb5773b9cd669" title="moa.recommender.dataset.impl.JesterDataset.init" alt="" coords="279,645,591,675"/>
+<area shape="rect" id="node37" href="$classmoa_1_1recommender_1_1dataset_1_1impl_1_1FlixsterDataset.html#a3220bfaded451f7ef5b885545cfe0d04" title="moa.recommender.dataset.impl.FlixsterDataset.init" alt="" coords="276,699,593,728"/>
+<area shape="rect" id="node43" href="$classmoa_1_1streams_1_1clustering_1_1FileStream.html#a302d43207ddf466ae11e807d5d33496c" title="moa.streams.clustering.FileStream.readMinMaxDiffValues" alt="" coords="255,752,615,781"/>
+<area shape="rect" id="node45" href="$classmoa_1_1streams_1_1clustering_1_1FileStream.html#afa6427616638ec26533d9edc06bf598a" title="Restarts this stream." alt="" coords="785,805,1052,835"/>
+<area shape="rect" id="node50" href="$classmoa_1_1streams_1_1ArffFileStream.html#a21cb216bc7d7353e5631e5036ef74a4f" title="Restarts this stream." alt="" coords="321,885,548,915"/>
+<area shape="rect" id="node27" href="$classmoa_1_1recommender_1_1dataset_1_1impl_1_1MovielensDataset.html#a3777f5bce362405fb0151953d9e30c70" title="This method describes the implementation of how to prepare this object for use." alt="" coords="704,485,1133,515"/>
+<area shape="rect" id="node29" href="$classmoa_1_1recommender_1_1dataset_1_1impl_1_1MovielensDataset.html#aa9557abf658e48ac6e2afc836988639d" title="moa.recommender.dataset.impl.MovielensDataset.reset" alt="" coords="745,539,1092,568"/>
+<area shape="rect" id="node33" href="$classmoa_1_1recommender_1_1dataset_1_1impl_1_1JesterDataset.html#aeae7904825b7e34e406a10aa958a9496" title="This method describes the implementation of how to prepare this object for use." alt="" coords="716,592,1121,621"/>
+<area shape="rect" id="node35" href="$classmoa_1_1recommender_1_1dataset_1_1impl_1_1JesterDataset.html#ae8dbcb484eb678cd7a1d6abb4c724b36" title="moa.recommender.dataset.impl.JesterDataset.reset" alt="" coords="757,645,1080,675"/>
+<area shape="rect" id="node39" href="$classmoa_1_1recommender_1_1dataset_1_1impl_1_1FlixsterDataset.html#ae6f2a12450efc39bd2dfb4a705864641" title="This method describes the implementation of how to prepare this object for use." alt="" coords="712,699,1125,728"/>
+<area shape="rect" id="node41" href="$classmoa_1_1recommender_1_1dataset_1_1impl_1_1FlixsterDataset.html#a1ce8fe7910374e94b4e45cbff7000ce6" title="moa.recommender.dataset.impl.FlixsterDataset.reset" alt="" coords="753,752,1084,781"/>
+<area shape="rect" id="node47" href="$classmoa_1_1streams_1_1clustering_1_1FileStream.html#af898d21758aa6a1d551b57b67cd0fabe" title="This method describes the implementation of how to prepare this object for use." alt="" coords="1223,805,1561,835"/>
+<area shape="rect" id="node52" href="$classmoa_1_1streams_1_1ArffFileStream.html#aa29709e1c4faff611d85b6e420a0b59f" title="moa.streams.ArffFileStream.ArffFileStream" alt="" coords="781,859,1056,888"/>
+<area shape="rect" id="node54" href="$classmoa_1_1streams_1_1generators_1_1multilabel_1_1MultilabelArffFileStream.html#ab9a402746dbe495543f732ce92929096" title="moa.streams.generators.multilabel.MultilabelArffFileStream.MultilabelArffFileStream" alt="" coords="665,912,1172,941"/>
+<area shape="rect" id="node56" href="$classmoa_1_1streams_1_1ArffFileStream.html#a8eea023a8057b9487861dd5bc2904802" title="This method describes the implementation of how to prepare this object for use." alt="" coords="768,965,1069,995"/>
+</map>

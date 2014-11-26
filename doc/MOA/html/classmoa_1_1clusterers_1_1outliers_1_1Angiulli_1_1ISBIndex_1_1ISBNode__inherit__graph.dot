@@ -1,0 +1,10 @@
+digraph G
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{moa.clusterers.outliers.Angiulli.ISBIndex.ISBNode\n|+ inst\l+ obj\l+ id\l+ nOutlier\l+ nInlier\l|+ ISBNode()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node2 [label="{moa.clusterers.outliers.Angiulli.ApproxSTORM.ISBNodeAppr\n|+ count_after\l+ count_before\l+ fract_before\l|+ ISBNodeAppr()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1clusterers_1_1outliers_1_1Angiulli_1_1ApproxSTORM_1_1ISBNodeAppr.html"];
+  Node1 -> Node3 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node3 [label="{moa.clusterers.outliers.Angiulli.ExactSTORM.ISBNodeExact\n|+ count_after\l- nn_before\l|+ ISBNodeExact()\l+ AddPrecNeigh()\l+ CountPrecNeighs()\l+ PrintPrecNeighs()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1clusterers_1_1outliers_1_1Angiulli_1_1ExactSTORM_1_1ISBNodeExact.html"];
+}

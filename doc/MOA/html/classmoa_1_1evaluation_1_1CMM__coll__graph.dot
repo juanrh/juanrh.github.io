@@ -1,0 +1,39 @@
+digraph G
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{moa.evaluation.CMM\n|+ debug\l+ enableClassMerge\l+ enableModelError\l- clustering\l- gtAnalysis\l- numPoints\l- numFClusters\l- numGT0Classes\l- matchMap\l- pointInclusionProbFC\l- pointInclusionProbThreshold\l- lamdaMissed\l- serialVersionUID\l|+ evaluateClustering()\l+ getParameterString()\l# getNames()\l# getDefaultEnabled()\l- calculateMatching()\l- calculateError()\l- noiseError()\l- missedError()\l- misplacedError()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node2 -> Node1 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node2 [label="{moa.evaluation.MeasureCollection\n|- names\l- values\l- sortedValues\l- events\l- minValue\l- maxValue\l- sumValues\l- enabled\l- corrupted\l- time\l- debug\l- mm\l- map\l- numMeasures\l|+ MeasureCollection()\l+ addValue()\l+ addEmptyValue()\l+ getNumMeasures()\l+ getName()\l+ getMaxValue()\l+ getMinValue()\l+ getLastValue()\l+ getMean()\l+ clean()\l+ getMedian()\l+ getLowerQuartile()\l+ getUpperQuartile()\l+ getNumberOfValues()\l+ getValue()\l+ getAllValues()\l+ setEnabled()\l+ isEnabled()\l+ getMeanRunningTime()\l+ evaluateClusteringPerformance()\l+ getDescription()\l+ addEventType()\l+ getEventType()\l# getNames()\l# addValue()\l# getDefaultEnabled()\l# evaluateClustering()\l- updateSortedValues()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1evaluation_1_1MeasureCollection.html"];
+  Node3 -> Node2 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node3 [label="{moa.AbstractMOAObject\n||+ copy()\l+ measureByteSize()\l+ toString()\l+ copy()\l+ measureByteSize()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1AbstractMOAObject.html",tooltip="Abstract MOA Object."];
+  Node4 -> Node3 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node4 [label="{moa.MOAObject\n||+ measureByteSize()\l+ copy()\l+ getDescription()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interfacemoa_1_1MOAObject.html",tooltip="Interface implemented by classes in MOA, so that all are serializable, can produce..."];
+  Node5 -> Node4 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node5 [label="{Serializable\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node6 -> Node2 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="mm",arrowtail="open",fontname="Helvetica"];
+  Node6 [label="{moa.evaluation.MembershipMatrix\n|~ classmap\l~ cluster_class_weights\l~ cluster_sums\l~ class_sums\l~ total_entries\l~ class_distribution\l~ total_class_entries\l~ initalBuildTimestamp\l|+ MembershipMatrix()\l+ getClusterClassWeight()\l+ getClusterSum()\l+ getClassSum()\l+ getClassDistribution()\l+ getClusterClassWeightByLabel()\l+ getClassSumByLabel()\l+ getClassDistributionByLabel()\l+ getTotalEntries()\l+ getNumClasses()\l+ hasNoiseClass()\l+ toString()\l+ getInitalBuildTimestamp()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1evaluation_1_1MembershipMatrix.html"];
+  Node7 -> Node6 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="classmap",arrowtail="open",fontname="Helvetica"];
+  Node7 [label="{HashMap\< Integer, Integer \>\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node8 -> Node2 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="values\nsortedValues",arrowtail="open",fontname="Helvetica"];
+  Node8 [label="{ArrayList\< Double \>\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node9 -> Node2 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="events",arrowtail="open",fontname="Helvetica"];
+  Node9 [label="{ArrayList\< String \>\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node10 -> Node2 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="map",arrowtail="open",fontname="Helvetica"];
+  Node10 [label="{HashMap\< String, Integer \>\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node11 -> Node1 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="clustering",arrowtail="open",fontname="Helvetica"];
+  Node11 [label="{moa.cluster.Clustering\n|- clusters\l|+ Clustering()\l+ Clustering()\l+ Clustering()\l+ Clustering()\l+ Clustering()\l+ add()\l+ remove()\l+ get()\l+ getClustering()\l+ getClusteringCopy()\l+ size()\l+ dimension()\l+ getDescription()\l+ getMaxInclusionProbability()\l+ classValues()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1cluster_1_1Clustering.html"];
+  Node3 -> Node11 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node12 -> Node11 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="clusters",arrowtail="open",fontname="Helvetica"];
+  Node12 [label="{AutoExpandVector\< Cluster \>\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node13 -> Node1 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="gtAnalysis",arrowtail="open",fontname="Helvetica"];
+  Node13 [label="{moa.evaluation.CMM_GTAnalysis\n|- gtClustering\l- cmmpoints\l- gt0Clusters\l- noise\l- numPoints\l- numGTClusters\l- numGTClasses\l- numGT0Classes\l- numDims\l- mapTrueLabelToWorkLabel\l- mergeMap\l- noiseErrorByModel\l- pointErrorByModel\l- debug\l- knnNeighbourhood\l- tauConnection\l- clusterConnectionMaxPoints\l- useExpConnectivity\l- lambdaConnRefXValue\l- lambdaConnX\l- lamdaConn\l|+ CMM_GTAnalysis()\l+ getClassSeparability()\l+ getNoiseSeparability()\l+ getModelQuality()\l+ getParameterString()\l# getConnectionValue()\l# getPoint()\l# getGT0Cluster()\l# getNumberOfGT0Classes()\l- getKnnInCluster()\l- calculateGTPointQualities()\l- calculateGTClusterConnections()\l- distance()\l- distance()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1evaluation_1_1CMM__GTAnalysis.html"];
+  Node7 -> Node13 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="mapTrueLabelToWorkLabel",arrowtail="open",fontname="Helvetica"];
+  Node14 -> Node13 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="noise",arrowtail="open",fontname="Helvetica"];
+  Node14 [label="{ArrayList\< Integer \>\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node11 -> Node13 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="gtClustering",arrowtail="open",fontname="Helvetica"];
+  Node15 -> Node13 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="gt0Clusters",arrowtail="open",fontname="Helvetica"];
+  Node15 [label="{ArrayList\< GTCluster \>\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node16 -> Node13 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="cmmpoints",arrowtail="open",fontname="Helvetica"];
+  Node16 [label="{ArrayList\< CMMPoint \>\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+}

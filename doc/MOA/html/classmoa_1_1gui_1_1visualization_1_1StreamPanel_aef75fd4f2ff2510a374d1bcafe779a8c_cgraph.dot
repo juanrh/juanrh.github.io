@@ -1,0 +1,21 @@
+digraph G
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir=LR;
+  Node1 [label="moa.gui.visualization.StreamPanel.drawNonConvexClustering",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="moa.gui.visualization.StreamPanel.drawClusteringsOnCanvas",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1gui_1_1visualization_1_1StreamPanel.html#ad8d617ddac12a20717a4b7316d5421ac"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="moa.gui.visualization.ClusterPanel.drawOnCanvas",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1gui_1_1visualization_1_1ClusterPanel.html#af2f352cc8e2c72525d034e8412d15173"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="moa.cluster.Clustering.getClustering",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1cluster_1_1Clustering.html#a19a03f96dd3d8cedda1b74b5883735d7"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="moa.cluster.Cluster.getInclusionProbability",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1cluster_1_1Cluster.html#abf05802928ccf0ebe145e00c3568944b",tooltip="Returns the probability of the given point belonging to this cluster."];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="moa.gui.visualization.PointPanel.updateLocation",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1gui_1_1visualization_1_1PointPanel.html#aec4625c9dc5e2b5a98de4fc2e64f483b"];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="moa.gui.visualization.StreamPanel.getActiveXDim",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1gui_1_1visualization_1_1StreamPanel.html#a14e43e1367d234cf0ce7004760b24538"];
+  Node6 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="moa.gui.visualization.StreamPanel.getActiveYDim",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1gui_1_1visualization_1_1StreamPanel.html#a5e93098655b1898d8158e2401ce272a6"];
+}

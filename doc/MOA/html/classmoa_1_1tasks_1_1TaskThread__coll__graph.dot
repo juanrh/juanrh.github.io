@@ -1,0 +1,18 @@
+digraph G
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{moa.tasks.TaskThread\n|~ completionListeners\l# runningTask\l# currentStatus\l# taskMonitor\l# repository\l# finalResult\l# taskStartTime\l# taskEndTime\l# latestPreviewGrabTime\l|+ TaskThread()\l+ TaskThread()\l+ run()\l+ pauseTask()\l+ resumeTask()\l+ cancelTask()\l+ getCPUSecondsElapsed()\l+ getTask()\l+ getCurrentStatusString()\l+ getCurrentActivityString()\l+ getCurrentActivityFracComplete()\l+ isComplete()\l+ getFinalResult()\l+ addTaskCompletionListener()\l+ removeTaskCompletionListener()\l+ getPreview()\l+ getLatestResultPreview()\l+ getLatestPreviewGrabTimeSeconds()\l# fireTaskCompleted()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node2 -> Node1 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="taskMonitor",arrowtail="open",fontname="Helvetica"];
+  Node2 [label="{moa.tasks.TaskMonitor\n||+ setCurrentActivity()\l+ setCurrentActivityDescription()\l+ setCurrentActivityFractionComplete()\l+ taskShouldAbort()\l+ resultPreviewRequested()\l+ setLatestResultPreview()\l+ getCurrentActivityDescription()\l+ getCurrentActivityFractionComplete()\l+ requestPause()\l+ requestResume()\l+ requestCancel()\l+ isPaused()\l+ isCancelled()\l+ requestResultPreview()\l+ requestResultPreview()\l+ getLatestResultPreview()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interfacemoa_1_1tasks_1_1TaskMonitor.html",tooltip="Interface representing a task monitor."];
+  Node3 -> Node1 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="repository",arrowtail="open",fontname="Helvetica"];
+  Node3 [label="{moa.core.ObjectRepository\n||~ getObjectNamed()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interfacemoa_1_1core_1_1ObjectRepository.html",tooltip="Interface for object repositories."];
+  Node4 -> Node1 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="runningTask",arrowtail="open",fontname="Helvetica"];
+  Node4 [label="{moa.tasks.Task\n||+ getTaskResultType()\l+ doTask()\l+ doTask()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interfacemoa_1_1tasks_1_1Task.html",tooltip="Interface representing a task."];
+  Node5 -> Node4 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node5 [label="{moa.MOAObject\n||+ measureByteSize()\l+ copy()\l+ getDescription()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interfacemoa_1_1MOAObject.html",tooltip="Interface implemented by classes in MOA, so that all are serializable, can produce..."];
+  Node6 -> Node5 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node6 [label="{Serializable\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node7 -> Node1 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="completionListeners",arrowtail="open",fontname="Helvetica"];
+  Node7 [label="{CopyOnWriteArraySet\< TaskCompletionListener \>\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+}

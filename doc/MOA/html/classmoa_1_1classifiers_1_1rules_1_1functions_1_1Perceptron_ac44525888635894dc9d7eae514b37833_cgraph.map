@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1classifiers_1_1rules_1_1functions_1_1Perceptron.html#a2c732b0d49579b53b63879edaf268a91" title="moa.classifiers.rules.functions.Perceptron.computeSD" alt="" coords="479,5,817,35"/>
+<area shape="rect" id="node5" href="$classmoa_1_1core_1_1DoubleVector.html#a0a22580b229225823e9b11ed9d35104a" title="moa.core.DoubleVector.getValue" alt="" coords="541,59,755,88"/>
+<area shape="rect" id="node7" href="$classmoa_1_1classifiers_1_1AbstractClassifier.html#a5cd97fb8e5751d48de011c81f45466d4" title="Gets the index of the attribute in the instance, given the index of the attribute..." alt="" coords="439,112,857,141"/>
+</map>

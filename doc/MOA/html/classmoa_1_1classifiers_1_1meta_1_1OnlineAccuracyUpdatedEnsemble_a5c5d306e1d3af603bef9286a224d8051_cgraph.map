@@ -1,0 +1,14 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1classifiers_1_1meta_1_1OnlineAccuracyUpdatedEnsemble.html#a877c5cd3fb78a523b66abf437260dba4" title="Adds a classifier to the storage." alt="" coords="561,5,985,35"/>
+<area shape="rect" id="node5" href="$classmoa_1_1classifiers_1_1meta_1_1OnlineAccuracyUpdatedEnsemble.html#a45ffaac3bbeeb62112e7408c9c4bd701" title="Computes the weight of a learner before training a given example." alt="" coords="553,59,993,88"/>
+<area shape="rect" id="node9" href="$classmoa_1_1classifiers_1_1AbstractClassifier.html#a0d95f541e4ae5a893415b0a1b8ddbef9" title="Produces a copy of this classifier." alt="" coords="648,112,899,141"/>
+<area shape="rect" id="node13" href="$classmoa_1_1classifiers_1_1meta_1_1OnlineAccuracyUpdatedEnsemble.html#aa1b0d26c970651f72a187440decb09c4" title="Checks if the memory limit is exceeded and if so prunes the classifiers in the ensemble..." alt="" coords="540,165,1007,195"/>
+<area shape="rect" id="node21" href="$classmoa_1_1classifiers_1_1meta_1_1OnlineAccuracyUpdatedEnsemble.html#a6b88f02bfed188868839b066912de36c" title="Finds the index of the classifier with the smallest weight." alt="" coords="524,219,1023,248"/>
+<area shape="rect" id="node23" href="$classmoa_1_1options_1_1AbstractOptionHandler.html#a2d5e872c7c6a32487013ba914c6d3fcc" title="Gets a prepared option of this class." alt="" coords="1073,272,1447,301"/>
+<area shape="rect" id="node26" href="$interfacemoa_1_1classifiers_1_1Classifier.html#a0cb1a2820196bc5e2a95b05a0b6666f0" title="Resets this classifier." alt="" coords="648,323,899,352"/>
+<area shape="rect" id="node7" href="$interfacemoa_1_1classifiers_1_1Classifier.html#a0933ed1199c2b16a8eb8186dabf9a8f9" title="Predicts the class memberships for a given instance." alt="" coords="1113,59,1407,88"/>
+<area shape="rect" id="node11" href="$interfacemoa_1_1classifiers_1_1Classifier.html#af50dcec23ecb34c1bd141d0d389bdb59" title="Produces a copy of this classifier." alt="" coords="1160,112,1360,141"/>
+<area shape="rect" id="node15" href="$classmoa_1_1options_1_1IntOption.html#affae8787274b44ab7616d46b8d6c831a" title="moa.options.IntOption.getValue" alt="" coords="1157,165,1363,195"/>
+<area shape="rect" id="node17" href="$classmoa_1_1options_1_1IntOption.html#a7b2e60195e6ef38bc8626d16303e8f13" title="moa.options.IntOption.setValue" alt="" coords="1157,219,1363,248"/>
+<area shape="rect" id="node19" href="$classmoa_1_1options_1_1AbstractOption.html#a26d25b88bb5244ed3c2ec142bd28353d" title="Gets the name of this option." alt="" coords="1497,245,1737,275"/>
+</map>

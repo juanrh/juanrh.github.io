@@ -1,0 +1,43 @@
+digraph G
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir=LR;
+  Node1 [label="moa.clusterers.clustree.ClusTree.getMicroClusteringResult",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="moa.clusterers.clustree.ClusTree.getClustering",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1clusterers_1_1clustree_1_1ClusTree.html#a6c824e0f1fcf7f5c40b1ce34c4ee0130"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="moa.clusterers.clustree.Entry.add",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1clusterers_1_1clustree_1_1Entry.html#a100d9d6f99b615cefd1334a820b18a0d",tooltip="Add the data cluster of another entry to the data cluster of this entry."];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="moa.clusterers.clustree.ClusKernel.add",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1clusterers_1_1clustree_1_1ClusKernel.html#af0be9102b0138f656beffa39c0036fd7",tooltip="Adds the given cluster to this cluster, without making this cluster older."];
+  Node2 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="moa.cluster.Clustering.add",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1cluster_1_1Clustering.html#a7b39cc3d6666cb758b8954ecbe0ce2e9",tooltip="add a cluster to the clustering"];
+  Node2 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="moa.clusterers.clustree.Entry.getChild",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1clusterers_1_1clustree_1_1Entry.html#a61f6036ac71f69f1b16546544b8f01ac",tooltip="Return the reference to the child of this Entry to navigate in the tree."];
+  Node2 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="moa.clusterers.clustree.Entry.getData",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1clusterers_1_1clustree_1_1Entry.html#a1e49da60f9e130eba1b1500febcf3424",tooltip="Getter for the data."];
+  Node2 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="moa.clusterers.clustree.Node.getEntries",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1clusterers_1_1clustree_1_1Node.html#abb9b9f7152bcbc9df763bb39f92b4968",tooltip="Return an array with references to the children of this node."];
+  Node2 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="moa.clusterers.clustree.Node.getLevel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1clusterers_1_1clustree_1_1Node.html#ab36efaff1046d04ed76051ac74339697",tooltip="Returns the level at which this node is in the tree."];
+  Node9 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="moa.clusterers.clustree.ClusTree.getNumRootSplits",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1clusterers_1_1clustree_1_1ClusTree.html#af0ed3de0c583140317504bc713db7dd8",tooltip="Return the number of time the tree has grown in size."];
+  Node9 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="moa.clusterers.clustree.Node.getRawLevel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1clusterers_1_1clustree_1_1Node.html#a5e9889abea42f6dde8fd9430d37cf8be",tooltip="Return the level number in the node."];
+  Node2 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="moa.clusterers.clustree.Entry.isEmpty",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1clusterers_1_1clustree_1_1Entry.html#ad9a372cb27cd0456f5c9e5a5da020b17",tooltip="Check if this Entry is empty or not."];
+  Node12 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="moa.clusterers.clustree.ClusKernel.isEmpty",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1clusterers_1_1clustree_1_1ClusKernel.html#a9e4f5414cfacb3df03db9a7001ab4187",tooltip="Check if this cluster is empty or not."];
+  Node2 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="moa.clusterers.clustree.Entry.isIrrelevant",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1clusterers_1_1clustree_1_1Entry.html#a12c84a14579b32a936879c70bcfe45c6",tooltip="Returns true if this entry is irrelevant with respecto the given threshold."];
+  Node14 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="moa.clusterers.clustree.ClusKernel.getWeight",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1clusterers_1_1clustree_1_1ClusKernel.html#a3277ffc987fbb74b934cea2fab98f2c3",tooltip="See interface Cluster."];
+  Node2 -> Node16 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="moa.clusterers.clustree.Node.isLeaf",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1clusterers_1_1clustree_1_1Node.html#a6b2452dc6b977cdaf769c3289005cddd",tooltip="Checks if this node is a leaf."];
+  Node16 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 -> Node17 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="moa.clusterers.clustree.Entry.makeOlder",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1clusterers_1_1clustree_1_1Entry.html#a5b30006fa5bda7874b56956af357d602",tooltip="Ages this entrie&#39;s data AND buffer according to the given time and aging constant..."];
+  Node17 -> Node18 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="moa.clusterers.clustree.ClusKernel.makeOlder",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1clusterers_1_1clustree_1_1ClusKernel.html#a9b669100ea91ae8ef6358c3994f4c110",tooltip="Make this cluster older."];
+}

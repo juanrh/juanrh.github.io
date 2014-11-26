@@ -1,0 +1,28 @@
+digraph G
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{moa.evaluation.RegressionAccuracy\n||+ getNames()\l# getDefaultEnabled()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node2 -> Node1 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node2 [label="{moa.evaluation.Accuracy\n|- debug\l|+ Accuracy()\l+ getNames()\l+ evaluateClustering()\l# getDefaultEnabled()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1evaluation_1_1Accuracy.html"];
+  Node3 -> Node2 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node3 [label="{moa.evaluation.MeasureCollection\n|- names\l- values\l- sortedValues\l- events\l- minValue\l- maxValue\l- sumValues\l- enabled\l- corrupted\l- time\l- debug\l- mm\l- map\l- numMeasures\l|+ MeasureCollection()\l+ addValue()\l+ addEmptyValue()\l+ getNumMeasures()\l+ getName()\l+ getMaxValue()\l+ getMinValue()\l+ getLastValue()\l+ getMean()\l+ clean()\l+ getMedian()\l+ getLowerQuartile()\l+ getUpperQuartile()\l+ getNumberOfValues()\l+ getValue()\l+ getAllValues()\l+ setEnabled()\l+ isEnabled()\l+ getMeanRunningTime()\l+ evaluateClusteringPerformance()\l+ getDescription()\l+ addEventType()\l+ getEventType()\l# getNames()\l# addValue()\l# getDefaultEnabled()\l# evaluateClustering()\l- updateSortedValues()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1evaluation_1_1MeasureCollection.html"];
+  Node4 -> Node3 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node4 [label="{moa.AbstractMOAObject\n||+ copy()\l+ measureByteSize()\l+ toString()\l+ copy()\l+ measureByteSize()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1AbstractMOAObject.html",tooltip="Abstract MOA Object."];
+  Node5 -> Node4 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node5 [label="{moa.MOAObject\n||+ measureByteSize()\l+ copy()\l+ getDescription()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interfacemoa_1_1MOAObject.html",tooltip="Interface implemented by classes in MOA, so that all are serializable, can produce..."];
+  Node6 -> Node5 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node6 [label="{Serializable\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node7 -> Node3 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="mm",arrowtail="open",fontname="Helvetica"];
+  Node7 [label="{moa.evaluation.MembershipMatrix\n|~ classmap\l~ cluster_class_weights\l~ cluster_sums\l~ class_sums\l~ total_entries\l~ class_distribution\l~ total_class_entries\l~ initalBuildTimestamp\l|+ MembershipMatrix()\l+ getClusterClassWeight()\l+ getClusterSum()\l+ getClassSum()\l+ getClassDistribution()\l+ getClusterClassWeightByLabel()\l+ getClassSumByLabel()\l+ getClassDistributionByLabel()\l+ getTotalEntries()\l+ getNumClasses()\l+ hasNoiseClass()\l+ toString()\l+ getInitalBuildTimestamp()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1evaluation_1_1MembershipMatrix.html"];
+  Node8 -> Node7 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="classmap",arrowtail="open",fontname="Helvetica"];
+  Node8 [label="{HashMap\< Integer, Integer \>\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node9 -> Node3 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="values\nsortedValues",arrowtail="open",fontname="Helvetica"];
+  Node9 [label="{ArrayList\< Double \>\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node10 -> Node3 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="events",arrowtail="open",fontname="Helvetica"];
+  Node10 [label="{ArrayList\< String \>\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node11 -> Node3 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="map",arrowtail="open",fontname="Helvetica"];
+  Node11 [label="{HashMap\< String, Integer \>\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node12 -> Node2 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node12 [label="{moa.evaluation.ClassificationMeasureCollection\n||}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interfacemoa_1_1evaluation_1_1ClassificationMeasureCollection.html",tooltip="Classification Measure Collection interface that it is used to not appear in clustering..."];
+}

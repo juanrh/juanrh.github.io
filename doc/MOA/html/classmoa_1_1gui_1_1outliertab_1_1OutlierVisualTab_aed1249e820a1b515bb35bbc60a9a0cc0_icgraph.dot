@@ -1,0 +1,30 @@
+digraph G
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir=LR;
+  Node1 [label="moa.gui.outliertab.OutlierVisualTab.createVisualiterThread",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="moa.gui.outliertab.OutlierVisualTab.toggleVisualizer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1gui_1_1outliertab_1_1OutlierVisualTab.html#adcbf96ed6d5d79c6d5e09f0f3eb81ad0"];
+  Node2 -> Node3 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="moa.gui.visualization.RunOutlierVisualizer.processData",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1gui_1_1visualization_1_1RunOutlierVisualizer.html#a2ce3238eb000cd4f1be8ea553920e688"];
+  Node3 -> Node4 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="moa.gui.visualization.RunOutlierVisualizer.run",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1gui_1_1visualization_1_1RunOutlierVisualizer.html#a0bf0a5051db38b649892d86aa7cab5ce"];
+  Node2 -> Node5 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="moa.gui.outliertab.OutlierTabPanel.toggle",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1gui_1_1outliertab_1_1OutlierTabPanel.html#a77c2ab930f32f68a379ebbf28c91b20a"];
+  Node5 -> Node6 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="moa.gui.outliertab.OutlierSetupTab.toggle",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1gui_1_1outliertab_1_1OutlierSetupTab.html#ac255e5a0ff0cf619005bef5f49abcfe5"];
+  Node6 -> Node7 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="moa.gui.outliertab.OutlierSetupTab.buttonStartActionPerformed",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1gui_1_1outliertab_1_1OutlierSetupTab.html#a887507ee305c4abb21a1afe732e5cfa8"];
+  Node7 -> Node8 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="moa.gui.outliertab.OutlierSetupTab.initComponents",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1gui_1_1outliertab_1_1OutlierSetupTab.html#ae10be48e362dd993dae6190b160d47cf",tooltip="This method is called from within the constructor to initialize the form."];
+  Node8 -> Node9 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="moa.gui.outliertab.OutlierSetupTab.OutlierSetupTab",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1gui_1_1outliertab_1_1OutlierSetupTab.html#a8417656c29bc1d97a94e52d3d88688ad",tooltip="Creates new form outlierSetupTab."];
+  Node9 -> Node10 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="moa.gui.outliertab.OutlierTabPanel.initComponents",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1gui_1_1outliertab_1_1OutlierTabPanel.html#a6146155a96c2c5239f46f5566797e5fd",tooltip="This method is called from within the constructor to initialize the form."];
+  Node10 -> Node11 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="moa.gui.outliertab.OutlierTabPanel.OutlierTabPanel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1gui_1_1outliertab_1_1OutlierTabPanel.html#a78f57b4c096f3587a549789072283a7b",tooltip="Creates new form ClusterTab."];
+  Node6 -> Node12 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="moa.gui.outliertab.OutlierSetupTab.toggleRunMode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1gui_1_1outliertab_1_1OutlierSetupTab.html#afac1924e7a91f024d1df375ed48ff76f"];
+  Node12 -> Node2 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

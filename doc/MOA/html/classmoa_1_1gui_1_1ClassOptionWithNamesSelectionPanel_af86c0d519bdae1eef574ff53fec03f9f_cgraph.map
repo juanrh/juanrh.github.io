@@ -1,0 +1,9 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1gui_1_1ClassOptionWithNamesSelectionPanel.html#af91dc41ef44cc60b5dea87a3c8418d34" title="moa.gui.ClassOptionWithNamesSelectionPanel.ClassOptionWithNamesSelectionPanel" alt="" coords="497,85,1028,115"/>
+<area shape="rect" id="node15" href="$classmoa_1_1gui_1_1ClassOptionWithNamesSelectionPanel.html#a83698ef25b0ddf94e55e614688e49e02" title="moa.gui.ClassOptionWithNamesSelectionPanel.getChosenObjectCLIString" alt="" coords="533,139,992,168"/>
+<area shape="rect" id="node5" href="$classmoa_1_1gui_1_1ClassOptionWithNamesSelectionPanel.html#a0dc6da4510eeee22fb9d35c01f0840cd" title="moa.gui.ClassOptionWithNamesSelectionPanel.classChoiceChanged" alt="" coords="1079,59,1505,88"/>
+<area shape="rect" id="node11" href="$classmoa_1_1gui_1_1ClassOptionWithNamesSelectionPanel.html#a241d9ec18c20fb532ea64e95e763a804" title="moa.gui.ClassOptionWithNamesSelectionPanel.findSuitableClasses" alt="" coords="1083,112,1501,141"/>
+<area shape="rect" id="node7" href="$interfacemoa_1_1options_1_1OptionHandler.html#ad2b9997b96d775bee2b0b95a146f52ca" title="Gets the options of this object." alt="" coords="1575,5,1820,35"/>
+<area shape="rect" id="node9" href="$interfacemoa_1_1options_1_1OptionHandler.html#a46f4328b02118c30977f7ce07051c091" title="Gets the purpose of this object." alt="" coords="1556,59,1839,88"/>
+<area shape="rect" id="node13" href="$interfacemoa_1_1tasks_1_1Task.html#a568100cd931416820d1bcc81032301f6" title="Gets the result type of this task." alt="" coords="1580,112,1815,141"/>
+</map>

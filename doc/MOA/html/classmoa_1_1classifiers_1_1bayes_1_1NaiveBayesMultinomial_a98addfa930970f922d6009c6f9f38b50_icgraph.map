@@ -1,0 +1,4 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1classifiers_1_1bayes_1_1NaiveBayesMultinomial.html#a2492192f6fb985dd4af596d5298cb4c6" title="Calculates the class membership probabilities for the given test instance." alt="" coords="401,5,815,35"/>
+<area shape="rect" id="node5" href="$classmoa_1_1classifiers_1_1bayes_1_1NaiveBayesMultinomial.html#ac0dda871026eab559944c60987538b1a" title="Trains the classifier with the given instance." alt="" coords="403,59,813,88"/>
+</map>

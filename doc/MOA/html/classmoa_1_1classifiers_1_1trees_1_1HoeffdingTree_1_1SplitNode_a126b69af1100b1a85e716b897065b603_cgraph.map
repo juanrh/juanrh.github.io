@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1classifiers_1_1trees_1_1HoeffdingTree_1_1Node.html#a251a69e6f202175390e0ca357dbce90f" title="moa.classifiers.trees.HoeffdingTree.Node.filterInstanceToLeaf" alt="" coords="476,5,857,35"/>
+<area shape="rect" id="node5" href="$classmoa_1_1classifiers_1_1trees_1_1HoeffdingTree_1_1SplitNode.html#ad22dc2cda35c63546ea4d810e793fd99" title="moa.classifiers.trees.HoeffdingTree.SplitNode.getChild" alt="" coords="496,59,837,88"/>
+<area shape="rect" id="node7" href="$classmoa_1_1classifiers_1_1trees_1_1HoeffdingTree_1_1SplitNode.html#a8f4fb6e3f3827d86b7ef74c5a5b2b6bd" title="moa.classifiers.trees.HoeffdingTree.SplitNode.instanceChildIndex" alt="" coords="464,112,869,141"/>
+<area shape="rect" id="node9" href="$classmoa_1_1classifiers_1_1core_1_1conditionaltests_1_1InstanceConditionalTest.html#a76dc81c568124d9dc97b08e51506bfe5" title="Returns the number of the branch for an instance, &#45;1 if unknown." alt="" coords="917,112,1408,141"/>
+</map>

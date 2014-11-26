@@ -1,0 +1,14 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$interfacemoa_1_1tasks_1_1Task.html#a10807eaa1d4d05b188f6f7de99d0efbe" title="This method performs this task, when TaskMonitor and ObjectRepository are no needed..." alt="" coords="276,5,439,35"/>
+<area shape="rect" id="node5" href="$classmoa_1_1tasks_1_1TaskThread.html#a7ee7dd9bcc553f1793c8269e76a37d7f" title="moa.tasks.TaskThread.getCPUSecondsElapsed" alt="" coords="205,59,509,88"/>
+<area shape="rect" id="node7" href="$classmoa_1_1tasks_1_1TaskThread.html#ab7be27d49b04204985d254ee51a3eb7b" title="moa.tasks.TaskThread.isComplete" alt="" coords="651,109,877,139"/>
+<area shape="rect" id="node9" href="$classmoa_1_1tasks_1_1TaskThread.html#aa16a3cb6976a7cdc5b2c765f2731ae3b" title="moa.tasks.TaskThread.getCurrentActivityFracComplete" alt="" coords="184,216,531,245"/>
+<area shape="rect" id="node13" href="$classmoa_1_1tasks_1_1TaskThread.html#a52c37a9821d9ed81fcc7d6fafc6d2bd2" title="moa.tasks.TaskThread.getCurrentActivityString" alt="" coords="208,163,507,192"/>
+<area shape="rect" id="node18" href="$classmoa_1_1tasks_1_1TaskThread.html#a443dd2bbf846fdc197643700b709a057" title="moa.tasks.TaskThread.getCurrentStatusString" alt="" coords="211,269,504,299"/>
+<area shape="rect" id="node20" href="$classmoa_1_1tasks_1_1TaskThread.html#a7c7fb4d3426dfe208dd5c8972f74eb49" title="moa.tasks.TaskThread.getFinalResult" alt="" coords="236,323,479,352"/>
+<area shape="rect" id="node22" href="$classmoa_1_1options_1_1IntOption.html#affae8787274b44ab7616d46b8d6c831a" title="moa.options.IntOption.getValue" alt="" coords="255,376,460,405"/>
+<area shape="rect" id="node25" href="$classmoa_1_1DoTask.html#a834ce5013ff149d5ca95975fa28641d7" title="Checks if the Java version is recent enough to run MOA." alt="" coords="256,429,459,459"/>
+<area shape="rect" id="node27" href="$classmoa_1_1DoTask.html#a7fb47b15bc222b7152947927c0926826" title="Checks if the Weka version is recent enough to run MOA." alt="" coords="253,483,461,512"/>
+<area shape="rect" id="node11" href="$interfacemoa_1_1tasks_1_1TaskMonitor.html#a46b980aaa2bb8de7a23c24916b31e843" title="Gets the percentage done of the current activity." alt="" coords="579,216,949,245"/>
+<area shape="rect" id="node15" href="$interfacemoa_1_1tasks_1_1TaskMonitor.html#ad5a9c248fc2506cc2a74b663e2511c63" title="Gets the description of the current activity." alt="" coords="597,163,931,192"/>
+</map>

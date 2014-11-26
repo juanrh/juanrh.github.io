@@ -1,0 +1,7 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1classifiers_1_1core_1_1conditionaltests_1_1InstanceConditionalTest.html#a76dc81c568124d9dc97b08e51506bfe5" title="Returns the number of the branch for an instance, &#45;1 if unknown." alt="" coords="381,5,872,35"/>
+<area shape="rect" id="node5" href="$classmoa_1_1classifiers_1_1trees_1_1ORTO_1_1Node.html#ab592f3008fdb05c1b3df2690b14e717e" title="moa.classifiers.trees.ORTO.Node.getPrediction" alt="" coords="477,59,776,88"/>
+<area shape="rect" id="node7" href="$classmoa_1_1classifiers_1_1trees_1_1ORTO_1_1SplitNode.html#a60159b2ab48fca79a605369c3c254fa7" title="moa.classifiers.trees.ORTO.SplitNode.setChild" alt="" coords="477,112,776,141"/>
+<area shape="rect" id="node11" href="$classmoa_1_1classifiers_1_1trees_1_1ORTO_1_1Node.html#ac5075cd001d5ddc1f51c413c3ba420f0" title="Set the parent node." alt="" coords="487,165,767,195"/>
+<area shape="rect" id="node9" href="$classmoa_1_1classifiers_1_1core_1_1conditionaltests_1_1InstanceConditionalTest.html#adda57438d3e9a6990d6ccb80fe78d6b6" title="Gets the number of maximum branches, &#45;1 if unknown." alt="" coords="921,112,1383,141"/>
+</map>

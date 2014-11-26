@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1classifiers_1_1trees_1_1ORTO_1_1OptionNode.html#a243f7f0f5a4225a10234b5e00e176a13" title="moa.classifiers.trees.ORTO.OptionNode.getPrediction" alt="" coords="355,5,693,35"/>
+<area shape="rect" id="node5" href="$classmoa_1_1classifiers_1_1trees_1_1ORTO_1_1OptionNode.html#add3cad73c00c3ac29decf238bb9e26da" title="moa.classifiers.trees.ORTO.OptionNode.processInstance" alt="" coords="743,57,1100,87"/>
+<area shape="rect" id="node7" href="$classmoa_1_1classifiers_1_1trees_1_1ORTO.html#a7506ae1182bd74162036c2007cf2c5ca" title="moa.classifiers.trees.ORTO.removeExcessTrees" alt="" coords="369,109,679,139"/>
+<area shape="rect" id="node10" href="$classmoa_1_1classifiers_1_1trees_1_1ORTO_1_1SplitNode.html#a4434ca7bad0ac2f1a1db2141b95c2262" title="moa.classifiers.trees.ORTO.SplitNode.processInstance" alt="" coords="748,111,1095,140"/>
+</map>

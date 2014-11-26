@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1NearestNeighbourSearch_1_1NeighborList.html#a5d731f7cfb2cfb3dda64d21e7f27b4f2" title="Inserts an instance neighbor into the list, maintaining the list sorted by distance..." alt="" coords="571,5,1109,35"/>
+<area shape="rect" id="node5" href="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1NearestNeighbourSearch_1_1NeighborList.html#a8844f0baa4670a6d17d90c2775804995" title="Prints out the contents of the neighborlist." alt="" coords="583,59,1097,88"/>
+<area shape="rect" id="node7" href="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1NearestNeighbourSearch_1_1NeighborList.html#a277868d1d384c512c1165aabd51e5a7d" title="Prunes the list to contain the k nearest neighbors." alt="" coords="579,112,1101,141"/>
+</map>

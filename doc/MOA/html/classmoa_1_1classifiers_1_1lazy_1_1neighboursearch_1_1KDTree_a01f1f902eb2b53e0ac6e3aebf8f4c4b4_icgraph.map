@@ -1,0 +1,8 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1KDTree.html#a634297dd4f45eccd5d5b06216d2ec2cb" title="Returns the maximum attribute width of instances/points in a KDTreeNode relative..." alt="" coords="407,32,852,61"/>
+<area shape="rect" id="node5" href="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1KDTree.html#a6641f4b3339242c2f9a6312c6358496c" title="Recursively adds an instance to the tree starting from the supplied KDTreeNode." alt="" coords="901,5,1304,35"/>
+<area shape="rect" id="node9" href="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1KDTree.html#a4b17a18f7ed788e286e8eb61d77877e6" title="Recursively splits nodes of a tree starting from the supplied node." alt="" coords="927,59,1279,88"/>
+<area shape="rect" id="node7" href="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1KDTree.html#a18df0a0c0a1c1c62947feddb0aebe811" title="Adds one instance to the KDTree." alt="" coords="1369,5,1697,35"/>
+<area shape="rect" id="node11" href="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1KDTree.html#add9af014556f5230ca5f038c9f8ca4bb" title="Builds the KDTree on the supplied set of instances/points." alt="" coords="1352,59,1715,88"/>
+<area shape="rect" id="node13" href="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1KDTree.html#af220a59e6c7342d42b7e36da82d00af4" title="Builds the KDTree on the given set of instances." alt="" coords="1763,59,2128,88"/>
+</map>

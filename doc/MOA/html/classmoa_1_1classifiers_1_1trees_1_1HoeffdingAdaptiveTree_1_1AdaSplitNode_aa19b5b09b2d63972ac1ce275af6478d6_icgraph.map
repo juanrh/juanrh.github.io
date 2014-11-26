@@ -1,0 +1,4 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1classifiers_1_1trees_1_1HoeffdingAdaptiveTree_1_1AdaSplitNode.html#aa58c1da222552a23935820e744cda7e5" title="moa.classifiers.trees.HoeffdingAdaptiveTree.AdaSplitNode.getErrorWidth" alt="" coords="483,5,931,35"/>
+<area shape="rect" id="node5" href="$classmoa_1_1classifiers_1_1trees_1_1HoeffdingAdaptiveTree_1_1AdaSplitNode.html#a3c12a28862be75251b548b75f0fc2f24" title="moa.classifiers.trees.HoeffdingAdaptiveTree.AdaSplitNode.learnFromInstance" alt="" coords="980,32,1455,61"/>
+</map>

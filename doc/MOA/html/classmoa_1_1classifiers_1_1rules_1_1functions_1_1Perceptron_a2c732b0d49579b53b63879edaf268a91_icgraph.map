@@ -1,0 +1,14 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1classifiers_1_1rules_1_1functions_1_1Perceptron.html#afbfcb17524c9ed1222d6f306b426a6a0" title="moa.classifiers.rules.functions.Perceptron.denormalizedPrediction" alt="" coords="392,153,797,183"/>
+<area shape="rect" id="node26" href="$classmoa_1_1classifiers_1_1rules_1_1functions_1_1Perceptron.html#a65b2b2cf3d0452feb7c2a4d128a0c4b3" title="moa.classifiers.rules.functions.Perceptron.normalizeActualClassValue" alt="" coords="847,241,1276,271"/>
+<area shape="rect" id="node29" href="$classmoa_1_1classifiers_1_1rules_1_1functions_1_1Perceptron.html#ac44525888635894dc9d7eae514b37833" title="moa.classifiers.rules.functions.Perceptron.normalizedInstance" alt="" coords="404,93,785,123"/>
+<area shape="rect" id="node5" href="$classmoa_1_1classifiers_1_1rules_1_1functions_1_1Perceptron.html#a95f60f3c1aafa6405ffe6f89f4337e9a" title="Output the prediction made by this perceptron on the given instance." alt="" coords="899,87,1224,116"/>
+<area shape="rect" id="node22" href="$classmoa_1_1classifiers_1_1rules_1_1functions_1_1Perceptron.html#a542732aa3bbe60e9a6d8fee7be044bc0" title="moa.classifiers.rules.functions.Perceptron.updateWeights" alt="" coords="1343,216,1700,245"/>
+<area shape="rect" id="node7" href="$classmoa_1_1classifiers_1_1rules_1_1functions_1_1Perceptron.html#abf373f442c389f4d67176f998ada714c" title="Predicts the class memberships for a given instance." alt="" coords="1327,59,1716,88"/>
+<area shape="rect" id="node11" href="$classmoa_1_1classifiers_1_1rules_1_1functions_1_1Perceptron.html#a8d9e43254892668a7306069717dddf2e" title="moa.classifiers.rules.functions.Perceptron.normalizedPrediction" alt="" coords="1327,5,1716,35"/>
+<area shape="rect" id="node18" href="$classmoa_1_1classifiers_1_1rules_1_1functions_1_1Perceptron.html#a825fba42b4a549fc77087bf18223ecb6" title="moa.classifiers.rules.functions.Perceptron.prediction" alt="" coords="1359,112,1684,141"/>
+<area shape="rect" id="node20" href="$classmoa_1_1classifiers_1_1rules_1_1functions_1_1Perceptron.html#a20ccc729ffc116b8ad81830e8e735d09" title="Update the model using the provided instance." alt="" coords="1813,189,2200,219"/>
+<area shape="rect" id="node9" href="$classmoa_1_1classifiers_1_1rules_1_1core_1_1RuleActiveRegressionNode.html#aac09ce005c6fe5cd41309d281ea5ec7d" title="moa.classifiers.rules.core.RuleActiveRegressionNode.getPrediction" alt="" coords="1799,59,2215,88"/>
+<area shape="rect" id="node13" href="$classmoa_1_1classifiers_1_1rules_1_1core_1_1RuleActiveRegressionNode.html#a8f181c120725cda883981ca430c00ccc" title="moa.classifiers.rules.core.RuleActiveRegressionNode.getNormalizedPrediction" alt="" coords="1765,5,2248,35"/>
+<area shape="rect" id="node15" href="$classmoa_1_1classifiers_1_1rules_1_1core_1_1RuleActiveRegressionNode.html#a0fa92b4871eb4fb60fb79fb448f12933" title="moa.classifiers.rules.core.RuleActiveRegressionNode.computeError" alt="" coords="2296,5,2715,35"/>
+</map>

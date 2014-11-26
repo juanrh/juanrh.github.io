@@ -1,0 +1,7 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1streams_1_1MultiFilteredStream.html#ac21ecd3506fd9284279204c013dc090a" title="Gets whether this stream can restart." alt="" coords="349,5,645,35"/>
+<area shape="rect" id="node5" href="$classmoa_1_1streams_1_1filters_1_1AbstractStreamFilter.html#a9186efb93b906faac01ab45a18aa41e5" title="Gets whether this stream can restart." alt="" coords="328,59,667,88"/>
+<area shape="rect" id="node7" href="$classmoa_1_1streams_1_1FilteredStream.html#af072398783756a736b33edad2672762c" title="Gets whether this stream can restart." alt="" coords="364,112,631,141"/>
+<area shape="rect" id="node9" href="$classmoa_1_1streams_1_1ConceptDriftStream.html#a5568dc7f2e26a62ae5fbde9591e40656" title="Gets whether this stream can restart." alt="" coords="348,165,647,195"/>
+<area shape="rect" id="node11" href="$classmoa_1_1streams_1_1ConceptDriftRealStream.html#af57d21e5e0003054f5576a197e2dba9c" title="Gets whether this stream can restart." alt="" coords="335,219,660,248"/>
+</map>

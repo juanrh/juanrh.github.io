@@ -1,0 +1,8 @@
+digraph G
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{moa.clusterers.outliers.utils.mtree.PromotionFunction\< DATA \>\n||~ process()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node2 [label="{moa.clusterers.outliers.utils.mtree.PromotionFunctions.RandomPromotion\< DATA \>\n||+ process()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1clusterers_1_1outliers_1_1utils_1_1mtree_1_1PromotionFunctions_1_1RandomPromotion_3_01DATA_01_4.html",tooltip="A  PromotionFunction promotion function} object that randomly chooses (&quot;promotes&quot;)..."];
+}

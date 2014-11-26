@@ -1,0 +1,8 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1recommender_1_1predictor_1_1BRISMFPredictor.html#ae4d6e8da006a7540dcf6c5ac63f5294b" title="Returns a string representation of this object." alt="" coords="272,5,651,35"/>
+<area shape="rect" id="node5" href="$classmoa_1_1recommender_1_1predictor_1_1BaselinePredictor.html#a179771ff2b095c56d69296c890b3aec8" title="Returns a string representation of this object." alt="" coords="272,59,651,88"/>
+<area shape="rect" id="node7" href="$classmoa_1_1core_1_1Measurement.html#aee73db2b231d77f5142f5a4352a38da9" title="moa.core.Measurement.getMeasurementsDescription" alt="" coords="295,112,628,141"/>
+<area shape="rect" id="node9" href="$classmoa_1_1classifiers_1_1rules_1_1core_1_1Rule.html#a5c7eaaf9fc1dc21b29bd8281523d24eb" title="moa.classifiers.rules.core.Rule.printRule" alt="" coords="332,165,591,195"/>
+<area shape="rect" id="node11" href="$classmoa_1_1classifiers_1_1rules_1_1AbstractAMRules.html#ad52ecf8639921f4f39e9952b7cd3a293" title="moa.classifiers.rules.AbstractAMRules.PrintRuleSet" alt="" coords="721,139,1047,168"/>
+<area shape="rect" id="node13" href="$classmoa_1_1classifiers_1_1rules_1_1AbstractAMRules.html#aa2dc6402864427b11fda4821df77120e" title="Trains this classifier incrementally using the given instance." alt="" coords="699,192,1069,221"/>
+</map>

@@ -1,0 +1,10 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1evaluation_1_1MeasureCollection.html#ad1f8bddce9d5d7494db1c58f96e1be73" title="moa.evaluation.MeasureCollection.addEmptyValue" alt="" coords="440,5,757,35"/>
+<area shape="rect" id="node5" href="$classmoa_1_1evaluation_1_1MeasureCollection.html#a9d31b3c9b2692ba71825d3aa9593bdd7" title="moa.evaluation.MeasureCollection.evaluateClusteringPerformance" alt="" coords="395,59,803,88"/>
+<area shape="rect" id="node9" href="$classmoa_1_1evaluation_1_1MeasureCollection.html#aa21276cf4ecc9b8fd091d282975157ea" title="moa.evaluation.MeasureCollection.getNumMeasures" alt="" coords="435,112,763,141"/>
+<area shape="rect" id="node11" href="$classmoa_1_1gui_1_1TextViewerPanel.html#ac09cb6daf98fc5b812dd330a4eeb4b11" title="moa.gui.TextViewerPanel.setText" alt="" coords="489,165,708,195"/>
+<area shape="rect" id="node13" href="$classmoa_1_1cluster_1_1Clustering.html#a054a386d94acf3b88574f061ab4c8d71" title="moa.cluster.Clustering.size" alt="" coords="508,219,689,248"/>
+<area shape="rect" id="node15" href="$classmoa_1_1gui_1_1clustertab_1_1ClusteringVisualEvalPanel.html#a6fdc6f11e31fbe611fb57acbbda0c944" title="moa.gui.clustertab.ClusteringVisualEvalPanel.update" alt="" coords="433,272,764,301"/>
+<area shape="rect" id="node17" href="$classmoa_1_1gui_1_1visualization_1_1GraphCanvas.html#adc8ee0602dba6a004e742d018247d6d3" title="moa.gui.visualization.GraphCanvas.updateCanvas" alt="" coords="441,325,756,355"/>
+<area shape="rect" id="node7" href="$classmoa_1_1evaluation_1_1MeasureCollection.html#a892bfec6e7d40bae286b44a5515a5ea7" title="moa.evaluation.MeasureCollection.evaluateClustering" alt="" coords="852,59,1185,88"/>
+</map>

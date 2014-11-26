@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1classifiers_1_1core_1_1driftdetection_1_1EnsembleDriftDetectionMethods.html#abc994698c8510dc0048b06a72faeda69" title="Adding a numeric value to the change detector&lt;br&gt; ." alt="" coords="403,5,845,35"/>
+<area shape="rect" id="node5" href="$classmoa_1_1learners_1_1ChangeDetectorLearner.html#aa019e253a097c9308a1cfc34a5d46e16" title="Trains this classifier incrementally using the given instance." alt="" coords="444,59,804,88"/>
+<area shape="rect" id="node7" href="$classmoa_1_1classifiers_1_1drift_1_1DriftDetectionMethodClassifier.html#ab732eaf2d787b3ff4b53789591e9aa36" title="Trains this classifier incrementally using the given instance." alt="" coords="404,112,844,141"/>
+</map>

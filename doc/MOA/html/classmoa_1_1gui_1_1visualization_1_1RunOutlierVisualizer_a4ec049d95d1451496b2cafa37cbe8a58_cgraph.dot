@@ -1,0 +1,25 @@
+digraph G
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir=LR;
+  Node1 [label="moa.gui.visualization.RunOutlierVisualizer.updateSettings",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="moa.gui.outliertab.OutlierVisualTab.getOutliersVisibility",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1gui_1_1outliertab_1_1OutlierVisualTab.html#a495a954bd3a35599fd1c23a645c1d7bc"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="moa.gui.outliertab.OutlierVisualTab.getPauseInterval",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1gui_1_1outliertab_1_1OutlierVisualTab.html#a7caa491c56d94ef384014d8ae941bba9"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="moa.gui.outliertab.OutlierVisualTab.getPointVisibility",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1gui_1_1outliertab_1_1OutlierVisualTab.html#a280abca80792d63fbce169d423c39dfe"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="moa.gui.outliertab.OutlierVisualTab.GetSpeed",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1gui_1_1outliertab_1_1OutlierVisualTab.html#a3a18779a443b4eef50c11db5feee99fc"];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="moa.gui.outliertab.OutlierVisualTab.getWaitWinFull",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1gui_1_1outliertab_1_1OutlierVisualTab.html#aaeff62854234e48abe201da0d8ba553e"];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="moa.gui.visualization.RunOutlierVisualizer.setOutliersVisibility",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1gui_1_1visualization_1_1RunOutlierVisualizer.html#ad5b982974a44771aa101125d0ee873c8"];
+  Node7 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="moa.gui.visualization.StreamOutlierPanel.setOutliersVisibility",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1gui_1_1visualization_1_1StreamOutlierPanel.html#a245b4553cfb6afba93fb05ab4826958e"];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="moa.gui.visualization.RunOutlierVisualizer.setPointsVisibility",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1gui_1_1visualization_1_1RunOutlierVisualizer.html#af3be6ff6d07c906597c4384f75919553"];
+  Node9 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="moa.gui.visualization.StreamOutlierPanel.setPointsVisibility",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1gui_1_1visualization_1_1StreamOutlierPanel.html#a90c03f8bae36d1898868901610e04557"];
+}

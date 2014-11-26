@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1KDTree.html#abbc9653616653df5e2e22b3b29416da5" title="Returns true if candidate is a full owner in respect to a competitor." alt="" coords="421,5,837,35"/>
+<area shape="rect" id="node7" href="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1KDTree.html#aa7ffdc8c19de967006ae2ed4022f4f3d" title="Returns the distance between a point and an hyperrectangle." alt="" coords="436,59,823,88"/>
+<area shape="rect" id="node5" href="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1EuclideanDistance.html#ad2ccd44d1a04e5e705396bf3746cb020" title="Calculates the distance between two instances." alt="" coords="885,5,1288,35"/>
+<area shape="rect" id="node9" href="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1KDTree.html#a8ce38fe7d1eb59f6be411b6fb6df7f40" title="Finds the closest point in the hyper rectangle to a given point." alt="" coords="891,59,1283,88"/>
+</map>

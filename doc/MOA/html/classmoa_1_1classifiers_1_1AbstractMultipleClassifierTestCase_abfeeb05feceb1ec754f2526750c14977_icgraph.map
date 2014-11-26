@@ -1,0 +1,36 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1classifiers_1_1meta_1_1AccuracyUpdatedEnsembleTest.html#a9ca59e47233755936b62e2b674e3da24" title="Constructs the test case." alt="" coords="513,11,1039,40"/>
+<area shape="rect" id="node5" href="$classmoa_1_1classifiers_1_1meta_1_1AccuracyWeightedEnsembleTest.html#afae2adf0da997bd6e3c20736ccb6b34c" title="Constructs the test case." alt="" coords="507,64,1045,93"/>
+<area shape="rect" id="node7" href="$classmoa_1_1classifiers_1_1active_1_1ActiveClassifierTest.html#ab7feb5d88493c5aacb3dfd6305049217" title="Constructs the test case." alt="" coords="580,117,972,147"/>
+<area shape="rect" id="node9" href="$classmoa_1_1classifiers_1_1trees_1_1AdaHoeffdingOptionTreeTest.html#ab003aa956ef505d8ad390a7f8138af0c" title="Constructs the test case." alt="" coords="532,171,1020,200"/>
+<area shape="rect" id="node11" href="$classmoa_1_1classifiers_1_1trees_1_1ASHoeffdingTreeTest.html#a417f88603e454f2cfd8b3471e935c720" title="Constructs the test case." alt="" coords="575,224,977,253"/>
+<area shape="rect" id="node13" href="$classmoa_1_1classifiers_1_1trees_1_1DecisionStumpTest.html#aa39582f1ad6cc67da84434b25eb9dfb9" title="Constructs the test case." alt="" coords="585,277,967,307"/>
+<area shape="rect" id="node15" href="$classmoa_1_1classifiers_1_1drift_1_1DriftDetectionMethodClassifierTest.html#a69bbb9b2f0ad538d8fc666b31a74081a" title="Constructs the test case." alt="" coords="499,331,1053,360"/>
+<area shape="rect" id="node17" href="$classmoa_1_1classifiers_1_1trees_1_1HoeffdingAdaptiveTreeTest.html#ad5e36d95c8b3913b1ce5d53a335c5fe4" title="Constructs the test case." alt="" coords="541,384,1011,413"/>
+<area shape="rect" id="node19" href="$classmoa_1_1classifiers_1_1trees_1_1HoeffdingOptionTreeTest.html#aac465ccd3ccbec89c2ef02b97441e352" title="Constructs the test case." alt="" coords="555,437,997,467"/>
+<area shape="rect" id="node21" href="$classmoa_1_1classifiers_1_1trees_1_1HoeffdingTreeTest.html#a3c56a2c7fa1099777ba42511ccdca83f" title="Constructs the test case." alt="" coords="593,491,959,520"/>
+<area shape="rect" id="node23" href="$classmoa_1_1classifiers_1_1meta_1_1LeveragingBagTest.html#a711c95e6c8265f88a514cdf35d3b550c" title="Constructs the test case." alt="" coords="589,544,963,573"/>
+<area shape="rect" id="node25" href="$classmoa_1_1classifiers_1_1meta_1_1LimAttClassifierTest.html#ae2227bc48c7692cf6e1ee426ead9b2fe" title="Constructs the test case." alt="" coords="581,597,971,627"/>
+<area shape="rect" id="node27" href="$classmoa_1_1classifiers_1_1trees_1_1LimAttHoeffdingTreeTest.html#a0475053009bd07d44250ba3bbc886c7f" title="Constructs the test case." alt="" coords="555,651,997,680"/>
+<area shape="rect" id="node29" href="$classmoa_1_1classifiers_1_1functions_1_1MajorityClassTest.html#a568922a1c15219f17e783b4a6384fbd8" title="Constructs the test case." alt="" coords="583,704,969,733"/>
+<area shape="rect" id="node31" href="$classmoa_1_1classifiers_1_1bayes_1_1NaiveBayesMultinomialTest.html#ab6e3eea3fc4502cd36ec17a0d4d8fb93" title="Constructs the test case." alt="" coords="535,757,1017,787"/>
+<area shape="rect" id="node33" href="$classmoa_1_1classifiers_1_1bayes_1_1NaiveBayesTest.html#accd6d86e2c14d6c34094ae8d60eb0261" title="Constructs the test case." alt="" coords="601,811,951,840"/>
+<area shape="rect" id="node35" href="$classmoa_1_1classifiers_1_1functions_1_1NoChangeTest.html#a604af3cea4940cd83d382683dfdfcc8d" title="Constructs the test case." alt="" coords="601,864,951,893"/>
+<area shape="rect" id="node37" href="$classmoa_1_1classifiers_1_1meta_1_1OCBoostTest.html#a201686f29a6ca4b1cdd7125c4b139784" title="Constructs the test case." alt="" coords="621,917,931,947"/>
+<area shape="rect" id="node39" href="$classmoa_1_1classifiers_1_1meta_1_1OnlineAccuracyUpdatedEnsembleTest.html#abbcbfd76c3d1f6d6acb4b9fc81d58209" title="Constructs the test case." alt="" coords="476,971,1076,1000"/>
+<area shape="rect" id="node41" href="$classmoa_1_1classifiers_1_1meta_1_1OzaBagAdwinTest.html#a57ba01610cf9c86593526f81c62d0220" title="Constructs the test case." alt="" coords="592,1024,960,1053"/>
+<area shape="rect" id="node43" href="$classmoa_1_1classifiers_1_1meta_1_1OzaBagASHTTest.html#a91657a88a48d2ad08a45eba2c2308582" title="Constructs the test case." alt="" coords="592,1077,960,1107"/>
+<area shape="rect" id="node45" href="$classmoa_1_1classifiers_1_1meta_1_1OzaBagTest.html#a0467736efe326ab90a126ac6d48cfc61" title="Constructs the test case." alt="" coords="628,1131,924,1160"/>
+<area shape="rect" id="node47" href="$classmoa_1_1classifiers_1_1meta_1_1OzaBoostAdwinTest.html#ac14c221ba6dc0c25686fa39f460de0d9" title="Constructs the test case." alt="" coords="581,1184,971,1213"/>
+<area shape="rect" id="node49" href="$classmoa_1_1classifiers_1_1meta_1_1OzaBoostTest.html#a65fee12550f0b476ba211bd5dd0c1834" title="Constructs the test case." alt="" coords="617,1237,935,1267"/>
+<area shape="rect" id="node51" href="$classmoa_1_1classifiers_1_1functions_1_1PerceptronTest.html#ac05ef7e10d36adc01be0db87ab132d03" title="Constructs the test case." alt="" coords="600,1291,952,1320"/>
+<area shape="rect" id="node53" href="$classmoa_1_1classifiers_1_1trees_1_1RandomHoeffdingTreeTest.html#afca0e348b95e0afed0de6ccc8c9290f6" title="Constructs the test case." alt="" coords="544,1344,1008,1373"/>
+<area shape="rect" id="node55" href="$classmoa_1_1classifiers_1_1rules_1_1RuleClassifierNBayesTest.html#a169fc8ad45d5aaf2db760b7f44be8584" title="Constructs the test case." alt="" coords="547,1397,1005,1427"/>
+<area shape="rect" id="node57" href="$classmoa_1_1classifiers_1_1rules_1_1RuleClassifierTest.html#a29e52d6d0b98bbc61a6f3f72ba3fc999" title="Constructs the test case." alt="" coords="593,1451,959,1480"/>
+<area shape="rect" id="node59" href="$classmoa_1_1classifiers_1_1functions_1_1SGDTest.html#a87ffa1e94d8c381320afd0d28bab60f1" title="Constructs the test case." alt="" coords="633,1504,919,1533"/>
+<area shape="rect" id="node61" href="$classmoa_1_1classifiers_1_1drift_1_1SingleClassifierDriftTest.html#a4c1017e1bcefcead6fef07a46e86f4d7" title="Constructs the test case." alt="" coords="563,1557,989,1587"/>
+<area shape="rect" id="node63" href="$classmoa_1_1classifiers_1_1functions_1_1SPegasosTest.html#a25d24b95f53d1672be5c792103f36e9a" title="Constructs the test case." alt="" coords="603,1611,949,1640"/>
+<area shape="rect" id="node65" href="$classmoa_1_1classifiers_1_1meta_1_1TemporallyAugmentedClassifierTest.html#a1e2cc9305bfdbda34b4fe25d52c5e1fb" title="Constructs the test case." alt="" coords="489,1664,1063,1693"/>
+<area shape="rect" id="node67" href="$classmoa_1_1classifiers_1_1meta_1_1WeightedMajorityAlgorithmTest.html#af2f5c2a264830ca34eb8d43ae5500e05" title="Constructs the test case." alt="" coords="519,1717,1033,1747"/>
+<area shape="rect" id="node69" href="$classmoa_1_1classifiers_1_1meta_1_1WEKAClassifierTest.html#a93ace987b6aee34981fb502e9d1da292" title="Constructs the test case." alt="" coords="580,1771,972,1800"/>
+</map>

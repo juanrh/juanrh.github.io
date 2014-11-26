@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1classifiers_1_1core_1_1driftdetection_1_1ADWINChangeDetector.html#a47a3019e6fb54f5284f2cf136f7b81a5" title="Adding a numeric value to the change detector&lt;br&gt; ." alt="" coords="425,5,820,35"/>
+<area shape="rect" id="node5" href="$classmoa_1_1classifiers_1_1trees_1_1HoeffdingAdaptiveTree_1_1AdaLearningNode.html#ad70b71e34f2ed88ea9a5bc33cb2562aa" title="moa.classifiers.trees.HoeffdingAdaptiveTree.AdaLearningNode.learnFromInstance" alt="" coords="373,59,872,88"/>
+<area shape="rect" id="node7" href="$classmoa_1_1classifiers_1_1trees_1_1HoeffdingAdaptiveTree_1_1AdaSplitNode.html#a3c12a28862be75251b548b75f0fc2f24" title="moa.classifiers.trees.HoeffdingAdaptiveTree.AdaSplitNode.learnFromInstance" alt="" coords="385,112,860,141"/>
+<area shape="rect" id="node9" href="$classmoa_1_1classifiers_1_1lazy_1_1kNNwithPAWandADWIN.html#aecdd2ed9114cb9b93f0388bbbc2b8d60" title="Trains this classifier incrementally using the given instance." alt="" coords="417,165,828,195"/>
+</map>

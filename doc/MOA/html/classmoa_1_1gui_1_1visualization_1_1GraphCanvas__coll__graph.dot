@@ -1,0 +1,39 @@
+digraph G
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{moa.gui.visualization.GraphCanvas\n|~ measureSelected\l- measure0\l- measure1\l- clusterEvents\l- eventLabelList\l- axesPanel\l- curvePanel\l- eventPanel\l- eventCounter\l- x_offset_left\l- x_offset_right\l- y_offset_bottom\l- y_offset_top\l- processFrequency\l- min_y_value\l- max_y_value\l- max_x_value\l- x_resolution\l- y_resolution\l- viewport\l|+ GraphCanvas()\l+ scaleXResolution()\l+ scaleYResolution()\l+ getMeasureSelected()\l+ getProcessFrequency()\l+ setGraph()\l+ updateCanvas()\l+ updateCanvas()\l+ forceAddEvents()\l+ setClusterEventsList()\l+ setViewport()\l# paintComponent()\l- updateMinMaxValues()\l- updateXResolution()\l- updateYValues()\l- updateSize()\l- addEvents()\l- addComponents()\l- initComponents()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node2 -> Node1 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node2 [label="{JPanel\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node3 -> Node1 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="curvePanel",arrowtail="open",fontname="Helvetica"];
+  Node3 [label="{moa.gui.visualization.GraphCurve\n|- min_value\l- max_value\l- measure0\l- measure1\l- measureSelected\l- x_resolution\l- processFrequency\l- clusterEvents\l|+ GraphCurve()\l+ setGraph()\l+ setYMinMaxValues()\l+ getPreferredSize()\l~ setProcessFrequency()\l~ setClusterEventsList()\l~ setXResolution()\l# paintComponent()\l- paintFullCurve()\l- paintEvents()\l- initComponents()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1gui_1_1visualization_1_1GraphCurve.html"];
+  Node4 -> Node3 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="measure0\nmeasure1",arrowtail="open",fontname="Helvetica"];
+  Node4 [label="{moa.evaluation.MeasureCollection\n|- names\l- values\l- sortedValues\l- events\l- minValue\l- maxValue\l- sumValues\l- enabled\l- corrupted\l- time\l- debug\l- mm\l- map\l- numMeasures\l|+ MeasureCollection()\l+ addValue()\l+ addEmptyValue()\l+ getNumMeasures()\l+ getName()\l+ getMaxValue()\l+ getMinValue()\l+ getLastValue()\l+ getMean()\l+ clean()\l+ getMedian()\l+ getLowerQuartile()\l+ getUpperQuartile()\l+ getNumberOfValues()\l+ getValue()\l+ getAllValues()\l+ setEnabled()\l+ isEnabled()\l+ getMeanRunningTime()\l+ evaluateClusteringPerformance()\l+ getDescription()\l+ addEventType()\l+ getEventType()\l# getNames()\l# addValue()\l# getDefaultEnabled()\l# evaluateClustering()\l- updateSortedValues()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1evaluation_1_1MeasureCollection.html"];
+  Node5 -> Node4 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node5 [label="{moa.AbstractMOAObject\n||+ copy()\l+ measureByteSize()\l+ toString()\l+ copy()\l+ measureByteSize()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1AbstractMOAObject.html",tooltip="Abstract MOA Object."];
+  Node6 -> Node5 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node6 [label="{moa.MOAObject\n||+ measureByteSize()\l+ copy()\l+ getDescription()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interfacemoa_1_1MOAObject.html",tooltip="Interface implemented by classes in MOA, so that all are serializable, can produce..."];
+  Node7 -> Node6 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node7 [label="{Serializable\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node8 -> Node4 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="mm",arrowtail="open",fontname="Helvetica"];
+  Node8 [label="{moa.evaluation.MembershipMatrix\n|~ classmap\l~ cluster_class_weights\l~ cluster_sums\l~ class_sums\l~ total_entries\l~ class_distribution\l~ total_class_entries\l~ initalBuildTimestamp\l|+ MembershipMatrix()\l+ getClusterClassWeight()\l+ getClusterSum()\l+ getClassSum()\l+ getClassDistribution()\l+ getClusterClassWeightByLabel()\l+ getClassSumByLabel()\l+ getClassDistributionByLabel()\l+ getTotalEntries()\l+ getNumClasses()\l+ hasNoiseClass()\l+ toString()\l+ getInitalBuildTimestamp()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1evaluation_1_1MembershipMatrix.html"];
+  Node9 -> Node8 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="classmap",arrowtail="open",fontname="Helvetica"];
+  Node9 [label="{HashMap\< Integer, Integer \>\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node10 -> Node4 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="values\nsortedValues",arrowtail="open",fontname="Helvetica"];
+  Node10 [label="{ArrayList\< Double \>\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node11 -> Node4 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="events",arrowtail="open",fontname="Helvetica"];
+  Node11 [label="{ArrayList\< String \>\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node12 -> Node4 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="map",arrowtail="open",fontname="Helvetica"];
+  Node12 [label="{HashMap\< String, Integer \>\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node13 -> Node3 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="clusterEvents",arrowtail="open",fontname="Helvetica"];
+  Node13 [label="{ArrayList\< ClusterEvent \>\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node14 -> Node1 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="eventLabelList",arrowtail="open",fontname="Helvetica"];
+  Node14 [label="{ArrayList\< JLabel \>\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node15 -> Node1 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="viewport",arrowtail="open",fontname="Helvetica"];
+  Node15 [label="{JViewport\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node4 -> Node1 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="measure0\nmeasure1",arrowtail="open",fontname="Helvetica"];
+  Node2 -> Node1 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="eventPanel",arrowtail="open",fontname="Helvetica"];
+  Node16 -> Node1 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="axesPanel",arrowtail="open",fontname="Helvetica"];
+  Node16 [label="{moa.gui.visualization.GraphAxes\n|- x_offset_left\l- x_offset_right\l- y_offset_bottom\l- y_offset_top\l- height\l- width\l- x_resolution\l- processFrequency\l- min_value\l- max_value\l- max_x_value\l|+ GraphAxes()\l+ setXMaxValue()\l+ setXResolution()\l+ setProcessFrequency()\l+ setYMinMaxValues()\l+ setMaxXValue()\l# paintComponent()\l- xAxis()\l- yAxis()\l- calcY()\l- initComponents()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1gui_1_1visualization_1_1GraphAxes.html"];
+  Node13 -> Node1 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="clusterEvents",arrowtail="open",fontname="Helvetica"];
+}

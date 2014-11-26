@@ -1,0 +1,8 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1clusterers_1_1outliers_1_1AbstractC_1_1StreamObj.html#a4cef72d0fe150e12f3c2d250958ae0aa" title="The number of dimensions." alt="" coords="428,5,780,35"/>
+<area shape="rect" id="node5" href="$classmoa_1_1clusterers_1_1outliers_1_1AbstractC_1_1StreamObj.html#a6792c3ee1ec700ef52bb5aa969b7b7c3" title="moa.clusterers.outliers.AbstractC.StreamObj.get" alt="" coords="452,59,756,88"/>
+<area shape="rect" id="node7" href="$classmoa_1_1clusterers_1_1outliers_1_1MyBaseOutlierDetector.html#a01297fd140b44ef385c77a89acec721c" title="moa.clusterers.outliers.MyBaseOutlierDetector.Print" alt="" coords="441,112,767,141"/>
+<area shape="rect" id="node11" href="$classmoa_1_1clusterers_1_1outliers_1_1MyBaseOutlierDetector.html#af7b301217f7338217830e5ee4850b144" title="moa.clusterers.outliers.MyBaseOutlierDetector.Println" alt="" coords="437,165,771,195"/>
+<area shape="rect" id="node9" href="$interfacemoa_1_1clusterers_1_1outliers_1_1MyBaseOutlierDetector_1_1PrintMsg.html#a686fb5db51b4d23837bb524103f973c5" title="moa.clusterers.outliers.MyBaseOutlierDetector.PrintMsg.print" alt="" coords="835,112,1213,141"/>
+<area shape="rect" id="node13" href="$interfacemoa_1_1clusterers_1_1outliers_1_1MyBaseOutlierDetector_1_1PrintMsg.html#a71e22b3711764e75881a9db4fdb67ab8" title="moa.clusterers.outliers.MyBaseOutlierDetector.PrintMsg.println" alt="" coords="829,165,1219,195"/>
+</map>

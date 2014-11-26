@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1evaluation_1_1CMM.html#a62a625febc2e6b48e955a6e9b75ec410" title="Calculate the actual error values." alt="" coords="341,5,571,35"/>
+<area shape="rect" id="node7" href="$classmoa_1_1evaluation_1_1CMM.html#aba1a33c0add6c87676c79092269a78f0" title="calculates the CMM specific matching between found clusters and ground truth clusters..." alt="" coords="329,59,583,88"/>
+<area shape="rect" id="node5" href="$classmoa_1_1evaluation_1_1CMM.html#a10e5730f04b5d05fa6eedfbeb6a737a2" title="moa.evaluation.CMM.evaluateClustering" alt="" coords="632,32,891,61"/>
+</map>

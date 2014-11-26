@@ -1,0 +1,11 @@
+digraph G
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir=LR;
+  Node1 [label="moa.classifiers.core.splitcriteria.SDRSplitCriterion.computeSD",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="moa.classifiers.rules.core.splitcriteria.SDRSplitCriterionAMRules.computeBranchSplitMerits",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1rules_1_1core_1_1splitcriteria_1_1SDRSplitCriterionAMRules.html#a1caa9611dc44bcc2cfffee2f2ecb2758"];
+  Node1 -> Node3 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="moa.classifiers.rules.core.splitcriteria.SDRSplitCriterionAMRules.getMeritOfSplit",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1rules_1_1core_1_1splitcriteria_1_1SDRSplitCriterionAMRules.html#a5da8b732f9a4c3007b7d3e73053150a4",tooltip="Computes the merit of splitting for a given ditribution before the split and after..."];
+}

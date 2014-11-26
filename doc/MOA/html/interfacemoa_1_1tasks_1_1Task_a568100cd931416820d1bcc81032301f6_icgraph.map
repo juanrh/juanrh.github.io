@@ -1,0 +1,10 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1gui_1_1ClassOptionWithNamesSelectionPanel.html#a241d9ec18c20fb532ea64e95e763a804" title="moa.gui.ClassOptionWithNamesSelectionPanel.findSuitableClasses" alt="" coords="289,5,708,35"/>
+<area shape="rect" id="node9" href="$classmoa_1_1gui_1_1ClassOptionSelectionPanel.html#a6d44d73c26c6b511089533bde1f88c64" title="moa.gui.ClassOptionSelectionPanel.findSuitableClasses" alt="" coords="324,59,673,88"/>
+<area shape="rect" id="node15" href="$classmoa_1_1tasks_1_1RunTasks.html#ad9b2f68d8963a89f3b75000c0aefd1f5" title="Gets the result type of this task." alt="" coords="367,112,631,141"/>
+<area shape="rect" id="node17" href="$classmoa_1_1tasks_1_1RunStreamTasks.html#a76fbc887272ed28aa6f3424c02fb6f20" title="Gets the result type of this task." alt="" coords="345,165,652,195"/>
+<area shape="rect" id="node5" href="$classmoa_1_1gui_1_1ClassOptionWithNamesSelectionPanel.html#af91dc41ef44cc60b5dea87a3c8418d34" title="moa.gui.ClassOptionWithNamesSelectionPanel.ClassOptionWithNamesSelectionPanel" alt="" coords="759,5,1289,35"/>
+<area shape="rect" id="node7" href="$classmoa_1_1gui_1_1ClassOptionWithNamesSelectionPanel.html#af86c0d519bdae1eef574ff53fec03f9f" title="moa.gui.ClassOptionWithNamesSelectionPanel.showSelectClassDialog" alt="" coords="1339,5,1781,35"/>
+<area shape="rect" id="node11" href="$classmoa_1_1gui_1_1ClassOptionSelectionPanel.html#a2a4b8441ab88838697463d39b36fba2f" title="moa.gui.ClassOptionSelectionPanel.ClassOptionSelectionPanel" alt="" coords="827,59,1221,88"/>
+<area shape="rect" id="node13" href="$classmoa_1_1gui_1_1ClassOptionSelectionPanel.html#a746b0c5c26f3a627a792a3a92b205dd5" title="moa.gui.ClassOptionSelectionPanel.showSelectClassDialog" alt="" coords="1373,59,1747,88"/>
+</map>

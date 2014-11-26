@@ -1,0 +1,4 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1classifiers_1_1trees_1_1FIMTDD_1_1FIMTDDActiveLearningNode.html" title="A modified ActiveLearningNode that uses a Perceptron as the leaf node model, and..." alt="" coords="5,158,376,503"/>
+<area shape="rect" id="node5" href="$classmoa_1_1classifiers_1_1trees_1_1FIMTDD_1_1FIMTDDSplitNode.html" title="A modified SplitNode method implementing the extra information regarding it&#39;s..." alt="" coords="400,201,709,460"/>
+</map>

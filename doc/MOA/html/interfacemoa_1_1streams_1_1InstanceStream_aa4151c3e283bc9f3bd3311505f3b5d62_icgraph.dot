@@ -1,0 +1,31 @@
+digraph G
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir=LR;
+  Node1 [label="moa.streams.InstanceStream.restart",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="moa.tasks.LearnModelRegression.doMainTask",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1tasks_1_1LearnModelRegression.html#a733d312eab32154856c8a4f18238eb5b",tooltip="This method performs this task."];
+  Node1 -> Node3 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="moa.tasks.LearnModel.doMainTask",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1tasks_1_1LearnModel.html#a458fb13420761f68401ac4ae6b3605d8",tooltip="This method performs this task."];
+  Node1 -> Node4 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="moa.tasks.EvaluatePeriodicHeldOutTest.doMainTask",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1tasks_1_1EvaluatePeriodicHeldOutTest.html#a71f8d46e07fbec833b8f4bf669ac5854",tooltip="This method performs this task."];
+  Node1 -> Node5 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="moa.streams.ConceptDriftRealStream.nextInstance",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1streams_1_1ConceptDriftRealStream.html#a68a089a114f40abbbc01b74e1ae130ee",tooltip="Gets the next instance from this stream."];
+  Node1 -> Node6 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="moa.streams.MultiFilteredStream.restart",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1streams_1_1MultiFilteredStream.html#ae5eb8b6de9bdfe4d98222a7e116514f2",tooltip="Restarts this stream."];
+  Node1 -> Node7 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="moa.streams.generators.multilabel.MetaMultilabelGenerator.restart",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1streams_1_1generators_1_1multilabel_1_1MetaMultilabelGenerator.html#ae3c96350626a916c62bc34de96a62178",tooltip="Restarts this stream."];
+  Node7 -> Node8 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="moa.streams.generators.multilabel.MetaMultilabelGenerator.prepareForUseImpl",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1streams_1_1generators_1_1multilabel_1_1MetaMultilabelGenerator.html#a7dc1ff268809bb20eb635aed3693d86a",tooltip="This method describes the implementation of how to prepare this object for use."];
+  Node1 -> Node9 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="moa.streams.filters.AbstractStreamFilter.restart",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1streams_1_1filters_1_1AbstractStreamFilter.html#a0514d0c02ecb80d40d7fd84513dc13d5",tooltip="Restarts this stream."];
+  Node1 -> Node10 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="moa.streams.FilteredStream.restart",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1streams_1_1FilteredStream.html#a2754b4f35ed4a3f958cd232dfbed2ad6",tooltip="Restarts this stream."];
+  Node1 -> Node11 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="moa.streams.ConceptDriftStream.restart",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1streams_1_1ConceptDriftStream.html#a275f6e61c7962f87f9f075c944a85326",tooltip="Restarts this stream."];
+  Node1 -> Node12 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="moa.streams.ConceptDriftRealStream.restart",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1streams_1_1ConceptDriftRealStream.html#a4b1b3ad6b4a165524c2e23e62756a9b9",tooltip="Restarts this stream."];
+  Node12 -> Node13 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="moa.streams.ConceptDriftRealStream.prepareForUseImpl",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1streams_1_1ConceptDriftRealStream.html#a52f614f44e7faf104bd770cd04426188",tooltip="This method describes the implementation of how to prepare this object for use."];
+}

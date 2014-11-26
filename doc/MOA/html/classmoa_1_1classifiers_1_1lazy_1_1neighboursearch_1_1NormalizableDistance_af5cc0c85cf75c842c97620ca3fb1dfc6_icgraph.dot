@@ -1,0 +1,46 @@
+digraph G
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir=LR;
+  Node1 [label="moa.classifiers.lazy.neighboursearch.NormalizableDistance.updateRanges",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="moa.classifiers.lazy.neighboursearch.KDTree.addInstanceInfo",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1KDTree.html#ab29174bc96ed7de9cfbc4a6fcc6b3220",tooltip="Adds one instance to KDTree loosly."];
+  Node2 -> Node3 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="moa.classifiers.lazy.neighboursearch.KDTree.update",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1KDTree.html#a18df0a0c0a1c1c62947feddb0aebe811",tooltip="Adds one instance to the KDTree."];
+  Node1 -> Node4 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="moa.classifiers.lazy.neighboursearch.KDTree.addInstanceToTree",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1KDTree.html#a6641f4b3339242c2f9a6312c6358496c",tooltip="Recursively adds an instance to the tree starting from the supplied KDTreeNode."];
+  Node4 -> Node3 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node5 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="moa.classifiers.lazy.neighboursearch.NormalizableDistance.initializeRanges",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1NormalizableDistance.html#a35975f221e5126583f1aa0177c7c5e5c",tooltip="Initializes the ranges using all instances of the dataset."];
+  Node5 -> Node6 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="moa.classifiers.lazy.neighboursearch.NormalizableDistance.initialize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1NormalizableDistance.html#a117710f1d798db26fe903fb553100434",tooltip="initializes the ranges and the attributes being used."];
+  Node6 -> Node7 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="moa.classifiers.lazy.neighboursearch.NormalizableDistance.validate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1NormalizableDistance.html#ac5e480e519a2df2424045f09d945030d",tooltip="performs the initializations if necessary."];
+  Node7 -> Node8 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="moa.classifiers.lazy.neighboursearch.NormalizableDistance.distance",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1NormalizableDistance.html#a62e12bebd24eb1d7420ded5302f4e3cf",tooltip="Calculates the distance between two instances."];
+  Node7 -> Node9 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="moa.classifiers.lazy.neighboursearch.NormalizableDistance.getRanges",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1NormalizableDistance.html#a696f146c8dfbf0149f2eee8cab6855f6",tooltip="Method to get the ranges."];
+  Node9 -> Node4 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 -> Node10 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="moa.classifiers.lazy.neighboursearch.KDTree.buildKDTree",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1KDTree.html#add9af014556f5230ca5f038c9f8ca4bb",tooltip="Builds the KDTree on the supplied set of instances/points."];
+  Node10 -> Node11 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="moa.classifiers.lazy.neighboursearch.KDTree.setInstances",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1KDTree.html#af220a59e6c7342d42b7e36da82d00af4",tooltip="Builds the KDTree on the given set of instances."];
+  Node7 -> Node12 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="moa.classifiers.lazy.neighboursearch.NormalizableDistance.update",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1NormalizableDistance.html#a8609555beb6345b887006e19940bc772",tooltip="Update the distance function (if necessary) for the newly added instance."];
+  Node7 -> Node13 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="moa.classifiers.lazy.neighboursearch.NormalizableDistance.updateRanges",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1NormalizableDistance.html#aab29104c02c782251a5420b1d35f0b00",tooltip="Update the ranges if a new instance comes."];
+  Node5 -> Node14 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="moa.classifiers.lazy.neighboursearch.kdtrees.SlidingMidPointOfWidestSide.splitNode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1kdtrees_1_1SlidingMidPointOfWidestSide.html#a0a837c014b41da5ce43405cf539dcf58",tooltip="Splits a node into two based on the midpoint value of the dimension in which the..."];
+  Node5 -> Node15 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="moa.classifiers.lazy.neighboursearch.kdtrees.MidPointOfWidestDimension.splitNode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1kdtrees_1_1MidPointOfWidestDimension.html#a3e976073529cfc180e7aed273b6856ce",tooltip="Splits a node into two based on the midpoint value of the dimension in which the..."];
+  Node5 -> Node16 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="moa.classifiers.lazy.neighboursearch.kdtrees.MedianOfWidestDimension.splitNode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1kdtrees_1_1MedianOfWidestDimension.html#ae552a0a2f30decdde129df15f52b63e8",tooltip="Splits a node into two based on the median value of the dimension in which the points..."];
+  Node5 -> Node17 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="moa.classifiers.lazy.neighboursearch.kdtrees.KMeansInpiredMethod.splitNode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1kdtrees_1_1KMeansInpiredMethod.html#a374911c0f1f0c4838bde5c489d86190a",tooltip="Splits a node into two such that the overall sum of squared distances of points to..."];
+  Node5 -> Node18 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="moa.classifiers.lazy.neighboursearch.KDTree.splitNodes",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1KDTree.html#a4b17a18f7ed788e286e8eb61d77877e6",tooltip="Recursively splits nodes of a tree starting from the supplied node."];
+  Node18 -> Node10 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node12 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node13 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

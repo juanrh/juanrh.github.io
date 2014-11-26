@@ -1,0 +1,12 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1classifiers_1_1meta_1_1AccuracyWeightedEnsemble.html#aeaa8b79d8159e96f0f1d4217515e2cbf" title="Adds a classifier to the storage." alt="" coords="495,5,887,35"/>
+<area shape="rect" id="node5" href="$interfacemoa_1_1classifiers_1_1Classifier.html#af50dcec23ecb34c1bd141d0d389bdb59" title="Produces a copy of this classifier." alt="" coords="1079,57,1279,87"/>
+<area shape="rect" id="node7" href="$classmoa_1_1classifiers_1_1meta_1_1AccuracyWeightedEnsemble.html#a8d1b05381d0898a70d4da8bd695514b5" title="Computes the weight of a candidate classifier." alt="" coords="456,160,925,189"/>
+<area shape="rect" id="node9" href="$classmoa_1_1classifiers_1_1meta_1_1AccuracyWeightedEnsemble.html#ab8ff00103d72fff5a88bf076915b6a4b" title="Computes the weight of a given classifie." alt="" coords="973,123,1384,152"/>
+<area shape="rect" id="node16" href="$interfacemoa_1_1classifiers_1_1Classifier.html#ac28018bc307abe34a8ace54dba3ebff1" title="Trains this classifier incrementally using the given instance." alt="" coords="1047,199,1311,228"/>
+<area shape="rect" id="node20" href="$classmoa_1_1options_1_1AbstractOptionHandler.html#a2d5e872c7c6a32487013ba914c6d3fcc" title="Gets a prepared option of this class." alt="" coords="504,264,877,293"/>
+<area shape="rect" id="node24" href="$interfacemoa_1_1classifiers_1_1Classifier.html#a0cb1a2820196bc5e2a95b05a0b6666f0" title="Resets this classifier." alt="" coords="565,317,816,347"/>
+<area shape="rect" id="node11" href="$classmoa_1_1classifiers_1_1meta_1_1AccuracyWeightedEnsemble.html#ad4ce206201ffdaaa4044fc344ffdd981" title="Computes the MSEr threshold." alt="" coords="1433,96,1836,125"/>
+<area shape="rect" id="node13" href="$interfacemoa_1_1classifiers_1_1Classifier.html#a0933ed1199c2b16a8eb8186dabf9a8f9" title="Predicts the class memberships for a given instance." alt="" coords="1488,149,1781,179"/>
+<area shape="rect" id="node22" href="$classmoa_1_1options_1_1AbstractOption.html#a26d25b88bb5244ed3c2ec142bd28353d" title="Gets the name of this option." alt="" coords="1059,264,1299,293"/>
+</map>

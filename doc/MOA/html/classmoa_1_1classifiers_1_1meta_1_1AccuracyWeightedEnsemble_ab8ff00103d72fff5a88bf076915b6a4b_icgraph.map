@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1classifiers_1_1meta_1_1AccuracyWeightedEnsemble.html#a8d1b05381d0898a70d4da8bd695514b5" title="Computes the weight of a candidate classifier." alt="" coords="464,5,933,35"/>
+<area shape="rect" id="node5" href="$classmoa_1_1classifiers_1_1meta_1_1AccuracyWeightedEnsemble.html#a016ca262b73e5e6d6c987c2f1e1c198d" title="Processes a chunk." alt="" coords="981,32,1384,61"/>
+<area shape="rect" id="node7" href="$classmoa_1_1classifiers_1_1meta_1_1AccuracyWeightedEnsemble.html#a6a9e7fc9cd8ec254ae8058316756849f" title="Trains this classifier incrementally using the given instance." alt="" coords="1433,32,1868,61"/>
+</map>

@@ -1,0 +1,7 @@
+digraph G
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir=LR;
+  Node1 [label="moa.test.TmpFile",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1test_1_1TmpFile.html",tooltip="A simple file handler class that automatically places the file in the system&#39;s..."];
+}

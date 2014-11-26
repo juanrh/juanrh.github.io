@@ -1,0 +1,21 @@
+digraph G
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir=LR;
+  Node1 [label="moa.classifiers.core.attributeclassobservers.GreenwaldKhannaNumericAttributeClassObserver.getBestEvaluatedSplitSuggestion",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="moa.classifiers.core.attributeclassobservers.GreenwaldKhannaNumericAttributeClassObserver.getClassDistsResultingFromBinarySplit",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1core_1_1attributeclassobservers_1_1GreenwaldKhannaNumericAttributeClassObserver.html#a020956b3baf6adf1342a04994dbb3547"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="moa.core.DoubleVector.addToValue",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1core_1_1DoubleVector.html#a4050209166f4be04dd9f6dac3535d60e"];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="moa.core.DoubleVector.setArrayLength",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1core_1_1DoubleVector.html#a9cfebf9a8c5e93615037459ed6bd63a7"];
+  Node2 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="moa.core.DoubleVector.getArrayRef",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1core_1_1DoubleVector.html#a0cd86df680113a943ebb8fcf60819ece"];
+  Node2 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="moa.core.GreenwaldKhannaQuantileSummary.getCountBelow",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1core_1_1GreenwaldKhannaQuantileSummary.html#a9ed05801bccd3f189d7e8e2e23bbbcab"];
+  Node2 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="moa.core.GreenwaldKhannaQuantileSummary.getTotalCount",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1core_1_1GreenwaldKhannaQuantileSummary.html#a3acf3d401fc0ece68151c6ae7a47d2d3"];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="moa.classifiers.core.splitcriteria.SplitCriterion.getMeritOfSplit",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interfacemoa_1_1classifiers_1_1core_1_1splitcriteria_1_1SplitCriterion.html#a82f5cb7ad49c396d4f50615a55300b36",tooltip="Computes the merit of splitting for a given ditribution before the split and after..."];
+}

@@ -1,0 +1,11 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1tasks_1_1Plot.html#a4b286ce1a09875b8331d337f1e6283c6" title="Creates the content of the gnuplot script." alt="" coords="425,5,609,35"/>
+<area shape="rect" id="node5" href="$classmoa_1_1tasks_1_1Plot.html#ad1a2b2fea42597d674408de4dae8482b" title="This method performs this task." alt="" coords="1040,32,1224,61"/>
+<area shape="rect" id="node8" href="$classmoa_1_1streams_1_1MultiFilteredStream.html#aa73c8b24b7e7476de4832b5453dc15db" title="This method describes the implementation of how to prepare this object for use." alt="" coords="352,109,683,139"/>
+<area shape="rect" id="node10" href="$classmoa_1_1classifiers_1_1core_1_1driftdetection_1_1EnsembleDriftDetectionMethods.html#a363e2bc4b4613c1389d3d8d59f507bdb" title="This method describes the implementation of how to prepare this object for use." alt="" coords="255,163,780,192"/>
+<area shape="rect" id="node12" href="$classmoa_1_1classifiers_1_1core_1_1driftdetection_1_1EnsembleDriftDetectionMethods.html#a7deeeb93b92810e2c2907bdbc3baa6cc" title="Resets this change detector." alt="" coords="271,216,764,245"/>
+<area shape="rect" id="node18" href="$classmoa_1_1streams_1_1clustering_1_1FileStream.html#afa6427616638ec26533d9edc06bf598a" title="Restarts this stream." alt="" coords="384,269,651,299"/>
+<area shape="rect" id="node14" href="$classmoa_1_1classifiers_1_1core_1_1driftdetection_1_1EnsembleDriftDetectionMethods.html#a666846e14a6a7fe33f5f8eb928fb9172" title="moa.classifiers.core.driftdetection.EnsembleDriftDetectionMethods.EnsembleDriftDetectionMethods" alt="" coords="831,163,1433,192"/>
+<area shape="rect" id="node16" href="$classmoa_1_1classifiers_1_1core_1_1driftdetection_1_1EnsembleDriftDetectionMethods.html#abc994698c8510dc0048b06a72faeda69" title="Adding a numeric value to the change detector&lt;br&gt; ." alt="" coords="911,216,1353,245"/>
+<area shape="rect" id="node20" href="$classmoa_1_1streams_1_1clustering_1_1FileStream.html#af898d21758aa6a1d551b57b67cd0fabe" title="This method describes the implementation of how to prepare this object for use." alt="" coords="963,269,1301,299"/>
+</map>

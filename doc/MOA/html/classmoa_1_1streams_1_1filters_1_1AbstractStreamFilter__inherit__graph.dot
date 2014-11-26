@@ -1,0 +1,28 @@
+digraph G
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{moa.streams.filters.AbstractStreamFilter\n|# inputStream\l|+ setInputStream()\l+ prepareForUseImpl()\l+ estimatedRemainingInstances()\l+ hasMoreInstances()\l+ isRestartable()\l+ restart()\l# restartImpl()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node2 -> Node1 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node2 [label="{moa.options.AbstractOptionHandler\n|# options\l# classOptionNamesToPreparedObjects\l- serialVersionUID\l|+ getPurposeString()\l+ getOptions()\l+ prepareForUse()\l+ prepareForUse()\l+ getCLICreationString()\l+ copy()\l# prepareForUseImpl()\l# discoverOptionsViaReflection()\l# prepareClassOptions()\l# getPreparedClassOption()\l# getPreparedClassOption()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1options_1_1AbstractOptionHandler.html",tooltip="Abstract Option Handler."];
+  Node3 -> Node2 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node3 [label="{moa.AbstractMOAObject\n||+ copy()\l+ measureByteSize()\l+ toString()\l+ copy()\l+ measureByteSize()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1AbstractMOAObject.html",tooltip="Abstract MOA Object."];
+  Node4 -> Node3 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node4 [label="{moa.MOAObject\n||+ measureByteSize()\l+ copy()\l+ getDescription()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interfacemoa_1_1MOAObject.html",tooltip="Interface implemented by classes in MOA, so that all are serializable, can produce..."];
+  Node5 -> Node4 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node5 [label="{Serializable\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node6 -> Node2 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node6 [label="{moa.options.OptionHandler\n||+ getPurposeString()\l+ getOptions()\l+ prepareForUse()\l+ prepareForUse()\l+ copy()\l+ getCLICreationString()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interfacemoa_1_1options_1_1OptionHandler.html",tooltip="Interface representing an object that handles options or parameters."];
+  Node4 -> Node6 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node7 -> Node1 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node7 [label="{moa.streams.filters.StreamFilter\n||+ setInputStream()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interfacemoa_1_1streams_1_1filters_1_1StreamFilter.html",tooltip="Interface representing a stream filter."];
+  Node8 -> Node7 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node8 [label="{moa.streams.InstanceStream\n||+ getHeader()\l+ estimatedRemainingInstances()\l+ hasMoreInstances()\l+ nextInstance()\l+ isRestartable()\l+ restart()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interfacemoa_1_1streams_1_1InstanceStream.html",tooltip="Interface representing a data stream of instances."];
+  Node4 -> Node8 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node1 -> Node9 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node9 [label="{moa.streams.filters.AddNoiseFilter\n|+ randomSeedOption\l+ attNoiseFractionOption\l+ classNoiseFractionOption\l# random\l# attValObservers\l- serialVersionUID\l|+ getPurposeString()\l+ getHeader()\l+ nextInstance()\l+ getDescription()\l# restartImpl()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1streams_1_1filters_1_1AddNoiseFilter.html",tooltip="Filter for adding random noise to examples in a stream."];
+  Node1 -> Node10 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node10 [label="{moa.streams.filters.CacheFilter\n|# cache\l# indexCache\l# totalCacheInstances\l# isInitialized\l- serialVersionUID\l|+ getPurposeString()\l+ getHeader()\l+ nextInstance()\l+ hasMoreInstances()\l+ estimatedRemainingInstances()\l+ getDescription()\l# restartImpl()\l# init()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1streams_1_1filters_1_1CacheFilter.html",tooltip="Filter for representing a stream that is cached in memory."];
+  Node1 -> Node11 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node11 [label="{moa.streams.filters.ReplacingMissingValuesFilter\n|+ numericReplacementStrategyOption\l+ nominalReplacementStrategyOption\l+ numericalConstantValueOption\l# numAttributes\l# columnsStatistics\l# numberOfSamples\l# lastNominalValues\l# frequencies\l# numericalSelectedStrategy\l# nominalSelectedStrategy\l- serialVersionUID\l|+ getPurposeString()\l+ getHeader()\l+ nextInstance()\l+ getDescription()\l# restartImpl()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1streams_1_1filters_1_1ReplacingMissingValuesFilter.html",tooltip="Replaces the missing values with another value according to the selected strategy..."];
+}

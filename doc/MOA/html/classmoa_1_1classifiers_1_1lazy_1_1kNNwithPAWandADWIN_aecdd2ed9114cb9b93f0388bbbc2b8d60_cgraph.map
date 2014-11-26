@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1classifiers_1_1AbstractClassifier.html#a0a5d3c3df5b27390f6830fed829540ea" title="Gets whether this classifier correctly classifies an instance." alt="" coords="467,5,797,35"/>
+<area shape="rect" id="node7" href="$classmoa_1_1classifiers_1_1core_1_1driftdetection_1_1ADWIN.html#a48ff7af682a6c9eed9d14819d31d095e" title="moa.classifiers.core.driftdetection.ADWIN.getWidth" alt="" coords="471,59,793,88"/>
+<area shape="rect" id="node9" href="$classmoa_1_1classifiers_1_1core_1_1driftdetection_1_1ADWIN.html#a6886f90e814a8f80287757b38a9161ee" title="moa.classifiers.core.driftdetection.ADWIN.setInput" alt="" coords="473,112,791,141"/>
+<area shape="rect" id="node5" href="$interfacemoa_1_1classifiers_1_1Classifier.html#a0933ed1199c2b16a8eb8186dabf9a8f9" title="Predicts the class memberships for a given instance." alt="" coords="847,5,1140,35"/>
+</map>

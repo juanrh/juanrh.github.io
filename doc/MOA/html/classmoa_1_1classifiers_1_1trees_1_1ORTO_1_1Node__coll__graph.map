@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" id="node8" href="$classmoa_1_1classifiers_1_1trees_1_1ORTO_1_1InnerNode.html" title="{moa.classifiers.trees.ORTO.InnerNode\n|# children\l# PHmT\l# PHMT\l# lossStatistics\l# weightSeen\l# previousWeight\l&#45; serialVersionUID\l|+ InnerNode()\l+ numChildren()\l+ getChild()\l+ getChildIndex()\l+ setChild()\l+ setAlternateTree()\l+ getAlternateTree()\l+ calcByteSize()\l+ calculateDetph()\l+ PageHinckleyTest()\l+ setAdaptable()\l+ setAlternate()\l}" alt="" coords="203,1086,451,1466"/>
+<area shape="rect" id="node2" href="$classmoa_1_1AbstractMOAObject.html" title="Abstract MOA Object." alt="" coords="231,312,399,467"/>
+<area shape="rect" id="node11" href="$classmoa_1_1core_1_1DoubleVector.html" title="Vector of double numbers with some utilities." alt="" coords="349,517,536,1019"/>
+<area shape="rect" id="node4" href="$interfacemoa_1_1MOAObject.html" title="Interface implemented by classes in MOA, so that all are serializable, can produce..." alt="" coords="243,141,387,261"/>
+</map>

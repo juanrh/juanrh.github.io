@@ -1,0 +1,12 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1core_1_1GaussianEstimator.html#ae3e734a94ba4a3f27cd831f4429472ef" title="moa.core.GaussianEstimator.addObservation" alt="" coords="359,5,644,35"/>
+<area shape="rect" id="node5" href="$classmoa_1_1core_1_1DoubleVector.html#a4050209166f4be04dd9f6dac3535d60e" title="moa.core.DoubleVector.addToValue" alt="" coords="385,59,617,88"/>
+<area shape="rect" id="node9" href="$classmoa_1_1core_1_1GaussianEstimator.html#afb3df93f6721a7ca114e6c1c5a0e64a7" title="moa.core.GaussianEstimator.getStdDev" alt="" coords="373,112,629,141"/>
+<area shape="rect" id="node13" href="$classmoa_1_1core_1_1DoubleVector.html#a0a22580b229225823e9b11ed9d35104a" title="moa.core.DoubleVector.getValue" alt="" coords="395,165,608,195"/>
+<area shape="rect" id="node15" href="$classmoa_1_1options_1_1FloatOption.html#a0e606a62f4ece232aa8f8cb04bb7f1cf" title="moa.options.FloatOption.getValue" alt="" coords="392,219,611,248"/>
+<area shape="rect" id="node17" href="$interfacemoa_1_1streams_1_1InstanceStream.html#ae68c1c47c4dac2e591745a21e8cc120a" title="Gets the next instance from this stream." alt="" coords="365,272,637,301"/>
+<area shape="rect" id="node19" href="$classmoa_1_1core_1_1DoubleVector.html#a3ad01a733f19192a66c93dfba8de697e" title="moa.core.DoubleVector.numNonZeroEntries" alt="" coords="363,325,640,355"/>
+<area shape="rect" id="node21" href="$classmoa_1_1core_1_1DoubleVector.html#a04cac8fb52824b100578ad4bfef2136a" title="moa.core.DoubleVector.numValues" alt="" coords="388,379,615,408"/>
+<area shape="rect" id="node7" href="$classmoa_1_1core_1_1DoubleVector.html#a9cfebf9a8c5e93615037459ed6bd63a7" title="moa.core.DoubleVector.setArrayLength" alt="" coords="700,59,951,88"/>
+<area shape="rect" id="node11" href="$classmoa_1_1core_1_1GaussianEstimator.html#ab7161eaf766605bc7a4ba575e982e031" title="moa.core.GaussianEstimator.getVariance" alt="" coords="693,112,957,141"/>
+</map>

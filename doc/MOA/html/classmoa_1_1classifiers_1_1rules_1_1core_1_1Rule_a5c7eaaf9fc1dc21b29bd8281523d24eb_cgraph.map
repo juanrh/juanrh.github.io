@@ -1,0 +1,8 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1classifiers_1_1rules_1_1core_1_1RuleActiveLearningNode.html#ab3bbc1d2b34726d34b9fcda53b91f953" title="moa.classifiers.rules.core.RuleActiveLearningNode.getInstancesSeen" alt="" coords="319,5,745,35"/>
+<area shape="rect" id="node9" href="$classmoa_1_1classifiers_1_1rules_1_1core_1_1RuleActiveLearningNode.html#a2babce109833367a954eba375119a4b9" title="moa.classifiers.rules.core.RuleActiveLearningNode.getSimplePrediction" alt="" coords="313,59,751,88"/>
+<area shape="rect" id="node11" href="$classmoa_1_1AbstractMOAObject.html#ac686fd3b07c734cf21f1894376fe402d" title="Returns a description of the object." alt="" coords="424,112,640,141"/>
+<area shape="rect" id="node5" href="$classmoa_1_1classifiers_1_1trees_1_1HoeffdingTree_1_1ActiveLearningNode.html#a407cdfb074879e0f84460dee8ae06b04" title="moa.classifiers.trees.HoeffdingTree.ActiveLearningNode.getWeightSeen" alt="" coords="800,5,1243,35"/>
+<area shape="rect" id="node7" href="$classmoa_1_1core_1_1DoubleVector.html#acafa367bb17b33b844486adfa1b2780a" title="moa.core.DoubleVector.sumOfValues" alt="" coords="1291,5,1533,35"/>
+<area shape="rect" id="node13" href="$interfacemoa_1_1MOAObject.html#afdaf5098f1fe6c852018ce64c28e17f5" title="Returns a string representation of this object." alt="" coords="919,112,1124,141"/>
+</map>

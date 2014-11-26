@@ -1,0 +1,21 @@
+digraph G
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir=LR;
+  Node1 [label="moa.test.DiffUtils.loadFromFile",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="moa.test.DiffUtils.isDifferent",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1test_1_1DiffUtils.html#aca94becaa5fccec28b60bced1a158270",tooltip="Returns whether the two files differ."];
+  Node2 -> Node3 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="moa.test.DiffUtils.isDifferent",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1test_1_1DiffUtils.html#ae9f1cb76c1ebbc286ca9baaeb0678944",tooltip="Returns whether the two lists differ."];
+  Node2 -> Node4 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="moa.test.DiffUtils.main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1test_1_1DiffUtils.html#a9205b70466986ca4d5762ee5e6dd2d82",tooltip="Usage: DiffUtils &lt;unified|side-by-side|brief&gt; &lt;file1&gt; &lt;file2&gt;."];
+  Node1 -> Node5 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="moa.test.DiffUtils.sideBySide",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1test_1_1DiffUtils.html#abc76cf65b30a00cf619651bf65a749c2",tooltip="Generates a side-by-side diff for the two files."];
+  Node5 -> Node4 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 -> Node6 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="moa.test.DiffUtils.sideBySide",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1test_1_1DiffUtils.html#ade23a439fd96739a50e5d3890efef707",tooltip="Generates a side-by-side diff for the two lists."];
+  Node1 -> Node7 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="moa.test.DiffUtils.unified",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1test_1_1DiffUtils.html#a9ac1a74190545fa2443ba407c5f1542a",tooltip="Generates a unified diff for the two files."];
+  Node7 -> Node4 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

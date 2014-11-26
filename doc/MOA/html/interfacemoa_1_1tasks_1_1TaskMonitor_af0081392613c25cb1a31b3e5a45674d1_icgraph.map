@@ -1,0 +1,13 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1tasks_1_1LearnModelRegression.html#a733d312eab32154856c8a4f18238eb5b" title="This method performs this task." alt="" coords="395,5,688,35"/>
+<area shape="rect" id="node5" href="$classmoa_1_1tasks_1_1LearnModel.html#a458fb13420761f68401ac4ae6b3605d8" title="This method performs this task." alt="" coords="427,59,656,88"/>
+<area shape="rect" id="node7" href="$classmoa_1_1tasks_1_1EvaluatePrequentialRegression.html#aebef8e4e09d6c72c08f3c8de0a94b712" title="This method performs this task." alt="" coords="369,112,713,141"/>
+<area shape="rect" id="node9" href="$classmoa_1_1tasks_1_1EvaluatePrequential.html#a2ad9727938880a3f31cab2544040eed1" title="This method performs this task." alt="" coords="403,165,680,195"/>
+<area shape="rect" id="node11" href="$classmoa_1_1tasks_1_1EvaluatePeriodicHeldOutTest.html#a71f8d46e07fbec833b8f4bf669ac5854" title="This method performs this task." alt="" coords="375,219,708,248"/>
+<area shape="rect" id="node13" href="$classmoa_1_1tasks_1_1EvaluateOnlineRecommender.html#add28346c2689180b6dcb7640a6f15091" title="This method performs this task." alt="" coords="375,272,708,301"/>
+<area shape="rect" id="node15" href="$classmoa_1_1tasks_1_1EvaluateModelRegression.html#a1456d9f54442afa76e62fd1fbcf0c091" title="This method performs this task." alt="" coords="384,325,699,355"/>
+<area shape="rect" id="node17" href="$classmoa_1_1tasks_1_1EvaluateModel.html#ad72d33b5ea34a0b733c6e177f9dbb3ea" title="This method performs this task." alt="" coords="417,379,665,408"/>
+<area shape="rect" id="node19" href="$classmoa_1_1tasks_1_1EvaluateInterleavedTestThenTrain.html#a6b487518dd5bfdc97abe37263f725610" title="This method performs this task." alt="" coords="361,432,721,461"/>
+<area shape="rect" id="node21" href="$classmoa_1_1tasks_1_1EvaluateInterleavedChunks.html#a79a4b1e7cc8c707712a39f5fdbf85fec" title="This method performs this task." alt="" coords="380,485,703,515"/>
+<area shape="rect" id="node23" href="$classmoa_1_1tasks_1_1EvaluateConceptDrift.html#a83715b3b435b89c3aff5d7e948cc2274" title="This method performs this task." alt="" coords="399,539,684,568"/>
+</map>

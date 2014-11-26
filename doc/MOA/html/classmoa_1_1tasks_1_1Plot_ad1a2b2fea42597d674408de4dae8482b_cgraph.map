@@ -1,0 +1,13 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1tasks_1_1Plot.html#a4b286ce1a09875b8331d337f1e6283c6" title="Creates the content of the gnuplot script." alt="" coords="283,165,467,195"/>
+<area shape="rect" id="node9" href="$classmoa_1_1options_1_1ListOption.html#a40ccede6efe9d931a87bf17c443d32ec" title="moa.options.ListOption.getList" alt="" coords="611,5,808,35"/>
+<area shape="rect" id="node13" href="$classmoa_1_1options_1_1StringOption.html#acdafb10f476c4aacf74bf51adb2b4732" title="moa.options.StringOption.getValue" alt="" coords="597,272,821,301"/>
+<area shape="rect" id="node17" href="$classmoa_1_1options_1_1FileOption.html#a01615786786a168a9e3b8c5d0f50b1e8" title="moa.options.FileOption.getFile" alt="" coords="276,271,473,300"/>
+<area shape="rect" id="node22" href="$interfacemoa_1_1tasks_1_1TaskMonitor.html#aa5eff409d63bfacd92fe2f062d373781" title="Sets the description and the percentage done of the current activity." alt="" coords="241,324,508,353"/>
+<area shape="rect" id="node24" href="$interfacemoa_1_1tasks_1_1TaskMonitor.html#af2758f6ce28872acf61d6b3495cd4439" title="Gets whether the task should abort." alt="" coords="245,377,504,407"/>
+<area shape="rect" id="node26" href="$classmoa_1_1tasks_1_1Plot.html#aa068c44e67abb915089eaedd480812c4" title="Method responsible for saving a gnuplot script to a file." alt="" coords="269,431,480,460"/>
+<area shape="rect" id="node5" href="$classmoa_1_1tasks_1_1Plot.html#a5fa50cd1cb4edf16d3cf6458f87b6711" title="moa.tasks.Plot.getAxisUnit" alt="" coords="619,59,800,88"/>
+<area shape="rect" id="node7" href="$classmoa_1_1options_1_1MultiChoiceOption.html#a7dd0192f46d8005a44c38d5526e2c600" title="moa.options.MultiChoiceOption.getChosenLabel" alt="" coords="559,112,860,141"/>
+<area shape="rect" id="node11" href="$classmoa_1_1options_1_1IntOption.html#affae8787274b44ab7616d46b8d6c831a" title="moa.options.IntOption.getValue" alt="" coords="607,165,812,195"/>
+<area shape="rect" id="node15" href="$classmoa_1_1tasks_1_1Plot.html#aade6369946806b680c74981e53f3af8f" title="moa.tasks.Plot.terminalOptions" alt="" coords="607,219,812,248"/>
+</map>

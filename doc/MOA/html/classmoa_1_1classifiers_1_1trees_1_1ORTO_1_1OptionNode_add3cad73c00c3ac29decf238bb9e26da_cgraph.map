@@ -1,0 +1,26 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1core_1_1DoubleVector.html#a4050209166f4be04dd9f6dac3535d60e" title="moa.core.DoubleVector.addToValue" alt="" coords="489,5,721,35"/>
+<area shape="rect" id="node7" href="$classmoa_1_1classifiers_1_1trees_1_1ORTO_1_1OptionNode.html#a84dee82f9a19ef263c2ec9ce697ff717" title="moa.classifiers.trees.ORTO.OptionNode.aggregate" alt="" coords="447,163,764,192"/>
+<area shape="rect" id="node9" href="$classmoa_1_1options_1_1MultiChoiceOption.html#a5272693a1a0a9f89e135673a6d247dda" title="moa.options.MultiChoiceOption.getChosenIndex" alt="" coords="847,111,1148,140"/>
+<area shape="rect" id="node13" href="$classmoa_1_1classifiers_1_1trees_1_1ORTO_1_1OptionNode.html#ad88323091e0a8ad15f5708926c2bf996" title="moa.classifiers.trees.ORTO.OptionNode.directionForBestTree" alt="" coords="415,216,796,245"/>
+<area shape="rect" id="node15" href="$classmoa_1_1classifiers_1_1trees_1_1ORTO_1_1InnerNode.html#ada4abe88de469980f10b89c3c952ba16" title="moa.classifiers.trees.ORTO.InnerNode.getChild" alt="" coords="847,319,1148,348"/>
+<area shape="rect" id="node17" href="$classmoa_1_1classifiers_1_1trees_1_1ORTO_1_1InnerNode.html#abbd8662cb2ea13fc405e896e83f153f7" title="moa.classifiers.trees.ORTO.InnerNode.getChildIndex" alt="" coords="1197,371,1531,400"/>
+<area shape="rect" id="node20" href="$classmoa_1_1classifiers_1_1trees_1_1ORTO_1_1Node.html#a57b2c5ed0f2a18b13818f6adf46be246" title="moa.classifiers.trees.ORTO.Node.getNumSubtrees" alt="" coords="444,525,767,555"/>
+<area shape="rect" id="node22" href="$classmoa_1_1classifiers_1_1trees_1_1ORTO_1_1OptionNode.html#a6d6adca215737cc07cd94dc6aec54768" title="moa.classifiers.trees.ORTO.OptionNode.getNumSubtrees" alt="" coords="425,579,785,608"/>
+<area shape="rect" id="node24" href="$classmoa_1_1options_1_1FloatOption.html#a0e606a62f4ece232aa8f8cb04bb7f1cf" title="moa.options.FloatOption.getValue" alt="" coords="496,632,715,661"/>
+<area shape="rect" id="node26" href="$classmoa_1_1core_1_1DoubleVector.html#a0a22580b229225823e9b11ed9d35104a" title="moa.core.DoubleVector.getValue" alt="" coords="499,685,712,715"/>
+<area shape="rect" id="node28" href="$classmoa_1_1options_1_1IntOption.html#affae8787274b44ab7616d46b8d6c831a" title="moa.options.IntOption.getValue" alt="" coords="895,476,1100,505"/>
+<area shape="rect" id="node30" href="$classmoa_1_1classifiers_1_1trees_1_1ORTO_1_1InnerNode.html#a0cd6937a3682e0b10daa0e50eff72d3d" title="moa.classifiers.trees.ORTO.InnerNode.numChildren" alt="" coords="443,739,768,768"/>
+<area shape="rect" id="node32" href="$classmoa_1_1classifiers_1_1trees_1_1ORTO_1_1InnerNode.html#a121fa4b986d91d88669a87b436f388ab" title="Check to see if the tree needs updating." alt="" coords="425,792,785,821"/>
+<area shape="rect" id="node34" href="$classmoa_1_1classifiers_1_1trees_1_1ORTO_1_1Node.html#ab8ec1953f6621d5f59f7e37bb1c43e71" title="moa.classifiers.trees.ORTO.Node.processInstance" alt="" coords="445,845,765,875"/>
+<area shape="rect" id="node36" href="$classmoa_1_1classifiers_1_1trees_1_1ORTO.html#a7506ae1182bd74162036c2007cf2c5ca" title="moa.classifiers.trees.ORTO.removeExcessTrees" alt="" coords="451,371,760,400"/>
+<area shape="rect" id="node46" href="$classmoa_1_1classifiers_1_1trees_1_1ORTO_1_1InnerNode.html#aef021ec1fc501c30571a6a7dca76fd27" title="moa.classifiers.trees.ORTO.InnerNode.setChild" alt="" coords="847,529,1148,559"/>
+<area shape="rect" id="node48" href="$classmoa_1_1classifiers_1_1trees_1_1ORTO_1_1InnerNode.html#a4c9f1ffc181f5dc65c5fb74d0866fb00" title="moa.classifiers.trees.ORTO.InnerNode.setAdaptable" alt="" coords="441,899,769,928"/>
+<area shape="rect" id="node50" href="$classmoa_1_1classifiers_1_1trees_1_1ORTO_1_1Node.html#a39071467a8b53cf21d103decf7102e3b" title="moa.classifiers.trees.ORTO.Node.setAdaptable" alt="" coords="456,952,755,981"/>
+<area shape="rect" id="node53" href="$classmoa_1_1classifiers_1_1trees_1_1ORTO_1_1Node.html#ac5075cd001d5ddc1f51c413c3ba420f0" title="Set the parent node." alt="" coords="465,1005,745,1035"/>
+<area shape="rect" id="node55" href="$classmoa_1_1core_1_1DoubleVector.html#afdb9ecc487070e6f0943e889a46334b8" title="moa.core.DoubleVector.setValue" alt="" coords="499,59,712,88"/>
+<area shape="rect" id="node5" href="$classmoa_1_1core_1_1DoubleVector.html#a9cfebf9a8c5e93615037459ed6bd63a7" title="moa.core.DoubleVector.setArrayLength" alt="" coords="872,32,1123,61"/>
+<area shape="rect" id="node11" href="$classmoa_1_1options_1_1MultiChoiceOption.html#a7dd0192f46d8005a44c38d5526e2c600" title="moa.options.MultiChoiceOption.getChosenLabel" alt="" coords="847,164,1148,193"/>
+<area shape="rect" id="node38" href="$classmoa_1_1classifiers_1_1trees_1_1ORTO.html#af9948c11298edfaa749ba0b2dd9ae947" title="moa.classifiers.trees.ORTO.findWorstOption" alt="" coords="856,423,1139,452"/>
+<area shape="rect" id="node41" href="$classmoa_1_1classifiers_1_1trees_1_1ORTO_1_1OptionNode.html#a4656286624b184eea54d9e2ea74b43d1" title="moa.classifiers.trees.ORTO.OptionNode.getFFRatio" alt="" coords="1201,424,1527,453"/>
+</map>

@@ -1,0 +1,14 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1tasks_1_1LearnModelRegression.html#a733d312eab32154856c8a4f18238eb5b" title="This method performs this task." alt="" coords="345,5,639,35"/>
+<area shape="rect" id="node5" href="$classmoa_1_1tasks_1_1LearnModel.html#a458fb13420761f68401ac4ae6b3605d8" title="This method performs this task." alt="" coords="377,59,607,88"/>
+<area shape="rect" id="node7" href="$classmoa_1_1tasks_1_1EvaluatePeriodicHeldOutTest.html#a71f8d46e07fbec833b8f4bf669ac5854" title="This method performs this task." alt="" coords="325,112,659,141"/>
+<area shape="rect" id="node9" href="$classmoa_1_1streams_1_1ConceptDriftRealStream.html#a68a089a114f40abbbc01b74e1ae130ee" title="Gets the next instance from this stream." alt="" coords="331,165,653,195"/>
+<area shape="rect" id="node11" href="$classmoa_1_1streams_1_1MultiFilteredStream.html#ae5eb8b6de9bdfe4d98222a7e116514f2" title="Restarts this stream." alt="" coords="364,219,620,248"/>
+<area shape="rect" id="node13" href="$classmoa_1_1streams_1_1generators_1_1multilabel_1_1MetaMultilabelGenerator.html#ae3c96350626a916c62bc34de96a62178" title="Restarts this stream." alt="" coords="288,272,696,301"/>
+<area shape="rect" id="node17" href="$classmoa_1_1streams_1_1filters_1_1AbstractStreamFilter.html#a0514d0c02ecb80d40d7fd84513dc13d5" title="Restarts this stream." alt="" coords="343,325,641,355"/>
+<area shape="rect" id="node19" href="$classmoa_1_1streams_1_1FilteredStream.html#a2754b4f35ed4a3f958cd232dfbed2ad6" title="Restarts this stream." alt="" coords="379,379,605,408"/>
+<area shape="rect" id="node21" href="$classmoa_1_1streams_1_1ConceptDriftStream.html#a275f6e61c7962f87f9f075c944a85326" title="Restarts this stream." alt="" coords="363,432,621,461"/>
+<area shape="rect" id="node23" href="$classmoa_1_1streams_1_1ConceptDriftRealStream.html#a4b1b3ad6b4a165524c2e23e62756a9b9" title="Restarts this stream." alt="" coords="349,485,635,515"/>
+<area shape="rect" id="node15" href="$classmoa_1_1streams_1_1generators_1_1multilabel_1_1MetaMultilabelGenerator.html#a7dc1ff268809bb20eb635aed3693d86a" title="This method describes the implementation of how to prepare this object for use." alt="" coords="744,272,1227,301"/>
+<area shape="rect" id="node25" href="$classmoa_1_1streams_1_1ConceptDriftRealStream.html#a52f614f44e7faf104bd770cd04426188" title="This method describes the implementation of how to prepare this object for use." alt="" coords="805,485,1165,515"/>
+</map>

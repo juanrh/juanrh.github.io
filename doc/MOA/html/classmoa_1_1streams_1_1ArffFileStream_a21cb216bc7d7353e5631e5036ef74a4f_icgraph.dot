@@ -1,0 +1,13 @@
+digraph G
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir=LR;
+  Node1 [label="moa.streams.ArffFileStream.restart",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="moa.streams.ArffFileStream.ArffFileStream",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1streams_1_1ArffFileStream.html#aa29709e1c4faff611d85b6e420a0b59f"];
+  Node1 -> Node3 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="moa.streams.generators.multilabel.MultilabelArffFileStream.MultilabelArffFileStream",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1streams_1_1generators_1_1multilabel_1_1MultilabelArffFileStream.html#ab9a402746dbe495543f732ce92929096"];
+  Node1 -> Node4 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="moa.streams.ArffFileStream.prepareForUseImpl",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1streams_1_1ArffFileStream.html#a8eea023a8057b9487861dd5bc2904802",tooltip="This method describes the implementation of how to prepare this object for use."];
+}

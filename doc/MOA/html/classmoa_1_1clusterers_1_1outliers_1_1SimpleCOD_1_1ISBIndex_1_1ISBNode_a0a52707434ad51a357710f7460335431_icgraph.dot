@@ -1,0 +1,24 @@
+digraph G
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir=LR;
+  Node1 [label="moa.clusterers.outliers.SimpleCOD.ISBIndex.ISBNode.ISBNode",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="moa.clusterers.outliers.SimpleCOD.ISBIndex.ISBNode.CountPrecNeighs",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1clusterers_1_1outliers_1_1SimpleCOD_1_1ISBIndex_1_1ISBNode.html#a692ba01aa0811611812147eec2fae33d"];
+  Node2 -> Node3 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="moa.clusterers.outliers.SimpleCOD.SimpleCODBase.getObjectInfo",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1clusterers_1_1outliers_1_1SimpleCOD_1_1SimpleCODBase.html#a2a0619c129ff47102183acc9b66431e0"];
+  Node2 -> Node4 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="moa.clusterers.outliers.SimpleCOD.SimpleCOD.ProcessEventQueue",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1clusterers_1_1outliers_1_1SimpleCOD_1_1SimpleCOD.html#ae099f8037dc1b469bb08595407dd399d"];
+  Node4 -> Node5 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="moa.clusterers.outliers.SimpleCOD.SimpleCOD.ProcessExpiredNode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1clusterers_1_1outliers_1_1SimpleCOD_1_1SimpleCOD.html#a5e94fa421e2a2d57c057c9d0af06aa5b"];
+  Node5 -> Node6 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="moa.clusterers.outliers.SimpleCOD.SimpleCOD.ProcessNewStreamObj",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1clusterers_1_1outliers_1_1SimpleCOD_1_1SimpleCOD.html#adb2072f63d02538843f6edacacac7873"];
+  Node2 -> Node7 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="moa.clusterers.outliers.SimpleCOD.SimpleCOD.ProcessNewNode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1clusterers_1_1outliers_1_1SimpleCOD_1_1SimpleCOD.html#a32a614141a4c48722ef75424ec868dd4"];
+  Node7 -> Node6 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node8 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="moa.clusterers.outliers.SimpleCOD.ISBIndex.ISBNode.GetMinPrecNeigh",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1clusterers_1_1outliers_1_1SimpleCOD_1_1ISBIndex_1_1ISBNode.html#aab588c42d51d1e509dfbfedc077ed6b1"];
+  Node8 -> Node4 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 -> Node7 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

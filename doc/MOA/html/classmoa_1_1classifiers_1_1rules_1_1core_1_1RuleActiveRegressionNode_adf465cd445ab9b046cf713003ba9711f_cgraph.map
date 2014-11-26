@@ -1,0 +1,12 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1classifiers_1_1rules_1_1core_1_1RuleActiveLearningNode.html#ae0c5661bff1f131e55ee85bdd743b7ad" title="moa.classifiers.rules.core.RuleActiveLearningNode.computeHoeffdingBound" alt="" coords="483,5,949,35"/>
+<area shape="rect" id="node5" href="$classmoa_1_1classifiers_1_1rules_1_1core_1_1RuleActiveLearningNode.html#aeecf86c1e64660bab6dee5f27f122a81" title="moa.classifiers.rules.core.RuleActiveLearningNode.debug" alt="" coords="537,59,895,88"/>
+<area shape="rect" id="node9" href="$classmoa_1_1classifiers_1_1rules_1_1core_1_1RuleActiveRegressionNode.html#a2557ae6dde854e4c2deef5dafc1990c1" title="moa.classifiers.rules.core.RuleActiveRegressionNode.getBestSplitSuggestions" alt="" coords="475,112,957,141"/>
+<area shape="rect" id="node15" href="$classmoa_1_1classifiers_1_1rules_1_1core_1_1RuleActiveRegressionNode.html#a2347f14bddf270560f15060e4c1c9bc7" title="moa.classifiers.rules.core.RuleActiveRegressionNode.getWeightSeen" alt="" coords="501,165,931,195"/>
+<area shape="rect" id="node19" href="$classmoa_1_1classifiers_1_1core_1_1AttributeSplitSuggestion.html#afcced50eef2981b7a7a30e2a40086e41" title="moa.classifiers.core.AttributeSplitSuggestion.numSplits" alt="" coords="544,219,888,248"/>
+<area shape="rect" id="node21" href="$classmoa_1_1classifiers_1_1core_1_1AttributeSplitSuggestion.html#ae715b4c66ed0aa5f3d05e5a101c93a61" title="moa.classifiers.core.AttributeSplitSuggestion.resultingClassDistributionFromSplit" alt="" coords="471,272,961,301"/>
+<area shape="rect" id="node7" href="$classmoa_1_1options_1_1IntOption.html#affae8787274b44ab7616d46b8d6c831a" title="moa.options.IntOption.getValue" alt="" coords="1216,32,1421,61"/>
+<area shape="rect" id="node11" href="$classmoa_1_1core_1_1DoubleVector.html#a6d0ce5fe7346a8d4b4a6ae444750f9c8" title="moa.core.DoubleVector.getArrayCopy" alt="" coords="1197,85,1440,115"/>
+<area shape="rect" id="node13" href="$interfacemoa_1_1classifiers_1_1core_1_1attributeclassobservers_1_1AttributeClassObserver.html#a989571adba7ae36c8bda51b2d6f87b5b" title="Gets the best split suggestion given a criterion and a class distribution." alt="" coords="1011,139,1627,168"/>
+<area shape="rect" id="node17" href="$classmoa_1_1core_1_1DoubleVector.html#a0a22580b229225823e9b11ed9d35104a" title="moa.core.DoubleVector.getValue" alt="" coords="1212,192,1425,221"/>
+</map>

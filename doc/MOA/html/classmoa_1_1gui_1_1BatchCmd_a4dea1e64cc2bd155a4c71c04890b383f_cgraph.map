@@ -1,0 +1,24 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1gui_1_1BatchCmd.html#af9137227d01326b41478389e81c1f8bc" title="moa.gui.BatchCmd.runBatch" alt="" coords="223,165,412,195"/>
+<area shape="rect" id="node5" href="$classmoa_1_1gui_1_1BatchCmd.html#a3c30172f3eb430ecfed30d5c0d454d55" title="moa.gui.BatchCmd.BatchCmd" alt="" coords="492,5,692,35"/>
+<area shape="rect" id="node9" href="$classmoa_1_1gui_1_1BatchCmd.html#a84a2650432cba3ab1f1a1e42092d8a10" title="moa.gui.BatchCmd.exportCSV" alt="" coords="491,59,693,88"/>
+<area shape="rect" id="node15" href="$classmoa_1_1gui_1_1BatchCmd.html#a15235f5f3068d692322742792737bc69" title="moa.gui.BatchCmd.getEventList" alt="" coords="487,112,697,141"/>
+<area shape="rect" id="node17" href="$classmoa_1_1gui_1_1BatchCmd.html#a8c235c3248bdbc3216ea2c3a2ff53e5d" title="moa.gui.BatchCmd.getMeasures" alt="" coords="485,165,699,195"/>
+<area shape="rect" id="node19" href="$classmoa_1_1gui_1_1BatchCmd.html#a4d255e1119af850ff3a3a0c395c46641" title="moa.gui.BatchCmd.getMeasureSelection" alt="" coords="463,219,721,248"/>
+<area shape="rect" id="node21" href="$classmoa_1_1options_1_1IntOption.html#affae8787274b44ab7616d46b8d6c831a" title="moa.options.IntOption.getValue" alt="" coords="1292,297,1497,327"/>
+<area shape="rect" id="node23" href="$classmoa_1_1gui_1_1BatchCmd.html#a7db964ebf4d4cf776dda79fe534b12fb" title="moa.gui.BatchCmd.run" alt="" coords="515,509,669,539"/>
+<area shape="rect" id="node7" href="$classmoa_1_1options_1_1AbstractOptionHandler.html#a556e65120bc5da07b677d92edd7ff450" title="This method prepares this object for use." alt="" coords="816,5,1133,35"/>
+<area shape="rect" id="node11" href="$classmoa_1_1evaluation_1_1MeasureCollection.html#a6b65c2da0de7f03c518deb3c9892ca50" title="moa.evaluation.MeasureCollection.getNumberOfValues" alt="" coords="803,59,1147,88"/>
+<area shape="rect" id="node13" href="$classmoa_1_1evaluation_1_1MeasureCollection.html#aa21276cf4ecc9b8fd091d282975157ea" title="moa.evaluation.MeasureCollection.getNumMeasures" alt="" coords="811,112,1139,141"/>
+<area shape="rect" id="node25" href="$classmoa_1_1evaluation_1_1MeasureCollection.html#a9d31b3c9b2692ba71825d3aa9593bdd7" title="moa.evaluation.MeasureCollection.evaluateClusteringPerformance" alt="" coords="771,376,1179,405"/>
+<area shape="rect" id="node29" href="$interfacemoa_1_1clusterers_1_1Clusterer.html#a42f51032b2971880e321bfdde4dc6a78" title="moa.clusterers.Clusterer.getClusteringResult" alt="" coords="833,429,1116,459"/>
+<area shape="rect" id="node31" href="$classmoa_1_1streams_1_1clustering_1_1ClusteringStream.html#a0e1f463d8420975164dffb2e97a08a57" title="moa.streams.clustering.ClusteringStream.getDecayHorizon" alt="" coords="791,323,1159,352"/>
+<area shape="rect" id="node34" href="$classmoa_1_1streams_1_1clustering_1_1ClusteringStream.html#a14ffed0103231e22e2193006100eaad3" title="moa.streams.clustering.ClusteringStream.getDecayThreshold" alt="" coords="785,483,1164,512"/>
+<area shape="rect" id="node38" href="$classmoa_1_1clusterers_1_1AbstractClusterer.html#a343d513d9e0b903f1f05c4100d00f5de" title="moa.clusterers.AbstractClusterer.getMicroClusteringResult" alt="" coords="792,536,1157,565"/>
+<area shape="rect" id="node40" href="$interfacemoa_1_1streams_1_1InstanceStream.html#adcce31f5a024f6a73e150da2d1d731df" title="Gets whether this stream has more instances to output." alt="" coords="823,589,1127,619"/>
+<area shape="rect" id="node42" href="$classmoa_1_1clusterers_1_1AbstractClusterer.html#a44b484b54070fd34bcb36f01bd7b7b02" title="moa.clusterers.AbstractClusterer.implementsMicroClusterer" alt="" coords="789,643,1160,672"/>
+<area shape="rect" id="node44" href="$interfacemoa_1_1streams_1_1InstanceStream.html#ae68c1c47c4dac2e591745a21e8cc120a" title="Gets the next instance from this stream." alt="" coords="839,696,1111,725"/>
+<area shape="rect" id="node46" href="$classmoa_1_1clusterers_1_1AbstractClusterer.html#aa430ff0355e2407231b5a1113733bba7" title="moa.clusterers.AbstractClusterer.trainOnInstanceImpl" alt="" coords="808,749,1141,779"/>
+<area shape="rect" id="node27" href="$classmoa_1_1evaluation_1_1MeasureCollection.html#a892bfec6e7d40bae286b44a5515a5ea7" title="moa.evaluation.MeasureCollection.evaluateClustering" alt="" coords="1228,376,1561,405"/>
+<area shape="rect" id="node36" href="$classmoa_1_1options_1_1FloatOption.html#a0e606a62f4ece232aa8f8cb04bb7f1cf" title="moa.options.FloatOption.getValue" alt="" coords="1285,483,1504,512"/>
+</map>

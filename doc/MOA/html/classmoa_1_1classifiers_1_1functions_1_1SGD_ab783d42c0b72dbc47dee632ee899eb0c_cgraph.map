@@ -1,0 +1,9 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1core_1_1DoubleVector.html#a4050209166f4be04dd9f6dac3535d60e" title="moa.core.DoubleVector.addToValue" alt="" coords="385,5,617,35"/>
+<area shape="rect" id="node7" href="$classmoa_1_1classifiers_1_1functions_1_1SGD.html#a4117d8d6302804fd43fbc3bf57b9313f" title="moa.classifiers.functions.SGD.dloss" alt="" coords="384,59,619,88"/>
+<area shape="rect" id="node9" href="$classmoa_1_1classifiers_1_1functions_1_1SGD.html#a989da08a53b9296d907b2566f2a21e4a" title="moa.classifiers.functions.SGD.dotProd" alt="" coords="377,216,625,245"/>
+<area shape="rect" id="node11" href="$classmoa_1_1core_1_1DoubleVector.html#a0a22580b229225823e9b11ed9d35104a" title="moa.core.DoubleVector.getValue" alt="" coords="693,171,907,200"/>
+<area shape="rect" id="node13" href="$classmoa_1_1core_1_1DoubleVector.html#a04cac8fb52824b100578ad4bfef2136a" title="moa.core.DoubleVector.numValues" alt="" coords="687,248,913,277"/>
+<area shape="rect" id="node17" href="$classmoa_1_1core_1_1DoubleVector.html#afdb9ecc487070e6f0943e889a46334b8" title="moa.core.DoubleVector.setValue" alt="" coords="395,112,608,141"/>
+<area shape="rect" id="node5" href="$classmoa_1_1core_1_1DoubleVector.html#a9cfebf9a8c5e93615037459ed6bd63a7" title="moa.core.DoubleVector.setArrayLength" alt="" coords="675,105,925,135"/>
+</map>

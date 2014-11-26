@@ -1,0 +1,7 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1options_1_1MultiChoiceOption.html#a5272693a1a0a9f89e135673a6d247dda" title="moa.options.MultiChoiceOption.getChosenIndex" alt="" coords="459,5,760,35"/>
+<area shape="rect" id="node5" href="$classmoa_1_1options_1_1FloatOption.html#a0e606a62f4ece232aa8f8cb04bb7f1cf" title="moa.options.FloatOption.getValue" alt="" coords="869,84,1088,113"/>
+<area shape="rect" id="node7" href="$classmoa_1_1classifiers_1_1core_1_1driftdetection_1_1HDDM__A__Test.html#a78c9d6ccba4097df9bf082ca75cb14ba" title="moa.classifiers.core.driftdetection.HDDM_A_Test.meanDecr" alt="" coords="421,109,797,139"/>
+<area shape="rect" id="node10" href="$classmoa_1_1classifiers_1_1core_1_1driftdetection_1_1HDDM__A__Test.html#a99b0b136139f8b0a5dbcf80f9b6484d2" title="moa.classifiers.core.driftdetection.HDDM_A_Test.meanIncr" alt="" coords="424,163,795,192"/>
+<area shape="rect" id="node12" href="$classmoa_1_1classifiers_1_1core_1_1driftdetection_1_1HDDM__A__Test.html#ae5bb2e0cef501003cb864e284cf574df" title="moa.classifiers.core.driftdetection.HDDM_A_Test.updateEstimations" alt="" coords="397,216,821,245"/>
+</map>

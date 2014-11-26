@@ -1,0 +1,4 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1classifiers_1_1trees_1_1HoeffdingAdaptiveTree_1_1AdaLearningNode.html#a6f8098a01ac5c5479fad86744544e899" title="moa.classifiers.trees.HoeffdingAdaptiveTree.AdaLearningNode.getErrorEstimation" alt="" coords="531,5,1029,35"/>
+<area shape="rect" id="node5" href="$classmoa_1_1classifiers_1_1core_1_1driftdetection_1_1ADWIN.html#a120e390a4505f5e4590935d1a7bee322" title="moa.classifiers.core.driftdetection.ADWIN.getEstimation" alt="" coords="1077,5,1429,35"/>
+</map>

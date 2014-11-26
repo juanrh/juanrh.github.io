@@ -1,0 +1,7 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1clusterers_1_1clustree_1_1ClusTree.html#abb5a974d06555fddd065f5c6fae41e00" title="This method calculates the distances between the new point and each Entry in a leaf..." alt="" coords="373,32,696,61"/>
+<area shape="rect" id="node5" href="$classmoa_1_1clusterers_1_1clustree_1_1ClusTree.html#a7998f24fe858f360f96c6557f7aada85" title="insert newPoint into the tree using the BreadthFirst strategy, i.e." alt="" coords="744,32,1067,61"/>
+<area shape="rect" id="node7" href="$classmoa_1_1clusterers_1_1clustree_1_1ClusTree.html#a1fcbd4768f2142bdae4d88c80e0323e9" title="Insert a new point in the Tree." alt="" coords="1115,32,1365,61"/>
+<area shape="rect" id="node9" href="$classmoa_1_1clusterers_1_1clustree_1_1ClusTree.html#a8945983f656f329d5a7e4f1e321e5c3b" title="moa.clusterers.clustree.ClusTree.insert" alt="" coords="1456,5,1707,35"/>
+<area shape="rect" id="node11" href="$classmoa_1_1clusterers_1_1clustree_1_1ClusTree.html#a8fd397a6344c5b97fe5cf44fcf8b2db9" title="moa.clusterers.clustree.ClusTree.trainOnInstanceImpl" alt="" coords="1413,59,1749,88"/>
+</map>

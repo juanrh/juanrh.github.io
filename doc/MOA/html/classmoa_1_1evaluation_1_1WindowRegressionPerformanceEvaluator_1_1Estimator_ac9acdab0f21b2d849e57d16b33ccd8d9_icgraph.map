@@ -1,0 +1,7 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1evaluation_1_1WindowRegressionPerformanceEvaluator.html#a6a6eb99cfafabacf1fe693cbf58f2ab9" title="moa.evaluation.WindowRegressionPerformanceEvaluator.getMeanError" alt="" coords="532,5,969,35"/>
+<area shape="rect" id="node9" href="$classmoa_1_1evaluation_1_1WindowRegressionPerformanceEvaluator.html#ad391617ecb2cd91a2c31ea7173852cfd" title="moa.evaluation.WindowRegressionPerformanceEvaluator.getSquareError" alt="" coords="528,59,973,88"/>
+<area shape="rect" id="node12" href="$classmoa_1_1evaluation_1_1WindowRegressionPerformanceEvaluator.html#a0f1b71088940e9d682478639a940833a" title="moa.evaluation.WindowRegressionPerformanceEvaluator.getTotalWeightObserved" alt="" coords="499,112,1003,141"/>
+<area shape="rect" id="node5" href="$classmoa_1_1evaluation_1_1WindowRegressionPerformanceEvaluator.html#a6c5ed9e50da1c646bc87a33442553701" title="Gets the current measurements monitored by this evaluator." alt="" coords="1051,59,1589,88"/>
+<area shape="rect" id="node7" href="$classmoa_1_1evaluation_1_1WindowRegressionPerformanceEvaluator.html#a3c46d721817966fdd5acf92f1704ebee" title="Returns a string representation of this object." alt="" coords="1639,59,2081,88"/>
+</map>

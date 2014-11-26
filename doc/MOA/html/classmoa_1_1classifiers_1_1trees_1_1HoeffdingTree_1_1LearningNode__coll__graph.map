@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" id="node2" href="$classmoa_1_1classifiers_1_1trees_1_1HoeffdingTree_1_1Node.html" title="{moa.classifiers.trees.HoeffdingTree.Node\n|# observedClassDistribution\l&#45; serialVersionUID\l|+ Node()\l+ calcByteSize()\l+ calcByteSizeIncludingSubtree()\l+ isLeaf()\l+ filterInstanceToLeaf()\l+ getObservedClassDistribution()\l+ getClassVotes()\l+ observedClassDistributionIsPure()\l+ describeSubtree()\l+ subtreeDepth()\l+ calculatePromise()\l+ getDescription()\l}" alt="" coords="29,1085,293,1379"/>
+<area shape="rect" id="node4" href="$classmoa_1_1AbstractMOAObject.html" title="Abstract MOA Object." alt="" coords="51,312,219,467"/>
+<area shape="rect" id="node10" href="$classmoa_1_1core_1_1DoubleVector.html" title="Vector of double numbers with some utilities." alt="" coords="156,517,343,1019"/>
+<area shape="rect" id="node6" href="$interfacemoa_1_1MOAObject.html" title="Interface implemented by classes in MOA, so that all are serializable, can produce..." alt="" coords="63,141,207,261"/>
+</map>

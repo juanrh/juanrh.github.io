@@ -1,0 +1,8 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1clusterers_1_1clustree_1_1ClusKernel.html#af0be9102b0138f656beffa39c0036fd7" title="Adds the given cluster to this cluster, without making this cluster older." alt="" coords="344,5,595,35"/>
+<area shape="rect" id="node5" href="$classmoa_1_1clusterers_1_1clustree_1_1Entry.html#a8171a2c9a220353df9a61576597f3411" title="Clear the Entry." alt="" coords="357,59,581,88"/>
+<area shape="rect" id="node7" href="$classmoa_1_1clusterers_1_1clustree_1_1ClusKernel.html#a46a307a9c5aab1b2a86871561805142b" title="Remove all points from this cluster." alt="" coords="645,85,904,115"/>
+<area shape="rect" id="node10" href="$classmoa_1_1clusterers_1_1clustree_1_1Entry.html#a61f6036ac71f69f1b16546544b8f01ac" title="Return the reference to the child of this Entry to navigate in the tree." alt="" coords="347,163,592,192"/>
+<area shape="rect" id="node12" href="$classmoa_1_1clusterers_1_1clustree_1_1Entry.html#a1e49da60f9e130eba1b1500febcf3424" title="Getter for the data." alt="" coords="348,216,591,245"/>
+<area shape="rect" id="node14" href="$classmoa_1_1clusterers_1_1clustree_1_1Node.html#abb9b9f7152bcbc9df763bb39f92b4968" title="Return an array with references to the children of this node." alt="" coords="341,269,597,299"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1classifiers_1_1bayes_1_1NaiveBayes.html#aaeb3aa564394e10a043c31963096ac78" title="moa.classifiers.bayes.NaiveBayes.doNaiveBayesPrediction" alt="" coords="709,5,1080,35"/>
+<area shape="rect" id="node7" href="$classmoa_1_1classifiers_1_1bayes_1_1NaiveBayes.html#a92559d8413215b11f74191718b6c14d4" title="moa.classifiers.bayes.NaiveBayes.doNaiveBayesPredictionLog" alt="" coords="699,59,1091,88"/>
+<area shape="rect" id="node5" href="$classmoa_1_1classifiers_1_1bayes_1_1NaiveBayes.html#ae61d88b768d7a7eb285a138efec01bdd" title="Predicts the class memberships for a given instance." alt="" coords="1139,5,1488,35"/>
+</map>

@@ -1,0 +1,10 @@
+digraph G
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{moa.classifiers.trees.FIMTDD.AdaptationCompatibleNode\n||+ setParent()\l+ getParent()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node2 [label="{moa.classifiers.trees.FIMTDD.FIMTDDActiveLearningNode\n|+ learningModel\l# parent\l# nodeStatistics\l# PHmT\l# PHMT\l|+ FIMTDDActiveLearningNode()\l+ setParent()\l+ getParent()\l+ getWeightSeen()\l+ learnFromInstance()\l+ getBestSplitSuggestions()\l+ getPrediction()\l+ getPredictionTargetMean()\l+ getClassVotes()\l+ getError()\l+ getPHError()\l+ getSquaredError()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1trees_1_1FIMTDD_1_1FIMTDDActiveLearningNode.html",tooltip="A modified ActiveLearningNode that uses a Perceptron as the leaf node model, and..."];
+  Node1 -> Node3 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node3 [label="{moa.classifiers.trees.FIMTDD.FIMTDDSplitNode\n|# parent\l# PHmT\l# PHMT\l# alternateTree\l# lossStatistics\l# weightSeen\l# previousWeight\l|+ FIMTDDSplitNode()\l+ setParent()\l+ getParent()\l+ PageHinckleyTest()\l+ learnFromInstance()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1trees_1_1FIMTDD_1_1FIMTDDSplitNode.html",tooltip="A modified SplitNode method implementing the extra information regarding it&#39;s..."];
+}

@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1evaluation_1_1BasicClassificationPerformanceEvaluator.html#a705a1aedf9914334d7ff208068c84ef0" title="moa.evaluation.BasicClassificationPerformanceEvaluator.getFractionCorrectlyClassified" alt="" coords="1159,6,1692,35"/>
+<area shape="rect" id="node5" href="$classmoa_1_1evaluation_1_1BasicClassificationPerformanceEvaluator.html#a65d0bb3294f78a0e688e3d896c550fd7" title="moa.evaluation.BasicClassificationPerformanceEvaluator.getKappaStatistic" alt="" coords="620,31,1081,61"/>
+<area shape="rect" id="node8" href="$classmoa_1_1evaluation_1_1BasicClassificationPerformanceEvaluator.html#adec40c592d0ea0c5a4376382e2ab588e" title="moa.evaluation.BasicClassificationPerformanceEvaluator.getKappaTemporalStatistic" alt="" coords="593,85,1108,114"/>
+<area shape="rect" id="node10" href="$classmoa_1_1evaluation_1_1BasicClassificationPerformanceEvaluator.html#a54a4e94e5d7a70a2e6d54e78dad4ad03" title="moa.evaluation.BasicClassificationPerformanceEvaluator.getTotalWeightObserved" alt="" coords="600,138,1101,167"/>
+</map>

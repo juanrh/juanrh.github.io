@@ -1,0 +1,22 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1gui_1_1outliertab_1_1OutlierVisualTab.html#ad9e4d05beafb4da13bf7b632a479bbd3" title="moa.gui.outliertab.OutlierVisualTab.actionPerformed" alt="" coords="420,5,743,35"/>
+<area shape="rect" id="node5" href="$classmoa_1_1gui_1_1outliertab_1_1OutlierVisualTab.html#a59b7ba7fe34efa26df4b7d7023ac0f6c" title="moa.gui.outliertab.OutlierVisualTab.buttonRedrawMouseClicked" alt="" coords="385,59,777,88"/>
+<area shape="rect" id="node7" href="$classmoa_1_1gui_1_1outliertab_1_1OutlierVisualTab.html#a4aa909e5fa550763090d6c4b56b46eae" title="moa.gui.outliertab.OutlierVisualTab.buttonRunActionPerformed" alt="" coords="388,112,775,141"/>
+<area shape="rect" id="node9" href="$classmoa_1_1gui_1_1outliertab_1_1OutlierVisualTab.html#ab7cc76b21bfab93cb779f7377e1e1cc9" title="moa.gui.outliertab.OutlierVisualTab.buttonRunMouseClicked" alt="" coords="396,165,767,195"/>
+<area shape="rect" id="node11" href="$classmoa_1_1gui_1_1outliertab_1_1OutlierVisualTab.html#a9e5c424e7ec9cd6f21432eca90b6c0f3" title="moa.gui.outliertab.OutlierVisualTab.buttonScreenshotMouseClicked" alt="" coords="375,219,788,248"/>
+<area shape="rect" id="node13" href="$classmoa_1_1gui_1_1outliertab_1_1OutlierVisualTab.html#af0e14c029343071c6681a4123d8bb837" title="moa.gui.outliertab.OutlierVisualTab.buttonStopActionPerformed" alt="" coords="387,272,776,301"/>
+<area shape="rect" id="node15" href="$classmoa_1_1gui_1_1outliertab_1_1OutlierVisualTab.html#aa2d12c057a598139931e8c940be101e8" title="moa.gui.outliertab.OutlierVisualTab.componentHidden" alt="" coords="415,325,748,355"/>
+<area shape="rect" id="node17" href="$classmoa_1_1gui_1_1outliertab_1_1OutlierVisualTab.html#a4a4187b1803e08431669160d8036cdf9" title="moa.gui.outliertab.OutlierVisualTab.componentMoved" alt="" coords="416,379,747,408"/>
+<area shape="rect" id="node19" href="$classmoa_1_1gui_1_1outliertab_1_1OutlierVisualTab.html#a91e016f8937f63edbb58c9b4c6e2971d" title="moa.gui.outliertab.OutlierVisualTab.componentResized" alt="" coords="411,432,752,461"/>
+<area shape="rect" id="node21" href="$classmoa_1_1gui_1_1outliertab_1_1OutlierVisualTab.html#a4f2762db3ba5798ba6c0a65d10a600b6" title="moa.gui.outliertab.OutlierVisualTab.componentShown" alt="" coords="415,485,748,515"/>
+<area shape="rect" id="node23" href="$classmoa_1_1gui_1_1visualization_1_1GraphCanvas.html#ad8e425bc054b5e869530878f0fab905d" title="Creates new form GraphCanvas." alt="" coords="425,539,737,568"/>
+<area shape="rect" id="node27" href="$classmoa_1_1gui_1_1outliertab_1_1OutlierVisualTab.html#a46a6fe2b2b0331c29c0cfa0777978255" title="moa.gui.outliertab.OutlierVisualTab.scrollPane0MouseWheelMoved" alt="" coords="376,592,787,621"/>
+<area shape="rect" id="node29" href="$classmoa_1_1gui_1_1outliertab_1_1OutlierVisualTab.html#a058795d4147ff551879e2b07079c2207" title="moa.gui.outliertab.OutlierVisualTab.speedSliderMouseDragged" alt="" coords="389,645,773,675"/>
+<area shape="rect" id="node31" href="$classmoa_1_1gui_1_1visualization_1_1StreamOutlierPanel.html#a53a128d13f0bcde3654e3fb6f794ae91" title="moa.gui.visualization.StreamOutlierPanel.StreamOutlierPanel" alt="" coords="392,699,771,728"/>
+<area shape="rect" id="node41" href="$classmoa_1_1gui_1_1outliertab_1_1OutlierVisualTab.html#ad3612cd2a524db0e34fc61ebf15dc988" title="moa.gui.outliertab.OutlierVisualTab.UpdateSplitVisualDivider" alt="" coords="395,752,768,781"/>
+<area shape="rect" id="node25" href="$classmoa_1_1gui_1_1visualization_1_1GraphCanvas.html#a50e5e95fc6607654a7a170586fd37c68" title="moa.gui.visualization.GraphCanvas.addComponents" alt="" coords="853,539,1179,568"/>
+<area shape="rect" id="node33" href="$classmoa_1_1gui_1_1visualization_1_1StreamOutlierPanel.html#adbb921bac2450942691a45e6531ce878" title="moa.gui.visualization.StreamOutlierPanel.getNewLayer" alt="" coords="845,672,1187,701"/>
+<area shape="rect" id="node35" href="$classmoa_1_1gui_1_1visualization_1_1StreamOutlierPanel.html#a426022c50a48691f4a7eecea6aabd682" title="This method is called from within the constructor to initialize the form." alt="" coords="839,725,1193,755"/>
+<area shape="rect" id="node37" href="$classmoa_1_1gui_1_1visualization_1_1StreamOutlierPanel.html#aaf16b08b7ed1db9d58e4a1d8ed18c603" title="moa.gui.visualization.StreamOutlierPanel.formMouseClicked" alt="" coords="1244,725,1617,755"/>
+<area shape="rect" id="node39" href="$classmoa_1_1gui_1_1visualization_1_1OutlierPanel.html#a6eabfb79cb66f76217196d25cbd04e4e" title="moa.gui.visualization.OutlierPanel.highlight" alt="" coords="1668,725,1937,755"/>
+</map>

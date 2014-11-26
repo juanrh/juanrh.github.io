@@ -1,0 +1,13 @@
+digraph G
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir=LR;
+  Node1 [label="moa.evaluation.FadingFactorClassificationPerformanceEvaluator.getFractionCorrectlyClassified",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="moa.evaluation.FadingFactorClassificationPerformanceEvaluator.getFractionIncorrectlyClassified",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1evaluation_1_1FadingFactorClassificationPerformanceEvaluator.html#ac75bf144e3ce0f32f83ffa6d5b086773"];
+  Node1 -> Node3 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="moa.evaluation.FadingFactorClassificationPerformanceEvaluator.getPerformanceMeasurements",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1evaluation_1_1FadingFactorClassificationPerformanceEvaluator.html#a2bcdfd92622059ae87091b8e00cc4625",tooltip="Gets the current measurements monitored by this evaluator."];
+  Node3 -> Node4 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="moa.evaluation.FadingFactorClassificationPerformanceEvaluator.getDescription",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1evaluation_1_1FadingFactorClassificationPerformanceEvaluator.html#ab38d1910fb7d3a9ac5442d0611f35e3f",tooltip="Returns a string representation of this object."];
+}

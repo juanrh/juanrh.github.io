@@ -1,0 +1,11 @@
+digraph G
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir=LR;
+  Node1 [label="moa.evaluation.BasicRegressionPerformanceEvaluator.getMeanError",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="moa.evaluation.BasicRegressionPerformanceEvaluator.getPerformanceMeasurements",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1evaluation_1_1BasicRegressionPerformanceEvaluator.html#a7560018f09abc51d9187fe8b87c5ef3b",tooltip="Gets the current measurements monitored by this evaluator."];
+  Node2 -> Node3 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="moa.evaluation.BasicRegressionPerformanceEvaluator.getDescription",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1evaluation_1_1BasicRegressionPerformanceEvaluator.html#a0acc10506d9dc318a0467f0133623835",tooltip="Returns a string representation of this object."];
+}

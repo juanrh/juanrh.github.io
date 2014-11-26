@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1cluster_1_1Clustering.html#a6a66be9b90f5cb06b044da278cdf24c9" title="remove a cluster from the clustering" alt="" coords="399,5,572,35"/>
+<area shape="rect" id="node5" href="$classmoa_1_1cluster_1_1Cluster.html#abf05802928ccf0ebe145e00c3568944b" title="Returns the probability of the given point belonging to this cluster." alt="" coords="351,59,620,88"/>
+<area shape="rect" id="node7" href="$classmoa_1_1cluster_1_1SphereCluster.html#a1d2dc0db89728370066bf8bd46a06bed" title="moa.cluster.SphereCluster.getRadius" alt="" coords="365,112,605,141"/>
+<area shape="rect" id="node9" href="$classmoa_1_1cluster_1_1Cluster.html#a1f98a5ae84ed5963a0fccc9c19deae2a" title="moa.cluster.Cluster.setMeasureValue" alt="" coords="365,165,605,195"/>
+</map>

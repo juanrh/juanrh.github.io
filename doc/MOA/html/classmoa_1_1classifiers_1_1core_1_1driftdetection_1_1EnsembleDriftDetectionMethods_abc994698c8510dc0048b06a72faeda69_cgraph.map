@@ -1,0 +1,7 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1classifiers_1_1core_1_1driftdetection_1_1AbstractChangeDetector.html#a4cc9caef1e70f4a3f701fe3108fdbf29" title="Gets whether there is change detected." alt="" coords="527,5,959,35"/>
+<area shape="rect" id="node5" href="$classmoa_1_1options_1_1MultiChoiceOption.html#a5272693a1a0a9f89e135673a6d247dda" title="moa.options.MultiChoiceOption.getChosenIndex" alt="" coords="592,59,893,88"/>
+<area shape="rect" id="node7" href="$interfacemoa_1_1classifiers_1_1core_1_1driftdetection_1_1ChangeDetector.html#a1aee14e93d7cb7e674511fd35871a7fa" title="Adding a numeric value to the change detector&lt;br&gt; ." alt="" coords="568,112,917,141"/>
+<area shape="rect" id="node9" href="$classmoa_1_1classifiers_1_1core_1_1driftdetection_1_1EnsembleDriftDetectionMethods.html#a7deeeb93b92810e2c2907bdbc3baa6cc" title="Resets this change detector." alt="" coords="496,165,989,195"/>
+<area shape="rect" id="node11" href="$classmoa_1_1options_1_1ListOption.html#a40ccede6efe9d931a87bf17c443d32ec" title="moa.options.ListOption.getList" alt="" coords="1039,165,1236,195"/>
+</map>

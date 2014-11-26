@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1clusterers_1_1outliers_1_1AnyOut_1_1AnyOutCore.html#a08d7c0ba03406d023c30411d81556c68" title="moa.clusterers.outliers.AnyOut.AnyOutCore.getConfidence" alt="" coords="391,5,756,35"/>
+<area shape="rect" id="node5" href="$classmoa_1_1clusterers_1_1outliers_1_1AnyOut_1_1util_1_1DataObject.html#af375e99399831a54bb5fe9ee2556f626" title="Returns the features (label attribute excluded)." alt="" coords="391,59,756,88"/>
+<area shape="rect" id="node7" href="$classmoa_1_1clusterers_1_1outliers_1_1AnyOut_1_1util_1_1DataObject.html#a567305a5c825bc4c49c3722db4a8add0" title="Returns the id for the DataObject." alt="" coords="411,112,736,141"/>
+<area shape="rect" id="node9" href="$classmoa_1_1clusterers_1_1outliers_1_1AnyOut_1_1AnyOutCore.html#a3f64ad754b74420a3908038db1bc13f6" title="moa.clusterers.outliers.AnyOut.AnyOutCore.getOutlierScore" alt="" coords="388,165,759,195"/>
+</map>

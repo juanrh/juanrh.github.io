@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1evaluation_1_1Accuracy.html" title="{moa.evaluation.Accuracy\n|&#45; debug\l|+ Accuracy()\l+ getNames()\l+ evaluateClustering()\l# getDefaultEnabled()\l}" alt="" coords="39,139,207,277"/>
+<area shape="rect" id="node7" href="$classmoa_1_1evaluation_1_1ChangeDetectionMeasures.html" title="{moa.evaluation.ChangeDetectionMeasures\n|&#45; debug\l|+ ChangeDetectionMeasures()\l+ getNames()\l+ evaluateClustering()\l# getDefaultEnabled()\l}" alt="" coords="231,139,503,277"/>
+<area shape="rect" id="node5" href="$classmoa_1_1evaluation_1_1RegressionAccuracy.html" title="{moa.evaluation.RegressionAccuracy\n||+ getNames()\l# getDefaultEnabled()\l}" alt="" coords="5,326,240,429"/>
+</map>

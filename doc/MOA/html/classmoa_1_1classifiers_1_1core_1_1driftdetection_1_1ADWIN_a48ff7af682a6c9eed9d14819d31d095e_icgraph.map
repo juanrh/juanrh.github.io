@@ -1,0 +1,8 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1classifiers_1_1core_1_1driftdetection_1_1ADWIN.html#ae5965acca315649fe7ebb79d00e6c947" title="moa.classifiers.core.driftdetection.ADWIN.blnCutexpression" alt="" coords="428,5,801,35"/>
+<area shape="rect" id="node5" href="$classmoa_1_1classifiers_1_1core_1_1driftdetection_1_1ADWIN.html#a6aa46d71d590a70104ab7c660b689f4a" title="moa.classifiers.core.driftdetection.ADWIN.setInput" alt="" coords="979,32,1296,61"/>
+<area shape="rect" id="node7" href="$classmoa_1_1classifiers_1_1trees_1_1HoeffdingAdaptiveTree_1_1AdaLearningNode.html#afc84c1753a46d952357375dee3a49552" title="moa.classifiers.trees.HoeffdingAdaptiveTree.AdaLearningNode.getErrorWidth" alt="" coords="380,109,849,139"/>
+<area shape="rect" id="node9" href="$classmoa_1_1classifiers_1_1trees_1_1HoeffdingAdaptiveTree_1_1AdaSplitNode.html#aa58c1da222552a23935820e744cda7e5" title="moa.classifiers.trees.HoeffdingAdaptiveTree.AdaSplitNode.getErrorWidth" alt="" coords="391,163,839,192"/>
+<area shape="rect" id="node14" href="$classmoa_1_1classifiers_1_1lazy_1_1kNNwithPAWandADWIN.html#aecdd2ed9114cb9b93f0388bbbc2b8d60" title="Trains this classifier incrementally using the given instance." alt="" coords="409,216,820,245"/>
+<area shape="rect" id="node11" href="$classmoa_1_1classifiers_1_1trees_1_1HoeffdingAdaptiveTree_1_1AdaSplitNode.html#a3c12a28862be75251b548b75f0fc2f24" title="moa.classifiers.trees.HoeffdingAdaptiveTree.AdaSplitNode.learnFromInstance" alt="" coords="900,163,1375,192"/>
+</map>

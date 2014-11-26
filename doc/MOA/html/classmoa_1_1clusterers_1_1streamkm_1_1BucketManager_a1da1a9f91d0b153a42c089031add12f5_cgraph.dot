@@ -1,0 +1,35 @@
+digraph G
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir=LR;
+  Node1 [label="moa.clusterers.streamkm.BucketManager.insertPoint",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="moa.clusterers.streamkm.Point.clone",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1clusterers_1_1streamkm_1_1Point.html#af098eed8f68f80e30385b7ef1e4e635c"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="moa.clusterers.streamkm.Point.Point",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1clusterers_1_1streamkm_1_1Point.html#abf88e6027d22543a2d4fe694c9ae77ec"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="moa.clusterers.streamkm.TreeCoreset.unionTreeCoreset",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1clusterers_1_1streamkm_1_1TreeCoreset.html#a2807a9e47df6678b8bc4abf0e65b049e",tooltip="Constructs a coreset of size k from the union of setA and setB."];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="moa.clusterers.streamkm.TreeCoreset.chooseCentre",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1clusterers_1_1streamkm_1_1TreeCoreset.html#a98943206fda5388ab48675946596dbec",tooltip="selects a new centre from the treenode (using the kMeans++ distribution)"];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="moa.clusterers.streamkm.TreeCoreset.treeNodeCostOfPoint",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1clusterers_1_1streamkm_1_1TreeCoreset.html#aae7c48fd7aa6bbc6089d1af34989dbf2",tooltip="computes the cost of point p with the centre of treenode node"];
+  Node5 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="moa.clusterers.streamkm.TreeCoreset.treeNodeSplitCost",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1clusterers_1_1streamkm_1_1TreeCoreset.html#abcf3c943a2969bb19a77374268471213",tooltip="computes the hypothetical cost if the node would be split with new centers centreA..."];
+  Node4 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="moa.clusterers.streamkm.TreeCoreset.freeTree",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1clusterers_1_1streamkm_1_1TreeCoreset.html#a27c0d4c2716c697505bb82b493b42c76",tooltip="frees a tree of its storage"];
+  Node8 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="moa.clusterers.streamkm.TreeCoreset.treeNode.free",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1clusterers_1_1streamkm_1_1TreeCoreset_1_1treeNode.html#a8b3f3aadb28f7ad9bfc4019a1380d957"];
+  Node8 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="moa.clusterers.streamkm.TreeCoreset.isLeaf",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1clusterers_1_1streamkm_1_1TreeCoreset.html#a7846322f3738e2a959a7b150c2b7afd5",tooltip="tests if a node is a leaf"];
+  Node8 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="moa.clusterers.streamkm.TreeCoreset.treeFinished",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1clusterers_1_1streamkm_1_1TreeCoreset.html#a327ef138a5a150b5a3c2625a5286a3d7",tooltip="Checks if the storage is completly freed."];
+  Node4 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="moa.clusterers.streamkm.TreeCoreset.selectNode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1clusterers_1_1streamkm_1_1TreeCoreset.html#a2b9e00319e3313ed17cdd46d2b6a4c23",tooltip="selects a leaf node (using the kMeans++ distribution)"];
+  Node12 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="moa.clusterers.streamkm.TreeCoreset.split",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1clusterers_1_1streamkm_1_1TreeCoreset.html#a748cbdbb7bd4d337f69dbe02a83b360c",tooltip="splits the parent node and creates two child nodes (one with the old centre and one..."];
+  Node13 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="moa.clusterers.streamkm.TreeCoreset.determineClosestCentre",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1clusterers_1_1streamkm_1_1TreeCoreset.html#ac520f0a2ced6e8add5c0ecb49376fbc3",tooltip="returns the next centre"];
+}

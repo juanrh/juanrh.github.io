@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" id="node2" href="$interfacemoa_1_1clusterers_1_1outliers_1_1utils_1_1mtree_1_1SplitFunction_3_01DATA_01_4.html" title="Defines an object to be used to split a node in an M&#45;Tree." alt="" coords="5,5,363,91"/>
+<area shape="rect" id="node4" href="$interfacemoa_1_1clusterers_1_1outliers_1_1utils_1_1mtree_1_1PartitionFunction_3_01DATA_01_4.html" title="An object with partitions a set of data into two sub&#45;sets." alt="" coords="387,5,768,91"/>
+<area shape="rect" id="node6" href="$interfacemoa_1_1clusterers_1_1outliers_1_1utils_1_1mtree_1_1PromotionFunction_3_01DATA_01_4.html" title="An object that chooses a pair from a set of data objects." alt="" coords="792,5,1184,91"/>
+</map>

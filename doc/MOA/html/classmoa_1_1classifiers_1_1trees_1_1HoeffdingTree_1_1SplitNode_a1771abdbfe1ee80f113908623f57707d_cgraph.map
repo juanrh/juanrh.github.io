@@ -1,0 +1,11 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1classifiers_1_1core_1_1conditionaltests_1_1InstanceConditionalTest.html#add42f603fd27c74a75f5d2d542d233ca" title="Gets the text that describes the condition of a branch." alt="" coords="443,32,989,61"/>
+<area shape="rect" id="node5" href="$classmoa_1_1classifiers_1_1trees_1_1HoeffdingTree_1_1Node.html#ac383d69f043c6434cffe978d2bb65961" title="moa.classifiers.trees.HoeffdingTree.Node.describeSubtree" alt="" coords="535,85,897,115"/>
+<area shape="rect" id="node16" href="$classmoa_1_1classifiers_1_1trees_1_1HoeffdingTree_1_1SplitNode.html#ad22dc2cda35c63546ea4d810e793fd99" title="moa.classifiers.trees.HoeffdingTree.SplitNode.getChild" alt="" coords="545,139,887,168"/>
+<area shape="rect" id="node18" href="$classmoa_1_1classifiers_1_1AbstractClassifier.html#a832f7f624c34b64e890c29f6fbeec19b" title="Gets the reference to the header of the data stream." alt="" coords="556,192,876,221"/>
+<area shape="rect" id="node20" href="$classmoa_1_1classifiers_1_1trees_1_1HoeffdingTree_1_1SplitNode.html#a9edff82f8eceedb3baae2395c959f259" title="moa.classifiers.trees.HoeffdingTree.SplitNode.numChildren" alt="" coords="533,245,899,275"/>
+<area shape="rect" id="node7" href="$classmoa_1_1classifiers_1_1AbstractClassifier.html#a469063073ae4bd012619753dba073070" title="Gets the name of a label of the class from the header." alt="" coords="1040,5,1379,35"/>
+<area shape="rect" id="node9" href="$classmoa_1_1classifiers_1_1AbstractClassifier.html#a72753c7231990d4b6e38a686c7d4a967" title="Gets the name of the attribute of the class from the header." alt="" coords="1039,59,1380,88"/>
+<area shape="rect" id="node11" href="$classmoa_1_1core_1_1DoubleVector.html#a2214f643cc3637bd8308c7dba4acc74d" title="moa.core.DoubleVector.getSingleLineDescription" alt="" coords="1056,112,1363,141"/>
+<area shape="rect" id="node13" href="$classmoa_1_1core_1_1DoubleVector.html#a04cac8fb52824b100578ad4bfef2136a" title="moa.core.DoubleVector.numValues" alt="" coords="1431,139,1657,168"/>
+</map>

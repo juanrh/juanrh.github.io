@@ -1,0 +1,15 @@
+digraph G
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir=LR;
+  Node1 [label="weka.classifiers.meta.MOA.buildClassifier",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="weka.classifiers.meta.MOA.getCapabilities",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classweka_1_1classifiers_1_1meta_1_1MOA.html#a0f49657e4ee002e56c45b84b7ba88aa1",tooltip="Returns the Capabilities of this classifier."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="moa.classifiers.Classifier.resetLearning",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interfacemoa_1_1classifiers_1_1Classifier.html#a0cb1a2820196bc5e2a95b05a0b6666f0",tooltip="Resets this classifier."];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="weka.classifiers.meta.MOA.updateClassifier",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classweka_1_1classifiers_1_1meta_1_1MOA.html#a19b9ed60f478a27feea2f401ec0dd3dd",tooltip="Updates a classifier using the given instance."];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="moa.classifiers.Classifier.trainOnInstance",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interfacemoa_1_1classifiers_1_1Classifier.html#ac28018bc307abe34a8ace54dba3ebff1",tooltip="Trains this classifier incrementally using the given instance."];
+}

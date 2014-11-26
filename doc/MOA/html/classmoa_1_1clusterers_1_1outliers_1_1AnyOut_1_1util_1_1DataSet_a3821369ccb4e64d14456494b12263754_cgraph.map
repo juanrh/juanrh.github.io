@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1clusterers_1_1outliers_1_1AnyOut_1_1util_1_1DataSet.html#a0cf8871eae241073d862b8c56f7a26f3" title="Adds a DataObject to the set." alt="" coords="479,5,817,35"/>
+<area shape="rect" id="node7" href="$classmoa_1_1clusterers_1_1outliers_1_1AnyOut_1_1util_1_1DataSet.html#a3421e195f5f9b7b0a20b18785ea53b0a" title="Creates an empty set." alt="" coords="485,59,811,88"/>
+<area shape="rect" id="node9" href="$classmoa_1_1clusterers_1_1outliers_1_1AnyOut_1_1util_1_1DataSet.html#a30a1889bd7402ceefa9ee6cbadb0428b" title="Counts the number of classes that are present in the data set." alt="" coords="461,112,835,141"/>
+<area shape="rect" id="node5" href="$classmoa_1_1clusterers_1_1outliers_1_1AnyOut_1_1util_1_1DataObject.html#a8f37a7cd9c07644cd6c3913eca905984" title="Returns the number of features (label attribute excluded)." alt="" coords="884,5,1295,35"/>
+</map>

@@ -1,0 +1,17 @@
+digraph G
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{moa.options.FloatOption\n|# currentVal\l# defaultVal\l# minVal\l# maxVal\l- serialVersionUID\l|+ FloatOption()\l+ FloatOption()\l+ setValue()\l+ getValue()\l+ getMinValue()\l+ getMaxValue()\l+ getDefaultCLIString()\l+ getValueAsCLIString()\l+ setValueViaCLIString()\l+ getEditComponent()\l+ cliStringToDouble()\l+ doubleToCLIString()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node2 -> Node1 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node2 [label="{moa.options.AbstractOption\n|+ illegalNameCharacters\l# name\l# cliChar\l# purpose\l|+ AbstractOption()\l+ getName()\l+ getCLIChar()\l+ getPurpose()\l+ resetToDefault()\l+ getStateString()\l+ copy()\l+ getDescription()\l+ getEditComponent()\l+ nameIsLegal()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1options_1_1AbstractOption.html",tooltip="Abstract option."];
+  Node3 -> Node2 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node3 [label="{moa.AbstractMOAObject\n||+ copy()\l+ measureByteSize()\l+ toString()\l+ copy()\l+ measureByteSize()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1AbstractMOAObject.html",tooltip="Abstract MOA Object."];
+  Node4 -> Node3 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node4 [label="{moa.MOAObject\n||+ measureByteSize()\l+ copy()\l+ getDescription()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interfacemoa_1_1MOAObject.html",tooltip="Interface implemented by classes in MOA, so that all are serializable, can produce..."];
+  Node5 -> Node4 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node5 [label="{Serializable\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node6 -> Node2 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+  Node6 [label="{moa.options.Option\n||+ getName()\l+ getCLIChar()\l+ getPurpose()\l+ getDefaultCLIString()\l+ setValueViaCLIString()\l+ getValueAsCLIString()\l+ resetToDefault()\l+ getStateString()\l+ copy()\l+ getEditComponent()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interfacemoa_1_1options_1_1Option.html",tooltip="Interface representing an option or parameter."];
+  Node4 -> Node6 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
+}

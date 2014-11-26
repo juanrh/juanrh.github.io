@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1classifiers_1_1meta_1_1DACC.html#a98e1d9e368b0f8f97435e27bf4593083" title="Predicts the class memberships for a given instance." alt="" coords="343,5,652,35"/>
+<area shape="rect" id="node5" href="$classmoa_1_1classifiers_1_1meta_1_1ADACC.html#a90af489cdb600df1e064cf9709d6ec3c" title="Returns the stability index of the adaptive ensemble of classifiers." alt="" coords="701,5,1029,35"/>
+<area shape="rect" id="node7" href="$classmoa_1_1classifiers_1_1meta_1_1ADACC.html#a3689b1cc035b176acc6da2e1434bd12c" title="If the environment is stable enough, take a snapshot (a copy) of the best adaptive..." alt="" coords="1079,5,1356,35"/>
+<area shape="rect" id="node9" href="$classmoa_1_1classifiers_1_1meta_1_1ADACC.html#afac7020458c562ced7fb327021d15e92" title="Trains this classifier incrementally using the given instance." alt="" coords="1407,5,1721,35"/>
+</map>

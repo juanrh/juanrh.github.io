@@ -1,0 +1,43 @@
+digraph G
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir=LR;
+  Node1 [label="moa.core.DoubleVector.normalize",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="moa.classifiers.active.ActiveClassifier.getMaxPosterior",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1active_1_1ActiveClassifier.html#a0b893a88094a7138e89c6299667e6cc8"];
+  Node2 -> Node3 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="moa.classifiers.active.ActiveClassifier.trainOnInstanceImpl",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1active_1_1ActiveClassifier.html#ad1ac4d5b08123774cacb6d20effc3dfc",tooltip="Trains this classifier incrementally using the given instance."];
+  Node1 -> Node4 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="moa.classifiers.meta.WeightedMajorityAlgorithm.getVotesForInstance",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1meta_1_1WeightedMajorityAlgorithm.html#aa78a629163fc11b7cc74308d2ffc28eb",tooltip="Predicts the class memberships for a given instance."];
+  Node1 -> Node5 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="moa.classifiers.meta.RandomRules.getVotesForInstance",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1meta_1_1RandomRules.html#a79e8a7cb96c8aedc9f25de3763eea057",tooltip="Predicts the class memberships for a given instance."];
+  Node1 -> Node6 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="moa.classifiers.meta.OzaBoostAdwin.getVotesForInstance",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1meta_1_1OzaBoostAdwin.html#a18314a53ec41fa1e24865d6725819ea7",tooltip="Predicts the class memberships for a given instance."];
+  Node1 -> Node7 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="moa.classifiers.meta.OzaBoost.getVotesForInstance",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1meta_1_1OzaBoost.html#a3ad325dd3d8d927a4efbb87cf4196c39",tooltip="Predicts the class memberships for a given instance."];
+  Node1 -> Node8 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="moa.classifiers.meta.OzaBagASHT.getVotesForInstance",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1meta_1_1OzaBagASHT.html#a58eb57c9bfd6512ecb133a1d80ae9d01",tooltip="Predicts the class memberships for a given instance."];
+  Node1 -> Node9 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="moa.classifiers.meta.OzaBagAdwin.getVotesForInstance",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1meta_1_1OzaBagAdwin.html#a38fc0309ef34e30d96cd81d897c45c16",tooltip="Predicts the class memberships for a given instance."];
+  Node1 -> Node10 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="moa.classifiers.meta.OzaBag.getVotesForInstance",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1meta_1_1OzaBag.html#a9dc25e872bb0a6d1ae17ded4f119bc4e",tooltip="Predicts the class memberships for a given instance."];
+  Node1 -> Node11 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="moa.classifiers.meta.OnlineSmoothBoost.getVotesForInstance",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1meta_1_1OnlineSmoothBoost.html#a95716f04d900f6d510a28f6b46bd86d8",tooltip="Predicts the class memberships for a given instance."];
+  Node1 -> Node12 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="moa.classifiers.meta.OnlineAccuracyUpdatedEnsemble.getVotesForInstance",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1meta_1_1OnlineAccuracyUpdatedEnsemble.html#a88fadbdcf2ab55bc1af67747b4471968",tooltip="Predicts a class for an example."];
+  Node1 -> Node13 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="moa.classifiers.meta.LeveragingBag.getVotesForInstance",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1meta_1_1LeveragingBag.html#a7cc1a694629153846596c3ec9bd38ba7",tooltip="Predicts the class memberships for a given instance."];
+  Node1 -> Node14 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="moa.classifiers.meta.DACC.getVotesForInstance",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1meta_1_1DACC.html#a98e1d9e368b0f8f97435e27bf4593083",tooltip="Predicts the class memberships for a given instance."];
+  Node14 -> Node15 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="moa.classifiers.meta.ADACC.computeStabilityIndex",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1meta_1_1ADACC.html#a90af489cdb600df1e064cf9709d6ec3c",tooltip="Returns the stability index of the adaptive ensemble of classifiers."];
+  Node15 -> Node16 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="moa.classifiers.meta.ADACC.takeSnapshot",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1meta_1_1ADACC.html#a3689b1cc035b176acc6da2e1434bd12c",tooltip="If the environment is stable enough, take a snapshot (a copy) of the best adaptive..."];
+  Node16 -> Node17 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="moa.classifiers.meta.ADACC.trainOnInstanceImpl",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1meta_1_1ADACC.html#afac7020458c562ced7fb327021d15e92",tooltip="Trains this classifier incrementally using the given instance."];
+  Node1 -> Node18 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="moa.classifiers.meta.AccuracyWeightedEnsemble.getVotesForInstance",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1meta_1_1AccuracyWeightedEnsemble.html#a3aa38fe0bc4c5f4beaf333efc6f98012",tooltip="Predicts a class for an example."];
+  Node1 -> Node19 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 [label="moa.classifiers.meta.AccuracyUpdatedEnsemble.getVotesForInstance",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1meta_1_1AccuracyUpdatedEnsemble.html#a023b446ff571d202d2d9f5e2b86a181f",tooltip="Predicts a class for an example."];
+}

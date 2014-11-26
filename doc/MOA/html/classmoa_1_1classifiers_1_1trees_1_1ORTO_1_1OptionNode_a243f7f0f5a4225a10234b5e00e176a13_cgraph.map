@@ -1,0 +1,8 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1classifiers_1_1trees_1_1ORTO_1_1OptionNode.html#a84dee82f9a19ef263c2ec9ce697ff717" title="moa.classifiers.trees.ORTO.OptionNode.aggregate" alt="" coords="425,57,743,87"/>
+<area shape="rect" id="node5" href="$classmoa_1_1options_1_1MultiChoiceOption.html#a5272693a1a0a9f89e135673a6d247dda" title="moa.options.MultiChoiceOption.getChosenIndex" alt="" coords="825,5,1127,35"/>
+<area shape="rect" id="node9" href="$classmoa_1_1classifiers_1_1trees_1_1ORTO_1_1OptionNode.html#ad88323091e0a8ad15f5708926c2bf996" title="moa.classifiers.trees.ORTO.OptionNode.directionForBestTree" alt="" coords="393,111,775,140"/>
+<area shape="rect" id="node11" href="$classmoa_1_1classifiers_1_1trees_1_1ORTO_1_1InnerNode.html#ada4abe88de469980f10b89c3c952ba16" title="moa.classifiers.trees.ORTO.InnerNode.getChild" alt="" coords="433,164,735,193"/>
+<area shape="rect" id="node14" href="$classmoa_1_1classifiers_1_1trees_1_1ORTO_1_1Node.html#ab592f3008fdb05c1b3df2690b14e717e" title="moa.classifiers.trees.ORTO.Node.getPrediction" alt="" coords="435,217,733,247"/>
+<area shape="rect" id="node7" href="$classmoa_1_1options_1_1MultiChoiceOption.html#a7dd0192f46d8005a44c38d5526e2c600" title="moa.options.MultiChoiceOption.getChosenLabel" alt="" coords="825,59,1127,88"/>
+</map>

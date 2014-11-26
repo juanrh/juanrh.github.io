@@ -1,0 +1,37 @@
+digraph G
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir=LR;
+  Node1 [label="moa.tasks.EvaluateModel.doMainTask",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="moa.evaluation.ClassificationPerformanceEvaluator.addResult",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interfacemoa_1_1evaluation_1_1ClassificationPerformanceEvaluator.html#a756e8b88bf5003e44e5fbf6832df840d",tooltip="Adds a learning result to this evaluator."];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="moa.streams.InstanceStream.estimatedRemainingInstances",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interfacemoa_1_1streams_1_1InstanceStream.html#a9467d8c75f1a43faadd2454bb4a89cfe",tooltip="Gets the estimated number of remaining instances in this stream."];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="moa.options.FileOption.getFile",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1options_1_1FileOption.html#a01615786786a168a9e3b8c5d0f50b1e8"];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="moa.options.StringOption.getValue",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1options_1_1StringOption.html#acdafb10f476c4aacf74bf51adb2b4732"];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="moa.options.AbstractOptionHandler.getPreparedClassOption",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1options_1_1AbstractOptionHandler.html#a2d5e872c7c6a32487013ba914c6d3fcc",tooltip="Gets a prepared option of this class."];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="moa.options.AbstractOption.getName",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1options_1_1AbstractOption.html#a26d25b88bb5244ed3c2ec142bd28353d",tooltip="Gets the name of this option."];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="moa.options.IntOption.getValue",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1options_1_1IntOption.html#affae8787274b44ab7616d46b8d6c831a"];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="moa.classifiers.Classifier.getVotesForInstance",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interfacemoa_1_1classifiers_1_1Classifier.html#a0933ed1199c2b16a8eb8186dabf9a8f9",tooltip="Predicts the class memberships for a given instance."];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="moa.streams.InstanceStream.hasMoreInstances",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interfacemoa_1_1streams_1_1InstanceStream.html#adcce31f5a024f6a73e150da2d1d731df",tooltip="Gets whether this stream has more instances to output."];
+  Node1 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="moa.streams.InstanceStream.nextInstance",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interfacemoa_1_1streams_1_1InstanceStream.html#ae68c1c47c4dac2e591745a21e8cc120a",tooltip="Gets the next instance from this stream."];
+  Node1 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="moa.tasks.TaskMonitor.resultPreviewRequested",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interfacemoa_1_1tasks_1_1TaskMonitor.html#af0081392613c25cb1a31b3e5a45674d1",tooltip="Gets whether there is a request for preview the task result."];
+  Node1 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="moa.tasks.TaskMonitor.setCurrentActivity",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interfacemoa_1_1tasks_1_1TaskMonitor.html#aa5eff409d63bfacd92fe2f062d373781",tooltip="Sets the description and the percentage done of the current activity."];
+  Node1 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="moa.tasks.TaskMonitor.setCurrentActivityFractionComplete",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interfacemoa_1_1tasks_1_1TaskMonitor.html#a250c782c4d19dc5609afc32a96ac90f8",tooltip="Sets the percentage done of the current activity."];
+  Node1 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="moa.tasks.TaskMonitor.setLatestResultPreview",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interfacemoa_1_1tasks_1_1TaskMonitor.html#a1b6f9b951f02111a3461e26c9a6c2936",tooltip="Sets the current result to preview."];
+  Node1 -> Node16 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="moa.tasks.TaskMonitor.taskShouldAbort",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interfacemoa_1_1tasks_1_1TaskMonitor.html#af2758f6ce28872acf61d6b3495cd4439",tooltip="Gets whether the task should abort."];
+}

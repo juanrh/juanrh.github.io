@@ -1,0 +1,15 @@
+digraph G
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir=LR;
+  Node1 [label="moa.core.GaussianEstimator.probabilityDensity",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="moa.core.GaussianEstimator.estimatedWeight_LessThan_EqualTo_GreaterThan_Value",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1core_1_1GaussianEstimator.html#a88419db3abc66f112b4f9ca0fa999e12"];
+  Node2 -> Node3 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="moa.classifiers.core.attributeclassobservers.GaussianNumericAttributeClassObserver.getClassDistsResultingFromBinarySplit",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1core_1_1attributeclassobservers_1_1GaussianNumericAttributeClassObserver.html#a6aa9fa821534bf559c4945cb7acb81bf"];
+  Node3 -> Node4 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="moa.classifiers.core.attributeclassobservers.GaussianNumericAttributeClassObserver.getBestEvaluatedSplitSuggestion",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1core_1_1attributeclassobservers_1_1GaussianNumericAttributeClassObserver.html#a34446fa2c3deac589b3c813610bb746d",tooltip="Gets the best split suggestion given a criterion and a class distribution."];
+  Node1 -> Node5 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="moa.classifiers.core.attributeclassobservers.GaussianNumericAttributeClassObserver.probabilityOfAttributeValueGivenClass",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1core_1_1attributeclassobservers_1_1GaussianNumericAttributeClassObserver.html#a526714101e6ec0e9b11b69ee8f99b131",tooltip="Gets the probability for an attribute value given a class."];
+}

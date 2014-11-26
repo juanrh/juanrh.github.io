@@ -1,0 +1,4 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$interfacemoa_1_1classifiers_1_1Classifier.html#a8348b4106e79422d3dec0a1857d402f3" title="Gets whether this classifier correctly classifies an instance." alt="" coords="439,5,719,35"/>
+<area shape="rect" id="node5" href="$interfacemoa_1_1classifiers_1_1Classifier.html#ac28018bc307abe34a8ace54dba3ebff1" title="Trains this classifier incrementally using the given instance." alt="" coords="447,59,711,88"/>
+</map>

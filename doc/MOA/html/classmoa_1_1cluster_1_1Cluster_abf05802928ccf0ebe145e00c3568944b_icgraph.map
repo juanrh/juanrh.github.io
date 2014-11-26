@@ -1,0 +1,20 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1evaluation_1_1CMM.html#aba1a33c0add6c87676c79092269a78f0" title="calculates the CMM specific matching between found clusters and ground truth clusters..." alt="" coords="391,5,644,35"/>
+<area shape="rect" id="node7" href="$classmoa_1_1evaluation_1_1StatisticalCollection.html#afa9235527b2ebfc7ab92938e800fa8e9" title="moa.evaluation.StatisticalCollection.cindex" alt="" coords="381,59,653,88"/>
+<area shape="rect" id="node9" href="$classmoa_1_1evaluation_1_1General.html#a0a628e69798c6c3ad2e9bdd47ef7ef00" title="moa.evaluation.General.computeCompactness" alt="" coords="371,112,664,141"/>
+<area shape="rect" id="node11" href="$classmoa_1_1gui_1_1visualization_1_1StreamPanel.html#aef75fd4f2ff2510a374d1bcafe779a8c" title="moa.gui.visualization.StreamPanel.drawNonConvexClustering" alt="" coords="327,325,708,355"/>
+<area shape="rect" id="node34" href="$classmoa_1_1evaluation_1_1SilhouetteCoefficient.html#a41a22a42e22f587d300e87b1b0ce0566" title="moa.evaluation.SilhouetteCoefficient.evaluateClustering" alt="" coords="344,219,691,248"/>
+<area shape="rect" id="node36" href="$classmoa_1_1evaluation_1_1General.html#a9d9bc3bbdf04a5cb3020e25aa44d4163" title="moa.evaluation.General.evaluateClustering" alt="" coords="383,272,652,301"/>
+<area shape="rect" id="node38" href="$classmoa_1_1evaluation_1_1CMM__GTAnalysis.html#ac62e2f616277de082896f6b0708451b9" title="Calculates the relative number of errors being caused by the underlying cluster model..." alt="" coords="359,165,676,195"/>
+<area shape="rect" id="node41" href="$classmoa_1_1evaluation_1_1MembershipMatrix.html#ad4900410c2f451c9941d1cd6a5460078" title="moa.evaluation.MembershipMatrix.MembershipMatrix" alt="" coords="352,379,683,408"/>
+<area shape="rect" id="node5" href="$classmoa_1_1evaluation_1_1CMM.html#a10e5730f04b5d05fa6eedfbeb6a737a2" title="moa.evaluation.CMM.evaluateClustering" alt="" coords="785,85,1044,115"/>
+<area shape="rect" id="node13" href="$classmoa_1_1gui_1_1visualization_1_1StreamPanel.html#a168d88c5c0dc4fda9a2495e643bf7207" title="moa.gui.visualization.StreamPanel.drawClustering" alt="" coords="757,325,1072,355"/>
+<area shape="rect" id="node15" href="$classmoa_1_1gui_1_1visualization_1_1StreamPanel.html#a8988185291e95b038cc3e2e12e837889" title="moa.gui.visualization.StreamPanel.drawGTClustering" alt="" coords="1131,272,1461,301"/>
+<area shape="rect" id="node28" href="$classmoa_1_1gui_1_1visualization_1_1StreamPanel.html#a10683b9b452d85b6b4fdd3802d664e1b" title="moa.gui.visualization.StreamPanel.drawMacroClustering" alt="" coords="1121,325,1471,355"/>
+<area shape="rect" id="node31" href="$classmoa_1_1gui_1_1visualization_1_1StreamPanel.html#af7da024f8470f4258f9a150013fa8253" title="moa.gui.visualization.StreamPanel.drawMicroClustering" alt="" coords="1123,379,1469,408"/>
+<area shape="rect" id="node17" href="$classmoa_1_1gui_1_1visualization_1_1RunVisualizer.html#a1a86658d48e37c8f62929b39a2982ce2" title="moa.gui.visualization.RunVisualizer.drawClusterings" alt="" coords="1521,325,1847,355"/>
+<area shape="rect" id="node19" href="$classmoa_1_1gui_1_1visualization_1_1RunVisualizer.html#ace13c1243d94edf61592e1d37dd14bd0" title="moa.gui.visualization.RunVisualizer.processClusterings" alt="" coords="1897,325,2241,355"/>
+<area shape="rect" id="node21" href="$classmoa_1_1gui_1_1visualization_1_1RunVisualizer.html#af40a82de4ae8183b09175d6e7f392203" title="moa.gui.visualization.RunVisualizer.runVisual" alt="" coords="2292,325,2577,355"/>
+<area shape="rect" id="node23" href="$classmoa_1_1gui_1_1visualization_1_1RunVisualizer.html#a499a0fbd6f3ec8c5625af2dd15072839" title="moa.gui.visualization.RunVisualizer.run" alt="" coords="2627,299,2877,328"/>
+<area shape="rect" id="node25" href="$classmoa_1_1gui_1_1visualization_1_1RunVisualizer.html#ac7da17ff513eaf15f3f2fa147160c580" title="moa.gui.visualization.RunVisualizer.work_pause" alt="" coords="2927,325,3228,355"/>
+</map>

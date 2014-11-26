@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1test_1_1MoaTestCase.html#ae450cb2afef081ee3b312a28c7b04065" title="Creates a deep copy of the given object (must be serializable!)." alt="" coords="287,5,508,35"/>
+<area shape="rect" id="node5" href="$classmoa_1_1test_1_1MoaTestCase.html#aa1e4f2f9e86cb4bcc10142007d1508ed" title="Performs a serializable test on the given class." alt="" coords="559,5,857,35"/>
+<area shape="rect" id="node7" href="$classmoa_1_1test_1_1MoaTestCase.html#ac8f40c9d5cc010e571e7c0c8ced7432d" title="For classes (with default constructor) that are serializable, are tested whether..." alt="" coords="908,5,1159,35"/>
+</map>

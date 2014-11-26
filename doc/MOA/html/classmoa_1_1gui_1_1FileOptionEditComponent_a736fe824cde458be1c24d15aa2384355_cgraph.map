@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1gui_1_1FileOptionEditComponent.html#aaf348a026c18d40cd1a0c8d5b1c53337" title="moa.gui.FileOptionEditComponent.browseForFile" alt="" coords="429,5,736,35"/>
+<area shape="rect" id="node7" href="$classmoa_1_1options_1_1StringOption.html#a1f06e5aefab34bb5bdef8d6b69ba544c" title="Gets the value of a Command Line Interface text as a string." alt="" coords="436,59,729,88"/>
+<area shape="rect" id="node9" href="$classmoa_1_1gui_1_1FileOptionEditComponent.html#a7677b2ad4ba7b298f9729339969be2c8" title="Sets the state of the component." alt="" coords="435,112,731,141"/>
+<area shape="rect" id="node5" href="$classmoa_1_1options_1_1FileOption.html#aa332a09ffda0585e0a167c692ff2e20c" title="moa.options.FileOption.getDefaultFileExtension" alt="" coords="784,5,1083,35"/>
+</map>

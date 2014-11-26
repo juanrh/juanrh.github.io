@@ -1,0 +1,8 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$interfacemoa_1_1recommender_1_1rc_1_1data_1_1RecommenderData.html#af6ce60cfceb46cd2836be629e8b2283a" title="moa.recommender.rc.data.RecommenderData.getRatingsUser" alt="" coords="448,5,835,35"/>
+<area shape="rect" id="node5" href="$classmoa_1_1recommender_1_1rc_1_1utils_1_1SparseVector.html#a44ad87323df10ae367cf65a180e4a474" title="moa.recommender.rc.utils.SparseVector.iterator" alt="" coords="492,59,791,88"/>
+<area shape="rect" id="node7" href="$classmoa_1_1recommender_1_1rc_1_1predictor_1_1impl_1_1BRISMFPredictor.html#a42a19dc360f5f9e93b71b5290a922c5b" title="moa.recommender.rc.predictor.impl.BRISMFPredictor.trainUser" alt="" coords="447,112,836,141"/>
+<area shape="rect" id="node9" href="$classmoa_1_1recommender_1_1rc_1_1predictor_1_1impl_1_1BRISMFPredictor.html#aa082853b620c2139630e0932870c593d" title="moa.recommender.rc.predictor.impl.BRISMFPredictor.trainUserFeats" alt="" coords="885,112,1309,141"/>
+<area shape="rect" id="node11" href="$classmoa_1_1recommender_1_1rc_1_1predictor_1_1impl_1_1BRISMFPredictor.html#a59a7c46bea112384c6cdf1ac90895874" title="moa.recommender.rc.predictor.impl.BRISMFPredictor.predictRating" alt="" coords="1360,85,1773,115"/>
+<area shape="rect" id="node13" href="$classmoa_1_1recommender_1_1rc_1_1predictor_1_1impl_1_1BRISMFPredictor.html#ab2b684b2a6cfe3a1866eaa1a0abcc392" title="moa.recommender.rc.predictor.impl.BRISMFPredictor.resetFeatures" alt="" coords="1357,139,1776,168"/>
+</map>

@@ -1,0 +1,12 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1classifiers_1_1trees_1_1FIMTDD_1_1FIMTDDSplitNode.html#a2eadcfe3bdda0b3335969b04d74d18a0" title="Return the parent node." alt="" coords="420,5,791,35"/>
+<area shape="rect" id="node5" href="$classmoa_1_1classifiers_1_1trees_1_1FIMTDD_1_1FIMTDDActiveLearningNode.html#ab5a9c4f00922fc52e2f45c3bd5fb0a5d" title="Return the parent node." alt="" coords="391,59,820,88"/>
+<area shape="rect" id="node7" href="$classmoa_1_1classifiers_1_1trees_1_1FIMTDD_1_1FIMTDDActiveLearningNode.html#a664e36ce234a701c41ee085634a7b417" title="A method returning the Page&#45;Hinckley error produced on this instance in the leaf..." alt="" coords="387,112,824,141"/>
+<area shape="rect" id="node9" href="$classmoa_1_1classifiers_1_1trees_1_1FIMTDD_1_1FIMTDDActiveLearningNode.html#a0f9532c295588e7b91414e492d4b9e99" title="moa.classifiers.trees.FIMTDD.FIMTDDActiveLearningNode.getWeightSeen" alt="" coords="375,165,836,195"/>
+<area shape="rect" id="node13" href="$classmoa_1_1classifiers_1_1trees_1_1HoeffdingTree_1_1LearningNode.html#aa53ea059cb605d2680a6522c9b4316da" title="moa.classifiers.trees.HoeffdingTree.LearningNode.learnFromInstance" alt="" coords="393,219,817,248"/>
+<area shape="rect" id="node15" href="$classmoa_1_1classifiers_1_1trees_1_1FIMTDD_1_1FIMTDDSplitNode.html#ad4ef0b4fe68efea53f6c83cbcbe39571" title="Check to see if the tree needs updating." alt="" coords="395,272,816,301"/>
+<area shape="rect" id="node17" href="$classmoa_1_1classifiers_1_1trees_1_1HoeffdingTree_1_1SplitNode.html#a096ddc519733df2bfbf4f4f7890d2c66" title="moa.classifiers.trees.HoeffdingTree.SplitNode.setChild" alt="" coords="435,325,776,355"/>
+<area shape="rect" id="node21" href="$classmoa_1_1classifiers_1_1trees_1_1FIMTDD_1_1FIMTDDActiveLearningNode.html#a6433331601eada354a86b60f321a15dd" title="Set the parent node." alt="" coords="391,379,820,408"/>
+<area shape="rect" id="node11" href="$classmoa_1_1core_1_1DoubleVector.html#a0a22580b229225823e9b11ed9d35104a" title="moa.core.DoubleVector.getValue" alt="" coords="1011,165,1224,195"/>
+<area shape="rect" id="node19" href="$classmoa_1_1classifiers_1_1core_1_1conditionaltests_1_1InstanceConditionalTest.html#adda57438d3e9a6990d6ccb80fe78d6b6" title="Gets the number of maximum branches, &#45;1 if unknown." alt="" coords="887,325,1348,355"/>
+</map>

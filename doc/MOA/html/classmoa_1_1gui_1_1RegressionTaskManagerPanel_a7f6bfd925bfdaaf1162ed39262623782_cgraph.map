@@ -1,0 +1,44 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classmoa_1_1gui_1_1RegressionTaskManagerPanel.html#a2fa8f3a6f628167cf693724cfd23cd29" title="moa.gui.RegressionTaskManagerPanel.createAndShowGUI" alt="" coords="336,245,707,275"/>
+<area shape="rect" id="node5" href="$classmoa_1_1gui_1_1RegressionTaskManagerPanel.html#adbcef9767e5e801a40b4192dd07f6d31" title="moa.gui.RegressionTaskManagerPanel.RegressionTaskManagerPanel" alt="" coords="755,245,1187,275"/>
+<area shape="rect" id="node7" href="$classmoa_1_1gui_1_1RegressionTaskManagerPanel.html#a81001fe0209bbda8d280f6e89ef1aab6" title="moa.gui.RegressionTaskManagerPanel.cancelSelectedTasks" alt="" coords="1253,5,1632,35"/>
+<area shape="rect" id="node11" href="$classmoa_1_1gui_1_1RegressionTaskManagerPanel.html#adb7d80a33c040b6c37d519db7fdef5a9" title="moa.gui.RegressionTaskManagerPanel.copyClipBoardConfiguration" alt="" coords="1235,376,1651,405"/>
+<area shape="rect" id="node13" href="$classmoa_1_1gui_1_1RegressionTaskManagerPanel.html#a99e99057d81c435f09cd936296d023f4" title="moa.gui.RegressionTaskManagerPanel.deleteSelectedTasks" alt="" coords="1255,59,1631,88"/>
+<area shape="rect" id="node16" href="$classmoa_1_1options_1_1AbstractOptionHandler.html#aeaeb9c80ecb2664eff34245d98464890" title="Gets the Command Line Interface text to create the object." alt="" coords="1265,429,1620,459"/>
+<area shape="rect" id="node32" href="$classmoa_1_1gui_1_1RegressionTaskManagerPanel.html#a22fb23a5fa5148c651c22884ef94f0ee" title="moa.gui.RegressionTaskManagerPanel.pauseSelectedTasks" alt="" coords="1255,112,1631,141"/>
+<area shape="rect" id="node35" href="$classmoa_1_1gui_1_1RegressionTaskManagerPanel.html#a92a57895466d3032193bd1731ff0e344" title="moa.gui.RegressionTaskManagerPanel.resumeSelectedTasks" alt="" coords="1251,165,1635,195"/>
+<area shape="rect" id="node38" href="$classmoa_1_1gui_1_1RegressionTaskManagerPanel.html#afaf6039f9e9e0347cab241d266d13314" title="moa.gui.RegressionTaskManagerPanel.runTask" alt="" coords="1292,483,1593,512"/>
+<area shape="rect" id="node40" href="$classmoa_1_1gui_1_1RegressionTaskManagerPanel.html#a830fb34197a0e7996af35d89aa380c9b" title="moa.gui.RegressionTaskManagerPanel.saveLogSelectedTasks" alt="" coords="1248,219,1637,248"/>
+<area shape="rect" id="node43" href="$classmoa_1_1gui_1_1RegressionTaskManagerPanel.html#aa494c756380fc61bfb5b705c3b7000bd" title="moa.gui.RegressionTaskManagerPanel.setTaskString" alt="" coords="1712,324,2045,353"/>
+<area shape="rect" id="node45" href="$classmoa_1_1gui_1_1RegressionTaskManagerPanel.html#a8877a2cb908c8e5e4d2378999171dff0" title="moa.gui.RegressionTaskManagerPanel.taskSelectionChanged" alt="" coords="1251,272,1635,301"/>
+<area shape="rect" id="node9" href="$classmoa_1_1gui_1_1RegressionTaskManagerPanel.html#a8c917b2f80a6647a0e49a0c44cd87994" title="moa.gui.RegressionTaskManagerPanel.getSelectedTasks" alt="" coords="1700,139,2057,168"/>
+<area shape="rect" id="node18" href="$classmoa_1_1options_1_1Options.html#a2fea19f837dd10ef9ae2aed696c73f05" title="moa.options.Options.getAsCLIString" alt="" coords="1761,429,1996,459"/>
+<area shape="rect" id="node20" href="$classmoa_1_1options_1_1AbstractOptionHandler.html#a7ba82c22a57694b00d317d345f1fa317" title="Gets the options of this object." alt="" coords="1731,483,2027,512"/>
+<area shape="rect" id="node22" href="$classmoa_1_1options_1_1Options.html#a1886243eaecde00151eb2787c6501d6f" title="moa.options.Options.addOption" alt="" coords="2207,483,2412,512"/>
+<area shape="rect" id="node30" href="$classmoa_1_1options_1_1AbstractOptionHandler.html#ae53b13b76bc49c8deea73e6d3847e540" title="Gets the options of this class via reflection." alt="" coords="2107,536,2512,565"/>
+<area shape="rect" id="node24" href="$interfacemoa_1_1options_1_1Option.html#a0f2bfa3fc25dfbd92be96d007e093c3c" title="Gets the Command Line Interface text of this option." alt="" coords="2643,536,2848,565"/>
+<area shape="rect" id="node26" href="$interfacemoa_1_1options_1_1Option.html#a28d0b5eb1a547178d6d43c3d8cc89142" title="Gets the name of this option." alt="" coords="2649,429,2841,459"/>
+<area shape="rect" id="node28" href="$classmoa_1_1options_1_1Options.html#ad2061f549ed2eb9bb7bc5bbb3ab17019" title="moa.options.Options.getOption" alt="" coords="2644,483,2847,512"/>
+<area shape="rect" id="node49" href="$classmoa_1_1gui_1_1PreviewPanel.html#a669a112f710e0da743cc7cf3f7cd4a18" title="moa.gui.PreviewPanel.setTaskThreadToPreview" alt="" coords="1727,269,2031,299"/>
+<area shape="rect" id="node51" href="$classmoa_1_1gui_1_1PreviewPanel.html#a6d12f33c0f85fbbee2a9d794c465e5da" title="moa.gui.PreviewPanel.disableRefresh" alt="" coords="2624,269,2867,299"/>
+<area shape="rect" id="node53" href="$classmoa_1_1gui_1_1PreviewPanel.html#ae7576a644bdec62eed2ce4895b20197e" title="moa.gui.PreviewPanel.enableRefresh" alt="" coords="2189,321,2429,351"/>
+<area shape="rect" id="node57" href="$classmoa_1_1tasks_1_1TaskThread.html#a41368d9cfdb87bc1295e2c1cd9a0d787" title="moa.tasks.TaskThread.getLatestResultPreview" alt="" coords="2160,376,2459,405"/>
+<area shape="rect" id="node61" href="$classmoa_1_1tasks_1_1TaskThread.html#ab7be27d49b04204985d254ee51a3eb7b" title="moa.tasks.TaskThread.isComplete" alt="" coords="2632,56,2859,85"/>
+<area shape="rect" id="node63" href="$classmoa_1_1gui_1_1PreviewPanel.html#a54be4baf6535698a4b85a1444eda1267" title="moa.gui.PreviewPanel.setLatestPreview" alt="" coords="2181,189,2437,219"/>
+<area shape="rect" id="node55" href="$classmoa_1_1gui_1_1PreviewPanel.html#aff1474b9510a5621cb4028a7ed09551d" title="moa.gui.PreviewPanel.updateAutoRefreshTimer" alt="" coords="2595,323,2896,352"/>
+<area shape="rect" id="node59" href="$interfacemoa_1_1tasks_1_1TaskMonitor.html#aaeac700f78168fdd9edff1b9daa8411b" title="Gets the current result to preview." alt="" coords="2595,376,2896,405"/>
+<area shape="rect" id="node66" href="$classmoa_1_1tasks_1_1TaskThread.html#a7c7fb4d3426dfe208dd5c8972f74eb49" title="moa.tasks.TaskThread.getFinalResult" alt="" coords="2624,109,2867,139"/>
+<area shape="rect" id="node68" href="$classmoa_1_1tasks_1_1TaskThread.html#a7b6c14739d77528991522676d1489aa8" title="moa.tasks.TaskThread.getLatestPreviewGrabTimeSeconds" alt="" coords="2561,163,2929,192"/>
+<area shape="rect" id="node71" href="$classmoa_1_1gui_1_1TaskTextViewerPanel.html#a0193f976560fd45d675cafc39a71fd1e" title="moa.gui.TaskTextViewerPanel.setText" alt="" coords="2621,216,2869,245"/>
+<area shape="rect" id="node73" href="$classmoa_1_1gui_1_1TaskTextViewerPanel.html#a58e92cea35637ef475a544fd0f2d4ed2" title="moa.gui.TaskTextViewerPanel.setGraph" alt="" coords="2980,216,3236,245"/>
+<area shape="rect" id="node75" href="$classmoa_1_1evaluation_1_1MeasureCollection.html#a344a1c04e2e600092750c6676b9c9906" title="moa.evaluation.MeasureCollection.addValue" alt="" coords="3355,56,3635,85"/>
+<area shape="rect" id="node77" href="$classmoa_1_1tasks_1_1ConceptDriftMainTask.html#ad4c08b553ea52bac21903b9af68d1a81" title="moa.tasks.ConceptDriftMainTask.getEventsList" alt="" coords="3344,109,3645,139"/>
+<area shape="rect" id="node79" href="$classmoa_1_1gui_1_1TaskTextViewerPanel.html#ae11493bdbd1de595e9890826665e00e4" title="moa.gui.TaskTextViewerPanel.getNewMeasureCollection" alt="" coords="3316,163,3673,192"/>
+<area shape="rect" id="node81" href="$classmoa_1_1gui_1_1conceptdrift_1_1CDTaskManagerPanel.html#a35d1a35fedfe654f551e0674a57994b5" title="moa.gui.conceptdrift.CDTaskManagerPanel.getSelectedCurrenTask" alt="" coords="3287,216,3703,245"/>
+<area shape="rect" id="node89" href="$classmoa_1_1evaluation_1_1MeasureCollection.html#a23eeb889828aafe68c192fab36a0ade3" title="moa.evaluation.MeasureCollection.getValue" alt="" coords="3356,269,3633,299"/>
+<area shape="rect" id="node91" href="$classmoa_1_1gui_1_1TaskTextViewerPanel.html#aab1cb112128fcfc69a51c69bfa2ee135" title="moa.gui.TaskTextViewerPanel.parseDouble" alt="" coords="3356,323,3633,352"/>
+<area shape="rect" id="node93" href="$classmoa_1_1gui_1_1TaskTextViewerPanel.html#a508113467ed9b0bf03dd9620053009ae" title="moa.gui.TaskTextViewerPanel.round" alt="" coords="3377,376,3612,405"/>
+<area shape="rect" id="node83" href="$classmoa_1_1gui_1_1conceptdrift_1_1CDTaskManagerPanel.html#a4b83ab8c9a34504bac8916eb9b0d1272" title="moa.gui.conceptdrift.CDTaskManagerPanel.getCurrenTask" alt="" coords="3763,163,4128,192"/>
+<area shape="rect" id="node85" href="$classmoa_1_1gui_1_1conceptdrift_1_1CDTaskManagerPanel.html#add709d2d090cedfe3728efcc9acf6dd2" title="moa.gui.conceptdrift.CDTaskManagerPanel.getSelectedTasks" alt="" coords="3753,216,4137,245"/>
+<area shape="rect" id="node87" href="$classmoa_1_1tasks_1_1TaskThread.html#aaa42f5df321a72870b224e83bb0cf6fa" title="moa.tasks.TaskThread.getTask" alt="" coords="3843,269,4048,299"/>
+</map>
