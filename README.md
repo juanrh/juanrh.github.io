@@ -20,3 +20,6 @@ Documentation for code samples for the blog http://data42.blogspot.com.es, and d
 * Apache Kafka 0.8.1.1
   - http://juanrh.github.io/doc/ApacheKafka-0.8.1.1/core/scaladoc/
   - http://juanrh.github.io/doc/ApacheKafka-0.8.1.1/core/javadoc/
+
+* MOA:
+  - http://juanrh.github.io/doc/MOA/html/index.html
