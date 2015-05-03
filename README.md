@@ -2,7 +2,7 @@ juanrh.github.io
 ================
 Documentation for code samples for the blog http://data42.blogspot.com.es, and documentation rendered from other projects
 
-* [MetaModel 4.1.0-RC1-incubating API](http://juanrh.github.io/doc/ApacheMetamodel/apidocs/)
+* [MetaModel API docs](http://juanrh.github.io/doc/ApacheMetamodel/apidocs/)
 
 * jpmml-evaluator:
   - http://juanrh.github.io/doc/JPMML/jpmml-evaluator/pmml-evaluator/apidocs/
