@@ -24,3 +24,5 @@ Documentation for code samples for the blog http://data42.blogspot.com.es, and d
 * [MOA](http://juanrh.github.io/doc/MOA/html/index.html)
 
 * [Kryo](http://juanrh.github.io/doc/kryo/apidocs/)
+
+* [sqlline](http://juanrh.github.io/doc/sqlline/apidocs/)
