@@ -1,0 +1,1 @@
+Documentation render for https://github.com/juanrh/sscheck

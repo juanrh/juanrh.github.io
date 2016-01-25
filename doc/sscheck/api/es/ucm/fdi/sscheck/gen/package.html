@@ -1,0 +1,339 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html>
+        <head>
+          <title>gen - es.ucm.fdi.sscheck.gen</title>
+          <meta name="description" content="gen - es.ucm.fdi.sscheck.gen" />
+          <meta name="keywords" content="gen es.ucm.fdi.sscheck.gen" />
+          <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+          
+      <link href="../../../../../lib/template.css" media="screen" type="text/css" rel="stylesheet" />
+      <link href="../../../../../lib/diagrams.css" media="screen" type="text/css" rel="stylesheet" id="diagrams-css" />
+      <script type="text/javascript">
+         if(top === self) {
+            var url = '../../../../../index.html';
+            var hash = 'es.ucm.fdi.sscheck.gen.package';
+            var anchor = window.location.hash;
+            var anchor_opt = '';
+            if (anchor.length >= 1)
+              anchor_opt = '@' + anchor.substring(1);
+            window.location.href = url + '#' + hash + anchor_opt;
+         }
+   	  </script>
+    
+        </head>
+        <body class="value">
+      <div id="definition">
+        <img src="../../../../../lib/package_big.png" />
+        <p id="owner"><a href="../../../../package.html" class="extype" name="es">es</a>.<a href="../../../package.html" class="extype" name="es.ucm">ucm</a>.<a href="../../package.html" class="extype" name="es.ucm.fdi">fdi</a>.<a href="../package.html" class="extype" name="es.ucm.fdi.sscheck">sscheck</a></p>
+        <h1>gen</h1>
+      </div>
+
+      <h4 id="signature" class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">package</span>
+      </span>
+      <span class="symbol">
+        <span class="name">gen</span>
+      </span>
+      </h4>
+      
+          <div id="comment" class="fullcommenttop"></div>
+        
+
+      <div id="mbrsel">
+        <div id="textfilter"><span class="pre"></span><span class="input"><input id="mbrsel-input" type="text" accesskey="/" /></span><span class="post"></span></div>
+        
+        
+        <div id="visbl">
+            <span class="filtertype">Visibility</span>
+            <ol><li class="public in"><span>Public</span></li><li class="all out"><span>All</span></li></ol>
+          </div>
+      </div>
+
+      <div id="template">
+        <div id="allMembers">
+        
+
+        <div id="types" class="types members">
+              <h3>Type Members</h3>
+              <ol><li name="es.ucm.fdi.sscheck.gen.Batch" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="Batch[A]extendsSeq[A]withProductwithSerializable"></a>
+      <a id="Batch[A]:Batch[A]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="Batch.html"><span class="name">Batch</span></a><span class="tparams">[<span name="A">A</span>]</span><span class="params">(<span name="points">points: <span class="extype" name="es.ucm.fdi.sscheck.gen.Batch.A">A</span>*</span>)</span><span class="result"> extends <span class="extype" name="scala.Seq">Seq</span>[<span class="extype" name="es.ucm.fdi.sscheck.gen.Batch.A">A</span>] with <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4>
+      <p class="comment cmt">Objects of this class represent batches of elements
+ in a discrete data stream
+</p>
+    </li><li name="es.ucm.fdi.sscheck.gen.BatchGen" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="BatchGen[A]extendsAnyRef"></a>
+      <a id="BatchGen[A]:BatchGen[A]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="BatchGen.html"><span class="name">BatchGen</span></a><span class="tparams">[<span name="A">A</span>]</span><span class="result"> extends <span class="extype" name="scala.AnyRef">AnyRef</span></span>
+      </span>
+      </h4>
+      
+    </li><li name="es.ucm.fdi.sscheck.gen.DStreamMatchers" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="DStreamMatchersextendsAnyRef"></a>
+      <a id="DStreamMatchers:DStreamMatchers"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="DStreamMatchers.html"><span class="name">DStreamMatchers</span></a><span class="result"> extends <span class="extype" name="scala.AnyRef">AnyRef</span></span>
+      </span>
+      </h4>
+      
+    </li><li name="es.ucm.fdi.sscheck.gen.FromIterableGen" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="FromIterableGen[A]extendsAnyRef"></a>
+      <a id="FromIterableGen[A]:FromIterableGen[A]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="FromIterableGen.html"><span class="name">FromIterableGen</span></a><span class="tparams">[<span name="A">A</span>]</span><span class="result"> extends <span class="extype" name="scala.AnyRef">AnyRef</span></span>
+      </span>
+      </h4>
+      <p class="comment cmt">We cannot extend the sealed trait Gen, so we simulate that
+ with a non descendant class which companion object defines
+ an implicit conversion to Gen.</p>
+    </li><li name="es.ucm.fdi.sscheck.gen.PDStream" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="PDStream[A]extendsSeq[es.ucm.fdi.sscheck.gen.Batch[A]]withProductwithSerializable"></a>
+      <a id="PDStream[A]:PDStream[A]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="PDStream.html"><span class="name">PDStream</span></a><span class="tparams">[<span name="A">A</span>]</span><span class="params">(<span name="batches">batches: <a href="Batch.html" class="extype" name="es.ucm.fdi.sscheck.gen.Batch">Batch</a>[<span class="extype" name="es.ucm.fdi.sscheck.gen.PDStream.A">A</span>]*</span>)</span><span class="result"> extends <span class="extype" name="scala.Seq">Seq</span>[<a href="Batch.html" class="extype" name="es.ucm.fdi.sscheck.gen.Batch">Batch</a>[<span class="extype" name="es.ucm.fdi.sscheck.gen.PDStream.A">A</span>]] with <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4>
+      <p class="comment cmt">An object of this class represents a finite prefix of a discrete data streams,
+ aka prefix DStream or just PDStream
+</p>
+    </li><li name="es.ucm.fdi.sscheck.gen.PDStreamGen" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="PDStreamGen[A]extendsAnyRef"></a>
+      <a id="PDStreamGen[A]:PDStreamGen[A]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="PDStreamGen.html"><span class="name">PDStreamGen</span></a><span class="tparams">[<span name="A">A</span>]</span><span class="result"> extends <span class="extype" name="scala.AnyRef">AnyRef</span></span>
+      </span>
+      </h4>
+      
+    </li></ol>
+            </div>
+
+        
+
+        <div id="values" class="values members">
+              <h3>Value Members</h3>
+              <ol><li name="es.ucm.fdi.sscheck.gen.Batch" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="Batch"></a>
+      <a id="Batch:Batch"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="Batch$.html"><span class="name">Batch</span></a><span class="result"> extends <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4>
+      
+    </li><li name="es.ucm.fdi.sscheck.gen.BatchGen" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="BatchGen"></a>
+      <a id="BatchGen:BatchGen"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="BatchGen$.html"><span class="name">BatchGen</span></a>
+      </span>
+      </h4>
+      <p class="comment cmt">Generators for Batch, a class for representing batches of elements
+ in a discrete data stream.</p>
+    </li><li name="es.ucm.fdi.sscheck.gen.BatchGenConversions" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="BatchGenConversions"></a>
+      <a id="BatchGenConversions:BatchGenConversions"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="BatchGenConversions$.html"><span class="name">BatchGenConversions</span></a>
+      </span>
+      </h4>
+      <p class="comment cmt">Implicit conversions removed from BatchGen companion.</p>
+    </li><li name="es.ucm.fdi.sscheck.gen.Buildables" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="Buildables"></a>
+      <a id="Buildables:Buildables"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="Buildables$.html"><span class="name">Buildables</span></a>
+      </span>
+      </h4>
+      
+    </li><li name="es.ucm.fdi.sscheck.gen.DStreamMatchers" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="DStreamMatchers"></a>
+      <a id="DStreamMatchers:DStreamMatchers"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="DStreamMatchers$.html"><span class="name">DStreamMatchers</span></a><span class="result"> extends <a href="DStreamMatchers.html" class="extype" name="es.ucm.fdi.sscheck.gen.DStreamMatchers">DStreamMatchers</a></span>
+      </span>
+      </h4>
+      
+    </li><li name="es.ucm.fdi.sscheck.gen.FromIterableGen" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="FromIterableGen"></a>
+      <a id="FromIterableGen:FromIterableGen"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="FromIterableGen$.html"><span class="name">FromIterableGen</span></a>
+      </span>
+      </h4>
+      
+    </li><li name="es.ucm.fdi.sscheck.gen.PDStream" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="PDStream"></a>
+      <a id="PDStream:PDStream"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="PDStream$.html"><span class="name">PDStream</span></a><span class="result"> extends <span class="extype" name="scala.Serializable">Serializable</span></span>
+      </span>
+      </h4>
+      
+    </li><li name="es.ucm.fdi.sscheck.gen.PDStreamGen" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="PDStreamGen"></a>
+      <a id="PDStreamGen:PDStreamGen"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="PDStreamGen$.html"><span class="name">PDStreamGen</span></a>
+      </span>
+      </h4>
+      <p class="comment cmt">All the temporal generators defined in this object are sized generators, but the size parameters
+only affects the number of batches in the output PDStream, not the size of the batches.</p>
+    </li><li name="es.ucm.fdi.sscheck.gen.PDStreamGenConversions" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="PDStreamGenConversions"></a>
+      <a id="PDStreamGenConversions:PDStreamGenConversions"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="PDStreamGenConversions$.html"><span class="name">PDStreamGenConversions</span></a>
+      </span>
+      </h4>
+      <p class="comment cmt">Implicit conversions removed from BatchGen companion.</p>
+    </li><li name="es.ucm.fdi.sscheck.gen.RDDGen" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="RDDGen"></a>
+      <a id="RDDGen:RDDGen"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="RDDGen$.html"><span class="name">RDDGen</span></a>
+      </span>
+      </h4>
+      <p class="comment cmt">Generators for RDDs and implicit conversions from Seq and Seq generators to RDD and RDD
+ generators.</p>
+    </li><li name="es.ucm.fdi.sscheck.gen.ReGen" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="ReGen"></a>
+      <a id="ReGen:ReGen"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="ReGen$.html"><span class="name">ReGen</span></a>
+      </span>
+      </h4>
+      <p class="comment cmt">  Generators for simple regexp, as generators of Seq[A]
+</p>
+    </li><li name="es.ucm.fdi.sscheck.gen.UtilsGen" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="UtilsGen"></a>
+      <a id="UtilsGen:UtilsGen"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="UtilsGen$.html"><span class="name">UtilsGen</span></a>
+      </span>
+      </h4>
+      
+    </li></ol>
+            </div>
+
+        
+
+        
+        </div>
+
+        <div id="inheritedMembers">
+        
+        
+        </div>
+
+        <div id="groupedMembers">
+        <div class="group" name="Ungrouped">
+              <h3>Ungrouped</h3>
+              
+            </div>
+        </div>
+
+      </div>
+
+      <div id="tooltip"></div>
+
+      <div id="footer">  </div>
+      <script defer="defer" type="text/javascript" id="jquery-js" src="../../../../../lib/jquery.js"></script><script defer="defer" type="text/javascript" id="jquery-ui-js" src="../../../../../lib/jquery-ui.js"></script><script defer="defer" type="text/javascript" id="tools-tooltip-js" src="../../../../../lib/tools.tooltip.js"></script><script defer="defer" type="text/javascript" id="template-js" src="../../../../../lib/template.js"></script>
+    </body>
+      </html>

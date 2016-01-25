@@ -26,3 +26,6 @@ Documentation for code samples for the blog http://data42.blogspot.com.es, and d
 * [Kryo](http://juanrh.github.io/doc/kryo/apidocs/)
 
 * [sqlline](http://juanrh.github.io/doc/sqlline/apidocs/)
+
+* [sscheck](http://juanrh.github.io/doc/sscheck/api/)
+
