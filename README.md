@@ -29,3 +29,5 @@ Documentation for code samples for the blog http://data42.blogspot.com.es, and d
 
 * [sscheck](http://juanrh.github.io/doc/sscheck/api/)
 
+* Apache Flink
+  - [Flink ML](http://juanrh.github.io/doc/flink/flink-ml/scaladocs/)
