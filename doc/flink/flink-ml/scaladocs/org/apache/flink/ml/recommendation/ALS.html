@@ -1,0 +1,683 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html>
+        <head>
+          <title>ALS - flink-ml 1.1-SNAPSHOT API - org.apache.flink.ml.recommendation.ALS</title>
+          <meta name="description" content="ALS - flink - ml 1.1 - SNAPSHOT API - org.apache.flink.ml.recommendation.ALS" />
+          <meta name="keywords" content="ALS flink ml 1.1 SNAPSHOT API org.apache.flink.ml.recommendation.ALS" />
+          <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+          
+      <link href="../../../../../lib/template.css" media="screen" type="text/css" rel="stylesheet" />
+      <link href="../../../../../lib/diagrams.css" media="screen" type="text/css" rel="stylesheet" id="diagrams-css" />
+      <script type="text/javascript">
+         if(top === self) {
+            var url = '../../../../../index.html';
+            var hash = 'org.apache.flink.ml.recommendation.ALS';
+            var anchor = window.location.hash;
+            var anchor_opt = '';
+            if (anchor.length >= 1)
+              anchor_opt = '@' + anchor.substring(1);
+            window.location.href = url + '#' + hash + anchor_opt;
+         }
+   	  </script>
+    
+        </head>
+        <body class="type">
+      <div id="definition">
+        <a href="ALS$.html" title="Go to companion"><img src="../../../../../lib/class_to_object_big.png" /></a>
+        <p id="owner"><a href="../../../../package.html" class="extype" name="org">org</a>.<a href="../../../package.html" class="extype" name="org.apache">apache</a>.<a href="../../package.html" class="extype" name="org.apache.flink">flink</a>.<a href="../package.html" class="extype" name="org.apache.flink.ml">ml</a>.<a href="package.html" class="extype" name="org.apache.flink.ml.recommendation">recommendation</a></p>
+        <h1><a href="ALS$.html" title="Go to companion">ALS</a></h1>
+      </div>
+
+      <h4 id="signature" class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <span class="name">ALS</span><span class="result"> extends <a href="../pipeline/Predictor.html" class="extype" name="org.apache.flink.ml.pipeline.Predictor">Predictor</a>[<a href="" class="extype" name="org.apache.flink.ml.recommendation.ALS">ALS</a>]</span>
+      </span>
+      </h4>
+      
+          <div id="comment" class="fullcommenttop"><div class="comment cmt"><p>Alternating least squares algorithm to calculate a matrix factorization.</p><p>Given a matrix <code>R</code>, ALS calculates two matricess <code>U</code> and <code>V</code> such that <code>R ~~ U^TV<code>. The
+unknown row dimension is given by the number of latent factors. Since matrix factorization
+is often used in the context of recommendation, we'll call the first matrix the user and the
+second matrix the item matrix. The </code>i<code>th column of the user matrix is </code>u_i<code> and the </code>i<code>th
+column of the item matrix is </code>v_i<code>. The matrix </code>R<code> is called the ratings matrix and
+<code>(R)_{i,j} = r_{i,j}</code>.</code></code></p><p>In order to find the user and item matrix, the following problem is solved:</p><p><code>argmin_{U,V} sum_(i,j\ with\ r_{i,j} != 0) (r_{i,j} - u_{i}<sup>Tv_{j})</sup>2 +
+lambda (sum_(i) n_{u_i} ||u_i||<sup>2 + sum_(j) n_{v_j} ||v_j||</sup>2)</code></p><p>with <code>\lambda</code> being the regularization factor, <code>n_{u_i}</code> being the number of items the user <code>i</code>
+has rated and <code>n_{v_j}</code> being the number of times the item <code>j</code> has been rated. This
+regularization scheme to avoid overfitting is called weighted-lambda-regularization. Details
+can be found in the work of <a href="http://dx.doi.org/10.1007/978-3-540-68880-8_32" target="_blank">Zhou et al.</a>.</p><p>By fixing one of the matrices <code>U</code> or <code>V</code> one obtains a quadratic form which can be solved. The
+solution of the modified problem is guaranteed to decrease the overall cost function. By
+applying this step alternately to the matrices <code>U</code> and <code>V</code>, we can iteratively improve the
+matrix factorization.</p><p>The matrix <code>R</code> is given in its sparse representation as a tuple of <code>(i, j, r)</code> where <code>i</code> is the
+row index, <code>j</code> is the column index and <code>r</code> is the matrix value at position <code>(i,j)</code>.
+</p></div><dl class="attributes block"> <div class="block">Example:
+               <ol><li class="cmt"><p></p><pre><span class="kw">val</span> inputDS: DataSet[(<span class="std">Int</span>, <span class="std">Int</span>, <span class="std">Double</span>)] = env.readCsvFile[(<span class="std">Int</span>, <span class="std">Int</span>, <span class="std">Double</span>)](
+  pathToTrainingFile)
+
+<span class="kw">val</span> als = ALS()
+  .setIterations(<span class="num">10</span>)
+  .setNumFactors(<span class="num">10</span>)
+
+als.fit(inputDS)
+
+<span class="kw">val</span> data2Predict: DataSet[(<span class="std">Int</span>, <span class="std">Int</span>)] = env.readCsvFile[(<span class="std">Int</span>, <span class="std">Int</span>)](pathToData)
+
+als.predict(data2Predict)</pre><h3>Parameters</h3><ul><li><a href="ALS$$NumFactors$.html" class="extype" name="org.apache.flink.ml.recommendation.ALS.NumFactors">org.apache.flink.ml.recommendation.ALS.NumFactors</a>:
+ The number of latent factors. It is the dimension of the calculated user and item vectors.
+ (Default value: <b>10</b>)</li><li><a href="ALS$$Lambda$.html" class="extype" name="org.apache.flink.ml.recommendation.ALS.Lambda">org.apache.flink.ml.recommendation.ALS.Lambda</a>:
+ Regularization factor. Tune this value in order to avoid overfitting/generalization.
+ (Default value: <b>1</b>)</li><li><a href="../regression/MultipleLinearRegression$$Iterations$.html" class="extype" name="org.apache.flink.ml.regression.MultipleLinearRegression.Iterations">org.apache.flink.ml.regression.MultipleLinearRegression.Iterations</a>:
+ The number of iterations to perform. (Default value: <b>10</b>)</li><li><a href="ALS$$Blocks$.html" class="extype" name="org.apache.flink.ml.recommendation.ALS.Blocks">org.apache.flink.ml.recommendation.ALS.Blocks</a>:
+ The number of blocks into which the user and item matrix a grouped. The fewer
+ blocks one uses, the less data is sent redundantly. However, bigger blocks entail bigger
+ update messages which have to be stored on the Heap. If the algorithm fails because of
+ an OutOfMemoryException, then try to increase the number of blocks. (Default value: <b>None</b>)</li><li><a href="ALS$$Seed$.html" class="extype" name="org.apache.flink.ml.recommendation.ALS.Seed">org.apache.flink.ml.recommendation.ALS.Seed</a>:
+ Random seed used to generate the initial item matrix for the algorithm.
+ (Default value: <b>0</b>)</li><li><a href="ALS$$TemporaryPath$.html" class="extype" name="org.apache.flink.ml.recommendation.ALS.TemporaryPath">org.apache.flink.ml.recommendation.ALS.TemporaryPath</a>:
+ Path to a temporary directory into which intermediate results are stored. If
+ this value is set, then the algorithm is split into two preprocessing steps, the ALS iteration
+ and a post-processing step which calculates a last ALS half-step. The preprocessing steps
+ calculate the <a href="ALS$$OutBlockInformation.html" class="extype" name="org.apache.flink.ml.recommendation.ALS.OutBlockInformation">org.apache.flink.ml.recommendation.ALS.OutBlockInformation</a> and
+ <a href="ALS$$InBlockInformation.html" class="extype" name="org.apache.flink.ml.recommendation.ALS.InBlockInformation">org.apache.flink.ml.recommendation.ALS.InBlockInformation</a> for the given rating matrix.
+ The result of the individual steps are stored in the specified directory. By splitting the
+ algorithm into multiple smaller steps, Flink does not have to split the available memory
+ amongst too many operators. This allows the system to process bigger individual messasges and
+ improves the overall performance. (Default value: <b>None</b>)</li></ul><p>The ALS implementation is based on Spark's MLLib implementation of ALS which you can find
+<span class="extype" name="https://github.com/apache/spark/blob/master/mllib/src/main/scala/org/apache/spark/mllib/
+recommendation/ALS.scala">here</span>.
+</p></li></ol>
+            </div></dl><div class="toggleContainer block">
+          <span class="toggle">Linear Supertypes</span>
+          <div class="superTypes hiddenContent"><a href="../pipeline/Predictor.html" class="extype" name="org.apache.flink.ml.pipeline.Predictor">Predictor</a>[<a href="" class="extype" name="org.apache.flink.ml.recommendation.ALS">ALS</a>], <a href="../pipeline/Estimator.html" class="extype" name="org.apache.flink.ml.pipeline.Estimator">Estimator</a>[<a href="" class="extype" name="org.apache.flink.ml.recommendation.ALS">ALS</a>], <a href="../common/WithParameters.html" class="extype" name="org.apache.flink.ml.common.WithParameters">WithParameters</a>, <span class="extype" name="scala.AnyRef">AnyRef</span>, <span class="extype" name="scala.Any">Any</span></div>
+        </div></div>
+        
+
+      <div id="mbrsel">
+        <div id="textfilter"><span class="pre"></span><span class="input"><input id="mbrsel-input" type="text" accesskey="/" /></span><span class="post"></span></div>
+        <div id="order">
+              <span class="filtertype">Ordering</span>
+              <ol>
+                
+                <li class="alpha in"><span>Alphabetic</span></li>
+                <li class="inherit out"><span>By inheritance</span></li>
+              </ol>
+            </div>
+        <div id="ancestors">
+                <span class="filtertype">Inherited<br />
+                </span>
+                <ol id="linearization">
+                  <li class="in" name="org.apache.flink.ml.recommendation.ALS"><span>ALS</span></li><li class="in" name="org.apache.flink.ml.pipeline.Predictor"><span>Predictor</span></li><li class="in" name="org.apache.flink.ml.pipeline.Estimator"><span>Estimator</span></li><li class="in" name="org.apache.flink.ml.common.WithParameters"><span>WithParameters</span></li><li class="in" name="scala.AnyRef"><span>AnyRef</span></li><li class="in" name="scala.Any"><span>Any</span></li>
+                </ol>
+              </div><div id="ancestors">
+            <span class="filtertype"></span>
+            <ol>
+              <li class="hideall out"><span>Hide All</span></li>
+              <li class="showall in"><span>Show all</span></li>
+            </ol>
+            <a href="http://docs.scala-lang.org/overviews/scaladoc/usage.html#members" target="_blank">Learn more about member selection</a>
+          </div>
+        <div id="visbl">
+            <span class="filtertype">Visibility</span>
+            <ol><li class="public in"><span>Public</span></li><li class="all out"><span>All</span></li></ol>
+          </div>
+      </div>
+
+      <div id="template">
+        <div id="allMembers">
+        <div id="constructors" class="members">
+              <h3>Instance Constructors</h3>
+              <ol><li name="org.apache.flink.ml.recommendation.ALS#&lt;init&gt;" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="&lt;init&gt;():org.apache.flink.ml.recommendation.ALS"></a>
+      <a id="&lt;init&gt;:ALS"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">new</span>
+      </span>
+      <span class="symbol">
+        <span class="name">ALS</span><span class="params">()</span>
+      </span>
+      </h4>
+      
+    </li></ol>
+            </div>
+
+        
+
+        
+
+        <div id="values" class="values members">
+              <h3>Value Members</h3>
+              <ol><li name="scala.AnyRef#!=" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="!=(x$1:AnyRef):Boolean"></a>
+      <a id="!=(AnyRef):Boolean"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span title="gt4s: $bang$eq" class="name">!=</span><span class="params">(<span name="arg0">arg0: <span class="extype" name="scala.AnyRef">AnyRef</span></span>)</span><span class="result">: <span class="extype" name="scala.Boolean">Boolean</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef</dd></dl></div>
+    </li><li name="scala.Any#!=" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="!=(x$1:Any):Boolean"></a>
+      <a id="!=(Any):Boolean"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span title="gt4s: $bang$eq" class="name">!=</span><span class="params">(<span name="arg0">arg0: <span class="extype" name="scala.Any">Any</span></span>)</span><span class="result">: <span class="extype" name="scala.Boolean">Boolean</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>Any</dd></dl></div>
+    </li><li name="scala.AnyRef###" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="##():Int"></a>
+      <a id="##():Int"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span title="gt4s: $hash$hash" class="name">##</span><span class="params">()</span><span class="result">: <span class="extype" name="scala.Int">Int</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef → Any</dd></dl></div>
+    </li><li name="scala.AnyRef#==" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="==(x$1:AnyRef):Boolean"></a>
+      <a id="==(AnyRef):Boolean"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span title="gt4s: $eq$eq" class="name">==</span><span class="params">(<span name="arg0">arg0: <span class="extype" name="scala.AnyRef">AnyRef</span></span>)</span><span class="result">: <span class="extype" name="scala.Boolean">Boolean</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef</dd></dl></div>
+    </li><li name="scala.Any#==" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="==(x$1:Any):Boolean"></a>
+      <a id="==(Any):Boolean"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span title="gt4s: $eq$eq" class="name">==</span><span class="params">(<span name="arg0">arg0: <span class="extype" name="scala.Any">Any</span></span>)</span><span class="result">: <span class="extype" name="scala.Boolean">Boolean</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>Any</dd></dl></div>
+    </li><li name="scala.Any#asInstanceOf" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="asInstanceOf[T0]:T0"></a>
+      <a id="asInstanceOf[T0]:T0"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">asInstanceOf</span><span class="tparams">[<span name="T0">T0</span>]</span><span class="result">: <span class="extype" name="scala.Any.asInstanceOf.T0">T0</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>Any</dd></dl></div>
+    </li><li name="scala.AnyRef#clone" visbl="prt" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="clone():Object"></a>
+      <a id="clone():AnyRef"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">clone</span><span class="params">()</span><span class="result">: <span class="extype" name="scala.AnyRef">AnyRef</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected[<a href="../../../../../java$lang.html" class="extype" name="java.lang">java.lang</a>] </dd><dt>Definition Classes</dt><dd>AnyRef</dd><dt>Annotations</dt><dd>
+                <span class="name">@throws</span><span class="args">(<span>
+      
+      <span class="defval" name="classOf[java.lang.CloneNotSupportedException]">...</span>
+    </span>)</span>
+              
+        </dd></dl></div>
+    </li><li name="org.apache.flink.ml.recommendation.ALS#empiricalRisk" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="empiricalRisk(labeledData:org.apache.flink.api.scala.DataSet[(Int,Int,Double)],riskParameters:org.apache.flink.ml.common.ParameterMap):org.apache.flink.api.scala.DataSet[Double]"></a>
+      <a id="empiricalRisk(DataSet[(Int,Int,Double)],ParameterMap):DataSet[Double]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">empiricalRisk</span><span class="params">(<span name="labeledData">labeledData: <span class="extype" name="org.apache.flink.api.scala.DataSet">DataSet</span>[(<span class="extype" name="scala.Int">Int</span>, <span class="extype" name="scala.Int">Int</span>, <span class="extype" name="scala.Double">Double</span>)]</span>, <span name="riskParameters">riskParameters: <a href="../common/ParameterMap.html" class="extype" name="org.apache.flink.ml.common.ParameterMap">ParameterMap</a> = <span class="symbol"><span class="name"><a href="../../../../package.html">ParameterMap.Empty</a></span></span></span>)</span><span class="result">: <span class="extype" name="org.apache.flink.api.scala.DataSet">DataSet</span>[<span class="extype" name="scala.Double">Double</span>]</span>
+      </span>
+      </h4>
+      <p class="shortcomment cmt">Empirical risk of the trained model (matrix factorization).</p><div class="fullcomment"><div class="comment cmt"><p>Empirical risk of the trained model (matrix factorization).
+</p></div><dl class="paramcmts block"><dt class="param">labeledData</dt><dd class="cmt"><p>Reference data</p></dd><dt class="param">riskParameters</dt><dd class="cmt"><p>Additional parameters for the empirical risk calculation</p></dd><dt>returns</dt><dd class="cmt"><p>
+</p></dd></dl></div>
+    </li><li name="scala.AnyRef#eq" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="eq(x$1:AnyRef):Boolean"></a>
+      <a id="eq(AnyRef):Boolean"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">eq</span><span class="params">(<span name="arg0">arg0: <span class="extype" name="scala.AnyRef">AnyRef</span></span>)</span><span class="result">: <span class="extype" name="scala.Boolean">Boolean</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef</dd></dl></div>
+    </li><li name="scala.AnyRef#equals" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="equals(x$1:Any):Boolean"></a>
+      <a id="equals(Any):Boolean"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">equals</span><span class="params">(<span name="arg0">arg0: <span class="extype" name="scala.Any">Any</span></span>)</span><span class="result">: <span class="extype" name="scala.Boolean">Boolean</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef → Any</dd></dl></div>
+    </li><li name="org.apache.flink.ml.pipeline.Predictor#evaluate" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="evaluate[Testing,PredictionValue](testing:org.apache.flink.api.scala.DataSet[Testing],evaluateParameters:org.apache.flink.ml.common.ParameterMap)(implicitevaluator:org.apache.flink.ml.pipeline.EvaluateDataSetOperation[Self,Testing,PredictionValue]):org.apache.flink.api.scala.DataSet[(PredictionValue,PredictionValue)]"></a>
+      <a id="evaluate[Testing,PredictionValue](DataSet[Testing],ParameterMap)(EvaluateDataSetOperation[ALS,Testing,PredictionValue]):DataSet[(PredictionValue,PredictionValue)]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">evaluate</span><span class="tparams">[<span name="Testing">Testing</span>, <span name="PredictionValue">PredictionValue</span>]</span><span class="params">(<span name="testing">testing: <span class="extype" name="org.apache.flink.api.scala.DataSet">DataSet</span>[<span class="extype" name="org.apache.flink.ml.pipeline.Predictor.evaluate.Testing">Testing</span>]</span>, <span name="evaluateParameters">evaluateParameters: <a href="../common/ParameterMap.html" class="extype" name="org.apache.flink.ml.common.ParameterMap">ParameterMap</a> = <span class="symbol"><span class="name"><a href="../../../../package.html">ParameterMap.Empty</a></span></span></span>)</span><span class="params">(<span class="implicit">implicit </span><span name="evaluator">evaluator: <a href="../pipeline/EvaluateDataSetOperation.html" class="extype" name="org.apache.flink.ml.pipeline.EvaluateDataSetOperation">EvaluateDataSetOperation</a>[<a href="" class="extype" name="org.apache.flink.ml.recommendation.ALS">ALS</a>, <span class="extype" name="org.apache.flink.ml.pipeline.Predictor.evaluate.Testing">Testing</span>, <span class="extype" name="org.apache.flink.ml.pipeline.Predictor.evaluate.PredictionValue">PredictionValue</span>]</span>)</span><span class="result">: <span class="extype" name="org.apache.flink.api.scala.DataSet">DataSet</span>[(<span class="extype" name="org.apache.flink.ml.pipeline.Predictor.evaluate.PredictionValue">PredictionValue</span>, <span class="extype" name="org.apache.flink.ml.pipeline.Predictor.evaluate.PredictionValue">PredictionValue</span>)]</span>
+      </span>
+      </h4>
+      <p class="shortcomment cmt">Evaluates the testing data by computing the prediction value and returning a pair of true
+label value and prediction value.</p><div class="fullcomment"><div class="comment cmt"><p>Evaluates the testing data by computing the prediction value and returning a pair of true
+label value and prediction value. It is important that the implementation chooses a Testing
+type from which it can extract the true label value.
+</p></div><dl class="paramcmts block"><dt class="tparam">Testing</dt><dd class="cmt"></dd><dt class="tparam">PredictionValue</dt><dd class="cmt"></dd><dt class="param">testing</dt><dd class="cmt"></dd><dt class="param">evaluateParameters</dt><dd class="cmt"></dd><dt class="param">evaluator</dt><dd class="cmt"></dd><dt>returns</dt><dd class="cmt"><p>
+</p></dd></dl><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="../pipeline/Predictor.html" class="extype" name="org.apache.flink.ml.pipeline.Predictor">Predictor</a></dd></dl></div>
+    </li><li name="org.apache.flink.ml.recommendation.ALS#factorsOption" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="factorsOption:Option[(org.apache.flink.api.scala.DataSet[org.apache.flink.ml.recommendation.ALS.Factors],org.apache.flink.api.scala.DataSet[org.apache.flink.ml.recommendation.ALS.Factors])]"></a>
+      <a id="factorsOption:Option[(DataSet[Factors],DataSet[Factors])]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">var</span>
+      </span>
+      <span class="symbol">
+        <span class="name">factorsOption</span><span class="result">: <span class="extype" name="scala.Option">Option</span>[(<span class="extype" name="org.apache.flink.api.scala.DataSet">DataSet</span>[<a href="ALS$$Factors.html" class="extype" name="org.apache.flink.ml.recommendation.ALS.Factors">Factors</a>], <span class="extype" name="org.apache.flink.api.scala.DataSet">DataSet</span>[<a href="ALS$$Factors.html" class="extype" name="org.apache.flink.ml.recommendation.ALS.Factors">Factors</a>])]</span>
+      </span>
+      </h4>
+      
+    </li><li name="scala.AnyRef#finalize" visbl="prt" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="finalize():Unit"></a>
+      <a id="finalize():Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">finalize</span><span class="params">()</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected[<a href="../../../../../java$lang.html" class="extype" name="java.lang">java.lang</a>] </dd><dt>Definition Classes</dt><dd>AnyRef</dd><dt>Annotations</dt><dd>
+                <span class="name">@throws</span><span class="args">(<span>
+      
+      <span class="symbol">classOf[java.lang.Throwable]</span>
+    </span>)</span>
+              
+        </dd></dl></div>
+    </li><li name="org.apache.flink.ml.pipeline.Estimator#fit" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="fit[Training](training:org.apache.flink.api.scala.DataSet[Training],fitParameters:org.apache.flink.ml.common.ParameterMap)(implicitfitOperation:org.apache.flink.ml.pipeline.FitOperation[Self,Training]):Unit"></a>
+      <a id="fit[Training](DataSet[Training],ParameterMap)(FitOperation[ALS,Training]):Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">fit</span><span class="tparams">[<span name="Training">Training</span>]</span><span class="params">(<span name="training">training: <span class="extype" name="org.apache.flink.api.scala.DataSet">DataSet</span>[<span class="extype" name="org.apache.flink.ml.pipeline.Estimator.fit.Training">Training</span>]</span>, <span name="fitParameters">fitParameters: <a href="../common/ParameterMap.html" class="extype" name="org.apache.flink.ml.common.ParameterMap">ParameterMap</a> = <span class="symbol"><span class="name"><a href="../../../../package.html">ParameterMap.Empty</a></span></span></span>)</span><span class="params">(<span class="implicit">implicit </span><span name="fitOperation">fitOperation: <a href="../pipeline/FitOperation.html" class="extype" name="org.apache.flink.ml.pipeline.FitOperation">FitOperation</a>[<a href="" class="extype" name="org.apache.flink.ml.recommendation.ALS">ALS</a>, <span class="extype" name="org.apache.flink.ml.pipeline.Estimator.fit.Training">Training</span>]</span>)</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      </h4>
+      <p class="shortcomment cmt">Fits the estimator to the given input data.</p><div class="fullcomment"><div class="comment cmt"><p>Fits the estimator to the given input data. The fitting logic is contained in the
+<span class="extype" name="FitOperation">FitOperation</span>. The computed state will be stored in the implementing class.
+</p></div><dl class="paramcmts block"><dt class="tparam">Training</dt><dd class="cmt"><p>Type of the training data</p></dd><dt class="param">training</dt><dd class="cmt"><p>Training data</p></dd><dt class="param">fitParameters</dt><dd class="cmt"><p>Additional parameters for the <span class="extype" name="FitOperation">FitOperation</span></p></dd><dt class="param">fitOperation</dt><dd class="cmt"><p><span class="extype" name="FitOperation">FitOperation</span> which encapsulates the algorithm logic</p></dd><dt>returns</dt><dd class="cmt"><p>
+</p></dd></dl><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="../pipeline/Estimator.html" class="extype" name="org.apache.flink.ml.pipeline.Estimator">Estimator</a></dd></dl></div>
+    </li><li name="scala.AnyRef#getClass" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="getClass():Class[_]"></a>
+      <a id="getClass():Class[_]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">getClass</span><span class="params">()</span><span class="result">: <span class="extype" name="java.lang.Class">Class</span>[_]</span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef → Any</dd></dl></div>
+    </li><li name="scala.AnyRef#hashCode" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="hashCode():Int"></a>
+      <a id="hashCode():Int"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">hashCode</span><span class="params">()</span><span class="result">: <span class="extype" name="scala.Int">Int</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef → Any</dd></dl></div>
+    </li><li name="scala.Any#isInstanceOf" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="isInstanceOf[T0]:Boolean"></a>
+      <a id="isInstanceOf[T0]:Boolean"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">isInstanceOf</span><span class="tparams">[<span name="T0">T0</span>]</span><span class="result">: <span class="extype" name="scala.Boolean">Boolean</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>Any</dd></dl></div>
+    </li><li name="scala.AnyRef#ne" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="ne(x$1:AnyRef):Boolean"></a>
+      <a id="ne(AnyRef):Boolean"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">ne</span><span class="params">(<span name="arg0">arg0: <span class="extype" name="scala.AnyRef">AnyRef</span></span>)</span><span class="result">: <span class="extype" name="scala.Boolean">Boolean</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef</dd></dl></div>
+    </li><li name="scala.AnyRef#notify" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="notify():Unit"></a>
+      <a id="notify():Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">notify</span><span class="params">()</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef</dd></dl></div>
+    </li><li name="scala.AnyRef#notifyAll" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="notifyAll():Unit"></a>
+      <a id="notifyAll():Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">notifyAll</span><span class="params">()</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef</dd></dl></div>
+    </li><li name="org.apache.flink.ml.common.WithParameters#parameters" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="parameters:org.apache.flink.ml.common.ParameterMap"></a>
+      <a id="parameters:ParameterMap"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">parameters</span><span class="result">: <a href="../common/ParameterMap.html" class="extype" name="org.apache.flink.ml.common.ParameterMap">ParameterMap</a></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="../common/WithParameters.html" class="extype" name="org.apache.flink.ml.common.WithParameters">WithParameters</a></dd></dl></div>
+    </li><li name="org.apache.flink.ml.pipeline.Predictor#predict" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="predict[Testing,Prediction](testing:org.apache.flink.api.scala.DataSet[Testing],predictParameters:org.apache.flink.ml.common.ParameterMap)(implicitpredictor:org.apache.flink.ml.pipeline.PredictDataSetOperation[Self,Testing,Prediction]):org.apache.flink.api.scala.DataSet[Prediction]"></a>
+      <a id="predict[Testing,Prediction](DataSet[Testing],ParameterMap)(PredictDataSetOperation[ALS,Testing,Prediction]):DataSet[Prediction]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">predict</span><span class="tparams">[<span name="Testing">Testing</span>, <span name="Prediction">Prediction</span>]</span><span class="params">(<span name="testing">testing: <span class="extype" name="org.apache.flink.api.scala.DataSet">DataSet</span>[<span class="extype" name="org.apache.flink.ml.pipeline.Predictor.predict.Testing">Testing</span>]</span>, <span name="predictParameters">predictParameters: <a href="../common/ParameterMap.html" class="extype" name="org.apache.flink.ml.common.ParameterMap">ParameterMap</a> = <span class="symbol"><span class="name"><a href="../../../../package.html">ParameterMap.Empty</a></span></span></span>)</span><span class="params">(<span class="implicit">implicit </span><span name="predictor">predictor: <a href="../pipeline/PredictDataSetOperation.html" class="extype" name="org.apache.flink.ml.pipeline.PredictDataSetOperation">PredictDataSetOperation</a>[<a href="" class="extype" name="org.apache.flink.ml.recommendation.ALS">ALS</a>, <span class="extype" name="org.apache.flink.ml.pipeline.Predictor.predict.Testing">Testing</span>, <span class="extype" name="org.apache.flink.ml.pipeline.Predictor.predict.Prediction">Prediction</span>]</span>)</span><span class="result">: <span class="extype" name="org.apache.flink.api.scala.DataSet">DataSet</span>[<span class="extype" name="org.apache.flink.ml.pipeline.Predictor.predict.Prediction">Prediction</span>]</span>
+      </span>
+      </h4>
+      <p class="shortcomment cmt">Predict testing data according the learned model.</p><div class="fullcomment"><div class="comment cmt"><p>Predict testing data according the learned model. The implementing class has to provide
+a corresponding implementation of <span class="extype" name="PredictDataSetOperation">PredictDataSetOperation</span> which contains the prediction
+logic.
+</p></div><dl class="paramcmts block"><dt class="tparam">Testing</dt><dd class="cmt"><p>Type of the testing data</p></dd><dt class="tparam">Prediction</dt><dd class="cmt"><p>Type of the prediction data</p></dd><dt class="param">testing</dt><dd class="cmt"><p>Testing data which shall be predicted</p></dd><dt class="param">predictParameters</dt><dd class="cmt"><p>Additional parameters for the prediction</p></dd><dt class="param">predictor</dt><dd class="cmt"><p><span class="extype" name="PredictDataSetOperation">PredictDataSetOperation</span> which encapsulates the prediction logic</p></dd><dt>returns</dt><dd class="cmt"><p>
+</p></dd></dl><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="../pipeline/Predictor.html" class="extype" name="org.apache.flink.ml.pipeline.Predictor">Predictor</a></dd></dl></div>
+    </li><li name="org.apache.flink.ml.recommendation.ALS#setBlocks" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="setBlocks(blocks:Int):org.apache.flink.ml.recommendation.ALS"></a>
+      <a id="setBlocks(Int):ALS"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">setBlocks</span><span class="params">(<span name="blocks">blocks: <span class="extype" name="scala.Int">Int</span></span>)</span><span class="result">: <a href="" class="extype" name="org.apache.flink.ml.recommendation.ALS">ALS</a></span>
+      </span>
+      </h4>
+      <p class="shortcomment cmt">Sets the number of blocks into which the user and item matrix shall be partitioned
+</p><div class="fullcomment"><div class="comment cmt"><p>Sets the number of blocks into which the user and item matrix shall be partitioned
+</p></div><dl class="paramcmts block"><dt class="param">blocks</dt><dd class="cmt"></dd><dt>returns</dt><dd class="cmt"><p>
+</p></dd></dl></div>
+    </li><li name="org.apache.flink.ml.recommendation.ALS#setIterations" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="setIterations(iterations:Int):org.apache.flink.ml.recommendation.ALS"></a>
+      <a id="setIterations(Int):ALS"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">setIterations</span><span class="params">(<span name="iterations">iterations: <span class="extype" name="scala.Int">Int</span></span>)</span><span class="result">: <a href="" class="extype" name="org.apache.flink.ml.recommendation.ALS">ALS</a></span>
+      </span>
+      </h4>
+      <p class="shortcomment cmt">Sets the number of iterations of the ALS algorithm
+</p><div class="fullcomment"><div class="comment cmt"><p>Sets the number of iterations of the ALS algorithm
+</p></div><dl class="paramcmts block"><dt class="param">iterations</dt><dd class="cmt"></dd><dt>returns</dt><dd class="cmt"><p>
+</p></dd></dl></div>
+    </li><li name="org.apache.flink.ml.recommendation.ALS#setLambda" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="setLambda(lambda:Double):org.apache.flink.ml.recommendation.ALS"></a>
+      <a id="setLambda(Double):ALS"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">setLambda</span><span class="params">(<span name="lambda">lambda: <span class="extype" name="scala.Double">Double</span></span>)</span><span class="result">: <a href="" class="extype" name="org.apache.flink.ml.recommendation.ALS">ALS</a></span>
+      </span>
+      </h4>
+      <p class="shortcomment cmt">Sets the regularization coefficient lambda
+</p><div class="fullcomment"><div class="comment cmt"><p>Sets the regularization coefficient lambda
+</p></div><dl class="paramcmts block"><dt class="param">lambda</dt><dd class="cmt"></dd><dt>returns</dt><dd class="cmt"><p>
+</p></dd></dl></div>
+    </li><li name="org.apache.flink.ml.recommendation.ALS#setNumFactors" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="setNumFactors(numFactors:Int):org.apache.flink.ml.recommendation.ALS"></a>
+      <a id="setNumFactors(Int):ALS"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">setNumFactors</span><span class="params">(<span name="numFactors">numFactors: <span class="extype" name="scala.Int">Int</span></span>)</span><span class="result">: <a href="" class="extype" name="org.apache.flink.ml.recommendation.ALS">ALS</a></span>
+      </span>
+      </h4>
+      <p class="shortcomment cmt">Sets the number of latent factors/row dimension of the latent model
+</p><div class="fullcomment"><div class="comment cmt"><p>Sets the number of latent factors/row dimension of the latent model
+</p></div><dl class="paramcmts block"><dt class="param">numFactors</dt><dd class="cmt"></dd><dt>returns</dt><dd class="cmt"><p>
+</p></dd></dl></div>
+    </li><li name="org.apache.flink.ml.recommendation.ALS#setSeed" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="setSeed(seed:Long):org.apache.flink.ml.recommendation.ALS"></a>
+      <a id="setSeed(Long):ALS"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">setSeed</span><span class="params">(<span name="seed">seed: <span class="extype" name="scala.Long">Long</span></span>)</span><span class="result">: <a href="" class="extype" name="org.apache.flink.ml.recommendation.ALS">ALS</a></span>
+      </span>
+      </h4>
+      <p class="shortcomment cmt">Sets the random seed for the initial item matrix initialization
+</p><div class="fullcomment"><div class="comment cmt"><p>Sets the random seed for the initial item matrix initialization
+</p></div><dl class="paramcmts block"><dt class="param">seed</dt><dd class="cmt"></dd><dt>returns</dt><dd class="cmt"><p>
+</p></dd></dl></div>
+    </li><li name="org.apache.flink.ml.recommendation.ALS#setTemporaryPath" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="setTemporaryPath(temporaryPath:String):org.apache.flink.ml.recommendation.ALS"></a>
+      <a id="setTemporaryPath(String):ALS"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">setTemporaryPath</span><span class="params">(<span name="temporaryPath">temporaryPath: <span class="extype" name="scala.Predef.String">String</span></span>)</span><span class="result">: <a href="" class="extype" name="org.apache.flink.ml.recommendation.ALS">ALS</a></span>
+      </span>
+      </h4>
+      <p class="shortcomment cmt">Sets the temporary path into which intermediate results are written in order to increase
+performance.</p><div class="fullcomment"><div class="comment cmt"><p>Sets the temporary path into which intermediate results are written in order to increase
+performance.
+</p></div><dl class="paramcmts block"><dt class="param">temporaryPath</dt><dd class="cmt"></dd><dt>returns</dt><dd class="cmt"><p>
+</p></dd></dl></div>
+    </li><li name="scala.AnyRef#synchronized" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="synchronized[T0](x$1:=&gt;T0):T0"></a>
+      <a id="synchronized[T0](⇒T0):T0"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">synchronized</span><span class="tparams">[<span name="T0">T0</span>]</span><span class="params">(<span name="arg0">arg0: ⇒ <span class="extype" name="java.lang.AnyRef.synchronized.T0">T0</span></span>)</span><span class="result">: <span class="extype" name="java.lang.AnyRef.synchronized.T0">T0</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef</dd></dl></div>
+    </li><li name="scala.AnyRef#toString" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="toString():String"></a>
+      <a id="toString():String"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">toString</span><span class="params">()</span><span class="result">: <span class="extype" name="java.lang.String">String</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef → Any</dd></dl></div>
+    </li><li name="scala.AnyRef#wait" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="wait():Unit"></a>
+      <a id="wait():Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">wait</span><span class="params">()</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef</dd><dt>Annotations</dt><dd>
+                <span class="name">@throws</span><span class="args">(<span>
+      
+      <span class="defval" name="classOf[java.lang.InterruptedException]">...</span>
+    </span>)</span>
+              
+        </dd></dl></div>
+    </li><li name="scala.AnyRef#wait" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="wait(x$1:Long,x$2:Int):Unit"></a>
+      <a id="wait(Long,Int):Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">wait</span><span class="params">(<span name="arg0">arg0: <span class="extype" name="scala.Long">Long</span></span>, <span name="arg1">arg1: <span class="extype" name="scala.Int">Int</span></span>)</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef</dd><dt>Annotations</dt><dd>
+                <span class="name">@throws</span><span class="args">(<span>
+      
+      <span class="defval" name="classOf[java.lang.InterruptedException]">...</span>
+    </span>)</span>
+              
+        </dd></dl></div>
+    </li><li name="scala.AnyRef#wait" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="wait(x$1:Long):Unit"></a>
+      <a id="wait(Long):Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">wait</span><span class="params">(<span name="arg0">arg0: <span class="extype" name="scala.Long">Long</span></span>)</span><span class="result">: <span class="extype" name="scala.Unit">Unit</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef</dd><dt>Annotations</dt><dd>
+                <span class="name">@throws</span><span class="args">(<span>
+      
+      <span class="defval" name="classOf[java.lang.InterruptedException]">...</span>
+    </span>)</span>
+              
+        </dd></dl></div>
+    </li></ol>
+            </div>
+
+        
+
+        
+        </div>
+
+        <div id="inheritedMembers">
+        <div class="parent" name="org.apache.flink.ml.pipeline.Predictor">
+              <h3>Inherited from <a href="../pipeline/Predictor.html" class="extype" name="org.apache.flink.ml.pipeline.Predictor">Predictor</a>[<a href="" class="extype" name="org.apache.flink.ml.recommendation.ALS">ALS</a>]</h3>
+            </div><div class="parent" name="org.apache.flink.ml.pipeline.Estimator">
+              <h3>Inherited from <a href="../pipeline/Estimator.html" class="extype" name="org.apache.flink.ml.pipeline.Estimator">Estimator</a>[<a href="" class="extype" name="org.apache.flink.ml.recommendation.ALS">ALS</a>]</h3>
+            </div><div class="parent" name="org.apache.flink.ml.common.WithParameters">
+              <h3>Inherited from <a href="../common/WithParameters.html" class="extype" name="org.apache.flink.ml.common.WithParameters">WithParameters</a></h3>
+            </div><div class="parent" name="scala.AnyRef">
+              <h3>Inherited from <span class="extype" name="scala.AnyRef">AnyRef</span></h3>
+            </div><div class="parent" name="scala.Any">
+              <h3>Inherited from <span class="extype" name="scala.Any">Any</span></h3>
+            </div>
+        
+        </div>
+
+        <div id="groupedMembers">
+        <div class="group" name="Ungrouped">
+              <h3>Ungrouped</h3>
+              
+            </div>
+        </div>
+
+      </div>
+
+      <div id="tooltip"></div>
+
+      <div id="footer">  </div>
+      <script defer="defer" type="text/javascript" id="jquery-js" src="../../../../../lib/jquery.js"></script><script defer="defer" type="text/javascript" id="jquery-ui-js" src="../../../../../lib/jquery-ui.js"></script><script defer="defer" type="text/javascript" id="tools-tooltip-js" src="../../../../../lib/tools.tooltip.js"></script><script defer="defer" type="text/javascript" id="template-js" src="../../../../../lib/template.js"></script>
+    </body>
+      </html>
