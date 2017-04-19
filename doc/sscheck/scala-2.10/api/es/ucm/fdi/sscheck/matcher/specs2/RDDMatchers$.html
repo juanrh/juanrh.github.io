@@ -163,6 +163,21 @@
       </span>
       </h4>
       <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>Any</dd></dl></div>
+    </li><li name="es.ucm.fdi.sscheck.matcher.specs2.RDDMatchers#beEqualAsSetTo" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="beEqualAsSetTo[T](actualRDD:org.apache.spark.rdd.RDD[T]):org.specs2.matcher.Matcher[org.apache.spark.rdd.RDD[T]]"></a>
+      <a id="beEqualAsSetTo[T](RDD[T]):Matcher[RDD[T]]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">beEqualAsSetTo</span><span class="tparams">[<span name="T">T</span>]</span><span class="params">(<span name="actualRDD">actualRDD: <span class="extype" name="org.apache.spark.rdd.RDD">RDD</span>[<span class="extype" name="es.ucm.fdi.sscheck.matcher.specs2.RDDMatchers.beEqualAsSetTo.T">T</span>]</span>)</span><span class="result">: <span class="extype" name="org.specs2.matcher.Matcher">Matcher</span>[<span class="extype" name="org.apache.spark.rdd.RDD">RDD</span>[<span class="extype" name="es.ucm.fdi.sscheck.matcher.specs2.RDDMatchers.beEqualAsSetTo.T">T</span>]]</span>
+      </span>
+      </h4>
+      <p class="shortcomment cmt"></p><div class="fullcomment"><div class="comment cmt"></div><dl class="paramcmts block"><dt>returns</dt><dd class="cmt"><p>a Matcher that checks that both RDDs are equal as sets. It is is recommended to
+        cache both RDDs to avoid recomputation
+</p></dd></dl></div>
     </li><li name="scala.AnyRef#clone" visbl="prt" data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="clone():Object"></a>
       <a id="clone():AnyRef"></a>
@@ -233,13 +248,12 @@
         <span class="name">existsRecord</span><span class="tparams">[<span name="T">T</span>]</span><span class="params">(<span name="predicate">predicate: (<span class="extype" name="es.ucm.fdi.sscheck.matcher.specs2.RDDMatchers.existsRecord.T">T</span>) ⇒ <span class="extype" name="scala.Boolean">Boolean</span></span>)</span><span class="result">: <span class="extype" name="org.specs2.matcher.Matcher">Matcher</span>[<span class="extype" name="org.apache.spark.rdd.RDD">RDD</span>[<span class="extype" name="es.ucm.fdi.sscheck.matcher.specs2.RDDMatchers.existsRecord.T">T</span>]]</span>
       </span>
       </h4>
-      <p class="shortcomment cmt">Returns a matcher that checks whether predicate holds for at least one of the records of
- an RDD or not.</p><div class="fullcomment"><div class="comment cmt"><p>Returns a matcher that checks whether predicate holds for at least one of the records of
+      <p class="shortcomment cmt"></p><div class="fullcomment"><div class="comment cmt"></div><dl class="paramcmts block"><dt>returns</dt><dd class="cmt"><p>a matcher that checks whether predicate holds for at least one of the records of
  an RDD or not.</p><p> NOTE: in case exceptions like the following are generated when using a closure for the
  the predicate, use the other variant of foreachRecord() to explicitly specify the context
  available to the closure</p><pre>Driver stacktrace:,org.apache.spark.SparkException: Job aborted due to stage failure:
 Task <span class="num">0</span> in stage <span class="num">0.0</span> failed <span class="num">1</span> times, most recent failure: Lost task <span class="num">0.0</span> in stage <span class="num">0.0</span> (TID <span class="num">0</span>, localhost):
-java.io.InvalidClassException: org.specs2.execute.Success; no valid constructor</pre></div></div>
+java.io.InvalidClassException: org.specs2.execute.Success; no valid constructor</pre></dd></dl></div>
     </li><li name="scala.AnyRef#finalize" visbl="prt" data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="finalize():Unit"></a>
       <a id="finalize():Unit"></a>
@@ -284,13 +298,12 @@ java.io.InvalidClassException: org.specs2.execute.Success; no valid constructor<
         <span class="name">foreachRecord</span><span class="tparams">[<span name="T">T</span>]</span><span class="params">(<span name="predicate">predicate: (<span class="extype" name="es.ucm.fdi.sscheck.matcher.specs2.RDDMatchers.foreachRecord.T">T</span>) ⇒ <span class="extype" name="scala.Boolean">Boolean</span></span>)</span><span class="result">: <span class="extype" name="org.specs2.matcher.Matcher">Matcher</span>[<span class="extype" name="org.apache.spark.rdd.RDD">RDD</span>[<span class="extype" name="es.ucm.fdi.sscheck.matcher.specs2.RDDMatchers.foreachRecord.T">T</span>]]</span>
       </span>
       </h4>
-      <p class="shortcomment cmt">Returns a matcher that checks whether predicate holds for all the records of
- an RDD or not.</p><div class="fullcomment"><div class="comment cmt"><p>Returns a matcher that checks whether predicate holds for all the records of
+      <p class="shortcomment cmt"></p><div class="fullcomment"><div class="comment cmt"></div><dl class="paramcmts block"><dt>returns</dt><dd class="cmt"><p>a matcher that checks whether predicate holds for all the records of
  an RDD or not.</p><p> NOTE: in case exceptions like the following are generated when using a closure for the
  the predicate, use the other variant of foreachRecord() to explicitly specify the context
  available to the closure</p><pre>Driver stacktrace:,org.apache.spark.SparkException: Job aborted due to stage failure:
 Task <span class="num">0</span> in stage <span class="num">0.0</span> failed <span class="num">1</span> times, most recent failure: Lost task <span class="num">0.0</span> in stage <span class="num">0.0</span> (TID <span class="num">0</span>, localhost):
-java.io.InvalidClassException: org.specs2.execute.Success; no valid constructor</pre></div></div>
+java.io.InvalidClassException: org.specs2.execute.Success; no valid constructor</pre></dd></dl></div>
     </li><li name="scala.AnyRef#getClass" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="getClass():Class[_]"></a>
       <a id="getClass():Class[_]"></a>
