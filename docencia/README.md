@@ -11,7 +11,7 @@ Apuntes de diversas asignaturas realizados como profesor de la [Universidad Comp
 ##### Teoría
 
 - [Introducción al curso](cursos/2011_2012/PDA/presentaciones/0-PDA_Introduccion.pdf)
-- Erlang
+- Erlang: ver también [programas de ejemplo](cursos/2011_2012/PDA/problemas/progs.tgz)
   1. [Erlang secuencial](cursos/2011_2012/PDA/presentaciones/1-PDA_Erlang.pdf)
   2. [Erlang concurrente](cursos/2011_2012/PDA/presentaciones/2-PDA_Erlang_2.pdf)
   3. [Otras capacidades de Erlang (records, macros, ETS/DETS, OTP behaviours, success types)](cursos/2011_2012/PDA/presentaciones/3-PDA_Erlang_3.pdf)
@@ -21,8 +21,7 @@ Apuntes de diversas asignaturas realizados como profesor de la [Universidad Comp
 - Erlang
   - [Prácticas de Erlang secuencial](cursos/2011_2012/PDA/problemas/01_Problemas_Erlang_1.pdf)
   - [Prácticas de Erlang concurrente](cursos/2011_2012/PDA/problemas/02_Problemas_Erlang_2.pdf)
-  - [Modelos de práctica final](cursos/2011_2012/PDA/problemas/02_Problemas_Erlang_2.pdf)
-  - [Programas de ejemplo](cursos/2011_2012/PDA/problemas/progs.tgz)
+  - [Modelos de práctica final](cursos/2011_2012/PDA/problemas/modelos_practicas_erlang.pdf)
 
 ### 2010-2011
 
