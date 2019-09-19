@@ -8,7 +8,7 @@ Apuntes de diversas asignaturas realizados como profesor de la [Universidad Comp
 
 #### Ingeniería del Software
 
-##### Presentaciones
+##### Teoría
 
 - [0. Introducción](cursos/2010_2011/IS/presentaciones/0-Introduccion.pdf)
 - [2.1 Coding and Unit Testing](cursos/2010_2011/IS/presentaciones/2.1-CodingAndUT_4.pdf)
