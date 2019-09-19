@@ -1,5 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1KDTree.html#add9af014556f5230ca5f038c9f8ca4bb" title="Builds the KDTree on the supplied set of instances/points." alt="" coords="571,5,933,35"/>
-<area shape="rect" id="node7" href="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1NormalizableDistance.html#a3cf847c3217f2f73d80969bfc7319e01" title="Initializes the distance function and automatically initializes the ranges." alt="" coords="501,59,1003,88"/>
-<area shape="rect" id="node5" href="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1KDTree.html#af220a59e6c7342d42b7e36da82d00af4" title="Builds the KDTree on the given set of instances." alt="" coords="1051,5,1416,35"/>
-</map>

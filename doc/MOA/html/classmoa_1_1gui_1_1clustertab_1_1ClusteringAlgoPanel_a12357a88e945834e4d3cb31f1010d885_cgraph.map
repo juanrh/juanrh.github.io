@@ -1,6 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1gui_1_1clustertab_1_1ClusteringAlgoPanel.html#ad58377c17093f21db0ffcecd12ee2a3f" title="moa.gui.clustertab.ClusteringAlgoPanel.applyChanges" alt="" coords="472,5,811,35"/>
-<area shape="rect" id="node5" href="$classmoa_1_1options_1_1ClassOption.html#abfcff77584985fa43bf7b3a1ff50568f" title="Gets the value of a Command Line Interface text as a string." alt="" coords="495,59,788,88"/>
-<area shape="rect" id="node7" href="$classmoa_1_1options_1_1ClassOption.html#a3b96c5ce84c6cd94a3676417d968205f" title="moa.options.ClassOption.objectToCLIString" alt="" coords="860,59,1137,88"/>
-<area shape="rect" id="node9" href="$classmoa_1_1options_1_1AbstractClassOption.html#a99164a3a010dec28f40f4397aec6ecfd" title="Gets the command line interface text of the class." alt="" coords="1187,59,1509,88"/>
-</map>

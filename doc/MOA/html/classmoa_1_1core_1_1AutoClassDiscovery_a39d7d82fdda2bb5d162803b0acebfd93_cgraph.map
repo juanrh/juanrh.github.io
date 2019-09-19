@@ -1,6 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1core_1_1AutoClassDiscovery.html#ae4e769fb668821c13463d8c7eccbeb09" title="moa.core.AutoClassDiscovery.findClassNames" alt="" coords="411,5,712,35"/>
-<area shape="rect" id="node7" href="$classmoa_1_1core_1_1AutoClassDiscovery.html#ac9779db7556fce4aed739f921c802aca" title="moa.core.AutoClassDiscovery.isPublicConcreteClassOfType" alt="" coords="372,59,751,88"/>
-<area shape="rect" id="node5" href="$classmoa_1_1core_1_1AutoClassDiscovery.html#a7066fa8f906d4cd38e004d401616bf74" title="moa.core.AutoClassDiscovery.findClassesInDirectoryRecursive" alt="" coords="801,5,1196,35"/>
-<area shape="rect" id="node9" href="$classmoa_1_1core_1_1AutoClassDiscovery.html#abe90a4f0fff98e1186906153c8c8de44" title="moa.core.AutoClassDiscovery.hasEmptyConstructor" alt="" coords="833,59,1164,88"/>
-</map>

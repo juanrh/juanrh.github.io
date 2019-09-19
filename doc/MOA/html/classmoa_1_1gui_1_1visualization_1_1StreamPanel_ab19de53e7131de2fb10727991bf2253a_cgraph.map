@@ -1,6 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1gui_1_1visualization_1_1StreamPanel.html#a0987f67fd23dc1d6c927a4ef05d665a3" title="moa.gui.visualization.StreamPanel.getNewLayer" alt="" coords="365,5,669,35"/>
-<area shape="rect" id="node5" href="$classmoa_1_1gui_1_1visualization_1_1StreamPanel.html#a5cdd7554f42310b944bfc7f7aedf088b" title="This method is called from within the constructor to initialize the form." alt="" coords="359,59,676,88"/>
-<area shape="rect" id="node7" href="$classmoa_1_1gui_1_1visualization_1_1StreamPanel.html#aecf5c284782620e70bcba30c0b6979aa" title="moa.gui.visualization.StreamPanel.formMouseClicked" alt="" coords="725,59,1061,88"/>
-<area shape="rect" id="node9" href="$classmoa_1_1gui_1_1visualization_1_1ClusterPanel.html#a320952830575ea3d03250c3e194ce443" title="moa.gui.visualization.ClusterPanel.highlight" alt="" coords="1109,59,1384,88"/>
-</map>

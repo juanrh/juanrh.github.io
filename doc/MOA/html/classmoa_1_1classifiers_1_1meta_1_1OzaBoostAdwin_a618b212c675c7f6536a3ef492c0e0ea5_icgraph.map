@@ -1,4 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1classifiers_1_1meta_1_1OzaBoostAdwin.html#a18314a53ec41fa1e24865d6725819ea7" title="Predicts the class memberships for a given instance." alt="" coords="916,5,1281,35"/>
-<area shape="rect" id="node5" href="$classmoa_1_1classifiers_1_1meta_1_1OzaBoostAdwin.html#ae7d8bd8698a24a859f5507765d7c82f8" title="moa.classifiers.meta.OzaBoostAdwin.getVotesForInstanceBinary" alt="" coords="464,31,867,60"/>
-</map>

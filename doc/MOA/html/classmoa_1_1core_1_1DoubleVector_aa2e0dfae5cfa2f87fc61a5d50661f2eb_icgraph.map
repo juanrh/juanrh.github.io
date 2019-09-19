@@ -1,9 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1classifiers_1_1trees_1_1HoeffdingTree_1_1Node.html#a2dd4315a90707c43f3e92a4456f712d8" title="moa.classifiers.trees.HoeffdingTree.Node.calculatePromise" alt="" coords="345,5,713,35"/>
-<area shape="rect" id="node9" href="$classmoa_1_1classifiers_1_1trees_1_1HoeffdingOptionTree_1_1Node.html#a55831654f534d9be070eb3a0379063f4" title="moa.classifiers.trees.HoeffdingOptionTree.Node.calculatePromise" alt="" coords="327,59,732,88"/>
-<area shape="rect" id="node13" href="$classmoa_1_1classifiers_1_1functions_1_1MajorityClass.html#a920d9e3f07772d788728aa729c09e1ec" title="Returns a string representation of the model." alt="" coords="343,112,716,141"/>
-<area shape="rect" id="node15" href="$classmoa_1_1classifiers_1_1trees_1_1AdaHoeffdingOptionTree_1_1AdaLearningNode.html#ab87407ed5507ba07eaa69db014e5035b" title="moa.classifiers.trees.AdaHoeffdingOptionTree.AdaLearningNode.learnFromInstance" alt="" coords="275,165,784,195"/>
-<area shape="rect" id="node5" href="$classmoa_1_1classifiers_1_1trees_1_1HoeffdingTree.html#ad3ce5f45815584286223e5e1280bcbb0" title="moa.classifiers.trees.HoeffdingTree.enforceTrackerLimit" alt="" coords="852,5,1199,35"/>
-<area shape="rect" id="node7" href="$classmoa_1_1classifiers_1_1multilabel_1_1HoeffdingTreeClassifLeaves.html#a7bf94665c2ade8cf741cfbaabb959bec" title="moa.classifiers.multilabel.HoeffdingTreeClassifLeaves.attemptToSplit" alt="" coords="1267,5,1693,35"/>
-<area shape="rect" id="node11" href="$classmoa_1_1classifiers_1_1trees_1_1HoeffdingOptionTree.html#af9382a6efb72761ad3a4ac9896d35c79" title="moa.classifiers.trees.HoeffdingOptionTree.enforceTrackerLimit" alt="" coords="832,59,1219,88"/>
-</map>

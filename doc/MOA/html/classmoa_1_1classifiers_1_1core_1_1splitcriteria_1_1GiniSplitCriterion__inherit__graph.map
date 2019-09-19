@@ -1,7 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node2" href="$classmoa_1_1options_1_1AbstractOptionHandler.html" title="Abstract Option Handler." alt="" coords="5,528,261,821"/>
-<area shape="rect" id="node4" href="$classmoa_1_1AbstractMOAObject.html" title="Abstract MOA Object." alt="" coords="49,316,217,471"/>
-<area shape="rect" id="node6" href="$interfacemoa_1_1MOAObject.html" title="Interface implemented by classes in MOA, so that all are serializable, can produce..." alt="" coords="160,139,304,259"/>
-<area shape="rect" id="node10" href="$interfacemoa_1_1options_1_1OptionHandler.html" title="Interface representing an object that handles options or parameters." alt="" coords="241,307,420,479"/>
-<area shape="rect" id="node13" href="$interfacemoa_1_1classifiers_1_1core_1_1splitcriteria_1_1SplitCriterion.html" title="Interface for computing splitting criteria." alt="" coords="285,623,571,726"/>
-</map>

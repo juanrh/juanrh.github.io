@@ -1,5 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1classifiers_1_1rules_1_1RuleClassifier.html#af0c813365cafcbc1698c258b856e4960" title="moa.classifiers.rules.RuleClassifier.createRule" alt="" coords="395,5,688,35"/>
-<area shape="rect" id="node7" href="$classmoa_1_1classifiers_1_1rules_1_1RuleClassifier.html#a6e43c31d226f0ba975d1a3dbfb119f2d" title="moa.classifiers.rules.RuleClassifier.expandeRule" alt="" coords="388,59,695,88"/>
-<area shape="rect" id="node5" href="$classmoa_1_1classifiers_1_1rules_1_1RuleClassifier.html#abaeafe5f63a8fda72e948fc9e259d645" title="Trains this classifier incrementally using the given instance." alt="" coords="744,32,1093,61"/>
-</map>

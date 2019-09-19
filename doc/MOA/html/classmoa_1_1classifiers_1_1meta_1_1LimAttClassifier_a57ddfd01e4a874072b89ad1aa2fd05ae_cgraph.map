@@ -1,7 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1options_1_1FloatOption.html#a0e606a62f4ece232aa8f8cb04bb7f1cf" title="moa.options.FloatOption.getValue" alt="" coords="524,5,743,35"/>
-<area shape="rect" id="node5" href="$classmoa_1_1options_1_1IntOption.html#affae8787274b44ab7616d46b8d6c831a" title="moa.options.IntOption.getValue" alt="" coords="531,59,736,88"/>
-<area shape="rect" id="node7" href="$interfacemoa_1_1classifiers_1_1Classifier.html#a0933ed1199c2b16a8eb8186dabf9a8f9" title="Predicts the class memberships for a given instance." alt="" coords="487,112,780,141"/>
-<area shape="rect" id="node9" href="$classmoa_1_1classifiers_1_1meta_1_1LimAttClassifier.html#a06963696d002ed171ebf2839f5f42bf6" title="moa.classifiers.meta.LimAttClassifier.getVotesForInstancePerceptron" alt="" coords="420,165,847,195"/>
-<area shape="rect" id="node11" href="$classmoa_1_1classifiers_1_1meta_1_1LimAttClassifier.html#a5ef8c3bbd3b05831db20ad0c10ae8f8a" title="moa.classifiers.meta.LimAttClassifier.predictionPruning" alt="" coords="896,165,1240,195"/>
-</map>

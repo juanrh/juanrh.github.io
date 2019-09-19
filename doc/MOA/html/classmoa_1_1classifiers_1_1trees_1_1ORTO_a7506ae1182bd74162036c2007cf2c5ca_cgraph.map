@@ -1,8 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1classifiers_1_1trees_1_1ORTO.html#af9948c11298edfaa749ba0b2dd9ae947" title="moa.classifiers.trees.ORTO.findWorstOption" alt="" coords="372,57,655,87"/>
-<area shape="rect" id="node5" href="$classmoa_1_1classifiers_1_1trees_1_1ORTO_1_1InnerNode.html#abbd8662cb2ea13fc405e896e83f153f7" title="moa.classifiers.trees.ORTO.InnerNode.getChildIndex" alt="" coords="712,5,1045,35"/>
-<area shape="rect" id="node9" href="$classmoa_1_1classifiers_1_1trees_1_1ORTO_1_1InnerNode.html#ada4abe88de469980f10b89c3c952ba16" title="moa.classifiers.trees.ORTO.InnerNode.getChild" alt="" coords="363,111,664,140"/>
-<area shape="rect" id="node12" href="$classmoa_1_1options_1_1IntOption.html#affae8787274b44ab7616d46b8d6c831a" title="moa.options.IntOption.getValue" alt="" coords="411,164,616,193"/>
-<area shape="rect" id="node14" href="$classmoa_1_1classifiers_1_1trees_1_1ORTO_1_1InnerNode.html#aef021ec1fc501c30571a6a7dca76fd27" title="moa.classifiers.trees.ORTO.InnerNode.setChild" alt="" coords="363,217,664,247"/>
-<area shape="rect" id="node7" href="$classmoa_1_1classifiers_1_1trees_1_1ORTO_1_1OptionNode.html#a4656286624b184eea54d9e2ea74b43d1" title="moa.classifiers.trees.ORTO.OptionNode.getFFRatio" alt="" coords="716,59,1041,88"/>
-</map>

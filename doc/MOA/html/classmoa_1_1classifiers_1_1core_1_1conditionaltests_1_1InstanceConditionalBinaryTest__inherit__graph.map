@@ -1,9 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node11" href="$classmoa_1_1classifiers_1_1core_1_1conditionaltests_1_1NominalAttributeBinaryTest.html" title="Nominal binary conditional test for instances to use to split nodes in Hoeffding..." alt="" coords="49,915,447,1104"/>
-<area shape="rect" id="node15" href="$classmoa_1_1classifiers_1_1core_1_1conditionaltests_1_1NumericAttributeBinaryTest.html" title="Numeric binary conditional test for instances to use to split nodes in Hoeffding..." alt="" coords="471,897,868,1121"/>
-<area shape="rect" id="node17" href="$classmoa_1_1classifiers_1_1rules_1_1core_1_1conditionaltests_1_1NumericAttributeBinaryRulePredicate.html" title="Numeric binary conditional test for instances to use to split nodes in AMRules." alt="" coords="892,845,1377,1173"/>
-<area shape="rect" id="node2" href="$classmoa_1_1classifiers_1_1core_1_1conditionaltests_1_1InstanceConditionalTest.html" title="Abstract conditional test for instances to use to split nodes in Hoeffding trees..." alt="" coords="480,509,859,664"/>
-<area shape="rect" id="node4" href="$classmoa_1_1AbstractMOAObject.html" title="Abstract MOA Object." alt="" coords="585,307,753,461"/>
-<area shape="rect" id="node6" href="$interfacemoa_1_1MOAObject.html" title="Interface implemented by classes in MOA, so that all are serializable, can produce..." alt="" coords="597,139,741,259"/>
-<area shape="rect" id="node13" href="$classmoa_1_1classifiers_1_1rules_1_1core_1_1conditionaltests_1_1NominalAttributeBinaryRulePredicate.html" title="Nominal binary conditional test for instances to use to split nodes in rules." alt="" coords="5,1222,491,1325"/>
-</map>

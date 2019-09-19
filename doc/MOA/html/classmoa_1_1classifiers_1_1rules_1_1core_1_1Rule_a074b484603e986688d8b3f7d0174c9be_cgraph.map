@@ -1,4 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1classifiers_1_1rules_1_1core_1_1RuleActiveLearningNode.html#a1e11981525cd0b6bcb1cf2d1c545b663" title="moa.classifiers.rules.core.RuleActiveLearningNode.getPrediction" alt="" coords="337,5,735,35"/>
-<area shape="rect" id="node5" href="$classmoa_1_1classifiers_1_1rules_1_1core_1_1RuleActiveLearningNode.html#ad029da0c99ad6432e683df380e3cd8a8" title="moa.classifiers.rules.core.RuleActiveLearningNode.getLearnerToUse" alt="" coords="785,5,1207,35"/>
-</map>

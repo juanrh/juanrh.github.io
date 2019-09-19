@@ -1,1 +1,0 @@
-Documentation render for https://github.com/julianhyde/sqlline

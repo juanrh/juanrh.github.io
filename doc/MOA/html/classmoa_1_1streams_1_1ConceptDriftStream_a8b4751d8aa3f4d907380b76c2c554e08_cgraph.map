@@ -1,7 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1options_1_1AbstractOptionHandler.html#a2d5e872c7c6a32487013ba914c6d3fcc" title="Gets a prepared option of this class." alt="" coords="388,5,761,35"/>
-<area shape="rect" id="node7" href="$classmoa_1_1options_1_1FloatOption.html#a0e606a62f4ece232aa8f8cb04bb7f1cf" title="moa.options.FloatOption.getValue" alt="" coords="465,59,684,88"/>
-<area shape="rect" id="node9" href="$classmoa_1_1options_1_1IntOption.html#affae8787274b44ab7616d46b8d6c831a" title="moa.options.IntOption.getValue" alt="" coords="472,112,677,141"/>
-<area shape="rect" id="node11" href="$classmoa_1_1options_1_1IntOption.html#a7b2e60195e6ef38bc8626d16303e8f13" title="moa.options.IntOption.setValue" alt="" coords="472,165,677,195"/>
-<area shape="rect" id="node5" href="$classmoa_1_1options_1_1AbstractOption.html#a26d25b88bb5244ed3c2ec142bd28353d" title="Gets the name of this option." alt="" coords="812,85,1052,115"/>
-</map>

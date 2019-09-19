@@ -1,7 +1,0 @@
-digraph G
-{
-  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
-  node [fontname="Helvetica",fontsize="10",shape=record];
-  rankdir=LR;
-  Node1 [label="moa.clusterers.outliers.utils.mtree.DistanceFunctions",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1clusterers_1_1outliers_1_1utils_1_1mtree_1_1DistanceFunctions.html",tooltip="Some pre-defined implementations of  DistanceFunction distance functions}."];
-}

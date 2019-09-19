@@ -1,5 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node2" href="$classmoa_1_1AbstractMOAObject.html" title="Abstract MOA Object." alt="" coords="5,321,173,476"/>
-<area shape="rect" id="node4" href="$interfacemoa_1_1MOAObject.html" title="Interface implemented by classes in MOA, so that all are serializable, can produce..." alt="" coords="17,141,161,261"/>
-<area shape="rect" id="node8" href="$interfacemoa_1_1classifiers_1_1rules_1_1core_1_1voting_1_1ErrorWeightedVote.html" title="ErrorWeightedVote interface for weighted votes based on estimates of errors." alt="" coords="197,313,520,485"/>
-</map>

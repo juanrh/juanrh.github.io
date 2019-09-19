@@ -1,8 +1,0 @@
-digraph G
-{
-  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
-  node [fontname="Helvetica",fontsize="10",shape=record];
-  Node1 [label="{moa.classifiers.meta.LimAttClassifier.CombinationGenerator\n|- a\l- n\l- r\l- numLeft\l- total\l|+ CombinationGenerator()\l+ reset()\l+ getNumLeft()\l+ hasMore()\l+ getTotal()\l+ getNext()\l- getFactorial()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
-  Node2 -> Node1 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="total\nnumLeft",arrowtail="open",fontname="Helvetica"];
-  Node2 [label="{BigInteger\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
-}

@@ -1,7 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1evaluation_1_1WindowClassificationPerformanceEvaluator.html#a4f240699694ec873882581149a3f8294" title="Gets the current measurements monitored by this evaluator." alt="" coords="513,59,1063,88"/>
-<area shape="rect" id="node5" href="$classmoa_1_1evaluation_1_1WindowClassificationPerformanceEvaluator.html#a3ece512878d6882e35f7dcc79272ad78" title="moa.evaluation.WindowClassificationPerformanceEvaluator.getFractionCorrectlyClassified" alt="" coords="1112,5,1661,35"/>
-<area shape="rect" id="node9" href="$classmoa_1_1evaluation_1_1WindowClassificationPerformanceEvaluator.html#a2d97a7db0100a7a7914d6b72e703f776" title="moa.evaluation.WindowClassificationPerformanceEvaluator.getKappaStatistic" alt="" coords="1149,59,1624,88"/>
-<area shape="rect" id="node12" href="$classmoa_1_1evaluation_1_1WindowClassificationPerformanceEvaluator.html#af5bc3dcc639b3f3330a2aa8d4b2aa239" title="moa.evaluation.WindowClassificationPerformanceEvaluator.getKappaTemporalStatistic" alt="" coords="1121,112,1652,141"/>
-<area shape="rect" id="node7" href="$classmoa_1_1evaluation_1_1WindowClassificationPerformanceEvaluator_1_1Estimator.html#a029eac525fdc6e22c9955b82c8143aa2" title="moa.evaluation.WindowClassificationPerformanceEvaluator.Estimator.total" alt="" coords="1709,59,2168,88"/>
-</map>

@@ -1,7 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1gui_1_1visualization_1_1StreamOutlierPanel.html#a587d65d89559e233b8db9c8c9d53317d" title="moa.gui.visualization.StreamOutlierPanel.ApplyToCanvas" alt="" coords="384,5,741,35"/>
-<area shape="rect" id="node5" href="$classmoa_1_1gui_1_1visualization_1_1StreamOutlierPanel.html#a0ae3523430f87276ab3dc0a170363b6e" title="moa.gui.visualization.StreamOutlierPanel.getActiveXDim" alt="" coords="387,59,739,88"/>
-<area shape="rect" id="node7" href="$classmoa_1_1gui_1_1visualization_1_1StreamOutlierPanel.html#aec7bd5f4a0ff1088a70c54879adf9305" title="moa.gui.visualization.StreamOutlierPanel.getActiveYDim" alt="" coords="387,112,739,141"/>
-<area shape="rect" id="node9" href="$classmoa_1_1gui_1_1visualization_1_1StreamOutlierPanel.html#a4d6c7bb3dc3a5c6fda714933bf1e8fe7" title="moa.gui.visualization.StreamOutlierPanel.RedrawPointLayer" alt="" coords="377,165,748,195"/>
-<area shape="rect" id="node11" href="$classmoa_1_1gui_1_1visualization_1_1StreamOutlierPanel_1_1ImgPanel.html#aebdffc7623851d0dfc3079a6c45dc5ea" title="moa.gui.visualization.StreamOutlierPanel.ImgPanel.setImage" alt="" coords="797,165,1176,195"/>
-</map>

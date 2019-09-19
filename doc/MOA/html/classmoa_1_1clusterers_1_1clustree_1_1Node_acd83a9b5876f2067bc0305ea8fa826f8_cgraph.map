@@ -1,5 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1clusterers_1_1clustree_1_1Entry.html#a12c84a14579b32a936879c70bcfe45c6" title="Returns true if this entry is irrelevant with respecto the given threshold." alt="" coords="355,32,616,61"/>
-<area shape="rect" id="node5" href="$classmoa_1_1clusterers_1_1clustree_1_1Entry.html#a1e49da60f9e130eba1b1500febcf3424" title="Getter for the data." alt="" coords="688,5,931,35"/>
-<area shape="rect" id="node7" href="$classmoa_1_1clusterers_1_1clustree_1_1ClusKernel.html#a3277ffc987fbb74b934cea2fab98f2c3" title="See interface Cluster." alt="" coords="665,59,953,88"/>
-</map>

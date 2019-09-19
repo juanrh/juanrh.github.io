@@ -1,8 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$interfacemoa_1_1classifiers_1_1Classifier.html#a8348b4106e79422d3dec0a1857d402f3" title="Gets whether this classifier correctly classifies an instance." alt="" coords="441,5,721,35"/>
-<area shape="rect" id="node5" href="$classmoa_1_1classifiers_1_1AbstractClassifier.html#a0a5d3c3df5b27390f6830fed829540ea" title="Gets whether this classifier correctly classifies an instance." alt="" coords="416,59,747,88"/>
-<area shape="rect" id="node9" href="$classmoa_1_1classifiers_1_1core_1_1driftdetection_1_1ADWIN.html#a120e390a4505f5e4590935d1a7bee322" title="moa.classifiers.core.driftdetection.ADWIN.getEstimation" alt="" coords="405,112,757,141"/>
-<area shape="rect" id="node11" href="$interfacemoa_1_1classifiers_1_1Classifier.html#a0cb1a2820196bc5e2a95b05a0b6666f0" title="Resets this classifier." alt="" coords="456,165,707,195"/>
-<area shape="rect" id="node13" href="$interfacemoa_1_1classifiers_1_1Classifier.html#ac28018bc307abe34a8ace54dba3ebff1" title="Trains this classifier incrementally using the given instance." alt="" coords="449,219,713,248"/>
-<area shape="rect" id="node7" href="$interfacemoa_1_1classifiers_1_1Classifier.html#a0933ed1199c2b16a8eb8186dabf9a8f9" title="Predicts the class memberships for a given instance." alt="" coords="807,59,1100,88"/>
-</map>

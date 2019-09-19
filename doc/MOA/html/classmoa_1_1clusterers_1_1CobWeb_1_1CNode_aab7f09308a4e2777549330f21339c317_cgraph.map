@@ -1,6 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1clusterers_1_1CobWeb_1_1CNode.html#ad97ce5a7d8d04b138db99ef78105531f" title="Returns the instances at this node as a string." alt="" coords="325,32,597,61"/>
-<area shape="rect" id="node5" href="$classmoa_1_1clusterers_1_1CobWeb_1_1CNode.html#ab622a2cdd76b0906f833c6588bea3589" title="Adds the supplied node as a child of this node." alt="" coords="647,5,940,35"/>
-<area shape="rect" id="node9" href="$classmoa_1_1clusterers_1_1CobWeb_1_1CNode.html#afe5e967d31da7852c7a9a78f96abfe93" title="Creates an empty CNode instance." alt="" coords="667,59,920,88"/>
-<area shape="rect" id="node7" href="$classmoa_1_1clusterers_1_1CobWeb_1_1CNode.html#a2ef34081a4e43e1b2357d274bffdf1ed" title="Update attribute stats using the supplied instance." alt="" coords="989,5,1272,35"/>
-</map>

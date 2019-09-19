@@ -1,6 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1test_1_1DiffUtils.html#aca94becaa5fccec28b60bced1a158270" title="Returns whether the two files differ." alt="" coords="213,5,403,35"/>
-<area shape="rect" id="node7" href="$classmoa_1_1test_1_1DiffUtils.html#abc76cf65b30a00cf619651bf65a749c2" title="Generates a side&#45;by&#45;side diff for the two files." alt="" coords="211,59,405,88"/>
-<area shape="rect" id="node10" href="$classmoa_1_1test_1_1DiffUtils.html#a9ac1a74190545fa2443ba407c5f1542a" title="Generates a unified diff for the two files." alt="" coords="225,112,391,141"/>
-<area shape="rect" id="node5" href="$classmoa_1_1test_1_1DiffUtils.html#af2a45ea29c326d93ceb88172acd69733" title="Loads the file." alt="" coords="455,59,657,88"/>
-</map>

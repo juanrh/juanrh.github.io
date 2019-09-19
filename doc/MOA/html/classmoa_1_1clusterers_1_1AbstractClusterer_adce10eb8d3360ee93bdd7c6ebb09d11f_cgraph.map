@@ -1,8 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1options_1_1IntOption.html#affae8787274b44ab7616d46b8d6c831a" title="moa.options.IntOption.getValue" alt="" coords="445,5,651,35"/>
-<area shape="rect" id="node5" href="$classmoa_1_1clusterers_1_1AbstractClusterer.html#a88555cfe0043fae7f40fcf34c3bf114a" title="moa.clusterers.AbstractClusterer.resetLearning" alt="" coords="400,59,696,88"/>
-<area shape="rect" id="node13" href="$classmoa_1_1clusterers_1_1AbstractClusterer.html#ab97e58ac9d9e8a11db1aa923b116a185" title="moa.clusterers.AbstractClusterer.trainingHasStarted" alt="" coords="385,112,711,141"/>
-<area shape="rect" id="node7" href="$interfacemoa_1_1clusterers_1_1Clusterer.html#ac88640d485d05b8134278d79c5217530" title="moa.clusterers.Clusterer.isRandomizable" alt="" coords="821,5,1083,35"/>
-<area shape="rect" id="node9" href="$classmoa_1_1clusterers_1_1AbstractClusterer.html#a0b6492d7c9487fbc6a24d8ef115b2c75" title="moa.clusterers.AbstractClusterer.resetLearningImpl" alt="" coords="792,59,1112,88"/>
-<area shape="rect" id="node11" href="$classmoa_1_1clusterers_1_1AbstractClusterer.html#aa00a89e5c7f7c9a8821a5c0bc16b3b5f" title="moa.clusterers.AbstractClusterer.trainingWeightSeenByModel" alt="" coords="761,112,1143,141"/>
-</map>

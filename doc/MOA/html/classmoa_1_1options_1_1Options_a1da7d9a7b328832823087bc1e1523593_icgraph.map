@@ -1,9 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1gui_1_1OptionsConfigurationPanel.html#aaa4825510bd12e743976268ef6f06696" title="moa.gui.OptionsConfigurationPanel.OptionsConfigurationPanel" alt="" coords="288,59,675,88"/>
-<area shape="rect" id="node11" href="$classmoa_1_1options_1_1AbstractOptionHandler.html#aeef2b0d69dd104c0f94f5402acee9dfa" title="Prepares the options of this class." alt="" coords="304,112,659,141"/>
-<area shape="rect" id="node5" href="$classmoa_1_1gui_1_1OptionsConfigurationPanel.html#a5346418cf1760b51c0d9ac52855a066e" title="moa.gui.OptionsConfigurationPanel.createAndShowGUI" alt="" coords="733,5,1080,35"/>
-<area shape="rect" id="node9" href="$classmoa_1_1gui_1_1OptionsConfigurationPanel.html#ac7af29e30d5035ba8754cda4f8c21e97" title="moa.gui.OptionsConfigurationPanel.showEditOptionsDialog" alt="" coords="724,59,1089,88"/>
-<area shape="rect" id="node7" href="$classmoa_1_1gui_1_1OptionsConfigurationPanel.html#a2e55145c4712670bd2b16e7ad738a8fd" title="moa.gui.OptionsConfigurationPanel.main" alt="" coords="1139,5,1397,35"/>
-<area shape="rect" id="node13" href="$classmoa_1_1tasks_1_1AbstractTask.html#aaffeb304f0009dcd5e3c1f0df3b3b533" title="This method performs this task." alt="" coords="801,112,1012,141"/>
-<area shape="rect" id="node15" href="$classmoa_1_1options_1_1AbstractOptionHandler.html#ad29bc9f3a12d78324a56c80dac4784ae" title="This method prepares this object for use." alt="" coords="748,165,1065,195"/>
-</map>

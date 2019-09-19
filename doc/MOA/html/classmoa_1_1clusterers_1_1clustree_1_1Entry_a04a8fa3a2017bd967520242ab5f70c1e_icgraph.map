@@ -1,9 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1clusterers_1_1clustree_1_1ClusTree.html#a036b945ba16cbe4f9dc66fcf1e0fd60d" title="moa.clusterers.clustree.ClusTree.insertHere" alt="" coords="1065,28,1343,57"/>
-<area shape="rect" id="node7" href="$classmoa_1_1clusterers_1_1clustree_1_1Node.html#a363585ee74aa37a8ec2f7d9a77781ba3" title="Merge the two entries at the given position." alt="" coords="315,31,589,60"/>
-<area shape="rect" id="node5" href="$classmoa_1_1clusterers_1_1clustree_1_1ClusTree.html#a8945983f656f329d5a7e4f1e321e5c3b" title="moa.clusterers.clustree.ClusTree.insert" alt="" coords="1755,28,2005,57"/>
-<area shape="rect" id="node10" href="$classmoa_1_1clusterers_1_1clustree_1_1ClusTree.html#a344cb4a855b69ffcc8b8e0b1381d7952" title="Inserts an Entry into a Node without inducing a split." alt="" coords="637,81,995,111"/>
-<area shape="rect" id="node12" href="$classmoa_1_1clusterers_1_1clustree_1_1ClusTree.html#a7998f24fe858f360f96c6557f7aada85" title="insert newPoint into the tree using the BreadthFirst strategy, i.e." alt="" coords="1043,81,1365,111"/>
-<area shape="rect" id="node14" href="$classmoa_1_1clusterers_1_1clustree_1_1ClusTree.html#a1fcbd4768f2142bdae4d88c80e0323e9" title="Insert a new point in the Tree." alt="" coords="1413,81,1664,111"/>
-<area shape="rect" id="node17" href="$classmoa_1_1clusterers_1_1clustree_1_1ClusTree.html#a8fd397a6344c5b97fe5cf44fcf8b2db9" title="moa.clusterers.clustree.ClusTree.trainOnInstanceImpl" alt="" coords="1712,81,2048,111"/>
-</map>

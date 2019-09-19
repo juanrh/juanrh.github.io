@@ -1,5 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1classifiers_1_1AbstractClassifier.html#a00acf48ab1d1d0197e27b2fec6fa5112" title="Returns if two contexts or headers of instances are compatible." alt="" coords="377,5,719,35"/>
-<area shape="rect" id="node5" href="$classmoa_1_1classifiers_1_1AbstractClassifier.html#a62491ba348a3da3dc440c943ea611abf" title="Gets whether training has started." alt="" coords="383,59,713,88"/>
-<area shape="rect" id="node7" href="$classmoa_1_1classifiers_1_1AbstractClassifier.html#af50c85f56d8192f9cf56e621a835b00c" title="Gets the sum of the weights of the instances that have been used by this classifier..." alt="" coords="768,59,1155,88"/>
-</map>

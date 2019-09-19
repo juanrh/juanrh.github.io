@@ -1,6 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1kdtrees_1_1SlidingMidPointOfWidestSide.html#a0a837c014b41da5ce43405cf539dcf58" title="Splits a node into two based on the midpoint value of the dimension in which the..." alt="" coords="569,5,1087,35"/>
-<area shape="rect" id="node5" href="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1kdtrees_1_1MidPointOfWidestDimension.html#a3e976073529cfc180e7aed273b6856ce" title="Splits a node into two based on the midpoint value of the dimension in which the..." alt="" coords="571,59,1085,88"/>
-<area shape="rect" id="node7" href="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1kdtrees_1_1MedianOfWidestDimension.html#ae552a0a2f30decdde129df15f52b63e8" title="Splits a node into two based on the median value of the dimension in which the points..." alt="" coords="575,112,1081,141"/>
-<area shape="rect" id="node9" href="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1kdtrees_1_1KMeansInpiredMethod.html#a374911c0f1f0c4838bde5c489d86190a" title="Splits a node into two such that the overall sum of squared distances of points to..." alt="" coords="589,165,1067,195"/>
-</map>

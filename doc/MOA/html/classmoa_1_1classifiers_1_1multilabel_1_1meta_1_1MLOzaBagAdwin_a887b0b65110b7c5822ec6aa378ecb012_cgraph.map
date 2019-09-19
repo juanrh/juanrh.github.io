@@ -1,8 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1classifiers_1_1core_1_1driftdetection_1_1ADWIN.html#a120e390a4505f5e4590935d1a7bee322" title="moa.classifiers.core.driftdetection.ADWIN.getEstimation" alt="" coords="495,5,847,35"/>
-<area shape="rect" id="node5" href="$classmoa_1_1options_1_1AbstractOptionHandler.html#a2d5e872c7c6a32487013ba914c6d3fcc" title="Gets a prepared option of this class." alt="" coords="484,59,857,88"/>
-<area shape="rect" id="node9" href="$interfacemoa_1_1classifiers_1_1Classifier.html#a0933ed1199c2b16a8eb8186dabf9a8f9" title="Predicts the class memberships for a given instance." alt="" coords="524,112,817,141"/>
-<area shape="rect" id="node11" href="$interfacemoa_1_1classifiers_1_1Classifier.html#ada37a6c356ff9f4349e9f9a189f52978" title="Sets the reference to the header of the data stream." alt="" coords="535,165,807,195"/>
-<area shape="rect" id="node13" href="$interfacemoa_1_1classifiers_1_1Classifier.html#ac28018bc307abe34a8ace54dba3ebff1" title="Trains this classifier incrementally using the given instance." alt="" coords="539,219,803,248"/>
-<area shape="rect" id="node7" href="$classmoa_1_1options_1_1AbstractOption.html#a26d25b88bb5244ed3c2ec142bd28353d" title="Gets the name of this option." alt="" coords="908,59,1148,88"/>
-</map>

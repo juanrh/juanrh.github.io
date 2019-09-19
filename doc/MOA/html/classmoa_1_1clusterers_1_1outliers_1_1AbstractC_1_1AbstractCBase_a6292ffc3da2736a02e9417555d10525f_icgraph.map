@@ -1,6 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1clusterers_1_1outliers_1_1AbstractC_1_1AbstractCBase.html#a9f9b33b0eea3aebd766b97eab60cabcb" title="moa.clusterers.outliers.AbstractC.AbstractCBase.GetExpiredNode" alt="" coords="464,5,875,35"/>
-<area shape="rect" id="node7" href="$classmoa_1_1clusterers_1_1outliers_1_1AbstractC_1_1AbstractCBase.html#a39986eacbed70e5b5048b1d84c23e67c" title="moa.clusterers.outliers.AbstractC.AbstractCBase.IsNodeIdInWin" alt="" coords="469,59,869,88"/>
-<area shape="rect" id="node9" href="$classmoa_1_1clusterers_1_1outliers_1_1AbstractC_1_1AbstractCBase.html#afdd8e657500a85e3b12dcc0e23c8f1ff" title="moa.clusterers.outliers.AbstractC.AbstractCBase.PrintWindow" alt="" coords="476,112,863,141"/>
-<area shape="rect" id="node5" href="$classmoa_1_1clusterers_1_1outliers_1_1AbstractC_1_1AbstractC.html#a5aae6cf8b072b95b9bc6fce706e12d4a" title="moa.clusterers.outliers.AbstractC.AbstractC.ProcessNewStreamObj" alt="" coords="923,59,1344,88"/>
-</map>

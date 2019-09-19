@@ -1,7 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1classifiers_1_1rules_1_1core_1_1RuleActiveRegressionNode.html#ae7df9582eb32855eb963849c4e2cde09" title="moa.classifiers.rules.core.RuleActiveRegressionNode.getLearnerToUse" alt="" coords="459,5,899,35"/>
-<area shape="rect" id="node5" href="$classmoa_1_1classifiers_1_1rules_1_1core_1_1RuleActiveRegressionNode.html#a8f181c120725cda883981ca430c00ccc" title="moa.classifiers.rules.core.RuleActiveRegressionNode.getNormalizedPrediction" alt="" coords="955,32,1437,61"/>
-<area shape="rect" id="node10" href="$classmoa_1_1classifiers_1_1rules_1_1core_1_1RuleActiveRegressionNode.html#aac09ce005c6fe5cd41309d281ea5ec7d" title="moa.classifiers.rules.core.RuleActiveRegressionNode.getPrediction" alt="" coords="471,109,887,139"/>
-<area shape="rect" id="node12" href="$classmoa_1_1classifiers_1_1rules_1_1core_1_1RuleActiveRegressionNode.html#a0e82f8306786343fb35bf3f427536909" title="moa.classifiers.rules.core.RuleActiveRegressionNode.getSimplePrediction" alt="" coords="451,163,907,192"/>
-<area shape="rect" id="node7" href="$classmoa_1_1classifiers_1_1rules_1_1core_1_1RuleActiveRegressionNode.html#a0fa92b4871eb4fb60fb79fb448f12933" title="moa.classifiers.rules.core.RuleActiveRegressionNode.computeError" alt="" coords="1485,32,1904,61"/>
-</map>

@@ -1,4 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1KDTree.html#a8ce38fe7d1eb59f6be411b6fb6df7f40" title="Finds the closest point in the hyper rectangle to a given point." alt="" coords="445,5,837,35"/>
-<area shape="rect" id="node5" href="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1EuclideanDistance.html#ad2ccd44d1a04e5e705396bf3746cb020" title="Calculates the distance between two instances." alt="" coords="440,59,843,88"/>
-</map>

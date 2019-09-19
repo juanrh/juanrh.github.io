@@ -1,8 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1gui_1_1TextViewerPanel.html#ac985c1592b561c42e50ff9d22ff1e917" title="moa.gui.TextViewerPanel.addText" alt="" coords="359,5,580,35"/>
-<area shape="rect" id="node7" href="$classmoa_1_1cluster_1_1Clustering.html#a6a66be9b90f5cb06b044da278cdf24c9" title="remove a cluster from the clustering" alt="" coords="383,59,556,88"/>
-<area shape="rect" id="node9" href="$classmoa_1_1cluster_1_1Cluster.html#a509d165f6594aa388d878c77684e0870" title="moa.cluster.Cluster.getCenter" alt="" coords="371,112,568,141"/>
-<area shape="rect" id="node11" href="$classmoa_1_1cluster_1_1Cluster.html#aeb8c006a27e4c642b7c735a8a8d1dd28" title="Returns the weight of this cluster, not neccessarily normalized." alt="" coords="371,165,568,195"/>
-<area shape="rect" id="node13" href="$classmoa_1_1cluster_1_1Clustering.html#a054a386d94acf3b88574f061ab4c8d71" title="moa.cluster.Clustering.size" alt="" coords="379,219,560,248"/>
-<area shape="rect" id="node5" href="$classmoa_1_1gui_1_1TextViewerPanel.html#ac09cb6daf98fc5b812dd330a4eeb4b11" title="moa.gui.TextViewerPanel.setText" alt="" coords="629,5,848,35"/>
-</map>

@@ -1,7 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1classifiers_1_1rules_1_1core_1_1RuleActiveRegressionNode.html#ad6906406f387b875eb63024c10e912ad" title="moa.classifiers.rules.core.RuleActiveRegressionNode.debuganomaly" alt="" coords="464,5,888,35"/>
-<area shape="rect" id="node5" href="$classmoa_1_1classifiers_1_1rules_1_1core_1_1RuleActiveRegressionNode.html#a1f5de305f254747e3f1ac7b5d5d2eab0" title="moa.classifiers.rules.core.RuleActiveRegressionNode.isAnomaly" alt="" coords="977,5,1377,35"/>
-<area shape="rect" id="node8" href="$classmoa_1_1classifiers_1_1rules_1_1core_1_1RuleActiveRegressionNode.html#a0c6bf534dc5f5fb1aca7c2ed8b494f48" title="moa.classifiers.rules.core.RuleActiveRegressionNode.normalize" alt="" coords="479,109,873,139"/>
-<area shape="rect" id="node10" href="$classmoa_1_1classifiers_1_1rules_1_1core_1_1RuleActiveRegressionNode.html#a0fa92b4871eb4fb60fb79fb448f12933" title="moa.classifiers.rules.core.RuleActiveRegressionNode.computeError" alt="" coords="1467,109,1885,139"/>
-<area shape="rect" id="node12" href="$classmoa_1_1classifiers_1_1rules_1_1core_1_1RuleActiveRegressionNode.html#a8f181c120725cda883981ca430c00ccc" title="moa.classifiers.rules.core.RuleActiveRegressionNode.getNormalizedPrediction" alt="" coords="936,135,1419,164"/>
-</map>

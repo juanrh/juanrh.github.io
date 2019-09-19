@@ -1,4 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$interfacemoa_1_1tasks_1_1TaskMonitor.html#aa5eff409d63bfacd92fe2f062d373781" title="Sets the description and the percentage done of the current activity." alt="" coords="473,5,740,35"/>
-<area shape="rect" id="node5" href="$interfacemoa_1_1tasks_1_1TaskMonitor.html#af2758f6ce28872acf61d6b3495cd4439" title="Gets whether the task should abort." alt="" coords="477,59,736,88"/>
-</map>

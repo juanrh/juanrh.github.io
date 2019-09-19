@@ -1,5 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1clusterers_1_1outliers_1_1MyBaseOutlierDetector.html#afde5f314d93c1025e74c15a4f19f23f9" title="moa.clusterers.outliers.MyBaseOutlierDetector.getClusteringResult" alt="" coords="440,5,853,35"/>
-<area shape="rect" id="node5" href="$classmoa_1_1clusterers_1_1outliers_1_1MyBaseOutlierDetector.html#af905f4b39daa8eecc001a619486636db" title="moa.clusterers.outliers.MyBaseOutlierDetector.getOutliersResult" alt="" coords="448,59,845,88"/>
-<area shape="rect" id="node7" href="$classmoa_1_1gui_1_1visualization_1_1RunOutlierVisualizer.html#a17350e9696b79eb0ac3b03e092baf3a0" title="moa.gui.visualization.RunOutlierVisualizer.drawOutliers" alt="" coords="901,59,1245,88"/>
-</map>

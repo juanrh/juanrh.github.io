@@ -1,4 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1classifiers_1_1multilabel_1_1MajorityLabelset.html#a12e745089b76f7733a6b630b45ae3394" title="moa.classifiers.multilabel.MajorityLabelset.updateCount" alt="" coords="387,5,733,35"/>
-<area shape="rect" id="node5" href="$classmoa_1_1classifiers_1_1multilabel_1_1MajorityLabelset.html#ab7316d397f871ffa1b872e017fe41b8a" title="Trains this classifier incrementally using the given instance." alt="" coords="781,5,1171,35"/>
-</map>

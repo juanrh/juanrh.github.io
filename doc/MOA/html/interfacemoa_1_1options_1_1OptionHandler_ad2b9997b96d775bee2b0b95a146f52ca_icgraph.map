@@ -1,9 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1gui_1_1ClassOptionWithNamesSelectionPanel.html#a0dc6da4510eeee22fb9d35c01f0840cd" title="moa.gui.ClassOptionWithNamesSelectionPanel.classChoiceChanged" alt="" coords="303,5,729,35"/>
-<area shape="rect" id="node9" href="$classmoa_1_1gui_1_1ClassOptionSelectionPanel.html#ab719294dd102789b200584d1148f10b6" title="moa.gui.ClassOptionSelectionPanel.classChoiceChanged" alt="" coords="337,59,695,88"/>
-<area shape="rect" id="node15" href="$classmoa_1_1gui_1_1OptionsConfigurationPanel.html#ac7af29e30d5035ba8754cda4f8c21e97" title="moa.gui.OptionsConfigurationPanel.showEditOptionsDialog" alt="" coords="333,112,699,141"/>
-<area shape="rect" id="node5" href="$classmoa_1_1gui_1_1ClassOptionWithNamesSelectionPanel.html#af91dc41ef44cc60b5dea87a3c8418d34" title="moa.gui.ClassOptionWithNamesSelectionPanel.ClassOptionWithNamesSelectionPanel" alt="" coords="780,5,1311,35"/>
-<area shape="rect" id="node7" href="$classmoa_1_1gui_1_1ClassOptionWithNamesSelectionPanel.html#af86c0d519bdae1eef574ff53fec03f9f" title="moa.gui.ClassOptionWithNamesSelectionPanel.showSelectClassDialog" alt="" coords="1360,5,1803,35"/>
-<area shape="rect" id="node11" href="$classmoa_1_1gui_1_1ClassOptionSelectionPanel.html#a2a4b8441ab88838697463d39b36fba2f" title="moa.gui.ClassOptionSelectionPanel.ClassOptionSelectionPanel" alt="" coords="848,59,1243,88"/>
-<area shape="rect" id="node13" href="$classmoa_1_1gui_1_1ClassOptionSelectionPanel.html#a746b0c5c26f3a627a792a3a92b205dd5" title="moa.gui.ClassOptionSelectionPanel.showSelectClassDialog" alt="" coords="1395,59,1768,88"/>
-</map>

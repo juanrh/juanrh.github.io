@@ -1,7 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1cluster_1_1Miniball.html#a947964eff6b7e1e26d375475ff962466" title="Return the center of the Miniball." alt="" coords="587,5,765,35"/>
-<area shape="rect" id="node7" href="$classmoa_1_1cluster_1_1Miniball.html#a12f9cee4075591bcbd88e377c2c5d88f" title="moa.cluster.Miniball.max_excess" alt="" coords="315,59,531,88"/>
-<area shape="rect" id="node5" href="$classmoa_1_1cluster_1_1SphereCluster.html#a7213770010e219ec39b739ca1e0a0127" title="moa.cluster.SphereCluster.SphereCluster" alt="" coords="1040,33,1304,63"/>
-<area shape="rect" id="node9" href="$classmoa_1_1cluster_1_1Miniball.html#ac63e75cfc91104da508dbd5205ffd77d" title="moa.cluster.Miniball.pivot_mb" alt="" coords="579,59,773,88"/>
-<area shape="rect" id="node11" href="$classmoa_1_1cluster_1_1Miniball.html#ac7b74f6f245e62ab969022723db4d67c" title="Recalculate Miniball parameter Center and Radius." alt="" coords="823,59,991,88"/>
-</map>

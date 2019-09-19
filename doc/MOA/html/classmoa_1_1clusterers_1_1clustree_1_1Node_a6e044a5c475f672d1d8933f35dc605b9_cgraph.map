@@ -1,5 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1clusterers_1_1clustree_1_1Entry.html#a9a7e452c2508fc5df286d93c9d20198d" title="Calculates the distance to the data in this entry." alt="" coords="327,5,599,35"/>
-<area shape="rect" id="node5" href="$classmoa_1_1clusterers_1_1clustree_1_1ClusKernel.html#ab8824bf20ad60031875d95147ccb7a53" title="Calculate the distance to this other cluster." alt="" coords="648,5,955,35"/>
-<area shape="rect" id="node7" href="$classmoa_1_1clusterers_1_1clustree_1_1ClusKernel.html#a3277ffc987fbb74b934cea2fab98f2c3" title="See interface Cluster." alt="" coords="1004,5,1292,35"/>
-</map>

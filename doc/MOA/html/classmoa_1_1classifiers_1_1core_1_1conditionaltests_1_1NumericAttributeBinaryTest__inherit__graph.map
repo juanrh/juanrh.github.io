@@ -1,6 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node2" href="$classmoa_1_1classifiers_1_1core_1_1conditionaltests_1_1InstanceConditionalBinaryTest.html" title="Abstract binary conditional test for instances to use to split nodes in Hoeffding..." alt="" coords="5,712,421,797"/>
-<area shape="rect" id="node4" href="$classmoa_1_1classifiers_1_1core_1_1conditionaltests_1_1InstanceConditionalTest.html" title="Abstract conditional test for instances to use to split nodes in Hoeffding trees..." alt="" coords="24,509,403,664"/>
-<area shape="rect" id="node6" href="$classmoa_1_1AbstractMOAObject.html" title="Abstract MOA Object." alt="" coords="129,307,297,461"/>
-<area shape="rect" id="node8" href="$interfacemoa_1_1MOAObject.html" title="Interface implemented by classes in MOA, so that all are serializable, can produce..." alt="" coords="141,139,285,259"/>
-</map>

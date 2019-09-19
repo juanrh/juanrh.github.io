@@ -1,8 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1clusterers_1_1AbstractClusterer.html#a4d7a69e8bf3dce7d1d9c887609fcbbac" title="moa.clusterers.AbstractClusterer.setModelContext" alt="" coords="392,112,709,141"/>
-<area shape="rect" id="node5" href="$classmoa_1_1clusterers_1_1outliers_1_1TestSpeed.html#a39100c162891539f6433de8cc0ca76fc" title="moa.clusterers.outliers.TestSpeed.main" alt="" coords="776,5,1029,35"/>
-<area shape="rect" id="node7" href="$classmoa_1_1clusterers_1_1outliers_1_1SimpleCOD_1_1Test.html#a533de8bb02ea36a6718f306d25f9e6d8" title="moa.clusterers.outliers.SimpleCOD.Test.main" alt="" coords="757,59,1048,88"/>
-<area shape="rect" id="node9" href="$classmoa_1_1clusterers_1_1outliers_1_1MCOD_1_1Test.html#acdbbf50b94a657150692e8a08debc638" title="moa.clusterers.outliers.MCOD.Test.main" alt="" coords="772,112,1033,141"/>
-<area shape="rect" id="node11" href="$classmoa_1_1clusterers_1_1outliers_1_1Angiulli_1_1Test.html#ae1be75fe510a4506a2680df51e389273" title="moa.clusterers.outliers.Angiulli.Test.main" alt="" coords="772,165,1033,195"/>
-<area shape="rect" id="node13" href="$classmoa_1_1clusterers_1_1outliers_1_1AbstractC_1_1Test.html#a0e6336bab07e4ba3bc9c1993e046c3ea" title="moa.clusterers.outliers.AbstractC.Test.main" alt="" coords="764,219,1041,248"/>
-</map>

@@ -1,6 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1cluster_1_1Cluster.html#a3c19e768fd30570b83ff1e61227110d1" title="moa.cluster.Cluster.getClusterSpecificInfo" alt="" coords="235,59,504,88"/>
-<area shape="rect" id="node5" href="$classmoa_1_1cluster_1_1Cluster.html#a509d165f6594aa388d878c77684e0870" title="moa.cluster.Cluster.getCenter" alt="" coords="553,5,751,35"/>
-<area shape="rect" id="node7" href="$classmoa_1_1cluster_1_1Cluster.html#aec009f106ed5a6940f956a07af28ffd2" title="moa.cluster.Cluster.getId" alt="" coords="568,59,736,88"/>
-<area shape="rect" id="node9" href="$classmoa_1_1cluster_1_1Cluster.html#aeb8c006a27e4c642b7c735a8a8d1dd28" title="Returns the weight of this cluster, not neccessarily normalized." alt="" coords="553,112,751,141"/>
-</map>

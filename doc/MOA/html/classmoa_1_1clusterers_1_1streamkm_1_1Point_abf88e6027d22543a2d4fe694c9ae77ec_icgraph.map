@@ -1,9 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1clusterers_1_1streamkm_1_1Point.html#af098eed8f68f80e30385b7ef1e4e635c" title="moa.clusterers.streamkm.Point.clone" alt="" coords="295,59,532,88"/>
-<area shape="rect" id="node5" href="$classmoa_1_1clusterers_1_1streamkm_1_1StreamKM.html#a3f146ea50791579e0d0615e999e67698" title="moa.clusterers.streamkm.StreamKM.chooseRandomCentres" alt="" coords="583,7,959,36"/>
-<area shape="rect" id="node11" href="$classmoa_1_1clusterers_1_1streamkm_1_1BucketManager.html#a1da1a9f91d0b153a42c089031add12f5" title="inserts a single point into the bucketmanager" alt="" coords="1049,59,1380,88"/>
-<area shape="rect" id="node14" href="$classmoa_1_1clusterers_1_1streamkm_1_1TreeCoreset.html#a2807a9e47df6678b8bc4abf0e65b049e" title="Constructs a coreset of size k from the union of setA and setB." alt="" coords="595,111,947,140"/>
-<area shape="rect" id="node7" href="$classmoa_1_1clusterers_1_1streamkm_1_1StreamKM.html#a14e0aebae9bb2f70985189649c381d4a" title="moa.clusterers.streamkm.StreamKM.lloydPlusPlus" alt="" coords="1056,5,1373,35"/>
-<area shape="rect" id="node9" href="$classmoa_1_1clusterers_1_1streamkm_1_1StreamKM.html#a1a5858e5c8587177c5433597bb31d0f9" title="moa.clusterers.streamkm.StreamKM.trainOnInstanceImpl" alt="" coords="1469,59,1827,88"/>
-<area shape="rect" id="node16" href="$classmoa_1_1clusterers_1_1streamkm_1_1BucketManager.html#ad9eecc96cc9c31ca4a7149cfed3bce93" title="It may happen that the manager is not full (since n is not always a power of 2)." alt="" coords="1008,112,1421,141"/>
-</map>

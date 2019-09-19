@@ -1,7 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1clusterers_1_1clustree_1_1ClusKernel.html#a706447e5a8160c3404a70bb4c3ad4603" title="Calculate the normalized euclidean distance (Mahalanobis distance for distribution..." alt="" coords="860,5,1231,35"/>
-<area shape="rect" id="node7" href="$classmoa_1_1clusterers_1_1outliers_1_1AnyOut_1_1AnyOutCore.html#a8a84217f45c098cbbc91abfa97540b24" title="moa.clusterers.outliers.AnyOut.AnyOutCore.getDensityOutlierScore" alt="" coords="393,44,809,73"/>
-<area shape="rect" id="node9" href="$classmoa_1_1clusterers_1_1clustree_1_1ClusKernel.html#ae620a80403ab5e04bba74c004e117776" title="moa.clusterers.clustree.ClusKernel.getDeviation" alt="" coords="451,97,752,127"/>
-<area shape="rect" id="node5" href="$classmoa_1_1clusterers_1_1clustree_1_1ClusKernel.html#a1cc93640c3a7749309c5bac25a2d6132" title="Returns the probability of the given point belonging to this cluster." alt="" coords="1281,39,1641,68"/>
-<area shape="rect" id="node11" href="$classmoa_1_1clusterers_1_1clustree_1_1ClusKernel.html#af986281021ea776d9870348e67402cb1" title="See interface Cluster." alt="" coords="901,72,1189,101"/>
-</map>

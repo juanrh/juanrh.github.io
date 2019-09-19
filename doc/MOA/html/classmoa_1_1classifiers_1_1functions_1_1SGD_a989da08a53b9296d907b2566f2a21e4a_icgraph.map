@@ -1,4 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1classifiers_1_1functions_1_1SGD.html#a05007ceccb6cc18317e6169f604c4c94" title="Calculates the class membership probabilities for the given test instance." alt="" coords="304,5,629,35"/>
-<area shape="rect" id="node5" href="$classmoa_1_1classifiers_1_1functions_1_1SGD.html#ab783d42c0b72dbc47dee632ee899eb0c" title="Trains the classifier with the given instance." alt="" coords="307,59,627,88"/>
-</map>

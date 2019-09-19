@@ -1,8 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1test_1_1DiffUtils.html#aca94becaa5fccec28b60bced1a158270" title="Returns whether the two files differ." alt="" coords="261,5,451,35"/>
-<area shape="rect" id="node9" href="$classmoa_1_1test_1_1DiffUtils.html#abc76cf65b30a00cf619651bf65a749c2" title="Generates a side&#45;by&#45;side diff for the two files." alt="" coords="259,112,453,141"/>
-<area shape="rect" id="node14" href="$classmoa_1_1test_1_1DiffUtils.html#a9ac1a74190545fa2443ba407c5f1542a" title="Generates a unified diff for the two files." alt="" coords="273,59,439,88"/>
-<area shape="rect" id="node5" href="$classmoa_1_1test_1_1DiffUtils.html#ae9f1cb76c1ebbc286ca9baaeb0678944" title="Returns whether the two lists differ." alt="" coords="504,5,693,35"/>
-<area shape="rect" id="node7" href="$classmoa_1_1test_1_1DiffUtils.html#a9205b70466986ca4d5762ee5e6dd2d82" title="Usage: DiffUtils &lt;unified|side&#45;by&#45;side|brief&gt; &lt;file1&gt; &lt;file2&gt;." alt="" coords="520,59,677,88"/>
-<area shape="rect" id="node12" href="$classmoa_1_1test_1_1DiffUtils.html#ade23a439fd96739a50e5d3890efef707" title="Generates a side&#45;by&#45;side diff for the two lists." alt="" coords="501,112,696,141"/>
-</map>

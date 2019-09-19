@@ -1,6 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1classifiers_1_1rules_1_1RuleClassifier.html#a8a58ef1537f8e99164b6aec7c85f8811" title="moa.classifiers.rules.RuleClassifier.getCountNominalAttrib" alt="" coords="541,5,904,35"/>
-<area shape="rect" id="node5" href="$classmoa_1_1classifiers_1_1rules_1_1RuleClassifier.html#a84bd5ef0a8a6819d0d293a79a971c2ee" title="moa.classifiers.rules.RuleClassifier.getRuleMajorityClassIndex" alt="" coords="528,109,917,139"/>
-<area shape="rect" id="node7" href="$classmoa_1_1core_1_1DoubleVector.html#a0a22580b229225823e9b11ed9d35104a" title="moa.core.DoubleVector.getValue" alt="" coords="973,57,1187,87"/>
-<area shape="rect" id="node9" href="$classmoa_1_1core_1_1DoubleVector.html#a04cac8fb52824b100578ad4bfef2136a" title="moa.core.DoubleVector.numValues" alt="" coords="967,111,1193,140"/>
-</map>

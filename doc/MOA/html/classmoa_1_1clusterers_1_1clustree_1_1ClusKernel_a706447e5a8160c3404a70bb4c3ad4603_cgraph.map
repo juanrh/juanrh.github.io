@@ -1,6 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1clusterers_1_1clustree_1_1ClusKernel.html#a7f902903111565ba68a1c1859f55b5c8" title="moa.clusterers.clustree.ClusKernel.getCenter" alt="" coords="453,59,739,88"/>
-<area shape="rect" id="node9" href="$classmoa_1_1clusterers_1_1clustree_1_1ClusKernel.html#a476217eb114ef940769d96273d47d34d" title="moa.clusterers.clustree.ClusKernel.getVarianceVector" alt="" coords="428,5,764,35"/>
-<area shape="rect" id="node5" href="$classmoa_1_1clusterers_1_1clustree_1_1ClusKernel.html#a3277ffc987fbb74b934cea2fab98f2c3" title="See interface Cluster." alt="" coords="815,5,1103,35"/>
-<area shape="rect" id="node7" href="$classmoa_1_1clusterers_1_1clustree_1_1ClusKernel.html#a9e4f5414cfacb3df03db9a7001ab4187" title="Check if this cluster is empty or not." alt="" coords="820,59,1097,88"/>
-</map>

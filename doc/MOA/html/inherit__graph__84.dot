@@ -1,9 +1,0 @@
-digraph G
-{
-  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
-  node [fontname="Helvetica",fontsize="10",shape=record];
-  rankdir=LR;
-  Node1 [label="moa.clusterers.outliers.utils.mtree.PartitionFunction\< DATA \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interfacemoa_1_1clusterers_1_1outliers_1_1utils_1_1mtree_1_1PartitionFunction_3_01DATA_01_4.html",tooltip="An object with partitions a set of data into two sub-sets."];
-  Node1 -> Node2 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node2 [label="moa.clusterers.outliers.utils.mtree.PartitionFunctions.BalancedPartition\< DATA \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1clusterers_1_1outliers_1_1utils_1_1mtree_1_1PartitionFunctions_1_1BalancedPartition_3_01DATA_01_4.html",tooltip="A  PartitionFunction partition function} that tries to distribute the data objects..."];
-}

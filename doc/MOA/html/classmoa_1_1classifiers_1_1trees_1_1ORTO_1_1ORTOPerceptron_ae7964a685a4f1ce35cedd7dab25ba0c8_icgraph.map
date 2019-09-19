@@ -1,7 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1classifiers_1_1trees_1_1ORTO_1_1ActiveLearningNode.html#a71ea5cfd67df8adafeb01d0668905bad" title="Return the error for a given instance." alt="" coords="433,5,788,35"/>
-<area shape="rect" id="node7" href="$classmoa_1_1classifiers_1_1trees_1_1ORTO_1_1ActiveLearningNode.html#a55b879af28d67ee649ed744da71b29f7" title="moa.classifiers.trees.ORTO.ActiveLearningNode.getPHError" alt="" coords="424,59,797,88"/>
-<area shape="rect" id="node10" href="$classmoa_1_1classifiers_1_1trees_1_1ORTO_1_1ActiveLearningNode.html#a49695c85b4773111311734916f85329d" title="moa.classifiers.trees.ORTO.ActiveLearningNode.getPrediction" alt="" coords="417,112,804,141"/>
-<area shape="rect" id="node13" href="$classmoa_1_1classifiers_1_1trees_1_1ORTO_1_1ORTOPerceptron.html#a74b8104e1b397ce074252442af5eec71" title="Update the model using the provided instance." alt="" coords="405,165,816,195"/>
-<area shape="rect" id="node5" href="$classmoa_1_1classifiers_1_1trees_1_1ORTO_1_1ActiveLearningNode.html#a56892d5a3620b1df383f415202d5e916" title="moa.classifiers.trees.ORTO.ActiveLearningNode.processInstance" alt="" coords="865,85,1271,115"/>
-</map>

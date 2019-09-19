@@ -1,4 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1kdtrees_1_1MedianOfWidestDimension.html#ad2efd3d5d8c827e3a360b04266c777ec" title="Implements computation of the kth&#45;smallest element according to Manber&#39;s &quot;Introduction..." alt="" coords="553,5,1039,35"/>
-<area shape="rect" id="node5" href="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1kdtrees_1_1MedianOfWidestDimension.html#ae552a0a2f30decdde129df15f52b63e8" title="Splits a node into two based on the median value of the dimension in which the points..." alt="" coords="1088,5,1595,35"/>
-</map>

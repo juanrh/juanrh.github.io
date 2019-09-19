@@ -1,4 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1classifiers_1_1functions_1_1Perceptron.html#a9bbfb76e17a1e17af3304626d8704a0c" title="Predicts the class memberships for a given instance." alt="" coords="351,5,708,35"/>
-<area shape="rect" id="node5" href="$classmoa_1_1classifiers_1_1functions_1_1Perceptron.html#ac07611c489832314453778cca1474033" title="Trains this classifier incrementally using the given instance." alt="" coords="352,59,707,88"/>
-</map>

@@ -1,8 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1clusterers_1_1CobWeb_1_1CNode.html#a457373b5f5493e20d5c89e3dc52ea5e7" title="Adds an instance to this cluster." alt="" coords="1085,29,1368,59"/>
-<area shape="rect" id="node8" href="$classmoa_1_1clusterers_1_1CobWeb_1_1CNode.html#a096ae66519ef87b69bd52f00e7c74cb9" title="moa.clusterers.CobWeb.CNode.cuScoreForBestTwoMerged" alt="" coords="351,68,724,97"/>
-<area shape="rect" id="node10" href="$classmoa_1_1clusterers_1_1CobWeb_1_1CNode.html#a5b9c90abd6fd96843769c01e37607143" title="Finds a host for the new instance in this nodes children." alt="" coords="773,108,1035,137"/>
-<area shape="rect" id="node15" href="$classmoa_1_1clusterers_1_1CobWeb_1_1CNode.html#af07f8b9806a42fcfa1fb76e677861f18" title="Temporarily adds a new instance to each of this nodes children in turn and computes..." alt="" coords="371,172,704,201"/>
-<area shape="rect" id="node6" href="$classmoa_1_1clusterers_1_1CobWeb.html#a283dcfabf9a50957ad7c16ba369353d8" title="Adds an instance to the clusterer." alt="" coords="1420,29,1703,59"/>
-<area shape="rect" id="node13" href="$classmoa_1_1clusterers_1_1CobWeb.html#a09e9388815b3ee60c4330c2e98865f8b" title="Classifies a given instance." alt="" coords="1083,108,1371,137"/>
-</map>

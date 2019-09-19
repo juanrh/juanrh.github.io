@@ -1,6 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1clusterers_1_1denstream_1_1MicroCluster.html#abb2fd403b8e45cdee34bafcabe21372a" title="moa.clusterers.denstream.MicroCluster.getCenter" alt="" coords="404,5,716,35"/>
-<area shape="rect" id="node5" href="$classmoa_1_1clusterers_1_1denstream_1_1MicroCluster.html#a7b93e81e2eb760551c9e4909648a8330" title="moa.clusterers.denstream.MicroCluster.getCF" alt="" coords="415,59,705,88"/>
-<area shape="rect" id="node7" href="$classmoa_1_1clusterers_1_1denstream_1_1MicroCluster.html#a85f47a6cbdf2683ad7fcc0c8152866f4" title="moa.clusterers.denstream.MicroCluster.getRadius" alt="" coords="403,112,717,141"/>
-<area shape="rect" id="node9" href="$classmoa_1_1clusterers_1_1denstream_1_1WithDBSCAN.html#a7fffb637cae34111bae7491eebfc9943" title="moa.clusterers.denstream.WithDBSCAN.trainOnInstanceImpl" alt="" coords="369,165,751,195"/>
-</map>

@@ -1,4 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node2" href="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1NearestNeighbourSearch.html" title="Abstract class for nearest neighbour search." alt="" coords="95,315,481,747"/>
-<area shape="rect" id="node6" href="$interfacemoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1DistanceFunction.html" title="Interface for any class that can compute and return distances between two instances..." alt="" coords="117,6,459,247"/>
-</map>

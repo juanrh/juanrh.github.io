@@ -1,8 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1options_1_1AbstractOption.html#a0716ff12efafc1b64e13e8449fd64b25" title="This method produces a copy of this object." alt="" coords="459,5,675,35"/>
-<area shape="rect" id="node7" href="$classmoa_1_1options_1_1MultiChoiceOption.html#a5272693a1a0a9f89e135673a6d247dda" title="moa.options.MultiChoiceOption.getChosenIndex" alt="" coords="416,59,717,88"/>
-<area shape="rect" id="node9" href="$classmoa_1_1options_1_1MultiChoiceOption.html#a952ef7c6e93e47264d1951f2811da65a" title="Sets value of this option via the Command Line Interface text." alt="" coords="400,112,733,141"/>
-<area shape="rect" id="node5" href="$interfacemoa_1_1options_1_1Option.html#a21de95695d5a72cd7698fd27a1965860" title="Gets a copy of this option." alt="" coords="851,5,1016,35"/>
-<area shape="rect" id="node11" href="$classmoa_1_1options_1_1MultiChoiceOption.html#afcf032650516eae9b80d9200d5309496" title="moa.options.MultiChoiceOption.setChosenIndex" alt="" coords="783,85,1084,115"/>
-<area shape="rect" id="node13" href="$classmoa_1_1options_1_1MultiChoiceOption.html#a16d5a5d32c994b1b144a996d5b446f44" title="moa.options.MultiChoiceOption.setChosenLabel" alt="" coords="783,139,1084,168"/>
-</map>

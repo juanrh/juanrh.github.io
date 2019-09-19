@@ -1,6 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1streams_1_1ArffFileStream.html#aa29709e1c4faff611d85b6e420a0b59f" title="moa.streams.ArffFileStream.ArffFileStream" alt="" coords="395,5,669,35"/>
-<area shape="rect" id="node5" href="$classmoa_1_1streams_1_1generators_1_1multilabel_1_1MultilabelArffFileStream.html#ab9a402746dbe495543f732ce92929096" title="moa.streams.generators.multilabel.MultilabelArffFileStream.MultilabelArffFileStream" alt="" coords="279,59,785,88"/>
-<area shape="rect" id="node7" href="$classmoa_1_1options_1_1StringOption.html#acdce331b2cf89d42ecfda93632650ebc" title="Sets value of this option via the Command Line Interface text." alt="" coords="383,112,681,141"/>
-<area shape="rect" id="node9" href="$classmoa_1_1gui_1_1FileOptionEditComponent.html#a7d7edc231e4a58607b1dcfa6ea3e3900" title="This method applies the state." alt="" coords="836,112,1121,141"/>
-</map>

@@ -1,6 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1classifiers_1_1trees_1_1ORTO_1_1Node.html#a1f339c3731fb73b6cd6fcf872430bdd5" title="moa.classifiers.trees.ORTO.Node.getLevel" alt="" coords="335,59,607,88"/>
-<area shape="rect" id="node5" href="$classmoa_1_1classifiers_1_1trees_1_1ORTO_1_1InnerNode.html#a0d571f3c82c8b88d790da31fece4a74d" title="moa.classifiers.trees.ORTO.InnerNode.calculateDetph" alt="" coords="691,5,1029,35"/>
-<area shape="rect" id="node7" href="$classmoa_1_1classifiers_1_1trees_1_1ORTO_1_1Node.html#a1cfc009386b908a0406301b0bb057211" title="moa.classifiers.trees.ORTO.Node.calculateDetph" alt="" coords="705,59,1015,88"/>
-<area shape="rect" id="node10" href="$classmoa_1_1classifiers_1_1trees_1_1ORTO_1_1ActiveLearningNode.html#a56892d5a3620b1df383f415202d5e916" title="moa.classifiers.trees.ORTO.ActiveLearningNode.processInstance" alt="" coords="657,112,1063,141"/>
-</map>

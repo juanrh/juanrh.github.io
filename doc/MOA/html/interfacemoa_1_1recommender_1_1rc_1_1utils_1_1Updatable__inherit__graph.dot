@@ -1,8 +1,0 @@
-digraph G
-{
-  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
-  node [fontname="Helvetica",fontsize="10",shape=record];
-  Node1 [label="{moa.recommender.rc.utils.Updatable\n||+ updateNewUser()\l+ updateNewItem()\l+ updateRemoveUser()\l+ updateRemoveItem()\l+ updateSetRating()\l+ updateRemoveRating()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
-  Node1 -> Node2 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
-  Node2 [label="{moa.recommender.rc.predictor.impl.BRISMFPredictor\n|# data\l# nFeatures\l# userFeature\l# itemFeature\l# rnd\l# lRate\l# rFactor\l# nIterations\l|+ setLRate()\l+ setRFactor()\l+ setNIterations()\l+ getData()\l+ BRISMFPredictor()\l+ BRISMFPredictor()\l+ predictRating()\l+ predictRating()\l+ trainUserFeats()\l+ trainItemFeats()\l+ trainUser()\l+ trainUser()\l+ trainUser()\l+ trainItem()\l+ trainItem()\l+ trainUser()\l+ trainItem()\l+ trainItem()\l+ train()\l+ getUserFeatures()\l+ getItemFeatures()\l+ getNumFeatures()\l+ updateNewUser()\l+ updateNewItem()\l+ updateRemoveUser()\l+ updateRemoveItem()\l+ updateSetRating()\l+ updateRemoveRating()\l+ predictRatings()\l- resetFeatures()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1recommender_1_1rc_1_1predictor_1_1impl_1_1BRISMFPredictor.html",tooltip="Implementation of the algorithm described in Scalable Collaborative Filtering Approaches..."];
-}

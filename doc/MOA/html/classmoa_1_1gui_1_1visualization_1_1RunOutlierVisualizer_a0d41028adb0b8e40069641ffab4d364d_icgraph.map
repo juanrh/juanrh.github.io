@@ -1,9 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1gui_1_1visualization_1_1RunOutlierVisualizer.html#a81503b717c39d8f3baa07401dd5dabe3" title="moa.gui.visualization.RunOutlierVisualizer._redraw" alt="" coords="424,5,741,35"/>
-<area shape="rect" id="node7" href="$classmoa_1_1gui_1_1visualization_1_1RunOutlierVisualizer.html#ad2b16bb3ecbd9f839557f142841cfa75" title="moa.gui.visualization.RunOutlierVisualizer._redrawOnResize" alt="" coords="396,59,769,88"/>
-<area shape="rect" id="node13" href="$classmoa_1_1gui_1_1visualization_1_1RunOutlierVisualizer.html#a2ce3238eb000cd4f1be8ea553920e688" title="moa.gui.visualization.RunOutlierVisualizer.processData" alt="" coords="411,112,755,141"/>
-<area shape="rect" id="node5" href="$classmoa_1_1gui_1_1visualization_1_1RunOutlierVisualizer.html#afcbe4b67c41677ac7d23c42851900341" title="moa.gui.visualization.RunOutlierVisualizer.redraw" alt="" coords="848,5,1157,35"/>
-<area shape="rect" id="node9" href="$classmoa_1_1gui_1_1visualization_1_1RunOutlierVisualizer.html#ac10ff19765d310ced1620a5d66c8944b" title="moa.gui.visualization.RunOutlierVisualizer.redrawOnResize" alt="" coords="819,59,1187,88"/>
-<area shape="rect" id="node11" href="$classmoa_1_1gui_1_1visualization_1_1StreamOutlierPanel.html#a6e4ccbc61d24e267ce39159a7ece3dee" title="moa.gui.visualization.StreamOutlierPanel.componentResized" alt="" coords="1236,59,1612,88"/>
-<area shape="rect" id="node15" href="$classmoa_1_1gui_1_1visualization_1_1RunOutlierVisualizer.html#a0bf0a5051db38b649892d86aa7cab5ce" title="moa.gui.visualization.RunOutlierVisualizer.run" alt="" coords="859,112,1147,141"/>
-</map>

@@ -1,6 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1classifiers_1_1rules_1_1AMRulesRegressor.html#a6e77a8b0c0de8353a13e63aeb44f04aa" title="moa.classifiers.rules.AMRulesRegressor.newRule" alt="" coords="360,5,675,35"/>
-<area shape="rect" id="node5" href="$classmoa_1_1classifiers_1_1rules_1_1core_1_1Rule_1_1Builder.html#aebcac73ff7314bcb7bc6b0d406e9b5db" title="moa.classifiers.rules.core.Rule.Builder.owner" alt="" coords="375,59,660,88"/>
-<area shape="rect" id="node7" href="$classmoa_1_1classifiers_1_1rules_1_1core_1_1Rule.html#aac1beb99c563a6ecee011b84eedda16b" title="moa.classifiers.rules.core.Rule.Rule" alt="" coords="401,112,633,141"/>
-<area shape="rect" id="node9" href="$classmoa_1_1classifiers_1_1rules_1_1core_1_1Rule_1_1Builder.html#a0b4dd944249ef4e778cb7c2363b27ca2" title="moa.classifiers.rules.core.Rule.Builder.build" alt="" coords="723,112,1000,141"/>
-</map>

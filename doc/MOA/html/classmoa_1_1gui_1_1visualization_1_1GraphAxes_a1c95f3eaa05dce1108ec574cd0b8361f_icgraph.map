@@ -1,6 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1gui_1_1visualization_1_1GraphCanvas.html#affe259f0e825f19583e1f4f624576fe6" title="moa.gui.visualization.GraphCanvas.setGraph" alt="" coords="397,59,683,88"/>
-<area shape="rect" id="node5" href="$classmoa_1_1gui_1_1visualization_1_1RunVisualizer.html#ad60787273b64a9ec949eb25e2a1598bd" title="moa.gui.visualization.RunVisualizer.actionPerformed" alt="" coords="763,5,1091,35"/>
-<area shape="rect" id="node7" href="$classmoa_1_1gui_1_1visualization_1_1RunOutlierVisualizer.html#a10546ef98a99278a121566002e5a51a3" title="moa.gui.visualization.RunOutlierVisualizer.RunOutlierVisualizer" alt="" coords="732,59,1121,88"/>
-<area shape="rect" id="node9" href="$classmoa_1_1gui_1_1visualization_1_1RunVisualizer.html#ab8af38867b16c9893bef23c9138293ab" title="moa.gui.visualization.RunVisualizer.RunVisualizer" alt="" coords="769,112,1084,141"/>
-</map>

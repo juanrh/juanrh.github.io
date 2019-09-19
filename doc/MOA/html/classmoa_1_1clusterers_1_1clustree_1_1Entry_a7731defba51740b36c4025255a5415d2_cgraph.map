@@ -1,9 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1clusterers_1_1clustree_1_1Entry.html#a9572821462daa403711444677c1d62dc" title="Getter for the buffer." alt="" coords="403,5,653,35"/>
-<area shape="rect" id="node5" href="$classmoa_1_1clusterers_1_1clustree_1_1Entry.html#a61f6036ac71f69f1b16546544b8f01ac" title="Return the reference to the child of this Entry to navigate in the tree." alt="" coords="405,59,651,88"/>
-<area shape="rect" id="node7" href="$classmoa_1_1clusterers_1_1clustree_1_1Node.html#abb9b9f7152bcbc9df763bb39f92b4968" title="Return an array with references to the children of this node." alt="" coords="400,112,656,141"/>
-<area shape="rect" id="node9" href="$classmoa_1_1clusterers_1_1clustree_1_1ClusKernel.html#a9e4f5414cfacb3df03db9a7001ab4187" title="Check if this cluster is empty or not." alt="" coords="751,191,1028,220"/>
-<area shape="rect" id="node11" href="$classmoa_1_1clusterers_1_1clustree_1_1Entry.html#ad9a372cb27cd0456f5c9e5a5da020b17" title="Check if this Entry is empty or not." alt="" coords="405,216,651,245"/>
-<area shape="rect" id="node14" href="$classmoa_1_1clusterers_1_1clustree_1_1ClusKernel.html#a22986eb9c8e88016fa5415ab2c68ba54" title="Overwrites the LS, SS and weightedN in this cluster to the values of the given cluster..." alt="" coords="356,269,700,299"/>
-<area shape="rect" id="node16" href="$classmoa_1_1clusterers_1_1clustree_1_1Entry.html#a840de969def7ba71d550924ec962b98d" title="moa.clusterers.clustree.Entry.setParentEntry" alt="" coords="387,323,669,352"/>
-</map>

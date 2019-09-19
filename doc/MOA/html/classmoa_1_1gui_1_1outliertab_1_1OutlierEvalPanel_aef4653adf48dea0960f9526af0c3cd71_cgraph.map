@@ -1,8 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1gui_1_1outliertab_1_1OutlierEvalPanel.html#a78f0cb878c3361cbfa366ee110f28d6b" title="moa.gui.outliertab.OutlierEvalPanel.addComponents" alt="" coords="393,59,719,88"/>
-<area shape="rect" id="node11" href="$classmoa_1_1gui_1_1outliertab_1_1OutlierEvalPanel.html#a9c9e3949a8233f62407e9f71114d8d6a" title="moa.gui.outliertab.OutlierEvalPanel.findMeasureClasses" alt="" coords="381,112,731,141"/>
-<area shape="rect" id="node13" href="$classmoa_1_1gui_1_1outliertab_1_1OutlierEvalPanel.html#a26e161f48b54fc1631c38e2b20c3ed4e" title="This method is called from within the constructor to initialize the form." alt="" coords="396,165,716,195"/>
-<area shape="rect" id="node5" href="$classmoa_1_1evaluation_1_1MeasureCollection.html#a4b048a28aaba3c44046baffd1ef4440f" title="moa.evaluation.MeasureCollection.getName" alt="" coords="805,5,1083,35"/>
-<area shape="rect" id="node7" href="$classmoa_1_1evaluation_1_1MeasureCollection.html#aa21276cf4ecc9b8fd091d282975157ea" title="moa.evaluation.MeasureCollection.getNumMeasures" alt="" coords="780,59,1108,88"/>
-<area shape="rect" id="node9" href="$classmoa_1_1evaluation_1_1MeasureCollection.html#acb13319ac2d8c79027d9316f16e6f98e" title="moa.evaluation.MeasureCollection.isEnabled" alt="" coords="803,112,1085,141"/>
-</map>

@@ -1,7 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1evaluation_1_1CMM__GTAnalysis.html#a794b653c2c7b7335127f6ca7720ec5ab" title="Calculate the connection of a point to a cluster." alt="" coords="401,32,743,61"/>
-<area shape="rect" id="node11" href="$classmoa_1_1gui_1_1visualization_1_1DataPoint.html#ae785a3bf303998016133b7d56566a920" title="moa.gui.visualization.DataPoint.setMeasureValue" alt="" coords="417,85,727,115"/>
-<area shape="rect" id="node5" href="$classmoa_1_1evaluation_1_1CMM__GTAnalysis.html#a12f256dabb3d986447d1d0b74a9a0dbc" title="moa.evaluation.CMM_GTAnalysis.getKnnInCluster" alt="" coords="793,5,1111,35"/>
-<area shape="rect" id="node9" href="$classmoa_1_1gui_1_1visualization_1_1DataPoint.html#a2a969caa225b25dce49d0e0caba03037" title="moa.gui.visualization.DataPoint.getTimestamp" alt="" coords="805,59,1099,88"/>
-<area shape="rect" id="node7" href="$classmoa_1_1evaluation_1_1CMM__GTAnalysis.html#a0d6e0c9cce76d83d7edbc65a3bacb315" title="Calculates Euclidian distance." alt="" coords="1160,5,1435,35"/>
-</map>

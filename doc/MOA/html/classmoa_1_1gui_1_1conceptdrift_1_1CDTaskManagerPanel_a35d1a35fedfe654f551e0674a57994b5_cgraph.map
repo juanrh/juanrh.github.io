@@ -1,5 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1gui_1_1conceptdrift_1_1CDTaskManagerPanel.html#a4b83ab8c9a34504bac8916eb9b0d1272" title="moa.gui.conceptdrift.CDTaskManagerPanel.getCurrenTask" alt="" coords="483,5,848,35"/>
-<area shape="rect" id="node5" href="$classmoa_1_1gui_1_1conceptdrift_1_1CDTaskManagerPanel.html#add709d2d090cedfe3728efcc9acf6dd2" title="moa.gui.conceptdrift.CDTaskManagerPanel.getSelectedTasks" alt="" coords="473,59,857,88"/>
-<area shape="rect" id="node7" href="$classmoa_1_1tasks_1_1TaskThread.html#aaa42f5df321a72870b224e83bb0cf6fa" title="moa.tasks.TaskThread.getTask" alt="" coords="563,112,768,141"/>
-</map>

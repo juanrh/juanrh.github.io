@@ -1,5 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1core_1_1AutoExpandVector_3_01T_01_4.html#a930f4a80d39cfd69b6c6b44dcdeda91b" title="This method produces a copy of this object." alt="" coords="333,5,587,35"/>
-<area shape="rect" id="node5" href="$classmoa_1_1classifiers_1_1AbstractMultipleRegressorTestCase.html#a38d2c116e3315b90f952213bd662203d" title="Returns the evaluator setups to use in the regression test." alt="" coords="205,59,715,88"/>
-<area shape="rect" id="node7" href="$classmoa_1_1classifiers_1_1AbstractMultipleClassifierTestCase.html#ad437c55d5b8b316f758b58abf4107dac" title="Returns the evaluator setups to use in the regression test." alt="" coords="208,112,712,141"/>
-</map>

@@ -1,5 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1options_1_1IntOption.html#affae8787274b44ab7616d46b8d6c831a" title="moa.options.IntOption.getValue" alt="" coords="1129,5,1335,35"/>
-<area shape="rect" id="node5" href="$classmoa_1_1classifiers_1_1trees_1_1HoeffdingOptionTree_1_1SplitNode.html#a70b555bffe6a7a65bfbe17a637dfd008" title="moa.classifiers.trees.HoeffdingOptionTree.SplitNode.killOptionLeaf" alt="" coords="1027,83,1437,112"/>
-<area shape="rect" id="node8" href="$classmoa_1_1classifiers_1_1trees_1_1HoeffdingOptionTree_1_1SplitNode.html#a59d4b7fbbc8e3457f6150013a94169c1" title="moa.classifiers.trees.HoeffdingOptionTree.SplitNode.updateOptionCountBelow" alt="" coords="499,56,979,85"/>
-</map>

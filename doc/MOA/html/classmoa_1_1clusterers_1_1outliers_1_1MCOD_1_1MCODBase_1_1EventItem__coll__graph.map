@@ -1,6 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node2" href="$classmoa_1_1clusterers_1_1outliers_1_1MCOD_1_1ISBIndex_1_1ISBNode.html" title="{moa.clusterers.outliers.MCOD.ISBIndex.ISBNode\n|+ inst\l+ obj\l+ id\l+ mc\l+ Rmc\l+ count_after\l+ nodeType\l+ nOutlier\l+ nInlier\l&#45; nn_before\l|+ ISBNode()\l+ InitNode()\l+ compareTo()\l+ AddPrecNeigh()\l+ RemovePrecNeigh()\l+ GetMinPrecNeigh()\l+ CountPrecNeighs()\l+ Get_nn_before()\l}" alt="" coords="283,397,597,760"/>
-<area shape="rect" id="node14" href="$classmoa_1_1clusterers_1_1outliers_1_1MCOD_1_1MicroCluster.html" title="{moa.clusterers.outliers.MCOD.MicroCluster\n|+ mcc\l+ nodes\l|+ MicroCluster()\l+ AddNode()\l+ RemoveNode()\l+ GetNodesCount()\l+ dimensions()\l+ get()\l+ equals()\l+ compareTo()\l}" alt="" coords="507,827,784,1051"/>
-<area shape="rect" id="node6" href="$classmoa_1_1clusterers_1_1outliers_1_1MCOD_1_1StreamObj.html" title="{moa.clusterers.outliers.MCOD.StreamObj\n|&#45; values\l&#45; hashCode\l|+ StreamObj()\l+ dimensions()\l+ get()\l+ hashCode()\l+ equals()\l+ compareTo()\l}" alt="" coords="168,141,432,331"/>
-<area shape="rect" id="node8" href="$interfacemoa_1_1clusterers_1_1outliers_1_1utils_1_1mtree_1_1DistanceFunctions_1_1EuclideanCoordinate.html" title="An interface to represent coordinates in Euclidean spaces." alt="" coords="392,5,848,91"/>
-</map>

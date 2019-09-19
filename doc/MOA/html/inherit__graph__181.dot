@@ -1,7 +1,0 @@
-digraph G
-{
-  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
-  node [fontname="Helvetica",fontsize="10",shape=record];
-  rankdir=LR;
-  Node1 [label="moa.recommender.rc.utils.Pair\< T extends Comparable\< T \>, U extends Comparable\< U \> \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1recommender_1_1rc_1_1utils_1_1Pair_3_01T_01extends_01Comparable_3_01T_01_4_00_01U_010bbf8a84d50575de7c765385539df63a.html"];
-}

@@ -1,6 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1clusterers_1_1clustree_1_1Entry.html#ad9a372cb27cd0456f5c9e5a5da020b17" title="Check if this Entry is empty or not." alt="" coords="323,5,568,35"/>
-<area shape="rect" id="node7" href="$classmoa_1_1clusterers_1_1clustree_1_1Entry.html#a5b30006fa5bda7874b56956af357d602" title="Ages this entrie&#39;s data AND buffer according to the given time and aging constant..." alt="" coords="316,59,575,88"/>
-<area shape="rect" id="node5" href="$classmoa_1_1clusterers_1_1clustree_1_1ClusKernel.html#a9e4f5414cfacb3df03db9a7001ab4187" title="Check if this cluster is empty or not." alt="" coords="632,5,909,35"/>
-<area shape="rect" id="node9" href="$classmoa_1_1clusterers_1_1clustree_1_1ClusKernel.html#a9b669100ea91ae8ef6358c3994f4c110" title="Make this cluster older." alt="" coords="624,59,917,88"/>
-</map>

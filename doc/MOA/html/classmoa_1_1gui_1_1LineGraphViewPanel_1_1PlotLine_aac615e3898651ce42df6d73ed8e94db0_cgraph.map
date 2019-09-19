@@ -1,6 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1gui_1_1LineGraphViewPanel_1_1PlotLine.html#ad51d61a34b500a5c8072eeabbe3aa7a8" title="moa.gui.LineGraphViewPanel.PlotLine.convertX" alt="" coords="396,5,695,35"/>
-<area shape="rect" id="node5" href="$classmoa_1_1gui_1_1LineGraphViewPanel_1_1PlotLine.html#a16f1a57ff4dca0851245331bfb5e24bd" title="moa.gui.LineGraphViewPanel.PlotLine.convertY" alt="" coords="396,59,695,88"/>
-<area shape="rect" id="node7" href="$classmoa_1_1evaluation_1_1LearningCurve.html#a65e68ac1fc122013a7248566c0cb8ced" title="moa.evaluation.LearningCurve.getMeasurement" alt="" coords="396,112,695,141"/>
-<area shape="rect" id="node9" href="$classmoa_1_1evaluation_1_1LearningCurve.html#a3c3e920e9fa8d5d355c31e48ed59a2fb" title="moa.evaluation.LearningCurve.numEntries" alt="" coords="412,165,679,195"/>
-</map>

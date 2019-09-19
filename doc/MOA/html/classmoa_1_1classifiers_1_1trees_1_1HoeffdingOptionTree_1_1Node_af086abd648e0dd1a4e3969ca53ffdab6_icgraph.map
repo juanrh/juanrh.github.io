@@ -1,4 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1classifiers_1_1trees_1_1HoeffdingOptionTree_1_1Node.html#a3329df4b6a70f9327cedaa48433a5540" title="moa.classifiers.trees.HoeffdingOptionTree.Node.calcByteSizeIncludingSubtree" alt="" coords="437,5,917,35"/>
-<area shape="rect" id="node5" href="$classmoa_1_1classifiers_1_1trees_1_1HoeffdingOptionTree_1_1SplitNode.html#a810c629ee7a26c983ae78974e31a53ab" title="moa.classifiers.trees.HoeffdingOptionTree.SplitNode.calcByteSizeIncludingSubtree" alt="" coords="965,5,1472,35"/>
-</map>

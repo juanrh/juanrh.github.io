@@ -1,4 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node5" href="$classmoa_1_1recommender_1_1predictor_1_1BaselinePredictor.html" title="A naive algorithm which combines the global mean of all the existing ratings, the..." alt="" coords="5,361,296,567"/>
-<area shape="rect" id="node7" href="$classmoa_1_1recommender_1_1predictor_1_1BRISMFPredictor.html" title="Implementation of the algorithm described in Scalable Collaborative Filtering Approaches..." alt="" coords="320,326,611,602"/>
-</map>

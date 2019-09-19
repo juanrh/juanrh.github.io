@@ -1,7 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1gui_1_1visualization_1_1GraphCanvas.html#a3ff8e38f077729c295a04864cdd49a7f" title="moa.gui.visualization.GraphCanvas.addEvents" alt="" coords="375,5,668,35"/>
-<area shape="rect" id="node7" href="$classmoa_1_1gui_1_1visualization_1_1RunVisualizer.html#a50f523216f34a9f4694ab38876b4be61" title="moa.gui.visualization.RunVisualizer.changeCluster" alt="" coords="363,59,680,88"/>
-<area shape="rect" id="node9" href="$classmoa_1_1gui_1_1visualization_1_1RunOutlierVisualizer.html#a65f97c084dabc430de6538c6f414be92" title="moa.gui.visualization.RunOutlierVisualizer.changeCluster" alt="" coords="344,112,699,141"/>
-<area shape="rect" id="node11" href="$classmoa_1_1gui_1_1visualization_1_1GraphCanvas.html#a0846f033a64b9684fda66b4aa00e8e81" title="moa.gui.visualization.GraphCanvas.forceAddEvents" alt="" coords="359,165,684,195"/>
-<area shape="rect" id="node5" href="$classmoa_1_1gui_1_1visualization_1_1GraphCanvas.html#ad0e5155bddd2d0b8ffb71ab4d1e2072c" title="moa.gui.visualization.GraphCanvas.updateCanvas" alt="" coords="748,5,1063,35"/>
-</map>

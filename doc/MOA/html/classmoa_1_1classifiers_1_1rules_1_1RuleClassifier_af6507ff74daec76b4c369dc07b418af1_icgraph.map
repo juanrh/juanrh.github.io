@@ -1,5 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1classifiers_1_1rules_1_1RuleClassifier.html#a331a0272136812420c3f28741e49dc3b" title="moa.classifiers.rules.RuleClassifier.computeAnomalySupervised" alt="" coords="363,5,760,35"/>
-<area shape="rect" id="node7" href="$classmoa_1_1classifiers_1_1rules_1_1RuleClassifier.html#ac498e2b33463b69a59ed3d1e6506ceee" title="moa.classifiers.rules.RuleClassifier.computeAnomalyUnsupervised" alt="" coords="355,59,768,88"/>
-<area shape="rect" id="node5" href="$classmoa_1_1classifiers_1_1rules_1_1RuleClassifier.html#abaeafe5f63a8fda72e948fc9e259d645" title="Trains this classifier incrementally using the given instance." alt="" coords="816,32,1165,61"/>
-</map>

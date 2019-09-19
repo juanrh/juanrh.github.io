@@ -1,9 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1streams_1_1clustering_1_1FileStream.html#afa6427616638ec26533d9edc06bf598a" title="Restarts this stream." alt="" coords="395,95,661,125"/>
-<area shape="rect" id="node5" href="$classmoa_1_1options_1_1FileOption.html#a01615786786a168a9e3b8c5d0f50b1e8" title="moa.options.FileOption.getFile" alt="" coords="1143,70,1340,99"/>
-<area shape="rect" id="node9" href="$classmoa_1_1options_1_1ListOption.html#a40ccede6efe9d931a87bf17c443d32ec" title="moa.options.ListOption.getList" alt="" coords="803,42,1000,71"/>
-<area shape="rect" id="node11" href="$classmoa_1_1options_1_1IntOption.html#affae8787274b44ab7616d46b8d6c831a" title="moa.options.IntOption.getValue" alt="" coords="799,95,1004,125"/>
-<area shape="rect" id="node13" href="$classmoa_1_1streams_1_1clustering_1_1FileStream.html#a302d43207ddf466ae11e807d5d33496c" title="moa.streams.clustering.FileStream.readMinMaxDiffValues" alt="" coords="721,149,1081,178"/>
-<area shape="rect" id="node16" href="$classmoa_1_1streams_1_1clustering_1_1FileStream.html#a12763f95d232d4d95cbec108ed873e48" title="moa.streams.clustering.FileStream.readNextInstanceFromFile" alt="" coords="711,202,1092,231"/>
-<area shape="rect" id="node7" href="$classmoa_1_1options_1_1StringOption.html#acdafb10f476c4aacf74bf51adb2b4732" title="moa.options.StringOption.getValue" alt="" coords="1389,70,1613,99"/>
-</map>

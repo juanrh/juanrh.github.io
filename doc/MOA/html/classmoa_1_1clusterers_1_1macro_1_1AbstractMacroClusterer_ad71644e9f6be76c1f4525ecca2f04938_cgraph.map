@@ -1,8 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1cluster_1_1Clustering.html#a6a66be9b90f5cb06b044da278cdf24c9" title="remove a cluster from the clustering" alt="" coords="527,5,700,35"/>
-<area shape="rect" id="node5" href="$classmoa_1_1cluster_1_1Clustering.html#a19a03f96dd3d8cedda1b74b5883735d7" title="moa.cluster.Clustering.getClustering" alt="" coords="496,59,731,88"/>
-<area shape="rect" id="node7" href="$classmoa_1_1cluster_1_1Cluster.html#aec009f106ed5a6940f956a07af28ffd2" title="moa.cluster.Cluster.getId" alt="" coords="529,112,697,141"/>
-<area shape="rect" id="node9" href="$classmoa_1_1clusterers_1_1macro_1_1NonConvexCluster.html#ac44dbca24bf943f3316932e06fd895d7" title="moa.clusterers.macro.NonConvexCluster.getMicroClusters" alt="" coords="431,165,796,195"/>
-<area shape="rect" id="node11" href="$classmoa_1_1cluster_1_1Cluster.html#ab2150fa98345a6891ed070c12f9ff809" title="moa.cluster.Cluster.setId" alt="" coords="529,219,697,248"/>
-<area shape="rect" id="node13" href="$classmoa_1_1cluster_1_1Clustering.html#a054a386d94acf3b88574f061ab4c8d71" title="moa.cluster.Clustering.size" alt="" coords="523,272,704,301"/>
-</map>

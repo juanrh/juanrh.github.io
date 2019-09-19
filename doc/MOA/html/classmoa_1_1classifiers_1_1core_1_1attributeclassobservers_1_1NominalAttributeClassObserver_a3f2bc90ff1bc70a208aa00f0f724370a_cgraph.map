@@ -1,7 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1core_1_1DoubleVector.html#a4050209166f4be04dd9f6dac3535d60e" title="moa.core.DoubleVector.addToValue" alt="" coords="772,5,1004,35"/>
-<area shape="rect" id="node7" href="$classmoa_1_1core_1_1DoubleVector.html#a0cd86df680113a943ebb8fcf60819ece" title="moa.core.DoubleVector.getArrayRef" alt="" coords="772,59,1004,88"/>
-<area shape="rect" id="node9" href="$classmoa_1_1core_1_1DoubleVector.html#a0a22580b229225823e9b11ed9d35104a" title="moa.core.DoubleVector.getValue" alt="" coords="781,112,995,141"/>
-<area shape="rect" id="node11" href="$classmoa_1_1core_1_1DoubleVector.html#a04cac8fb52824b100578ad4bfef2136a" title="moa.core.DoubleVector.numValues" alt="" coords="775,165,1001,195"/>
-<area shape="rect" id="node5" href="$classmoa_1_1core_1_1DoubleVector.html#a9cfebf9a8c5e93615037459ed6bd63a7" title="moa.core.DoubleVector.setArrayLength" alt="" coords="1053,5,1304,35"/>
-</map>

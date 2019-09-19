@@ -1,9 +1,0 @@
-digraph G
-{
-  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
-  node [fontname="Helvetica",fontsize="10",shape=record];
-  rankdir=LR;
-  Node1 [label="moa.classifiers.bayes.NaiveBayes.newNominalClassObserver",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
-  Node1 -> Node2 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node2 [label="moa.classifiers.bayes.NaiveBayes.trainOnInstanceImpl",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1bayes_1_1NaiveBayes.html#a49475a13eb0f2a0955a04a0d25b7bec0",tooltip="Trains this classifier incrementally using the given instance."];
-}

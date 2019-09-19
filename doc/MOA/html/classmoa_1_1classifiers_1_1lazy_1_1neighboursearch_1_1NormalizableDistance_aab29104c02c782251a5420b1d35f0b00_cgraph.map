@@ -1,9 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1NormalizableDistance.html#af5cc0c85cf75c842c97620ca3fb1dfc6" title="Updates the minimum and maximum and width values for all the attributes based on..." alt="" coords="2032,5,2488,35"/>
-<area shape="rect" id="node5" href="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1NormalizableDistance.html#ac5e480e519a2df2424045f09d945030d" title="performs the initializations if necessary." alt="" coords="512,32,931,61"/>
-<area shape="rect" id="node7" href="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1NormalizableDistance.html#a117710f1d798db26fe903fb553100434" title="initializes the ranges and the attributes being used." alt="" coords="980,32,1399,61"/>
-<area shape="rect" id="node9" href="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1NormalizableDistance.html#ac45234e1c0a7124fd18369f5c22382bf" title="initializes the attribute indices." alt="" coords="1449,32,1959,61"/>
-<area shape="rect" id="node11" href="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1NormalizableDistance.html#a35975f221e5126583f1aa0177c7c5e5c" title="Initializes the ranges using all instances of the dataset." alt="" coords="1472,85,1936,115"/>
-<area shape="rect" id="node13" href="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1NormalizableDistance.html#aafa49196134c88952a03f3ec5dc93894" title="Used to initialize the ranges." alt="" coords="2009,72,2511,101"/>
-<area shape="rect" id="node16" href="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1NormalizableDistance.html#a8cb8437b28e58671e060222e8dd2f4d3" title="Used to initialize the ranges." alt="" coords="2019,125,2501,155"/>
-</map>

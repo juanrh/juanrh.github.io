@@ -1,4 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1classifiers_1_1meta_1_1LimAttClassifier.html#aed3caa25bc03466d8b5f88117221ee96" title="moa.classifiers.meta.LimAttClassifier.trainOnInstanceImplPerceptron" alt="" coords="355,5,779,35"/>
-<area shape="rect" id="node5" href="$classmoa_1_1classifiers_1_1meta_1_1LimAttClassifier.html#adddac1d661b7c5ab04d4b15b92f0e2dc" title="Trains this classifier incrementally using the given instance." alt="" coords="828,5,1188,35"/>
-</map>

@@ -1,4 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node5" href="$classmoa_1_1classifiers_1_1trees_1_1RandomHoeffdingTree_1_1LearningNodeNBAdaptive.html" title="{moa.classifiers.trees.RandomHoeffdingTree.LearningNodeNBAdaptive\n|# mcCorrectWeight\l# nbCorrectWeight\l&#45; serialVersionUID\l|+ LearningNodeNBAdaptive()\l+ learnFromInstance()\l+ getClassVotes()\l}" alt="" coords="5,360,437,515"/>
-<area shape="rect" id="node2" href="$classmoa_1_1classifiers_1_1trees_1_1RandomHoeffdingTree_1_1RandomLearningNode.html" title="{moa.classifiers.trees.RandomHoeffdingTree.RandomLearningNode\n|# listAttributes\l# numAttributes\l&#45; serialVersionUID\l|+ RandomLearningNode()\l+ learnFromInstance()\l}" alt="" coords="16,6,427,143"/>
-</map>

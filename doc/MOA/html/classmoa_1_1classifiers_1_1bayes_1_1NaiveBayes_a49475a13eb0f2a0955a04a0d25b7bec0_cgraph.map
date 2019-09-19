@@ -1,8 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1core_1_1DoubleVector.html#a4050209166f4be04dd9f6dac3535d60e" title="moa.core.DoubleVector.addToValue" alt="" coords="560,5,792,35"/>
-<area shape="rect" id="node7" href="$classmoa_1_1classifiers_1_1AbstractClassifier.html#a5cd97fb8e5751d48de011c81f45466d4" title="Gets the index of the attribute in the instance, given the index of the attribute..." alt="" coords="467,59,885,88"/>
-<area shape="rect" id="node9" href="$classmoa_1_1classifiers_1_1bayes_1_1NaiveBayes.html#a625d7e6f55d4acc600b9e75ed3625309" title="moa.classifiers.bayes.NaiveBayes.newNominalClassObserver" alt="" coords="483,112,869,141"/>
-<area shape="rect" id="node11" href="$classmoa_1_1classifiers_1_1bayes_1_1NaiveBayes.html#ac2b38c3d876537798c60af3ccffea31c" title="moa.classifiers.bayes.NaiveBayes.newNumericClassObserver" alt="" coords="483,165,869,195"/>
-<area shape="rect" id="node13" href="$interfacemoa_1_1classifiers_1_1core_1_1attributeclassobservers_1_1AttributeClassObserver.html#adeb638c64bb2dad4266a7db241398bf5" title="Updates statistics of this observer given an attribute value, a class and the weight..." alt="" coords="401,219,951,248"/>
-<area shape="rect" id="node5" href="$classmoa_1_1core_1_1DoubleVector.html#a9cfebf9a8c5e93615037459ed6bd63a7" title="moa.core.DoubleVector.setArrayLength" alt="" coords="1000,5,1251,35"/>
-</map>

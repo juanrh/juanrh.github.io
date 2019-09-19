@@ -1,6 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1cluster_1_1Clustering.html#a5e47c9546740092acb2df89cd3c6dca4" title="moa.cluster.Clustering.classValues" alt="" coords="272,5,499,35"/>
-<area shape="rect" id="node5" href="$classmoa_1_1cluster_1_1Cluster.html#ada31184ce2ef51b9563b4e2339834768" title="moa.cluster.Cluster.setGroundTruth" alt="" coords="271,59,500,88"/>
-<area shape="rect" id="node7" href="$classmoa_1_1cluster_1_1Cluster.html#ab2150fa98345a6891ed070c12f9ff809" title="moa.cluster.Cluster.setId" alt="" coords="301,112,469,141"/>
-<area shape="rect" id="node9" href="$classmoa_1_1cluster_1_1Clustering.html#a054a386d94acf3b88574f061ab4c8d71" title="moa.cluster.Clustering.size" alt="" coords="295,165,476,195"/>
-</map>

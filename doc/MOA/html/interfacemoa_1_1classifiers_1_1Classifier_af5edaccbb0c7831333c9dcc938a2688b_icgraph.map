@@ -1,6 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1tasks_1_1EvaluatePeriodicHeldOutTest.html#a71f8d46e07fbec833b8f4bf669ac5854" title="This method performs this task." alt="" coords="368,5,701,35"/>
-<area shape="rect" id="node5" href="$classmoa_1_1classifiers_1_1AbstractClassifierTestCase.html#a532ce33efcdc1e9895c471710d1428b3" title="Processes the input data and returns the inspection data." alt="" coords="375,59,695,88"/>
-<area shape="rect" id="node9" href="$classmoa_1_1evaluation_1_1LearningEvaluation.html#a0285bac13e44fce608b4e75be34f31bd" title="moa.evaluation.LearningEvaluation.LearningEvaluation" alt="" coords="365,112,704,141"/>
-<area shape="rect" id="node7" href="$classmoa_1_1classifiers_1_1AbstractClassifierTestCase.html#acfbfa6fc0953dab7fd01c4e016b159a9" title="Compares the processed data against previously saved output data." alt="" coords="753,59,1119,88"/>
-</map>

@@ -1,6 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1cluster_1_1SphereCluster.html#a9f7c85aa0b6d46c23962b4f2421f169f" title="moa.cluster.SphereCluster.distance" alt="" coords="333,5,563,35"/>
-<area shape="rect" id="node5" href="$classmoa_1_1cluster_1_1SphereCluster.html#aefb8b36adf18a65827154d4b617e867d" title="moa.cluster.SphereCluster.getCenter" alt="" coords="617,32,855,61"/>
-<area shape="rect" id="node10" href="$classmoa_1_1cluster_1_1SphereCluster.html#a1d2dc0db89728370066bf8bd46a06bed" title="moa.cluster.SphereCluster.getRadius" alt="" coords="328,109,568,139"/>
-<area shape="rect" id="node7" href="$classmoa_1_1AbstractMOAObject.html#a3a6260bd8548c1aff6ea46e49c5c52a5" title="This method produces a copy of this object." alt="" coords="904,32,1104,61"/>
-</map>

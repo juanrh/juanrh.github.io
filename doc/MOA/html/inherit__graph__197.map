@@ -1,5 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node1" href="$interfacemoa_1_1tasks_1_1TaskMonitor.html" title="Interface representing a task monitor." alt="" coords="7,32,164,61"/>
-<area shape="rect" id="node3" href="$classmoa_1_1tasks_1_1NullMonitor.html" title="Class that represents a null monitor." alt="" coords="243,5,395,35"/>
-<area shape="rect" id="node5" href="$classmoa_1_1tasks_1_1StandardTaskMonitor.html" title="Class that represents a standard task monitor." alt="" coords="213,59,424,88"/>
-</map>

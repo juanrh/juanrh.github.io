@@ -1,6 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node2" href="$classmoa_1_1cluster_1_1SphereCluster.html" title="A simple implementation of the Cluster interface representing spherical clusters..." alt="" coords="149,982,325,1535"/>
-<area shape="rect" id="node4" href="$classmoa_1_1cluster_1_1Cluster.html" title="{moa.cluster.Cluster\n|&#45; id\l&#45; gtLabel\l&#45; measure_values\l&#45; serialVersionUID\l|+ Cluster()\l+ getCenter()\l+ getWeight()\l+ getInclusionProbability()\l+ getDescription()\l+ setId()\l+ getId()\l+ isGroundTruth()\l+ setGroundTruth()\l+ getGroundTruth()\l+ sample()\l+ setMeasureValue()\l+ setMeasureValue()\l+ getMeasureValue()\l+ getInfo()\l# getClusterSpecificInfo()\l}" alt="" coords="151,533,324,931"/>
-<area shape="rect" id="node6" href="$classmoa_1_1AbstractMOAObject.html" title="Abstract MOA Object." alt="" coords="5,312,173,467"/>
-<area shape="rect" id="node8" href="$interfacemoa_1_1MOAObject.html" title="Interface implemented by classes in MOA, so that all are serializable, can produce..." alt="" coords="17,141,161,261"/>
-</map>

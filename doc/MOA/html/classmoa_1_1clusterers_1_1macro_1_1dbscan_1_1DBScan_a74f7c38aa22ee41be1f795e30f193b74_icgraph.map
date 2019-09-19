@@ -1,5 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1clusterers_1_1macro_1_1dbscan_1_1DBScan.html#a17e32ba367b8e6483d425c9637bfc6d4" title="moa.clusterers.macro.dbscan.DBScan.expandCluster" alt="" coords="412,5,745,35"/>
-<area shape="rect" id="node5" href="$classmoa_1_1clusterers_1_1macro_1_1dbscan_1_1DBScan.html#afc1d9bb37a240d1c8feb84c771c04bf8" title="moa.clusterers.macro.dbscan.DBScan.getClustering" alt="" coords="795,32,1123,61"/>
-<area shape="rect" id="node7" href="$classmoa_1_1clusterers_1_1denstream_1_1WithDBSCAN.html#aa20703dd9e1103106ed8cba31323dd1b" title="moa.clusterers.denstream.WithDBSCAN.getClusteringResult" alt="" coords="1172,32,1551,61"/>
-</map>

@@ -1,5 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1evaluation_1_1FadingFactorClassificationPerformanceEvaluator.html#ac75bf144e3ce0f32f83ffa6d5b086773" title="moa.evaluation.FadingFactorClassificationPerformanceEvaluator.getFractionIncorrectlyClassified" alt="" coords="632,5,1219,35"/>
-<area shape="rect" id="node5" href="$classmoa_1_1evaluation_1_1FadingFactorClassificationPerformanceEvaluator.html#a2bcdfd92622059ae87091b8e00cc4625" title="Gets the current measurements monitored by this evaluator." alt="" coords="636,59,1215,88"/>
-<area shape="rect" id="node7" href="$classmoa_1_1evaluation_1_1FadingFactorClassificationPerformanceEvaluator.html#ab38d1910fb7d3a9ac5442d0611f35e3f" title="Returns a string representation of this object." alt="" coords="1268,59,1753,88"/>
-</map>

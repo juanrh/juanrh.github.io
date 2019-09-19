@@ -1,5 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node2" href="$classmoa_1_1clusterers_1_1outliers_1_1Angiulli_1_1ISBIndex_1_1ISBNode.html" title="{moa.clusterers.outliers.Angiulli.ISBIndex.ISBNode\n|+ inst\l+ obj\l+ id\l+ nOutlier\l+ nInlier\l|+ ISBNode()\l}" alt="" coords="220,397,535,552"/>
-<area shape="rect" id="node4" href="$classmoa_1_1clusterers_1_1outliers_1_1Angiulli_1_1StreamObj.html" title="{moa.clusterers.outliers.Angiulli.StreamObj\n|&#45; values\l&#45; hashCode\l|+ StreamObj()\l+ dimensions()\l+ get()\l+ hashCode()\l+ equals()\l+ compareTo()\l}" alt="" coords="100,141,367,331"/>
-<area shape="rect" id="node6" href="$interfacemoa_1_1clusterers_1_1outliers_1_1utils_1_1mtree_1_1DistanceFunctions_1_1EuclideanCoordinate.html" title="An interface to represent coordinates in Euclidean spaces." alt="" coords="5,5,461,91"/>
-</map>

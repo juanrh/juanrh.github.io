@@ -1,9 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1gui_1_1clustertab_1_1ClusteringSetupTab.html#a5455efaae9cfc937bc50c9c7cc28e748" title="moa.gui.clustertab.ClusteringSetupTab.stop" alt="" coords="331,32,608,61"/>
-<area shape="rect" id="node5" href="$classmoa_1_1gui_1_1clustertab_1_1ClusteringSetupTab.html#ac78dddeee147c1bf20246d3361e02e13" title="moa.gui.clustertab.ClusteringSetupTab.buttonStopActionPerformed" alt="" coords="657,5,1068,35"/>
-<area shape="rect" id="node15" href="$classmoa_1_1gui_1_1clustertab_1_1ClusteringSetupTab.html#a24d4a2a1ce48f4efddcfa8fb5f1d901c" title="moa.gui.clustertab.ClusteringSetupTab.stopRun" alt="" coords="712,59,1013,88"/>
-<area shape="rect" id="node7" href="$classmoa_1_1gui_1_1clustertab_1_1ClusteringSetupTab.html#a8abab534a283e409de003f59786a988f" title="This method is called from within the constructor to initialize the form." alt="" coords="1119,5,1460,35"/>
-<area shape="rect" id="node9" href="$classmoa_1_1gui_1_1clustertab_1_1ClusteringSetupTab.html#a3c03410b4b1259ece559c660df433766" title="Creates new form ClusteringSetupTab." alt="" coords="1511,5,1876,35"/>
-<area shape="rect" id="node11" href="$classmoa_1_1gui_1_1clustertab_1_1ClusteringTabPanel.html#a9b1cc4d4da92f4bc04b54cc12382e12f" title="This method is called from within the constructor to initialize the form." alt="" coords="1927,5,2268,35"/>
-<area shape="rect" id="node13" href="$classmoa_1_1gui_1_1clustertab_1_1ClusteringTabPanel.html#a111c041657cee8181be39524a7fa7fb1" title="Creates new form ClusterTab." alt="" coords="2317,5,2683,35"/>
-</map>

@@ -1,4 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1classifiers_1_1meta_1_1LimAttClassifier.html#a06963696d002ed171ebf2839f5f42bf6" title="moa.classifiers.meta.LimAttClassifier.getVotesForInstancePerceptron" alt="" coords="399,5,825,35"/>
-<area shape="rect" id="node5" href="$classmoa_1_1classifiers_1_1meta_1_1LimAttClassifier.html#a57ddfd01e4a874072b89ad1aa2fd05ae" title="Predicts the class memberships for a given instance." alt="" coords="875,5,1240,35"/>
-</map>

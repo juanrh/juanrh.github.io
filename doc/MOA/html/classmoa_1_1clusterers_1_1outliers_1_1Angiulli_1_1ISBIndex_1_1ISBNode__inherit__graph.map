@@ -1,4 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1clusterers_1_1outliers_1_1Angiulli_1_1ApproxSTORM_1_1ISBNodeAppr.html" title="{moa.clusterers.outliers.Angiulli.ApproxSTORM.ISBNodeAppr\n|+ count_after\l+ count_before\l+ fract_before\l|+ ISBNodeAppr()\l}" alt="" coords="5,225,381,345"/>
-<area shape="rect" id="node5" href="$classmoa_1_1clusterers_1_1outliers_1_1Angiulli_1_1ExactSTORM_1_1ISBNodeExact.html" title="{moa.clusterers.outliers.Angiulli.ExactSTORM.ISBNodeExact\n|+ count_after\l&#45; nn_before\l|+ ISBNodeExact()\l+ AddPrecNeigh()\l+ CountPrecNeighs()\l+ PrintPrecNeighs()\l}" alt="" coords="405,208,781,363"/>
-</map>

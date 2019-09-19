@@ -1,4 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node2" href="$interfacemoa_1_1recommender_1_1rc_1_1predictor_1_1RatingPredictor.html" title="{moa.recommender.rc.predictor.RatingPredictor\n||+ predictRating()\l+ predictRatings()\l+ getData()\l+ train()\l}" alt="" coords="5,350,299,487"/>
-<area shape="rect" id="node6" href="$interfacemoa_1_1recommender_1_1rc_1_1data_1_1RecommenderData.html" title="{moa.recommender.rc.data.RecommenderData\n||+ addUser()\l+ removeUser()\l+ addItem()\l+ removeItem()\l+ setRating()\l+ removeRating()\l+ getRatingsUser()\l+ getRatingsItem()\l+ getRating()\l+ getNumItems()\l+ getNumUsers()\l+ getNumRatings()\l+ getAvgRatingUser()\l+ getAvgRatingItem()\l+ getMinRating()\l+ getMaxRating()\l+ getUsers()\l+ getItems()\l+ getGlobalMean()\l+ attachUpdatable()\l+ disableUpdates()\l+ countRatingsUser()\l+ countRatingsItem()\l+ ratingIterator()\l+ userExists()\l+ itemExists()\l+ clear()\l+ close()\l}" alt="" coords="323,142,613,695"/>
-</map>

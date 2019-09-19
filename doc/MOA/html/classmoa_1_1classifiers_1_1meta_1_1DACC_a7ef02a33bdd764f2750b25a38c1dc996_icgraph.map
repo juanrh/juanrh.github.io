@@ -1,8 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1classifiers_1_1meta_1_1DACC.html#a389ab0280ca9867802adca462d97114e" title="Returns the best (or worst) half of classifiers in the adaptive ensemble." alt="" coords="392,7,624,36"/>
-<area shape="rect" id="node11" href="$classmoa_1_1classifiers_1_1meta_1_1DACC.html#aeb1bb224682626d5c6b9b3812c269291" title="Receives a training instance from the stream and updates the adaptive classifiers..." alt="" coords="693,59,979,88"/>
-<area shape="rect" id="node5" href="$classmoa_1_1classifiers_1_1meta_1_1ADACC.html#a90af489cdb600df1e064cf9709d6ec3c" title="Returns the stability index of the adaptive ensemble of classifiers." alt="" coords="672,5,1000,35"/>
-<area shape="rect" id="node7" href="$classmoa_1_1classifiers_1_1meta_1_1ADACC.html#a3689b1cc035b176acc6da2e1434bd12c" title="If the environment is stable enough, take a snapshot (a copy) of the best adaptive..." alt="" coords="1063,5,1340,35"/>
-<area shape="rect" id="node9" href="$classmoa_1_1classifiers_1_1meta_1_1ADACC.html#afac7020458c562ced7fb327021d15e92" title="Trains this classifier incrementally using the given instance." alt="" coords="1404,32,1719,61"/>
-<area shape="rect" id="node13" href="$classmoa_1_1classifiers_1_1meta_1_1DACC.html#aaf6e169006f8f249b9cee1db427930ec" title="Trains this classifier incrementally using the given instance." alt="" coords="1048,109,1355,139"/>
-</map>

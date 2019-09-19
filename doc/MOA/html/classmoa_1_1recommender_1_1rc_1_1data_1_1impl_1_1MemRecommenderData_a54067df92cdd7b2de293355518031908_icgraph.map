@@ -1,5 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1recommender_1_1rc_1_1data_1_1impl_1_1MemRecommenderData.html#ae74a8402c74a2b836e1295074921168f" title="moa.recommender.rc.data.impl.MemRecommenderData.addItem" alt="" coords="491,5,888,35"/>
-<area shape="rect" id="node5" href="$classmoa_1_1recommender_1_1rc_1_1data_1_1impl_1_1MemRecommenderData.html#a4cea2ae3d840cf1e963925be61fc8beb" title="moa.recommender.rc.data.impl.MemRecommenderData.addUser" alt="" coords="489,59,889,88"/>
-<area shape="rect" id="node7" href="$classmoa_1_1recommender_1_1rc_1_1data_1_1impl_1_1MemRecommenderData.html#a2b81eb45b71400367d9492d98d54f1a3" title="moa.recommender.rc.data.impl.MemRecommenderData.setRating" alt="" coords="485,112,893,141"/>
-</map>

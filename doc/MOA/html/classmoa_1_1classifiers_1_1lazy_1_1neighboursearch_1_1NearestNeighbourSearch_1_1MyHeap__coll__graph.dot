@@ -1,8 +1,0 @@
-digraph G
-{
-  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
-  node [fontname="Helvetica",fontsize="10",shape=record];
-  Node1 [label="{moa.classifiers.lazy.neighboursearch.NearestNeighbourSearch.MyHeap\n|~ m_heap\l~ m_KthNearest\l~ m_KthNearestSize\l~ initSize\l|+ MyHeap()\l+ size()\l+ peek()\l+ get()\l+ put()\l+ putBySubstitute()\l+ noOfKthNearest()\l+ putKthNearest()\l+ getKthNearest()\l+ totalSize()\l# upheap()\l# downheap()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
-  Node2 -> Node1 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="m_KthNearest\nm_heap",arrowtail="open",fontname="Helvetica"];
-  Node2 [label="{moa.classifiers.lazy.neighboursearch.NearestNeighbourSearch.MyHeapElement\n|+ index\l+ distance\l|+ MyHeapElement()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1NearestNeighbourSearch_1_1MyHeapElement.html",tooltip="A class for storing data about a neighboring instance."];
-}

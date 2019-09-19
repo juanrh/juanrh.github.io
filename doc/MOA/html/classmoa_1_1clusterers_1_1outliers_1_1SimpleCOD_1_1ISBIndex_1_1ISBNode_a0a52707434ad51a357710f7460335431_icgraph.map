@@ -1,9 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1clusterers_1_1outliers_1_1SimpleCOD_1_1ISBIndex_1_1ISBNode.html#a692ba01aa0811611812147eec2fae33d" title="moa.clusterers.outliers.SimpleCOD.ISBIndex.ISBNode.CountPrecNeighs" alt="" coords="453,59,904,88"/>
-<area shape="rect" id="node16" href="$classmoa_1_1clusterers_1_1outliers_1_1SimpleCOD_1_1ISBIndex_1_1ISBNode.html#aab588c42d51d1e509dfbfedc077ed6b1" title="moa.clusterers.outliers.SimpleCOD.ISBIndex.ISBNode.GetMinPrecNeigh" alt="" coords="453,112,904,141"/>
-<area shape="rect" id="node5" href="$classmoa_1_1clusterers_1_1outliers_1_1SimpleCOD_1_1SimpleCODBase.html#a2a0619c129ff47102183acc9b66431e0" title="moa.clusterers.outliers.SimpleCOD.SimpleCODBase.getObjectInfo" alt="" coords="959,5,1372,35"/>
-<area shape="rect" id="node7" href="$classmoa_1_1clusterers_1_1outliers_1_1SimpleCOD_1_1SimpleCOD.html#ae099f8037dc1b469bb08595407dd399d" title="moa.clusterers.outliers.SimpleCOD.SimpleCOD.ProcessEventQueue" alt="" coords="952,112,1379,141"/>
-<area shape="rect" id="node13" href="$classmoa_1_1clusterers_1_1outliers_1_1SimpleCOD_1_1SimpleCOD.html#a32a614141a4c48722ef75424ec868dd4" title="moa.clusterers.outliers.SimpleCOD.SimpleCOD.ProcessNewNode" alt="" coords="960,59,1371,88"/>
-<area shape="rect" id="node9" href="$classmoa_1_1clusterers_1_1outliers_1_1SimpleCOD_1_1SimpleCOD.html#a5e94fa421e2a2d57c057c9d0af06aa5b" title="moa.clusterers.outliers.SimpleCOD.SimpleCOD.ProcessExpiredNode" alt="" coords="1427,112,1856,141"/>
-<area shape="rect" id="node11" href="$classmoa_1_1clusterers_1_1outliers_1_1SimpleCOD_1_1SimpleCOD.html#adb2072f63d02538843f6edacacac7873" title="moa.clusterers.outliers.SimpleCOD.SimpleCOD.ProcessNewStreamObj" alt="" coords="1904,87,2347,116"/>
-</map>

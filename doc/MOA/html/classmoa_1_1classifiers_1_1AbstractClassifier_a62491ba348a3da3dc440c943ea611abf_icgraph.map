@@ -1,6 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1classifiers_1_1AbstractClassifier.html#a5b59e869213128a1b53152e31f3dcbbc" title="Returns a string representation of this object." alt="" coords="397,5,704,35"/>
-<area shape="rect" id="node5" href="$classmoa_1_1classifiers_1_1AbstractClassifier.html#af81677ce9db6e94f79321df05e7dc019" title="This method describes the implementation of how to prepare this object for use." alt="" coords="384,59,717,88"/>
-<area shape="rect" id="node7" href="$classmoa_1_1classifiers_1_1AbstractClassifier.html#ace518fd29d1cdb5af4279aa1b642dbee" title="Sets the reference to the header of the data stream." alt="" coords="391,112,711,141"/>
-<area shape="rect" id="node9" href="$classmoa_1_1tasks_1_1EvaluateConceptDrift.html#a83715b3b435b89c3aff5d7e948cc2274" title="This method performs this task." alt="" coords="767,112,1052,141"/>
-</map>

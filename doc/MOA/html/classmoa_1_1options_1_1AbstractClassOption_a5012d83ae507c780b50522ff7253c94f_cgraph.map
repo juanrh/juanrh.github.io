@@ -1,4 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$interfacemoa_1_1tasks_1_1Task.html#a10807eaa1d4d05b188f6f7de99d0efbe" title="This method performs this task, when TaskMonitor and ObjectRepository are no needed..." alt="" coords="436,5,599,35"/>
-<area shape="rect" id="node5" href="$interfacemoa_1_1core_1_1ObjectRepository.html#af4df5ba9c590cea52537c074003146b9" title="moa.core.ObjectRepository.getObjectNamed" alt="" coords="376,59,659,88"/>
-</map>

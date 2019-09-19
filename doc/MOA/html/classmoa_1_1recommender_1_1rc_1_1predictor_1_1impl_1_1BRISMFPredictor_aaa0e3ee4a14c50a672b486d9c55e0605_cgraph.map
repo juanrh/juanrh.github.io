@@ -1,5 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$interfacemoa_1_1recommender_1_1rc_1_1data_1_1RecommenderData.html#a38a33b5a06e9f3380bcd7443cd401d15" title="moa.recommender.rc.data.RecommenderData.getGlobalMean" alt="" coords="471,5,852,35"/>
-<area shape="rect" id="node5" href="$interfacemoa_1_1recommender_1_1rc_1_1data_1_1RecommenderData.html#aef2c84df730cf4fd46386103cd73d682" title="moa.recommender.rc.data.RecommenderData.getMaxRating" alt="" coords="473,59,849,88"/>
-<area shape="rect" id="node7" href="$interfacemoa_1_1recommender_1_1rc_1_1data_1_1RecommenderData.html#af4da55520b3f88b53cb7a490426e16c2" title="moa.recommender.rc.data.RecommenderData.getMinRating" alt="" coords="476,112,847,141"/>
-</map>

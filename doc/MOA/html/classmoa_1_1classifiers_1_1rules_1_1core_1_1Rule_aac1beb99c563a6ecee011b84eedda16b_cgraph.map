@@ -1,7 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1classifiers_1_1rules_1_1core_1_1Rule_1_1Builder.html#a3eadcc67f2c435bb29bf3e2b3d2c80f6" title="moa.classifiers.rules.core.Rule.Builder.getAMRules" alt="" coords="315,5,637,35"/>
-<area shape="rect" id="node5" href="$classmoa_1_1classifiers_1_1rules_1_1core_1_1Rule.html#ad2614fab08df51e89cc088aef75a58cf" title="moa.classifiers.rules.core.Rule.newRuleActiveLearningNode" alt="" coords="289,59,663,88"/>
-<area shape="rect" id="node9" href="$classmoa_1_1classifiers_1_1rules_1_1core_1_1Rule.html#a342d90a0f80e4889b9372b769e00d8e2" title="moa.classifiers.rules.core.Rule.setBuilder" alt="" coords="344,112,608,141"/>
-<area shape="rect" id="node11" href="$classmoa_1_1classifiers_1_1rules_1_1core_1_1Rule_1_1Builder.html#a2e3b1f9c144425a6b3930710e6091ef7" title="moa.classifiers.rules.core.Rule.Builder.setOwner" alt="" coords="323,165,629,195"/>
-<area shape="rect" id="node7" href="$classmoa_1_1classifiers_1_1rules_1_1AbstractAMRules.html#a44f98c7a5e03645d7b623579e4777363" title="moa.classifiers.rules.AbstractAMRules.newRuleActiveLearningNode" alt="" coords="712,59,1133,88"/>
-</map>

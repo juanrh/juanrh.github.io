@@ -1,8 +1,0 @@
-digraph G
-{
-  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
-  node [fontname="Helvetica",fontsize="10",shape=record];
-  Node1 [label="{moa.gui.visualization.GraphCanvas\n|~ measureSelected\l- measure0\l- measure1\l- clusterEvents\l- eventLabelList\l- axesPanel\l- curvePanel\l- eventPanel\l- eventCounter\l- x_offset_left\l- x_offset_right\l- y_offset_bottom\l- y_offset_top\l- processFrequency\l- min_y_value\l- max_y_value\l- max_x_value\l- x_resolution\l- y_resolution\l- viewport\l|+ GraphCanvas()\l+ scaleXResolution()\l+ scaleYResolution()\l+ getMeasureSelected()\l+ getProcessFrequency()\l+ setGraph()\l+ updateCanvas()\l+ updateCanvas()\l+ forceAddEvents()\l+ setClusterEventsList()\l+ setViewport()\l# paintComponent()\l- updateMinMaxValues()\l- updateXResolution()\l- updateYValues()\l- updateSize()\l- addEvents()\l- addComponents()\l- initComponents()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
-  Node2 -> Node1 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
-  Node2 [label="{JPanel\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
-}

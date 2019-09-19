@@ -1,6 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1evaluation_1_1BasicClassificationPerformanceEvaluator.html#a8f8de5fcccab2ee4a9f0605e80c535b5" title="moa.evaluation.BasicClassificationPerformanceEvaluator.getFractionIncorrectlyClassified" alt="" coords="591,5,1132,35"/>
-<area shape="rect" id="node5" href="$classmoa_1_1evaluation_1_1BasicClassificationPerformanceEvaluator.html#a65d0bb3294f78a0e688e3d896c550fd7" title="moa.evaluation.BasicClassificationPerformanceEvaluator.getKappaStatistic" alt="" coords="631,59,1092,88"/>
-<area shape="rect" id="node7" href="$classmoa_1_1evaluation_1_1BasicClassificationPerformanceEvaluator.html#a919a74fe8c0965ebcf10061ed6193927" title="Gets the current measurements monitored by this evaluator." alt="" coords="1183,85,1719,115"/>
-<area shape="rect" id="node9" href="$classmoa_1_1evaluation_1_1BasicClassificationPerformanceEvaluator.html#a576db1efa1c4376b54cb8d86c32b4727" title="Returns a string representation of this object." alt="" coords="1768,85,2211,115"/>
-</map>

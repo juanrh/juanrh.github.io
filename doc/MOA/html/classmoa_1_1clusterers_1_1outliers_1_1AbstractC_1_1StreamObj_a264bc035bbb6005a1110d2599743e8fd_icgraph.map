@@ -1,8 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1clusterers_1_1outliers_1_1AbstractC_1_1ISBIndex.html#ab20022dd428a04214f5b0618cfc5fe20" title="moa.clusterers.outliers.AbstractC.ISBIndex.MapCountObjRefs" alt="" coords="379,7,765,36"/>
-<area shape="rect" id="node11" href="$classmoa_1_1clusterers_1_1outliers_1_1AbstractC_1_1ISBIndex.html#a3b2a55c3b132d3d8af7efcd84d8a18f8" title="moa.clusterers.outliers.AbstractC.ISBIndex.MapGetNodes" alt="" coords="813,59,1176,88"/>
-<area shape="rect" id="node5" href="$classmoa_1_1clusterers_1_1outliers_1_1AbstractC_1_1ISBIndex.html#a31d4cbacbfe5327eaed6acc5b342b67b" title="moa.clusterers.outliers.AbstractC.ISBIndex.Remove" alt="" coords="831,5,1159,35"/>
-<area shape="rect" id="node7" href="$classmoa_1_1clusterers_1_1outliers_1_1AbstractC_1_1AbstractCBase.html#a5dcabf84f6ce9dbe0b008e62e82530d1" title="moa.clusterers.outliers.AbstractC.AbstractCBase.RemoveNode" alt="" coords="1224,5,1619,35"/>
-<area shape="rect" id="node9" href="$classmoa_1_1clusterers_1_1outliers_1_1AbstractC_1_1AbstractC.html#a5aae6cf8b072b95b9bc6fce706e12d4a" title="moa.clusterers.outliers.AbstractC.AbstractC.ProcessNewStreamObj" alt="" coords="1667,32,2088,61"/>
-<area shape="rect" id="node13" href="$classmoa_1_1clusterers_1_1outliers_1_1AbstractC_1_1ISBIndex.html#a65659c3ab8eb964c8b6f1ac7d0a83d8c" title="moa.clusterers.outliers.AbstractC.ISBIndex.RangeSearch" alt="" coords="1243,59,1600,88"/>
-</map>

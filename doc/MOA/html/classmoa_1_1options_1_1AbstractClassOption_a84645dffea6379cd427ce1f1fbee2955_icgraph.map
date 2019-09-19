@@ -1,5 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1classifiers_1_1rules_1_1AMRulesRegressor.html#a2d3ddb179b9ff0e22c5ce08b8ced3659" title="moa.classifiers.rules.AMRulesRegressor.newErrorWeightedVote" alt="" coords="464,5,861,35"/>
-<area shape="rect" id="node5" href="$classmoa_1_1classifiers_1_1rules_1_1core_1_1RuleActiveLearningNode.html#af664e32d44994e6d4bb463a97dac2592" title="moa.classifiers.rules.core.RuleActiveLearningNode.newNumericClassObserver" alt="" coords="421,59,904,88"/>
-<area shape="rect" id="node7" href="$classmoa_1_1classifiers_1_1rules_1_1core_1_1RuleActiveRegressionNode.html#adc7f0578888c435fd67cfa803ed3fc71" title="moa.classifiers.rules.core.RuleActiveRegressionNode.learnFromInstance" alt="" coords="952,59,1400,88"/>
-</map>

@@ -1,7 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node1" href="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1kdtrees_1_1KDTreeNodeSplitter.html" title="Class that splits up a KDTreeNode." alt="" coords="5,85,411,115"/>
-<area shape="rect" id="node3" href="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1kdtrees_1_1KMeansInpiredMethod.html" title="The class that splits a node into two such that the overall sum of squared distances..." alt="" coords="479,5,897,35"/>
-<area shape="rect" id="node5" href="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1kdtrees_1_1MedianOfWidestDimension.html" title="The class that splits a KDTree node based on the median value of a dimension in which..." alt="" coords="465,59,911,88"/>
-<area shape="rect" id="node7" href="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1kdtrees_1_1MidPointOfWidestDimension.html" title="The class that splits a KDTree node based on the midpoint value of a dimension in..." alt="" coords="460,112,916,141"/>
-<area shape="rect" id="node9" href="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1kdtrees_1_1SlidingMidPointOfWidestSide.html" title="The class that splits a node into two based on the midpoint value of the dimension..." alt="" coords="459,165,917,195"/>
-</map>

@@ -1,5 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1classifiers_1_1rules_1_1core_1_1Rule.html#a220ca569d98bfbe716c8933482e476ac" title="moa.classifiers.rules.core.Rule.isAnomaly" alt="" coords="437,5,704,35"/>
-<area shape="rect" id="node5" href="$classmoa_1_1classifiers_1_1rules_1_1AbstractAMRules.html#aad1d59a778a30173f4df75dbf753abfa" title="Method to verify if the instance is an anomaly." alt="" coords="752,5,1067,35"/>
-<area shape="rect" id="node7" href="$classmoa_1_1classifiers_1_1rules_1_1AbstractAMRules.html#aa2dc6402864427b11fda4821df77120e" title="Trains this classifier incrementally using the given instance." alt="" coords="1115,5,1485,35"/>
-</map>

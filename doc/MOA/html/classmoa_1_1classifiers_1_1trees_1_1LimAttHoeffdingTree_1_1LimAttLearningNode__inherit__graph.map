@@ -1,4 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1classifiers_1_1trees_1_1LimAttHoeffdingTree_1_1LearningNodeNB.html" title="{moa.classifiers.trees.LimAttHoeffdingTree.LearningNodeNB\n|&#45; serialVersionUID\l|+ LearningNodeNB()\l+ getClassVotes()\l+ disableAttribute()\l}" alt="" coords="31,227,401,347"/>
-<area shape="rect" id="node5" href="$classmoa_1_1classifiers_1_1trees_1_1LimAttHoeffdingTree_1_1LearningNodeNBAdaptive.html" title="{moa.classifiers.trees.LimAttHoeffdingTree.LearningNodeNBAdaptive\n|# mcCorrectWeight\l# nbCorrectWeight\l&#45; serialVersionUID\l|+ LearningNodeNBAdaptive()\l+ learnFromInstance()\l+ getClassVotes()\l}" alt="" coords="5,395,427,549"/>
-</map>

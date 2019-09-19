@@ -1,8 +1,0 @@
-digraph G
-{
-  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
-  node [fontname="Helvetica",fontsize="10",shape=record];
-  Node1 [label="{moa.test.AbstractTestHelper\< I, O \>\n|# m_Owner\l# m_DataDirectory\l|+ AbstractTestHelper()\l+ getDataDirectory()\l+ getTmpDirectory()\l+ getTmpLocationFromResource()\l+ copyResourceToTmp()\l+ copyResourceToTmp()\l+ deleteFileFromTmp()\l+ renameTmpFile()\l+ load()\l+ save()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
-  Node1 -> Node2 [dir=back,color="midnightblue",fontsize="10",style="solid",arrowtail="empty",fontname="Helvetica"];
-  Node2 [label="{moa.test.TestHelper\< I, O \>\n||+ TestHelper()\l+ load()\l+ save()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1test_1_1TestHelper_3_01I_00_01O_01_4.html",tooltip="A helper class specific to the moa project."];
-}

@@ -1,8 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1options_1_1MultiChoiceOption.html#a5272693a1a0a9f89e135673a6d247dda" title="moa.options.MultiChoiceOption.getChosenIndex" alt="" coords="361,5,663,35"/>
-<area shape="rect" id="node5" href="$classmoa_1_1options_1_1FloatOption.html#a0e606a62f4ece232aa8f8cb04bb7f1cf" title="moa.options.FloatOption.getValue" alt="" coords="403,59,621,88"/>
-<area shape="rect" id="node7" href="$classmoa_1_1classifiers_1_1functions_1_1SGD.html#a768a736fdf459668881a01fbc1fed815" title="Reset the classifier." alt="" coords="396,112,628,141"/>
-<area shape="rect" id="node9" href="$classmoa_1_1classifiers_1_1functions_1_1SGD.html#a1b7cf7a4d2480be9a7273583fe0450a4" title="Set the value of lambda to use." alt="" coords="379,165,645,195"/>
-<area shape="rect" id="node11" href="$classmoa_1_1classifiers_1_1functions_1_1SGD.html#a67e315053b7189895227c2174bdb4376" title="Set the learning rate." alt="" coords="363,219,661,248"/>
-<area shape="rect" id="node13" href="$classmoa_1_1classifiers_1_1functions_1_1SGD.html#a28d035c119a35693605fb01510aecb15" title="Set the loss function to use." alt="" coords="363,272,661,301"/>
-</map>

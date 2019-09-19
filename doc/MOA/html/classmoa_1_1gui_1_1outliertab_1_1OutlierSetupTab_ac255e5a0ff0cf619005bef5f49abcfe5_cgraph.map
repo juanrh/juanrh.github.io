@@ -1,9 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1gui_1_1outliertab_1_1OutlierSetupTab.html#a6be3f98ed61b3cf599981788a9f656b5" title="moa.gui.outliertab.OutlierSetupTab.setStateConfigButtons" alt="" coords="319,60,676,89"/>
-<area shape="rect" id="node5" href="$classmoa_1_1gui_1_1outliertab_1_1OutlierTabPanel.html#a77c2ab930f32f68a379ebbf28c91b20a" title="moa.gui.outliertab.OutlierTabPanel.toggle" alt="" coords="367,113,628,143"/>
-<area shape="rect" id="node7" href="$classmoa_1_1gui_1_1outliertab_1_1OutlierVisualTab.html#adcbf96ed6d5d79c6d5e09f0f3eb81ad0" title="moa.gui.outliertab.OutlierVisualTab.toggleVisualizer" alt="" coords="727,112,1047,141"/>
-<area shape="rect" id="node9" href="$classmoa_1_1gui_1_1outliertab_1_1OutlierVisualTab.html#aed1249e820a1b515bb35bbc60a9a0cc0" title="moa.gui.outliertab.OutlierVisualTab.createVisualiterThread" alt="" coords="1097,5,1455,35"/>
-<area shape="rect" id="node11" href="$classmoa_1_1gui_1_1visualization_1_1RunOutlierVisualizer.html#a233f7cc7314ef5e57724747eb6b99ec0" title="moa.gui.visualization.RunOutlierVisualizer.pause" alt="" coords="1123,59,1429,88"/>
-<area shape="rect" id="node13" href="$classmoa_1_1gui_1_1visualization_1_1RunOutlierVisualizer.html#aa5aae958c2e5afd1275b5b8cafb5d4d9" title="moa.gui.visualization.RunOutlierVisualizer.resume" alt="" coords="1119,112,1433,141"/>
-<area shape="rect" id="node15" href="$classmoa_1_1gui_1_1outliertab_1_1OutlierSetupTab.html#afac1924e7a91f024d1df375ed48ff76f" title="moa.gui.outliertab.OutlierSetupTab.toggleRunMode" alt="" coords="1117,165,1435,195"/>
-</map>

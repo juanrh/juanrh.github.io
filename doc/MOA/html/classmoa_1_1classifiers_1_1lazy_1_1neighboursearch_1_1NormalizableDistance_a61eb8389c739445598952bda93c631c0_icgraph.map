@@ -1,8 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1NormalizableDistance.html#a89e69648afaeda7807de47ad3034d682" title="Computes the difference between two given attribute values." alt="" coords="457,32,887,61"/>
-<area shape="rect" id="node5" href="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1NormalizableDistance.html#a62e12bebd24eb1d7420ded5302f4e3cf" title="Calculates the distance between two instances." alt="" coords="940,5,1361,35"/>
-<area shape="rect" id="node7" href="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1EuclideanDistance.html#ad2902424de6444a7cec02c1500adad21" title="Returns the squared difference of two values of an attribute." alt="" coords="937,59,1364,88"/>
-<area shape="rect" id="node9" href="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1KDTree.html#a61aad22ad6a1bc0f0cdbdfa2cb8c5144" title="Returns (in the supplied heap object) the k nearest neighbours of the given instance..." alt="" coords="1415,59,1836,88"/>
-<area shape="rect" id="node11" href="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1KDTree.html#a5549700af886cbd717ec953ef6917dc6" title="Returns the k nearest neighbours of the supplied instance." alt="" coords="1887,59,2295,88"/>
-<area shape="rect" id="node13" href="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1KDTree.html#a59d618cbc6693a845ad8cc9709064b32" title="Returns the nearest neighbour of the supplied target instance." alt="" coords="2344,59,2736,88"/>
-</map>

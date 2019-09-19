@@ -1,6 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1cluster_1_1Clustering.html#a6a66be9b90f5cb06b044da278cdf24c9" title="remove a cluster from the clustering" alt="" coords="423,5,596,35"/>
-<area shape="rect" id="node5" href="$classmoa_1_1cluster_1_1Cluster.html#a8be46287f76d14e83567381c23581d3b" title="moa.cluster.Cluster.getGroundTruth" alt="" coords="395,59,624,88"/>
-<area shape="rect" id="node7" href="$classmoa_1_1cluster_1_1Cluster.html#abf05802928ccf0ebe145e00c3568944b" title="Returns the probability of the given point belonging to this cluster." alt="" coords="375,112,644,141"/>
-<area shape="rect" id="node9" href="$classmoa_1_1gui_1_1visualization_1_1DataPoint.html#a346207ffb1974293b5d67cf10656ef3d" title="moa.gui.visualization.DataPoint.isNoise" alt="" coords="383,165,636,195"/>
-</map>

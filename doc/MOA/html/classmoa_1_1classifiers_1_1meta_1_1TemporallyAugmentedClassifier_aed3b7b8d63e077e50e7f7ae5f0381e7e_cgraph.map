@@ -1,7 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1classifiers_1_1meta_1_1TemporallyAugmentedClassifier.html#abbd8ac28548f9d01b012eb0ea094c8fe" title="moa.classifiers.meta.TemporallyAugmentedClassifier.addOldLabel" alt="" coords="539,5,947,35"/>
-<area shape="rect" id="node5" href="$classmoa_1_1classifiers_1_1meta_1_1TemporallyAugmentedClassifier.html#a172bef12b69495b2ae195932478fb735" title="moa.classifiers.meta.TemporallyAugmentedClassifier.extendWithOldLabels" alt="" coords="513,59,972,88"/>
-<area shape="rect" id="node11" href="$interfacemoa_1_1classifiers_1_1Classifier.html#a0933ed1199c2b16a8eb8186dabf9a8f9" title="Predicts the class memberships for a given instance." alt="" coords="596,112,889,141"/>
-<area shape="rect" id="node7" href="$classmoa_1_1classifiers_1_1meta_1_1TemporallyAugmentedClassifier.html#aed84104af8bf7825863d64e91a385a34" title="moa.classifiers.meta.TemporallyAugmentedClassifier.initHeader" alt="" coords="1021,59,1416,88"/>
-<area shape="rect" id="node9" href="$classmoa_1_1options_1_1IntOption.html#affae8787274b44ab7616d46b8d6c831a" title="moa.options.IntOption.getValue" alt="" coords="1464,59,1669,88"/>
-</map>

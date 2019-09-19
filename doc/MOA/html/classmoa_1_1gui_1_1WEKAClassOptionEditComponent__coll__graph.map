@@ -1,9 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node4" href="$interfacemoa_1_1gui_1_1OptionEditComponent.html" title="Interface representing a component to edit an option." alt="" coords="91,1432,291,1552"/>
-<area shape="rect" id="node8" href="$classmoa_1_1options_1_1WEKAClassOption.html" title="WEKA class option." alt="" coords="405,1397,613,1587"/>
-<area shape="rect" id="node10" href="$classmoa_1_1options_1_1AbstractClassOption.html" title="Abstract class option." alt="" coords="400,949,619,1347"/>
-<area shape="rect" id="node12" href="$classmoa_1_1options_1_1AbstractOption.html" title="Abstract option." alt="" coords="417,605,601,899"/>
-<area shape="rect" id="node14" href="$classmoa_1_1AbstractMOAObject.html" title="Abstract MOA Object." alt="" coords="371,356,539,511"/>
-<area shape="rect" id="node16" href="$interfacemoa_1_1MOAObject.html" title="Interface implemented by classes in MOA, so that all are serializable, can produce..." alt="" coords="497,141,641,261"/>
-<area shape="rect" id="node20" href="$interfacemoa_1_1options_1_1Option.html" title="Interface representing an option or parameter." alt="" coords="563,313,728,554"/>
-</map>

@@ -1,7 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node11" href="$classmoa_1_1classifiers_1_1rules_1_1core_1_1voting_1_1InverseErrorWeightedVote.html" title="InverseErrorWeightedVote class for weighted votes based on estimates of errors." alt="" coords="5,800,371,920"/>
-<area shape="rect" id="node13" href="$classmoa_1_1classifiers_1_1rules_1_1core_1_1voting_1_1UniformWeightedVote.html" title="UniformWeightedVote class for weighted votes based on estimates of errors." alt="" coords="395,809,736,911"/>
-<area shape="rect" id="node2" href="$classmoa_1_1AbstractMOAObject.html" title="Abstract MOA Object." alt="" coords="157,316,325,471"/>
-<area shape="rect" id="node4" href="$interfacemoa_1_1MOAObject.html" title="Interface implemented by classes in MOA, so that all are serializable, can produce..." alt="" coords="169,139,313,259"/>
-<area shape="rect" id="node8" href="$interfacemoa_1_1classifiers_1_1rules_1_1core_1_1voting_1_1ErrorWeightedVote.html" title="ErrorWeightedVote interface for weighted votes based on estimates of errors." alt="" coords="349,307,672,479"/>
-</map>

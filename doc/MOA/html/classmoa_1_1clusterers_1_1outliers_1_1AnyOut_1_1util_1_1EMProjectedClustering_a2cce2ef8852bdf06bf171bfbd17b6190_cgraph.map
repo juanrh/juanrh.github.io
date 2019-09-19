@@ -1,5 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1clusterers_1_1outliers_1_1AnyOut_1_1util_1_1EMProjectedClustering.html#a2a52d374d44335a99fd953edeb73e087" title="moa.clusterers.outliers.AnyOut.util.EMProjectedClustering.calculateMeans" alt="" coords="604,5,1060,35"/>
-<area shape="rect" id="node5" href="$classmoa_1_1clusterers_1_1outliers_1_1AnyOut_1_1util_1_1EMProjectedClustering.html#ad61bacc93bedefd78b0cfa665b1ee079" title="moa.clusterers.outliers.AnyOut.util.EMProjectedClustering.calculateVariances" alt="" coords="595,59,1069,88"/>
-<area shape="rect" id="node7" href="$classmoa_1_1clusterers_1_1outliers_1_1AnyOut_1_1util_1_1EMProjectedClustering.html#a6c72dca1dfd3605da1f6ba961849e718" title="moa.clusterers.outliers.AnyOut.util.EMProjectedClustering.calculateWeights" alt="" coords="600,112,1064,141"/>
-</map>

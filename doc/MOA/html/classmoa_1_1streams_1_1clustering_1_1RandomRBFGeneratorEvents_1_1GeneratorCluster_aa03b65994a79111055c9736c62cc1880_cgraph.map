@@ -1,9 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1cluster_1_1SphereCluster.html#aefb8b36adf18a65827154d4b617e867d" title="moa.cluster.SphereCluster.getCenter" alt="" coords="1251,61,1488,90"/>
-<area shape="rect" id="node7" href="$classmoa_1_1cluster_1_1SphereCluster.html#a1d2dc0db89728370066bf8bd46a06bed" title="moa.cluster.SphereCluster.getRadius" alt="" coords="672,33,912,62"/>
-<area shape="rect" id="node9" href="$classmoa_1_1cluster_1_1SphereCluster.html#a23bc373d05cea24ad1b64d0aa532352e" title="moa.cluster.SphereCluster.setCenter" alt="" coords="673,86,911,116"/>
-<area shape="rect" id="node11" href="$classmoa_1_1streams_1_1clustering_1_1RandomRBFGeneratorEvents_1_1GeneratorCluster.html#a07210af7e2d58616d53d8d84952aa9a3" title="moa.streams.clustering.RandomRBFGeneratorEvents.GeneratorCluster.setDesitnation" alt="" coords="529,140,1055,169"/>
-<area shape="rect" id="node5" href="$classmoa_1_1AbstractMOAObject.html#a3a6260bd8548c1aff6ea46e49c5c52a5" title="This method produces a copy of this object." alt="" coords="1685,61,1885,90"/>
-<area shape="rect" id="node14" href="$classmoa_1_1options_1_1IntOption.html#affae8787274b44ab7616d46b8d6c831a" title="moa.options.IntOption.getValue" alt="" coords="1683,140,1888,169"/>
-<area shape="rect" id="node16" href="$classmoa_1_1streams_1_1clustering_1_1RandomRBFGeneratorEvents_1_1GeneratorCluster.html#aa08cb223ff38cd1d550e3e7f28c11d98" title="moa.streams.clustering.RandomRBFGeneratorEvents.GeneratorCluster.setMoveVector" alt="" coords="1104,165,1635,194"/>
-</map>

@@ -1,5 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1classifiers_1_1trees_1_1HoeffdingTree.html#ab13e136d761801002a42fa109b994f28" title="Trains this classifier incrementally using the given instance." alt="" coords="489,5,839,35"/>
-<area shape="rect" id="node5" href="$classmoa_1_1classifiers_1_1trees_1_1FIMTDD.html#a54cba40a86a075373556cafdc55467e0" title="Method for updating (training) the model using a new instance." alt="" coords="505,59,823,88"/>
-<area shape="rect" id="node7" href="$classmoa_1_1classifiers_1_1trees_1_1ASHoeffdingTree.html#ad16732e0aad18595fb7ba80654c6c644" title="Trains this classifier incrementally using the given instance." alt="" coords="480,112,848,141"/>
-</map>

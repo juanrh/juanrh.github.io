@@ -1,5 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1KDTree.html#a61aad22ad6a1bc0f0cdbdfa2cb8c5144" title="Returns (in the supplied heap object) the k nearest neighbours of the given instance..." alt="" coords="484,5,905,35"/>
-<area shape="rect" id="node5" href="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1KDTree.html#a5549700af886cbd717ec953ef6917dc6" title="Returns the k nearest neighbours of the supplied instance." alt="" coords="956,5,1364,35"/>
-<area shape="rect" id="node7" href="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1KDTree.html#a59d618cbc6693a845ad8cc9709064b32" title="Returns the nearest neighbour of the supplied target instance." alt="" coords="1413,5,1805,35"/>
-</map>

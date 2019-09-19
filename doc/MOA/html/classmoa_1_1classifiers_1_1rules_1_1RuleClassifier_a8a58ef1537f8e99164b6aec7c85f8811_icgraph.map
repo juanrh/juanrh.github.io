@@ -1,6 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1classifiers_1_1rules_1_1RuleClassifier.html#a46a43402f2b44c05b9a262c5308e1b2b" title="moa.classifiers.rules.RuleClassifier.getModelDescriptionNoAnomalyDetection" alt="" coords="419,5,893,35"/>
-<area shape="rect" id="node7" href="$classmoa_1_1classifiers_1_1rules_1_1RuleClassifier.html#ae98dc3b59e4e03dc6a59bc7b153babdb" title="moa.classifiers.rules.RuleClassifier.printAnomaliesSupervised" alt="" coords="465,59,847,88"/>
-<area shape="rect" id="node10" href="$classmoa_1_1classifiers_1_1rules_1_1RuleClassifier.html#a6f22721bf471de21bfe1ee8f7f0c5ff8" title="moa.classifiers.rules.RuleClassifier.printAnomaliesUnsupervised" alt="" coords="457,112,855,141"/>
-<area shape="rect" id="node5" href="$classmoa_1_1classifiers_1_1rules_1_1RuleClassifier.html#adf1471ee43efddae3807dcc9ceb46b7d" title="Returns a string representation of the model." alt="" coords="943,59,1292,88"/>
-</map>

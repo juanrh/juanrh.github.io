@@ -1,7 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1classifiers_1_1trees_1_1HoeffdingOptionTree_1_1Node.html#a481412337f1c6ac5967778ee606e8015" title="moa.classifiers.trees.HoeffdingOptionTree.Node.describeSubtree" alt="" coords="445,85,845,115"/>
-<area shape="rect" id="node5" href="$classmoa_1_1classifiers_1_1AbstractClassifier.html#a469063073ae4bd012619753dba073070" title="Gets the name of a label of the class from the header." alt="" coords="896,5,1235,35"/>
-<area shape="rect" id="node7" href="$classmoa_1_1classifiers_1_1AbstractClassifier.html#a72753c7231990d4b6e38a686c7d4a967" title="Gets the name of the attribute of the class from the header." alt="" coords="895,59,1236,88"/>
-<area shape="rect" id="node9" href="$classmoa_1_1core_1_1DoubleVector.html#a2214f643cc3637bd8308c7dba4acc74d" title="moa.core.DoubleVector.getSingleLineDescription" alt="" coords="912,112,1219,141"/>
-<area shape="rect" id="node11" href="$classmoa_1_1core_1_1DoubleVector.html#a04cac8fb52824b100578ad4bfef2136a" title="moa.core.DoubleVector.numValues" alt="" coords="1287,139,1513,168"/>
-</map>

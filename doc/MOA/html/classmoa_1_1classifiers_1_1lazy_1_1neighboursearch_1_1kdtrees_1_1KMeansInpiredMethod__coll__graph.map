@@ -1,6 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node2" href="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1kdtrees_1_1KDTreeNodeSplitter.html" title="Class that splits up a KDTreeNode." alt="" coords="89,1539,495,1919"/>
-<area shape="rect" id="node6" href="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1EuclideanDistance.html" title="Implementing Euclidean distance (or similarity) function." alt="" coords="117,1230,467,1471"/>
-<area shape="rect" id="node8" href="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1NormalizableDistance.html" title="Represents the abstract ancestor for normalizable distance functions, like Euclidean..." alt="" coords="101,315,469,1163"/>
-<area shape="rect" id="node10" href="$interfacemoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1DistanceFunction.html" title="Interface for any class that can compute and return distances between two instances..." alt="" coords="103,6,444,247"/>
-</map>

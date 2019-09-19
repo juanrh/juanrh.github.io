@@ -1,9 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1gui_1_1clustertab_1_1ClusteringSetupTab.html#aeb9b84ec33ef617ce0753f5d7323cb7d" title="moa.gui.clustertab.ClusteringSetupTab.setStateConfigButtons" alt="" coords="341,60,725,89"/>
-<area shape="rect" id="node5" href="$classmoa_1_1gui_1_1clustertab_1_1ClusteringTabPanel.html#acb90c69f30e8660f0f9c91028b5054db" title="moa.gui.clustertab.ClusteringTabPanel.toggle" alt="" coords="391,113,676,143"/>
-<area shape="rect" id="node7" href="$classmoa_1_1gui_1_1clustertab_1_1ClusteringVisualTab.html#a497313381a458c388bd10b35f374cd43" title="moa.gui.clustertab.ClusteringVisualTab.toggleVisualizer" alt="" coords="773,112,1120,141"/>
-<area shape="rect" id="node9" href="$classmoa_1_1gui_1_1clustertab_1_1ClusteringVisualTab.html#a8eb25c61e56d8c268b1941ac076d3232" title="moa.gui.clustertab.ClusteringVisualTab.createVisualiterThread" alt="" coords="1168,5,1552,35"/>
-<area shape="rect" id="node11" href="$classmoa_1_1gui_1_1visualization_1_1RunVisualizer.html#acd732b022f6144867d41bf0a59b35b3d" title="moa.gui.visualization.RunVisualizer.pause" alt="" coords="1227,59,1493,88"/>
-<area shape="rect" id="node13" href="$classmoa_1_1gui_1_1visualization_1_1RunVisualizer.html#a47e9942bb4bfb92865dd3d819028bd77" title="moa.gui.visualization.RunVisualizer.resume" alt="" coords="1223,112,1497,141"/>
-<area shape="rect" id="node15" href="$classmoa_1_1gui_1_1clustertab_1_1ClusteringSetupTab.html#a9e0c686b7a72d0d161c2de053c983fa7" title="moa.gui.clustertab.ClusteringSetupTab.toggleRunMode" alt="" coords="1189,165,1531,195"/>
-</map>

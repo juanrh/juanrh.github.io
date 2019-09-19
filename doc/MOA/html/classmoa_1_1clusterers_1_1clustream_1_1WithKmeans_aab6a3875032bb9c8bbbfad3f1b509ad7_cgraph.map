@@ -1,9 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1cluster_1_1Clustering.html#a7b39cc3d6666cb758b8954ecbe0ce2e9" title="add a cluster to the clustering" alt="" coords="435,5,613,35"/>
-<area shape="rect" id="node5" href="$classmoa_1_1clusterers_1_1clustream_1_1WithKmeans.html#aa066c4e29a05398c342754fcb34e8a7b" title="k&#45;means helper: Calculate a wrapping cluster of assigned points[microclusters]." alt="" coords="353,109,695,139"/>
-<area shape="rect" id="node7" href="$classmoa_1_1clusterers_1_1clustream_1_1WithKmeans.html#a07413e12867d40a8a364c0f4c6b79212" title="Distance between two vectors." alt="" coords="744,57,1045,87"/>
-<area shape="rect" id="node12" href="$classmoa_1_1cluster_1_1SphereCluster.html#aefb8b36adf18a65827154d4b617e867d" title="moa.cluster.SphereCluster.getCenter" alt="" coords="405,163,643,192"/>
-<area shape="rect" id="node16" href="$classmoa_1_1cluster_1_1Cluster.html#a509d165f6594aa388d878c77684e0870" title="moa.cluster.Cluster.getCenter" alt="" coords="425,216,623,245"/>
-<area shape="rect" id="node9" href="$classmoa_1_1cluster_1_1SphereCluster.html#a24a9881c0a95e5e83db7a3319032a6b7" title="moa.cluster.SphereCluster.setWeight" alt="" coords="775,111,1015,140"/>
-<area shape="rect" id="node14" href="$classmoa_1_1AbstractMOAObject.html#a3a6260bd8548c1aff6ea46e49c5c52a5" title="This method produces a copy of this object." alt="" coords="795,164,995,193"/>
-</map>

@@ -1,9 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1classifiers_1_1rules_1_1core_1_1RuleActiveLearningNode.html#ac811b1354cfe7abe5d1061a73d1039e2" title="moa.classifiers.rules.core.RuleActiveLearningNode.computeProbability" alt="" coords="456,5,891,35"/>
-<area shape="rect" id="node5" href="$classmoa_1_1classifiers_1_1rules_1_1core_1_1RuleActiveRegressionNode.html#a927ff79c08f7c62f100ca77a28c216db" title="moa.classifiers.rules.core.RuleActiveRegressionNode.computeSD" alt="" coords="940,61,1348,91"/>
-<area shape="rect" id="node7" href="$classmoa_1_1classifiers_1_1rules_1_1core_1_1RuleActiveLearningNode.html#aeecf86c1e64660bab6dee5f27f122a81" title="moa.classifiers.rules.core.RuleActiveLearningNode.debug" alt="" coords="965,117,1323,147"/>
-<area shape="rect" id="node11" href="$classmoa_1_1classifiers_1_1rules_1_1core_1_1RuleActiveRegressionNode.html#ad6906406f387b875eb63024c10e912ad" title="moa.classifiers.rules.core.RuleActiveRegressionNode.debuganomaly" alt="" coords="461,160,885,189"/>
-<area shape="rect" id="node15" href="$classmoa_1_1classifiers_1_1rules_1_1functions_1_1Perceptron.html#a5284e9ed0584e7167b789bc938ed6fa0" title="moa.classifiers.rules.functions.Perceptron.getInstancesSeen" alt="" coords="957,176,1331,205"/>
-<area shape="rect" id="node17" href="$classmoa_1_1core_1_1DoubleVector.html#a0a22580b229225823e9b11ed9d35104a" title="moa.core.DoubleVector.getValue" alt="" coords="1037,240,1251,269"/>
-<area shape="rect" id="node9" href="$classmoa_1_1options_1_1IntOption.html#affae8787274b44ab7616d46b8d6c831a" title="moa.options.IntOption.getValue" alt="" coords="1397,117,1603,147"/>
-</map>

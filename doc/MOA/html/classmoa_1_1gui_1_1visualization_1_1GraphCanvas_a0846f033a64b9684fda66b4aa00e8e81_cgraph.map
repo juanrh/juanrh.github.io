@@ -1,5 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1streams_1_1clustering_1_1ClusterEvent.html#aef1d05752eef6bdd64815289079d693e" title="moa.streams.clustering.ClusterEvent.getMessage" alt="" coords="385,5,697,35"/>
-<area shape="rect" id="node5" href="$classmoa_1_1streams_1_1clustering_1_1ClusterEvent.html#a512bd578993d24317de8eeae2a59329e" title="moa.streams.clustering.ClusterEvent.getTimestamp" alt="" coords="379,59,704,88"/>
-<area shape="rect" id="node7" href="$classmoa_1_1streams_1_1clustering_1_1ClusterEvent.html#af1a5751332fb8c5aac2baf3632c66e5f" title="moa.streams.clustering.ClusterEvent.getType" alt="" coords="397,112,685,141"/>
-</map>

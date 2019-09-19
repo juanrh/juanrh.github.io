@@ -1,5 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1classifiers_1_1meta_1_1DACC.html#aeb1bb224682626d5c6b9b3812c269291" title="Receives a training instance from the stream and updates the adaptive classifiers..." alt="" coords="393,32,679,61"/>
-<area shape="rect" id="node5" href="$classmoa_1_1classifiers_1_1meta_1_1DACC.html#aaf6e169006f8f249b9cee1db427930ec" title="Trains this classifier incrementally using the given instance." alt="" coords="733,5,1040,35"/>
-<area shape="rect" id="node7" href="$classmoa_1_1classifiers_1_1meta_1_1ADACC.html#afac7020458c562ced7fb327021d15e92" title="Trains this classifier incrementally using the given instance." alt="" coords="729,59,1044,88"/>
-</map>

@@ -1,5 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1classifiers_1_1trees_1_1HoeffdingTree.html#a2bcda84a5c9a13d9d8baf06246a25354" title="Predicts the class memberships for a given instance." alt="" coords="448,5,803,35"/>
-<area shape="rect" id="node5" href="$classmoa_1_1classifiers_1_1trees_1_1HoeffdingAdaptiveTree.html#afef2fb53920a5863df9fa8c9032e9cf6" title="Predicts the class memberships for a given instance." alt="" coords="423,59,828,88"/>
-<area shape="rect" id="node7" href="$classmoa_1_1classifiers_1_1multilabel_1_1MultilabelHoeffdingTree.html#a3b321bb25024b20af5ec238bc16e86ae" title="Predicts the class memberships for a given instance." alt="" coords="408,112,843,141"/>
-</map>

@@ -1,9 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1classifiers_1_1AbstractClassifier.html#a30e5ff32bc8127dfb7436945776b7523" title="Returns a string representation of the model." alt="" coords="371,59,712,88"/>
-<area shape="rect" id="node5" href="$classmoa_1_1classifiers_1_1AbstractClassifier.html#a262d4160da4a415b77d054ec0af0bb63" title="Gets the current measurements of this classifier." alt="" coords="361,112,721,141"/>
-<area shape="rect" id="node15" href="$classmoa_1_1classifiers_1_1AbstractClassifier.html#a62491ba348a3da3dc440c943ea611abf" title="Gets whether training has started." alt="" coords="376,165,707,195"/>
-<area shape="rect" id="node7" href="$classmoa_1_1classifiers_1_1AbstractClassifier.html#ac2bebede21c9d2d8cd11d95a7e20e529" title="Gets the current measurements of this classifier." alt="" coords="771,5,1157,35"/>
-<area shape="rect" id="node9" href="$classmoa_1_1classifiers_1_1AbstractClassifier.html#a5d7c5aadeaf3465785aa6bb2efb615f2" title="Gets the classifiers of this ensemble." alt="" coords="801,59,1127,88"/>
-<area shape="rect" id="node11" href="$classmoa_1_1AbstractMOAObject.html#ad6d970cd923812656763b448fedf2791" title="Gets the memory size of this object." alt="" coords="827,112,1101,141"/>
-<area shape="rect" id="node13" href="$classmoa_1_1classifiers_1_1AbstractClassifier.html#af50c85f56d8192f9cf56e621a835b00c" title="Gets the sum of the weights of the instances that have been used by this classifier..." alt="" coords="771,165,1157,195"/>
-</map>

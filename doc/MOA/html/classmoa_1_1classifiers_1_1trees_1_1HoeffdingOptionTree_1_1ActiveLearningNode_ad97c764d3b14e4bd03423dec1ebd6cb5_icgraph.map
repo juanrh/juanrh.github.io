@@ -1,5 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1classifiers_1_1trees_1_1HoeffdingOptionTree_1_1ActiveLearningNode.html#abdd18947dc6ffaa48fde9cb516d8132c" title="moa.classifiers.trees.HoeffdingOptionTree.ActiveLearningNode.ActiveLearningNode" alt="" coords="536,5,1045,35"/>
-<area shape="rect" id="node5" href="$classmoa_1_1classifiers_1_1trees_1_1HoeffdingOptionTree.html#a60861115e0d7dd52f735d32f2969f122" title="moa.classifiers.trees.HoeffdingOptionTree.attemptToSplit" alt="" coords="613,59,968,88"/>
-<area shape="rect" id="node7" href="$classmoa_1_1classifiers_1_1trees_1_1HoeffdingOptionTree.html#a6d24917b8e79ad50eba7b10c84ee7a2b" title="Trains this classifier incrementally using the given instance." alt="" coords="597,112,984,141"/>
-</map>

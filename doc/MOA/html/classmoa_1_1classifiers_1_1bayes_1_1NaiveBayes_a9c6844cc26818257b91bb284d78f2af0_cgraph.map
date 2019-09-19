@@ -1,8 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1classifiers_1_1AbstractClassifier.html#ab7f4dde5eb54a49f4c09c91f7a55ee62" title="Gets the name of an attribute from the header." alt="" coords="401,5,759,35"/>
-<area shape="rect" id="node5" href="$classmoa_1_1classifiers_1_1AbstractClassifier.html#a469063073ae4bd012619753dba073070" title="Gets the name of a label of the class from the header." alt="" coords="411,59,749,88"/>
-<area shape="rect" id="node7" href="$classmoa_1_1classifiers_1_1AbstractClassifier.html#a72753c7231990d4b6e38a686c7d4a967" title="Gets the name of the attribute of the class from the header." alt="" coords="409,112,751,141"/>
-<area shape="rect" id="node9" href="$classmoa_1_1core_1_1DoubleVector.html#a0a22580b229225823e9b11ed9d35104a" title="moa.core.DoubleVector.getValue" alt="" coords="473,165,687,195"/>
-<area shape="rect" id="node11" href="$classmoa_1_1core_1_1DoubleVector.html#a04cac8fb52824b100578ad4bfef2136a" title="moa.core.DoubleVector.numValues" alt="" coords="467,219,693,248"/>
-<area shape="rect" id="node13" href="$classmoa_1_1core_1_1DoubleVector.html#acafa367bb17b33b844486adfa1b2780a" title="moa.core.DoubleVector.sumOfValues" alt="" coords="459,272,701,301"/>
-</map>

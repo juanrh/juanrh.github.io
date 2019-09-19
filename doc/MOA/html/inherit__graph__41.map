@@ -1,4 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node1" href="$classmoa_1_1clusterers_1_1macro_1_1AbstractMacroClusterer.html" title="moa.clusterers.macro.AbstractMacroClusterer" alt="" coords="5,5,296,35"/>
-<area shape="rect" id="node3" href="$classmoa_1_1clusterers_1_1macro_1_1dbscan_1_1DBScan.html" title="moa.clusterers.macro.dbscan.DBScan" alt="" coords="345,5,591,35"/>
-</map>

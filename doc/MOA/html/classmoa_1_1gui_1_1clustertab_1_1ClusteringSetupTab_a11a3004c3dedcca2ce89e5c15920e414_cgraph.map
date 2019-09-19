@@ -1,5 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1gui_1_1clustertab_1_1ClusteringEvalPanel.html#a76b0a177daefbae29385967129d58145" title="moa.gui.clustertab.ClusteringEvalPanel.getSelectedMeasures" alt="" coords="381,32,763,61"/>
-<area shape="rect" id="node5" href="$classmoa_1_1evaluation_1_1MeasureCollection.html#aa21276cf4ecc9b8fd091d282975157ea" title="moa.evaluation.MeasureCollection.getNumMeasures" alt="" coords="812,5,1140,35"/>
-<area shape="rect" id="node7" href="$classmoa_1_1evaluation_1_1MeasureCollection.html#ada9c507a146bb58dbe411a055e4dd81b" title="moa.evaluation.MeasureCollection.setEnabled" alt="" coords="831,59,1121,88"/>
-</map>

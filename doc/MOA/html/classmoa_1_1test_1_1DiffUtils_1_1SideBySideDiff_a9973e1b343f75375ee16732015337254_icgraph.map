@@ -1,7 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1test_1_1DiffUtils_1_1SideBySideDiff.html#a25b73afa19efd76c2f7101b968324069" title="Returns the closest patch delta index for the given line number." alt="" coords="365,32,653,61"/>
-<area shape="rect" id="node5" href="$classmoa_1_1test_1_1DiffUtils_1_1SideBySideDiff.html#af1a357fe5d34a891fd696e8e3a491a47" title="Returns the next delta after the current line." alt="" coords="713,5,1012,35"/>
-<area shape="rect" id="node9" href="$classmoa_1_1test_1_1DiffUtils_1_1SideBySideDiff.html#a272fb5684cf33d91b671f558a13b5d7c" title="Returns the previous delta after the current line." alt="" coords="701,59,1024,88"/>
-<area shape="rect" id="node7" href="$classmoa_1_1test_1_1DiffUtils_1_1SideBySideDiff.html#a8d053ba7b8f0ffb0f307fadb61ac10ba" title="Checks whether there is a next delta after the current line." alt="" coords="1084,5,1385,35"/>
-<area shape="rect" id="node11" href="$classmoa_1_1test_1_1DiffUtils_1_1SideBySideDiff.html#a53a87bed9e0e360932ad374e17990668" title="Checks whether there is a previous delta after the current line." alt="" coords="1072,59,1397,88"/>
-</map>

@@ -1,9 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1options_1_1AbstractOption.html#a8c1589e78757e4b248598611414bc222" title="Resets this option to the default value." alt="" coords="309,139,584,168"/>
-<area shape="rect" id="node5" href="$classmoa_1_1options_1_1AbstractClassOption.html#a65372a3a5f289b607dc20c0642948309" title="Creates a new instance of an abstract option given its class name, command line interface..." alt="" coords="633,5,975,35"/>
-<area shape="rect" id="node7" href="$classmoa_1_1options_1_1FloatOption.html#a57d14db3ca3e4c403c26d88d846f5b11" title="moa.options.FloatOption.FloatOption" alt="" coords="687,59,921,88"/>
-<area shape="rect" id="node9" href="$classmoa_1_1options_1_1IntOption.html#aeeb31e8e2c1b4d3f1a7bb28d1e9b5fac" title="moa.options.IntOption.IntOption" alt="" coords="701,112,907,141"/>
-<area shape="rect" id="node11" href="$classmoa_1_1options_1_1ListOption.html#aacbd50335602ae3ae27a0ae4144873bc" title="moa.options.ListOption.ListOption" alt="" coords="695,165,913,195"/>
-<area shape="rect" id="node13" href="$classmoa_1_1options_1_1MultiChoiceOption.html#a12ae7474c3f755cc498a5ca47ef23fa5" title="moa.options.MultiChoiceOption.MultiChoiceOption" alt="" coords="647,219,961,248"/>
-<area shape="rect" id="node15" href="$classmoa_1_1options_1_1StringOption.html#af3beb7dbf97e800fe72231c5062e8a63" title="moa.options.StringOption.StringOption" alt="" coords="681,272,927,301"/>
-</map>

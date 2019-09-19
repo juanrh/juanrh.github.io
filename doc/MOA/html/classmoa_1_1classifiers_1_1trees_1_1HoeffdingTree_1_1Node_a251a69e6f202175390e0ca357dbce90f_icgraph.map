@@ -1,5 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1classifiers_1_1trees_1_1HoeffdingTree_1_1SplitNode.html#a126b69af1100b1a85e716b897065b603" title="moa.classifiers.trees.HoeffdingTree.SplitNode.filterInstanceToLeaf" alt="" coords="451,5,859,35"/>
-<area shape="rect" id="node5" href="$classmoa_1_1classifiers_1_1multilabel_1_1MultilabelHoeffdingTree.html#a3b321bb25024b20af5ec238bc16e86ae" title="Predicts the class memberships for a given instance." alt="" coords="437,59,872,88"/>
-<area shape="rect" id="node7" href="$classmoa_1_1classifiers_1_1trees_1_1ASHoeffdingTree.html#ad16732e0aad18595fb7ba80654c6c644" title="Trains this classifier incrementally using the given instance." alt="" coords="471,112,839,141"/>
-</map>

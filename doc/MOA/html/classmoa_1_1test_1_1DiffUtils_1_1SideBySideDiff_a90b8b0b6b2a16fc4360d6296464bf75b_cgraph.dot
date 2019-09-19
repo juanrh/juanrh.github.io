@@ -1,9 +1,0 @@
-digraph G
-{
-  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
-  node [fontname="Helvetica",fontsize="10",shape=record];
-  rankdir=LR;
-  Node1 [label="moa.test.DiffUtils.SideBySideDiff.clone",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
-  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node2 [label="moa.test.DiffUtils.SideBySideDiff.SideBySideDiff",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmoa_1_1test_1_1DiffUtils_1_1SideBySideDiff.html#a2f1b1f028e44a68a1643b605d777472d",tooltip="Initializes the container with an empty diff."];
-}

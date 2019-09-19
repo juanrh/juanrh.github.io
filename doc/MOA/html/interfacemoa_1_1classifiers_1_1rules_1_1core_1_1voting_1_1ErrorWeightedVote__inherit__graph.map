@@ -1,5 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1classifiers_1_1rules_1_1core_1_1voting_1_1AbstractErrorWeightedVote.html" title="AbstractErrorWeightedVote class for weighted votes based on estimates of errors." alt="" coords="189,227,563,451"/>
-<area shape="rect" id="node5" href="$classmoa_1_1classifiers_1_1rules_1_1core_1_1voting_1_1InverseErrorWeightedVote.html" title="InverseErrorWeightedVote class for weighted votes based on estimates of errors." alt="" coords="5,499,371,619"/>
-<area shape="rect" id="node7" href="$classmoa_1_1classifiers_1_1rules_1_1core_1_1voting_1_1UniformWeightedVote.html" title="UniformWeightedVote class for weighted votes based on estimates of errors." alt="" coords="395,507,736,610"/>
-</map>

@@ -1,9 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1clusterers_1_1clustree_1_1Entry.html#a9a7e452c2508fc5df286d93c9d20198d" title="Calculates the distance to the data in this entry." alt="" coords="439,5,711,35"/>
-<area shape="rect" id="node9" href="$classmoa_1_1clusterers_1_1clustree_1_1Node.html#abb9b9f7152bcbc9df763bb39f92b4968" title="Return an array with references to the children of this node." alt="" coords="447,59,703,88"/>
-<area shape="rect" id="node11" href="$classmoa_1_1clusterers_1_1clustree_1_1Node.html#a2d0e202c1ae236d13cffd616fb152010" title="Return the number of free Entrys in this node." alt="" coords="431,112,719,141"/>
-<area shape="rect" id="node5" href="$classmoa_1_1clusterers_1_1clustree_1_1ClusKernel.html#ab8824bf20ad60031875d95147ccb7a53" title="Calculate the distance to this other cluster." alt="" coords="768,5,1075,35"/>
-<area shape="rect" id="node7" href="$classmoa_1_1clusterers_1_1clustree_1_1ClusKernel.html#a3277ffc987fbb74b934cea2fab98f2c3" title="See interface Cluster." alt="" coords="1124,5,1412,35"/>
-<area shape="rect" id="node13" href="$classmoa_1_1clusterers_1_1clustree_1_1Entry.html#ad9a372cb27cd0456f5c9e5a5da020b17" title="Check if this Entry is empty or not." alt="" coords="799,112,1044,141"/>
-<area shape="rect" id="node15" href="$classmoa_1_1clusterers_1_1clustree_1_1ClusKernel.html#a9e4f5414cfacb3df03db9a7001ab4187" title="Check if this cluster is empty or not." alt="" coords="1129,112,1407,141"/>
-</map>

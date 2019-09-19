@@ -1,7 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node9" href="$classmoa_1_1classifiers_1_1rules_1_1AMRulesRegressorTest.html" title="Tests the AMRulesRegressor classifier." alt="" coords="5,1166,291,1303"/>
-<area shape="rect" id="node11" href="$classmoa_1_1classifiers_1_1trees_1_1FIMTDDTest.html" title="Tests the FIMTDD classifier." alt="" coords="315,1166,539,1303"/>
-<area shape="rect" id="node13" href="$classmoa_1_1classifiers_1_1trees_1_1ORTOTest.html" title="Tests the ORTO classifier." alt="" coords="563,1166,784,1303"/>
-<area shape="rect" id="node2" href="$classmoa_1_1classifiers_1_1AbstractClassifierTestCase.html" title="Ancestor for all classifier test cases." alt="" coords="289,569,564,845"/>
-<area shape="rect" id="node4" href="$classmoa_1_1test_1_1MoaTestCase.html" title="Ancestor for all test cases." alt="" coords="315,139,539,519"/>
-</map>

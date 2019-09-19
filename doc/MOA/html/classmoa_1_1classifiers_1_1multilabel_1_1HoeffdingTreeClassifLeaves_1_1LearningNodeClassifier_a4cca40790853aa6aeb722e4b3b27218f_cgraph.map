@@ -1,6 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1options_1_1IntOption.html#affae8787274b44ab7616d46b8d6c831a" title="moa.options.IntOption.getValue" alt="" coords="740,5,945,35"/>
-<area shape="rect" id="node5" href="$interfacemoa_1_1classifiers_1_1Classifier.html#a0933ed1199c2b16a8eb8186dabf9a8f9" title="Predicts the class memberships for a given instance." alt="" coords="696,59,989,88"/>
-<area shape="rect" id="node7" href="$classmoa_1_1classifiers_1_1trees_1_1HoeffdingTree_1_1ActiveLearningNode.html#a407cdfb074879e0f84460dee8ae06b04" title="moa.classifiers.trees.HoeffdingTree.ActiveLearningNode.getWeightSeen" alt="" coords="621,112,1064,141"/>
-<area shape="rect" id="node9" href="$classmoa_1_1core_1_1DoubleVector.html#acafa367bb17b33b844486adfa1b2780a" title="moa.core.DoubleVector.sumOfValues" alt="" coords="1112,112,1355,141"/>
-</map>

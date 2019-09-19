@@ -1,4 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1classifiers_1_1core_1_1splitcriteria_1_1InfoGainSplitCriterion.html#ad4d7e437ce8c29c74f12deebcb86b4b0" title="moa.classifiers.core.splitcriteria.InfoGainSplitCriterion.computeEntropy" alt="" coords="489,5,921,35"/>
-<area shape="rect" id="node5" href="$classmoa_1_1classifiers_1_1core_1_1splitcriteria_1_1InfoGainSplitCriterion.html#ab06eb1c5c11f3f08e47cd5ac1348b9db" title="Computes the merit of splitting for a given ditribution before the split and after..." alt="" coords="493,59,917,88"/>
-</map>

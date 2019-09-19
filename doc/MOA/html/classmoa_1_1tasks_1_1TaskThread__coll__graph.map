@@ -1,6 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node2" href="$interfacemoa_1_1tasks_1_1TaskMonitor.html" title="Interface representing a task monitor." alt="" coords="5,313,256,658"/>
-<area shape="rect" id="node4" href="$interfacemoa_1_1core_1_1ObjectRepository.html" title="Interface for object repositories." alt="" coords="280,443,461,528"/>
-<area shape="rect" id="node6" href="$interfacemoa_1_1tasks_1_1Task.html" title="Interface representing a task." alt="" coords="485,425,640,545"/>
-<area shape="rect" id="node8" href="$interfacemoa_1_1MOAObject.html" title="Interface implemented by classes in MOA, so that all are serializable, can produce..." alt="" coords="491,141,635,261"/>
-</map>

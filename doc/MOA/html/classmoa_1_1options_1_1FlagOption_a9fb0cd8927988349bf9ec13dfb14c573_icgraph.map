@@ -1,6 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1gui_1_1FlagOptionEditComponent.html#a4731efbca1dd0dd600863d0e4c656511" title="This method applies the state." alt="" coords="269,5,560,35"/>
-<area shape="rect" id="node5" href="$classmoa_1_1options_1_1FlagOption.html#afe2e1ab3621a60bb7dbc9acb56f893f2" title="moa.options.FlagOption.set" alt="" coords="324,59,505,88"/>
-<area shape="rect" id="node9" href="$classmoa_1_1options_1_1FlagOption.html#a781b369177d62ee9c9805e09e6fc31dc" title="moa.options.FlagOption.unset" alt="" coords="317,112,512,141"/>
-<area shape="rect" id="node7" href="$classmoa_1_1streams_1_1clustering_1_1RandomRBFGeneratorEvents.html#acf3273994179c2b7889bf888307df3c0" title="moa.streams.clustering.RandomRBFGeneratorEvents.RandomRBFGeneratorEvents" alt="" coords="608,59,1123,88"/>
-</map>

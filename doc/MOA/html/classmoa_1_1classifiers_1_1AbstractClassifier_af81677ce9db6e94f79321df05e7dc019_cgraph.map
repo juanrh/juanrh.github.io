@@ -1,8 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1options_1_1IntOption.html#affae8787274b44ab7616d46b8d6c831a" title="moa.options.IntOption.getValue" alt="" coords="449,5,655,35"/>
-<area shape="rect" id="node5" href="$classmoa_1_1classifiers_1_1AbstractClassifier.html#ae2edfc12ae6aba12571f307845f6bf2a" title="Resets this classifier." alt="" coords="403,59,701,88"/>
-<area shape="rect" id="node13" href="$classmoa_1_1classifiers_1_1AbstractClassifier.html#a62491ba348a3da3dc440c943ea611abf" title="Gets whether training has started." alt="" coords="387,112,717,141"/>
-<area shape="rect" id="node7" href="$interfacemoa_1_1classifiers_1_1Classifier.html#a1e436b867e2b06cee6c74d6684814a58" title="Gets whether this classifier needs a random seed." alt="" coords="825,5,1092,35"/>
-<area shape="rect" id="node9" href="$classmoa_1_1classifiers_1_1AbstractClassifier.html#a099ffcf2417abb919d10d697c0648f29" title="Resets this classifier." alt="" coords="796,59,1121,88"/>
-<area shape="rect" id="node11" href="$classmoa_1_1classifiers_1_1AbstractClassifier.html#af50c85f56d8192f9cf56e621a835b00c" title="Gets the sum of the weights of the instances that have been used by this classifier..." alt="" coords="765,112,1152,141"/>
-</map>

@@ -1,9 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1evaluation_1_1WindowClassificationPerformanceEvaluator.html#a3ece512878d6882e35f7dcc79272ad78" title="moa.evaluation.WindowClassificationPerformanceEvaluator.getFractionCorrectlyClassified" alt="" coords="512,5,1061,35"/>
-<area shape="rect" id="node11" href="$classmoa_1_1evaluation_1_1WindowClassificationPerformanceEvaluator.html#a2d97a7db0100a7a7914d6b72e703f776" title="moa.evaluation.WindowClassificationPerformanceEvaluator.getKappaStatistic" alt="" coords="549,59,1024,88"/>
-<area shape="rect" id="node14" href="$classmoa_1_1evaluation_1_1WindowClassificationPerformanceEvaluator.html#af5bc3dcc639b3f3330a2aa8d4b2aa239" title="moa.evaluation.WindowClassificationPerformanceEvaluator.getKappaTemporalStatistic" alt="" coords="521,112,1052,141"/>
-<area shape="rect" id="node17" href="$classmoa_1_1evaluation_1_1WindowClassificationPerformanceEvaluator.html#a657faf43cfb989b6ae957071f8d34f6d" title="moa.evaluation.WindowClassificationPerformanceEvaluator.getTotalWeightObserved" alt="" coords="528,165,1045,195"/>
-<area shape="rect" id="node5" href="$classmoa_1_1evaluation_1_1WindowClassificationPerformanceEvaluator.html#a2ef7d9f3d90383dcd521b24e2afa5701" title="moa.evaluation.WindowClassificationPerformanceEvaluator.getFractionIncorrectlyClassified" alt="" coords="1109,5,1667,35"/>
-<area shape="rect" id="node7" href="$classmoa_1_1evaluation_1_1WindowClassificationPerformanceEvaluator.html#a4f240699694ec873882581149a3f8294" title="Gets the current measurements monitored by this evaluator." alt="" coords="1113,59,1663,88"/>
-<area shape="rect" id="node9" href="$classmoa_1_1evaluation_1_1WindowClassificationPerformanceEvaluator.html#a8c424bec0582881ffa32c1484a0e9d0b" title="Returns a string representation of this object." alt="" coords="1716,59,2172,88"/>
-</map>

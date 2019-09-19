@@ -1,5 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1clusterers_1_1streamkm_1_1TreeCoreset_1_1treeNode.html#a8b3f3aadb28f7ad9bfc4019a1380d957" title="moa.clusterers.streamkm.TreeCoreset.treeNode.free" alt="" coords="353,5,681,35"/>
-<area shape="rect" id="node5" href="$classmoa_1_1clusterers_1_1streamkm_1_1TreeCoreset.html#a7846322f3738e2a959a7b150c2b7afd5" title="tests if a node is a leaf" alt="" coords="375,59,660,88"/>
-<area shape="rect" id="node7" href="$classmoa_1_1clusterers_1_1streamkm_1_1TreeCoreset.html#a327ef138a5a150b5a3c2625a5286a3d7" title="Checks if the storage is completly freed." alt="" coords="357,112,677,141"/>
-</map>

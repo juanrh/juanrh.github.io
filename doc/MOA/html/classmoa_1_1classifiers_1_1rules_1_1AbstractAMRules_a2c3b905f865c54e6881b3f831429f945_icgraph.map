@@ -1,5 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1classifiers_1_1rules_1_1AbstractAMRules.html#a1e75f677bd1ca8f8d39ca9c28bfb7cf2" title="getVotesForInstance extension of the instance method getVotesForInstance in moa.classifier..." alt="" coords="343,5,716,35"/>
-<area shape="rect" id="node5" href="$classmoa_1_1classifiers_1_1rules_1_1AbstractAMRules.html#ad52ecf8639921f4f39e9952b7cd3a293" title="moa.classifiers.rules.AbstractAMRules.PrintRuleSet" alt="" coords="367,59,692,88"/>
-<area shape="rect" id="node7" href="$classmoa_1_1classifiers_1_1rules_1_1AbstractAMRules.html#aa2dc6402864427b11fda4821df77120e" title="Trains this classifier incrementally using the given instance." alt="" coords="344,112,715,141"/>
-</map>

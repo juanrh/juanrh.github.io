@@ -1,7 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1gui_1_1visualization_1_1RunVisualizer.html#ab5024409375ae4abae8f3883d9556e6c" title="moa.gui.visualization.RunVisualizer.evaluateClustering" alt="" coords="384,32,725,61"/>
-<area shape="rect" id="node5" href="$classmoa_1_1gui_1_1visualization_1_1RunVisualizer.html#ace13c1243d94edf61592e1d37dd14bd0" title="moa.gui.visualization.RunVisualizer.processClusterings" alt="" coords="775,32,1119,61"/>
-<area shape="rect" id="node7" href="$classmoa_1_1gui_1_1visualization_1_1RunVisualizer.html#af40a82de4ae8183b09175d6e7f392203" title="moa.gui.visualization.RunVisualizer.runVisual" alt="" coords="1169,32,1455,61"/>
-<area shape="rect" id="node9" href="$classmoa_1_1gui_1_1visualization_1_1RunVisualizer.html#a499a0fbd6f3ec8c5625af2dd15072839" title="moa.gui.visualization.RunVisualizer.run" alt="" coords="1504,5,1755,35"/>
-<area shape="rect" id="node11" href="$classmoa_1_1gui_1_1visualization_1_1RunVisualizer.html#ac7da17ff513eaf15f3f2fa147160c580" title="moa.gui.visualization.RunVisualizer.work_pause" alt="" coords="1804,32,2105,61"/>
-</map>

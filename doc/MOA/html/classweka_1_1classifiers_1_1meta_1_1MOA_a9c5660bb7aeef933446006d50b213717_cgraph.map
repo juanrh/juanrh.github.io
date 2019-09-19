@@ -1,6 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classweka_1_1classifiers_1_1meta_1_1MOA.html#a0f49657e4ee002e56c45b84b7ba88aa1" title="Returns the Capabilities of this classifier." alt="" coords="328,5,600,35"/>
-<area shape="rect" id="node5" href="$interfacemoa_1_1classifiers_1_1Classifier.html#a0cb1a2820196bc5e2a95b05a0b6666f0" title="Resets this classifier." alt="" coords="339,59,589,88"/>
-<area shape="rect" id="node7" href="$classweka_1_1classifiers_1_1meta_1_1MOA.html#a19b9ed60f478a27feea2f401ec0dd3dd" title="Updates a classifier using the given instance." alt="" coords="324,112,604,141"/>
-<area shape="rect" id="node9" href="$interfacemoa_1_1classifiers_1_1Classifier.html#ac28018bc307abe34a8ace54dba3ebff1" title="Trains this classifier incrementally using the given instance." alt="" coords="655,112,919,141"/>
-</map>

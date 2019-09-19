@@ -1,5 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1clusterers_1_1denstream_1_1MicroCluster.html#a513d84b92fe7fbb0cb4913d68c52f57f" title="This method produces a copy of this object." alt="" coords="384,32,667,61"/>
-<area shape="rect" id="node5" href="$classmoa_1_1clusterers_1_1denstream_1_1MicroCluster.html#a7b93e81e2eb760551c9e4909648a8330" title="moa.clusterers.denstream.MicroCluster.getCF" alt="" coords="761,5,1052,35"/>
-<area shape="rect" id="node7" href="$classmoa_1_1clusterers_1_1denstream_1_1WithDBSCAN.html#a7fffb637cae34111bae7491eebfc9943" title="moa.clusterers.denstream.WithDBSCAN.trainOnInstanceImpl" alt="" coords="716,59,1097,88"/>
-</map>

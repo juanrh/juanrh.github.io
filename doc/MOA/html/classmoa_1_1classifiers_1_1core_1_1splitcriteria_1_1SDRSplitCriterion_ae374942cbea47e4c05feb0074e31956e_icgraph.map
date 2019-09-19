@@ -1,4 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1classifiers_1_1rules_1_1core_1_1splitcriteria_1_1SDRSplitCriterionAMRules.html#a1caa9611dc44bcc2cfffee2f2ecb2758" title="moa.classifiers.rules.core.splitcriteria.SDRSplitCriterionAMRules.computeBranchSplitMerits" alt="" coords="440,5,997,35"/>
-<area shape="rect" id="node5" href="$classmoa_1_1classifiers_1_1rules_1_1core_1_1splitcriteria_1_1SDRSplitCriterionAMRules.html#a5da8b732f9a4c3007b7d3e73053150a4" title="Computes the merit of splitting for a given ditribution before the split and after..." alt="" coords="473,59,964,88"/>
-</map>

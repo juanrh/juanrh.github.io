@@ -1,8 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1gui_1_1clustertab_1_1ClusteringEvalPanel.html#abc485ec670fdf8c7d49f5dc26b9fc14a" title="moa.gui.clustertab.ClusteringEvalPanel.addComponents" alt="" coords="440,59,789,88"/>
-<area shape="rect" id="node11" href="$classmoa_1_1gui_1_1clustertab_1_1ClusteringEvalPanel.html#a6ed235d0ee84d57fc0795773d39a5eff" title="moa.gui.clustertab.ClusteringEvalPanel.findMeasureClasses" alt="" coords="428,112,801,141"/>
-<area shape="rect" id="node13" href="$classmoa_1_1gui_1_1clustertab_1_1ClusteringEvalPanel.html#a3ae305ff7a56eb6601dc54aa6951ab04" title="This method is called from within the constructor to initialize the form." alt="" coords="441,165,788,195"/>
-<area shape="rect" id="node5" href="$classmoa_1_1evaluation_1_1MeasureCollection.html#a4b048a28aaba3c44046baffd1ef4440f" title="moa.evaluation.MeasureCollection.getName" alt="" coords="877,5,1155,35"/>
-<area shape="rect" id="node7" href="$classmoa_1_1evaluation_1_1MeasureCollection.html#aa21276cf4ecc9b8fd091d282975157ea" title="moa.evaluation.MeasureCollection.getNumMeasures" alt="" coords="852,59,1180,88"/>
-<area shape="rect" id="node9" href="$classmoa_1_1evaluation_1_1MeasureCollection.html#acb13319ac2d8c79027d9316f16e6f98e" title="moa.evaluation.MeasureCollection.isEnabled" alt="" coords="875,112,1157,141"/>
-</map>

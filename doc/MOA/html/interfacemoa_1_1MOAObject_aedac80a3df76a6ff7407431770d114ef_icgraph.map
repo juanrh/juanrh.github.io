@@ -1,7 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1tasks_1_1EvaluatePrequentialRegression.html#aebef8e4e09d6c72c08f3c8de0a94b712" title="This method performs this task." alt="" coords="347,5,691,35"/>
-<area shape="rect" id="node5" href="$classmoa_1_1tasks_1_1EvaluatePrequential.html#a2ad9727938880a3f31cab2544040eed1" title="This method performs this task." alt="" coords="380,59,657,88"/>
-<area shape="rect" id="node7" href="$classmoa_1_1tasks_1_1EvaluateInterleavedTestThenTrain.html#a6b487518dd5bfdc97abe37263f725610" title="This method performs this task." alt="" coords="339,112,699,141"/>
-<area shape="rect" id="node9" href="$classmoa_1_1tasks_1_1EvaluateInterleavedChunks.html#a79a4b1e7cc8c707712a39f5fdbf85fec" title="This method performs this task." alt="" coords="357,165,680,195"/>
-<area shape="rect" id="node11" href="$classmoa_1_1classifiers_1_1meta_1_1AccuracyWeightedEnsemble.html#af656e82eee79e36252fb10002c29eeef" title="Removes the poorest classifier from the model, thus decreasing the models size." alt="" coords="281,219,756,248"/>
-</map>

@@ -1,8 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node1" href="$classmoa_1_1gui_1_1AbstractTabPanel.html" title="Abstract Tab Panel." alt="" coords="5,112,181,141"/>
-<area shape="rect" id="node3" href="$classmoa_1_1gui_1_1ClassificationTabPanel.html" title="This panel allows the user to select and configure a task, and run it." alt="" coords="251,5,456,35"/>
-<area shape="rect" id="node5" href="$classmoa_1_1gui_1_1clustertab_1_1ClusteringTabPanel.html" title="moa.gui.clustertab.ClusteringTabPanel" alt="" coords="231,59,476,88"/>
-<area shape="rect" id="node7" href="$classmoa_1_1gui_1_1ConceptDriftTabPanel.html" title="This panel allows the user to select and configure a task, and run it." alt="" coords="253,112,453,141"/>
-<area shape="rect" id="node9" href="$classmoa_1_1gui_1_1outliertab_1_1OutlierTabPanel.html" title="moa.gui.outliertab.OutlierTabPanel" alt="" coords="243,165,464,195"/>
-<area shape="rect" id="node11" href="$classmoa_1_1gui_1_1RegressionTabPanel.html" title="This panel allows the user to select and configure a task, and run it." alt="" coords="257,219,449,248"/>
-</map>

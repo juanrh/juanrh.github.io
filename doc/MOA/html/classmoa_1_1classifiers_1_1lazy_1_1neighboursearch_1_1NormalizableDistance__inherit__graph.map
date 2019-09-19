@@ -1,4 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node5" href="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1EuclideanDistance.html" title="Implementing Euclidean distance (or similarity) function." alt="" coords="15,1193,364,1434"/>
-<area shape="rect" id="node2" href="$interfacemoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1DistanceFunction.html" title="Interface for any class that can compute and return distances between two instances..." alt="" coords="19,6,360,247"/>
-</map>

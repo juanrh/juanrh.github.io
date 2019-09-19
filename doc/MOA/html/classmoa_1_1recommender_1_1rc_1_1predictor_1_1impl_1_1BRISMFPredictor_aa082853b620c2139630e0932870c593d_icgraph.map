@@ -1,6 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1recommender_1_1rc_1_1predictor_1_1impl_1_1BRISMFPredictor.html#a42a19dc360f5f9e93b71b5290a922c5b" title="moa.recommender.rc.predictor.impl.BRISMFPredictor.trainUser" alt="" coords="479,59,868,88"/>
-<area shape="rect" id="node5" href="$classmoa_1_1recommender_1_1rc_1_1predictor_1_1impl_1_1BRISMFPredictor.html#a1e89024b8ba9c145d08f40025e795ba4" title="moa.recommender.rc.predictor.impl.BRISMFPredictor.trainUser" alt="" coords="940,5,1329,35"/>
-<area shape="rect" id="node7" href="$classmoa_1_1recommender_1_1rc_1_1predictor_1_1impl_1_1BRISMFPredictor.html#a25133eb60eae4d36d1868b364f3c1d17" title="moa.recommender.rc.predictor.impl.BRISMFPredictor.updateNewUser" alt="" coords="919,59,1351,88"/>
-<area shape="rect" id="node9" href="$classmoa_1_1recommender_1_1rc_1_1predictor_1_1impl_1_1BRISMFPredictor.html#a1481b71533f26a6a58bc286439df1bc7" title="moa.recommender.rc.predictor.impl.BRISMFPredictor.updateSetRating" alt="" coords="917,112,1352,141"/>
-</map>

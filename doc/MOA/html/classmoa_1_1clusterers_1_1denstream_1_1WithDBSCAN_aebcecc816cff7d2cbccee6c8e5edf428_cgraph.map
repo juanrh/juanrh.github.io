@@ -1,7 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1cluster_1_1Clustering.html#a7b39cc3d6666cb758b8954ecbe0ce2e9" title="add a cluster to the clustering" alt="" coords="483,5,661,35"/>
-<area shape="rect" id="node5" href="$classmoa_1_1clusterers_1_1denstream_1_1WithDBSCAN.html#aa89dd6112b7b77ddd8e862b31b6bef01" title="moa.clusterers.denstream.WithDBSCAN.expandCluster" alt="" coords="397,109,747,139"/>
-<area shape="rect" id="node7" href="$classmoa_1_1clusterers_1_1denstream_1_1WithDBSCAN.html#ac20a911862c431ee9683f39155dfeedd" title="moa.clusterers.denstream.WithDBSCAN.getNeighbourhoodIDs" alt="" coords="796,57,1185,87"/>
-<area shape="rect" id="node11" href="$classmoa_1_1clusterers_1_1denstream_1_1MicroCluster.html#ab09f08cd749eb98af53ac96db8e118d7" title="moa.clusterers.denstream.MicroCluster.insert" alt="" coords="848,111,1133,140"/>
-<area shape="rect" id="node9" href="$classmoa_1_1clusterers_1_1denstream_1_1WithDBSCAN.html#a243a057549e5f0cbf0a5c8929b4050a4" title="moa.clusterers.denstream.WithDBSCAN.distance" alt="" coords="1235,57,1549,87"/>
-</map>

@@ -1,6 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1streams_1_1clustering_1_1RandomRBFGeneratorEvents.html#ae9b6d148afc4523f069b8de0fb838818" title="moa.streams.clustering.RandomRBFGeneratorEvents.getNextEvent" alt="" coords="433,5,852,35"/>
-<area shape="rect" id="node5" href="$classmoa_1_1options_1_1IntOption.html#affae8787274b44ab7616d46b8d6c831a" title="moa.options.IntOption.getValue" alt="" coords="1021,56,1227,85"/>
-<area shape="rect" id="node8" href="$classmoa_1_1streams_1_1clustering_1_1RandomRBFGeneratorEvents.html#aca8bd815a0c400a053a12f016dba9a4e" title="moa.streams.clustering.RandomRBFGeneratorEvents.initKernels" alt="" coords="443,109,843,139"/>
-<area shape="rect" id="node11" href="$classmoa_1_1streams_1_1clustering_1_1RandomRBFGeneratorEvents.html#ad109e0499b7f03a6db383dd7433d8514" title="moa.streams.clustering.RandomRBFGeneratorEvents.normalizeWeights" alt="" coords="903,109,1345,139"/>
-</map>

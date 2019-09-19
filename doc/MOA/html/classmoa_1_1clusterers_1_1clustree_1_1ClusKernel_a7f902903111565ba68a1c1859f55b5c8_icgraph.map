@@ -1,9 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1clusterers_1_1clustree_1_1ClusKernel.html#a706447e5a8160c3404a70bb4c3ad4603" title="Calculate the normalized euclidean distance (Mahalanobis distance for distribution..." alt="" coords="365,5,736,35"/>
-<area shape="rect" id="node7" href="$classmoa_1_1clusterers_1_1outliers_1_1AnyOut_1_1AnyOutCore.html#a8a84217f45c098cbbc91abfa97540b24" title="moa.clusterers.outliers.AnyOut.AnyOutCore.getDensityOutlierScore" alt="" coords="343,59,759,88"/>
-<area shape="rect" id="node9" href="$classmoa_1_1clusterers_1_1clustree_1_1ClusTree.html#a7998f24fe858f360f96c6557f7aada85" title="insert newPoint into the tree using the BreadthFirst strategy, i.e." alt="" coords="389,112,712,141"/>
-<area shape="rect" id="node5" href="$classmoa_1_1clusterers_1_1clustree_1_1ClusKernel.html#a1cc93640c3a7749309c5bac25a2d6132" title="Returns the probability of the given point belonging to this cluster." alt="" coords="809,5,1169,35"/>
-<area shape="rect" id="node11" href="$classmoa_1_1clusterers_1_1clustree_1_1ClusTree.html#a1fcbd4768f2142bdae4d88c80e0323e9" title="Insert a new point in the Tree." alt="" coords="864,112,1115,141"/>
-<area shape="rect" id="node13" href="$classmoa_1_1clusterers_1_1clustree_1_1ClusTree.html#a8945983f656f329d5a7e4f1e321e5c3b" title="moa.clusterers.clustree.ClusTree.insert" alt="" coords="1261,85,1512,115"/>
-<area shape="rect" id="node15" href="$classmoa_1_1clusterers_1_1clustree_1_1ClusTree.html#a8fd397a6344c5b97fe5cf44fcf8b2db9" title="moa.clusterers.clustree.ClusTree.trainOnInstanceImpl" alt="" coords="1219,139,1555,168"/>
-</map>

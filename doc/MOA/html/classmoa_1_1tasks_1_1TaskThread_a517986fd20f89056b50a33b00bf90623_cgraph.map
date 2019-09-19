@@ -1,5 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1tasks_1_1TaskThread.html#a7ee7dd9bcc553f1793c8269e76a37d7f" title="moa.tasks.TaskThread.getCPUSecondsElapsed" alt="" coords="281,5,585,35"/>
-<area shape="rect" id="node7" href="$interfacemoa_1_1tasks_1_1TaskMonitor.html#a05380c543320d94e16754e9b352e8d1a" title="Requests to preview the task result." alt="" coords="288,59,579,88"/>
-<area shape="rect" id="node5" href="$classmoa_1_1tasks_1_1TaskThread.html#ab7be27d49b04204985d254ee51a3eb7b" title="moa.tasks.TaskThread.isComplete" alt="" coords="635,5,861,35"/>
-</map>

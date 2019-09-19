@@ -1,6 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node2" href="$classmoa_1_1options_1_1AbstractOption.html" title="Abstract option." alt="" coords="48,605,232,899"/>
-<area shape="rect" id="node4" href="$classmoa_1_1AbstractMOAObject.html" title="Abstract MOA Object." alt="" coords="5,356,173,511"/>
-<area shape="rect" id="node6" href="$interfacemoa_1_1MOAObject.html" title="Interface implemented by classes in MOA, so that all are serializable, can produce..." alt="" coords="72,141,216,261"/>
-<area shape="rect" id="node10" href="$interfacemoa_1_1options_1_1Option.html" title="Interface representing an option or parameter." alt="" coords="197,313,363,554"/>
-</map>

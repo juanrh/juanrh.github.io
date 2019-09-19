@@ -1,6 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1classifiers_1_1core_1_1driftdetection_1_1ADWIN.html#a120e390a4505f5e4590935d1a7bee322" title="moa.classifiers.core.driftdetection.ADWIN.getEstimation" alt="" coords="495,5,847,35"/>
-<area shape="rect" id="node5" href="$classmoa_1_1classifiers_1_1core_1_1driftdetection_1_1ADWINChangeDetector.html#a4a08cc36a903bf63c6bf0a9300621bb1" title="Resets this change detector." alt="" coords="448,59,893,88"/>
-<area shape="rect" id="node9" href="$classmoa_1_1classifiers_1_1core_1_1driftdetection_1_1ADWIN.html#a6886f90e814a8f80287757b38a9161ee" title="moa.classifiers.core.driftdetection.ADWIN.setInput" alt="" coords="512,112,829,141"/>
-<area shape="rect" id="node7" href="$classmoa_1_1options_1_1FloatOption.html#a0e606a62f4ece232aa8f8cb04bb7f1cf" title="moa.options.FloatOption.getValue" alt="" coords="941,59,1160,88"/>
-</map>

@@ -1,4 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node1" href="$interfacemoa_1_1recommender_1_1rc_1_1predictor_1_1RatingPredictor.html" title="moa.recommender.rc.predictor.RatingPredictor" alt="" coords="5,5,299,35"/>
-<area shape="rect" id="node3" href="$classmoa_1_1recommender_1_1rc_1_1predictor_1_1impl_1_1BaselinePredictor.html" title="moa.recommender.rc.predictor.impl.BaselinePredictor" alt="" coords="347,5,680,35"/>
-</map>

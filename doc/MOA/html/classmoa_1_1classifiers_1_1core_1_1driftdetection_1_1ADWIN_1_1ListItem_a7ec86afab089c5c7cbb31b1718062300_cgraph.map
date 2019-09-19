@@ -1,8 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1classifiers_1_1core_1_1driftdetection_1_1ADWIN_1_1ListItem.html#a37858282829a3e3f4854a73848659945" title="moa.classifiers.core.driftdetection.ADWIN.ListItem.clear" alt="" coords="436,32,785,61"/>
-<area shape="rect" id="node11" href="$classmoa_1_1classifiers_1_1core_1_1driftdetection_1_1ADWIN_1_1ListItem.html#ae46a283cc74767465c90853874368243" title="moa.classifiers.core.driftdetection.ADWIN.ListItem.next" alt="" coords="437,85,784,115"/>
-<area shape="rect" id="node13" href="$classmoa_1_1classifiers_1_1core_1_1driftdetection_1_1ADWIN_1_1ListItem.html#a1f17fd899a7a6bfdfc606e8c1a2b9f10" title="moa.classifiers.core.driftdetection.ADWIN.ListItem.previous" alt="" coords="425,139,796,168"/>
-<area shape="rect" id="node5" href="$classmoa_1_1classifiers_1_1core_1_1driftdetection_1_1ADWIN_1_1ListItem.html#a5e1ab164d638eadcc3302acff75ca9ae" title="moa.classifiers.core.driftdetection.ADWIN.ListItem.clearBucket" alt="" coords="845,32,1237,61"/>
-<area shape="rect" id="node7" href="$classmoa_1_1classifiers_1_1core_1_1driftdetection_1_1ADWIN_1_1ListItem.html#a0d7fd152ec3bc976a28d7883a1e2a46c" title="moa.classifiers.core.driftdetection.ADWIN.ListItem.setTotal" alt="" coords="1296,5,1667,35"/>
-<area shape="rect" id="node9" href="$classmoa_1_1classifiers_1_1core_1_1driftdetection_1_1ADWIN_1_1ListItem.html#ada63ef6c4b6b14a362f14864b225b6cc" title="moa.classifiers.core.driftdetection.ADWIN.ListItem.setVariance" alt="" coords="1285,59,1677,88"/>
-</map>

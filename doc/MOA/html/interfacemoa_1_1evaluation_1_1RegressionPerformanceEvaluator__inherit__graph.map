@@ -1,6 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node9" href="$classmoa_1_1evaluation_1_1BasicRegressionPerformanceEvaluator.html" title="Regression evaluator that performs basic incremental evaluation." alt="" coords="5,608,347,971"/>
-<area shape="rect" id="node11" href="$classmoa_1_1evaluation_1_1WindowRegressionPerformanceEvaluator.html" title="Regression evaluator that updates evaluation results using a sliding window." alt="" coords="371,625,725,953"/>
-<area shape="rect" id="node2" href="$interfacemoa_1_1evaluation_1_1ClassificationPerformanceEvaluator.html" title="Interface implemented by learner evaluators to monitor the results of the learning..." alt="" coords="200,307,523,427"/>
-<area shape="rect" id="node4" href="$interfacemoa_1_1MOAObject.html" title="Interface implemented by classes in MOA, so that all are serializable, can produce..." alt="" coords="289,139,433,259"/>
-</map>

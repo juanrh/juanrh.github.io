@@ -1,9 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1clusterers_1_1AbstractClusterer.html#ab41dd0a97b7d538bb3f79290e43740f2" title="moa.clusterers.AbstractClusterer.getModelDescription" alt="" coords="368,59,704,88"/>
-<area shape="rect" id="node5" href="$classmoa_1_1clusterers_1_1AbstractClusterer.html#a4fad387f6c2a2a03dd2e2362978008b2" title="moa.clusterers.AbstractClusterer.getModelMeasurements" alt="" coords="357,112,715,141"/>
-<area shape="rect" id="node15" href="$classmoa_1_1clusterers_1_1AbstractClusterer.html#ab97e58ac9d9e8a11db1aa923b116a185" title="moa.clusterers.AbstractClusterer.trainingHasStarted" alt="" coords="373,165,699,195"/>
-<area shape="rect" id="node7" href="$classmoa_1_1clusterers_1_1AbstractClusterer.html#ae1b7bd9a6da0ec133d1a6806a50e0fa5" title="moa.clusterers.AbstractClusterer.getModelMeasurementsImpl" alt="" coords="764,5,1145,35"/>
-<area shape="rect" id="node9" href="$classmoa_1_1clusterers_1_1AbstractClusterer.html#a612eaf16d706d887b8dd6620c0baf1b3" title="moa.clusterers.AbstractClusterer.getSubClusterers" alt="" coords="796,59,1113,88"/>
-<area shape="rect" id="node11" href="$classmoa_1_1AbstractMOAObject.html#ad6d970cd923812656763b448fedf2791" title="Gets the memory size of this object." alt="" coords="817,112,1092,141"/>
-<area shape="rect" id="node13" href="$classmoa_1_1clusterers_1_1AbstractClusterer.html#aa00a89e5c7f7c9a8821a5c0bc16b3b5f" title="moa.clusterers.AbstractClusterer.trainingWeightSeenByModel" alt="" coords="764,165,1145,195"/>
-</map>

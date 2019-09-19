@@ -1,5 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node2" href="$classmoa_1_1clusterers_1_1outliers_1_1SimpleCOD_1_1ISBIndex_1_1ISBNode.html" title="{moa.clusterers.outliers.SimpleCOD.ISBIndex.ISBNode\n|+ inst\l+ obj\l+ id\l+ bOutlier\l+ count_after\l+ nOutlier\l+ nInlier\l&#45; nn_before\l|+ ISBNode()\l+ compareTo()\l+ AddPrecNeigh()\l+ RemovePrecNeigh()\l+ GetMinPrecNeigh()\l+ CountPrecNeighs()\l+ Get_nn_before()\l}" alt="" coords="269,398,611,709"/>
-<area shape="rect" id="node4" href="$classmoa_1_1clusterers_1_1outliers_1_1SimpleCOD_1_1StreamObj.html" title="{moa.clusterers.outliers.SimpleCOD.StreamObj\n|&#45; values\l&#45; hashCode\l|+ StreamObj()\l+ dimensions()\l+ get()\l+ hashCode()\l+ equals()\l+ compareTo()\l}" alt="" coords="87,141,380,331"/>
-<area shape="rect" id="node6" href="$interfacemoa_1_1clusterers_1_1outliers_1_1utils_1_1mtree_1_1DistanceFunctions_1_1EuclideanCoordinate.html" title="An interface to represent coordinates in Euclidean spaces." alt="" coords="5,5,461,91"/>
-</map>

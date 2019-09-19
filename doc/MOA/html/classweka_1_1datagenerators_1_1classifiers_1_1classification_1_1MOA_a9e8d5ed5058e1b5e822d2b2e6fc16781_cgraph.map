@@ -1,5 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classweka_1_1datagenerators_1_1classifiers_1_1classification_1_1MOA.html#a2c872cf0edbb586eac5f1400fcf10eea" title="Generates one example of the dataset." alt="" coords="487,32,911,61"/>
-<area shape="rect" id="node5" href="$interfacemoa_1_1streams_1_1InstanceStream.html#adcce31f5a024f6a73e150da2d1d731df" title="Gets whether this stream has more instances to output." alt="" coords="961,5,1265,35"/>
-<area shape="rect" id="node7" href="$interfacemoa_1_1streams_1_1InstanceStream.html#ae68c1c47c4dac2e591745a21e8cc120a" title="Gets the next instance from this stream." alt="" coords="977,59,1249,88"/>
-</map>

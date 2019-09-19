@@ -1,5 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node2" href="$classmoa_1_1AbstractMOAObject.html" title="Abstract MOA Object." alt="" coords="5,464,173,619"/>
-<area shape="rect" id="node4" href="$interfacemoa_1_1MOAObject.html" title="Interface implemented by classes in MOA, so that all are serializable, can produce..." alt="" coords="41,141,185,261"/>
-<area shape="rect" id="node8" href="$classmoa_1_1core_1_1GreenwaldKhannaQuantileSummary_1_1Tuple.html" title="{moa.core.GreenwaldKhannaQuantileSummary.Tuple\n|+ v\l+ g\l+ delta\l&#45; serialVersionUID\l|+ Tuple()\l+ Tuple()\l}" alt="" coords="97,285,423,440"/>
-</map>

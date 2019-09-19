@@ -1,6 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1options_1_1AbstractOptionHandler.html#a2d5e872c7c6a32487013ba914c6d3fcc" title="Gets a prepared option of this class." alt="" coords="345,5,719,35"/>
-<area shape="rect" id="node7" href="$classmoa_1_1options_1_1IntOption.html#affae8787274b44ab7616d46b8d6c831a" title="moa.options.IntOption.getValue" alt="" coords="429,59,635,88"/>
-<area shape="rect" id="node9" href="$interfacemoa_1_1streams_1_1InstanceStream.html#ae68c1c47c4dac2e591745a21e8cc120a" title="Gets the next instance from this stream." alt="" coords="396,112,668,141"/>
-<area shape="rect" id="node5" href="$classmoa_1_1options_1_1AbstractOption.html#a26d25b88bb5244ed3c2ec142bd28353d" title="Gets the name of this option." alt="" coords="769,5,1009,35"/>
-</map>

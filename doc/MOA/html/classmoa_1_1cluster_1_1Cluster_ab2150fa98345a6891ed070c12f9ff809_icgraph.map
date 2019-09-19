@@ -1,8 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1cluster_1_1Clustering.html#ada09cab45d4ef4cffaf9a9afaac09c7a" title="moa.cluster.Clustering.Clustering" alt="" coords="388,5,604,35"/>
-<area shape="rect" id="node5" href="$classmoa_1_1streams_1_1clustering_1_1RandomRBFGeneratorEvents_1_1GeneratorCluster.html#af623b202b5a1cca064fbf77537b721f0" title="moa.streams.clustering.RandomRBFGeneratorEvents.GeneratorCluster.GeneratorCluster" alt="" coords="225,59,767,88"/>
-<area shape="rect" id="node9" href="$classmoa_1_1clusterers_1_1macro_1_1AbstractMacroClusterer.html#ad71644e9f6be76c1f4525ecca2f04938" title="moa.clusterers.macro.AbstractMacroClusterer.setClusterIDs" alt="" coords="309,112,683,141"/>
-<area shape="rect" id="node7" href="$classmoa_1_1streams_1_1clustering_1_1RandomRBFGeneratorEvents_1_1GeneratorCluster.html#aad80ea4a2a0099cd53f912a2a0b2bce1" title="moa.streams.clustering.RandomRBFGeneratorEvents.GeneratorCluster.splitKernel" alt="" coords="816,59,1320,88"/>
-<area shape="rect" id="node11" href="$classmoa_1_1clusterers_1_1macro_1_1dbscan_1_1DBScan.html#afc1d9bb37a240d1c8feb84c771c04bf8" title="moa.clusterers.macro.dbscan.DBScan.getClustering" alt="" coords="904,112,1232,141"/>
-<area shape="rect" id="node13" href="$classmoa_1_1clusterers_1_1denstream_1_1WithDBSCAN.html#aa20703dd9e1103106ed8cba31323dd1b" title="moa.clusterers.denstream.WithDBSCAN.getClusteringResult" alt="" coords="1369,112,1748,141"/>
-</map>

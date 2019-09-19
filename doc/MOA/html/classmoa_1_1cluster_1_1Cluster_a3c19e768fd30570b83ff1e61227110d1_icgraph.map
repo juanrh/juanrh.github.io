@@ -1,5 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1cluster_1_1Cluster.html#ab461c134806da6bb9244026d9430f20f" title="moa.cluster.Cluster.getInfo" alt="" coords="324,5,503,35"/>
-<area shape="rect" id="node5" href="$classmoa_1_1gui_1_1visualization_1_1ClusterPanel.html#ae42e8af191c1a9f2f07b1ca0ad034a23" title="moa.gui.visualization.ClusterPanel.updateTooltip" alt="" coords="553,5,857,35"/>
-<area shape="rect" id="node7" href="$classmoa_1_1gui_1_1visualization_1_1ClusterPanel.html#ac50dbd77d497ce6cb2d8c4e18607f3a0" title="moa.gui.visualization.ClusterPanel.paintComponent" alt="" coords="907,5,1229,35"/>
-</map>

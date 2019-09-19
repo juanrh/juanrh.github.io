@@ -1,9 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1classifiers_1_1trees_1_1HoeffdingTree_1_1ActiveLearningNode.html#a407cdfb074879e0f84460dee8ae06b04" title="moa.classifiers.trees.HoeffdingTree.ActiveLearningNode.getWeightSeen" alt="" coords="468,5,911,35"/>
-<area shape="rect" id="node7" href="$classmoa_1_1classifiers_1_1trees_1_1HoeffdingTree_1_1ActiveLearningNode.html#ab9bd87465e305bfbfb632141f4848479" title="moa.classifiers.trees.HoeffdingTree.ActiveLearningNode.getWeightSeenAtLastSplitEvaluation" alt="" coords="405,59,973,88"/>
-<area shape="rect" id="node9" href="$classmoa_1_1classifiers_1_1trees_1_1HoeffdingTree_1_1LearningNode.html#aa53ea059cb605d2680a6522c9b4316da" title="moa.classifiers.trees.HoeffdingTree.LearningNode.learnFromInstance" alt="" coords="477,112,901,141"/>
-<area shape="rect" id="node11" href="$classmoa_1_1classifiers_1_1trees_1_1HoeffdingTree_1_1SplitNode.html#a096ddc519733df2bfbf4f4f7890d2c66" title="moa.classifiers.trees.HoeffdingTree.SplitNode.setChild" alt="" coords="519,165,860,195"/>
-<area shape="rect" id="node15" href="$classmoa_1_1classifiers_1_1trees_1_1HoeffdingTree_1_1ActiveLearningNode.html#ac59198bb4fab83aa3cca200b376270e8" title="moa.classifiers.trees.HoeffdingTree.ActiveLearningNode.setWeightSeenAtLastSplitEvaluation" alt="" coords="405,219,973,248"/>
-<area shape="rect" id="node5" href="$classmoa_1_1core_1_1DoubleVector.html#acafa367bb17b33b844486adfa1b2780a" title="moa.core.DoubleVector.sumOfValues" alt="" coords="1132,5,1375,35"/>
-<area shape="rect" id="node13" href="$classmoa_1_1classifiers_1_1core_1_1conditionaltests_1_1InstanceConditionalTest.html#adda57438d3e9a6990d6ccb80fe78d6b6" title="Gets the number of maximum branches, &#45;1 if unknown." alt="" coords="1023,165,1484,195"/>
-</map>

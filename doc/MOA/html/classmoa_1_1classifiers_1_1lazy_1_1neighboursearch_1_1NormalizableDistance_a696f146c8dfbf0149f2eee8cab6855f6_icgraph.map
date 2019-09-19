@@ -1,6 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1KDTree.html#a6641f4b3339242c2f9a6312c6358496c" title="Recursively adds an instance to the tree starting from the supplied KDTreeNode." alt="" coords="491,5,893,35"/>
-<area shape="rect" id="node7" href="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1KDTree.html#add9af014556f5230ca5f038c9f8ca4bb" title="Builds the KDTree on the supplied set of instances/points." alt="" coords="511,59,873,88"/>
-<area shape="rect" id="node5" href="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1KDTree.html#a18df0a0c0a1c1c62947feddb0aebe811" title="Adds one instance to the KDTree." alt="" coords="960,5,1288,35"/>
-<area shape="rect" id="node9" href="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1KDTree.html#af220a59e6c7342d42b7e36da82d00af4" title="Builds the KDTree on the given set of instances." alt="" coords="941,59,1307,88"/>
-</map>

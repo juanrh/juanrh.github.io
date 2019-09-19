@@ -1,5 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1clusterers_1_1clustream_1_1Clustream.html#a7e3fef4dcb8e49b8c5c698bae75e729e" title="moa.clusterers.clustream.Clustream.calculateCenter" alt="" coords="355,5,683,35"/>
-<area shape="rect" id="node5" href="$classmoa_1_1clusterers_1_1clustream_1_1Clustream.html#af6920c4c74eb6376ede1b819e44521de" title="moa.clusterers.clustream.Clustream.kMeans" alt="" coords="744,32,1027,61"/>
-<area shape="rect" id="node8" href="$classmoa_1_1clusterers_1_1clustream_1_1Clustream.html#a782a32f44588dabdf069fde6f053798b" title="moa.clusterers.clustream.Clustream.trainOnInstanceImpl" alt="" coords="341,109,696,139"/>
-</map>

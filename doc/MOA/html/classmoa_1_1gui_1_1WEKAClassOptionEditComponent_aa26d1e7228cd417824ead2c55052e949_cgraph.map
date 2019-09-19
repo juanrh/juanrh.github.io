@@ -1,6 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1gui_1_1WEKAClassOptionEditComponent.html#a55dd4b5b7f205ae30e07143df812844d" title="moa.gui.WEKAClassOptionEditComponent.editObject" alt="" coords="535,59,871,88"/>
-<area shape="rect" id="node7" href="$classmoa_1_1options_1_1WEKAClassOption.html#ac3ba566082cb2e21f92ff8bd99196fd8" title="Gets the value of a Command Line Interface text as a string." alt="" coords="929,5,1263,35"/>
-<area shape="rect" id="node9" href="$classmoa_1_1gui_1_1WEKAClassOptionEditComponent.html#a18c2e3a6a5a20fe016111302b0bf96a5" title="Sets the state of the component." alt="" coords="921,112,1271,141"/>
-<area shape="rect" id="node5" href="$classmoa_1_1options_1_1AbstractClassOption.html#ae597550ead9bc0dad31d574004859751" title="Gets the class type of this option." alt="" coords="936,59,1256,88"/>
-</map>

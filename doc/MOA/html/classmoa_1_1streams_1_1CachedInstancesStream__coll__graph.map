@@ -1,5 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node2" href="$classmoa_1_1AbstractMOAObject.html" title="Abstract MOA Object." alt="" coords="5,321,173,476"/>
-<area shape="rect" id="node4" href="$interfacemoa_1_1MOAObject.html" title="Interface implemented by classes in MOA, so that all are serializable, can produce..." alt="" coords="148,141,292,261"/>
-<area shape="rect" id="node8" href="$interfacemoa_1_1streams_1_1InstanceStream.html" title="Interface representing a data stream of instances." alt="" coords="197,313,416,485"/>
-</map>

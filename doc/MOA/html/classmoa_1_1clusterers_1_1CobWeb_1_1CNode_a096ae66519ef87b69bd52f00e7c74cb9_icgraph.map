@@ -1,6 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1clusterers_1_1CobWeb_1_1CNode.html#a5b9c90abd6fd96843769c01e37607143" title="Finds a host for the new instance in this nodes children." alt="" coords="429,56,691,85"/>
-<area shape="rect" id="node5" href="$classmoa_1_1clusterers_1_1CobWeb_1_1CNode.html#a457373b5f5493e20d5c89e3dc52ea5e7" title="Adds an instance to this cluster." alt="" coords="741,29,1024,59"/>
-<area shape="rect" id="node10" href="$classmoa_1_1clusterers_1_1CobWeb.html#a09e9388815b3ee60c4330c2e98865f8b" title="Classifies a given instance." alt="" coords="739,83,1027,112"/>
-<area shape="rect" id="node8" href="$classmoa_1_1clusterers_1_1CobWeb.html#a283dcfabf9a50957ad7c16ba369353d8" title="Adds an instance to the clusterer." alt="" coords="1076,29,1359,59"/>
-</map>

@@ -1,8 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1clusterers_1_1denstream_1_1WithDBSCAN.html#a243a057549e5f0cbf0a5c8929b4050a4" title="moa.clusterers.denstream.WithDBSCAN.distance" alt="" coords="405,5,720,35"/>
-<area shape="rect" id="node5" href="$classmoa_1_1cluster_1_1Clustering.html#a6a66be9b90f5cb06b044da278cdf24c9" title="remove a cluster from the clustering" alt="" coords="476,59,649,88"/>
-<area shape="rect" id="node7" href="$classmoa_1_1clusterers_1_1denstream_1_1MicroCluster.html#ad460f5938217c2ccb0fca12bc4fab13e" title="moa.clusterers.denstream.MicroCluster.getCenter" alt="" coords="407,112,719,141"/>
-<area shape="rect" id="node11" href="$classmoa_1_1clusterers_1_1denstream_1_1MicroCluster.html#a0502e4fb5e953703f1e3658a094b3b33" title="See interface Cluster." alt="" coords="405,165,720,195"/>
-<area shape="rect" id="node14" href="$classmoa_1_1cluster_1_1Clustering.html#a054a386d94acf3b88574f061ab4c8d71" title="moa.cluster.Clustering.size" alt="" coords="472,219,653,248"/>
-<area shape="rect" id="node9" href="$classmoa_1_1clusterers_1_1denstream_1_1Timestamp.html#a0aced8db94dff380a9d0124bb2f69495" title="moa.clusterers.denstream.Timestamp.getTimestamp" alt="" coords="769,139,1097,168"/>
-</map>

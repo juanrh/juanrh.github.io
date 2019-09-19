@@ -1,7 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$interfacemoa_1_1streams_1_1generators_1_1AgrawalGenerator_1_1ClassFunction.html#a6e96144d2dbc85652e4bf2fefe05b04b" title="moa.streams.generators.AgrawalGenerator.ClassFunction.determineClass" alt="" coords="407,5,860,35"/>
-<area shape="rect" id="node5" href="$classmoa_1_1streams_1_1generators_1_1AgrawalGenerator.html#aa9443540ecb5cafdd82a5d2a12df7f0d" title="Gets the header of this stream." alt="" coords="467,59,800,88"/>
-<area shape="rect" id="node7" href="$classmoa_1_1options_1_1FloatOption.html#a0e606a62f4ece232aa8f8cb04bb7f1cf" title="moa.options.FloatOption.getValue" alt="" coords="524,112,743,141"/>
-<area shape="rect" id="node9" href="$classmoa_1_1options_1_1IntOption.html#affae8787274b44ab7616d46b8d6c831a" title="moa.options.IntOption.getValue" alt="" coords="531,165,736,195"/>
-<area shape="rect" id="node11" href="$classmoa_1_1streams_1_1generators_1_1AgrawalGenerator.html#a96ee672aab95e15370261171d8cceb82" title="moa.streams.generators.AgrawalGenerator.perturbValue" alt="" coords="460,219,807,248"/>
-</map>

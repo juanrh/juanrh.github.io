@@ -1,7 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1evaluation_1_1WindowRegressionPerformanceEvaluator.html#a6c5ed9e50da1c646bc87a33442553701" title="Gets the current measurements monitored by this evaluator." alt="" coords="499,59,1037,88"/>
-<area shape="rect" id="node5" href="$classmoa_1_1evaluation_1_1WindowRegressionPerformanceEvaluator.html#a6a6eb99cfafabacf1fe693cbf58f2ab9" title="moa.evaluation.WindowRegressionPerformanceEvaluator.getMeanError" alt="" coords="1119,5,1556,35"/>
-<area shape="rect" id="node9" href="$classmoa_1_1evaluation_1_1WindowRegressionPerformanceEvaluator.html#ad391617ecb2cd91a2c31ea7173852cfd" title="moa.evaluation.WindowRegressionPerformanceEvaluator.getSquareError" alt="" coords="1115,59,1560,88"/>
-<area shape="rect" id="node12" href="$classmoa_1_1evaluation_1_1WindowRegressionPerformanceEvaluator.html#a0f1b71088940e9d682478639a940833a" title="moa.evaluation.WindowRegressionPerformanceEvaluator.getTotalWeightObserved" alt="" coords="1085,112,1589,141"/>
-<area shape="rect" id="node7" href="$classmoa_1_1evaluation_1_1WindowRegressionPerformanceEvaluator_1_1Estimator.html#ac9acdab0f21b2d849e57d16b33ccd8d9" title="moa.evaluation.WindowRegressionPerformanceEvaluator.Estimator.total" alt="" coords="1637,59,2083,88"/>
-</map>

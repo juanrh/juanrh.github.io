@@ -1,8 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$interfacemoa_1_1classifiers_1_1Classifier.html#af50dcec23ecb34c1bd141d0d389bdb59" title="Produces a copy of this classifier." alt="" coords="435,5,635,35"/>
-<area shape="rect" id="node5" href="$classmoa_1_1options_1_1AbstractOptionHandler.html#a2d5e872c7c6a32487013ba914c6d3fcc" title="Gets a prepared option of this class." alt="" coords="348,59,721,88"/>
-<area shape="rect" id="node9" href="$classmoa_1_1options_1_1FloatOption.html#a0e606a62f4ece232aa8f8cb04bb7f1cf" title="moa.options.FloatOption.getValue" alt="" coords="783,137,1001,167"/>
-<area shape="rect" id="node11" href="$classmoa_1_1classifiers_1_1meta_1_1DACC.html#a4cbdd2984257008d48f01bd1d0e61a6a" title="Initializes the method variables." alt="" coords="404,163,665,192"/>
-<area shape="rect" id="node14" href="$interfacemoa_1_1classifiers_1_1Classifier.html#a0cb1a2820196bc5e2a95b05a0b6666f0" title="Resets this classifier." alt="" coords="409,216,660,245"/>
-<area shape="rect" id="node7" href="$classmoa_1_1options_1_1AbstractOption.html#a26d25b88bb5244ed3c2ec142bd28353d" title="Gets the name of this option." alt="" coords="772,59,1012,88"/>
-</map>

@@ -1,5 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1options_1_1FlagOption.html#a4516348b66b7f7f0bc85b60b154cf0ff" title="Gets the value of a Command Line Interface text as a string." alt="" coords="445,5,731,35"/>
-<area shape="rect" id="node7" href="$classmoa_1_1gui_1_1FlagOptionEditComponent.html#a7af9939468ce6a666e8d85654fe08253" title="Sets the state of the component." alt="" coords="437,59,739,88"/>
-<area shape="rect" id="node5" href="$classmoa_1_1options_1_1FlagOption.html#ab3328d236e4a4c30172a7343a7a10078" title="moa.options.FlagOption.isSet" alt="" coords="787,5,981,35"/>
-</map>

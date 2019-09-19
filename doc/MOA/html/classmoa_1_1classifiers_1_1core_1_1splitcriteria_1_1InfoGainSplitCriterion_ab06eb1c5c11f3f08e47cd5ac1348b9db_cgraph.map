@@ -1,5 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1classifiers_1_1core_1_1splitcriteria_1_1InfoGainSplitCriterion.html#a13c5236a98043316fe4717617b6058ed" title="moa.classifiers.core.splitcriteria.InfoGainSplitCriterion.computeEntropy" alt="" coords="519,5,951,35"/>
-<area shape="rect" id="node5" href="$classmoa_1_1options_1_1FloatOption.html#a0e606a62f4ece232aa8f8cb04bb7f1cf" title="moa.options.FloatOption.getValue" alt="" coords="625,59,844,88"/>
-<area shape="rect" id="node7" href="$classmoa_1_1classifiers_1_1core_1_1splitcriteria_1_1InfoGainSplitCriterion.html#a91bbc1cededa6dedac038d1a3e8b6adc" title="moa.classifiers.core.splitcriteria.InfoGainSplitCriterion.numSubsetsGreaterThanFrac" alt="" coords="480,112,989,141"/>
-</map>

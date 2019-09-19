@@ -1,6 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1options_1_1FileOption.html#a01615786786a168a9e3b8c5d0f50b1e8" title="moa.options.FileOption.getFile" alt="" coords="353,5,551,35"/>
-<area shape="rect" id="node7" href="$classmoa_1_1options_1_1IntOption.html#affae8787274b44ab7616d46b8d6c831a" title="moa.options.IntOption.getValue" alt="" coords="349,59,555,88"/>
-<area shape="rect" id="node9" href="$classmoa_1_1streams_1_1ArffFileStream.html#a920cbd4ee4d36db7855be786e18c75ed" title="moa.streams.ArffFileStream.readNextInstanceFromFile" alt="" coords="280,112,624,141"/>
-<area shape="rect" id="node5" href="$classmoa_1_1options_1_1StringOption.html#acdafb10f476c4aacf74bf51adb2b4732" title="moa.options.StringOption.getValue" alt="" coords="672,5,896,35"/>
-</map>

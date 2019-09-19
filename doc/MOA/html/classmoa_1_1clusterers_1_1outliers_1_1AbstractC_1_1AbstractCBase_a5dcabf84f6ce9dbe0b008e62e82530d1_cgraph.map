@@ -1,9 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1clusterers_1_1outliers_1_1AbstractC_1_1ISBIndex.html#a31d4cbacbfe5327eaed6acc5b342b67b" title="moa.clusterers.outliers.AbstractC.ISBIndex.Remove" alt="" coords="499,59,827,88"/>
-<area shape="rect" id="node15" href="$classmoa_1_1clusterers_1_1outliers_1_1MyBaseOutlierDetector.html#a87395b2d424a0706fd970a2712f7fe1c" title="moa.clusterers.outliers.MyBaseOutlierDetector.RemoveExpiredOutlier" alt="" coords="448,112,877,141"/>
-<area shape="rect" id="node5" href="$classmoa_1_1clusterers_1_1outliers_1_1AbstractC_1_1ISBIndex.html#ab20022dd428a04214f5b0618cfc5fe20" title="moa.clusterers.outliers.AbstractC.ISBIndex.MapCountObjRefs" alt="" coords="925,5,1312,35"/>
-<area shape="rect" id="node11" href="$classmoa_1_1clusterers_1_1outliers_1_1AbstractC_1_1ISBIndex.html#a17db15b28ff3fddf1d309a5e92deb2d0" title="moa.clusterers.outliers.AbstractC.ISBIndex.MapDelete" alt="" coords="948,59,1289,88"/>
-<area shape="rect" id="node13" href="$classmoa_1_1clusterers_1_1outliers_1_1AbstractC_1_1MyMTree.html#a2406946caad933ac3c3433a4a3917d71" title="moa.clusterers.outliers.AbstractC.MyMTree.remove" alt="" coords="957,112,1280,141"/>
-<area shape="rect" id="node7" href="$classmoa_1_1clusterers_1_1outliers_1_1AbstractC_1_1StreamObj.html#a264bc035bbb6005a1110d2599743e8fd" title="moa.clusterers.outliers.AbstractC.StreamObj.equals" alt="" coords="1360,5,1685,35"/>
-<area shape="rect" id="node9" href="$classmoa_1_1clusterers_1_1outliers_1_1AbstractC_1_1StreamObj.html#a4cef72d0fe150e12f3c2d250958ae0aa" title="The number of dimensions." alt="" coords="1735,5,2087,35"/>
-</map>

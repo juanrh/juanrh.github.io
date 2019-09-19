@@ -1,3 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node2" href="$classmoa_1_1gui_1_1visualization_1_1DataPoint.html" title="{moa.gui.visualization.DataPoint\n|# timestamp\l# noiseLabel\l&#45; measure_values\l&#45; serialVersionUID\l|+ DataPoint()\l+ updateWeight()\l+ setMeasureValue()\l+ setMeasureValue()\l+ getMeasureValue()\l+ getTimestamp()\l+ getInfo()\l+ getDistance()\l+ isNoise()\l+ getNoiseLabel()\l}" alt="" coords="41,157,247,451"/>
-</map>

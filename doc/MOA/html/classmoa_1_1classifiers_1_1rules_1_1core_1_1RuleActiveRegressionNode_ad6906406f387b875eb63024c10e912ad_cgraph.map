@@ -1,7 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1classifiers_1_1rules_1_1core_1_1RuleActiveRegressionNode.html#a927ff79c08f7c62f100ca77a28c216db" title="moa.classifiers.rules.core.RuleActiveRegressionNode.computeSD" alt="" coords="479,5,887,35"/>
-<area shape="rect" id="node5" href="$classmoa_1_1classifiers_1_1rules_1_1core_1_1RuleActiveLearningNode.html#aeecf86c1e64660bab6dee5f27f122a81" title="moa.classifiers.rules.core.RuleActiveLearningNode.debug" alt="" coords="504,59,861,88"/>
-<area shape="rect" id="node9" href="$classmoa_1_1classifiers_1_1rules_1_1functions_1_1Perceptron.html#a5284e9ed0584e7167b789bc938ed6fa0" title="moa.classifiers.rules.functions.Perceptron.getInstancesSeen" alt="" coords="496,112,869,141"/>
-<area shape="rect" id="node11" href="$classmoa_1_1core_1_1DoubleVector.html#a0a22580b229225823e9b11ed9d35104a" title="moa.core.DoubleVector.getValue" alt="" coords="576,165,789,195"/>
-<area shape="rect" id="node7" href="$classmoa_1_1options_1_1IntOption.html#affae8787274b44ab7616d46b8d6c831a" title="moa.options.IntOption.getValue" alt="" coords="936,59,1141,88"/>
-</map>

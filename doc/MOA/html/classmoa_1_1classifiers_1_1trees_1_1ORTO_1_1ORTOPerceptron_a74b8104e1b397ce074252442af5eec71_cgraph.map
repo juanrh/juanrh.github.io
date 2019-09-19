@@ -1,7 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1core_1_1DoubleVector.html#a4050209166f4be04dd9f6dac3535d60e" title="moa.core.DoubleVector.addToValue" alt="" coords="524,5,756,35"/>
-<area shape="rect" id="node7" href="$classmoa_1_1core_1_1DoubleVector.html#a0a22580b229225823e9b11ed9d35104a" title="moa.core.DoubleVector.getValue" alt="" coords="533,59,747,88"/>
-<area shape="rect" id="node9" href="$classmoa_1_1options_1_1FloatOption.html#a0e606a62f4ece232aa8f8cb04bb7f1cf" title="moa.options.FloatOption.getValue" alt="" coords="531,112,749,141"/>
-<area shape="rect" id="node11" href="$classmoa_1_1classifiers_1_1trees_1_1ORTO_1_1ORTOPerceptron.html#ae7964a685a4f1ce35cedd7dab25ba0c8" title="Output the prediction made by this perceptron on the given instance." alt="" coords="465,165,815,195"/>
-<area shape="rect" id="node5" href="$classmoa_1_1core_1_1DoubleVector.html#a9cfebf9a8c5e93615037459ed6bd63a7" title="moa.core.DoubleVector.setArrayLength" alt="" coords="864,5,1115,35"/>
-</map>

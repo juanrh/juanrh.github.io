@@ -1,7 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1clusterers_1_1streamkm_1_1TreeCoreset.html#a27c0d4c2716c697505bb82b493b42c76" title="frees a tree of its storage" alt="" coords="376,32,675,61"/>
-<area shape="rect" id="node5" href="$classmoa_1_1clusterers_1_1streamkm_1_1TreeCoreset.html#a2807a9e47df6678b8bc4abf0e65b049e" title="Constructs a coreset of size k from the union of setA and setB." alt="" coords="724,32,1076,61"/>
-<area shape="rect" id="node7" href="$classmoa_1_1clusterers_1_1streamkm_1_1BucketManager.html#ad9eecc96cc9c31ca4a7149cfed3bce93" title="It may happen that the manager is not full (since n is not always a power of 2)." alt="" coords="1125,5,1539,35"/>
-<area shape="rect" id="node11" href="$classmoa_1_1clusterers_1_1streamkm_1_1BucketManager.html#a1da1a9f91d0b153a42c089031add12f5" title="inserts a single point into the bucketmanager" alt="" coords="1167,59,1497,88"/>
-<area shape="rect" id="node9" href="$classmoa_1_1clusterers_1_1streamkm_1_1StreamKM.html#a1a5858e5c8587177c5433597bb31d0f9" title="moa.clusterers.streamkm.StreamKM.trainOnInstanceImpl" alt="" coords="1587,32,1944,61"/>
-</map>

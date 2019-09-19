@@ -1,4 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1classifiers_1_1core_1_1splitcriteria_1_1GiniSplitCriterion.html#a40a07a47d631833290f57219b1c2f8c7" title="moa.classifiers.core.splitcriteria.GiniSplitCriterion.computeGini" alt="" coords="448,5,832,35"/>
-<area shape="rect" id="node5" href="$classmoa_1_1classifiers_1_1core_1_1splitcriteria_1_1GiniSplitCriterion.html#abf91e3eda1603b3a653ce446d36530ec" title="Computes the merit of splitting for a given ditribution before the split and after..." alt="" coords="441,59,839,88"/>
-</map>

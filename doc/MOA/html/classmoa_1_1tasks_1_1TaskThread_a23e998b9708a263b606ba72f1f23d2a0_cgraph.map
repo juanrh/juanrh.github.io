@@ -1,6 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$interfacemoa_1_1tasks_1_1Task.html#a10807eaa1d4d05b188f6f7de99d0efbe" title="This method performs this task, when TaskMonitor and ObjectRepository are no needed..." alt="" coords="303,5,465,35"/>
-<area shape="rect" id="node5" href="$classmoa_1_1tasks_1_1TaskThread.html#ad7b371f3111494a92f67a0f163c09b85" title="moa.tasks.TaskThread.fireTaskCompleted" alt="" coords="249,59,519,88"/>
-<area shape="rect" id="node7" href="$interfacemoa_1_1tasks_1_1TaskMonitor.html#ab4956c1088eaf4619b0150324d6f762f" title="Gets whether the task monitored is cancelled." alt="" coords="269,112,499,141"/>
-<area shape="rect" id="node9" href="$interfacemoa_1_1tasks_1_1TaskMonitor.html#a1b6f9b951f02111a3461e26c9a6c2936" title="Sets the current result to preview." alt="" coords="233,165,535,195"/>
-</map>

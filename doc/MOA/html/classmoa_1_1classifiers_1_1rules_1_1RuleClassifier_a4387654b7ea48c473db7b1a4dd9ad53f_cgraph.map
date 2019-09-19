@@ -1,7 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1classifiers_1_1rules_1_1RuleClassifier.html#a812279b42151a64e2ed6b90af2bfed22" title="moa.classifiers.rules.RuleClassifier.entropy" alt="" coords="464,5,739,35"/>
-<area shape="rect" id="node7" href="$classmoa_1_1core_1_1DoubleVector.html#afdb9ecc487070e6f0943e889a46334b8" title="moa.core.DoubleVector.setValue" alt="" coords="495,59,708,88"/>
-<area shape="rect" id="node11" href="$classmoa_1_1core_1_1DoubleVector.html#acafa367bb17b33b844486adfa1b2780a" title="moa.core.DoubleVector.sumOfValues" alt="" coords="480,112,723,141"/>
-<area shape="rect" id="node5" href="$classmoa_1_1core_1_1DoubleVector.html#a6d0ce5fe7346a8d4b4a6ae444750f9c8" title="moa.core.DoubleVector.getArrayCopy" alt="" coords="791,5,1033,35"/>
-<area shape="rect" id="node9" href="$classmoa_1_1core_1_1DoubleVector.html#a9cfebf9a8c5e93615037459ed6bd63a7" title="moa.core.DoubleVector.setArrayLength" alt="" coords="787,59,1037,88"/>
-</map>

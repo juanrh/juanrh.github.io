@@ -1,7 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1gui_1_1ClassOptionSelectionPanel.html#ab719294dd102789b200584d1148f10b6" title="moa.gui.ClassOptionSelectionPanel.classChoiceChanged" alt="" coords="449,59,807,88"/>
-<area shape="rect" id="node9" href="$classmoa_1_1gui_1_1ClassOptionSelectionPanel.html#a6d44d73c26c6b511089533bde1f88c64" title="moa.gui.ClassOptionSelectionPanel.findSuitableClasses" alt="" coords="453,112,803,141"/>
-<area shape="rect" id="node5" href="$interfacemoa_1_1options_1_1OptionHandler.html#ad2b9997b96d775bee2b0b95a146f52ca" title="Gets the options of this object." alt="" coords="876,5,1121,35"/>
-<area shape="rect" id="node7" href="$interfacemoa_1_1options_1_1OptionHandler.html#a46f4328b02118c30977f7ce07051c091" title="Gets the purpose of this object." alt="" coords="857,59,1140,88"/>
-<area shape="rect" id="node11" href="$interfacemoa_1_1tasks_1_1Task.html#a568100cd931416820d1bcc81032301f6" title="Gets the result type of this task." alt="" coords="881,112,1116,141"/>
-</map>

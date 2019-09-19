@@ -1,6 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1clusterers_1_1outliers_1_1MCOD_1_1MCOD.html#ada5c2108dcf6473edbeb5a2e832fa075" title="moa.clusterers.outliers.MCOD.MCOD.AddNeighbor" alt="" coords="456,32,779,61"/>
-<area shape="rect" id="node5" href="$classmoa_1_1clusterers_1_1outliers_1_1MCOD_1_1MCOD.html#a20faa90309556416077a6386313816ba" title="moa.clusterers.outliers.MCOD.MCOD.ProcessNewNode" alt="" coords="827,32,1181,61"/>
-<area shape="rect" id="node7" href="$classmoa_1_1clusterers_1_1outliers_1_1MCOD_1_1MCOD.html#a0ac76ef162ef2bc13ee914acd39da883" title="moa.clusterers.outliers.MCOD.MCOD.ProcessExpiredNode" alt="" coords="1229,5,1600,35"/>
-<area shape="rect" id="node9" href="$classmoa_1_1clusterers_1_1outliers_1_1MCOD_1_1MCOD.html#afbc4a92dc799d1fdf1cf858e80de19dd" title="moa.clusterers.outliers.MCOD.MCOD.ProcessNewStreamObj" alt="" coords="1649,32,2033,61"/>
-</map>

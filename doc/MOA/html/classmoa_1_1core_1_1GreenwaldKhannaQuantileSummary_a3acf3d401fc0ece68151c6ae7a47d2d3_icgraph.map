@@ -1,4 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1classifiers_1_1core_1_1attributeclassobservers_1_1GreenwaldKhannaNumericAttributeClassObserver.html#a020956b3baf6adf1342a04994dbb3547" title="moa.classifiers.core.attributeclassobservers.GreenwaldKhannaNumericAttributeClassObserver.getClassDistsResultingFromBinarySplit" alt="" coords="429,5,1237,35"/>
-<area shape="rect" id="node5" href="$classmoa_1_1classifiers_1_1core_1_1attributeclassobservers_1_1GreenwaldKhannaNumericAttributeClassObserver.html#a5e43b97b26839f07870b05a20dd18221" title="Gets the best split suggestion given a criterion and a class distribution." alt="" coords="1285,5,2056,35"/>
-</map>

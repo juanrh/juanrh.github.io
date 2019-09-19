@@ -1,6 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1gui_1_1visualization_1_1StreamOutlierPanel.html#a452e8f15ea20b01e5d2e00950234c2b4" title="moa.gui.visualization.StreamOutlierPanel.drawPoint" alt="" coords="388,5,711,35"/>
-<area shape="rect" id="node5" href="$classmoa_1_1gui_1_1visualization_1_1RunOutlierVisualizer.html#a2fde06eb9e05d078cc61087b5f7c2bfb" title="moa.gui.visualization.RunOutlierVisualizer.drawPoints" alt="" coords="381,59,717,88"/>
-<area shape="rect" id="node7" href="$classmoa_1_1gui_1_1visualization_1_1RunOutlierVisualizer.html#a2ce3238eb000cd4f1be8ea553920e688" title="moa.gui.visualization.RunOutlierVisualizer.processData" alt="" coords="377,112,721,141"/>
-<area shape="rect" id="node9" href="$classmoa_1_1gui_1_1visualization_1_1RunOutlierVisualizer.html#a0bf0a5051db38b649892d86aa7cab5ce" title="moa.gui.visualization.RunOutlierVisualizer.run" alt="" coords="772,112,1060,141"/>
-</map>

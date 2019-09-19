@@ -1,9 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1cluster_1_1SphereCluster.html#aefb8b36adf18a65827154d4b617e867d" title="moa.cluster.SphereCluster.getCenter" alt="" coords="273,5,511,35"/>
-<area shape="rect" id="node7" href="$classmoa_1_1cluster_1_1SphereCluster.html#a1d2dc0db89728370066bf8bd46a06bed" title="moa.cluster.SphereCluster.getRadius" alt="" coords="272,59,512,88"/>
-<area shape="rect" id="node9" href="$classmoa_1_1cluster_1_1SphereCluster.html#a94b7844a1aa98cb517d22d037a441628" title="Returns the weight of this cluster, not neccessarily normalized." alt="" coords="272,112,512,141"/>
-<area shape="rect" id="node11" href="$classmoa_1_1cluster_1_1SphereCluster.html#a23bc373d05cea24ad1b64d0aa532352e" title="moa.cluster.SphereCluster.setCenter" alt="" coords="273,165,511,195"/>
-<area shape="rect" id="node13" href="$classmoa_1_1cluster_1_1SphereCluster.html#ac02c29ac788d108bb509bc8822b99a70" title="moa.cluster.SphereCluster.setRadius" alt="" coords="272,219,512,248"/>
-<area shape="rect" id="node15" href="$classmoa_1_1cluster_1_1SphereCluster.html#a24a9881c0a95e5e83db7a3319032a6b7" title="moa.cluster.SphereCluster.setWeight" alt="" coords="272,272,512,301"/>
-<area shape="rect" id="node5" href="$classmoa_1_1AbstractMOAObject.html#a3a6260bd8548c1aff6ea46e49c5c52a5" title="This method produces a copy of this object." alt="" coords="560,5,760,35"/>
-</map>

@@ -1,9 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1kdtrees_1_1KDTreeNodeSplitter.html#a035650351c470814f89216862e706502" title="Checks whether an object of this class has been correctly initialized." alt="" coords="593,19,1108,48"/>
-<area shape="rect" id="node5" href="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1NormalizableDistance.html#a35975f221e5126583f1aa0177c7c5e5c" title="Initializes the ranges using all instances of the dataset." alt="" coords="619,72,1083,101"/>
-<area shape="rect" id="node13" href="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1kdtrees_1_1SlidingMidPointOfWidestSide.html#ac5f76af052cd6faa087c90bd1cd4c43d" title="Re&#45;arranges the indices array such that the points &lt;= to the splitVal are on the..." alt="" coords="573,139,1128,168"/>
-<area shape="rect" id="node7" href="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1NormalizableDistance.html#aafa49196134c88952a03f3ec5dc93894" title="Used to initialize the ranges." alt="" coords="1177,5,1679,35"/>
-<area shape="rect" id="node9" href="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1NormalizableDistance.html#af5cc0c85cf75c842c97620ca3fb1dfc6" title="Updates the minimum and maximum and width values for all the attributes based on..." alt="" coords="1200,59,1656,88"/>
-<area shape="rect" id="node11" href="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1NormalizableDistance.html#a8cb8437b28e58671e060222e8dd2f4d3" title="Used to initialize the ranges." alt="" coords="1187,112,1669,141"/>
-<area shape="rect" id="node15" href="$classmoa_1_1classifiers_1_1lazy_1_1neighboursearch_1_1EuclideanDistance.html#a24669e69b32d7edf8c965ccc2358de9c" title="Returns true if the value of the given dimension is smaller or equal the value to..." alt="" coords="1192,165,1664,195"/>
-</map>

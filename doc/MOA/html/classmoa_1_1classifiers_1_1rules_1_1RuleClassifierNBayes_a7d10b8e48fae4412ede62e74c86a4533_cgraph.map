@@ -1,5 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classmoa_1_1classifiers_1_1rules_1_1RuleClassifierNBayes.html#a16ed440e25fc7fd48aef96cdd372bfa3" title="moa.classifiers.rules.RuleClassifierNBayes.exponential" alt="" coords="431,5,775,35"/>
-<area shape="rect" id="node5" href="$classmoa_1_1options_1_1IntOption.html#affae8787274b44ab7616d46b8d6c831a" title="moa.options.IntOption.getValue" alt="" coords="500,59,705,88"/>
-<area shape="rect" id="node7" href="$classmoa_1_1classifiers_1_1rules_1_1RuleClassifierNBayes.html#ae7181c221eddb3d1444f25ac17b53eea" title="moa.classifiers.rules.RuleClassifierNBayes.normalize" alt="" coords="436,112,769,141"/>
-</map>
