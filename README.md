@@ -9,7 +9,9 @@ Facultad de Informática
 C/ Profesor José García Santesmases, s/n  
 28040 Madrid, Spain
 
-## Research
+## About
+
+[LinkedIn profile](https://www.linkedin.com/in/juan-rodriguez-hortala/)
 
 Publications:
 
