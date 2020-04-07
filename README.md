@@ -2,13 +2,6 @@
 
 ![Juan Rodríguez Hortalá on vacation](imgs/me.jpg "Juan Rodríguez Hortalá on vacation")
 
-Profesor Ayudante Doctor / Ph.D. Assistant Professor  
-Departamento de Ingeniería del Software e Inteligencia Artificial  
-Universidad Complutense de Madrid  
-Facultad de Informática  
-C/ Profesor José García Santesmases, s/n  
-28040 Madrid, Spain
-
 ## About
 
 [LinkedIn profile](https://www.linkedin.com/in/juan-rodriguez-hortala/)
