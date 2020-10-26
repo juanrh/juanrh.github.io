@@ -1,4 +1,4 @@
-# [Juan Rodríguez Hortalá](https://www.youtube.com/watch?v=rpSrhQx_2oc)
+# Juan Rodríguez Hortalá
 
 ![Juan Rodríguez Hortalá on vacation](imgs/me.jpg "Juan Rodríguez Hortalá on vacation")
 
