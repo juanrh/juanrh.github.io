@@ -2,6 +2,9 @@
 
 ![Juan Rodríguez Hortalá on vacation](imgs/me.jpg "Juan Rodríguez Hortalá on vacation")
 
+[![juanrh's github stats](https://github-readme-stats.vercel.app/api?username=juanrh&count_private=true&show_icons=true&theme=synthwave)](https://github.com/anuraghazra/github-readme-stats)
+
+
 ## About
 
 [LinkedIn profile](https://www.linkedin.com/in/juan-rodriguez-hortala/)  
