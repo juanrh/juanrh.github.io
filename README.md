@@ -17,7 +17,7 @@
   - [sscheck](https://github.com/juanrh/sscheck) is a testing library for Spark Streaming that allows to use temporal logic formulas for writing ScalaCheck properties and generators
   - [Flink Check](https://github.com/demiourgoi/flink-check) is an extension of sscheck to support Flink streaming programs
 - Several languages: Java, C++, Python, Scala
-  - [Contributions to open source proyects](https://github.com/search?q=juan+hortala&type=Commits): Apache Spark, Apache YARN, Apache Hive, Robot Operating System (ROS)
+  - [Contributions to open source projects](https://github.com/search?q=juan+hortala&type=Commits): Apache Spark, Apache YARN, Apache Hive, Robot Operating System (ROS)
 
 
 ### Publications
