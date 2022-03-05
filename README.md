@@ -11,16 +11,12 @@
 
 ### Coding
 
-- Python
-  - [TemperatureMetrics](https://github.com/juanrh/TemperatureMetrics): a simple Python deamon that sends temperature and humidity metrics collected with a Raspberry Pi and [GrovePi+](https://wiki.seeedstudio.com/GrovePi_Plus/) sensors to AWS CloudWatch, to build a metrics dashboard on top of that.
-- Scala
-  - [sscheck](https://github.com/juanrh/sscheck) is a testing library for Spark Streaming that allows to use temporal logic formulas for writing ScalaCheck properties and generators
+- [sscheck](https://github.com/juanrh/sscheck) is a testing library for Spark Streaming that allows to use temporal logic formulas for writing ScalaCheck properties and generators
   - [Flink Check](https://github.com/demiourgoi/flink-check) is an extension of sscheck to support Flink streaming programs
-- Several languages: Java, C++, Python, Scala
-  - [Contributions to open source projects](https://github.com/search?q=juan+hortala&type=Commits): Apache Spark, Apache YARN, Apache Hive, Robot Operating System (ROS)
+- [Contributions to open source projects](https://github.com/search?q=juan+hortala&type=Commits): Apache Spark, Apache YARN, Apache Hive, Robot Operating System (Java, C++, Python, Scala)
+- [TemperatureMetrics](https://github.com/juanrh/TemperatureMetrics): a simple Python deamon that sends temperature and humidity metrics collected with a Raspberry Pi and [GrovePi+](https://wiki.seeedstudio.com/GrovePi_Plus/) sensors to AWS CloudWatch, to build a metrics dashboard on top of that.
 
-
-### Publications
+### Research publications
 
 - [DBLP](https://dblp.uni-trier.de/pers/hd/r/Rodr=iacute=guez=Hortal=aacute=:Juan.html)
 - [Research gate](https://www.researchgate.net/profile/Juan_Rodriguez-Hortala)
