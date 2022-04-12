@@ -14,6 +14,7 @@
 - [sscheck](https://github.com/juanrh/sscheck) is a testing library for Spark Streaming that allows to use temporal logic formulas for writing ScalaCheck properties and generators
   - [Flink Check](https://github.com/demiourgoi/flink-check) is an extension of sscheck to support Flink streaming programs
 - [Contributions to open source projects](https://github.com/search?q=juan+hortala&type=Commits): Apache Spark, Apache YARN, Apache Hive, Robot Operating System (Java, C++, Python, Scala)
+- [cdk8s-helm-plugin](https://github.com/juanrh/cdk8s-helm-plugin/blob/main/cdk8s_plugin/cdk8s/README.md#Demo): A simple [Helm plugin](https://helm.sh/docs/topics/plugins/) that serves as a proof of concept for an integration of the [cdk8s](https://cdk8s.io/) infrastructure as code library for Kubernetes into the [Helm](https://helm.sh/) package manager for Kubernetes. It allows to distribute cdk8s charts through OCI image registries, and install cdk8s charts as Helm releases, which allows using the release management and rollback capabilities of Helm for cdk8s charts.
 - [TemperatureMetrics](https://github.com/juanrh/TemperatureMetrics): a simple Python deamon that sends temperature and humidity metrics collected with a Raspberry Pi and [GrovePi+](https://wiki.seeedstudio.com/GrovePi_Plus/) sensors to AWS CloudWatch, to build a metrics dashboard on top of that.
 
 ### Research publications
