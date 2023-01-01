@@ -29,3 +29,7 @@
 - [Automated software verification service](http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&Sect2=HITOFF&d=PALL&p=1&u=%2Fnetahtml%2FPTO%2Fsrchnum.htm&r=1&f=G&l=50&s1=10664379.PN.&OS=PN/10664379&RS=PN/10664379)
 - [Constraint solver execution service and infrastructure therefor](http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&Sect2=HITOFF&d=PALL&p=1&u=%2Fnetahtml%2FPTO%2Fsrchnum.htm&r=1&f=G&l=50&s1=10,977,111.PN.&OS=PN/10,977,111&RS=PN/10,977,111) 
 - [Automatically generating a machine-readable threat model using a template associated with an application or service](https://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=2&f=G&l=50&co1=AND&d=PTXT&s1=hortala&OS=hortala&RS=hortala)
+
+---
+
+[![MSF](imgs/msf-300x300.png "Medicos sin fronteras")](https://www.msf.es)
