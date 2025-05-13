@@ -11,7 +11,7 @@
 
 ### Coding
 
-- [Linoleum](https://github.com/demiourgoi/Linoleum) is an experiment for using observability signals for runtime verification of distributed systems
+- [Linoleum](https://github.com/demiourgoi/Linoleum) is an experiment for using observability signals for runtime verification of distributed systems. It is an Apache Flink job that evaluates temporal logic formulas over Open Telemetry traces as they are produced. 
 - [sscheck](https://github.com/juanrh/sscheck) is a Scala library that defines a DSL for temporal logic formulas for writing ScalaCheck properties and generators for testing Spark Streaming programs.
   - [Flink Check](https://github.com/demiourgoi/flink-check) is an extension of sscheck to support Flink streaming programs
 - [Contributions to open source projects](https://github.com/search?q=juan+hortala&type=Commits): Apache Spark, Apache YARN, Apache Hive, Robot Operating System (Java, C++, Python, Scala)
