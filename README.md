@@ -11,7 +11,7 @@
 
 ### Coding
 
-- [Prompt-Driven Development (PDD) Agent Skill](https://github.com/juanrh/pdd-skill) is an [agent skill](https://agentskills.io/home) for using the [**Prompt-Driven Development (PDD)**](https://youtu.be/cf-WOKVn768?si=dNfaTMhOcJVYxsCk&t=2480) methodology for AI assisted coding. PDD replaces unstructured "vibe coding" with a structured software development process: users collaborate with the agent to draft requirements, technical designs, and task breakdowns, providing the context needed for the agent to implement meaningful features.
+- [PDD Agent Skill](https://github.com/juanrh/pdd-skill) is an [agent skill](https://agentskills.io/home) for using the [**Prompt-Driven Development (PDD)**](https://youtu.be/cf-WOKVn768?si=dNfaTMhOcJVYxsCk&t=2480) methodology for AI assisted coding. PDD replaces unstructured "vibe coding" with a structured software development process: users collaborate with the agent to draft requirements, technical designs, and task breakdowns, providing the context needed for the agent to implement meaningful features.
 - [Linoleum](https://github.com/demiourgoi/Linoleum) is an experiment for using observability signals for runtime verification of distributed systems. It is an Apache Flink job that evaluates temporal logic formulas over Open Telemetry traces as they are produced. 
 - [sscheck](https://github.com/juanrh/sscheck) is a Scala library that defines a DSL for temporal logic formulas for writing ScalaCheck properties and generators for testing Spark Streaming programs.
   - [Flink Check](https://github.com/demiourgoi/flink-check) is an extension of sscheck to support Flink streaming programs
