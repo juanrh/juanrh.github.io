@@ -7,8 +7,6 @@
 [LinkedIn profile](https://www.linkedin.com/in/juan-rodriguez-hortala/)  
 [Github profile](https://github.com/juanrh) 
 
-[![juanrh's github stats](https://github-readme-stats.vercel.app/api?username=juanrh&count_private=true&show_icons=true&theme=synthwave)](https://github.com/anuraghazra/github-readme-stats)
-
 ### Coding
 
 - [PDD Agent Skill](https://github.com/juanrh/pdd-skill) is an [agent skill](https://agentskills.io/home) for using the [**Prompt-Driven Development (PDD)**](https://youtu.be/cf-WOKVn768?si=dNfaTMhOcJVYxsCk&t=2480) methodology for AI assisted coding. PDD replaces unstructured "vibe coding" with a structured software development process: users collaborate with the agent to draft requirements, technical designs, and task breakdowns, providing the context needed for the agent to implement meaningful features.
